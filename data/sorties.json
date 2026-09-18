@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T19:49:05Z",
+ "generated": "2026-09-18T21:59:14Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -13,7 +13,9 @@
    "date": "2026-03-13",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/5990935fabf9d5c68c6254fe5fcf91f1/500x500-000000-80-0-0.jpg",
+   "pochette_page": "",
+   "note": "",
    "source": "manuel"
   },
   {
@@ -25,7 +27,8 @@
    "pochette": "https://coverartarchive.org/release-group/8d9a032c-b892-404a-89da-4fd0b35fb266/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "8d9a032c-b892-404a-89da-4fd0b35fb266",
-   "deezer_id": 894080162
+   "deezer_id": 894080162,
+   "duree": "44"
   },
   {
    "groupe": "Edge of Sanity",
@@ -35,7 +38,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/9759fc1db0b65065a48a803c9c97be2a/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 896680702
+   "deezer_id": 896680702,
+   "duree": "74"
   },
   {
    "groupe": "Edge of Sanity",
@@ -45,7 +49,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/22a7f634e2cd17b096bcd5a2935d339a/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 896683622
+   "deezer_id": 896683622,
+   "duree": "36"
   },
   {
    "groupe": "Forlorn Citadel",
@@ -56,7 +61,8 @@
    "pochette": "https://coverartarchive.org/release-group/afcee58c-0a53-43d6-b9ba-8ab11f036073/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "afcee58c-0a53-43d6-b9ba-8ab11f036073",
-   "deezer_id": 950937011
+   "deezer_id": 950937011,
+   "duree": "40"
   },
   {
    "groupe": "Schattenvald",
@@ -77,7 +83,8 @@
    "pochette": "https://coverartarchive.org/release-group/eacd8a95-7d10-4807-9121-0beba575ceb9/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "eacd8a95-7d10-4807-9121-0beba575ceb9",
-   "deezer_id": 892008232
+   "deezer_id": 892008232,
+   "duree": "38"
   },
   {
    "groupe": "Melechesh",
@@ -88,7 +95,8 @@
    "pochette": "https://coverartarchive.org/release-group/4c4b2fca-209e-41fc-8da8-d3b4340713e7/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "4c4b2fca-209e-41fc-8da8-d3b4340713e7",
-   "deezer_id": 901422682
+   "deezer_id": 901422682,
+   "duree": "21"
   },
   {
    "groupe": "Cnoc An Tursa",
@@ -97,9 +105,10 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/99a82ba6-9e1e-462f-abac-4996dde01a9c/front-500",
-   "source": "deezer+manuel+musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "99a82ba6-9e1e-462f-abac-4996dde01a9c",
-   "deezer_id": 878728312
+   "deezer_id": 878728312,
+   "duree": "44"
   },
   {
    "groupe": "Elffor",
@@ -120,7 +129,8 @@
    "pochette": "https://coverartarchive.org/release-group/0cd0189f-f50c-4aa0-ba61-904e8b0dae26/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "0cd0189f-f50c-4aa0-ba61-904e8b0dae26",
-   "deezer_id": 913417281
+   "deezer_id": 913417281,
+   "duree": "49"
   },
   {
    "groupe": "Nekrogoblikon",
@@ -131,7 +141,8 @@
    "pochette": "https://coverartarchive.org/release-group/7de480b1-20f6-49cb-978b-ab4792be9678/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "7de480b1-20f6-49cb-978b-ab4792be9678",
-   "deezer_id": 892196522
+   "deezer_id": 892196522,
+   "duree": "42"
   },
   {
    "groupe": "At The Gates",
@@ -142,7 +153,8 @@
    "pochette": "https://coverartarchive.org/release-group/717ffd39-881e-41d8-a8cc-1aa6dfec62ed/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "717ffd39-881e-41d8-a8cc-1aa6dfec62ed",
-   "deezer_id": 908618102
+   "deezer_id": 908618102,
+   "duree": "42"
   },
   {
    "groupe": "Hoth",
@@ -152,7 +164,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/662bbae1dd5629a6c6066ccf88a31749/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 950376871
+   "deezer_id": 950376871,
+   "duree": "13"
   },
   {
    "groupe": "Pure Wrath",
@@ -163,7 +176,8 @@
    "pochette": "https://coverartarchive.org/release-group/373871da-652a-49ff-bb40-c7342bb2d0f8/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "373871da-652a-49ff-bb40-c7342bb2d0f8",
-   "deezer_id": 970274601
+   "deezer_id": 970274601,
+   "duree": "41"
   },
   {
    "groupe": "Motorhead",
@@ -173,7 +187,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/64b55b5a21ccd1bdc2db61690a6d9044/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 973412851
+   "deezer_id": 973412851,
+   "duree": "59"
   },
   {
    "groupe": "Panopticon",
@@ -184,7 +199,8 @@
    "pochette": "https://coverartarchive.org/release-group/01ce764b-626f-43a7-b73a-378bcb4c03ea/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "01ce764b-626f-43a7-b73a-378bcb4c03ea",
-   "deezer_id": 925542571
+   "deezer_id": 925542571,
+   "duree": "66"
   },
   {
    "groupe": "Hoth",
@@ -194,7 +210,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/0386300afbb046c19d87d0a4ead1a211/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 971126961
+   "deezer_id": 971126961,
+   "duree": "15"
   },
   {
    "groupe": "Atavistia",
@@ -203,9 +220,10 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/0d7ffae7-3808-433d-81b9-c2c3c1702860/front-500",
-   "source": "deezer+manuel+musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "0d7ffae7-3808-433d-81b9-c2c3c1702860",
-   "deezer_id": 1063656561
+   "deezer_id": 1063656561,
+   "duree": "86"
   },
   {
    "groupe": "Outrage",
@@ -215,7 +233,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/087efa120859e2f1bf356585c4e33e94/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 978480411
+   "deezer_id": 978480411,
+   "duree": "42"
   },
   {
    "groupe": "Inquisition",
@@ -225,7 +244,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/a69303c9f431a5f11b6f0da854d8af75/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 988174591
+   "deezer_id": 988174591,
+   "duree": "19"
   },
   {
    "groupe": "Varg",
@@ -235,7 +255,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/a152d679f5cbfade86c329c791bf11c4/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 921058981
+   "deezer_id": 921058981,
+   "duree": "20"
   },
   {
    "groupe": "Dimmu Borgir",
@@ -246,7 +267,8 @@
    "pochette": "https://coverartarchive.org/release-group/6a9fe192-69e4-411d-bf1d-cc933c4f54f1/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "6a9fe192-69e4-411d-bf1d-cc933c4f54f1",
-   "deezer_id": 934258971
+   "deezer_id": 934258971,
+   "duree": "69"
   },
   {
    "groupe": "Hoth",
@@ -256,7 +278,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/ed7bc991e032d95fa0a7891d1b304166/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 986071781
+   "deezer_id": 986071781,
+   "duree": "26"
   },
   {
    "groupe": "Varg",
@@ -266,7 +289,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/a152d679f5cbfade86c329c791bf11c4/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 921073441
+   "deezer_id": 921073441,
+   "duree": "70"
   },
   {
    "groupe": "Anorexia Nervosa",
@@ -276,7 +300,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/6572a98e58f11ad3aa04e579946521cf/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 991476621
+   "deezer_id": 991476621,
+   "duree": "58"
   },
   {
    "groupe": "Devin Townsend",
@@ -287,7 +312,8 @@
    "pochette": "https://coverartarchive.org/release-group/d408e36a-7328-40eb-b373-eaa5caa98651/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "d408e36a-7328-40eb-b373-eaa5caa98651",
-   "deezer_id": 925555061
+   "deezer_id": 925555061,
+   "duree": "73"
   },
   {
    "groupe": "Anorexia Nervosa",
@@ -297,7 +323,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/9a4a95847f4d916d49bbae8f40eaac3b/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 992413281
+   "deezer_id": 992413281,
+   "duree": "46"
   },
   {
    "groupe": "August Burns Red",
@@ -308,7 +335,8 @@
    "pochette": "https://coverartarchive.org/release-group/31f79e6f-7c81-463a-b4a8-6b745cd4937c/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "31f79e6f-7c81-463a-b4a8-6b745cd4937c",
-   "deezer_id": 993678561
+   "deezer_id": 993678561,
+   "duree": "45"
   },
   {
    "groupe": "Thorium",
@@ -319,7 +347,8 @@
    "pochette": "https://coverartarchive.org/release-group/6ea413c5-670c-4551-81b0-5e492ed6667c/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "6ea413c5-670c-4551-81b0-5e492ed6667c",
-   "deezer_id": 934067421
+   "deezer_id": 934067421,
+   "duree": "40"
   },
   {
    "groupe": "Lamb Of God",
@@ -329,7 +358,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/6291f734b357bd20bb2dafa17479c456/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 998704001
+   "deezer_id": 998704001,
+   "duree": "86"
   },
   {
    "groupe": "Hypocrisy",
@@ -339,7 +369,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/8491bf31026942959fbcc587fa7260b3/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 962899291
+   "deezer_id": 962899291,
+   "duree": "65"
   },
   {
    "groupe": "Blink-182",
@@ -349,7 +380,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/6d6df578787f3a87567e263dac7bc55c/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 997973571
+   "deezer_id": 997973571,
+   "duree": "52"
   },
   {
    "groupe": "Judas Priest",
@@ -359,7 +391,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/5bd30857de03bed15bfbcc801d211a89/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1006431111
+   "deezer_id": 1006431111,
+   "duree": "102"
   },
   {
    "groupe": "Kalmankantaja",
@@ -370,7 +403,8 @@
    "pochette": "https://coverartarchive.org/release-group/ff5835d0-9e7d-46e5-a266-2496bceb16c4/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "ff5835d0-9e7d-46e5-a266-2496bceb16c4",
-   "deezer_id": 1007299221
+   "deezer_id": 1007299221,
+   "duree": "53"
   },
   {
    "groupe": "Arckanum",
@@ -390,7 +424,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/28873d7f79e2510e59d5ad1e25bbd16e/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 972831751
+   "deezer_id": 972831751,
+   "duree": "23"
   },
   {
    "groupe": "Inquisition",
@@ -400,7 +435,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/90d3751496eb782313c21dfad6f2bfa9/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1018061311
+   "deezer_id": 1018061311,
+   "duree": "62"
   },
   {
    "groupe": "The Offspring",
@@ -410,7 +446,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/bf6ab76af02e8a110458641b09db8936/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1009317931
+   "deezer_id": 1009317931,
+   "duree": "54"
   },
   {
    "groupe": "Zornheym",
@@ -430,7 +467,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/3f139736aeafdb2a32cd013c08a882e7/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1015020811
+   "deezer_id": 1015020811,
+   "duree": "90"
   },
   {
    "groupe": "Finsterforst",
@@ -440,7 +478,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/b1fde3c821d29e2217ade6e5e1888a3c/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1016137911
+   "deezer_id": 1016137911,
+   "duree": "25"
   },
   {
    "groupe": "DevilDriver",
@@ -451,7 +490,8 @@
    "pochette": "https://coverartarchive.org/release-group/cc42ec33-6000-4a13-990b-7b9443d3dae4/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "cc42ec33-6000-4a13-990b-7b9443d3dae4",
-   "deezer_id": 944219181
+   "deezer_id": 944219181,
+   "duree": "51"
   },
   {
    "groupe": "My Chemical Romance",
@@ -461,7 +501,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/d841606fe5331765b5305ea497e2e35f/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 978867151
+   "deezer_id": 978867151,
+   "duree": "83"
   },
   {
    "groupe": "Sojourner",
@@ -472,7 +513,8 @@
    "pochette": "https://coverartarchive.org/release-group/2fef1fc8-7f05-4248-bd68-67b8efb45fd2/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "2fef1fc8-7f05-4248-bd68-67b8efb45fd2",
-   "deezer_id": 989391691
+   "deezer_id": 989391691,
+   "duree": "47"
   },
   {
    "groupe": "Firtan",
@@ -482,7 +524,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/d0ca1b56750edd94e17eea9365638239/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1018530211
+   "deezer_id": 1018530211,
+   "duree": "12"
   },
   {
    "groupe": "Sum 41",
@@ -492,7 +535,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/6f88ea5555bc942f55a7cadb3f9e9132/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1031243662
+   "deezer_id": 1031243662,
+   "duree": "46"
   },
   {
    "groupe": "Finsterforst",
@@ -503,7 +547,8 @@
    "pochette": "https://coverartarchive.org/release-group/7906ae7b-c0de-4d54-a8ad-b586214d4f2a/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "7906ae7b-c0de-4d54-a8ad-b586214d4f2a",
-   "deezer_id": 977197101
+   "deezer_id": 977197101,
+   "duree": "78"
   },
   {
    "groupe": "Cryptic Wintermoon",
@@ -514,7 +559,8 @@
    "pochette": "https://cdn-images.dzcdn.net/images/cover/43f4e87634009d786c32ae2806d660e1/500x500-000000-80-0-0.jpg",
    "source": "deezer+musicbrainz",
    "mb_rg": "82877809-b3e1-448f-a088-2f02c62eb0a7",
-   "deezer_id": 1044728492
+   "deezer_id": 1044728492,
+   "duree": "45"
   },
   {
    "groupe": "Retrovizer",
@@ -524,7 +570,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/a1a132ab596debf7d28fdbef27085443/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1040243932
+   "deezer_id": 1040243932,
+   "duree": "19"
   },
   {
    "groupe": "All Shall Perish",
@@ -534,7 +581,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/9ebf61e91baf58df3ee5f741a56ea799/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1048780632
+   "deezer_id": 1048780632,
+   "duree": "43"
   },
   {
    "groupe": "Grimner",
@@ -545,7 +593,8 @@
    "pochette": "https://coverartarchive.org/release-group/4c9d8407-1aa5-4eb3-a2d9-e809b48bea67/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "4c9d8407-1aa5-4eb3-a2d9-e809b48bea67",
-   "deezer_id": 1034828642
+   "deezer_id": 1034828642,
+   "duree": "21"
   },
   {
    "groupe": "Firtan",
@@ -555,7 +604,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/d0ca1b56750edd94e17eea9365638239/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1045443512
+   "deezer_id": 1045443512,
+   "duree": "19"
   },
   {
    "groupe": "Fejd",
@@ -566,7 +616,8 @@
    "pochette": "https://coverartarchive.org/release-group/517fbfab-1609-478b-8e91-40186c3a5b66/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "517fbfab-1609-478b-8e91-40186c3a5b66",
-   "deezer_id": 983629031
+   "deezer_id": 983629031,
+   "duree": "43"
   },
   {
    "groupe": "Noumena",
@@ -577,7 +628,8 @@
    "pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "fad175cd-8629-4b89-8dfa-d11486782941",
-   "deezer_id": 1045117972
+   "deezer_id": 1045117972,
+   "duree": "49"
   },
   {
    "groupe": "Gorod",
@@ -587,7 +639,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/4d680ed0e9b2efb6dbef1525d279c822/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1017349061
+   "deezer_id": 1017349061,
+   "duree": "44"
   },
   {
    "groupe": "NOFX",
@@ -597,7 +650,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/c8a676d75bef2a6bfd91d342b9550609/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1057485392
+   "deezer_id": 1057485392,
+   "duree": "72"
   },
   {
    "groupe": "Airbourne",
@@ -608,7 +662,8 @@
    "pochette": "https://coverartarchive.org/release-group/27a952a1-8a85-41f2-b69c-719e3494329c/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "27a952a1-8a85-41f2-b69c-719e3494329c",
-   "deezer_id": 952408591
+   "deezer_id": 952408591,
+   "duree": "47"
   },
   {
    "groupe": "Behemoth",
@@ -619,7 +674,8 @@
    "pochette": "https://coverartarchive.org/release-group/f164e1c2-a01d-4ce1-9750-dc9bb525f33d/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "f164e1c2-a01d-4ce1-9750-dc9bb525f33d",
-   "deezer_id": 993902311
+   "deezer_id": 993902311,
+   "duree": "38"
   },
   {
    "groupe": "Grimner",
@@ -630,7 +686,8 @@
    "pochette": "https://coverartarchive.org/release-group/dc3797c3-84b1-4667-a6dd-16a64fc358ee/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "dc3797c3-84b1-4667-a6dd-16a64fc358ee",
-   "deezer_id": 1000274421
+   "deezer_id": 1000274421,
+   "duree": "56"
   },
   {
    "groupe": "Lutece",
@@ -640,7 +697,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/ffcd35c47f6d3c33751a4647d10ea903/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1023430231
+   "deezer_id": 1023430231,
+   "duree": "62"
   },
   {
    "groupe": "Sigh",
@@ -650,7 +708,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/8efb11696238ebf05032caa13106a14f/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1019855051
+   "deezer_id": 1019855051,
+   "duree": "58"
   },
   {
    "groupe": "Vanaheim",
@@ -659,9 +718,10 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/4a39dd68-a253-47eb-962b-d316f44ba909/front-500",
-   "source": "deezer+manuel+musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "4a39dd68-a253-47eb-962b-d316f44ba909",
-   "deezer_id": 931622811
+   "deezer_id": 931622811,
+   "duree": "39"
   },
   {
    "groupe": "Black River",
@@ -671,7 +731,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1076947842
+   "deezer_id": 1076947842,
+   "duree": "13"
   },
   {
    "groupe": "Firtan",
@@ -681,7 +742,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/d0ca1b56750edd94e17eea9365638239/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1062536611
+   "deezer_id": 1062536611,
+   "duree": "25"
   },
   {
    "groupe": "Saor",
@@ -691,7 +753,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/b45300b4dd2cbe2e8b45ac8ee13f6645/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1045178482
+   "deezer_id": 1045178482,
+   "duree": "10"
   },
   {
    "groupe": "Archgoat",
@@ -701,7 +764,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/ac8b81418c7b51ebe25fa26b295d29cb/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 992419801
+   "deezer_id": 992419801,
+   "duree": "41"
   },
   {
    "groupe": "Whispered",
@@ -710,9 +774,10 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/90e1424b-ff17-4298-8987-4ccf3666496f/front-500",
-   "source": "deezer+manuel+musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "90e1424b-ff17-4298-8987-4ccf3666496f",
-   "deezer_id": 1022530781
+   "deezer_id": 1022530781,
+   "duree": "63"
   },
   {
    "groupe": "Jaldaboath",
@@ -722,7 +787,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/ed17c8ad2b3744ec73d46e95e41d80d2/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1064795111
+   "deezer_id": 1064795111,
+   "duree": "40"
   },
   {
    "groupe": "Aephanemer",
@@ -732,7 +798,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/bfa62c33279f5023df5b4a8cfc921d3e/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 998668841
+   "deezer_id": 998668841,
+   "duree": "54"
   },
   {
    "groupe": "Noumena",
@@ -742,7 +809,8 @@
    "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/7c0e2287cccc08254d54e0077992fb5d/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1061150492
+   "deezer_id": 1061150492,
+   "duree": "28"
   },
   {
    "groupe": "Forlorn Citadel",
@@ -752,7 +820,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/0ea1d65d67a623accc57fb83475a1790/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1081712272
+   "deezer_id": 1081712272,
+   "duree": "23"
   },
   {
    "groupe": "Outrage",
@@ -762,17 +831,8 @@
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/155bdc56a99e9b1aafb5d7bb7c33f4ee/500x500-000000-80-0-0.jpg",
    "source": "deezer",
-   "deezer_id": 1062547181
-  },
-  {
-   "groupe": "Lutece",
-   "album": "Lutèce",
-   "date": "2026-09-25",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "",
-   "source": "deezer",
-   "deezer_id": 1034340672
+   "deezer_id": 1062547181,
+   "duree": "40"
   },
   {
    "groupe": "Amon Amarth",
@@ -790,7 +850,7 @@
    "date": "2026-10-02",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
+   "pochette": "https://f4.bcbits.com/img/a2827788561_10.jpg",
    "source": "manuel+musicbrainz",
    "mb_rg": "74a8de15-54a8-42cb-a730-dc56cba2d20e"
   },
@@ -803,7 +863,8 @@
    "pochette": "https://coverartarchive.org/release-group/d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205",
-   "deezer_id": 1018530201
+   "deezer_id": 1018530201,
+   "duree": "60"
   },
   {
    "groupe": "Gloryhammer",
@@ -812,7 +873,7 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
-   "source": "manuel+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "a5900014-6f60-4c2b-8f71-100b96b0fcc9"
   },
   {
@@ -822,7 +883,7 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
-   "source": "manuel+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "446e691c-d0be-4225-9654-0f24e4e174d9"
   },
   {
@@ -831,8 +892,8 @@
    "date": "2026-10-16",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
-   "source": "musicbrainz",
+   "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
+   "source": "manuel+musicbrainz",
    "mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4"
   },
   {
@@ -841,10 +902,11 @@
    "date": "2026-11-06",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
+   "pochette": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/cb/6f/f4cb6f8f-06c5-a282-03c6-306ee858c8b3/1200214344399.jpg/600x600bb.jpg",
    "source": "deezer+musicbrainz",
    "mb_rg": "462dc737-edf7-4f9b-8b9b-6f858c778baa",
-   "deezer_id": 1024164391
+   "deezer_id": 1024164391,
+   "duree": "42"
   },
   {
    "groupe": "Týr",
@@ -853,6 +915,8 @@
    "precision": "exact",
    "type": "album",
    "pochette": "",
+   "pochette_page": "",
+   "note": "",
    "source": "manuel"
   },
   {
@@ -862,7 +926,7 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/a63a4321-ca12-4b02-ae89-151ffa6bfbad/front-500",
-   "source": "manuel+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "a63a4321-ca12-4b02-ae89-151ffa6bfbad"
   },
   {
