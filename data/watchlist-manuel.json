@@ -39,19 +39,18 @@
   "album": "What We Leave Behind",
   "date": "2026-10-02",
   "precision": "exact",
-  "note": "",
-  "pochette": "https://upload.wikimedia.org/wikipedia/en/3/38/EmperorTribute.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
- },
- {
-  "groupe": "Insomnium",
-  "album": "Netherworlds",
-  "date": "2026-10-16",
-  "precision": "exact",
   "note": ""
  },
  {
   "groupe": "Gloryhammer",
   "album": "Space 1993: Wrath of Kor-Virliath",
+  "date": "2026-10-16",
+  "precision": "exact",
+  "note": ""
+ },
+ {
+  "groupe": "Insomnium",
+  "album": "Netherworlds",
   "date": "2026-10-16",
   "precision": "exact",
   "note": ""
