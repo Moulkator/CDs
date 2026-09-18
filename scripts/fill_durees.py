@@ -54,28 +54,59 @@ def deezer_get(path, params=None):
     return None
 
 
+EDITION_WORDS = re.compile(r"\b(deluxe|bonus|edition|édition|remaster|remastered|expanded|anniversary|special|limited|digipak|2cd|tour|live|instrumental|version|reissue|re-issue)\b", re.I)
+
+
+def is_ep_title(a):
+    return bool(re.search(r"\bep\b", a, re.I))
+
+
 def find_album(groupe, album):
-    """Cherche l'album sur Deezer ; renvoie sa durée en minutes ou None."""
-    q1 = deezer_get("/search/album", {"q": f'artist:"{groupe}" album:"{clean_title(album)}"', "limit": 5})
-    cands = (q1 or {}).get("data", [])
-    if not cands:
-        q2 = deezer_get("/search/album", {"q": f"{groupe} {clean_title(album)}", "limit": 8})
-        cands = (q2 or {}).get("data", [])
-    tg, ta = norm(groupe), norm(clean_title(album))
-    best = None
+    """Cherche l'album sur Deezer ; renvoie (durée en minutes, titre Deezer) ou (None, None).
+
+    Règles : jamais un single ; le titre doit correspondre ; on préfère l'édition
+    standard (titre exact, sans mention deluxe/bonus…) et, à titre égal, la plus
+    courte (les rééditions 2 CD sont les plus longues)."""
+    title = clean_title(album)
+    seen, cands = set(), []
+    for q in (f'artist:"{groupe}" album:"{title}"', f"{groupe} {title}"):
+        js = deezer_get("/search/album", {"q": q, "limit": 10})
+        for c in (js or {}).get("data", []):
+            if c.get("id") in seen:
+                continue
+            seen.add(c.get("id"))
+            cands.append(c)
+        if len(cands) >= 3:
+            break
+    tg, ta = norm(groupe), norm(title)
+    scored = []
     for c in cands:
         if norm((c.get("artist") or {}).get("name", "")) != tg:
             continue
-        ct = norm(c.get("title", ""))
-        if ct == ta or (len(ta) > 6 and ta in ct) or (len(ct) > 6 and ct in ta):
-            best = c
-            break
-    if not best:
-        return None
-    detail = deezer_get(f"/album/{best['id']}")
-    if detail and detail.get("duration"):
-        return str(round(detail["duration"] / 60))
-    return None
+        rt = c.get("record_type", "")
+        if rt == "single":
+            continue
+        if rt == "ep" and not is_ep_title(album):
+            continue
+        ct_raw = c.get("title", "")
+        ct = norm(clean_title(ct_raw))
+        exact = ct == ta
+        partial = (len(ta) > 6 and ta in ct) or (len(ct) > 6 and ct in ta)
+        if not (exact or partial):
+            continue
+        detail = deezer_get(f"/album/{c['id']}")
+        if not detail or not detail.get("duration"):
+            continue
+        minutes = round(detail["duration"] / 60)
+        if minutes < 10 and not is_ep_title(album):
+            continue  # trop court pour un album : c'est un single / une piste
+        std = not EDITION_WORDS.search(ct_raw) and not EDITION_WORDS.search(album)
+        # tri : titre exact d'abord, puis édition standard, puis la plus courte
+        scored.append(((0 if exact else 1), (0 if std else 1), minutes, ct_raw))
+    if not scored:
+        return None, None
+    scored.sort()
+    return str(scored[0][2]), scored[0][3]
 
 
 def main():
@@ -87,24 +118,31 @@ def main():
         except (OSError, ValueError):
             print(f"! impossible de lire {path}", file=sys.stderr)
             continue
-        done = miss = 0
+        done = miss = fixed = 0
         for r in rows:
-            if str(r.get("duree", "")).strip():
-                continue
+            cur = str(r.get("duree", "")).strip()
             g, a = (r.get("groupe") or "").strip(), (r.get("album") or "").strip()
             if not g or not a:
                 continue
-            d = find_album(g, a)
-            if d:
+            # on (re)calcule si vide, ou si la valeur actuelle est suspecte (single confondu / réédition 2 CD)
+            suspect = cur and (int(cur) < 20 or int(cur) > 85) and not r.get("duree_verifiee")
+            if cur and not suspect:
+                continue
+            d, dz_title = find_album(g, a)
+            if d and d != cur:
                 r["duree"] = d
-                done += 1
-                print(f"  {g} — {a} : {d} min")
-            else:
+                if cur:
+                    fixed += 1
+                    print(f"  {g} — {a} : {cur} → {d} min ({dz_title})")
+                else:
+                    done += 1
+                    print(f"  {g} — {a} : {d} min ({dz_title})")
+            elif not d and not cur:
                 miss += 1
                 print(f"  ~ {g} — {a} : non trouvé")
         with open(path, "w", encoding="utf-8") as f:
             json.dump(rows, f, ensure_ascii=False, indent=0)
-        print(f"{os.path.basename(path)} : {done} durée(s) ajoutée(s), {miss} non trouvée(s)")
+        print(f"{os.path.basename(path)} : {done} ajoutée(s), {fixed} corrigée(s), {miss} non trouvée(s)")
         total_done += done
         total_miss += miss
     print(f"OK : {total_done} ajoutées, {total_miss} restent à saisir à la main")
