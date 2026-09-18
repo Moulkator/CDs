@@ -1,1 +1,2746 @@
-{}
+{
+ "000000": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "10 juin": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "2 times terror": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "3 fromages": {
+  "mbid": "4d0f52e6-bda3-4da5-8329-a78e2db6f832",
+  "name": "Les 3 Fromages",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "3 inches of blood": {
+  "mbid": "ba85753c-671a-409e-b813-1e3be41e2a2e",
+  "name": "3 Inches of Blood",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "a loathing requiem": {
+  "mbid": "21d35685-6f55-450c-83e4-bf6c2427fc5f",
+  "name": "A Loathing Requiem",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ac dc": {
+  "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+  "name": "AC/DC",
+  "disambiguation": "Australian hard rock band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "acarus sarcopt": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "aephanemer": {
+  "mbid": "114a7dd2-00bb-4666-a650-367a2fb08b35",
+  "name": "Aephanemer",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "aeternam": {
+  "mbid": "abbdaa40-5c18-4236-85a0-d2352036cb96",
+  "name": "Aeternam",
+  "disambiguation": "Canadian symphonic/folk/death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "aether realm": {
+  "mbid": "744d43a5-3cbf-4b43-acfc-045cc0062af2",
+  "name": "Æther Realm",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "airbourne": {
+  "mbid": "5365f55c-b1e1-48f9-b09f-078f7a14cb1f",
+  "name": "Airbourne",
+  "disambiguation": "Australian hard rock band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "aktarum": {
+  "mbid": "f48f57e1-59b3-4a9f-8578-ba7a7cfccd59",
+  "name": "Aktarum",
+  "disambiguation": "Belgian Troll Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "alcest": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "alestorm": {
+  "mbid": "c0252a1b-0133-46bb-8c4f-cade46349ec3",
+  "name": "Alestorm",
+  "disambiguation": "Scottish folk/power metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "all shall perish": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "allegaeon": {
+  "mbid": "1d71cfe3-f105-4dd5-bdfe-61f6fde2cac7",
+  "name": "Allegaeon",
+  "disambiguation": "American technical/melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "alpine universe": {
+  "mbid": "dd192cad-a86d-468c-86d6-6b4d3d115a89",
+  "name": "Alpine Universe",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "alterbeast": {
+  "mbid": "9396aee9-2961-4225-92ba-30c2e58cac24",
+  "name": "Alterbeast",
+  "disambiguation": "US technical death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "amaranthe": {
+  "mbid": "eb380962-99bb-46c0-af40-1c7790a7822a",
+  "name": "Amaranthe",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "amon amarth": {
+  "mbid": "5b687684-ad34-4a9f-b425-0e7aa81fbd38",
+  "name": "Amon Amarth",
+  "disambiguation": "Swedish melodic death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "amorphis": {
+  "mbid": "efaefde1-e09b-4d49-9d8e-b1304d2ece8d",
+  "name": "Amorphis",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "anaal nathrakh": {
+  "mbid": "9bf82496-9d7b-43ac-b3ee-076c90ada9d7",
+  "name": "Anaal Nathrakh",
+  "disambiguation": "British extreme metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ancestral shadows": {
+  "mbid": "c87f895a-1d0f-44f2-9f30-177c0fd8f05d",
+  "name": "Ancestral Shadows",
+  "disambiguation": "US Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ancien bards": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "angelus apatrida": {
+  "mbid": "46507379-c53e-4f63-a045-d444c253d547",
+  "name": "Angelus Apatrida",
+  "disambiguation": "Spanish thrash metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "angus mcsix": {
+  "mbid": "65a80345-35b7-431b-b7ee-16d7013720b8",
+  "name": "Angus McSix",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "anorexia nervosa": {
+  "mbid": "c2a736b7-8ed5-4c68-b2cb-0a55fd8151de",
+  "name": "Anorexia Nervosa",
+  "disambiguation": "French metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "aorlhac": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "aquilus": {
+  "mbid": "71bfbba5-0de1-41eb-8b21-5849e0f054a7",
+  "name": "Aquilus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "arafel": {
+  "mbid": "9f281ea7-762f-47f7-8a7d-410161478095",
+  "name": "Arafel",
+  "disambiguation": "Israeli folk black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "arcania": {
+  "mbid": "0979f8aa-6756-4edd-a90f-e1d397bbe7f8",
+  "name": "Arcania",
+  "disambiguation": "French Thrash Metal Band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "arch enemy": {
+  "mbid": "e631bb92-3e2b-43e3-a2cb-b605e2fb53bd",
+  "name": "Arch Enemy",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "archgoat": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "arckanum": {
+  "mbid": "51a0f259-bde2-4d6b-9250-7aa1410b0040",
+  "name": "Arckanum",
+  "disambiguation": "Swedish Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "arkona": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "arsis": {
+  "mbid": "ae933d70-b1c7-4628-8631-9aa71a2c1b0e",
+  "name": "Arsis",
+  "disambiguation": "metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "artemis the endless journey": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "arthemesia": {
+  "mbid": "4cd3a8a0-b306-4449-ab11-8ba488530ad3",
+  "name": "ArthemesiA",
+  "disambiguation": "Finnish melodic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "as i lay dying": {
+  "mbid": "ba147ea0-60c4-4a40-9da6-0d5c2b2e7b03",
+  "name": "As I Lay Dying",
+  "disambiguation": "American metalcore band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ash of ashes": {
+  "mbid": "b1bf6e39-a16d-442b-9ec8-bfc2b00498fa",
+  "name": "Ash of Ashes",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "at the gates": {
+  "mbid": "35f92c4a-69d0-4ed1-ab9e-05259db89d14",
+  "name": "At the Gates",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "atavistia": {
+  "mbid": "dd1a9aa9-cfd4-4115-adc8-411a30af7f14",
+  "name": "Atavistia",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "atlantis chronicles": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "atomic fireballs": {
+  "mbid": "41203e56-eecf-4588-ad84-4739d290a3f2",
+  "name": "The Atomic Fireballs",
+  "disambiguation": "US swing revival",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "august burns red": {
+  "mbid": "5bac9b4f-2f1c-4d39-8d11-231d5b6650ce",
+  "name": "August Burns Red",
+  "disambiguation": "US metalcore band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "austrian death machine": {
+  "mbid": "6778f7b9-5da5-43dc-a890-72d169042723",
+  "name": "Austrian Death Machine",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "bal sagoth": {
+  "mbid": "be0e9a66-3ac8-4f9d-adb4-0c8e6a373388",
+  "name": "Bal-Sagoth",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "battle beast": {
+  "mbid": "d0cb5651-e1f2-4ffb-8ae1-b4b263af75fa",
+  "name": "Battle Beast",
+  "disambiguation": "Finnish symphonic power metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "beer bear": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "behemoth": {
+  "mbid": "69632f9c-31eb-43d5-a864-e73ac72efc66",
+  "name": "Behemoth",
+  "disambiguation": "Polish metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "belzebubs": {
+  "mbid": "35c29016-2629-45f1-8500-05e914951713",
+  "name": "Belzebubs",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "beyond creation": {
+  "mbid": "27a11ee4-9fcd-4834-978e-10f60faae646",
+  "name": "Beyond Creation",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "black messiah": {
+  "mbid": "97cc1631-8822-464d-88eb-a6d97c23e678",
+  "name": "Black Messiah",
+  "disambiguation": "Germany",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "black reaper": {
+  "mbid": "7872015b-803f-470d-87cc-a13f14c0c9e3",
+  "name": "Black Reaper",
+  "disambiguation": "Chinese Melodic Black Metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "black river": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "black seed": {
+  "mbid": "9378c226-f0ed-494e-b0a2-69728a14711a",
+  "name": "Black SeeD",
+  "disambiguation": "French atmospheric/symphonic black metal artist",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "blackguard": {
+  "mbid": "c6c563c7-fe69-43da-8cc6-72e071c676f9",
+  "name": "Blackguard",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "blazing war machine": {
+  "mbid": "0b8dd626-43b8-42fc-b0c8-a3742f247155",
+  "name": "Blazing War Machine",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "blind guardian": {
+  "mbid": "7fa7fc04-1011-4876-8095-ecd232edea87",
+  "name": "Blind Guardian",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "blink 182": {
+  "mbid": "0743b15a-3c32-48c8-ad58-cb325350befa",
+  "name": "blink‐182",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "bloodsimple": {
+  "mbid": "66fe70e3-295b-47f0-81a8-9d06bd77cd44",
+  "name": "bloodsimple",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "blut aus nord": {
+  "mbid": "c21db200-1f7c-4c23-b518-cf7fac6b8e85",
+  "name": "Blut aus Nord",
+  "disambiguation": "French black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "boisson divine": {
+  "mbid": "2fe4c9b0-e6d3-4791-84f0-e240d8945f02",
+  "name": "Boisson Divine",
+  "disambiguation": "French Folk Metal Band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "bolt thrower": {
+  "mbid": "68bd8072-0412-44b1-81dd-807aa6c1918c",
+  "name": "Bolt Thrower",
+  "disambiguation": "English death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "borknagar": {
+  "mbid": "8df2629f-8ae9-4687-9207-4cf3c22cc763",
+  "name": "Borknagar",
+  "disambiguation": "Norwegian progressive viking/folk/black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "brymir": {
+  "mbid": "8b848759-779b-4069-bb5c-b4d2b725b4f8",
+  "name": "Brymir",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "bullet for my valentine": {
+  "mbid": "d530dbf9-69b1-404f-98f2-0431104f5a1e",
+  "name": "Bullet for My Valentine",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "caladan brood": {
+  "mbid": "7d1ca968-c7cc-4906-8372-89aba32682ff",
+  "name": "Caladan Brood",
+  "disambiguation": "US epic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "can bardd": {
+  "mbid": "12ece37d-6cd1-436a-a995-11bba0b4c6f6",
+  "name": "Cân Bardd",
+  "disambiguation": "Swiss epic/atmospheric folk/black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "carach angren": {
+  "mbid": "e7273fcd-7530-48ba-bd11-1879f4a8920f",
+  "name": "Carach Angren",
+  "disambiguation": "Dutch symphonic black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "carcass": {
+  "mbid": "d50a4b89-ff1f-4659-9fde-f76f8d5b3c89",
+  "name": "Carcass",
+  "disambiguation": "British grindcore/technical death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "carpenter brut": {
+  "mbid": "303abdee-ffca-4685-a582-6aaaefd81b01",
+  "name": "Carpenter Brut",
+  "disambiguation": "Franck Hueso’s electro rock/synthwave project",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "carrion vael": {
+  "mbid": "5d99a33a-26fa-44bf-91ea-b378b9323390",
+  "name": "Carrion Vael",
+  "disambiguation": "Technical Death Metal, Melodic Death Metal from Richmond, Indiana, United States",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "catamenia": {
+  "mbid": "b332473e-a39d-4b39-968a-635119a1de35",
+  "name": "Catamenia",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "catuvolcus": {
+  "mbid": "ebe3b875-95e8-4a16-8d8d-e4495d3f0cb8",
+  "name": "Catuvolcus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cerevisia": {
+  "mbid": "ac763fe4-5cfb-459e-975d-18dca746184a",
+  "name": "Cerevisia",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "children of bodom": {
+  "mbid": "f57e14e4-b030-467c-b202-539453f504ec",
+  "name": "Children of Bodom",
+  "disambiguation": "Finnish melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "chilled monkey brains": {
+  "mbid": "15040a92-7e06-485d-8dd4-bd961dff9549",
+  "name": "Chilled Monkey Brains",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "chimaira": {
+  "mbid": "d624df22-b03d-4746-ac28-a4bd72aeec26",
+  "name": "Chimaira",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "chthonic": {
+  "mbid": "81a344e9-a8b1-49a6-80b2-2b03d8a25650",
+  "name": "ChthoniC",
+  "disambiguation": "Taiwanese death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cien": {
+  "mbid": "d9b45bf7-81be-4b79-82bf-67068d65828f",
+  "name": "Cień",
+  "disambiguation": "Polish black metal band from Kraków.",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cnoc an tursa": {
+  "mbid": "9d63a69e-356c-4657-8be4-527ecf74ba4c",
+  "name": "Cnoc an Tursa",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cor scorpii": {
+  "mbid": "ba88e229-51b5-4311-b4b7-f143f82a405b",
+  "name": "Cor Scorpii",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cradle of filth": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "cruachan": {
+  "mbid": "bc9e5155-c3b9-4e68-8d73-6ff12a15edbe",
+  "name": "Cruachan",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cryptic forest": {
+  "mbid": "89bbeeb0-c974-490d-acde-d045b9f82daf",
+  "name": "Cryptic Forest",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "cryptic wintermoon": {
+  "mbid": "777a674f-a08c-4249-86f7-890a5b8dc02d",
+  "name": "Cryptic Wintermoon",
+  "disambiguation": "German melodic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "daath": {
+  "mbid": "9661a587-fdb1-461d-abde-f6280acbde6b",
+  "name": "Dååth",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dagoba": {
+  "mbid": "a2f7e646-7109-4989-a27b-fde73b6a5312",
+  "name": "Dagoba",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dalriada": {
+  "mbid": "815aceb4-63fd-45e5-9ce7-d3ac24f6ed2c",
+  "name": "Dalriada",
+  "disambiguation": "Hungarian folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dammerfarben": {
+  "mbid": "3e4c38a5-80e5-41aa-b8c2-c14fd7744165",
+  "name": "Dämmerfarben",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "damned spirits dance": {
+  "mbid": "e512b861-0256-4ec9-9dd6-6aa4bf00a3b3",
+  "name": "Damned Spirits' Dance",
+  "disambiguation": "Hungary, Melodic Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dark fortress": {
+  "mbid": "5074ddf4-3d57-49d9-a0b8-c36afe60a475",
+  "name": "Dark Fortress",
+  "disambiguation": "German melodic/progressive black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "darkened nocturn slaughtercult": {
+  "mbid": "af0e9c6e-2b17-45c0-ae3e-f63910361264",
+  "name": "Darkened Nocturn Slaughtercult",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dawn": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "deathcode society": {
+  "mbid": "52e46509-981e-4e1e-902a-e701cdb260d5",
+  "name": "Deathcode Society",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "decrepit birth": {
+  "mbid": "4bde96f1-3813-4169-afd1-949f06feb890",
+  "name": "Decrepit Birth",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "deisidaemonia": {
+  "mbid": "9acd0d59-ac5e-4306-8e45-050e6a7315bc",
+  "name": "Deisidaemonia",
+  "disambiguation": "Greece black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "destinity": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "destrage": {
+  "mbid": "02fb23da-6a41-4d98-bae1-ba9721a1fd12",
+  "name": "Destrage",
+  "disambiguation": "Italian modern metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "devildriver": {
+  "mbid": "1aded574-9e16-4648-861a-24fd6f1c309e",
+  "name": "DevilDriver",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "devils of loudun": {
+  "mbid": "ab47f40b-d773-4aa9-a6a1-c171f6c799c2",
+  "name": "The Devils of Loudun",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "devin townsend": {
+  "mbid": "93e8c41e-8e4f-4d08-bbf5-bc1a903b2423",
+  "name": "Devin Townsend",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "diablo swing orchestra": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "dimmu borgir": {
+  "mbid": "17167af8-c1da-45cc-bba2-9d23f068b7a3",
+  "name": "Dimmu Borgir",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dissection": {
+  "mbid": "92d48f3d-a9cb-4011-a002-2e9ac3a6843d",
+  "name": "Dissection",
+  "disambiguation": "Swedish metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dragonforce": {
+  "mbid": "ef58d4c9-0d40-42ba-bfab-9186c1483edd",
+  "name": "DragonForce",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dread crew of oddwood": {
+  "mbid": "97a4d650-32f1-46ae-9f97-3e6b48288de3",
+  "name": "The Dread Crew of Oddwood",
+  "disambiguation": "American folk/rock/metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "druadan forest": {
+  "mbid": "14a201fa-aee4-4cbb-9504-0049d8d19f9f",
+  "name": "Druadan Forest",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "drygva": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "dunkelnacht": {
+  "mbid": "a8cd5edb-9dfc-405e-bbe3-340802a9ec05",
+  "name": "DunkelNacht",
+  "disambiguation": "French black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "duskmourn": {
+  "mbid": "1cf4d43f-17fa-495d-9e19-4e60e29385c9",
+  "name": "Duskmourn",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "dvne": {
+  "mbid": "cd49dd31-cf8f-4b65-a76b-1eff2440f4b7",
+  "name": "Dvne",
+  "disambiguation": "metal band from Edinburgh, UK",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "earth and pillars": {
+  "mbid": "5c082867-4721-4a00-8922-621959620a7f",
+  "name": "Earth and Pillars",
+  "disambiguation": "Italian atmospheric black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "edge of sanity": {
+  "mbid": "82d1972f-f815-480d-ba78-9873b799bdd1",
+  "name": "Edge of Sanity",
+  "disambiguation": "Swedish progressive death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "edguy": {
+  "mbid": "83998f9c-846b-4294-aede-d7735531c901",
+  "name": "Edguy",
+  "disambiguation": "German power metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "elffor": {
+  "mbid": "12f033cd-5e1e-4508-88fb-f89b65872089",
+  "name": "Elffor",
+  "disambiguation": "Spanish black metal/dungeon synth",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "eluveitie": {
+  "mbid": "8000598a-5edb-401c-8e6d-36b167feaf38",
+  "name": "Eluveitie",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "emperor": {
+  "mbid": "d9951785-7906-4daf-9a60-21753bf64aa9",
+  "name": "Emperor",
+  "disambiguation": "Norwegian black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "emyn muil": {
+  "mbid": "34d3fc32-616b-45e5-99e3-70ddec19000e",
+  "name": "Emyn Muil",
+  "disambiguation": "Italian epic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "enfold darkness": {
+  "mbid": "7fe53b9a-516f-40f7-90b0-c11562dce4d8",
+  "name": "Enfold Darkness",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ensiferum": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "equilibrium": {
+  "mbid": "43dc147b-a289-4e64-b115-6b86f9e47de9",
+  "name": "Equilibrium",
+  "disambiguation": "German viking metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "essence of datum": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "ethmebb": {
+  "mbid": "b47e0b1b-10a5-4254-b278-1bac8f0e0d62",
+  "name": "Ethmebb",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "etrange": {
+  "mbid": "f76980d2-af07-4eb9-a12e-96e00d8c7256",
+  "name": "Etrange",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "evertale": {
+  "mbid": "c3b8e70b-2b7e-498b-8b7c-060dac5c334c",
+  "name": "Evertale",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ex deo": {
+  "mbid": "af575064-0f47-42d3-abb5-6d07ae292e55",
+  "name": "Ex Deo",
+  "disambiguation": "Canadian metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "exhumation": {
+  "mbid": "8e9d6757-66b5-4613-b04e-b17d312a58d9",
+  "name": "Exhumation",
+  "disambiguation": "Greek death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "exmortus": {
+  "mbid": "16166071-7ec8-4a13-9b6a-3207aa9a2adc",
+  "name": "Exmortus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "extirpation": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "falkenbach": {
+  "mbid": "533ee016-4a2d-40cd-9ae4-9e3923a63872",
+  "name": "Falkenbach",
+  "disambiguation": "German Viking/Black/Folk Metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "fallujah": {
+  "mbid": "54fc6a93-57bb-4192-a4cb-c5850d64afd2",
+  "name": "Fallujah",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "fear factory": {
+  "mbid": "c17f08f4-2542-46fb-97f3-3202d60c225a",
+  "name": "Fear Factory",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "fejd": {
+  "mbid": "2d87db27-099d-45db-bd7c-ec95146e42c3",
+  "name": "Fejd",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "finntroll": {
+  "mbid": "14962b84-c46a-490b-b6a0-ee69c78b2291",
+  "name": "Finntroll",
+  "disambiguation": "Finnish folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "finsterforst": {
+  "mbid": "45c6b878-48c5-48cf-ad48-4a7cf5a10787",
+  "name": "Finsterforst",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "firienholt": {
+  "mbid": "f9b685d0-6ff5-4bdc-b5a1-01d175be4ed6",
+  "name": "Firienholt",
+  "disambiguation": "UK Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "first fragment": {
+  "mbid": "906ece92-a4c2-4444-9e0d-48ee3ca1e601",
+  "name": "First Fragment",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "firtan": {
+  "mbid": "29c38f48-0a16-4c76-885a-2668ebd77842",
+  "name": "Firtan",
+  "disambiguation": "German pagan black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "fleshgod apocalypse": {
+  "mbid": "48cb4248-889d-45ed-8462-acb29c002a8d",
+  "name": "Fleshgod Apocalypse",
+  "disambiguation": "Italian death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "folkheim": {
+  "mbid": "718ea952-0fd4-47e9-a06c-144766da9583",
+  "name": "Folkheim",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "forest of frost": {
+  "mbid": "f1fd7cd4-5d2f-44c3-9325-836a1394a0e8",
+  "name": "Forest of Frost",
+  "disambiguation": "Atmospheric Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "forlorn citadel": {
+  "mbid": "7d24a2a1-1a99-41a5-a358-2dd6a75fd2be",
+  "name": "Forlorn Citadel",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "forodwaith": {
+  "mbid": "d0c1ce7b-fec7-476b-b885-c3cbe001896a",
+  "name": "Forodwaith",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "forteresse": {
+  "mbid": "c8dfa910-2ca2-4365-8ada-92df77d210d4",
+  "name": "Forteresse",
+  "disambiguation": "Canadian black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "forti": {
+  "mbid": "8328f612-2e8a-4f54-b5e2-c0074bc83d0b",
+  "name": "Fortíð",
+  "disambiguation": "Icelandic viking/black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "frosttide": {
+  "mbid": "6df9df25-9ee8-40ea-9ff6-bda2f6c7aba1",
+  "name": "Frosttide",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "frozen shield": {
+  "mbid": "b9eb2beb-6916-4545-b92d-6c1b0b3bccb2",
+  "name": "Frozen Shield",
+  "disambiguation": "folk metal band from Barcelona",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "galactic empire": {
+  "mbid": "13b7e66c-854f-4928-a578-103d76bbe0a6",
+  "name": "Galactic Empire",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gallowbraid": {
+  "mbid": "ba67e53d-d51c-4711-97a8-5a6bc5549717",
+  "name": "Gallowbraid",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gama bomb": {
+  "mbid": "50380917-c3ea-4102-854f-900213c12337",
+  "name": "Gama Bomb",
+  "disambiguation": "thrash band from Ireland",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ghostbath": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "gloryhammer": {
+  "mbid": "85997032-ff48-4383-b86a-a920d4230a0b",
+  "name": "Gloryhammer",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "goatmoon": {
+  "mbid": "4331da4f-052e-42b1-aba9-e69ebeb328ee",
+  "name": "Goatmoon",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gojira": {
+  "mbid": "1c5efd53-d6b6-4d63-9d22-a15025cf5f07",
+  "name": "Gojira",
+  "disambiguation": "French metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gorgon": {
+  "mbid": "f6d814ed-86d5-42c0-ac32-e8f0419dea50",
+  "name": "Gorgon",
+  "disambiguation": "French (from Paris) death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gorguts": {
+  "mbid": "a95ef44c-aeda-4222-9d57-10b28240e634",
+  "name": "Gorguts",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gorod": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "grailight": {
+  "mbid": "679991d8-f76c-4baa-84d4-201e8e1be6e9",
+  "name": "Grailight",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "grief of emerald": {
+  "mbid": "0c8e66b6-9ddb-4954-a745-56ab8a516910",
+  "name": "Grief of Emerald",
+  "disambiguation": "Swedish symphonic death/black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "grima": {
+  "mbid": "a1fe77b8-8ce0-49d5-b64c-ba42f116d4b8",
+  "name": "Grima",
+  "disambiguation": "Russian atmospheric black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "grimner": {
+  "mbid": "4ff2720b-c78f-4b94-b77b-dc6bab1c1e36",
+  "name": "Grimner",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "gurkkhas": {
+  "mbid": "84d8aed1-cfbd-47e3-abfe-bd1643078d0d",
+  "name": "Gurkkhas",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "hardverne": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "havukruunu": {
+  "mbid": "7f297ac5-95ee-40f2-8854-1fc8117bd4f4",
+  "name": "Havukruunu",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "hegemon": {
+  "mbid": "98abc8c0-56e7-4a41-8f7f-e9126dbbae98",
+  "name": "Hegemon",
+  "disambiguation": "French black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "heimsgard": {
+  "mbid": "a72a3619-97aa-4b39-9f41-07c0964dafef",
+  "name": "Heimsgard",
+  "disambiguation": "French black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "helioss": {
+  "mbid": "d1abefaf-1df0-4213-a5c5-a405bb4220fc",
+  "name": "Helioss",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "heljareyga": {
+  "mbid": "7abe18cf-9054-436e-83a6-c7b17c711708",
+  "name": "Heljareyga",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "helslave": {
+  "mbid": "8ffe3219-a111-45e1-ad39-e09e138109a1",
+  "name": "Helslave",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "holy blood": {
+  "mbid": "7af9731a-9687-4e56-a0f6-15d16f298b36",
+  "name": "Holy Blood",
+  "disambiguation": "Christian Folk / Viking, Black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "hoth": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "hypocrisy": {
+  "mbid": "b1e23ada-a7eb-42d7-91ec-67a43bead43a",
+  "name": "Hypocrisy",
+  "disambiguation": "Swedish death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "igorrr": {
+  "mbid": "aec46991-e896-4c1f-80cc-aed97b0cdc73",
+  "name": "Igorrr",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "immortal": {
+  "mbid": "b863cf80-19c6-4a87-8e42-6cff7ac8f18f",
+  "name": "Immortal",
+  "disambiguation": "Norwegian black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "imperanon": {
+  "mbid": "70ca0083-d23e-4129-87ca-f70257cd8181",
+  "name": "Imperanon",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "in arkadia": {
+  "mbid": "b89cfad0-f24a-4731-b080-c499c1c8dd6c",
+  "name": "In Arkadia",
+  "disambiguation": "French metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "in flames": {
+  "mbid": "31745282-b1ea-4d62-939f-226b14d68e7c",
+  "name": "In Flames",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "inferi": {
+  "mbid": "7408e3bd-87a9-41f5-be26-05c3777fa97b",
+  "name": "Inferi",
+  "disambiguation": "Nashville technical death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "inquisition": {
+  "mbid": "8e996c1a-c3bc-4ab1-83a8-a7fa07511685",
+  "name": "Inquisition",
+  "disambiguation": "US black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "insomnium": {
+  "mbid": "c1f8e226-75ea-4fe6-83ce-59c122bcbca4",
+  "name": "Insomnium",
+  "disambiguation": "Finnish melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "instorm": {
+  "mbid": "41902bda-e643-4a10-9375-f49689fc95db",
+  "name": "Instorm",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "iotunn": {
+  "mbid": "221026b4-4dbb-4ec9-8105-db847ecc97da",
+  "name": "Iotunn",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "iron seawolf": {
+  "mbid": "67cfe6ea-b42d-44fa-bad0-02938e4f3146",
+  "name": "Iron SeaWolf",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "irreversible mechanism": {
+  "mbid": "271c560b-f53d-42bc-af03-dd3eaad0962e",
+  "name": "Irreversible Mechanism",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "itzamna": {
+  "mbid": "563a5906-c531-4b93-a1a5-dc3eb0aa0d5e",
+  "name": "Itzamna",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "jaldaboath": {
+  "mbid": "06f78df2-2354-4556-a064-db427b27043e",
+  "name": "Jaldaboath",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "job for a cowboy": {
+  "mbid": "709b6c87-4870-4596-b981-afdc61f39476",
+  "name": "Job for a Cowboy",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "judas priest": {
+  "mbid": "6b335658-22c8-485d-93de-0bc29a1d0349",
+  "name": "Judas Priest",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "justin e": {
+  "mbid": "9095a179-6039-419a-bdee-59973f93355b",
+  "name": "Justin(e)",
+  "disambiguation": "French punk rock band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kalmah": {
+  "mbid": "8d5291bc-e960-428a-9004-b5ab9c171dd2",
+  "name": "Kalmah",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kalmankantaja": {
+  "mbid": "28240f99-fcce-4577-8e2a-966000957603",
+  "name": "Kalmankantaja",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kampfar": {
+  "mbid": "41b9a72e-c0dc-412d-a041-609cb43642df",
+  "name": "Kampfar",
+  "disambiguation": "Norwegian pagan black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "keep of kalessin": {
+  "mbid": "75fd76eb-09d8-4567-b24a-5fe43334ed15",
+  "name": "Keep of Kalessin",
+  "disambiguation": "Norwegian metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "keys of orthanc": {
+  "mbid": "82433637-66ed-4337-ad88-b134e7cc71b6",
+  "name": "Keys of Orthanc",
+  "disambiguation": "Canadian Epic Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "khold": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "kivimetsan druidi": {
+  "mbid": "94155e7d-b0f7-435b-bcfe-ee41600d7521",
+  "name": "Kivimetsän Druidi",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "korn": {
+  "mbid": "ac865b2e-bba8-4f5a-8756-dd40d5e39f46",
+  "name": "Korn",
+  "disambiguation": "US nu metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "korpiklaani": {
+  "mbid": "50eec634-7c42-41ee-9b1f-b41d9ca28b26",
+  "name": "Korpiklaani",
+  "disambiguation": "Finnish folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "korpius": {
+  "mbid": "eef9d0d8-c579-421c-851b-0e0728d0a82f",
+  "name": "Korpius",
+  "disambiguation": "Death/Black Metal, Canada",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kreator": {
+  "mbid": "39822e8d-f24e-4f07-b51b-28b22e59fbdb",
+  "name": "Kreator",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kronos": {
+  "mbid": "4b0af58d-b181-4ee9-b986-85631c382c02",
+  "name": "Kronos",
+  "disambiguation": "French brutal death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kvaen": {
+  "mbid": "dc642cfb-0d52-40c8-9776-7d85e7951b5d",
+  "name": "Kvaen",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "kvelertak": {
+  "mbid": "61fdc79c-df1a-4999-8d2f-668f18c11283",
+  "name": "Kvelertak",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lagerstein": {
+  "mbid": "e5335702-b90c-43e4-b31e-4a664b3c60f9",
+  "name": "Lagerstein",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lamb of god": {
+  "mbid": "298909e4-ebcb-47b8-95e9-cc53b087fc65",
+  "name": "Lamb of God",
+  "disambiguation": "American metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "le grand guignol": {
+  "mbid": "1260b2c5-2517-47d3-90a9-61cdfd232d9a",
+  "name": "Le Grand Guignol",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "legacy of emptiness": {
+  "mbid": "ee887bce-6017-4893-b112-f0247f4c691f",
+  "name": "Legacy of Emptiness",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "leprous": {
+  "mbid": "a2e55cf5-ca3a-4c26-ba62-fc4a4f2bc603",
+  "name": "Leprous",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "litvintroll": {
+  "mbid": "1c6d822c-6a77-44fd-80f4-00bf3165e199",
+  "name": "Litvintroll",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lordi": {
+  "mbid": "b5b4ba6e-6e34-4669-a33b-0d813b4c3d83",
+  "name": "Lordi",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lorelei": {
+  "mbid": "01f945ec-7edb-41d7-9196-8b386faa8a45",
+  "name": "Lorelei",
+  "disambiguation": "Brutal Death Metal/Deathcore from NC",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "luca turilli s rhapsody": {
+  "mbid": "87f8cdb8-bea9-4460-978f-f76e0f1b9a5b",
+  "name": "Luca Turilli’s Rhapsody",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lunae ortus": {
+  "mbid": "86de4d54-51db-4233-8df4-29fada646efb",
+  "name": "Lunae Ortus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "lutece": {
+  "mbid": "f4a86e17-dc2b-43bb-82f0-1e69b6d8058b",
+  "name": "Lutece",
+  "disambiguation": "France / Epic Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "machine head": {
+  "mbid": "22a1f4d7-81ff-4216-ac06-3387da6bc118",
+  "name": "Machine Head",
+  "disambiguation": "US thrash metal band from Oakland, CA",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "malcuidant": {
+  "mbid": "07336dc2-265f-48ed-bc31-d15168923905",
+  "name": "Malcuidant",
+  "disambiguation": "French black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "manegarm": {
+  "mbid": "56956605-de13-467a-9348-1a92ee2bc27b",
+  "name": "Månegarm",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "manetheren": {
+  "mbid": "025d0f4b-2914-4f55-a33e-d7b033aaca4f",
+  "name": "Manetheren",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mare cognitum": {
+  "mbid": "ed9bb78c-4ce9-4e53-8dcc-0fef0a6ef668",
+  "name": "Mare Cognitum",
+  "disambiguation": "US atmospheric black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "marrasmieli": {
+  "mbid": "ad7cb781-4a15-494e-a1a1-471bde96135c",
+  "name": "Marrasmieli",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "maximum the hormone": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "meadows end": {
+  "mbid": "692cba86-d4bb-4189-87fc-55e47feef05c",
+  "name": "Meadows End",
+  "disambiguation": "Swedish melodic death metal act",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mechina": {
+  "mbid": "32161bd1-b1f0-4066-b468-85fbcfe4c0b2",
+  "name": "Mechina",
+  "disambiguation": "industrial metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "melechesh": {
+  "mbid": "bfd84c48-8659-4837-88b0-760eda171e5d",
+  "name": "Melechesh",
+  "disambiguation": "black metal band based in Amsterdam",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mendeed": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "metallica": {
+  "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+  "name": "Metallica",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "misteltein": {
+  "mbid": "5a107f03-dd5e-4140-903e-831a888f9b1b",
+  "name": "Misteltein",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mistweaver": {
+  "mbid": "d734984d-f41b-45aa-b8b9-fb648853958b",
+  "name": "Mistweaver",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mononc serge anonymus": {
+  "mbid": "cf0b3542-6630-43b7-9a74-ef49d33f52eb",
+  "name": "Mononc’ Serge & Anonymus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "montagne rouge": {
+  "mbid": "af588740-e4b6-4226-bfbf-afdc724e8185",
+  "name": "Montagne Rouge",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "moongates guardian": {
+  "mbid": "19148ae2-3570-4104-a2ab-5a4765a6d007",
+  "name": "Moongates Guardian",
+  "disambiguation": "Russian black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "moonlight sorcery": {
+  "mbid": "3f0455db-1605-42fb-971f-9ba539152f22",
+  "name": "Moonlight Sorcery",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "moonsorrow": {
+  "mbid": "98fb7792-01fa-4ed1-a15d-20077a47210f",
+  "name": "Moonsorrow",
+  "disambiguation": "Finnish black/folk metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "motorhead": {
+  "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+  "name": "Motörhead",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "moulk": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "munruthel": {
+  "mbid": "5ba90b55-9308-401d-8a7c-5e43c310ccc8",
+  "name": "Munruthel",
+  "disambiguation": "Ukrainian symphony black/folk metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "murderdolls": {
+  "mbid": "355facf3-c72c-45b1-9727-8d9cc6a5ed39",
+  "name": "Murderdolls",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "my chemical romance": {
+  "mbid": "c07f0676-9143-4217-8a9f-4c26bd636f13",
+  "name": "My Chemical Romance",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "myrkgrav": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "myrkur": {
+  "mbid": "66d4b54b-77f1-4310-a45c-60972fb47ecc",
+  "name": "Myrkur",
+  "disambiguation": "one‐woman black metal project",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "mystterra": {
+  "mbid": "61acd3a4-6b67-48af-bb3e-c91557405e41",
+  "name": "MystTerra",
+  "disambiguation": "Russian folk metal group",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nahtram": {
+  "mbid": "c7f312af-6cd3-4c36-bdc2-6b35d8163c3d",
+  "name": "Nahtram",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "naildown": {
+  "mbid": "b5103ef0-12bc-49a2-89e7-6e9eac5f75ed",
+  "name": "Naildown",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nanowar of steel": {
+  "mbid": "b879af63-9ff6-49b3-a556-1af86e753119",
+  "name": "Nanowar of Steel",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ne obliviscaris": {
+  "mbid": "75359245-49cf-4991-932f-e078408481f2",
+  "name": "Ne Obliviscaris",
+  "disambiguation": "Australian progressive metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "neaera": {
+  "mbid": "6ac3eac8-02dd-47b4-8ee9-f789d93c0405",
+  "name": "Neaera",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "necrophagist": {
+  "mbid": "251b5564-6dcf-4299-b1a3-921885bdaf88",
+  "name": "Necrophagist",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "necrophobic": {
+  "mbid": "76bea740-9961-400e-845c-33c189ad9eda",
+  "name": "Necrophobic",
+  "disambiguation": "Swedish blackened death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nekrogoblikon": {
+  "mbid": "a0befa17-6652-43c7-a211-3c84432f15cd",
+  "name": "Nekrogoblikon",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "nightcreepers": {
+  "mbid": "bc3adb73-577a-425c-9c57-4921592f3e29",
+  "name": "Nightcreepers",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "no talent nor comment": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "nofx": {
+  "mbid": "dcaa4f81-bfb7-44eb-8594-4e74f004b6e4",
+  "name": "NOFX",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nokturnal mortum": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "nordheim": {
+  "mbid": "6d4704f5-5c34-472d-a4e2-7a8945e9370b",
+  "name": "Nordheim",
+  "disambiguation": "Folk metal band from Canada",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nordjevel": {
+  "mbid": "25dcf77c-82f1-4a13-b363-d0e5086768a7",
+  "name": "Nordjevel",
+  "disambiguation": "black metal from Norway",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "nothgard": {
+  "mbid": "a885dbb0-f85e-4960-8f73-395e9ab6eb23",
+  "name": "Nothgard",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "noumena": {
+  "mbid": "aada5414-189e-4b59-bf10-0212daa27618",
+  "name": "Noumena",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "obsequiae": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "occultum": {
+  "mbid": "991f5206-52c2-4257-b971-d46f6aeae1a5",
+  "name": "Occultum",
+  "disambiguation": "Black Metal from Poland",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "old wainds": {
+  "mbid": "84e40ab8-e586-4e71-a40d-0f6cbaad2fa0",
+  "name": "Old Wainds",
+  "disambiguation": "Russian Black Metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "omnium gatherum": {
+  "mbid": "9319e8ca-75f1-4d43-acba-eb31c9f1c38e",
+  "name": "Omnium Gatherum",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "onirism": {
+  "mbid": "b6ce807d-0de2-4194-b8f0-6a3a5ffb7511",
+  "name": "Onirism",
+  "disambiguation": "symphonic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "oppression": {
+  "mbid": "ffe1663e-5eea-476a-b268-cd37cd6ef4c8",
+  "name": "Oppression",
+  "disambiguation": "Melodic Black Metal from France",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "outrage": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "oxxo xoox": {
+  "mbid": "abe8bc67-73b6-4837-95a8-bfedb37dcb28",
+  "name": "Öxxö Xööx",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "pagan land": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "paladin": {
+  "mbid": "87887848-54ec-4a2a-ab8c-12a541a4f462",
+  "name": "Paladin",
+  "disambiguation": "Atlanta Metal Band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "panopticon": {
+  "mbid": "d9b1f00a-31a7-4f64-9f29-8481e7be8911",
+  "name": "Panopticon",
+  "disambiguation": "USA atmospheric black metal/folk metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "pantera": {
+  "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+  "name": "Pantera",
+  "disambiguation": "US groove metal band, Arlington, TX",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "panychida": {
+  "mbid": "840d477a-0f37-4bfd-9bc5-2db283cc67c5",
+  "name": "Panychida",
+  "disambiguation": "Czech pagan/black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "papa roach": {
+  "mbid": "c5eb9407-caeb-4303-b383-6929aa94021c",
+  "name": "Papa Roach",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "parkway drive": {
+  "mbid": "a436dd02-0549-4c91-b608-df451217fdeb",
+  "name": "Parkway Drive",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "pathogen": {
+  "mbid": "3948bdb7-53c1-4634-af69-437284e418c6",
+  "name": "Pathogen",
+  "disambiguation": "Australian death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "persefone": {
+  "mbid": "071607c3-488d-4d9e-8c0e-c5469ddc4ce3",
+  "name": "Persefone",
+  "disambiguation": "Andorran death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "powerglove": {
+  "mbid": "09deef08-8610-4295-9ea4-544950f45b32",
+  "name": "Powerglove",
+  "disambiguation": "American instrumental power metal cover band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "powerwolf": {
+  "mbid": "3ef77bdc-b1ce-4e44-aa4b-acfa763c5284",
+  "name": "Powerwolf",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "primalfrost": {
+  "mbid": "71c3b860-9bcd-4188-97f9-2728fdb29fbc",
+  "name": "Primalfrost",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "psychostick": {
+  "mbid": "abda62ca-e383-423b-a939-b14e1d0e38b0",
+  "name": "Psychostick",
+  "disambiguation": "American band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "pure wrath": {
+  "mbid": "492a2cd6-6241-4f4c-a505-b489c06f9adc",
+  "name": "Pure Wrath",
+  "disambiguation": "Indonesia / Atmospheric Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "raintime": {
+  "mbid": "3f4b0f0f-74e6-435c-98fe-b219713756da",
+  "name": "Raintime",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "raxa": {
+  "mbid": "45e575f9-eeee-45a5-86b8-ace4e10c8d5e",
+  "name": "Raxa",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "retrovizer": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "revocation": {
+  "mbid": "2441c9e6-7e05-44f1-8da9-62025df367ab",
+  "name": "Revocation",
+  "disambiguation": "United States metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "rex mundi": {
+  "mbid": "8fa6953b-0831-4fbc-a473-e43c08b7f2f3",
+  "name": "Rêx Mündi",
+  "disambiguation": "USA / Black Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "rhadamanthys": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "rhapsody of fire": {
+  "mbid": "4e0dffde-ad2d-45b7-9c75-d57ce55de061",
+  "name": "Rhapsody of Fire",
+  "disambiguation": "Italian symphonic power metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "rise against": {
+  "mbid": "606bf117-494f-4864-891f-09d63ff6aa4b",
+  "name": "Rise Against",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "rodrigo y gabriela and c u b a": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "run run jump punch": {
+  "mbid": "7b1095d3-420f-4fcc-ac70-49bc6a6083b6",
+  "name": "RUN! RUN! JUMP! PUNCH!",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sabaton": {
+  "mbid": "39a31de6-763d-48b6-a45c-f7cfad58ffd8",
+  "name": "Sabaton",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sacramentum": {
+  "mbid": "67673557-2310-41d3-83b9-e6e0cb1d65d5",
+  "name": "Sacramentum",
+  "disambiguation": "Swedish melodic black/death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sacred mother tongue": {
+  "mbid": "7d893649-e2a0-4b55-a408-9f2ce0109774",
+  "name": "Sacred Mother Tongue",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "salacious gods": {
+  "mbid": "0aff0f35-afc8-4be4-83da-5adfd8e0a8e9",
+  "name": "Salacious Gods",
+  "disambiguation": "Dutch black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "saor": {
+  "mbid": "cf55e880-3750-4e4f-a772-0482801a7d3a",
+  "name": "Saor",
+  "disambiguation": "Scottish metal band; formerly Àrsaidh",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "scerra": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "schattenvald": {
+  "mbid": "7982b7d7-c0da-4ae0-b4a5-f5761908078c",
+  "name": "Schattenvald",
+  "disambiguation": "German symphonic black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "septicflesh": {
+  "mbid": "f23d00be-5619-43aa-a9b0-b32b73e5ba4f",
+  "name": "Septicflesh",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "seth": {
+  "mbid": "58a0859f-fddd-47f7-93f0-3a941a33d3a8",
+  "name": "Seth",
+  "disambiguation": "French black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "shadow of intent": {
+  "mbid": "e49da23b-5624-49a8-8351-5a43b2d3d4e8",
+  "name": "Shadow of Intent",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "shores of null": {
+  "mbid": "a2e60b17-960e-4e9c-8194-681b39d5613e",
+  "name": "Shores of Null",
+  "disambiguation": "Italian melodic black/doom metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "shylmagoghnar": {
+  "mbid": "da2bb98d-b191-415a-997d-c287c8dd862d",
+  "name": "Shylmagoghnar",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sigh": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "sinergy": {
+  "mbid": "97d8cab3-474d-4a0c-8053-d1afab54eee8",
+  "name": "Sinergy",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "skalmold": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "skeletonwitch": {
+  "mbid": "99b3468f-ade6-45b9-b3b8-edbcfd9d553a",
+  "name": "Skeletonwitch",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "skoll": {
+  "mbid": "11f97ec3-3856-487a-9bc8-744d88e68df5",
+  "name": "Skoll",
+  "disambiguation": "Italian black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "slechtvalk": {
+  "mbid": "6e98d3ea-1fb4-49e4-96a7-9534b047509b",
+  "name": "Slechtvalk",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "slipknot": {
+  "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
+  "name": "Slipknot",
+  "disambiguation": "US metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "slugdge": {
+  "mbid": "ff22863c-7d23-4c47-b41c-29c0d2ad999d",
+  "name": "Slugdge",
+  "disambiguation": "blackened death metal/sludge",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sojourner": {
+  "mbid": "17b8797a-0a2a-4082-94d4-f030da66723d",
+  "name": "Sojourner",
+  "disambiguation": "epic black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "solventis": {
+  "mbid": "8104291f-f515-4c53-9782-f6ca7296b1f1",
+  "name": "Solventis",
+  "disambiguation": "French Celtic/Medival Folk Band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sons of senoka": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "stam1na": {
+  "mbid": "f74c7996-4c0b-4ebd-b1e7-219e21c41286",
+  "name": "Stam1na",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "stephan forte": {
+  "mbid": "69236498-8cb7-47d7-9842-3fe41f75c448",
+  "name": "Stéphan Forté",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "stillborn slave": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "stormtide": {
+  "mbid": "f8fd9d5a-890f-4b48-bb72-2f4a4ebf3ed2",
+  "name": "Stormtide",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "stortregn": {
+  "mbid": "9de31a7f-1898-4d59-bee7-90cd4aa4265b",
+  "name": "Stortregn",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sulphur aeon": {
+  "mbid": "8a71a2e9-632a-40ac-9b86-b3fa76775c52",
+  "name": "Sulphur Aeon",
+  "disambiguation": "German death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sum 41": {
+  "mbid": "f2eef649-a6d5-4114-afba-e50ab26254d2",
+  "name": "Sum 41",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "summoning": {
+  "mbid": "8363f94f-fd86-41b8-a56b-26eacb34f499",
+  "name": "Summoning",
+  "disambiguation": "Austrian epic/atmospheric black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "suotana": {
+  "mbid": "d17ce3c9-4e95-4c34-ba66-b7a7d9ee15c8",
+  "name": "Suotana",
+  "disambiguation": "Finnish melodic black/death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "svartby": {
+  "mbid": "3f38e161-4b70-4942-a3e3-1b5ac3c4923d",
+  "name": "Svartby",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "svartsot": {
+  "mbid": "b57de193-bb0a-46f2-90be-775cd539e66d",
+  "name": "Svartsot",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "sylvatica": {
+  "mbid": "5a73f864-dd8e-4ef7-b002-1c49285c7757",
+  "name": "Sylvatica",
+  "disambiguation": "Denmark, Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "system of a down": {
+  "mbid": "cc0b7089-c08d-4c10-b6b0-873582c17fd6",
+  "name": "System of a Down",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the absence": {
+  "mbid": "7f47ea76-e712-4d90-bd6f-4e0fb3239829",
+  "name": "The Absence",
+  "disambiguation": "Tampa, FL melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the agonist": {
+  "mbid": "d6d9ec73-d0dd-4066-944c-20d4a6d6c7c7",
+  "name": "The Agonist",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the forsaken": {
+  "mbid": "fa635eac-8767-48b7-a1d5-8e370fbee8bd",
+  "name": "The Forsaken",
+  "disambiguation": "Swedish melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the halo effect": {
+  "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
+  "name": "The Halo Effect",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the last oath": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "the offspring": {
+  "mbid": "23a03e33-a603-404e-bcbf-2c00159d7067",
+  "name": "The Offspring",
+  "disambiguation": "American punk",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the roughneck riot": {
+  "mbid": "f9b47bf0-4869-4dd0-bbcf-f53aa3de0be2",
+  "name": "The Roughneck Riot",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "the walking dead orchestra": {
+  "mbid": "c83547c7-4be1-42f8-9385-8bda92013d21",
+  "name": "The Walking Dead Orchestra",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "thorium": {
+  "mbid": "fda56113-8bf0-486f-bcf1-f85924df63b4",
+  "name": "Thorium",
+  "disambiguation": "Danish death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "threat signal": {
+  "mbid": "82f84c09-7ebb-4c5f-bbd0-c4cc52bab4cc",
+  "name": "Threat Signal",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "throne of chaos": {
+  "mbid": "1310d5af-e871-424c-970c-a50fdef3ba05",
+  "name": "Throne of Chaos",
+  "disambiguation": "Finnish band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "thulcandra": {
+  "mbid": "0029abc7-163b-4ffb-a25b-0749126c9267",
+  "name": "Thulcandra",
+  "disambiguation": "German black/death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "thy serpent": {
+  "mbid": "e2b37790-52dd-49af-baa1-bb0b8dd8eae8",
+  "name": "Thy Serpent",
+  "disambiguation": "Finnish black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "thyrfing": {
+  "mbid": "f2906f32-a018-4104-addc-8fe943d7e859",
+  "name": "Thyrfing",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "thyrien": {
+  "mbid": "697fe50d-8117-4abd-8a1f-e866507c6c52",
+  "name": "Thyrien",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "trelleborg": {
+  "mbid": "92f62521-254f-4d17-92cc-800328eabbc7",
+  "name": "Trelleborg",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "triumphator": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "trivium": {
+  "mbid": "1f5ff245-2837-4d4a-a609-e93e544478c3",
+  "name": "Trivium",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "trold": {
+  "mbid": "c9676527-b0a8-4eb4-9343-d47449515644",
+  "name": "Trold",
+  "disambiguation": "Danish folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "troldhaugen": {
+  "mbid": "3b99c972-128c-455f-96cb-86499bcf5d47",
+  "name": "Troldhaugen",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "trollfest": {
+  "mbid": "0916ab75-145f-4045-885d-71722075c349",
+  "name": "TrollfesT",
+  "disambiguation": "Norwegian folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "tsjuder": {
+  "mbid": "dbf23164-c702-46b9-a7e1-32acaabca310",
+  "name": "Tsjuder",
+  "disambiguation": "Norwegian black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "tuomas holopainen": {
+  "mbid": "ae4c7a2c-fb0f-4bfd-a9be-c815d00030b8",
+  "name": "Tuomas Holopainen",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "turisas": {
+  "mbid": "1cf39e0b-c595-46f7-9ea8-4d2b14843c81",
+  "name": "Turisas",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "twilight force": {
+  "mbid": "9de7fc7a-b03f-4d97-9629-a3f65829de72",
+  "name": "Twilight Force",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "tyr": {
+  "mbid": "50fc4742-1389-45a0-8c6f-6a5159ae20c2",
+  "name": "Týr",
+  "disambiguation": "Faroese folk metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "ultra vomit": {
+  "mbid": "9b1f75d4-46b5-4fe2-8787-027faa1b4f60",
+  "name": "Ultra Vomit",
+  "disambiguation": "French heavy metal parody band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "unearth": {
+  "mbid": "9f336c50-ae4c-4440-bda7-958aa12bc15a",
+  "name": "Unearth",
+  "disambiguation": "metalcore band from Boston, MA",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "unexpect": {
+  "mbid": "bdea322f-e772-4896-a88d-13736f9b449a",
+  "name": "Unexpect",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "unleashed": {
+  "mbid": "4dffdaf8-8fb8-4b3d-8088-427b1e9d1af3",
+  "name": "Unleashed",
+  "disambiguation": "Swedish death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "unreqvited": {
+  "mbid": "1efff932-5b23-4c92-9d0b-0105886bb0fb",
+  "name": "Unreqvited",
+  "disambiguation": "Canadian post‐black metal/shoegaze/ambient",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "vader": {
+  "mbid": "db859a53-b7ca-4892-bcda-5ef78d2c891f",
+  "name": "Vader",
+  "verified": true,
+  "fixed": true,
+  "checked": "2026-09-18"
+ },
+ "valhalore": {
+  "mbid": "9c1551d0-527e-409e-8056-fe8b9e91c9d8",
+  "name": "Valhalore",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "valuatir": {
+  "mbid": "2e5b5806-20fc-4a24-ad8a-eee6f9f5d388",
+  "name": "Valuatir",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "vanaheim": {
+  "mbid": "9b4ba1b5-f495-490d-a9df-64c86cbf3503",
+  "name": "Vanaheim",
+  "disambiguation": "folk metal band from the Netherlands",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "varg": {
+  "mbid": "7b142abf-d2e1-46b8-a3aa-1b7dbe981d77",
+  "name": "Varg",
+  "disambiguation": "German (Bayern) black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "varus": {
+  "mbid": "39e75d15-15f7-40a5-ac07-7cfdf18161d3",
+  "name": "Varus",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "vektor": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "vetus obscurum": {
+  "mbid": "b1ab27f2-6661-4721-b753-a84ada3b8b2f",
+  "name": "Vetus Obscurum",
+  "disambiguation": "US black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "vintersorg": {
+  "mbid": "012f2687-b9e8-400e-838d-d96707ea3a5e",
+  "name": "Vintersorg",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "volbeat": {
+  "mbid": "4753fcb7-9270-493a-974d-8daca4e49125",
+  "name": "Volbeat",
+  "disambiguation": "Danish rock band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "volchiy ostrog": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "vomitron": {
+  "mbid": "e5a8c00a-53ee-4123-9da8-cf66e4283378",
+  "name": "Vomitron",
+  "disambiguation": "instrumental experimental / melodic death metal / VGM cover project",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "vulgaires machins": {
+  "mbid": "e5b1d871-be9f-46c9-a0d4-5e05399f379f",
+  "name": "Vulgaires Machins",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "watain": {
+  "mbid": "8c51b06d-b678-4bbf-aeac-7295dfb69d13",
+  "name": "Watain",
+  "disambiguation": "Swedish black metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "way to end": {
+  "mbid": "7fe7e899-ac82-4f53-b65c-8909fc312d5d",
+  "name": "Way to End",
+  "disambiguation": "French black metal/avant-garde",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "waylander": {
+  "mbid": "d78c1b05-70f3-4483-81c6-b8ef78310219",
+  "name": "Waylander",
+  "disambiguation": "Celtic/Folk Metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "welicoruss": {
+  "mbid": "93002f88-1b80-4ec9-beb9-52073c6974a1",
+  "name": "Welicoruss",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "whispered": {
+  "mbid": "6e8e124e-42a2-4ec1-826a-027e9cea6e41",
+  "name": "Whispered",
+  "disambiguation": "Finnish death metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "whitechapel": {
+  "mbid": "56ba013c-610e-4d9b-98ed-c2ccff977a9e",
+  "name": "Whitechapel",
+  "disambiguation": "US deathcore band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "wilderun": {
+  "mbid": "96a4e481-b025-4726-a3f8-c9859f9e5281",
+  "name": "Wilderun",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "wind rose": {
+  "mbid": "592b488d-dd42-4d9a-a343-d7ca4f69d0bb",
+  "name": "Wind Rose",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "windir": {
+  "mbid": "1cc7ebc1-8ea6-43fc-a8c2-6f2836f56c9f",
+  "name": "Windir",
+  "disambiguation": "Norwegian black/viking metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "wintersun": {
+  "mbid": "c054ea6b-c585-41eb-ae7e-4b0ca43308ff",
+  "name": "Wintersun",
+  "disambiguation": "Finnish melodic death metal band",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "wizardthrone": {
+  "mbid": "3a5beab4-c764-4d00-8503-a1ed3c6a7ed3",
+  "name": "Wizardthrone",
+  "disambiguation": "Metal supergroup",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "woe of tyrants": {
+  "mbid": "a874b622-3595-4c53-accd-2995de13a92e",
+  "name": "Woe of Tyrants",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "wolfchant": {
+  "mbid": "e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b",
+  "name": "Wolfchant",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "woods of desolation": {
+  "mbid": "bce02a44-cb7b-4c1c-9f53-6e3cf85f125d",
+  "name": "Woods of Desolation",
+  "disambiguation": "Australian black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "xanthochroid": {
+  "mbid": "d3c4de0a-6e5b-410f-bb1c-a781490af765",
+  "name": "Xanthochroid",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "yyrkoon": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "zgard": {
+  "mbid": "b47b4d33-7693-4fcb-a6f1-76bcc3ebee8b",
+  "name": "Zgard",
+  "disambiguation": "Ukrainian pagan black metal",
+  "verified": true,
+  "checked": "2026-09-18"
+ },
+ "zmey gorynich": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-18"
+ },
+ "zornheym": {
+  "mbid": "36a1c173-c67e-4128-8808-b88721daf1b7",
+  "name": "Zornheym",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-18"
+ }
+}
