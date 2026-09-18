@@ -281,6 +281,74 @@ def deezer_releases(artist):
     return out
 
 
+# ------------------------------------------------------------- Pochettes
+
+def html_get(url):
+    try:
+        r = session.get(url, timeout=30, headers={"Accept": "text/html"})
+        if r.status_code == 200:
+            return r.text
+    except requests.RequestException:
+        pass
+    return ""
+
+
+def og_image(url):
+    """Image principale d'une page (Bandcamp, Deezer…) via la balise og:image."""
+    html = html_get(url)
+    m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', html) or \
+        re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', html)
+    return m.group(1) if m else ""
+
+
+def cover_deezer(groupe, album):
+    js = deezer_get("/search/album", {"q": f'artist:"{groupe}" album:"{album}"', "limit": 5})
+    for c in (js or {}).get("data", []):
+        if norm((c.get("artist") or {}).get("name", "")) == norm(groupe) and norm(c.get("title", "")) == norm(album):
+            return c.get("cover_big") or c.get("cover_medium") or ""
+    return ""
+
+
+def cover_itunes(groupe, album):
+    try:
+        r = session.get("https://itunes.apple.com/search", params={"term": f"{groupe} {album}", "entity": "album", "limit": 8}, timeout=30)
+        for c in r.json().get("results", []):
+            if norm(c.get("artistName", "")) == norm(groupe) and norm(c.get("collectionName", "")) == norm(album):
+                return (c.get("artworkUrl100") or "").replace("100x100bb", "600x600bb")
+    except Exception:
+        pass
+    time.sleep(0.5)
+    return ""
+
+
+def cover_bandcamp(groupe, album):
+    html = html_get(f"https://bandcamp.com/search?q={requests.utils.quote(groupe + ' ' + album)}&item_type=a")
+    for block in re.findall(r'<li class="searchresult[^"]*">(.*?)</li>', html, flags=re.S):
+        title = re.search(r'<div class="heading">\s*<a[^>]*>\s*(.*?)\s*</a>', block, flags=re.S)
+        sub = re.search(r'<div class="subhead">\s*(.*?)\s*</div>', block, flags=re.S)
+        img = re.search(r'<img[^>]+src="([^"]+)"', block)
+        if not (title and sub and img):
+            continue
+        if norm(album) == norm(title.group(1)) and norm(groupe) in norm(sub.group(1)):
+            return img.group(1).replace("_7.jpg", "_5.jpg")
+    return ""
+
+
+def find_cover(groupe, album, page_url=""):
+    if page_url:
+        img = og_image(page_url)
+        if img:
+            return img
+    for fn in (cover_deezer, cover_itunes, cover_bandcamp):
+        try:
+            img = fn(groupe, album)
+        except Exception:
+            img = ""
+        if img:
+            return img
+    return ""
+
+
 # ---------------------------------------------------------------------- Merge
 
 def album_key(groupe, album):
@@ -361,23 +429,40 @@ def main():
             with open(CACHE_FILE, "w", encoding="utf-8") as f:
                 json.dump(cache, f, ensure_ascii=False, indent=1)
 
-    # liste manuelle : prioritaire sur la date
+    # liste manuelle : une entrée dont l'album est trouvé automatiquement devient une
+    # sortie « auto » et quitte la liste manuelle (sauf si sa date est plus précise).
+    rank = {"exact": 3, "month": 2, "year": 1, "unknown": 0}
+    manual_kept = []
     for m in manual:
         k = album_key(m["groupe"], m["album"])
         item = {
             "groupe": m["groupe"], "album": m["album"], "date": m.get("date", ""),
             "precision": m.get("precision", "exact" if m.get("date") else "unknown"),
-            "type": "album", "pochette": m.get("pochette", ""), "source": "manuel",
+            "type": "album", "pochette": m.get("pochette", ""), "pochette_page": m.get("pochette_page", ""),
+            "note": m.get("note", ""), "source": "manuel",
         }
         if k in merged:
             cur = merged[k]
-            if item["date"]:
+            keep = rank[item["precision"]] > rank[cur["precision"]] or bool(item["pochette"]) or bool(item["pochette_page"]) or bool(item["note"])
+            if rank[item["precision"]] > rank[cur["precision"]]:
                 cur["date"], cur["precision"] = item["date"], item["precision"]
             if item["pochette"]:
                 cur["pochette"] = item["pochette"]
-            cur["source"] = "+".join(sorted(set(cur["source"].split("+") + ["manuel"])))
+            if item["pochette_page"]:
+                cur["pochette_page"] = item["pochette_page"]
+            if item["note"]:
+                cur["note"] = item["note"]
+            if keep:
+                cur["source"] = "+".join(sorted(set(cur["source"].split("+") + ["manuel"])))
+                manual_kept.append(m)
+            else:
+                print(f"  → {m['groupe']} — {m['album']} : trouvé automatiquement, retiré de la liste manuelle")
         else:
             merged[k] = item
+            manual_kept.append(m)
+    if len(manual_kept) != len(manual):
+        with open(MANUAL_FILE, "w", encoding="utf-8") as f:
+            json.dump(manual_kept, f, ensure_ascii=False, indent=1)
 
     # on conserve une pochette / durée trouvée lors d'un run précédent si elle a disparu
     for k, it in merged.items():
@@ -386,6 +471,12 @@ def main():
                 it[f] = prev_by_key[k][f]
 
     items = [it for k, it in merged.items() if k not in exclus and norm(it["groupe"]) not in ignores]
+    for it in items:
+        if not it.get("pochette"):
+            img = find_cover(it["groupe"], it["album"], it.get("pochette_page", ""))
+            if img:
+                it["pochette"] = img
+                print(f"  ✓ pochette trouvée : {it['groupe']} — {it['album']}")
     items = sorted(items, key=lambda x: (x["date"] or "9999", norm(x["groupe"])))
     out = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
