@@ -53,6 +53,15 @@ audio{width:100%;height:32px}
 .prog{color:var(--muted);font-size:.82rem;text-align:center;margin-bottom:10px}
 .weights{font-size:.78rem;color:var(--muted);text-align:center;margin-bottom:12px}
 .weights b{color:var(--text)}
+.owner{background:var(--panel);border:1px solid #5a4a1a;border-radius:14px;padding:14px;margin-bottom:16px}
+.owner h2{margin:0 0 10px;font-size:1rem;color:var(--gold);text-transform:uppercase;letter-spacing:1.4px}
+.owner .row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;align-items:center}
+.owner input,.owner select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 10px;flex:1 1 180px}
+.owner .help{font-size:.78rem;color:var(--muted);line-height:1.45}
+.owner .help a{color:var(--blue)}
+.card .own{display:flex;gap:5px}
+.card .own button{flex:1;border:1px solid #5a4a1a;background:var(--panel2);color:var(--gold);border-radius:8px;padding:5px;font-size:.72rem;cursor:pointer}
+.saving{position:fixed;top:10px;right:12px;font-size:.75rem;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:4px 8px;display:none}
 </style>
 </head>
 <body>
@@ -61,7 +70,8 @@ audio{width:100%;height:32px}
   <a href="index.html">← Liste de souhaits / Collection</a>
   <button id="tabSorties" class="active">Sorties à surveiller</button>
   <button id="tabDecouvrir">À découvrir</button>
-  <button id="btnExport">Exporter mes badges</button>
+  <button id="btnOwner">🔑 Mode propriétaire</button>
+  <button id="btnExport">Exporter</button>
 </nav>
 
 <section id="secSorties" class="section active">
@@ -69,6 +79,24 @@ audio{width:100%;height:32px}
     <h1>SORTIES <span>À SURVEILLER</span></h1>
     <p id="subSorties">Chargement…</p>
   </header>
+  <div class="owner" id="ownerPanel" style="display:none">
+    <h2 id="ownerTitle">Ajouter une sortie</h2>
+    <div class="row">
+      <input id="fGroupe" list="dlGroupes" placeholder="Groupe"><datalist id="dlGroupes"></datalist>
+      <input id="fAlbum" placeholder="Nom de l'album">
+    </div>
+    <div class="row">
+      <select id="fPrecision"><option value="exact">Date exacte</option><option value="month">Mois connu</option><option value="year">Année seulement</option><option value="unknown">Date inconnue</option></select>
+      <input id="fDate" placeholder="AAAA-MM-JJ">
+      <input id="fPochette" placeholder="URL de la pochette (optionnel)">
+    </div>
+    <div class="row">
+      <input id="fNote" placeholder="Note (optionnel)">
+      <button class="btn gold" id="fSave">Enregistrer dans le site</button>
+      <button class="btn" id="fCancel" style="display:none">Annuler</button>
+    </div>
+    <div class="help">Écrit directement <code>data/watchlist-manuel.json</code> dans ton dépôt GitHub. Tes badges, achats et « pas intéressé » sont aussi enregistrés automatiquement dans <code>data/mes-badges.json</code>. <a href="#" id="ownerLogout">Désactiver le mode propriétaire</a></div>
+  </div>
   <div class="controls">
     <select id="filtreSorties">
       <option value="avenir">À venir</option>
@@ -105,13 +133,15 @@ audio{width:100%;height:32px}
 </section>
 </div>
 <div id="toast"></div>
+<div class="saving" id="saving">Enregistrement…</div>
 
 <script>
 (function(){
   var STATUTS=['À écouter','Écouté','Téléchargé','Acheté'];
   var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v1', KEY_DSTATUT='decouvrir-statuts-v1';
   var PH='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0" stop-color="#2a2233"/><stop offset="1" stop-color="#12141a"/></radialGradient></defs><rect width="200" height="200" fill="url(#g)"/><text x="100" y="118" text-anchor="middle" font-size="56" fill="#4a3f5e">♫</text><text x="100" y="160" text-anchor="middle" font-size="13" fill="#6b6090" font-family="sans-serif">pochette non dévoilée</text></svg>');
-  var STATE={sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
+  var KEY_TOKEN='gh-token-v1', KEY_REPO='gh-repo-v1';
+  var STATE={auto:[],generated:'',owner:false,token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
 
   function $(id){return document.getElementById(id);}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -122,6 +152,99 @@ audio{width:100%;height:32px}
   function toast(msg){var t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('show');},2200);}
   function getJSON(url,ok,ko){var x=new XMLHttpRequest();x.open('GET',url+(url.indexOf('?')<0?'?':'&')+'_='+Date.now());x.onload=function(){try{ok(JSON.parse(x.responseText));}catch(e){ko&&ko(e);}};x.onerror=function(){ko&&ko();};x.send();}
   function jsonp(url,ok,ko){var cb='cb_'+Date.now()+'_'+Math.floor(Math.random()*1e6);var sc=document.createElement('script');var t=setTimeout(function(){cleanup();ko&&ko();},12000);function cleanup(){clearTimeout(t);try{delete window[cb];}catch(e){window[cb]=undefined;}if(sc.parentNode)sc.parentNode.removeChild(sc);}window[cb]=function(d){cleanup();ok&&ok(d);};sc.onerror=function(){cleanup();ko&&ko();};sc.src=url+(url.indexOf('?')>=0?'&':'?')+'output=jsonp&callback='+cb;document.body.appendChild(sc);}
+
+  // ------------------------------------------------------------ GitHub (mode propriétaire)
+  function detectRepo(){
+    var m=location.hostname.match(/^([^.]+)\.github\.io$/); var seg=location.pathname.split('/').filter(Boolean);
+    if(m&&seg.length) return {owner:m[1],repo:seg[0]};
+    return null;
+  }
+  function ghReq(method,path,body,ok,ko){
+    var x=new XMLHttpRequest();
+    x.open(method,'https://api.github.com/repos/'+STATE.repo.owner+'/'+STATE.repo.repo+'/contents/'+path+(method==='GET'?'?ref=main&_='+Date.now():''));
+    x.setRequestHeader('Authorization','Bearer '+STATE.token); x.setRequestHeader('Accept','application/vnd.github+json');
+    if(body) x.setRequestHeader('Content-Type','application/json');
+    x.onload=function(){ if(x.status>=200&&x.status<300){ try{ok(JSON.parse(x.responseText));}catch(e){ok({});} } else ko&&ko(x.status,x.responseText); };
+    x.onerror=function(){ko&&ko(0,'réseau');};
+    x.send(body?JSON.stringify(body):null);
+  }
+  function b64utf8(s){var bytes=new TextEncoder().encode(s),bin='';for(var i=0;i<bytes.length;i++)bin+=String.fromCharCode(bytes[i]);return btoa(bin);}
+  function ghWrite(path,obj,message,ok,ko){
+    $('saving').style.display='';
+    var content=b64utf8(JSON.stringify(obj,null,1));
+    function done(){$('saving').style.display='none';}
+    function put(sha){ ghReq('PUT',path,{message:message,content:content,branch:'main',sha:sha||undefined},function(){done();ok&&ok();},function(st,txt){done();ko&&ko(st,txt);}); }
+    ghReq('GET',path,null,function(r){put(r.sha);},function(st){ if(st===404) put(null); else {done();ko&&ko(st);} });
+  }
+  function ghError(st,txt){
+    if(st===401) toast('Jeton refusé : vérifie qu\'il est valide (401)');
+    else if(st===403) toast('Jeton sans droit d\'écriture sur ce dépôt (403)');
+    else if(st===404) toast('Dépôt introuvable : '+STATE.repo.owner+'/'+STATE.repo.repo);
+    else toast('Échec de l\'enregistrement ('+st+')');
+  }
+  var saveBadgesTimer=null;
+  function persistBadges(){
+    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes);
+    if(!STATE.owner) return;
+    clearTimeout(saveBadgesTimer);
+    saveBadgesTimer=setTimeout(function(){
+      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),achetes:STATE.achetes},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
+    },1500);
+  }
+  function loadBadgesFromSite(cb){
+    getJSON('data/mes-badges.json',function(b){
+      if(b){ var k; for(k in (b.statuts_sorties||{})) if(!STATE.statuts[k]) STATE.statuts[k]=b.statuts_sorties[k];
+        for(k in (b.statuts_decouvrir||{})) if(!STATE.dstatuts[k]) STATE.dstatuts[k]=b.statuts_decouvrir[k];
+        (b.masques||[]).forEach(function(m){STATE.hidden[m]=1;});
+        var have={}; STATE.achetes.forEach(function(a){have[key(a.groupe,a.album)]=1;});
+        (b.achetes||[]).forEach(function(a){if(!have[key(a.groupe,a.album)]) STATE.achetes.push(a);});
+        saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes);
+      }
+      cb&&cb();
+    },function(){cb&&cb();});
+  }
+  function activerOwner(){
+    var repo=STATE.repo||detectRepo();
+    if(!repo){ var r=prompt('Dépôt GitHub (ex : Moulkator/CDs) :',''); if(!r||r.indexOf('/')<0) return; repo={owner:r.split('/')[0].trim(),repo:r.split('/')[1].trim()}; }
+    var t=prompt('Colle ton jeton GitHub (fine-grained token, droit Contents : écriture sur ce dépôt).\nIl reste uniquement dans ce navigateur.','');
+    if(!t) return;
+    STATE.token=t.trim(); STATE.repo=repo; saveLS(KEY_TOKEN,STATE.token); saveLS(KEY_REPO,repo);
+    ghReq('GET','data/watchlist-manuel.json',null,function(){ STATE.owner=true; renderOwner(); toast('Mode propriétaire activé sur '+repo.owner+'/'+repo.repo); renderSorties(); },function(st,txt){ STATE.token=''; localStorage.removeItem(KEY_TOKEN); ghError(st,txt); });
+  }
+  function desactiverOwner(){ STATE.owner=false; STATE.token=''; localStorage.removeItem(KEY_TOKEN); renderOwner(); renderSorties(); toast('Mode propriétaire désactivé'); }
+  function renderOwner(){
+    $('ownerPanel').style.display=STATE.owner?'':'none';
+    $('btnOwner').textContent=STATE.owner?'🔓 Propriétaire':'🔑 Mode propriétaire';
+    $('btnOwner').classList.toggle('active',STATE.owner);
+    $('btnExport').style.display=STATE.owner?'none':'';
+    var dl=$('dlGroupes'); dl.innerHTML=STATE.artists.map(function(a){return '<option value="'+esc(a.groupe)+'">';}).join('');
+  }
+  function fillForm(it){
+    STATE.editKey=it?key(it.groupe,it.album):null;
+    $('ownerTitle').textContent=it?'Modifier la sortie':'Ajouter une sortie';
+    $('fGroupe').value=it?it.groupe:''; $('fAlbum').value=it?it.album:''; $('fPrecision').value=it?(it.precision||'exact'):'exact';
+    $('fDate').value=it?(it.date||''):''; $('fPochette').value=it?(it.pochette||''):''; $('fNote').value=it?(it.note||''):'';
+    $('fCancel').style.display=it?'':'none'; updateDatePlaceholder();
+    if(it) $('ownerPanel').scrollIntoView({behavior:'smooth'});
+  }
+  function updateDatePlaceholder(){ var p=$('fPrecision').value; $('fDate').placeholder={exact:'AAAA-MM-JJ',month:'AAAA-MM',year:'AAAA',unknown:'(vide)'}[p]; $('fDate').disabled=(p==='unknown'); if(p==='unknown')$('fDate').value=''; }
+  function saveManual(){
+    var g=$('fGroupe').value.trim(), a=$('fAlbum').value.trim(), p=$('fPrecision').value, d=$('fDate').value.trim();
+    if(!g||!a){toast('Groupe et album obligatoires');return;}
+    var re={exact:/^\d{4}-\d{2}-\d{2}$/,month:/^\d{4}-\d{2}$/,year:/^\d{4}$/,unknown:/^$/}[p];
+    if(!re.test(d)){toast('Format de date attendu : '+$('fDate').placeholder);return;}
+    var item={groupe:g,album:a,date:d,precision:p,note:$('fNote').value.trim()}; var pc=$('fPochette').value.trim(); if(pc) item.pochette=pc;
+    var k=key(g,a), list=STATE.manual.filter(function(m){return key(m.groupe,m.album)!==k&&key(m.groupe,m.album)!==STATE.editKey;});
+    list.push(item); list.sort(function(x,y){return (x.date||'9999')<(y.date||'9999')?-1:1;});
+    ghWrite('data/watchlist-manuel.json',list,(STATE.editKey?'Modification':'Ajout')+' : '+g+' — '+a,function(){
+      STATE.manual=list; fillForm(null); toast('Enregistré. Le site public se met à jour dans une minute.'); rebuildSorties();
+    },ghError);
+  }
+  function deleteManual(it){
+    if(!confirm('Supprimer « '+it.groupe+' — '+it.album+' » de ta liste manuelle ?')) return;
+    var k=key(it.groupe,it.album), list=STATE.manual.filter(function(m){return key(m.groupe,m.album)!==k;});
+    ghWrite('data/watchlist-manuel.json',list,'Suppression : '+it.groupe+' — '+it.album,function(){STATE.manual=list;toast('Supprimé');rebuildSorties();},ghError);
+  }
 
   // ------------------------------------------------------------ dates
   function parseDate(raw){
@@ -152,10 +275,9 @@ audio{width:100%;height:32px}
     if(STATE.achetes.some(function(a){return key(a.groupe,a.album)===k;})) return;
     var st=STATE.artistStyle[norm(item.groupe)]||{};
     STATE.achetes.push({groupe:item.groupe,album:item.album,style:st.style||'',pays:st.pays||'',langue:'',annee:(item.date||'').slice(0,4),note:'',pochette:item.pochette||'',preview:'',historique:'',auto_source:'ajouté depuis Sorties à surveiller',auto_fields:'',pending_review:'1',review_reason:'ajouté via le badge Acheté ; à compléter'});
-    saveLS(KEY_ACHETES,STATE.achetes);
     toast('Ajouté à la collection personnelle');
   }
-  function retirerAchat(item){var k=key(item.groupe,item.album);STATE.achetes=STATE.achetes.filter(function(a){return key(a.groupe,a.album)!==k;});saveLS(KEY_ACHETES,STATE.achetes);}
+  function retirerAchat(item){var k=key(item.groupe,item.album);STATE.achetes=STATE.achetes.filter(function(a){return key(a.groupe,a.album)!==k;});}
 
   // ------------------------------------------------------------ SORTIES
   function renderSorties(){
@@ -169,7 +291,7 @@ audio{width:100%;height:32px}
       if(fs==='_none'&&st) return; if(fs&&fs!=='_none'&&st!==fs) return;
       if(q&&norm(it.groupe+' '+it.album).indexOf(q)<0) return;
       n++;
-      var inKnown=STATE.known[k];
+      var inKnown=STATE.known[k]; var isManual=STATE.manual.some(function(m){return key(m.groupe,m.album)===k;});
       var c=document.createElement('div'); c.className='card';
       var badges='';
       if(past) badges+='<span class="badge sorti">Sorti</span>';
@@ -183,29 +305,30 @@ audio{width:100%;height:32px}
         '<div class="g">'+esc(it.groupe)+'</div><div class="a">'+esc(it.album)+'</div>'+
         '<div class="d">'+esc(fmtDate(it.date,it.precision))+'</div>'+
         '<div class="badges">'+badges+'</div>'+statusMarkup(st,'')+
-        '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(it.groupe)+'&type=band_name">Metallum</a><a target="_blank" rel="noopener" href="https://www.discogs.com/search/?type=release&format_exact=CD&q='+q2+'">Discogs</a></div>';
-      c.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.statuts[k];setStatut(STATE.statuts,k,s);saveLS(KEY_STATUT,STATE.statuts);if(STATE.statuts[k]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);renderSorties();});});
+        '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(it.groupe)+'&type=band_name">Metallum</a><a target="_blank" rel="noopener" href="https://www.discogs.com/search/?type=release&format_exact=CD&q='+q2+'">Discogs</a></div>'+
+        (STATE.owner?'<div class="own"><button data-act="edit">'+(isManual?'Modifier':'Corriger la date / pochette')+'</button>'+(isManual?'<button data-act="del">Supprimer</button>':'')+'</div>':'');
+      if(STATE.owner){ c.querySelector('[data-act=edit]').addEventListener('click',function(){var m=STATE.manual.filter(function(x){return key(x.groupe,x.album)===k;})[0];fillForm(m||{groupe:it.groupe,album:it.album,date:it.date,precision:it.precision,pochette:it.pochette});}); var db=c.querySelector('[data-act=del]'); if(db) db.addEventListener('click',function(){var m=STATE.manual.filter(function(x){return key(x.groupe,x.album)===k;})[0]; if(m) deleteManual(m);}); }
+      c.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.statuts[k];setStatut(STATE.statuts,k,s);if(STATE.statuts[k]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);persistBadges();renderSorties();});});
       grid.appendChild(c);
     });
     $('emptySorties').style.display=n?'none':'';
   }
 
+  function rebuildSorties(){
+    var items=STATE.auto.map(function(x){return Object.assign({},x);}), idx={};
+    items.forEach(function(it){idx[key(it.groupe,it.album)]=it;});
+    STATE.manual.forEach(function(m){var k=key(m.groupe,m.album);if(idx[k]){if(m.date){idx[k].date=m.date;idx[k].precision=m.precision||'exact';}else if(m.precision==='unknown'){idx[k].date='';idx[k].precision='unknown';}if(m.pochette)idx[k].pochette=m.pochette;idx[k].source=idx[k].source.indexOf('manuel')<0?idx[k].source+'+manuel':idx[k].source;idx[k].note=m.note||'';}else{var it={groupe:m.groupe,album:m.album,date:m.date||'',precision:m.precision||(m.date?'exact':'unknown'),type:'album',pochette:m.pochette||'',source:'manuel',note:m.note||''};items.push(it);idx[k]=it;}});
+    items.sort(function(a,b){return (a.date||'9999')<(b.date||'9999')?-1:1;});
+    STATE.sorties=items;
+    var av=items.filter(function(i){return !isPast(i.date,i.precision);}).length;
+    $('subSorties').textContent=items.length+' sorties suivies, dont '+av+' à venir'+(STATE.generated?' — données du '+STATE.generated.slice(0,10):'');
+    renderSorties();
+  }
   function chargerSorties(){
     getJSON('data/sorties.json',function(js){
-      var items=(js.items||[]).slice();
-      getJSON('data/watchlist-manuel.json',function(man){
-        var idx={}; items.forEach(function(it){idx[key(it.groupe,it.album)]=it;});
-        (man||[]).forEach(function(m){var k=key(m.groupe,m.album);if(idx[k]){if(m.date){idx[k].date=m.date;idx[k].precision=m.precision||'exact';}if(m.pochette)idx[k].pochette=m.pochette;}else{var it={groupe:m.groupe,album:m.album,date:m.date||'',precision:m.precision||(m.date?'exact':'unknown'),type:'album',pochette:m.pochette||'',source:'manuel'};items.push(it);idx[k]=it;}});
-        finish(items,js.generated);
-      },function(){finish(items,js.generated);});
+      STATE.auto=(js.items||[]).slice(); STATE.generated=js.generated||'';
+      getJSON('data/watchlist-manuel.json',function(man){STATE.manual=man||[];rebuildSorties();},function(){rebuildSorties();});
     },function(){$('subSorties').textContent='Impossible de lire data/sorties.json (ouvre la page depuis le site en ligne, pas en local).';});
-    function finish(items,gen){
-      items.sort(function(a,b){return (a.date||'9999')<(b.date||'9999')?-1:1;});
-      STATE.sorties=items;
-      var av=items.filter(function(i){return !isPast(i.date,i.precision);}).length;
-      $('subSorties').textContent=items.length+' sorties suivies, dont '+av+' à venir'+(gen?' — données du '+gen.slice(0,10):'');
-      renderSorties();
-    }
   }
 
   // ------------------------------------------------------------ À DÉCOUVRIR
@@ -281,8 +404,8 @@ audio{width:100%;height:32px}
         '<div class="sim">Similaire à '+esc(c.from.slice(0,4).join(', '))+(c.from.length>4?' (+'+(c.from.length-4)+')':'')+(toks.length?'<br>Affinités : '+esc(toks.join(', ')):'')+'</div>'+
         statusMarkup(st,'')+
         '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/artist/'+c.id+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+q2+'&type=band_name">Metallum</a></div>';
-      el.querySelector('.hide').addEventListener('click',function(){STATE.hidden[nk]=1;saveLS(KEY_HIDDEN,STATE.hidden);el.remove();toast('Masqué');});
-      el.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.dstatuts[nk];setStatut(STATE.dstatuts,nk,s);saveLS(KEY_DSTATUT,STATE.dstatuts);var it={groupe:c.name,album:c.album||'',date:'',pochette:c.cover||''};if(STATE.dstatuts[nk]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);el.querySelectorAll('.status button').forEach(function(x){x.className=(STATE.dstatuts[nk]===x.getAttribute('data-s')?'on':'')+(x.getAttribute('data-s')==='Acheté'?' achete':'');});});});
+      el.querySelector('.hide').addEventListener('click',function(){STATE.hidden[nk]=1;persistBadges();el.remove();toast('Masqué');});
+      el.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.dstatuts[nk];setStatut(STATE.dstatuts,nk,s);var it={groupe:c.name,album:c.album||'',date:'',pochette:c.cover||''};if(STATE.dstatuts[nk]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);persistBadges();el.querySelectorAll('.status button').forEach(function(x){x.className=(STATE.dstatuts[nk]===x.getAttribute('data-s')?'on':'')+(x.getAttribute('data-s')==='Acheté'?' achete':'');});});});
       grid.appendChild(el);
     });
     $('btnPlus').style.display=STATE.decShown<list.length?'':'none';
@@ -304,9 +427,12 @@ audio{width:100%;height:32px}
   $('tabSorties').addEventListener('click',function(){showTab('s');});
   $('tabDecouvrir').addEventListener('click',function(){showTab('d');});
   $('btnExport').addEventListener('click',exporter);
+  $('btnOwner').addEventListener('click',function(){ if(STATE.owner) fillForm(null); else activerOwner(); });
+  $('ownerLogout').addEventListener('click',function(e){e.preventDefault();desactiverOwner();});
+  $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){fillForm(null);}); $('fPrecision').addEventListener('change',updateDatePlaceholder);
   $('btnDecouvrir').addEventListener('click',function(){chercherDecouvertes(true);});
   $('btnPlus').addEventListener('click',function(){renderDecouvrir(false);});
-  $('btnResetHidden').addEventListener('click',function(){STATE.hidden={};saveLS(KEY_HIDDEN,STATE.hidden);renderDecouvrir(true);toast('Liste réinitialisée');});
+  $('btnResetHidden').addEventListener('click',function(){STATE.hidden={};persistBadges();renderDecouvrir(true);toast('Liste réinitialisée');});
   ['filtreSorties','filtreStatut'].forEach(function(id){$(id).addEventListener('change',renderSorties);});
   $('searchSorties').addEventListener('input',renderSorties);
 
@@ -316,8 +442,9 @@ audio{width:100%;height:32px}
     STATE.artists=arts||[];
     STATE.artists.forEach(function(a){STATE.artistStyle[norm(a.groupe)]={style:(a.styles||[])[0]||'',pays:a.pays||''};if(a.search)STATE.artistStyle[norm(a.search)]=STATE.artistStyle[norm(a.groupe)];});
     calcWeights();
-    chargerSorties();
-    if(location.hash==='#decouvrir') showTab('d');
+    STATE.token=loadLS(KEY_TOKEN,''); STATE.repo=loadLS(KEY_REPO,null)||detectRepo(); STATE.owner=!!(STATE.token&&STATE.repo);
+    renderOwner(); updateDatePlaceholder();
+    loadBadgesFromSite(function(){ chargerSorties(); if(location.hash==='#decouvrir') showTab('d'); });
   },function(){$('subSorties').textContent='Impossible de lire data/artists.json.';});
 })();
 </script>
