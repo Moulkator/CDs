@@ -43,15 +43,23 @@
   "pochette": "https://f4.bcbits.com/img/a2827788561_10.jpg"
  },
  {
-  "groupe": "Gloryhammer",
-  "album": "Space 1993: Wrath of Kor-Virliath",
+  "groupe": "Shores of Null",
+  "album": "Homesick",
+  "date": "2026-10-16",
+  "precision": "exact",
+  "note": "",
+  "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg"
+ },
+ {
+  "groupe": "Insomnium",
+  "album": "Netherworlds",
   "date": "2026-10-16",
   "precision": "exact",
   "note": ""
  },
  {
-  "groupe": "Insomnium",
-  "album": "Netherworlds",
+  "groupe": "Gloryhammer",
+  "album": "Space 1993: Wrath of Kor-Virliath",
   "date": "2026-10-16",
   "precision": "exact",
   "note": ""
