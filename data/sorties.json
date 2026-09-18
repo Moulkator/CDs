@@ -1,0 +1,98 @@
+{
+ "generated": "2026-09-17T00:00:00Z",
+ "sources": [
+  "manuel"
+ ],
+ "items": [
+  {
+   "groupe": "Angus McSix",
+   "album": "Angus McSix and the All-Seeing Astral Eye",
+   "date": "2026-03-13",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Cnoc an Tursa",
+   "album": "A Cry for the Slain",
+   "date": "2026-04-12",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Atavistia",
+   "album": "Old Gods Awaken",
+   "date": "2026-05-15",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Whispered",
+   "album": "Honorbound",
+   "date": "2026-09-11",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Brymir",
+   "album": "What We Leave Behind",
+   "date": "2026-10-02",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Insomnium",
+   "album": "Netherworlds",
+   "date": "2026-10-16",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Gloryhammer",
+   "album": "Space 1993: Wrath of Kor-Virliath",
+   "date": "2026-10-16",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Vanaheim",
+   "album": "Roede voor de Borst",
+   "date": "2026-09-04",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Týr",
+   "album": "Týr",
+   "date": "2026-11-17",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  },
+  {
+   "groupe": "Aether Realm",
+   "album": "Season of Bloodshed",
+   "date": "2026-12-11",
+   "precision": "exact",
+   "pochette": "",
+   "source": "manuel",
+   "type": "album"
+  }
+ ]
+}
