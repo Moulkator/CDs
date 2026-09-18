@@ -22,6 +22,6 @@ jobs:
         run: |
           git config user.name "sorties-bot"
           git config user.email "sorties-bot@users.noreply.github.com"
-          git add data/sorties.json data/mbid-cache.json
+          git add data/sorties.json data/mbid-cache.json data/watchlist-manuel.json
           git diff --staged --quiet || git commit -m "Mise à jour automatique des sorties"
           git push
