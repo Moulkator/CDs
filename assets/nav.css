@@ -1,0 +1,12 @@
+/* Barre de navigation commune à toutes les pages */
+#topnav{position:sticky;top:0;z-index:80;display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 14px;background:rgba(21,24,30,.96);border-bottom:1px solid #2a2f3a;backdrop-filter:blur(6px)}
+#topnav .brand{color:#c9a227;font-weight:900;letter-spacing:2px;text-decoration:none;font-size:.95rem;padding:6px 4px;white-space:nowrap}
+#topnav .navlinks{display:flex;gap:4px;flex:1 1 0;min-width:0;overflow-x:auto;scrollbar-width:none;justify-content:center}
+#topnav .navlinks::-webkit-scrollbar{display:none}
+#topnav .navlinks a{color:#e8e4da;text-decoration:none;font-size:.85rem;font-weight:600;padding:8px 13px;border-radius:999px;border:1px solid transparent;white-space:nowrap}
+#topnav .navlinks a:hover{border-color:#2a2f3a;background:#1c2028}
+#topnav .navlinks a.active{background:linear-gradient(135deg,#c9a227,#e0b94a);color:#0c0e11}
+#topnav .owner{border:1px solid #2a2f3a;background:#1c2028;color:#e8e4da;border-radius:999px;padding:7px 12px;font-size:.8rem;font-weight:600;cursor:pointer;white-space:nowrap;font-family:inherit}
+#topnav .owner.on{border-color:#5a4a1a;color:#c9a227}
+#topnav .owner.on:hover{border-color:#a02c2c;color:#ff8a8a}
+@media (max-width:640px){#topnav{padding:6px 8px;gap:6px;flex-wrap:nowrap}#topnav .owner{padding:7px 9px;font-size:.9rem}#topnav .owner .lbl{display:none}#topnav .brand{display:none}#topnav .navlinks{justify-content:flex-start}#topnav .navlinks a{padding:7px 10px;font-size:.8rem}}
