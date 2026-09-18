@@ -1,0 +1,106 @@
+[
+ {
+  "groupe": "A Tribute To Emperor",
+  "suivi": false
+ },
+ {
+  "groupe": "Bal Sagoth",
+  "search": "Bal-Sagoth"
+ },
+ {
+  "groupe": "Batbat",
+  "suivi": false
+ },
+ {
+  "groupe": "Blut Aus Nord",
+  "search": "Blut aus Nord"
+ },
+ {
+  "groupe": "Cawatana / Storm of Capricorn",
+  "suivi": false
+ },
+ {
+  "groupe": "Cnoc An Tursa",
+  "search": "Cnoc an Tursa"
+ },
+ {
+  "groupe": "DAATH",
+  "search": "Dååth"
+ },
+ {
+  "groupe": "Dragonforce",
+  "search": "DragonForce"
+ },
+ {
+  "groupe": "Fortid",
+  "search": "Fortíð"
+ },
+ {
+  "groupe": "Hoth",
+  "mb_query": "artist:Hoth AND country:US AND type:group"
+ },
+ {
+  "groupe": "Kaotik",
+  "suivi": false
+ },
+ {
+  "groupe": "Kivimetsan Druidi",
+  "search": "Kivimetsän Druidi"
+ },
+ {
+  "groupe": "Luca Turili’s Rhapsody",
+  "search": "Luca Turilli's Rhapsody"
+ },
+ {
+  "groupe": "Manegarm",
+  "search": "Månegarm"
+ },
+ {
+  "groupe": "Mauvaise Pioche & Noé Talbot",
+  "suivi": false
+ },
+ {
+  "groupe": "Motorhead",
+  "search": "Motörhead"
+ },
+ {
+  "groupe": "Nevid",
+  "search": "Невидь"
+ },
+ {
+  "groupe": "Noumena",
+  "mb_query": "artist:Noumena AND country:FI AND type:group"
+ },
+ {
+  "groupe": "Run! Run! Jump! Punch! x Marty Can Fly",
+  "suivi": false
+ },
+ {
+  "groupe": "SepticFlesh",
+  "search": "Septicflesh"
+ },
+ {
+  "groupe": "Skalmold",
+  "search": "Skálmöld"
+ },
+ {
+  "groupe": "Skylord",
+  "suivi": false
+ },
+ {
+  "groupe": "The Eye",
+  "suivi": false
+ },
+ {
+  "groupe": "TrollfesT",
+  "search": "Trollfest"
+ },
+ {
+  "groupe": "Tyr",
+  "search": "Týr"
+ },
+ {
+  "groupe": "Vader",
+  "mbid": "db859a53-b7ca-4892-bcda-5ef78d2c891f"
+ }
+]
