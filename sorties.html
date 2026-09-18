@@ -12,7 +12,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 button,input,select{font:inherit}
 a{color:var(--blue);text-decoration:none}
 .wrap{max-width:1100px;margin:0 auto;padding:18px 18px 70px}
-body:not(.owner) #ownerPanel{display:none !important}
+body:not(.owner) #ownerPanel,body:not(.owner) .owner-only{display:none !important}
 nav.top{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px}
 nav.top a,nav.top button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:.85rem;font-weight:600;cursor:pointer}
 nav.top .active{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}
@@ -40,6 +40,8 @@ header p{color:var(--muted);margin:6px 0 0;font-size:.9rem}
 .badge.collec{background:var(--blue);color:#0c0e11;border-color:transparent}
 .badge.src{color:var(--muted);font-weight:500}
 .status{display:flex;flex-wrap:wrap;gap:4px}
+.pbtn{width:100%;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:6px;font-size:.78rem;cursor:pointer}
+.pbtn:hover{border-color:var(--gold);color:var(--gold)}
 .status button{flex:1 1 auto;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:5px 4px;font-size:.72rem;cursor:pointer}
 .status button.on{background:var(--gold);color:#0c0e11;border-color:transparent;font-weight:700}
 .status button.on.achete{background:var(--green)}
@@ -77,6 +79,7 @@ audio{width:100%;height:32px}
     <h1>SORTIES <span>À SURVEILLER</span></h1>
     <p id="subSorties">Chargement…</p>
   </header>
+  <div class="controls owner-only" id="ownerBar"><button class="btn gold" id="btnAddRelease">＋ Ajouter une sortie</button></div>
   <div class="owner" id="ownerPanel" style="display:none">
     <h2 id="ownerTitle">Ajouter une sortie</h2>
     <div class="row">
@@ -109,6 +112,8 @@ audio{width:100%;height:32px}
       <option value="Écouté">Écouté</option>
       <option value="Téléchargé">Téléchargé</option>
       <option value="Acheté">Acheté</option>
+      <option value="_collec">Dans la collection</option>
+      <option value="_wish">Dans la wishlist</option>
     </select>
     <input type="search" id="searchSorties" placeholder="Rechercher groupe / album">
   </div>
@@ -216,7 +221,7 @@ audio{width:100%;height:32px}
   }
   function syncOwnerFromNav(){ STATE.owner=!!(window.OwnerMode&&OwnerMode.isOn()); STATE.token=STATE.owner?OwnerMode.token():''; STATE.repo=STATE.owner?OwnerMode.repo():(STATE.repo||detectRepo()); renderOwner(); }
   function renderOwner(){
-    $('ownerPanel').style.display=STATE.owner?'':'none';
+    if(!STATE.owner) $('ownerPanel').style.display='none';
     var dl=$('dlGroupes'); dl.innerHTML=STATE.artists.map(function(a){return '<option value="'+esc(a.groupe)+'">';}).join('');
   }
   function fillForm(it){
@@ -224,8 +229,8 @@ audio{width:100%;height:32px}
     $('ownerTitle').textContent=it?'Modifier la sortie':'Ajouter une sortie';
     $('fGroupe').value=it?it.groupe:''; $('fAlbum').value=it?it.album:''; $('fPrecision').value=it?(it.precision||'exact'):'exact';
     $('fDate').value=it?(it.date||''):''; $('fPochette').value=it?(it.pochette||''):''; $('fNote').value=it?(it.note||''):'';
-    $('fCancel').style.display=it?'':'none'; updateDatePlaceholder();
-    if(it) $('ownerPanel').scrollIntoView({behavior:'smooth'});
+    $('fCancel').style.display=''; updateDatePlaceholder();
+    $('ownerPanel').style.display=''; $('ownerPanel').scrollIntoView({behavior:'smooth',block:'nearest'}); $(it?'fAlbum':'fGroupe').focus();
   }
   function updateDatePlaceholder(){ var p=$('fPrecision').value; $('fDate').placeholder={exact:'AAAA-MM-JJ',month:'AAAA-MM',year:'AAAA',unknown:'(vide)'}[p]; $('fDate').disabled=(p==='unknown'); if(p==='unknown')$('fDate').value=''; }
   function saveManual(){
@@ -237,7 +242,7 @@ audio{width:100%;height:32px}
     var k=key(g,a), list=STATE.manual.filter(function(m){return key(m.groupe,m.album)!==k&&key(m.groupe,m.album)!==STATE.editKey;});
     list.push(item); list.sort(function(x,y){return (x.date||'9999')<(y.date||'9999')?-1:1;});
     ghWrite('data/watchlist-manuel.json',list,(STATE.editKey?'Modification':'Ajout')+' : '+g+' — '+a,function(){
-      STATE.manual=list; if(STATE.exclus[k]){delete STATE.exclus[k];persistBadges();} fillForm(null); toast('Enregistré. Le site public se met à jour dans une minute.'); rebuildSorties();
+      STATE.manual=list; if(STATE.exclus[k]){delete STATE.exclus[k];persistBadges();} STATE.editKey=null; $('ownerPanel').style.display='none'; toast('Enregistré. Le site public se met à jour dans une minute.'); rebuildSorties();
     },ghError);
   }
   function deleteManual(it){
@@ -279,6 +284,22 @@ audio{width:100%;height:32px}
   }
   function retirerAchat(item){var k=key(item.groupe,item.album);STATE.achetes=STATE.achetes.filter(function(a){return key(a.groupe,a.album)!==k;});}
 
+  // ------------------------------------------------------------ extraits Deezer
+  function playPreview(box, groupe, album){
+    box.innerHTML='<div class="d">Recherche de l\'extrait…</div>';
+    function show(t){ if(!t||!t.preview){ box.innerHTML='<div class="d">Pas d\'extrait Deezer pour cet album (pas encore disponible en streaming ?)</div>'; return; }
+      box.innerHTML='<audio controls autoplay src="'+esc(t.preview)+'"></audio><div class="d">Extrait : '+esc(t.title||'')+(t.album&&t.album.title?' — '+esc(t.album.title):'')+'</div>';
+      var a=box.querySelector('audio'); a.onplay=function(){ document.querySelectorAll('audio').forEach(function(o){ if(o!==a) o.pause(); }); }; }
+    jsonp('https://api.deezer.com/search?q='+encodeURIComponent('artist:"'+groupe+'" album:"'+album+'"')+'&limit=1',function(r){
+      var t=((r&&r.data)||[])[0];
+      if(t){ show(t); return; }
+      jsonp('https://api.deezer.com/search?q='+encodeURIComponent(groupe+' '+album)+'&limit=5',function(r2){
+        var list=((r2&&r2.data)||[]).filter(function(x){ return x.artist&&norm(x.artist.name)===norm(groupe); });
+        show(list[0]||null);
+      },function(){ show(null); });
+    },function(){ show(null); });
+  }
+
   // ------------------------------------------------------------ SORTIES
   function renderSorties(){
     var f=$('filtreSorties').value, fs=$('filtreStatut').value, q=norm($('searchSorties').value);
@@ -291,7 +312,8 @@ audio{width:100%;height:32px}
       if(showMasked!==masked) return;
       if(f==='avenir'&&past) return; if(f==='sortis'&&!past) return;
       var k=key(it.groupe,it.album), st=STATE.statuts[k]||'';
-      if(fs==='_none'&&st) return; if(fs&&fs!=='_none'&&st!==fs) return;
+      var inKnown0=STATE.known[k];
+      if(fs==='_none'&&st) return; if(fs==='_collec'&&inKnown0!=='collection') return; if(fs==='_wish'&&inKnown0!=='wishlist') return; if(fs&&fs.charAt(0)!=='_'&&st!==fs) return;
       if(q&&norm(it.groupe+' '+it.album).indexOf(q)<0) return;
       n++;
       var inKnown=STATE.known[k]; var isManual=STATE.manual.some(function(m){return key(m.groupe,m.album)===k;});
@@ -307,7 +329,7 @@ audio{width:100%;height:32px}
       c.innerHTML='<img class="cover" src="'+esc(it.pochette||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'">'+
         '<div class="g">'+esc(it.groupe)+'</div><div class="a">'+esc(it.album)+'</div>'+
         '<div class="d">'+esc(fmtDate(it.date,it.precision))+'</div>'+
-        '<div class="badges">'+badges+'</div>'+statusMarkup(st,'')+
+        '<div class="badges">'+badges+'</div><div class="prev" data-q="'+esc(it.groupe+' '+it.album)+'"><button class="pbtn">▶ Écouter un extrait</button></div>'+statusMarkup(st,'')+
         '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(it.groupe)+'&type=band_name">Metallum</a><a target="_blank" rel="noopener" href="https://www.discogs.com/search/?type=release&format_exact=CD&q='+q2+'">Discogs</a></div>'+
         '<div class="acts">'+(STATE.owner?'<button class="own" data-act="edit">'+(isManual?'Modifier':'Corriger')+'</button>':'')+
         (masked?'<button data-act="restore">Réafficher</button>'+(STATE.ignores[norm(it.groupe)]?'<button data-act="follow">Suivre à nouveau le groupe</button>':''):
@@ -317,6 +339,7 @@ audio{width:100%;height:32px}
       var bi=c.querySelector('[data-act=ignore]'); if(bi) bi.addEventListener('click',function(){ if(!confirm('Ne plus suivre « '+it.groupe+' » : toutes ses sorties seront masquées et le robot nocturne l\'ignorera. Continuer ?')) return; STATE.ignores[norm(it.groupe)]=1; persistBadges(); renderSorties(); toast('Groupe non suivi'); });
       var br=c.querySelector('[data-act=restore]'); if(br) br.addEventListener('click',function(){ delete STATE.exclus[k]; persistBadges(); renderSorties(); });
       var bf=c.querySelector('[data-act=follow]'); if(bf) bf.addEventListener('click',function(){ delete STATE.ignores[norm(it.groupe)]; persistBadges(); renderSorties(); toast('Groupe suivi à nouveau'); });
+      c.querySelector('.pbtn').addEventListener('click',function(){ playPreview(c.querySelector('.prev'), it.groupe, it.album); });
       c.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.statuts[k];setStatut(STATE.statuts,k,s);if(STATE.statuts[k]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);persistBadges();renderSorties();});});
       grid.appendChild(c);
     });
@@ -440,7 +463,8 @@ audio{width:100%;height:32px}
   function showFromHash(){ showTab((location.hash||'')==='#decouvrir'?'d':'s'); }
   window.addEventListener('hashchange',showFromHash);
   document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
-  $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){fillForm(null);}); $('fPrecision').addEventListener('change',updateDatePlaceholder);
+  $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){STATE.editKey=null;$('ownerPanel').style.display='none';});
+  $('btnAddRelease').addEventListener('click',function(){fillForm(null);}); $('fPrecision').addEventListener('change',updateDatePlaceholder);
   $('btnDecouvrir').addEventListener('click',function(){chercherDecouvertes(true);});
   $('btnPlus').addEventListener('click',function(){renderDecouvrir(false);});
   $('btnResetHidden').addEventListener('click',function(){STATE.hidden={};persistBadges();renderDecouvrir(true);toast('Liste réinitialisée');});
