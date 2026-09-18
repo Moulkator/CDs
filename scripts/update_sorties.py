@@ -264,7 +264,7 @@ def deezer_releases(artist):
         d, prec = parse_date(raw)
         if not d or d < TODAY - timedelta(days=LOOKBACK_DAYS):
             continue
-        out.append({
+        item = {
             "groupe": artist["groupe"],
             "album": al.get("title", ""),
             "date": raw,
@@ -273,7 +273,11 @@ def deezer_releases(artist):
             "pochette": al.get("cover_big") or al.get("cover_medium") or "",
             "source": "deezer",
             "deezer_id": al.get("id"),
-        })
+        }
+        detail = deezer_get(f"/album/{al.get('id')}") if al.get("id") else None
+        if detail and detail.get("duration"):
+            item["duree"] = str(round(detail["duration"] / 60))
+        out.append(item)
     return out
 
 
@@ -334,7 +338,7 @@ def main():
         if not cur.get("pochette") and item.get("pochette"):
             cur["pochette"] = item["pochette"]
         cur["source"] = "+".join(sorted(set(cur["source"].split("+") + item["source"].split("+"))))
-        for f in ("mb_rg", "deezer_id"):
+        for f in ("mb_rg", "deezer_id", "duree"):
             if item.get(f) and not cur.get(f):
                 cur[f] = item[f]
 
@@ -375,10 +379,11 @@ def main():
         else:
             merged[k] = item
 
-    # on conserve une pochette trouvée lors d'un run précédent si elle a disparu
+    # on conserve une pochette / durée trouvée lors d'un run précédent si elle a disparu
     for k, it in merged.items():
-        if not it.get("pochette") and prev_by_key.get(k, {}).get("pochette"):
-            it["pochette"] = prev_by_key[k]["pochette"]
+        for f in ("pochette", "duree"):
+            if not it.get(f) and prev_by_key.get(k, {}).get(f):
+                it[f] = prev_by_key[k][f]
 
     items = [it for k, it in merged.items() if k not in exclus and norm(it["groupe"]) not in ignores]
     items = sorted(items, key=lambda x: (x["date"] or "9999", norm(x["groupe"])))
