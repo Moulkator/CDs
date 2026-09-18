@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sorties à surveiller & À découvrir</title>
+<link rel="stylesheet" href="assets/nav.css">
 <style>
 :root{--bg:#0c0e11;--panel:#15181e;--panel2:#1c2028;--text:#e8e4da;--muted:#9a93c4;--gold:#c9a227;--line:#2a2f3a;--red:#a02c2c;--green:#4caf50;--blue:#79c6ff}
 *{box-sizing:border-box} html,body{margin:0;padding:0}
@@ -11,6 +12,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 button,input,select{font:inherit}
 a{color:var(--blue);text-decoration:none}
 .wrap{max-width:1100px;margin:0 auto;padding:18px 18px 70px}
+body:not(.owner) #ownerPanel{display:none !important}
 nav.top{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px}
 nav.top a,nav.top button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:.85rem;font-weight:600;cursor:pointer}
 nav.top .active{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}
@@ -66,14 +68,9 @@ audio{width:100%;height:32px}
 </style>
 </head>
 <body>
+<div id="topnav"></div>
 <div class="wrap">
-<nav class="top">
-  <a href="index.html">← Liste de souhaits / Collection</a>
-  <button id="tabSorties" class="active">Sorties à surveiller</button>
-  <button id="tabDecouvrir">À découvrir</button>
-  <button id="btnOwner">🔑 Mode propriétaire</button>
-  <button id="btnExport">Exporter</button>
-</nav>
+
 
 <section id="secSorties" class="section active">
   <header>
@@ -96,7 +93,7 @@ audio{width:100%;height:32px}
       <button class="btn gold" id="fSave">Enregistrer dans le site</button>
       <button class="btn" id="fCancel" style="display:none">Annuler</button>
     </div>
-    <div class="help">Écrit directement <code>data/watchlist-manuel.json</code> dans ton dépôt GitHub. Tes badges, achats et « pas intéressé » sont aussi enregistrés automatiquement dans <code>data/mes-badges.json</code>. <a href="#" id="ownerLogout">Désactiver le mode propriétaire</a></div>
+    <div class="help">Écrit directement <code>data/watchlist-manuel.json</code> dans ton dépôt GitHub. Tes badges, achats et « pas intéressé » sont aussi enregistrés automatiquement dans <code>data/mes-badges.json</code>.</div>
   </div>
   <div class="controls">
     <select id="filtreSorties">
@@ -217,20 +214,9 @@ audio{width:100%;height:32px}
       cb&&cb();
     },function(){cb&&cb();});
   }
-  function activerOwner(){
-    var repo=STATE.repo||detectRepo();
-    if(!repo){ var r=prompt('Dépôt GitHub (ex : Moulkator/CDs) :',''); if(!r||r.indexOf('/')<0) return; repo={owner:r.split('/')[0].trim(),repo:r.split('/')[1].trim()}; }
-    var t=prompt('Colle ton jeton GitHub (fine-grained token, droit Contents : écriture sur ce dépôt).\nIl reste uniquement dans ce navigateur.','');
-    if(!t) return;
-    STATE.token=t.trim(); STATE.repo=repo; saveLS(KEY_TOKEN,STATE.token); saveLS(KEY_REPO,repo);
-    ghReq('GET','data/watchlist-manuel.json',null,function(){ STATE.owner=true; renderOwner(); toast('Mode propriétaire activé sur '+repo.owner+'/'+repo.repo); renderSorties(); },function(st,txt){ STATE.token=''; localStorage.removeItem(KEY_TOKEN); ghError(st,txt); });
-  }
-  function desactiverOwner(){ STATE.owner=false; STATE.token=''; localStorage.removeItem(KEY_TOKEN); renderOwner(); renderSorties(); toast('Mode propriétaire désactivé'); }
+  function syncOwnerFromNav(){ STATE.owner=!!(window.OwnerMode&&OwnerMode.isOn()); STATE.token=STATE.owner?OwnerMode.token():''; STATE.repo=STATE.owner?OwnerMode.repo():(STATE.repo||detectRepo()); renderOwner(); }
   function renderOwner(){
     $('ownerPanel').style.display=STATE.owner?'':'none';
-    $('btnOwner').textContent=STATE.owner?'🔓 Propriétaire':'🔑 Mode propriétaire';
-    $('btnOwner').classList.toggle('active',STATE.owner);
-    $('btnExport').style.display=STATE.owner?'none':'';
     var dl=$('dlGroupes'); dl.innerHTML=STATE.artists.map(function(a){return '<option value="'+esc(a.groupe)+'">';}).join('');
   }
   function fillForm(it){
@@ -450,12 +436,10 @@ audio{width:100%;height:32px}
   }
 
   // ------------------------------------------------------------ init
-  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('tabSorties').classList.toggle('active',t==='s');$('tabDecouvrir').classList.toggle('active',t==='d');if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);}
-  $('tabSorties').addEventListener('click',function(){showTab('s');});
-  $('tabDecouvrir').addEventListener('click',function(){showTab('d');});
-  $('btnExport').addEventListener('click',exporter);
-  $('btnOwner').addEventListener('click',function(){ if(STATE.owner) fillForm(null); else activerOwner(); });
-  $('ownerLogout').addEventListener('click',function(e){e.preventDefault();desactiverOwner();});
+  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');window.scrollTo(0,0);if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);}
+  function showFromHash(){ showTab((location.hash||'')==='#decouvrir'?'d':'s'); }
+  window.addEventListener('hashchange',showFromHash);
+  document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
   $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){fillForm(null);}); $('fPrecision').addEventListener('change',updateDatePlaceholder);
   $('btnDecouvrir').addEventListener('click',function(){chercherDecouvertes(true);});
   $('btnPlus').addEventListener('click',function(){renderDecouvrir(false);});
@@ -480,14 +464,14 @@ audio{width:100%;height:32px}
     STATE.artists=buildArtists(coll,wish,over);
     STATE.artists.forEach(function(a){STATE.artistStyle[norm(a.groupe)]={style:(a.styles||[])[0]||'',pays:a.pays||''};if(a.search)STATE.artistStyle[norm(a.search)]=STATE.artistStyle[norm(a.groupe)];});
     calcWeights();
-    STATE.token=loadLS(KEY_TOKEN,''); STATE.repo=loadLS(KEY_REPO,null)||detectRepo(); STATE.owner=!!(STATE.token&&STATE.repo);
-    renderOwner(); updateDatePlaceholder();
-    loadBadgesFromSite(function(){ chargerSorties(); if(location.hash==='#decouvrir') showTab('d'); });
+    syncOwnerFromNav(); updateDatePlaceholder();
+    loadBadgesFromSite(function(){ chargerSorties(); showFromHash(); });
   }
   getJSON('data/collection.json',function(c){coll=c||[];partLoaded();},function(){$('subSorties').textContent='Impossible de lire data/collection.json (ouvre le site depuis son adresse en ligne).';partLoaded();});
   getJSON('data/wishlist.json',function(w){wish=w||[];partLoaded();},partLoaded);
   getJSON('data/artists.json',function(o){over=o||[];partLoaded();},partLoaded);
 })();
 </script>
+<script src="assets/nav.js"></script>
 </body>
 </html>
