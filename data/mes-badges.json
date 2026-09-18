@@ -1,1 +1,19 @@
-{"maj":"","statuts_sorties":{},"statuts_decouvrir":{},"masques":[],"achetes":[]}
+{
+ "maj": "2026-09-18T21:22:54.129Z",
+ "statuts_sorties": {},
+ "statuts_decouvrir": {
+  "metalocalypse dethklok": "Téléchargé",
+  "northland": "Téléchargé",
+  "soilwork": "Téléchargé",
+  "mors principium est": "Téléchargé",
+  "dark tranquillity": "Écouté"
+ },
+ "masques": [
+  "avatar"
+ ],
+ "sorties_exclues": [
+  "lutece|lutece"
+ ],
+ "groupes_ignores": [],
+ "achetes": []
+}
