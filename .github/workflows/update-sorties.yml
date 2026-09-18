@@ -18,6 +18,11 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scripts/update_sorties.py
+      - name: Notifications Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          SITE_URL: https://moulkator.github.io/CDs/
+        run: python scripts/notify_discord.py
       - name: Commit des données mises à jour
         run: |
           git config user.name "sorties-bot"
