@@ -30,6 +30,7 @@ PREV_FILE = os.path.join(DATA, "sorties-prev.json")
 COLL_FILE = os.path.join(DATA, "collection.json")
 WISH_FILE = os.path.join(DATA, "wishlist.json")
 BADGES_FILE = os.path.join(DATA, "mes-badges.json")
+LOG_FILE = os.path.join(DATA, "events-log.json")  # journal des événements, lu par le résumé hebdo
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()
 SITE_URL = os.environ.get("SITE_URL", "https://moulkator.github.io/CDs/").rstrip("/") + "/"
@@ -142,7 +143,7 @@ def build_embed(it, kind, known, arts_rows):
     embed = {
         "title": f"{g} — {a}",
         "url": f"{SITE_URL}sorties.html#sorties",
-        "color": 0x4CAF50 if kind == "sorti" else 0xC9A227,
+        "color": {"sorti": 0x4CAF50, "annonce": 0xC9A227, "maj": 0x79C6FF}[kind],
         "fields": fields,
         "footer": {"text": f"Source : {it.get('source', '?')}"},
     }
@@ -179,10 +180,6 @@ def main():
             json.dump({"items": cur}, f, ensure_ascii=False, indent=0)
         print("Premier passage : photo de départ enregistrée, aucune notification envoyée.")
         return
-    if not WEBHOOK:
-        print("DISCORD_WEBHOOK absent : aucune notification (le secret GitHub n'est pas défini).")
-        return
-
     prev = {album_key(i["groupe"], i["album"]): i for i in prev_data.get("items", [])}
     known = {}
     coll, wish = load_json(COLL_FILE, []), load_json(WISH_FILE, [])
@@ -208,21 +205,52 @@ def main():
             events.append(("sorti" if is_past(it) else "annonce", it))
         elif is_past(it) and not is_past(old) and it.get("precision") == "exact":
             events.append(("sorti", it))
+        else:
+            changes = []
+            if (it.get("date") or "") != (old.get("date") or "") or (it.get("precision") or "") != (old.get("precision") or ""):
+                if not is_past(it) or is_past(old):  # pas de doublon avec « sorti »
+                    changes.append(f"📅 Date : {fmt_date(old.get('date'), old.get('precision', 'unknown'))} → **{fmt_date(it.get('date'), it.get('precision', 'unknown'))}**")
+            if it.get("pochette") and not old.get("pochette"):
+                changes.append("🖼️ Pochette dévoilée")
+            if (it.get("album") or "") != (old.get("album") or ""):
+                changes.append(f"✏️ Titre : {old.get('album')} → **{it.get('album')}**")
+            if changes and not is_past(it):
+                events.append(("maj", dict(it, _changes=changes)))
 
-    if not events:
+    if events:
+        log = load_json(LOG_FILE, [])
+        stamp = TODAY.isoformat()
+        for kind, it in events:
+            entry = {k: v for k, v in it.items() if not k.startswith("_")}
+            entry.update({"kind": kind, "jour": stamp, "changes": it.get("_changes", [])})
+            log.append(entry)
+        cutoff = (TODAY - timedelta(days=60)).isoformat()
+        log = [e for e in log if e.get("jour", "") >= cutoff]
+        with open(LOG_FILE, "w", encoding="utf-8") as f:
+            json.dump(log, f, ensure_ascii=False, indent=0)
+
+    if not WEBHOOK:
+        print("DISCORD_WEBHOOK absent : aucune notification (le secret GitHub n'est pas défini).")
+    elif not events:
         print("Rien de nouveau, pas de notification.")
     else:
-        events.sort(key=lambda e: (e[0] != "sorti", e[1].get("date") or "9999"))
+        events.sort(key=lambda e: ({"sorti": 0, "annonce": 1, "maj": 2}[e[0]], e[1].get("date") or "9999"))
         sent = 0
         for kind, it in events[:MAX_MESSAGES]:
-            content = ("💿 **Sorti aujourd'hui !**" if kind == "sorti" else "🆕 **Album annoncé**")
+            if kind == "sorti":
+                content = "💿 **Sorti aujourd'hui !**"
+            elif kind == "annonce":
+                content = "🆕 **Album annoncé**"
+            else:
+                content = "🔄 **Mise à jour** — " + " · ".join(it.get("_changes", []))
             ok = send({"content": content, "embeds": [build_embed(it, kind, known, coll + wish)]})
             sent += ok
             print(f"  {'✓' if ok else '✗'} {kind} : {it['groupe']} — {it['album']}")
             time.sleep(1.2)
         if len(events) > MAX_MESSAGES:
             rest = events[MAX_MESSAGES:]
-            lines = "\n".join(f"• {'💿' if kd == 'sorti' else '🆕'} {i['groupe']} — {i['album']} ({fmt_date(i.get('date'), i.get('precision', 'unknown'))})" for kd, i in rest[:40])
+            icons = {"sorti": "💿", "annonce": "🆕", "maj": "🔄"}
+            lines = "\n".join(f"• {icons[kd]} {i['groupe']} — {i['album']} ({fmt_date(i.get('date'), i.get('precision', 'unknown'))})" for kd, i in rest[:40])
             send({"content": f"… et **{len(rest)}** autre(s) :\n{lines}\n{SITE_URL}sorties.html#sorties"})
         print(f"{sent}/{len(events)} notification(s) envoyée(s)")
 
