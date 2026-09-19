@@ -27,6 +27,7 @@ jobs:
       - name: Notifications Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
           SITE_URL: https://moulkator.github.io/CDs/
         run: python scripts/notify_discord.py
       - name: Commit des données mises à jour
