@@ -33,6 +33,7 @@ CACHE_FILE = os.path.join(DATA, "mbid-cache.json")
 BADGES_FILE = os.path.join(DATA, "mes-badges.json")  # écrit par le site en mode propriétaire
 
 KNOWN = {}  # norm(groupe) -> set(norm(album)) ; rempli dans main()
+REFUSED = set()  # "mb:<mbid>" / "dz:<id>" rejetés depuis le site (bouton « Mauvais groupe »)
 
 MB_API = "https://musicbrainz.org/ws/2"
 CAA = "https://coverartarchive.org"
@@ -128,7 +129,7 @@ def resolve_mbid(artist, cache):
     if artist.get("mbid"):  # identifiant fixé à la main dans artists.json
         cache[key] = {"mbid": artist["mbid"], "name": artist["groupe"], "verified": True, "fixed": True, "checked": TODAY.isoformat()}
         return artist["mbid"]
-    if key in cache and cache[key].get("verified") is not None:
+    if key in cache and cache[key].get("verified") is not None and f"mb:{cache[key].get('mbid')}" not in REFUSED:
         return cache[key].get("mbid")
     query = artist.get("mb_query") or f'artist:"{artist["search"]}"'
     js = mb_get("/artist/", {"query": query, "limit": 8})
@@ -140,6 +141,8 @@ def resolve_mbid(artist, cache):
                 norm(al.get("name", "")) == target for al in a.get("aliases", [])
             )
             if not name_ok and int(a.get("score", 0)) < 95 and not artist.get("mb_query"):
+                continue
+            if f"mb:{a['id']}" in REFUSED:
                 continue
             tags = " ".join(t.get("name", "") for t in a.get("tags", [])).lower()
             score = int(a.get("score", 0))
@@ -208,6 +211,7 @@ def mb_releases(artist, mbid):
                 "pochette": "",
                 "source": "musicbrainz",
                 "mb_rg": rg["id"],
+                "refs": [f"mb:{mbid}"],
             })
         total = js.get("release-group-count", 0)
         offset += 100
@@ -245,7 +249,7 @@ def deezer_releases(artist):
         if not js or not js.get("data"):
             return []
         target = norm(artist["search"])
-        hits = [a for a in js["data"] if norm(a.get("name", "")) == target]
+        hits = [a for a in js["data"] if norm(a.get("name", "")) == target and f"dz:{a.get('id')}" not in REFUSED]
     albums = None
     for hit in hits[:3]:
         albums = deezer_get(f"/artist/{hit['id']}/albums", {"limit": 100})
@@ -274,6 +278,7 @@ def deezer_releases(artist):
             "pochette": al.get("cover_big") or al.get("cover_medium") or "",
             "source": "deezer",
             "deezer_id": al.get("id"),
+            "refs": [f"dz:{hit['id']}"],
         }
         out.append(item)
     return out
@@ -379,6 +384,9 @@ def main():
     manual = load_json(MANUAL_FILE, [])
     badges = load_json(BADGES_FILE, {})
     ignores = set(badges.get("groupes_ignores", []))      # groupes « ne plus suivre »
+    REFUSED.update(badges.get("groupes_refuses", []))      # identifiants « mauvais groupe »
+    if REFUSED:
+        print(f"{len(REFUSED)} identification(s) refusée(s) : on cherchera d'autres candidats")
     exclus = set(badges.get("sorties_exclues", []))       # sorties masquées une à une
     artists = [a for a in artists if norm(a["groupe"]) not in ignores and norm(a.get("search", "")) not in ignores]
     artists = [a for a in artists if a.get("suivi", True) is not False]   # suivi: false dans artists.json = pas de veille
@@ -407,6 +415,7 @@ def main():
         for f in ("mb_rg", "deezer_id", "duree"):
             if item.get(f) and not cur.get(f):
                 cur[f] = item[f]
+        cur["refs"] = sorted(set(cur.get("refs", []) + item.get("refs", [])))
 
     n = len(artists)
     for i, artist in enumerate(artists, 1):
