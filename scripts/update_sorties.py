@@ -39,8 +39,9 @@ CAA = "https://coverartarchive.org"
 DEEZER = "https://api.deezer.com"
 UA = "CD-Listes-Sorties/1.0 (site personnel, hébergé sur GitHub Pages)"
 
-# On garde ce qui est sorti depuis moins de N jours, et tout ce qui est à venir.
-LOOKBACK_DAYS = 180
+# On garde ce qui est sorti depuis moins de N jours (10 ans : le site filtre ensuite
+# par 3 / 6 / 12 mois ou par année), et tout ce qui est à venir.
+LOOKBACK_DAYS = 3660
 TODAY = date.today()
 
 session = requests.Session()
@@ -274,9 +275,6 @@ def deezer_releases(artist):
             "source": "deezer",
             "deezer_id": al.get("id"),
         }
-        detail = deezer_get(f"/album/{al.get('id')}") if al.get("id") else None
-        if detail and detail.get("duration"):
-            item["duree"] = str(round(detail["duration"] / 60))
         out.append(item)
     return out
 
@@ -477,6 +475,10 @@ def main():
             if img:
                 it["pochette"] = img
                 print(f"  ✓ pochette trouvée : {it['groupe']} — {it['album']}")
+        if not it.get("duree") and it.get("deezer_id"):
+            detail = deezer_get(f"/album/{it['deezer_id']}")
+            if detail and detail.get("duration") and detail.get("record_type") != "single":
+                it["duree"] = str(round(detail["duration"] / 60))
     items = sorted(items, key=lambda x: (x["date"] or "9999", norm(x["groupe"])))
     out = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
