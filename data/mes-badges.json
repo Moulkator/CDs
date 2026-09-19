@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T11:00:06.342Z",
+ "maj": "2026-09-19T11:03:05.169Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter"
  },
@@ -31,5 +31,24 @@
   "way to end",
   "motorhead"
  ],
- "achetes": []
+ "achetes": [],
+ "souhaits": [
+  {
+   "groupe": "Thyrfing",
+   "album": "Urkraft (Extended)",
+   "style": "Epic Folk Metal",
+   "pays": "Suède",
+   "langue": "",
+   "annee": "2021",
+   "duree": "60",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/ac6157272ef667cdcc7ce548c97063e5/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  }
+ ]
 }
