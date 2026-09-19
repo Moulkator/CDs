@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T15:42:48.708Z",
+ "maj": "2026-09-19T15:44:39.156Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -78,7 +78,9 @@
   "black river",
   "outrage"
  ],
- "groupes_refuses": [],
+ "groupes_refuses": [
+  "dz:5706854"
+ ],
  "achetes": [
   {
    "groupe": "Aephanemer",
