@@ -1,0 +1,18 @@
+[
+{
+"groupe": "Proutator",
+"album": "El Maestro Prouto",
+"date": "2026-09-20",
+"precision": "exact",
+"type": "album",
+"pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
+"pochette_page": "",
+"note": "Gnuhuhu",
+"source": "manuel",
+"kind": "maj",
+"jour": "2026-09-19",
+"changes": [
+"📅 Date : 19 sept. 2026 → **20 sept. 2026**"
+]
+}
+]

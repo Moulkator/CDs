@@ -521,6 +521,17 @@
 "duree": "12"
 },
 {
+"groupe": "Sum 41",
+"album": "All Killer No Filler (25th Anniversary)",
+"date": "2026-07-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/6f88ea5555bc942f55a7cadb3f9e9132/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1031243662,
+"duree": "46"
+},
+{
 "groupe": "Finsterforst",
 "album": "Still",
 "date": "2026-07-31",
@@ -699,7 +710,7 @@
 "date": "2026-09-04",
 "precision": "exact",
 "type": "album",
-"pochette": "https://coverartarchive.org/release-group/4a39dd68-a253-47eb-962b-d316f44ba909/front-500",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c22f60a69a4954c8cc5e392ccf195734/500x500-000000-80-0-0.jpg",
 "source": "deezer+musicbrainz",
 "mb_rg": "4a39dd68-a253-47eb-962b-d316f44ba909",
 "deezer_id": 931622811,
@@ -819,12 +830,12 @@
 {
 "groupe": "Proutator",
 "album": "El Maestro Prouto",
-"date": "2026-09-19",
+"date": "2026-09-20",
 "precision": "exact",
 "type": "album",
 "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
 "pochette_page": "",
-"note": "Joyeux Anniversaire !",
+"note": "Gnuhuhu",
 "source": "manuel"
 },
 {
