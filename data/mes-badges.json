@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T10:44:55.047Z",
+ "maj": "2026-09-19T10:45:01.745Z",
  "statuts_sorties": {},
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -16,7 +16,8 @@
   "lutece|lutece"
  ],
  "groupes_ignores": [
-  "volbeat"
+  "volbeat",
+  "metallica"
  ],
  "achetes": []
 }
