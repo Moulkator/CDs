@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T08:10:23Z",
+ "generated": "2026-09-19T08:32:15Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -835,6 +835,17 @@
    "duree": "40"
   },
   {
+   "groupe": "Proutator",
+   "album": "El Maestro Prouto",
+   "date": "2026-09-19",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
+   "pochette_page": "",
+   "note": "Joyeux Anniversaire !",
+   "source": "manuel"
+  },
+  {
    "groupe": "Amon Amarth",
    "album": "The Allfather Awakens",
    "date": "2026-10-02",
@@ -895,17 +906,6 @@
    "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
    "source": "manuel+musicbrainz",
    "mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4"
-  },
-  {
-   "groupe": "Proutator",
-   "album": "El Maestro Prouto",
-   "date": "2026-11",
-   "precision": "month",
-   "type": "album",
-   "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
-   "pochette_page": "",
-   "note": "",
-   "source": "manuel"
   },
   {
    "groupe": "TrollfesT",
