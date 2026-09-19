@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T11:53:48Z",
+ "generated": "2026-09-19T12:12:45Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -15470,17 +15470,6 @@
    "source": "deezer",
    "deezer_id": 1062547181,
    "duree": "40"
-  },
-  {
-   "groupe": "Proutator",
-   "album": "El Maestro Prouto",
-   "date": "2026-09-20",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
-   "pochette_page": "",
-   "note": "Gnuhuhu",
-   "source": "manuel"
   },
   {
    "groupe": "Amon Amarth",

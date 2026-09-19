@@ -15465,17 +15465,6 @@
 "duree": "40"
 },
 {
-"groupe": "Proutator",
-"album": "El Maestro Prouto",
-"date": "2026-09-20",
-"precision": "exact",
-"type": "album",
-"pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
-"pochette_page": "",
-"note": "Gnuhuhu",
-"source": "manuel"
-},
-{
 "groupe": "Amon Amarth",
 "album": "The Allfather Awakens",
 "date": "2026-10-02",
