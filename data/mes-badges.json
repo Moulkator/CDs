@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T10:49:23.757Z",
+ "maj": "2026-09-19T10:59:38.092Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter"
  },
@@ -15,7 +15,8 @@
   "avatar"
  ],
  "sorties_exclues": [
-  "lutece|lutece"
+  "lutece|lutece",
+  "varus|wushus"
  ],
  "groupes_ignores": [
   "volbeat",
