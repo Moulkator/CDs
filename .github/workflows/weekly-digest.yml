@@ -1,0 +1,35 @@
+name: Résumé hebdomadaire par e-mail
+
+on:
+  schedule:
+    - cron: "0 10 * * 0"      # dimanche 10h00 UTC = 12h00 Paris (été) / 11h00 (hiver)
+  workflow_dispatch:          # bouton "Run workflow" pour tester
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Envoi du résumé
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          SITE_URL: https://moulkator.github.io/CDs/
+        run: python scripts/weekly_email.py
+      - name: Photo des listes pour la semaine prochaine
+        run: |
+          git config user.name "sorties-bot"
+          git config user.email "sorties-bot@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Résumé hebdomadaire envoyé"
+          git pull --rebase origin main || (git rebase --abort; git pull --no-rebase origin main)
+          git push
