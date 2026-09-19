@@ -71,5 +71,37 @@
 "kind": "sorti",
 "jour": "2026-09-19",
 "changes": []
+},
+{
+"groupe": "Thulcandra",
+"album": "Black Sun Aeon",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/faf77842-754d-48a3-a501-fce14cace069/front-500",
+"source": "musicbrainz",
+"mb_rg": "faf77842-754d-48a3-a501-fce14cace069",
+"refs": [
+"mb:0029abc7-163b-4ffb-a25b-0749126c9267"
+],
+"kind": "sorti",
+"jour": "2026-09-19",
+"changes": []
+},
+{
+"groupe": "Týr",
+"album": "Týr",
+"date": "2026-11-17",
+"precision": "exact",
+"type": "album",
+"pochette": "data/pochettes/tyr-tyr.jpg",
+"pochette_page": "",
+"note": "",
+"source": "manuel",
+"kind": "maj",
+"jour": "2026-09-19",
+"changes": [
+"🖼️ Pochette dévoilée"
+]
 }
 ]
