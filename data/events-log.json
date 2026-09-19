@@ -14,5 +14,62 @@
 "changes": [
 "📅 Date : 19 sept. 2026 → **20 sept. 2026**"
 ]
+},
+{
+"groupe": "Noumena",
+"album": "Maanääri",
+"date": "2026-08-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "fad175cd-8629-4b89-8dfa-d11486782941",
+"deezer_id": 1045117972,
+"duree": "49",
+"kind": "sorti",
+"jour": "2026-09-19",
+"changes": []
+},
+{
+"groupe": "Black River",
+"album": "Archive Sessions",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1076947842,
+"duree": "13",
+"kind": "sorti",
+"jour": "2026-09-19",
+"changes": []
+},
+{
+"groupe": "Noumena",
+"album": "Memories of the Future",
+"date": "2026-09-17",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7c0e2287cccc08254d54e0077992fb5d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1061150492,
+"duree": "28",
+"kind": "sorti",
+"jour": "2026-09-19",
+"changes": []
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Visions",
+"date": "2026-09-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/0ea1d65d67a623accc57fb83475a1790/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1081712272,
+"duree": "23",
+"kind": "sorti",
+"jour": "2026-09-19",
+"changes": []
 }
 ]

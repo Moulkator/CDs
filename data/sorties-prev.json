@@ -319,6 +319,17 @@
 "duree": "33"
 },
 {
+"groupe": "Vomitron",
+"album": "NESessary Evil",
+"date": "2016-11-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/eab8f42274774a1d18e240b5ec127db3/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 14427118,
+"duree": "63"
+},
+{
 "groupe": "Arkona",
 "album": "Vozrozhdenie (Re-Recording)",
 "date": "2016-11-11",
@@ -464,6 +475,17 @@
 "duree": "116"
 },
 {
+"groupe": "Tsjuder",
+"album": "Norwegian Apocalypse (Live)",
+"date": "2016-12-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c8ecec3ffdd26e1650296e2d12593bdc/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 14763207,
+"duree": "80"
+},
+{
 "groupe": "Watain",
 "album": "Sathanas / Luciferi Tour EP",
 "date": "2016-12-13",
@@ -472,6 +494,28 @@
 "pochette": "https://coverartarchive.org/release-group/a167f816-ab18-4021-a1e0-6cd975646762/front-500",
 "source": "musicbrainz",
 "mb_rg": "a167f816-ab18-4021-a1e0-6cd975646762"
+},
+{
+"groupe": "Slechtvalk",
+"album": "Where Wandering Shadows and Mists Collide",
+"date": "2016-12-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6a71972e-6a96-4db0-b045-e3d4e7ad092e/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6a71972e-6a96-4db0-b045-e3d4e7ad092e",
+"deezer_id": 14562914,
+"duree": "54"
+},
+{
+"groupe": "Kreator",
+"album": "Violence Unleashed",
+"date": "2016-12-23",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/d1bd9222-e0c4-4c99-a8eb-c911d31469cd/front-500",
+"source": "musicbrainz",
+"mb_rg": "d1bd9222-e0c4-4c99-a8eb-c911d31469cd"
 },
 {
 "groupe": "Ancestral Shadows",
@@ -506,6 +550,16 @@
 "duree": "37"
 },
 {
+"groupe": "Goatmoon",
+"album": "Goatmoon / Dark Fury",
+"date": "2017",
+"precision": "year",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/f95beeed-0782-49c9-b02b-9a3ee4a159e8/front-500",
+"source": "musicbrainz",
+"mb_rg": "f95beeed-0782-49c9-b02b-9a3ee4a159e8"
+},
+{
 "groupe": "Skoll",
 "album": "Black Winter Rehearsal",
 "date": "2017",
@@ -514,6 +568,18 @@
 "pochette": "",
 "source": "musicbrainz",
 "mb_rg": "51e18c3d-8359-44ee-8f4a-b0d5fa5c7694"
+},
+{
+"groupe": "Mechina",
+"album": "As Embers Turn to Dust",
+"date": "2017-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6c9419eb-e746-4c97-b8f7-6cbf7c5c038e/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6c9419eb-e746-4c97-b8f7-6cbf7c5c038e",
+"deezer_id": 15063991,
+"duree": "65"
 },
 {
 "groupe": "Moongates Guardian",
@@ -563,6 +629,28 @@
 "duree": "32"
 },
 {
+"groupe": "Schattenvald",
+"album": "V",
+"date": "2017-01-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/8ff14671-fdb8-48c4-b0c5-1b39ff1a16d6/front-500",
+"source": "musicbrainz",
+"mb_rg": "8ff14671-fdb8-48c4-b0c5-1b39ff1a16d6"
+},
+{
+"groupe": "Kreator",
+"album": "Gods of Violence",
+"date": "2017-01-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/074dcb38-9064-4e05-aead-c8487c12b5fe/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "074dcb38-9064-4e05-aead-c8487c12b5fe",
+"deezer_id": 92558572,
+"duree": "52"
+},
+{
 "groupe": "Darkened Nocturn Slaughtercult",
 "album": "The Legion of Chaos",
 "date": "2017-01-28",
@@ -585,6 +673,30 @@
 "duree": "44"
 },
 {
+"groupe": "Aeternam",
+"album": "Ruins of Empires",
+"date": "2017-02-10",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/bdbca6dc-66c6-4d25-b931-02d5a566da67/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "bdbca6dc-66c6-4d25-b931-02d5a566da67",
+"deezer_id": 15117821,
+"duree": "44"
+},
+{
+"groupe": "Battle Beast",
+"album": "Bringer of Pain",
+"date": "2017-02-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/c7d02a00-6cf7-443e-9827-797f5a316e65/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "c7d02a00-6cf7-443e-9827-797f5a316e65",
+"deezer_id": 94349382,
+"duree": "51"
+},
+{
 "groupe": "Cnoc An Tursa",
 "album": "The Forty Five",
 "date": "2017-02-17",
@@ -595,6 +707,18 @@
 "mb_rg": "04471746-6997-4ab5-8d37-57e4cbc68c55",
 "deezer_id": 39689091,
 "duree": "47"
+},
+{
+"groupe": "Pure Wrath",
+"album": "Ascetic Eventide",
+"date": "2017-02-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/92473bbb-30d5-4f68-a085-fb2ba88c9318/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "92473bbb-30d5-4f68-a085-fb2ba88c9318",
+"deezer_id": 216504172,
+"duree": "43"
 },
 {
 "groupe": "Manetheren",
@@ -632,6 +756,26 @@
 "duree": "38"
 },
 {
+"groupe": "Goatmoon",
+"album": "Stella Polaris",
+"date": "2017-02-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/dc611f9c-b507-48b1-b323-222ab34e8644/front-500",
+"source": "musicbrainz",
+"mb_rg": "dc611f9c-b507-48b1-b323-222ab34e8644"
+},
+{
+"groupe": "Persefone",
+"album": "Aathma",
+"date": "2017-02-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4c8108f9-d5cb-4800-a86a-04cf95360c99/front-500",
+"source": "musicbrainz",
+"mb_rg": "4c8108f9-d5cb-4800-a86a-04cf95360c99"
+},
+{
 "groupe": "TrollfesT",
 "album": "Helluva",
 "date": "2017-02-24",
@@ -656,6 +800,28 @@
 "duree": "44"
 },
 {
+"groupe": "Mechina",
+"album": "As Embers Turn to Dust Instrumentals",
+"date": "2017-02-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/9cc365b0-a7d3-46fd-85e8-3eee033b9c26/front-500",
+"source": "musicbrainz",
+"mb_rg": "9cc365b0-a7d3-46fd-85e8-3eee033b9c26"
+},
+{
+"groupe": "Nordjevel",
+"album": "Krigsmakt",
+"date": "2017-02-27",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/1ba301ff-69f5-4e8b-a8fa-020d3b6719cb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1ba301ff-69f5-4e8b-a8fa-020d3b6719cb",
+"deezer_id": 15462028,
+"duree": "13"
+},
+{
 "groupe": "Kalmankantaja",
 "album": "Demonwoods",
 "date": "2017-03-11",
@@ -668,6 +834,18 @@
 "duree": "35"
 },
 {
+"groupe": "Valhalore",
+"album": "Voyage into Eternity",
+"date": "2017-03-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4d5f9a30-68ce-4305-b0ed-94cd013ce21b/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4d5f9a30-68ce-4305-b0ed-94cd013ce21b",
+"deezer_id": 701637501,
+"duree": "50"
+},
+{
 "groupe": "Kalmankantaja",
 "album": "Musta Lampi",
 "date": "2017-03-23",
@@ -677,6 +855,17 @@
 "source": "deezer",
 "deezer_id": 15588426,
 "duree": "42"
+},
+{
+"groupe": "Dvne",
+"album": "Aurora Majesty",
+"date": "2017-03-24",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/005c895648d6ec1cb20155df5fa2f826/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 15596490,
+"duree": "12"
 },
 {
 "groupe": "Helioss",
@@ -713,6 +902,18 @@
 "duree": "147"
 },
 {
+"groupe": "Carrion Vael",
+"album": "Resurrection of the Doomed",
+"date": "2017-03-25",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6b06e90b-6365-463d-b05e-aa877de1128a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6b06e90b-6365-463d-b05e-aa877de1128a",
+"deezer_id": 15757682,
+"duree": "37"
+},
+{
 "groupe": "Arch Enemy",
 "album": "As The Stages Burn! (Live at Wacken 2016)",
 "date": "2017-03-31",
@@ -734,6 +935,18 @@
 "mb_rg": "c7196a59-9fa6-4eef-9548-ab9ed5b3be01"
 },
 {
+"groupe": "Shores of Null",
+"album": "Black Drapes for Tomorrow",
+"date": "2017-04-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/11d2c429-7b39-412d-af0f-79b0899f5dc7/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "11d2c429-7b39-412d-af0f-79b0899f5dc7",
+"deezer_id": 387985247,
+"duree": "51"
+},
+{
 "groupe": "Varg",
 "album": "Götterdämmerung",
 "date": "2017-04-14",
@@ -744,6 +957,17 @@
 "mb_rg": "edda251a-f827-4349-ad4f-d75af742268e",
 "deezer_id": 15547454,
 "duree": "16"
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Dusk",
+"date": "2017-04-15",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c29325025264352331cdb32f5bda1384/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 66263432,
+"duree": "11"
 },
 {
 "groupe": "Vanaheim",
@@ -767,6 +991,30 @@
 "source": "deezer",
 "deezer_id": 92558712,
 "duree": "83"
+},
+{
+"groupe": "Noumena",
+"album": "Myrrys",
+"date": "2017-04-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/0007c546-854a-429a-9690-f5a96b8cce68/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "0007c546-854a-429a-9690-f5a96b8cce68",
+"deezer_id": 15717312,
+"duree": "49"
+},
+{
+"groupe": "Shadow Of Intent",
+"album": "Reclaimer",
+"date": "2017-04-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/cbc31c11-9a35-4ab9-b519-2252b74b9121/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "cbc31c11-9a35-4ab9-b519-2252b74b9121",
+"deezer_id": 15728080,
+"duree": "58"
 },
 {
 "groupe": "Ultra Vomit",
@@ -952,6 +1200,18 @@
 "duree": "80"
 },
 {
+"groupe": "Rise Against",
+"album": "Wolves",
+"date": "2017-06-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a83ba1c9-0d57-455a-85af-de1ff0f42114/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a83ba1c9-0d57-455a-85af-de1ff0f42114",
+"deezer_id": 42564391,
+"duree": "40"
+},
+{
 "groupe": "Carach Angren",
 "album": "Dance and Laugh Amongst the Rotten",
 "date": "2017-06-16",
@@ -1085,6 +1345,17 @@
 "mb_rg": "c341b4d0-a3dd-4ff7-a269-6a1f087ceed4"
 },
 {
+"groupe": "Vomitron",
+"album": "Vomitron",
+"date": "2017-07-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/94103992e4bdb8e0e9d725697ee17fd4/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 43659381,
+"duree": "71"
+},
+{
 "groupe": "Edguy",
 "album": "Monuments",
 "date": "2017-07-14",
@@ -1118,6 +1389,18 @@
 "mb_rg": "91624e22-64c8-4a31-a665-5a6d6aad3d67"
 },
 {
+"groupe": "Decrepit Birth",
+"album": "Axis Mundi",
+"date": "2017-07-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3446b155-c8f3-4561-9616-d11105387abf/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3446b155-c8f3-4561-9616-d11105387abf",
+"deezer_id": 92559222,
+"duree": "61"
+},
+{
 "groupe": "Wintersun",
 "album": "The Forest Seasons",
 "date": "2017-07-21",
@@ -1149,6 +1432,18 @@
 "source": "deezer",
 "deezer_id": 90904542,
 "duree": "59"
+},
+{
+"groupe": "Dvne",
+"album": "Asheran",
+"date": "2017-07-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/8f150330-a44b-4ebd-a2e2-5fb0f2ccb846/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "8f150330-a44b-4ebd-a2e2-5fb0f2ccb846",
+"deezer_id": 44819291,
+"duree": "61"
 },
 {
 "groupe": "Carpenter Brut",
@@ -1299,6 +1594,18 @@
 "source": "deezer",
 "deezer_id": 43927691,
 "duree": "54"
+},
+{
+"groupe": "Myrkur",
+"album": "Mareridt",
+"date": "2017-09-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ea28bd10-6422-43d3-ba88-8d42b8a69ec7/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ea28bd10-6422-43d3-ba88-8d42b8a69ec7",
+"deezer_id": 43081251,
+"duree": "52"
 },
 {
 "groupe": "Zornheym",
@@ -1459,6 +1766,17 @@
 "duree": "46"
 },
 {
+"groupe": "Folkheim",
+"album": "Mapu Ñi Tiam",
+"date": "2017-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ba95bdd72b139fd78b5591f7a0eff6fe/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 49586122,
+"duree": "54"
+},
+{
 "groupe": "August Burns Red",
 "album": "Phantom Anthem",
 "date": "2017-10-05",
@@ -1529,6 +1847,17 @@
 "duree": "50"
 },
 {
+"groupe": "Shadow Of Intent",
+"album": "The Instrumentals",
+"date": "2017-10-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f893718a5d8998c5fa332d4cc90277f2/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 49950842,
+"duree": "111"
+},
+{
 "groupe": "Slipknot",
 "album": "Day Of The Gusano (Live)",
 "date": "2017-10-20",
@@ -1552,6 +1881,18 @@
 "duree": "57"
 },
 {
+"groupe": "Justin(e)",
+"album": "06 72 43 58 15",
+"date": "2017-10-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/05b61f23-3f5d-4ef3-8065-5ea9b9bec7fe/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "05b61f23-3f5d-4ef3-8065-5ea9b9bec7fe",
+"deezer_id": 49066092,
+"duree": "34"
+},
+{
 "groupe": "Blut Aus Nord",
 "album": "Deus salutis meæ",
 "date": "2017-10-27",
@@ -1571,6 +1912,18 @@
 "source": "deezer",
 "deezer_id": 46372962,
 "duree": "34"
+},
+{
+"groupe": "Evertale",
+"album": "The Great Brotherwar",
+"date": "2017-10-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/801741ec-e297-480c-8226-97051b34e97c/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "801741ec-e297-480c-8226-97051b34e97c",
+"deezer_id": 245063462,
+"duree": "58"
 },
 {
 "groupe": "Ne Obliviscaris",
@@ -1596,7 +1949,29 @@
 "duree": "82"
 },
 {
+"groupe": "Threat Signal",
+"album": "Disconnect",
+"date": "2017-11-10",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/02b46cf1-2fa7-449a-b241-98b8fcc1d708/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "02b46cf1-2fa7-449a-b241-98b8fcc1d708",
+"deezer_id": 680436711,
+"duree": "55"
+},
+{
 "groupe": "Onirism",
+"album": "Endless Journey",
+"date": "2017-11-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/cc35f047-8ace-4057-bc57-fb1640d694c9/front-500",
+"source": "musicbrainz",
+"mb_rg": "cc35f047-8ace-4057-bc57-fb1640d694c9"
+},
+{
+"groupe": "Pure Wrath",
 "album": "Endless Journey",
 "date": "2017-11-15",
 "precision": "exact",
@@ -1831,6 +2206,18 @@
 "source": "deezer",
 "deezer_id": 50991232,
 "duree": "74"
+},
+{
+"groupe": "Dalriada",
+"album": "Nyárutó",
+"date": "2018-01-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/8eaf6dfb-0787-4183-82c0-47813df591b3/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "8eaf6dfb-0787-4183-82c0-47813df591b3",
+"deezer_id": 53712612,
+"duree": "56"
 },
 {
 "groupe": "Grief of Emerald",
@@ -2080,6 +2467,39 @@
 "duree": "38"
 },
 {
+"groupe": "Forlorn Citadel",
+"album": "Songs of Mourning",
+"date": "2018-03-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8a3e9af25e6bb949faa34461fafb208b/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 66045942,
+"duree": "20"
+},
+{
+"groupe": "Persefone",
+"album": "In Lak’ech",
+"date": "2018-03-22",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/ed138027-31e5-49cb-aee7-c0074cb6ddd8/front-500",
+"source": "musicbrainz",
+"mb_rg": "ed138027-31e5-49cb-aee7-c0074cb6ddd8"
+},
+{
+"groupe": "The Absence",
+"album": "A Gift for the Obsessed",
+"date": "2018-03-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/05891a48-cc27-410c-b5ef-cdb8c16bb45d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "05891a48-cc27-410c-b5ef-cdb8c16bb45d",
+"deezer_id": 53989872,
+"duree": "57"
+},
+{
 "groupe": "Cân Bardd",
 "album": "Nature Stays Silent",
 "date": "2018-03-30",
@@ -2136,6 +2556,38 @@
 "mb_rg": "3f6eac7e-212c-4201-b82e-2895d80c42ea",
 "deezer_id": 403981537,
 "duree": "46"
+},
+{
+"groupe": "Panopticon",
+"album": "The Scars of Man on the Once Nameless Wilderness I and II",
+"date": "2018-04-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/37c25a5a-ac81-4e98-9710-72aa317764ae/front-500",
+"source": "musicbrainz",
+"mb_rg": "37c25a5a-ac81-4e98-9710-72aa317764ae"
+},
+{
+"groupe": "Panopticon",
+"album": "The Scars of Man on the Once Nameless Wilderness, Pt. 2",
+"date": "2018-04-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d173584a3dcb8e3baa173bfb325c87d9/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 447028755,
+"duree": "60"
+},
+{
+"groupe": "Panopticon",
+"album": "The Scars of Man on the Once Nameless Wilderness, Pt. 1",
+"date": "2018-04-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7ba99a79116c9a81c02f454be9d16c1d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 447028825,
+"duree": "58"
 },
 {
 "groupe": "Nanowar of Steel",
@@ -2261,6 +2713,18 @@
 "mb_rg": "64801192-46b8-4231-b06a-9eb6dec535b1",
 "deezer_id": 888979962,
 "duree": "41"
+},
+{
+"groupe": "Parkway Drive",
+"album": "Reverence",
+"date": "2018-05-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3225c7e2-4fd1-4d85-b4c2-61847cef9136/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3225c7e2-4fd1-4d85-b4c2-61847cef9136",
+"deezer_id": 62145512,
+"duree": "43"
 },
 {
 "groupe": "The Offspring",
@@ -2446,6 +2910,40 @@
 "duree": "40"
 },
 {
+"groupe": "Tsjuder",
+"album": "Throne of the Goat",
+"date": "2018-06-08",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d65c27ce233a19e9a9e994af6e11a426/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 59907882,
+"duree": "24"
+},
+{
+"groupe": "Cor Scorpii",
+"album": "Ruin",
+"date": "2018-06-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/220f674a-0ad9-4d0c-9aa9-4d785a6ac240/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "220f674a-0ad9-4d0c-9aa9-4d785a6ac240",
+"deezer_id": 319204127,
+"duree": "54"
+},
+{
+"groupe": "Hoth",
+"album": "Astral Necromancy",
+"date": "2018-06-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/0bf97a41ac5a55ddfb6921b918f8df3d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 60616072,
+"duree": "50"
+},
+{
 "groupe": "Retrovizer",
 "album": "Lausanne Downfall, Vol. 1",
 "date": "2018-06-20",
@@ -2573,6 +3071,17 @@
 "duree": "46"
 },
 {
+"groupe": "Panychida",
+"album": "Woodland Journey: Revisited",
+"date": "2018-07-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d0b3777f776884c9d9d19bf570287b5e/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 68702881,
+"duree": "75"
+},
+{
 "groupe": "Powerwolf",
 "album": "The Sacrament of Sin",
 "date": "2018-07-20",
@@ -2583,6 +3092,29 @@
 "mb_rg": "7b757ff3-5bbd-4f1c-83ef-6970ba01d202",
 "deezer_id": 63318982,
 "duree": "43"
+},
+{
+"groupe": "Psychostick",
+"album": "Do",
+"date": "2018-07-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/055db112-4809-4333-8626-7b9756d9887a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "055db112-4809-4333-8626-7b9756d9887a",
+"deezer_id": 762679211,
+"duree": "52"
+},
+{
+"groupe": "Rise Against",
+"album": "The Ghost Note Symphonies, Vol.1",
+"date": "2018-07-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/e0ebf3f8c08e4811434b7acad67fd2f3/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 68849671,
+"duree": "37"
 },
 {
 "groupe": "NOFX",
@@ -2732,6 +3264,18 @@
 "duree": "47"
 },
 {
+"groupe": "Revocation",
+"album": "The Outer Ones",
+"date": "2018-09-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3bc240be-8dae-4eda-8cfa-b385cc78ce00/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3bc240be-8dae-4eda-8cfa-b385cc78ce00",
+"deezer_id": 65900702,
+"duree": "48"
+},
+{
 "groupe": "Run! Run! Jump! Punch!",
 "album": "Run! Run! Jump! Punch!",
 "date": "2018-09-28",
@@ -2856,6 +3400,17 @@
 "mb_rg": "b36854d9-e3eb-4310-8b97-976a6d86db34"
 },
 {
+"groupe": "Falkenbach",
+"album": "...en their medh riki fara...",
+"date": "2018-10-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c3ee4b6d6dcbf51aac1bb9644c663ac1/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 368716727,
+"duree": "43"
+},
+{
 "groupe": "Gorod",
 "album": "Aethra",
 "date": "2018-10-19",
@@ -2900,6 +3455,18 @@
 "duree": "42"
 },
 {
+"groupe": "Pure Wrath",
+"album": "Sempiternal Wisdom",
+"date": "2018-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/80aea6b2-0ed2-4ed6-847c-e4b950834ccd/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "80aea6b2-0ed2-4ed6-847c-e4b950834ccd",
+"deezer_id": 216504282,
+"duree": "53"
+},
+{
 "groupe": "Unleashed",
 "album": "The Hunt for White Christ (EP & Rarities)",
 "date": "2018-10-30",
@@ -2908,6 +3475,28 @@
 "pochette": "https://coverartarchive.org/release-group/43c4a0ac-07ee-4622-9254-fbf603481551/front-500",
 "source": "musicbrainz",
 "mb_rg": "43c4a0ac-07ee-4622-9254-fbf603481551"
+},
+{
+"groupe": "Pathogen",
+"album": "Ashes of Eternity (0)",
+"date": "2018-10-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/19172d2055c020da13ba37ae84a1c175/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 76797862,
+"duree": "46"
+},
+{
+"groupe": "Pure Wrath",
+"album": "Deceiver",
+"date": "2018-11-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/084a58c1724270ebd10cb848eca8a2fd/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 77166302,
+"duree": "29"
 },
 {
 "groupe": "Arsis",
@@ -3022,6 +3611,29 @@
 "duree": "41"
 },
 {
+"groupe": "Frosttide",
+"album": "Decedents - Enshrined",
+"date": "2018-11-30",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/eba345fa983d4e809acc36c8a51bcfcf/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 319807737,
+"duree": "53"
+},
+{
+"groupe": "Valhalore",
+"album": "Solace & Solitude",
+"date": "2018-11-30",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/c2399a9b-9d1a-4739-b416-0888f925dd06/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "c2399a9b-9d1a-4739-b416-0888f925dd06",
+"deezer_id": 71107642,
+"duree": "21"
+},
+{
 "groupe": "Lunae Ortus",
 "album": "White-Night-Wropt",
 "date": "2018-12-01",
@@ -3123,6 +3735,17 @@
 "duree": "52"
 },
 {
+"groupe": "Folkheim",
+"album": "Kiepja",
+"date": "2019-01-13",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8247eef0fb4883d841ed7aa7b1d3b02d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 83627742,
+"duree": "12"
+},
+{
 "groupe": "Extirpation",
 "album": "A Damnation's Stairway to the Altar of Failure",
 "date": "2019-01-15",
@@ -3198,6 +3821,18 @@
 "source": "deezer",
 "deezer_id": 84923722,
 "duree": "53"
+},
+{
+"groupe": "Panopticon",
+"album": "The Crescendo of Dusk",
+"date": "2019-01-26",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/7004e0ac-12e1-42a2-a8c4-fcba7805f395/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "7004e0ac-12e1-42a2-a8c4-fcba7805f395",
+"deezer_id": 554161502,
+"duree": "22"
 },
 {
 "groupe": "Waylander",
@@ -3432,6 +4067,17 @@
 "duree": "18"
 },
 {
+"groupe": "Melechesh",
+"album": "Mystics of the Pillar II",
+"date": "2019-03-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/b9565bfe852fc977bc62e77e9155da5e/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 90903502,
+"duree": "25"
+},
+{
 "groupe": "Moongates Guardian",
 "album": "Lady in Black",
 "date": "2019-03-20",
@@ -3487,6 +4133,18 @@
 "duree": "95"
 },
 {
+"groupe": "Battle Beast",
+"album": "No More Hollywood Endings",
+"date": "2019-03-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/92b5bd3b-b668-47f4-a4ef-82bb48ebcfdd/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "92b5bd3b-b668-47f4-a4ef-82bb48ebcfdd",
+"deezer_id": 83733832,
+"duree": "53"
+},
+{
 "groupe": "Thorium",
 "album": "Memories",
 "date": "2019-03-25",
@@ -3510,6 +4168,30 @@
 "duree": "74"
 },
 {
+"groupe": "Nordjevel",
+"album": "Necrogenesis",
+"date": "2019-03-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b451792a-35cb-4939-977b-1d48c18522b3/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b451792a-35cb-4939-977b-1d48c18522b3",
+"deezer_id": 85010632,
+"duree": "47"
+},
+{
+"groupe": "Whitechapel",
+"album": "The Valley",
+"date": "2019-03-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3f7d7cd6-a113-451f-9a8b-6e289d4584eb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3f7d7cd6-a113-451f-9a8b-6e289d4584eb",
+"deezer_id": 76757402,
+"duree": "40"
+},
+{
 "groupe": "Black Seed",
 "album": "Weirdness of Being",
 "date": "2019-04-01",
@@ -3519,6 +4201,17 @@
 "source": "deezer",
 "deezer_id": 89514242,
 "duree": "27"
+},
+{
+"groupe": "Hoth",
+"album": "Lord of the Netherworld",
+"date": "2019-04-01",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/401ebad46eb2bb810e0a2d8bf07444c7/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 711254451,
+"duree": "21"
 },
 {
 "groupe": "Eluveitie",
@@ -3601,6 +4294,17 @@
 "duree": "62"
 },
 {
+"groupe": "Fear Factory",
+"album": "Linchpin",
+"date": "2019-04-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/6b0d829840de1b1ee4210de1e70ee49a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 93720162,
+"duree": "108"
+},
+{
 "groupe": "Manegarm",
 "album": "Fornaldarsagor",
 "date": "2019-04-26",
@@ -3646,6 +4350,18 @@
 "source": "deezer",
 "deezer_id": 87184332,
 "duree": "82"
+},
+{
+"groupe": "Kampfar",
+"album": "Ofidians manifest",
+"date": "2019-05-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4428555d-682c-470c-b4e4-e8587608b6f1/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4428555d-682c-470c-b4e4-e8587608b6f1",
+"deezer_id": 595336542,
+"duree": "41"
 },
 {
 "groupe": "Kalmankantaja",
@@ -3740,6 +4456,16 @@
 "duree": "59"
 },
 {
+"groupe": "Nordjevel",
+"album": "Förslavad / Krigsmakt",
+"date": "2019-05-31",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/5fbb1628-3cb9-433c-85aa-ef8e16ab93de/front-500",
+"source": "musicbrainz",
+"mb_rg": "5fbb1628-3cb9-433c-85aa-ef8e16ab93de"
+},
+{
 "groupe": "Ultra Vomit",
 "album": "L'olymputaindepia (Live à L'Olympia)",
 "date": "2019-05-31",
@@ -3818,6 +4544,16 @@
 "mb_rg": "2078c2b1-4318-4a6e-a5f3-e4cd1a3aba85",
 "deezer_id": 102848432,
 "duree": "23"
+},
+{
+"groupe": "Goatmoon",
+"album": "Vaskivittu",
+"date": "2019-07-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/e203d082-c84a-48fc-ba98-fcce3ab85b69/front-500",
+"source": "musicbrainz",
+"mb_rg": "e203d082-c84a-48fc-ba98-fcce3ab85b69"
 },
 {
 "groupe": "Sabaton",
@@ -3912,6 +4648,18 @@
 "mb_rg": "a8674aa0-d9a6-477e-8591-ede21e13b62c",
 "deezer_id": 97597802,
 "duree": "47"
+},
+{
+"groupe": "Shadow Of Intent",
+"album": "Melancholy",
+"date": "2019-08-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/36c13c49-3d35-4673-858e-802975d8a3ca/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "36c13c49-3d35-4673-858e-802975d8a3ca",
+"deezer_id": 99178732,
+"duree": "52"
 },
 {
 "groupe": "Twilight Force",
@@ -4030,6 +4778,28 @@
 "duree": "49"
 },
 {
+"groupe": "Panopticon",
+"album": "Scars II (The Basics)",
+"date": "2019-09-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/79295e228480a1f280cd415a938603b9/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 554161492,
+"duree": "45"
+},
+{
+"groupe": "Rise Against",
+"album": "The Eco-Terrorist In Me",
+"date": "2019-09-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/78422d457794ec3890e2798f2a4ee380/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 111244982,
+"duree": "12"
+},
+{
 "groupe": "Stortregn",
 "album": "Evocation of Light",
 "date": "2019-09-20",
@@ -4073,6 +4843,18 @@
 "pochette": "https://coverartarchive.org/release-group/73b4f4f7-a3e5-4b92-bd12-726043b680e3/front-500",
 "source": "musicbrainz",
 "mb_rg": "73b4f4f7-a3e5-4b92-bd12-726043b680e3"
+},
+{
+"groupe": "Borknagar",
+"album": "True North",
+"date": "2019-09-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/1a647fc2-f8b0-40e6-a467-77ffcc508c6f/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1a647fc2-f8b0-40e6-a467-77ffcc508c6f",
+"deezer_id": 103734282,
+"duree": "59"
 },
 {
 "groupe": "Druadan Forest",
@@ -4221,6 +5003,28 @@
 "duree": "75"
 },
 {
+"groupe": "Mechina",
+"album": "Telesterion (instrumental)",
+"date": "2019-11-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6fe6019c-dd9b-4f3f-b32f-1c236ff9dfa7/front-500",
+"source": "musicbrainz",
+"mb_rg": "6fe6019c-dd9b-4f3f-b32f-1c236ff9dfa7"
+},
+{
+"groupe": "Mechina",
+"album": "Telesterion",
+"date": "2019-11-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/f96300cc-ce1e-4f70-8a04-201b727d9e25/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "f96300cc-ce1e-4f70-8a04-201b727d9e25",
+"deezer_id": 117656192,
+"duree": "60"
+},
+{
 "groupe": "Murderdolls",
 "album": "The Complete Albums",
 "date": "2019-11-01",
@@ -4331,6 +5135,28 @@
 "duree": "69"
 },
 {
+"groupe": "Obsequiae",
+"album": "The Palms of Sorrowed Kings",
+"date": "2019-11-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/59e05095fff28f41f5fef50103dfcc8c/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 111710352,
+"duree": "50"
+},
+{
+"groupe": "Shadow Of Intent",
+"album": "Melancholy (Instrumentals)",
+"date": "2019-11-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/a90fbb5fec2a4bf322f204851bec0a86/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 120179182,
+"duree": "52"
+},
+{
 "groupe": "Cien",
 "album": "Sickness Called Mankind",
 "date": "2019-11-29",
@@ -4353,6 +5179,18 @@
 "mb_rg": "b36f0d64-541d-4df7-bcad-62fd93bd07e3",
 "deezer_id": 554428442,
 "duree": "79"
+},
+{
+"groupe": "Vomitron",
+"album": "Vomitron 2",
+"date": "2019-11-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e5e5e9f4-714e-4ee2-9e96-b9fd7fa313ee/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "e5e5e9f4-714e-4ee2-9e96-b9fd7fa313ee",
+"deezer_id": 116564032,
+"duree": "47"
 },
 {
 "groupe": "August Burns Red",
@@ -4399,6 +5237,26 @@
 "duree": "52"
 },
 {
+"groupe": "Kreator",
+"album": "For the Hordes EP",
+"date": "2019-12-28",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/858debbf-65a2-4592-9402-ae74e9d72d53/front-500",
+"source": "musicbrainz",
+"mb_rg": "858debbf-65a2-4592-9402-ae74e9d72d53"
+},
+{
+"groupe": "Goatmoon",
+"album": "Thuringian Pagan Madmen",
+"date": "2020",
+"precision": "year",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/32ff4b21-b54e-4a97-9177-d473224379f1/front-500",
+"source": "musicbrainz",
+"mb_rg": "32ff4b21-b54e-4a97-9177-d473224379f1"
+},
+{
 "groupe": "Moongates Guardian",
 "album": "Cold Waters of Anduin",
 "date": "2020-01-01",
@@ -4409,6 +5267,18 @@
 "mb_rg": "a5fe379b-7abd-4b26-b5e8-29fc00a7e3d0",
 "deezer_id": 391071527,
 "duree": "48"
+},
+{
+"groupe": "Blackguard",
+"album": "Storm",
+"date": "2020-01-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3680a377-f9c4-4ded-8ee2-30cbb92c5ca0/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3680a377-f9c4-4ded-8ee2-30cbb92c5ca0",
+"deezer_id": 597776642,
+"duree": "49"
 },
 {
 "groupe": "Gorod",
@@ -4510,6 +5380,29 @@
 "duree": "20"
 },
 {
+"groupe": "Kreator",
+"album": "London Apocalypticon (Live)",
+"date": "2020-01-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7ee9a4fccce1402f13048a670504ff38/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 116045372,
+"duree": "72"
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Ashen Dirge of Kingslain",
+"date": "2020-01-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/015f575e-2012-4d49-bdea-4abb2a3c2c58/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "015f575e-2012-4d49-bdea-4abb2a3c2c58",
+"deezer_id": 126863302,
+"duree": "42"
+},
+{
 "groupe": "Gorod",
 "album": "TRANSCENDENCE",
 "date": "2020-01-24",
@@ -4552,6 +5445,59 @@
 "source": "deezer",
 "deezer_id": 116180742,
 "duree": "53"
+},
+{
+"groupe": "Panopticon",
+"album": "Panopticon / Aerial Ruin",
+"date": "2020-01-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/504da748-2040-4435-8b72-e841ab159a76/front-500",
+"source": "musicbrainz",
+"mb_rg": "504da748-2040-4435-8b72-e841ab159a76"
+},
+{
+"groupe": "Panopticon",
+"album": "Nechochwen / Panopticon",
+"date": "2020-01-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a0d43529-0fb4-48b6-9a02-ea95902ad29f/front-500",
+"source": "musicbrainz",
+"mb_rg": "a0d43529-0fb4-48b6-9a02-ea95902ad29f"
+},
+{
+"groupe": "Panopticon",
+"album": "Panopticon",
+"date": "2020-01-31",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/b11f666f-3468-44d8-b86a-a1d958450d27/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b11f666f-3468-44d8-b86a-a1d958450d27",
+"deezer_id": 130226732,
+"duree": "20"
+},
+{
+"groupe": "Panopticon",
+"album": "Rune’s Heart",
+"date": "2020-01-31",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/f134d63c-ff63-465a-9094-574bd57639b1/front-500",
+"source": "musicbrainz",
+"mb_rg": "f134d63c-ff63-465a-9094-574bd57639b1"
+},
+{
+"groupe": "Panopticon",
+"album": "Rune's Heart",
+"date": "2020-01-31",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/44588a0c1e5597a00e705ca291a4069d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 128680172,
+"duree": "20"
 },
 {
 "groupe": "Druadan Forest",
@@ -4679,6 +5625,18 @@
 "duree": "49"
 },
 {
+"groupe": "Pure Wrath",
+"album": "The Forlorn Soldier",
+"date": "2020-03-06",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/e281c52d-d628-40a0-83a4-50f42a381bf8/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "e281c52d-d628-40a0-83a4-50f42a381bf8",
+"deezer_id": 125532832,
+"duree": "27"
+},
+{
 "groupe": "Mare Cognitum",
 "album": "Wanderers: Astrology of the Nine",
 "date": "2020-03-13",
@@ -4725,6 +5683,18 @@
 "duree": "41"
 },
 {
+"groupe": "Myrkur",
+"album": "Folkesange",
+"date": "2020-03-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/f52d824d-7c70-4380-a271-36f3f5e18e31/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "f52d824d-7c70-4380-a271-36f3f5e18e31",
+"deezer_id": 119725272,
+"duree": "47"
+},
+{
 "groupe": "Unreqvited",
 "album": "Nocturne",
 "date": "2020-03-21",
@@ -4733,6 +5703,18 @@
 "pochette": "https://coverartarchive.org/release-group/32303053-44a6-41fe-93d7-8a4a24131ec9/front-500",
 "source": "musicbrainz",
 "mb_rg": "32303053-44a6-41fe-93d7-8a4a24131ec9"
+},
+{
+"groupe": "Aeternam",
+"album": "Al Qassam",
+"date": "2020-03-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/d79d22a9-5930-44e4-9a78-5eb1802dbbce/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "d79d22a9-5930-44e4-9a78-5eb1802dbbce",
+"deezer_id": 132061172,
+"duree": "45"
 },
 {
 "groupe": "Igorrr",
@@ -4745,6 +5727,17 @@
 "mb_rg": "0a5e7478-7673-42eb-a960-28129a050eff",
 "deezer_id": 123541922,
 "duree": "56"
+},
+{
+"groupe": "Parkway Drive",
+"album": "Viva The Underdogs",
+"date": "2020-03-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/48c7280f6b3053b3e9b939383c928116/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 125580882,
+"duree": "67"
 },
 {
 "groupe": "Welicoruss",
@@ -4780,6 +5773,16 @@
 "mb_rg": "cd574a06-8314-4711-987c-296cdcc0edd7",
 "deezer_id": 138794092,
 "duree": "49"
+},
+{
+"groupe": "Panopticon",
+"album": "Beast Rider",
+"date": "2020-04-04",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/86d7dbf8-358d-4407-ac43-c64b76630669/front-500",
+"source": "musicbrainz",
+"mb_rg": "86d7dbf8-358d-4407-ac43-c64b76630669"
 },
 {
 "groupe": "Archgoat",
@@ -5044,6 +6047,18 @@
 "duree": "87"
 },
 {
+"groupe": "Carrion Vael",
+"album": "God Killer",
+"date": "2020-06-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/f2e7363d-9c0e-4c1d-98fd-84d391e891a6/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "f2e7363d-9c0e-4c1d-98fd-84d391e891a6",
+"deezer_id": 144956962,
+"duree": "33"
+},
+{
 "groupe": "Lamb Of God",
 "album": "Lamb of God",
 "date": "2020-06-19",
@@ -5054,6 +6069,17 @@
 "mb_rg": "27dbe512-f2b0-4519-b8ca-7e45ae06c100",
 "deezer_id": 214384682,
 "duree": "45"
+},
+{
+"groupe": "Panopticon",
+"album": "Live Migration",
+"date": "2020-06-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/5f90db1d949d0a89002b3c28d8f8edf5/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 151272382,
+"duree": "72"
 },
 {
 "groupe": "Carach Angren",
@@ -5134,6 +6160,17 @@
 "mb_rg": "2846c8d2-f30b-4bd9-95d1-be5a5bf9213f",
 "deezer_id": 199489952,
 "duree": "15"
+},
+{
+"groupe": "Rise Against",
+"album": "The Black Market (Expanded Edition)",
+"date": "2020-07-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/20d29513d254c13f141e16aac97250da/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 159896072,
+"duree": "60"
 },
 {
 "groupe": "Havukruunu",
@@ -5240,6 +6277,17 @@
 "duree": "38"
 },
 {
+"groupe": "Pathogen",
+"album": "Null Space",
+"date": "2020-08-25",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/38f0deae9c801e29bb3b852bc21d8bbd/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 168164782,
+"duree": "36"
+},
+{
 "groupe": "In Flames",
 "album": "Clayman (20th Anniversary Edition)",
 "date": "2020-08-28",
@@ -5281,6 +6329,28 @@
 "pochette": "https://coverartarchive.org/release-group/b37c5d99-3f25-4d7d-8b19-d481c60c3ff0/front-500",
 "source": "musicbrainz",
 "mb_rg": "b37c5d99-3f25-4d7d-8b19-d481c60c3ff0"
+},
+{
+"groupe": "Noumena",
+"album": "Anima",
+"date": "2020-09-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/d7b59aa7-57b1-42ce-9ed5-9b2bd43da222/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "d7b59aa7-57b1-42ce-9ed5-9b2bd43da222",
+"deezer_id": 165023282,
+"duree": "57"
+},
+{
+"groupe": "Schattenvald",
+"album": "Quintessenz",
+"date": "2020-09-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/c946f8e9-2ff1-4cf0-90aa-f01a4dafaf6d/front-500",
+"source": "musicbrainz",
+"mb_rg": "c946f8e9-2ff1-4cf0-90aa-f01a4dafaf6d"
 },
 {
 "groupe": "Artemis' The Endless Journey",
@@ -5464,6 +6534,18 @@
 "duree": "48"
 },
 {
+"groupe": "Dvne",
+"album": "Omega Severer",
+"date": "2020-11-06",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/8daec3b2-50ef-4afd-b269-c186ce7534e4/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "8daec3b2-50ef-4afd-b269-c186ce7534e4",
+"deezer_id": 179460912,
+"duree": "17"
+},
+{
 "groupe": "Sulphur Aeon",
 "album": "Unausprechliche Kulte - Live at Culthe Fest, 2019",
 "date": "2020-11-06",
@@ -5556,6 +6638,41 @@
 "duree": "65"
 },
 {
+"groupe": "Panychida",
+"album": "Gabreta Aeterna",
+"date": "2020-11-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e1362efc-01ce-4fad-b595-79fabbb57ec0/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "e1362efc-01ce-4fad-b595-79fabbb57ec0",
+"deezer_id": 180780472,
+"duree": "54"
+},
+{
+"groupe": "Shores of Null",
+"album": "Beyond the Shores (On Death and Dying)",
+"date": "2020-11-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6d33669f-06b7-45e4-8493-2a2ea1e5f911/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6d33669f-06b7-45e4-8493-2a2ea1e5f911",
+"deezer_id": 173961252,
+"duree": "38"
+},
+{
+"groupe": "Pathogen",
+"album": "Null Space (Instrumental)",
+"date": "2020-12-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/568bbab5ee8193ecfcff4bd87f28d530/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 190495532,
+"duree": "41"
+},
+{
 "groupe": "Gama Bomb",
 "album": "Sea Savage",
 "date": "2020-12-04",
@@ -5626,6 +6743,28 @@
 "duree": "20"
 },
 {
+"groupe": "Forteresse",
+"album": "Thèmes pour la Rébellion",
+"date": "2020-12-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/4665a956b31c950cf4ef5a17c5765fd7/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1018409771,
+"duree": "43"
+},
+{
+"groupe": "Forteresse",
+"album": "Crépuscule d'Octobre",
+"date": "2020-12-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c888ed75dac02f4014adb686b3d9dde2/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 711913811,
+"duree": "45"
+},
+{
 "groupe": "Papa Roach",
 "album": "20/20",
 "date": "2020-12-25",
@@ -5658,6 +6797,28 @@
 "source": "deezer",
 "deezer_id": 194306492,
 "duree": "45"
+},
+{
+"groupe": "Mechina",
+"album": "Siege (instrumental)",
+"date": "2021-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/2c427ca0-5bb3-4012-8ecf-45d67f4c4ace/front-500",
+"source": "musicbrainz",
+"mb_rg": "2c427ca0-5bb3-4012-8ecf-45d67f4c4ace"
+},
+{
+"groupe": "Mechina",
+"album": "Siege",
+"date": "2021-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/491f5b55-dc83-4616-889f-1b88a9c2a3b8/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "491f5b55-dc83-4616-889f-1b88a9c2a3b8",
+"deezer_id": 198334022,
+"duree": "62"
 },
 {
 "groupe": "Moongates Guardian",
@@ -5747,6 +6908,17 @@
 "mb_rg": "890ff363-5e8f-44f5-b174-71c44e7ff3c2"
 },
 {
+"groupe": "Hoth",
+"album": "Tell Me How You Feel",
+"date": "2021-01-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/478e80e1aeae3778cc1efeff948b4871/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 205729722,
+"duree": "66"
+},
+{
 "groupe": "Grima",
 "album": "Rotting Garden",
 "date": "2021-01-22",
@@ -5756,6 +6928,17 @@
 "source": "deezer",
 "deezer_id": 195167232,
 "duree": "43"
+},
+{
+"groupe": "Thyrfing",
+"album": "Urkraft (Extended)",
+"date": "2021-01-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ac6157272ef667cdcc7ce548c97063e5/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 203933122,
+"duree": "60"
 },
 {
 "groupe": "Malcuidant",
@@ -5837,6 +7020,29 @@
 "mb_rg": "99fdaa05-d607-4b85-93bf-c208c8bcb7ec"
 },
 {
+"groupe": "Iotunn",
+"album": "Access All Worlds",
+"date": "2021-02-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/eea7a972-2e18-420a-9cd0-7af267fffb8a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "eea7a972-2e18-420a-9cd0-7af267fffb8a",
+"deezer_id": 191725792,
+"duree": "62"
+},
+{
+"groupe": "Kreator",
+"album": "Under the Guillotine",
+"date": "2021-02-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d0264fa2c71462109ddd22a0c995c4a3/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901406492,
+"duree": "110"
+},
+{
 "groupe": "NOFX",
 "album": "Single Album",
 "date": "2021-02-26",
@@ -5871,6 +7077,18 @@
 "mb_rg": "d4380a14-ea14-4806-8b3f-98f351a9bec3"
 },
 {
+"groupe": "Stormtide",
+"album": "A Throne of Hollow Fire",
+"date": "2021-03-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ade75293-370c-4f7c-9a6c-c94340bb4891/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ade75293-370c-4f7c-9a6c-c94340bb4891",
+"deezer_id": 212094362,
+"duree": "40"
+},
+{
 "groupe": "Thorium",
 "album": "Empires in the Sun",
 "date": "2021-03-05",
@@ -5880,6 +7098,17 @@
 "source": "deezer",
 "deezer_id": 513482401,
 "duree": "52"
+},
+{
+"groupe": "Hoth",
+"album": "Beyond the Black Gate",
+"date": "2021-03-10",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7742b44c031b02ada4e49d9dc804672d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 711997831,
+"duree": "40"
 },
 {
 "groupe": "Stortregn",
@@ -5916,6 +7145,18 @@
 "duree": "61"
 },
 {
+"groupe": "Dvne",
+"album": "Etemen Ænka",
+"date": "2021-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/dcb0b820-95e8-4c11-92d3-31da1208607e/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "dcb0b820-95e8-4c11-92d3-31da1208607e",
+"deezer_id": 188401162,
+"duree": "67"
+},
+{
 "groupe": "Mare Cognitum",
 "album": "Solar Paroxysm",
 "date": "2021-03-19",
@@ -5949,6 +7190,29 @@
 "mb_rg": "f51bd35c-b8c9-4009-b297-726af8d729ca",
 "deezer_id": 193577002,
 "duree": "15"
+},
+{
+"groupe": "Dalriada",
+"album": "Hazatérés - 15 év Dalriada (Live)",
+"date": "2021-03-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c39631f5fbd91ad188fabc829a1f6f26/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 211440012,
+"duree": "91"
+},
+{
+"groupe": "Dalriada",
+"album": "Őszelő",
+"date": "2021-04-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e6b4390b-dcfe-4b89-b263-e2f683379a8a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "e6b4390b-dcfe-4b89-b263-e2f683379a8a",
+"deezer_id": 211436902,
+"duree": "56"
 },
 {
 "groupe": "Wolfchant",
@@ -6074,6 +7338,18 @@
 "duree": "93"
 },
 {
+"groupe": "Nordjevel",
+"album": "Fenriir",
+"date": "2021-05-07",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/490b3812-9344-4361-873d-e13bc4935bcb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "490b3812-9344-4361-873d-e13bc4935bcb",
+"deezer_id": 597403752,
+"duree": "23"
+},
+{
 "groupe": "Seth",
 "album": "La morsure du Christ",
 "date": "2021-05-07",
@@ -6108,6 +7384,18 @@
 "duree": "10"
 },
 {
+"groupe": "Panopticon",
+"album": "…And Again Into the Light",
+"date": "2021-05-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/45c6b2ba-ddb2-4c72-87bd-81dcc082ece9/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "45c6b2ba-ddb2-4c72-87bd-81dcc082ece9",
+"deezer_id": 223057232,
+"duree": "71"
+},
+{
 "groupe": "Chthonic",
 "album": "MEGAPORT 2021",
 "date": "2021-05-19",
@@ -6140,6 +7428,18 @@
 "mb_rg": "38bbbdcc-bc4e-4d9d-91cd-5f706c3820aa",
 "deezer_id": 224728772,
 "duree": "51"
+},
+{
+"groupe": "Vomitron",
+"album": "RighteousNES",
+"date": "2021-05-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/754558e7-249b-4181-b048-a7e11c0705e4/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "754558e7-249b-4181-b048-a7e11c0705e4",
+"deezer_id": 227420072,
+"duree": "65"
 },
 {
 "groupe": "Zgard",
@@ -6229,6 +7529,18 @@
 "duree": "40"
 },
 {
+"groupe": "Rise Against",
+"album": "Nowhere Generation",
+"date": "2021-06-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/5d952e48-df16-42af-b6e2-65c08b67fcaf/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5d952e48-df16-42af-b6e2-65c08b67fcaf",
+"deezer_id": 233403492,
+"duree": "42"
+},
+{
 "groupe": "Sojourner",
 "album": "Perennial",
 "date": "2021-06-04",
@@ -6251,6 +7563,18 @@
 "mb_rg": "b7d66ff4-e576-4bd1-8879-798549ab8249",
 "deezer_id": 225889222,
 "duree": "55"
+},
+{
+"groupe": "Fear Factory",
+"album": "Aggression Continuum",
+"date": "2021-06-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/5ddffd10-2908-4915-88e4-2edbfdf29e4c/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5ddffd10-2908-4915-88e4-2edbfdf29e4c",
+"deezer_id": 216666892,
+"duree": "49"
 },
 {
 "groupe": "Duskmourn",
@@ -6285,6 +7609,18 @@
 "source": "deezer",
 "deezer_id": 224325502,
 "duree": "79"
+},
+{
+"groupe": "The Absence",
+"album": "Coffinized",
+"date": "2021-06-25",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/dee65207-6553-4700-a58e-86508666ead1/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "dee65207-6553-4700-a58e-86508666ead1",
+"deezer_id": 211455572,
+"duree": "50"
 },
 {
 "groupe": "Exhumation",
@@ -6493,6 +7829,29 @@
 "duree": "51"
 },
 {
+"groupe": "Pathogen",
+"album": "Express Elevator to Hell",
+"date": "2021-08-27",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/63c77e266ec9aca8953762e8020f7ee6/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 252428562,
+"duree": "13"
+},
+{
+"groupe": "Thyrfing",
+"album": "Vanagandr",
+"date": "2021-08-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6fe0a673-04aa-4613-ad50-964bfe3945db/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6fe0a673-04aa-4613-ad50-964bfe3945db",
+"deezer_id": 234399032,
+"duree": "50"
+},
+{
 "groupe": "Havukruunu",
 "album": "Kuu Erkylän yllä",
 "date": "2021-09-02",
@@ -6547,6 +7906,18 @@
 "source": "deezer+musicbrainz",
 "mb_rg": "07d37eb4-5cc3-4aea-94b5-cb8ed35ccbe4",
 "deezer_id": 231230882,
+"duree": "49"
+},
+{
+"groupe": "Fear Factory",
+"album": "Aggression Continuum (The Instrumentals)",
+"date": "2021-09-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/907d690e-d850-4775-b809-5d8d3a1f6f0d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "907d690e-d850-4775-b809-5d8d3a1f6f0d",
+"deezer_id": 252953722,
 "duree": "49"
 },
 {
@@ -6648,6 +8019,17 @@
 "duree": "52"
 },
 {
+"groupe": "Pathogen",
+"album": "Halloween Town Massacre",
+"date": "2021-10-13",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7ba1fcf08ac1cb8cdb8ede93ba2ebdd1/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 261433532,
+"duree": "33"
+},
+{
 "groupe": "The Agonist",
 "album": "Days Before the World Wept",
 "date": "2021-10-15",
@@ -6731,6 +8113,18 @@
 "duree": "45"
 },
 {
+"groupe": "Whitechapel",
+"album": "Kin",
+"date": "2021-10-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/831586ac-c0c4-4bb6-b0ef-b8f921a9572d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "831586ac-c0c4-4bb6-b0ef-b8f921a9572d",
+"deezer_id": 249528492,
+"duree": "48"
+},
+{
 "groupe": "Ancestral Shadows",
 "album": "Eldritch Illuminations",
 "date": "2021-10-31",
@@ -6739,6 +8133,28 @@
 "pochette": "https://coverartarchive.org/release-group/40666e5b-7199-4fcb-9856-edf34d05ade7/front-500",
 "source": "musicbrainz",
 "mb_rg": "40666e5b-7199-4fcb-9856-edf34d05ade7"
+},
+{
+"groupe": "Goatmoon",
+"album": "Silver Serpent",
+"date": "2021-10-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4e035fdd-e8d7-4df7-a965-7b9f4f15556b/front-500",
+"source": "musicbrainz",
+"mb_rg": "4e035fdd-e8d7-4df7-a965-7b9f4f15556b"
+},
+{
+"groupe": "Vomitron",
+"album": "No NES for the Wicked (Reset)",
+"date": "2021-10-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ce618beb-7f7d-4e0b-be31-c09ae31bb55c/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ce618beb-7f7d-4e0b-be31-c09ae31bb55c",
+"deezer_id": 289820572,
+"duree": "67"
 },
 {
 "groupe": "Diablo Swing Orchestra",
@@ -6788,6 +8204,28 @@
 "duree": "54"
 },
 {
+"groupe": "Borknagar",
+"album": "Borknagar (25th Anniversary Re-issue 2021)",
+"date": "2021-11-12",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/20ac496894d0df6162dbe456d63babd0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 254534872,
+"duree": "105"
+},
+{
+"groupe": "Borknagar",
+"album": "Borknagar (Remaster 2021)",
+"date": "2021-11-12",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/20ac496894d0df6162dbe456d63babd0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 254534912,
+"duree": "45"
+},
+{
 "groupe": "Cân Bardd",
 "album": "Devoured by the Oak",
 "date": "2021-11-12",
@@ -6798,6 +8236,17 @@
 "mb_rg": "9acdda47-9ff1-4ebe-8f40-7196c384583d",
 "deezer_id": 262438152,
 "duree": "58"
+},
+{
+"groupe": "Rise Against",
+"album": "Nowhere Sessions",
+"date": "2021-11-12",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/5c40a3d54209ca86b240f21bb6982216/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 263614742,
+"duree": "19"
 },
 {
 "groupe": "Unleashed",
@@ -6845,6 +8294,27 @@
 "source": "deezer",
 "deezer_id": 253068202,
 "duree": "41"
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Forlorn Citadel / Mirkwood / Spells of Fog",
+"date": "2021-11-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/5fd57c24-d8fb-4ae6-8b6a-cdfd172d4bd4/front-500",
+"source": "musicbrainz",
+"mb_rg": "5fd57c24-d8fb-4ae6-8b6a-cdfd172d4bd4"
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Forlorn Citadel / Spells of Fog",
+"date": "2021-11-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/258261c9a24dc6b5cb4b78354ea89d8f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 895232592,
+"duree": "35"
 },
 {
 "groupe": "Hypocrisy",
@@ -6937,6 +8407,39 @@
 "duree": "106"
 },
 {
+"groupe": "Kreator",
+"album": "Endorama (Ultimate Edition)",
+"date": "2021-12-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/b44e29c841cf344506ff8932bf4bde79/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 240432442,
+"duree": "104"
+},
+{
+"groupe": "Thyrfing",
+"album": "Farsotstider",
+"date": "2021-12-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/2a5de45606fe32d1c992b23d1120d57a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 286884452,
+"duree": "42"
+},
+{
+"groupe": "Shores of Null",
+"album": "Quiet Whispers (Unplugged At Traffic Garden)",
+"date": "2021-12-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/65d0998505c3363f1ce5751247a26eb4/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 279838752,
+"duree": "58"
+},
+{
 "groupe": "Primalfrost",
 "album": "Lost Elegies",
 "date": "2021-12-28",
@@ -6969,6 +8472,28 @@
 "pochette": "",
 "source": "musicbrainz",
 "mb_rg": "d52b0076-8c98-40b4-b58f-c34c0a6c008d"
+},
+{
+"groupe": "Mechina",
+"album": "Venator (instrumental)",
+"date": "2022-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a7a6cb02-f981-48cd-81c0-64c0d8245d70/front-500",
+"source": "musicbrainz",
+"mb_rg": "a7a6cb02-f981-48cd-81c0-64c0d8245d70"
+},
+{
+"groupe": "Mechina",
+"album": "Venator",
+"date": "2022-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e2c98d21-eae1-4ce8-a16e-153bbc6ae49b/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "e2c98d21-eae1-4ce8-a16e-153bbc6ae49b",
+"deezer_id": 284844592,
+"duree": "52"
 },
 {
 "groupe": "Moongates Guardian",
@@ -7062,6 +8587,41 @@
 "duree": "107"
 },
 {
+"groupe": "Shadow Of Intent",
+"album": "Elegy",
+"date": "2022-01-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/822fa4a1-5334-45fc-bc81-46060b5ba999/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "822fa4a1-5334-45fc-bc81-46060b5ba999",
+"deezer_id": 259086392,
+"duree": "60"
+},
+{
+"groupe": "Battle Beast",
+"album": "Circus of Doom",
+"date": "2022-01-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3a3fda3d-9da2-453c-ae8b-4ca16b544508/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3a3fda3d-9da2-453c-ae8b-4ca16b544508",
+"deezer_id": 300142957,
+"duree": "49"
+},
+{
+"groupe": "Kreator",
+"album": "Bootleg Revolution (Live)",
+"date": "2022-01-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/a1f54d2bcafb24fe82e6d6ab848594d0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 261909952,
+"duree": "113"
+},
+{
 "groupe": "Druadan Forest",
 "album": "Portals",
 "date": "2022-01-28",
@@ -7095,6 +8655,16 @@
 "mb_rg": "d8bb23aa-1955-43bc-a60c-c767f65d3f54"
 },
 {
+"groupe": "Persefone",
+"album": "Metanoia",
+"date": "2022-02-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/2c903bcd-0664-43e8-891f-69773225a1e8/front-500",
+"source": "musicbrainz",
+"mb_rg": "2c903bcd-0664-43e8-891f-69773225a1e8"
+},
+{
 "groupe": "Amorphis",
 "album": "Halo",
 "date": "2022-02-11",
@@ -7105,6 +8675,16 @@
 "mb_rg": "c3239b3a-4959-49b9-a373-04654c4cdeea",
 "deezer_id": 663051251,
 "duree": "56"
+},
+{
+"groupe": "Devils of Loudun",
+"album": "Escaping Eternity",
+"date": "2022-02-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/f45155d6-a3f6-4894-992f-de1702e3e125/front-500",
+"source": "musicbrainz",
+"mb_rg": "f45155d6-a3f6-4894-992f-de1702e3e125"
 },
 {
 "groupe": "Lordi",
@@ -7183,6 +8763,18 @@
 "source": "deezer",
 "deezer_id": 271710462,
 "duree": "47"
+},
+{
+"groupe": "Pure Wrath",
+"album": "Hymn to the Woeful Hearts",
+"date": "2022-02-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/695c7c26-088f-4b5a-a6c0-21c6990de157/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "695c7c26-088f-4b5a-a6c0-21c6990de157",
+"deezer_id": 272418302,
+"duree": "44"
 },
 {
 "groupe": "Kalmankantaja",
@@ -7305,6 +8897,18 @@
 "source": "deezer",
 "deezer_id": 297774482,
 "duree": "48"
+},
+{
+"groupe": "Kampfar",
+"album": "Urkraft",
+"date": "2022-03-31",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/2bcd45e1-a46a-4368-9584-5bbd0608cd4a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "2bcd45e1-a46a-4368-9584-5bbd0608cd4a",
+"deezer_id": 596967582,
+"duree": "16"
 },
 {
 "groupe": "The Roughneck Riot",
@@ -7510,6 +9114,17 @@
 "duree": "49"
 },
 {
+"groupe": "Raxa",
+"album": "Legend of Mictlan",
+"date": "2022-05-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/671cc054a758a25cd7c625bfc4762393/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 740239761,
+"duree": "45"
+},
+{
 "groupe": "Sabaton",
 "album": "The Symphony To End All Wars (Symphonic Version)",
 "date": "2022-05-06",
@@ -7578,6 +9193,17 @@
 "duree": "104"
 },
 {
+"groupe": "Dvne",
+"album": "Cycles of Asphodel (Live)",
+"date": "2022-05-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/15af8d07c46ed9f09b9ee5d2d43cd76f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 301050737,
+"duree": "26"
+},
+{
 "groupe": "SepticFlesh",
 "album": "Modern Primitive",
 "date": "2022-05-20",
@@ -7625,6 +9251,30 @@
 "duree": "17"
 },
 {
+"groupe": "Kreator",
+"album": "Hate über alles",
+"date": "2022-06-10",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4e54edd8-256e-4870-9bc7-4abda4695fce/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4e54edd8-256e-4870-9bc7-4abda4695fce",
+"deezer_id": 288371602,
+"duree": "46"
+},
+{
+"groupe": "Rise Against",
+"album": "Nowhere Generation II",
+"date": "2022-06-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/2ded7d2f-1daa-4f56-b153-2b6dc5262f07/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "2ded7d2f-1daa-4f56-b153-2b6dc5262f07",
+"deezer_id": 324252277,
+"duree": "20"
+},
+{
 "groupe": "Wind Rose",
 "album": "Warfront",
 "date": "2022-06-10",
@@ -7637,6 +9287,28 @@
 "duree": "55"
 },
 {
+"groupe": "Panopticon",
+"album": "Collapse",
+"date": "2022-06-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/65c087a18e61ef25e31161ee20dc42e8/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 330179387,
+"duree": "53"
+},
+{
+"groupe": "Pathogen",
+"album": "Welcome to My Multi-Verse",
+"date": "2022-06-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/aca8997f21edde027346d099e3f57e86/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 316416907,
+"duree": "42"
+},
+{
 "groupe": "Alestorm",
 "album": "Seventh Rum of a Seventh Rum",
 "date": "2022-06-24",
@@ -7647,6 +9319,17 @@
 "mb_rg": "ad977e27-c903-4b73-bc8c-25032c5e76ea",
 "deezer_id": 301638417,
 "duree": "97"
+},
+{
+"groupe": "Black River",
+"album": "Generation Axe",
+"date": "2022-06-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f4de27ddb4a023f626b31304ddad17bb/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 614651942,
+"duree": "22"
 },
 {
 "groupe": "Saor",
@@ -7713,6 +9396,16 @@
 "source": "deezer",
 "deezer_id": 334802907,
 "duree": "36"
+},
+{
+"groupe": "Panopticon",
+"album": "The End Is Growing Near",
+"date": "2022-07-19",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/cda068db-b5b3-49df-b72f-796cd81ae355/front-500",
+"source": "musicbrainz",
+"mb_rg": "cda068db-b5b3-49df-b72f-796cd81ae355"
 },
 {
 "groupe": "Amon Amarth",
@@ -7806,6 +9499,18 @@
 "duree": "45"
 },
 {
+"groupe": "Carrion Vael",
+"album": "Abhorrent Obsessions",
+"date": "2022-08-12",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/2a164b37-a1cd-4589-9212-0344dc8c6eca/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "2a164b37-a1cd-4589-9212-0344dc8c6eca",
+"deezer_id": 306773437,
+"duree": "39"
+},
+{
 "groupe": "Papa Roach",
 "album": "Ego Trip Chronicles: SELF‐AWARE",
 "date": "2022-08-12",
@@ -7814,6 +9519,26 @@
 "pochette": "https://coverartarchive.org/release-group/14455e35-f4a1-47c1-90c5-a740ab6a8b89/front-500",
 "source": "musicbrainz",
 "mb_rg": "14455e35-f4a1-47c1-90c5-a740ab6a8b89"
+},
+{
+"groupe": "Goatmoon",
+"album": "Wolfnacht / Goatmoon / Thy Serpent",
+"date": "2022-08-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e459c19f-ca84-4bad-9765-f0fd8853ddab/front-500",
+"source": "musicbrainz",
+"mb_rg": "e459c19f-ca84-4bad-9765-f0fd8853ddab"
+},
+{
+"groupe": "Thy Serpent",
+"album": "Wolfnacht / Goatmoon / Thy Serpent",
+"date": "2022-08-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/e459c19f-ca84-4bad-9765-f0fd8853ddab/front-500",
+"source": "musicbrainz",
+"mb_rg": "e459c19f-ca84-4bad-9765-f0fd8853ddab"
 },
 {
 "groupe": "Blind Guardian",
@@ -7893,6 +9618,30 @@
 "duree": "48"
 },
 {
+"groupe": "Panychida",
+"album": "Říruřec - Dreisessel",
+"date": "2022-09-01",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/ea7ffa3b-4a59-4f2a-8a73-71cf38107dcb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ea7ffa3b-4a59-4f2a-8a73-71cf38107dcb",
+"deezer_id": 344725667,
+"duree": "23"
+},
+{
+"groupe": "Aeternam",
+"album": "Heir of the Rising Sun",
+"date": "2022-09-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/68a6252f-fd4a-4f44-9831-3473b2dc6a3f/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "68a6252f-fd4a-4f44-9831-3473b2dc6a3f",
+"deezer_id": 347524627,
+"duree": "47"
+},
+{
 "groupe": "Blind Guardian",
 "album": "The God Machine",
 "date": "2022-09-02",
@@ -7926,6 +9675,18 @@
 "duree": "37"
 },
 {
+"groupe": "Revocation",
+"album": "Netherheaven",
+"date": "2022-09-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/68ec7c33-b8ad-43a1-9f10-b4c83abd054d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "68ec7c33-b8ad-43a1-9f10-b4c83abd054d",
+"deezer_id": 327170537,
+"duree": "45"
+},
+{
 "groupe": "Fallujah",
 "album": "Empyrean",
 "date": "2022-09-09",
@@ -7946,6 +9707,18 @@
 "pochette": "",
 "source": "musicbrainz",
 "mb_rg": "b470216e-c3b7-4140-853a-2093d1653460"
+},
+{
+"groupe": "Parkway Drive",
+"album": "Darker Still",
+"date": "2022-09-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/72185e1e-a156-4f05-b8f1-3817c1684288/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "72185e1e-a156-4f05-b8f1-3817c1684288",
+"deezer_id": 326156007,
+"duree": "46"
 },
 {
 "groupe": "Woods of Desolation",
@@ -8028,6 +9801,18 @@
 "duree": "23"
 },
 {
+"groupe": "Nordjevel",
+"album": "Gnavhòl",
+"date": "2022-09-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/03868d12-2101-400f-b6d9-ecc5378a0eeb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "03868d12-2101-400f-b6d9-ecc5378a0eeb",
+"deezer_id": 595304122,
+"duree": "55"
+},
+{
 "groupe": "Zmey Gorynich",
 "album": "Ѵжица",
 "date": "2022-09-25",
@@ -8075,6 +9860,17 @@
 "duree": "41"
 },
 {
+"groupe": "Pathogen",
+"album": "Moribund Manifesto",
+"date": "2022-10-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/01143ed7f78abe2eb699ec5f149322a5/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 364200247,
+"duree": "41"
+},
+{
 "groupe": "Firtan",
 "album": "Marter",
 "date": "2022-10-14",
@@ -8097,6 +9893,39 @@
 "mb_rg": "a786f976-5894-4e98-9fe9-407284bed047",
 "deezer_id": 355832677,
 "duree": "34"
+},
+{
+"groupe": "Pathogen",
+"album": "Express Elevator to Hell: They Cut the Power",
+"date": "2022-10-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/e6880fe47c358f9294fe0ac30c3bcf5e/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 363148947,
+"duree": "48"
+},
+{
+"groupe": "Hoth",
+"album": "5th Dimension",
+"date": "2022-10-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8eb837a945d9315e2a834303c1830ff3/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 364821227,
+"duree": "45"
+},
+{
+"groupe": "Fear Factory",
+"album": "Recoded",
+"date": "2022-10-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/35e1a45053b722b94be1f9efe7dec262/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 345059817,
+"duree": "53"
 },
 {
 "groupe": "Kalmankantaja",
@@ -8166,6 +9995,18 @@
 "mb_rg": "eed0f9a4-28d7-46f4-ba55-715e9d5295be",
 "deezer_id": 374117637,
 "duree": "20"
+},
+{
+"groupe": "Kampfar",
+"album": "Til klovers takt",
+"date": "2022-11-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/7c965aa3-03bc-4ffe-b797-a449976a0a06/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "7c965aa3-03bc-4ffe-b797-a449976a0a06",
+"deezer_id": 595336592,
+"duree": "44"
 },
 {
 "groupe": "Necrophobic",
@@ -8246,6 +10087,17 @@
 "source": "deezer",
 "deezer_id": 384890907,
 "duree": "20"
+},
+{
+"groupe": "Pathogen",
+"album": "Spread the Cheer: The Acheron Variant",
+"date": "2022-11-30",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/a423a90bec3f99c1f49f6cfb1e5a1577/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 380437467,
+"duree": "17"
 },
 {
 "groupe": "Elffor",
@@ -8371,6 +10223,28 @@
 "mb_rg": "45385063-3178-44fe-b3ab-738e8aeac265"
 },
 {
+"groupe": "Mechina",
+"album": "Cenotaph (instrumental)",
+"date": "2023-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/9f0bd470-ce27-4b98-9de9-6c5819626634/front-500",
+"source": "musicbrainz",
+"mb_rg": "9f0bd470-ce27-4b98-9de9-6c5819626634"
+},
+{
+"groupe": "Mechina",
+"album": "Cenotaph",
+"date": "2023-01-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/fd0a4a24-050d-478d-bca2-dae5f2e851c0/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "fd0a4a24-050d-478d-bca2-dae5f2e851c0",
+"deezer_id": 394377077,
+"duree": "60"
+},
+{
 "groupe": "Firienholt",
 "album": "Trails of Destiny",
 "date": "2023-01-06",
@@ -8414,6 +10288,16 @@
 "mb_rg": "e8d1b6c0-570b-4a96-b1e4-0a1441ff322a",
 "deezer_id": 365892617,
 "duree": "45"
+},
+{
+"groupe": "Goatmoon",
+"album": "What Once Was... Shall Be Again",
+"date": "2023-01-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/2d591348-e4a9-497f-9d0b-8a3e04f7144a/front-500",
+"source": "musicbrainz",
+"mb_rg": "2d591348-e4a9-497f-9d0b-8a3e04f7144a"
 },
 {
 "groupe": "Firienholt",
@@ -8530,6 +10414,16 @@
 "mb_rg": "982deee0-f713-48f5-b34f-525fd37738fc"
 },
 {
+"groupe": "Goatmoon",
+"album": "Witchking",
+"date": "2023-03-14",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/eb495318-569b-4a68-8fc6-889412a2b255/front-500",
+"source": "musicbrainz",
+"mb_rg": "eb495318-569b-4a68-8fc6-889412a2b255"
+},
+{
 "groupe": "Suotana",
 "album": "Ounas I",
 "date": "2023-03-17",
@@ -8588,6 +10482,18 @@
 "mb_rg": "5467e760-32ea-471d-8a10-eb6f2e3c7a91",
 "deezer_id": 369378937,
 "duree": "52"
+},
+{
+"groupe": "Shores of Null",
+"album": "The Loss of Beauty",
+"date": "2023-03-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/c2523cd7-c4f1-4949-99fd-eb829f21e5bf/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "c2523cd7-c4f1-4949-99fd-eb829f21e5bf",
+"deezer_id": 409085577,
+"duree": "55"
 },
 {
 "groupe": "Immortal",
@@ -8766,6 +10672,17 @@
 "duree": "60"
 },
 {
+"groupe": "Pathogen",
+"album": "Between Trinity Ashes",
+"date": "2023-05-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bd393fc355c8f23b23147298e785f9a8/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 444890755,
+"duree": "15"
+},
+{
 "groupe": "Kalmah",
 "album": "Kalmah",
 "date": "2023-05-24",
@@ -8800,6 +10717,17 @@
 "mb_rg": "e58e3a4a-5072-48a4-b25f-3c12a40df342",
 "deezer_id": 413826307,
 "duree": "48"
+},
+{
+"groupe": "Myrkur",
+"album": "Ragnarok (Original Soundtrack)",
+"date": "2023-06-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/31b76edfed405d6d33c2aa705f78ff5d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 445611115,
+"duree": "24"
 },
 {
 "groupe": "Omnium Gatherum",
@@ -8888,6 +10816,52 @@
 "source": "deezer",
 "deezer_id": 454381105,
 "duree": "53"
+},
+{
+"groupe": "Pathogen",
+"album": "Edm (Sort Of)",
+"date": "2023-06-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/cf78f1b0cbc688874b8c54ec5b635210/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 451550415,
+"duree": "19"
+},
+{
+"groupe": "Fear Factory",
+"album": "Re-Industrialized",
+"date": "2023-06-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/07044b0b38bb3ccfdd6c66b3adbbedd0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 421304867,
+"duree": "77"
+},
+{
+"groupe": "Tsjuder",
+"album": "Helvegr",
+"date": "2023-06-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/c838c762-bf89-4c5d-95eb-06fb2793c5bb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "c838c762-bf89-4c5d-95eb-06fb2793c5bb",
+"deezer_id": 408559337,
+"duree": "41"
+},
+{
+"groupe": "Tsjuder",
+"album": "Scandinavian Black Metal Attack",
+"date": "2023-06-23",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/db267b4b-eb92-44af-b088-4a0c5ec306da/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "db267b4b-eb92-44af-b088-4a0c5ec306da",
+"deezer_id": 422968447,
+"duree": "18"
 },
 {
 "groupe": "Devin Townsend",
@@ -8990,6 +10964,17 @@
 "duree": "44"
 },
 {
+"groupe": "Borknagar",
+"album": "Universal (Remastered 2023)",
+"date": "2023-08-25",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/40a21a80034b779de34772d71f5d5fcd/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 448501495,
+"duree": "54"
+},
+{
 "groupe": "Exmortus",
 "album": "Necrophony",
 "date": "2023-08-25",
@@ -9011,6 +10996,16 @@
 "source": "deezer",
 "deezer_id": 323954597,
 "duree": "16"
+},
+{
+"groupe": "Goatmoon",
+"album": "Goatmoon / Command",
+"date": "2023-09",
+"precision": "month",
+"type": "ep",
+"pochette": "",
+"source": "musicbrainz",
+"mb_rg": "839d8135-423d-47c5-a294-b2463ad583d8"
 },
 {
 "groupe": "Kvelertak",
@@ -9035,6 +11030,17 @@
 "mb_rg": "fe6609b1-813b-4760-b3e3-de78a67ae6c9",
 "deezer_id": 453859575,
 "duree": "39"
+},
+{
+"groupe": "Pathogen",
+"album": "Return to Halloween Town",
+"date": "2023-09-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ba14ede7c02687abec644eeb5ec30a7f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 477734885,
+"duree": "29"
 },
 {
 "groupe": "Moonlight Sorcery",
@@ -9164,6 +11170,18 @@
 "duree": "44"
 },
 {
+"groupe": "Myrkur",
+"album": "Spine",
+"date": "2023-10-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/cc3f9729-2692-4e0a-a5dd-30ff7de6ea8d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "cc3f9729-2692-4e0a-a5dd-30ff7de6ea8d",
+"deezer_id": 462968375,
+"duree": "34"
+},
+{
 "groupe": "Sylvatica",
 "album": "Cadaver Synod",
 "date": "2023-10-20",
@@ -9279,6 +11297,18 @@
 "duree": "85"
 },
 {
+"groupe": "Panopticon",
+"album": "The Rime of Memory",
+"date": "2023-11-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/bb617dff-7b21-4d5e-8dd2-33e4c77615a5/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "bb617dff-7b21-4d5e-8dd2-33e4c77615a5",
+"deezer_id": 505685371,
+"duree": "75"
+},
+{
 "groupe": "Chilled Monkey Brains",
 "album": "Back to the Mud",
 "date": "2023-12-01",
@@ -9332,6 +11362,17 @@
 "source": "deezer",
 "deezer_id": 455534915,
 "duree": "78"
+},
+{
+"groupe": "Sinergy",
+"album": "Hyperloop VA",
+"date": "2023-12-18",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f83e4d9f8097e4fce8f4f9631e083d5b/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 524908812,
+"duree": "22"
 },
 {
 "groupe": "3 Fromages",
@@ -9412,6 +11453,17 @@
 "duree": "45"
 },
 {
+"groupe": "Whitechapel",
+"album": "Live in the Valley",
+"date": "2024-01-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/e62217ae8075522e57c4e03a0d6fe296/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 490819385,
+"duree": "59"
+},
+{
 "groupe": "Onirism",
 "album": "Take A Break And Breathe",
 "date": "2024-01-31",
@@ -9442,6 +11494,16 @@
 "source": "deezer",
 "deezer_id": 542887832,
 "duree": "31"
+},
+{
+"groupe": "Persefone",
+"album": "Lingua ignota, Part I",
+"date": "2024-02-02",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/988ee9d2-3746-4946-b65b-6f08746a15b0/front-500",
+"source": "musicbrainz",
+"mb_rg": "988ee9d2-3746-4946-b65b-6f08746a15b0"
 },
 {
 "groupe": "Onirism",
@@ -9643,6 +11705,17 @@
 "duree": "24"
 },
 {
+"groupe": "Austrian Death Machine",
+"album": "Judgment Day",
+"date": "2024-02-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/060ea91a7cfd61b57799f11dbfe16b28/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 510351051,
+"duree": "15"
+},
+{
 "groupe": "Amaranthe",
 "album": "The Catalyst",
 "date": "2024-02-21",
@@ -9651,6 +11724,30 @@
 "pochette": "https://coverartarchive.org/release-group/8193619a-f2d6-4f24-87f8-e8751f2cf484/front-500",
 "source": "musicbrainz",
 "mb_rg": "8193619a-f2d6-4f24-87f8-e8751f2cf484"
+},
+{
+"groupe": "Austrian Death Machine",
+"album": "Quad Brutal",
+"date": "2024-02-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/70d2ef65-9ff2-4fb0-a41b-d2334c82c9b0/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "70d2ef65-9ff2-4fb0-a41b-d2334c82c9b0",
+"deezer_id": 513948912,
+"duree": "34"
+},
+{
+"groupe": "Borknagar",
+"album": "Fall",
+"date": "2024-02-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/be7029af-6a61-442c-abca-757f9c1a9d6d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "be7029af-6a61-442c-abca-757f9c1a9d6d",
+"deezer_id": 515615092,
+"duree": "54"
 },
 {
 "groupe": "Druadan Forest",
@@ -9663,6 +11760,18 @@
 "mb_rg": "9e8692a6-0f9c-4172-bfe9-76572d57bed2"
 },
 {
+"groupe": "Job For A Cowboy",
+"album": "Moon Healer",
+"date": "2024-02-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ecb1f0b2-f9f3-493a-a903-925f2c82ddfa/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ecb1f0b2-f9f3-493a-a903-925f2c82ddfa",
+"deezer_id": 485915525,
+"duree": "39"
+},
+{
 "groupe": "Anaal Nathrakh",
 "album": "Apocalyptic Onanism",
 "date": "2024-03-08",
@@ -9671,6 +11780,18 @@
 "pochette": "https://coverartarchive.org/release-group/809cb66e-5ba7-4600-a6e6-32c0822fdc38/front-500",
 "source": "musicbrainz",
 "mb_rg": "809cb66e-5ba7-4600-a6e6-32c0822fdc38"
+},
+{
+"groupe": "Shadow Of Intent",
+"album": "Elegy: The Soundtrack",
+"date": "2024-03-08",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/47d3bc3c-27f7-4022-9ba3-2ac0c758bcc7/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "47d3bc3c-27f7-4022-9ba3-2ac0c758bcc7",
+"deezer_id": 554797972,
+"duree": "60"
 },
 {
 "groupe": "Dragonforce",
@@ -9755,6 +11876,18 @@
 "duree": "38"
 },
 {
+"groupe": "Carrion Vael",
+"album": "Cannibals Anonymous",
+"date": "2024-03-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ca9593bd-d37b-49dc-b0ff-c161925eb289/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ca9593bd-d37b-49dc-b0ff-c161925eb289",
+"deezer_id": 531278752,
+"duree": "41"
+},
+{
 "groupe": "Sum 41",
 "album": "Heaven :x: Hell",
 "date": "2024-03-29",
@@ -9765,6 +11898,18 @@
 "mb_rg": "256762ad-6a8c-40b4-969e-c7721a3bf794",
 "deezer_id": 892847972,
 "duree": "55"
+},
+{
+"groupe": "The Absence",
+"album": "The Absence",
+"date": "2024-03-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/c92f0c31-cbf8-4618-90b1-8604c3f48f8b/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "c92f0c31-cbf8-4618-90b1-8604c3f48f8b",
+"deezer_id": 520590632,
+"duree": "38"
 },
 {
 "groupe": "Korpiklaani",
@@ -9789,6 +11934,30 @@
 "mb_rg": "b2e69200-dff0-4393-b80d-9e73ba6c4b8a",
 "deezer_id": 523073662,
 "duree": "42"
+},
+{
+"groupe": "Threat Signal",
+"album": "Demos (2004-2005)",
+"date": "2024-04-13",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a67d82fe-9fac-4d8e-83d6-d8aed5987f1b/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a67d82fe-9fac-4d8e-83d6-d8aed5987f1b",
+"deezer_id": 575093451,
+"duree": "47"
+},
+{
+"groupe": "Dvne",
+"album": "Voidkind",
+"date": "2024-04-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/2010330e-a563-498b-a871-dcd48d6f6dc8/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "2010330e-a563-498b-a871-dcd48d6f6dc8",
+"deezer_id": 533986012,
+"duree": "58"
 },
 {
 "groupe": "NOFX",
@@ -9871,6 +12040,28 @@
 "duree": "59"
 },
 {
+"groupe": "Kreator",
+"album": "Hordes Of Chaos (Remastered 2024)",
+"date": "2024-05-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/fe1c97ae276320d6ced8b29bb6b59ba7/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 551281532,
+"duree": "81"
+},
+{
+"groupe": "Kreator",
+"album": "Enemy Of God (Remastered)",
+"date": "2024-05-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8ae5c33d6a95c7ae92ceeec7c816d9f1/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 551314952,
+"duree": "112"
+},
+{
 "groupe": "Elffor",
 "album": "The Crescent Moon Palace",
 "date": "2024-05-28",
@@ -9925,6 +12116,39 @@
 "source": "deezer",
 "deezer_id": 597314972,
 "duree": "59"
+},
+{
+"groupe": "Pathogen",
+"album": "Bloodborn (Instrumental)",
+"date": "2024-06-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/57e5255d3bbd10afd34d51294e596dc7/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 613022522,
+"duree": "40"
+},
+{
+"groupe": "Kampfar",
+"album": "Profan",
+"date": "2024-06-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/2509518adaa993804a9f3d2b1d1008bf/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 596447402,
+"duree": "40"
+},
+{
+"groupe": "Kampfar",
+"album": "Mellom Skogkledde Aaser",
+"date": "2024-06-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/545a151daac01cbce646034173dd731d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 597405062,
+"duree": "39"
 },
 {
 "groupe": "Alcest",
@@ -10365,6 +12589,17 @@
 "mb_rg": "7cc2877e-4097-42cd-9c16-942d37609010"
 },
 {
+"groupe": "Pathogen",
+"album": "Vegas, Baby!",
+"date": "2024-09-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/9d6b641d28bf2ce6ffe145100266e320/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 625794351,
+"duree": "47"
+},
+{
 "groupe": "Amaranthe",
 "album": "Les Larmes de Babette",
 "date": "2024-09-27",
@@ -10492,6 +12727,18 @@
 "duree": "90"
 },
 {
+"groupe": "Iotunn",
+"album": "Kinship",
+"date": "2024-10-25",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/95bde586-b5fc-44af-b840-be884a16ffb0/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "95bde586-b5fc-44af-b840-be884a16ffb0",
+"deezer_id": 616484631,
+"duree": "68"
+},
+{
 "groupe": "Wintersun",
 "album": "TIME I 2.0 (instrumental)",
 "date": "2024-10-29",
@@ -10500,6 +12747,18 @@
 "pochette": "https://coverartarchive.org/release-group/42266f4e-0cd8-4648-a7af-eb6641ac6f49/front-500",
 "source": "musicbrainz",
 "mb_rg": "42266f4e-0cd8-4648-a7af-eb6641ac6f49"
+},
+{
+"groupe": "Slechtvalk",
+"album": "At Death’s Gate",
+"date": "2024-10-31",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/1aee73f9-7e39-4f69-bb90-95a637032913/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1aee73f9-7e39-4f69-bb90-95a637032913",
+"deezer_id": 651282781,
+"duree": "58"
 },
 {
 "groupe": "Cien",
@@ -10512,6 +12771,16 @@
 "mb_rg": "2b45e4fa-9014-4a75-ab58-faa84f3cb94a",
 "deezer_id": 648061981,
 "duree": "41"
+},
+{
+"groupe": "Mononc' Serge & Anonymus",
+"album": "Métal canadien-français",
+"date": "2024-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/51213625-7680-492a-b56b-a5f9b1bf37d2/front-500",
+"source": "musicbrainz",
+"mb_rg": "51213625-7680-492a-b56b-a5f9b1bf37d2"
 },
 {
 "groupe": "As I Lay Dying",
@@ -10535,6 +12804,17 @@
 "source": "deezer",
 "deezer_id": 671244791,
 "duree": "48"
+},
+{
+"groupe": "Kreator",
+"album": "Live in Chile",
+"date": "2024-11-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/4cf6e31f5dd9605f332cfe5618199131/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 661705701,
+"duree": "81"
 },
 {
 "groupe": "First Fragment",
@@ -10763,6 +13043,17 @@
 "duree": "56"
 },
 {
+"groupe": "Pathogen",
+"album": "Crossing the Threshold (Demos)",
+"date": "2025-02-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/46fb7ecbc2221dc2e3e54de51e7b5e80/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 709676711,
+"duree": "18"
+},
+{
 "groupe": "Saor",
 "album": "Amidst the Ruins",
 "date": "2025-02-07",
@@ -10785,6 +13076,17 @@
 "mb_rg": "8c2dcc33-9827-40cf-8abd-9610923f28cb",
 "deezer_id": 655245811,
 "duree": "43"
+},
+{
+"groupe": "Blackguard",
+"album": "...So It Begins",
+"date": "2025-02-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/902351db7dd71d58c61e0f3717e66c39/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 710452131,
+"duree": "32"
 },
 {
 "groupe": "SepticFlesh",
@@ -10877,6 +13179,18 @@
 "duree": "54"
 },
 {
+"groupe": "Whitechapel",
+"album": "Hymns in Dissonance",
+"date": "2025-03-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/1c7b43a8-7a77-4837-9dcd-d41c08527c34/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1c7b43a8-7a77-4837-9dcd-d41c08527c34",
+"deezer_id": 678521041,
+"duree": "43"
+},
+{
 "groupe": "Cradle of Filth",
 "album": "White Hellebore",
 "date": "2025-03-11",
@@ -10921,6 +13235,28 @@
 "mb_rg": "1fcf1d2e-7504-41aa-a39f-039ec90ca953",
 "deezer_id": 670789211,
 "duree": "45"
+},
+{
+"groupe": "Mechina",
+"album": "Bellum interruptum (instrumental)",
+"date": "2025-03-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/280b6093-8eb1-42e3-8d7a-59fe5c069f0b/front-500",
+"source": "musicbrainz",
+"mb_rg": "280b6093-8eb1-42e3-8d7a-59fe5c069f0b"
+},
+{
+"groupe": "Mechina",
+"album": "Bellum interruptum",
+"date": "2025-03-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b1de8335-d099-4473-946b-3543a91143e5/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b1de8335-d099-4473-946b-3543a91143e5",
+"deezer_id": 733082791,
+"duree": "56"
 },
 {
 "groupe": "Arch Enemy",
@@ -10968,6 +13304,28 @@
 "duree": "45"
 },
 {
+"groupe": "Pathogen",
+"album": "At The Break Of Dawn",
+"date": "2025-04-05",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d00e84bf145dff614b5a297f45615d70/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 734916121,
+"duree": "29"
+},
+{
+"groupe": "Battle Beast",
+"album": "Circus of Doom (Live in Helsinki 2023)",
+"date": "2025-04-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/21f50edd05ecbed65d25741476110097/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 699143651,
+"duree": "74"
+},
+{
 "groupe": "Behemoth",
 "album": "Vnholy Psalms",
 "date": "2025-04-11",
@@ -10976,6 +13334,18 @@
 "pochette": "https://coverartarchive.org/release-group/1750ff72-a322-4079-9051-b24d2130aa7e/front-500",
 "source": "musicbrainz",
 "mb_rg": "1750ff72-a322-4079-9051-b24d2130aa7e"
+},
+{
+"groupe": "Valhalore",
+"album": "Beyond the Stars",
+"date": "2025-04-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/0431b665-b96c-4543-8693-d8562a8a2850/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "0431b665-b96c-4543-8693-d8562a8a2850",
+"deezer_id": 696875421,
+"duree": "48"
 },
 {
 "groupe": "Gama Bomb",
@@ -11014,6 +13384,17 @@
 "duree": "42"
 },
 {
+"groupe": "Dvne",
+"album": "Live at the Biscuit Factory",
+"date": "2025-05-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/3b30d10980e69cac39820e8a65406a5a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 746177081,
+"duree": "35"
+},
+{
 "groupe": "Firienholt",
 "album": "Night Eternal",
 "date": "2025-05-02",
@@ -11024,6 +13405,17 @@
 "mb_rg": "5327cc96-a2ca-43ca-aaf5-10a38257a0da",
 "deezer_id": 716135071,
 "duree": "48"
+},
+{
+"groupe": "Sinergy",
+"album": "DISCURSO MÁGICO",
+"date": "2025-05-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bcf44d1593c649bf7497b3ed5257bec8/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 753389671,
+"duree": "36"
 },
 {
 "groupe": "Behemoth",
@@ -11038,6 +13430,17 @@
 "duree": "38"
 },
 {
+"groupe": "Shores of Null",
+"album": "Beauty over Europe (Live)",
+"date": "2025-05-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/512a4eb14df613223754e3af3ce2bc03/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 725123851,
+"duree": "45"
+},
+{
 "groupe": "Run! Run! Jump! Punch!",
 "album": "Pizza Trois Sauvages",
 "date": "2025-05-16",
@@ -11047,6 +13450,18 @@
 "source": "deezer",
 "deezer_id": 745940431,
 "duree": "26"
+},
+{
+"groupe": "Dalriada",
+"album": "Magvető",
+"date": "2025-05-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/1289810a-3a4c-48fa-82af-8478d678c8dd/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1289810a-3a4c-48fa-82af-8478d678c8dd",
+"deezer_id": 745817281,
+"duree": "44"
 },
 {
 "groupe": "Vader",
@@ -11128,6 +13543,16 @@
 "duree": "44"
 },
 {
+"groupe": "Goatmoon",
+"album": "Summerforest",
+"date": "2025-06-17",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "musicbrainz",
+"mb_rg": "4535fcc6-f055-4e1b-adf3-278d6c87acd2"
+},
+{
 "groupe": "Alestorm",
 "album": "The Thunderfist Chronicles",
 "date": "2025-06-20",
@@ -11138,6 +13563,18 @@
 "mb_rg": "7fbdcb2f-a0e7-4e75-93a9-9a2d14f0bde8",
 "deezer_id": 774521591,
 "duree": "45"
+},
+{
+"groupe": "Shadow Of Intent",
+"album": "Imperium Delirium",
+"date": "2025-06-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b685b3b4-195e-480e-adbb-4a54cfbe4eb4/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b685b3b4-195e-480e-adbb-4a54cfbe4eb4",
+"deezer_id": 740679461,
+"duree": "55"
 },
 {
 "groupe": "Unleashed",
@@ -11217,6 +13654,53 @@
 "source": "deezer",
 "deezer_id": 730417561,
 "duree": "43"
+},
+{
+"groupe": "Sinergy",
+"album": "8 LETTERS TO MYSELF",
+"date": "2025-08-08",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/1da675fb36de4b90be75c9dbc35b9f67/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 801415801,
+"duree": "20"
+},
+{
+"groupe": "Panopticon",
+"album": "Laurentian Blue",
+"date": "2025-08-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4f87d2da-a978-4cf4-b7d7-07f8c9032e65/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4f87d2da-a978-4cf4-b7d7-07f8c9032e65",
+"deezer_id": 767248971,
+"duree": "46"
+},
+{
+"groupe": "Panopticon",
+"album": "Songs of Hiraeth",
+"date": "2025-08-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/76862aec-b207-4878-b5db-4075a834f7c7/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "76862aec-b207-4878-b5db-4075a834f7c7",
+"deezer_id": 773853381,
+"duree": "61"
+},
+{
+"groupe": "Rise Against",
+"album": "Ricochet",
+"date": "2025-08-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a51d30f3-3cdb-4b36-8033-9b6964786216/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a51d30f3-3cdb-4b36-8033-9b6964786216",
+"deezer_id": 801416661,
+"duree": "42"
 },
 {
 "groupe": "Unleashed",
@@ -11344,6 +13828,16 @@
 "duree": "44"
 },
 {
+"groupe": "Panopticon",
+"album": "The Poppies Bloom for No King",
+"date": "2025-09-19",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/cce69aa8-8a28-4a32-8761-59d165caeeac/front-500",
+"source": "musicbrainz",
+"mb_rg": "cce69aa8-8a28-4a32-8761-59d165caeeac"
+},
+{
 "groupe": "Vintersorg",
 "album": "Vattenkrafternas spel",
 "date": "2025-09-20",
@@ -11368,6 +13862,18 @@
 "duree": "50"
 },
 {
+"groupe": "Revocation",
+"album": "New Gods, New Masters",
+"date": "2025-09-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3b1732a0-5718-4710-8eb7-d9963de72726/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3b1732a0-5718-4710-8eb7-d9963de72726",
+"deezer_id": 747432921,
+"duree": "44"
+},
+{
 "groupe": "Arch Enemy",
 "album": "Blood Dynasty (Expanded Deluxe Edition)",
 "date": "2025-10-10",
@@ -11388,6 +13894,18 @@
 "source": "deezer",
 "deezer_id": 841927862,
 "duree": "45"
+},
+{
+"groupe": "Battle Beast",
+"album": "Steelbound",
+"date": "2025-10-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/25352f34-98d0-4a60-8949-1eb2b6f12677/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "25352f34-98d0-4a60-8949-1eb2b6f12677",
+"deezer_id": 787008481,
+"duree": "37"
 },
 {
 "groupe": "Carach Angren",
@@ -11530,6 +14048,29 @@
 "duree": "39"
 },
 {
+"groupe": "Forteresse",
+"album": "À Couteaux Tirés",
+"date": "2025-11-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ba20e176c246fac17c6c747ef786e231/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1030091062,
+"duree": "12"
+},
+{
+"groupe": "Shores of Null",
+"album": "Latitudes of Sorrow",
+"date": "2025-11-21",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/38aa7a31-dce6-447f-a943-28e8edf237ec/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "38aa7a31-dce6-447f-a943-28e8edf237ec",
+"deezer_id": 833379421,
+"duree": "37"
+},
+{
 "groupe": "The Halo Effect",
 "album": "We Are Shadows",
 "date": "2025-11-21",
@@ -11566,6 +14107,17 @@
 "duree": "45"
 },
 {
+"groupe": "Psychostick",
+"album": "The Flesh Eating Rollerskate Rides Again",
+"date": "2025-11-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/174edfdf97dda9386375d113f0b8fe61/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 833127211,
+"duree": "37"
+},
+{
 "groupe": "Sigh",
 "album": "Infidel Art (2025 Remaster)",
 "date": "2025-11-28",
@@ -11575,6 +14127,29 @@
 "source": "deezer",
 "deezer_id": 863903262,
 "duree": "51"
+},
+{
+"groupe": "Vomitron",
+"album": "3",
+"date": "2025-11-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/1d3bc604-e2be-489f-b1e5-f0e38a15c4f5/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "1d3bc604-e2be-489f-b1e5-f0e38a15c4f5",
+"deezer_id": 862398302,
+"duree": "49"
+},
+{
+"groupe": "Psychostick",
+"album": "Toxic Crusaders Original Soundtrack",
+"date": "2025-12-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/80e4b3f45d216edbdf0c7f0c9fdd740d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 997921541,
+"duree": "52"
 },
 {
 "groupe": "Edge of Sanity",
@@ -11679,6 +14254,28 @@
 "duree": "63"
 },
 {
+"groupe": "Raxa",
+"album": "La Metafísica del Semáforo",
+"date": "2025-12-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/add0c11a1532130e910a33817bb7d329/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 881909822,
+"duree": "44"
+},
+{
+"groupe": "Pathogen",
+"album": "Decaying Worship",
+"date": "2025-12-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ee48869f06003e5ff0ebcba1ffa219b4/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 880559392,
+"duree": "23"
+},
+{
 "groupe": "Moongates Guardian",
 "album": "Come Shadow Of My End",
 "date": "2026-01-01",
@@ -11691,6 +14288,17 @@
 "duree": "41"
 },
 {
+"groupe": "Raxa",
+"album": "EL Soldado Desconocido (Poemas de Salomón de la Selva)",
+"date": "2026-01-02",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/141c1d90c2421cd3304aa84b9c7df960/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 889795032,
+"duree": "19"
+},
+{
 "groupe": "Nanowar of Steel",
 "album": "The Genghis Khan EP to End All Genghis Khan EPs",
 "date": "2026-01-07",
@@ -11701,6 +14309,52 @@
 "mb_rg": "132462d7-1cd9-478f-ad91-0a60d6689d89",
 "deezer_id": 843077062,
 "duree": "17"
+},
+{
+"groupe": "Iotunn",
+"album": "Waves over Copenhell (Live)",
+"date": "2026-01-09",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8977d6a3e335b4df3d79415cb00ab991/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 830908511,
+"duree": "52"
+},
+{
+"groupe": "Carrion Vael",
+"album": "Slay Utterly",
+"date": "2026-01-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/6b49ff0d-0247-4ad6-bfee-92075b8d8c38/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "6b49ff0d-0247-4ad6-bfee-92075b8d8c38",
+"deezer_id": 834688872,
+"duree": "42"
+},
+{
+"groupe": "Kreator",
+"album": "Krushers of the World",
+"date": "2026-01-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/21250117-a80a-4468-96ea-3a9342906c51/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "21250117-a80a-4468-96ea-3a9342906c51",
+"deezer_id": 815980711,
+"duree": "44"
+},
+{
+"groupe": "Raxa",
+"album": "Las Rolitas",
+"date": "2026-01-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/573e6f44a7e7cf3c96a89fd60b1bbbf6/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 900867912,
+"duree": "36"
 },
 {
 "groupe": "Manegarm",
@@ -11759,6 +14413,116 @@
 "duree": "22"
 },
 {
+"groupe": "Kreator",
+"album": "Love Us or Hate Us: The Very Best of the Noise Years 1985-1992",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/2e8053aa5798c52a9b1d533f4bde6800/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901424642,
+"duree": "51"
+},
+{
+"groupe": "Kreator",
+"album": "Outcast (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/3c4a1d58fe324c3760e0015b526ad972/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 900628132,
+"duree": "88"
+},
+{
+"groupe": "Kreator",
+"album": "Renewal",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c7d3aa318bfa0b9fd1e1014835dd1820/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 900598442,
+"duree": "39"
+},
+{
+"groupe": "Kreator",
+"album": "Renewal (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/5651f315a3a5d515e688f281f68b7720/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 900627952,
+"duree": "53"
+},
+{
+"groupe": "Kreator",
+"album": "Coma of Souls (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/0c28cb21861ee17933f7c4d7414ae447/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 889021612,
+"duree": "120"
+},
+{
+"groupe": "Kreator",
+"album": "Extreme Aggression (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/52937423344d232b9c926c712d22971f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901415362,
+"duree": "108"
+},
+{
+"groupe": "Kreator",
+"album": "Terrible Certainty (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/465b0228e10913eeceaf245b580e49d3/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901415442,
+"duree": "74"
+},
+{
+"groupe": "Kreator",
+"album": "Terrible Certainty",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/fed92540636b570ec163263b6643d06a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901416112,
+"duree": "36"
+},
+{
+"groupe": "Kreator",
+"album": "Endless Pain",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/51acaaf3e494854a1201dd0adcce5ade/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901416072,
+"duree": "39"
+},
+{
+"groupe": "Kreator",
+"album": "Endless Pain (Expanded Edition)",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/541fb9716e8e2eb75dbb61c4ed19e24f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 901415122,
+"duree": "63"
+},
+{
 "groupe": "Sigh",
 "album": "Gallows Gallery",
 "date": "2026-01-28",
@@ -11812,6 +14576,17 @@
 "source": "deezer",
 "deezer_id": 905944772,
 "duree": "41"
+},
+{
+"groupe": "Dvne",
+"album": "Live at Hellfest",
+"date": "2026-02-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/5c8ae183df93e4808e9e774c18a747bc/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 908028392,
+"duree": "58"
 },
 {
 "groupe": "Arcania",
@@ -11929,6 +14704,18 @@
 "duree": "38"
 },
 {
+"groupe": "Threat Signal",
+"album": "Revelations",
+"date": "2026-03-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/8d9a032c-b892-404a-89da-4fd0b35fb266/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "8d9a032c-b892-404a-89da-4fd0b35fb266",
+"deezer_id": 894080162,
+"duree": "44"
+},
+{
 "groupe": "Edge of Sanity",
 "album": "Elegy - Chapter II (Demos Comp.)",
 "date": "2026-04-03",
@@ -11951,6 +14738,28 @@
 "duree": "36"
 },
 {
+"groupe": "Forlorn Citadel",
+"album": "An Oath Undone",
+"date": "2026-04-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/afcee58c-0a53-43d6-b9ba-8ab11f036073/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "afcee58c-0a53-43d6-b9ba-8ab11f036073",
+"deezer_id": 950937011,
+"duree": "40"
+},
+{
+"groupe": "Schattenvald",
+"album": "Alle hernach",
+"date": "2026-04-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/ddd09f5f-8caf-4aa7-b78e-1d0669a64592/front-500",
+"source": "musicbrainz",
+"mb_rg": "ddd09f5f-8caf-4aa7-b78e-1d0669a64592"
+},
+{
 "groupe": "Inferi",
 "album": "Heaven Wept",
 "date": "2026-04-10",
@@ -11961,6 +14770,18 @@
 "mb_rg": "eacd8a95-7d10-4807-9121-0beba575ceb9",
 "deezer_id": 892008232,
 "duree": "38"
+},
+{
+"groupe": "Melechesh",
+"album": "Sentinels of Shamash",
+"date": "2026-04-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/4c4b2fca-209e-41fc-8da8-d3b4340713e7/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4c4b2fca-209e-41fc-8da8-d3b4340713e7",
+"deezer_id": 901422682,
+"duree": "21"
 },
 {
 "groupe": "Cnoc An Tursa",
@@ -12021,6 +14842,52 @@
 "duree": "42"
 },
 {
+"groupe": "Hoth",
+"album": "Delete Time",
+"date": "2026-04-24",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/662bbae1dd5629a6c6066ccf88a31749/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 950376871,
+"duree": "13"
+},
+{
+"groupe": "Pure Wrath",
+"album": "Bleak Days Ahead",
+"date": "2026-04-24",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/373871da-652a-49ff-bb40-c7342bb2d0f8/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "373871da-652a-49ff-bb40-c7342bb2d0f8",
+"deezer_id": 970274601,
+"duree": "41"
+},
+{
+"groupe": "Panopticon",
+"album": "Det hjemsøkte hjertet",
+"date": "2026-05-08",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/01ce764b-626f-43a7-b73a-378bcb4c03ea/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "01ce764b-626f-43a7-b73a-378bcb4c03ea",
+"deezer_id": 925542571,
+"duree": "66"
+},
+{
+"groupe": "Hoth",
+"album": "Nonsense",
+"date": "2026-05-13",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/0386300afbb046c19d87d0a4ead1a211/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 971126961,
+"duree": "15"
+},
+{
 "groupe": "Atavistia",
 "album": "Old Gods Awaken",
 "date": "2026-05-15",
@@ -12076,6 +14943,17 @@
 "mb_rg": "6a9fe192-69e4-411d-bf1d-cc933c4f54f1",
 "deezer_id": 934258971,
 "duree": "69"
+},
+{
+"groupe": "Hoth",
+"album": "Combat",
+"date": "2026-05-22",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ed7bc991e032d95fa0a7891d1b304166/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 986071781,
+"duree": "26"
 },
 {
 "groupe": "Varg",
@@ -12383,6 +15261,18 @@
 "duree": "43"
 },
 {
+"groupe": "Noumena",
+"album": "Maanääri",
+"date": "2026-08-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "fad175cd-8629-4b89-8dfa-d11486782941",
+"deezer_id": 1045117972,
+"duree": "49"
+},
+{
 "groupe": "Gorod",
 "album": "The Ember Gone",
 "date": "2026-08-28",
@@ -12464,6 +15354,17 @@
 "duree": "39"
 },
 {
+"groupe": "Black River",
+"album": "Archive Sessions",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1076947842,
+"duree": "13"
+},
+{
 "groupe": "Firtan",
 "album": "Kalika's Tongue",
 "date": "2026-09-10",
@@ -12529,6 +15430,28 @@
 "source": "deezer",
 "deezer_id": 998668841,
 "duree": "54"
+},
+{
+"groupe": "Noumena",
+"album": "Memories of the Future",
+"date": "2026-09-17",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/7c0e2287cccc08254d54e0077992fb5d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1061150492,
+"duree": "28"
+},
+{
+"groupe": "Forlorn Citadel",
+"album": "Visions",
+"date": "2026-09-18",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/0ea1d65d67a623accc57fb83475a1790/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1081712272,
+"duree": "23"
 },
 {
 "groupe": "Outrage",
@@ -12611,9 +15534,8 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
-"pochette_page": "",
-"note": "",
-"source": "manuel"
+"source": "manuel+musicbrainz",
+"mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4"
 },
 {
 "groupe": "TrollfesT",
