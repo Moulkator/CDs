@@ -33,6 +33,8 @@ BADGES_FILE = os.path.join(DATA, "mes-badges.json")
 LOG_FILE = os.path.join(DATA, "events-log.json")  # journal des événements, lu par le résumé hebdo
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()
+USER_ID = re.sub(r"\D", "", os.environ.get("DISCORD_USER_ID", ""))  # ton identifiant Discord, pour être mentionné
+MENTION = f"<@{USER_ID}> " if USER_ID else ""
 SITE_URL = os.environ.get("SITE_URL", "https://moulkator.github.io/CDs/").rstrip("/") + "/"
 MAX_MESSAGES = 15  # au-delà, un message récapitulatif
 TODAY = date.today()
@@ -243,7 +245,10 @@ def main():
                 content = "🆕 **Album annoncé**"
             else:
                 content = "🔄 **Mise à jour** — " + " · ".join(it.get("_changes", []))
-            ok = send({"content": content, "embeds": [build_embed(it, kind, known, coll + wish)]})
+            payload = {"content": MENTION + content, "embeds": [build_embed(it, kind, known, coll + wish)]}
+            if USER_ID:
+                payload["allowed_mentions"] = {"users": [USER_ID]}
+            ok = send(payload)
             sent += ok
             print(f"  {'✓' if ok else '✗'} {kind} : {it['groupe']} — {it['album']}")
             time.sleep(1.2)
@@ -251,7 +256,7 @@ def main():
             rest = events[MAX_MESSAGES:]
             icons = {"sorti": "💿", "annonce": "🆕", "maj": "🔄"}
             lines = "\n".join(f"• {icons[kd]} {i['groupe']} — {i['album']} ({fmt_date(i.get('date'), i.get('precision', 'unknown'))})" for kd, i in rest[:40])
-            send({"content": f"… et **{len(rest)}** autre(s) :\n{lines}\n{SITE_URL}sorties.html#sorties"})
+            send({"content": f"{MENTION}… et **{len(rest)}** autre(s) :\n{lines}\n{SITE_URL}sorties.html#sorties", "allowed_mentions": {"users": [USER_ID]} if USER_ID else {}})
         print(f"{sent}/{len(events)} notification(s) envoyée(s)")
 
     with open(PREV_FILE, "w", encoding="utf-8") as f:
