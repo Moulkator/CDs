@@ -2270,33 +2270,6 @@
 "duree": "11"
 },
 {
-"groupe": "Arckanum",
-"album": "Den förstfödde",
-"date": "2017-09-29",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/6abd0e7c-d839-450f-bc5c-a44c03f2ea11/front-500",
-"source": "musicbrainz",
-"mb_rg": "6abd0e7c-d839-450f-bc5c-a44c03f2ea11",
-"refs": [
-"mb:51a0f259-bde2-4d6b-9250-7aa1410b0040"
-]
-},
-{
-"groupe": "Outrage",
-"album": "Villa Rotenburg (Europunksongs)",
-"date": "2017-09-29",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/dab84696094c728400bdc4018e69cab7/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 47876072,
-"refs": [
-"dz:163097087"
-],
-"duree": "39"
-},
-{
 "groupe": "Havukruunu",
 "album": "Havulinnaan",
 "date": "2017-09-30",
@@ -2682,22 +2655,6 @@
 ],
 "deezer_id": 415612757,
 "duree": "32"
-},
-{
-"groupe": "Cien",
-"album": "Fate",
-"date": "2017-12-01",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/e74ede2d-517a-47a4-ab01-4b9a464b33bc/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "e74ede2d-517a-47a4-ab01-4b9a464b33bc",
-"refs": [
-"dz:142393",
-"mb:d9b45bf7-81be-4b79-82bf-67068d65828f"
-],
-"deezer_id": 273414102,
-"duree": "48"
 },
 {
 "groupe": "Diablo Swing Orchestra",
@@ -3838,20 +3795,6 @@
 "duree": "54"
 },
 {
-"groupe": "Hoth",
-"album": "Astral Necromancy",
-"date": "2018-06-15",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/0bf97a41ac5a55ddfb6921b918f8df3d/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 60616072,
-"refs": [
-"dz:5706854"
-],
-"duree": "50"
-},
-{
 "groupe": "Retrovizer",
 "album": "Lausanne Downfall, Vol. 1",
 "date": "2018-06-20",
@@ -3926,20 +3869,6 @@
 ],
 "deezer_id": 60679392,
 "duree": "46"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Ocean Machine - Live at the Ancient Roman Theatre Plovdiv",
-"date": "2018-07-06",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/59d06ea182ca2bd6ed9372c12e0d756c/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 62637482,
-"refs": [
-"dz:5582"
-],
-"duree": "162"
 },
 {
 "groupe": "Immortal",
@@ -4549,20 +4478,6 @@
 ]
 },
 {
-"groupe": "Pathogen",
-"album": "Ashes of Eternity (0)",
-"date": "2018-10-31",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/19172d2055c020da13ba37ae84a1c175/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 76797862,
-"refs": [
-"dz:190260"
-],
-"duree": "46"
-},
-{
 "groupe": "Pure Wrath",
 "album": "Deceiver",
 "date": "2018-11-01",
@@ -4823,19 +4738,6 @@
 "mb_rg": "ba6378ac-4402-4da7-a153-96bf70e623a7",
 "refs": [
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-]
-},
-{
-"groupe": "Arckanum",
-"album": "Första trulen",
-"date": "2019",
-"precision": "year",
-"type": "ep",
-"pochette": "https://coverartarchive.org/release-group/92aad1a0-34de-475d-b6b1-df966a6c80e6/front-500",
-"source": "musicbrainz",
-"mb_rg": "92aad1a0-34de-475d-b6b1-df966a6c80e6",
-"refs": [
-"mb:51a0f259-bde2-4d6b-9250-7aa1410b0040"
 ]
 },
 {
@@ -5435,22 +5337,6 @@
 "duree": "27"
 },
 {
-"groupe": "Devin Townsend",
-"album": "Empath",
-"date": "2019-03-29",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/de08cca0-fe80-492e-907c-e3cea7faaa05/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "de08cca0-fe80-492e-907c-e3cea7faaa05",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 85091902,
-"duree": "74"
-},
-{
 "groupe": "Nordjevel",
 "album": "Necrogenesis",
 "date": "2019-03-29",
@@ -5495,20 +5381,6 @@
 "dz:981966"
 ],
 "duree": "27"
-},
-{
-"groupe": "Hoth",
-"album": "Lord of the Netherworld",
-"date": "2019-04-01",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/401ebad46eb2bb810e0a2d8bf07444c7/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 711254451,
-"refs": [
-"dz:5706854"
-],
-"duree": "21"
 },
 {
 "groupe": "Eluveitie",
@@ -6745,22 +6617,6 @@
 "duree": "52"
 },
 {
-"groupe": "Cien",
-"album": "Sickness Called Mankind",
-"date": "2019-11-29",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://coverartarchive.org/release-group/db36d390-870f-400f-97f6-5aff028a2a60/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "db36d390-870f-400f-97f6-5aff028a2a60",
-"refs": [
-"dz:142393",
-"mb:d9b45bf7-81be-4b79-82bf-67068d65828f"
-],
-"deezer_id": 274354462,
-"duree": "30"
-},
-{
 "groupe": "Öxxö Xööx",
 "album": "Ÿ",
 "date": "2019-11-29",
@@ -7988,34 +7844,6 @@
 "duree": "46"
 },
 {
-"groupe": "Devin Townsend",
-"album": "Guitar Improvisation #2",
-"date": "2020-07-01",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/60bd9c7550273d4d1f9187530cda72a1/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 157562572,
-"refs": [
-"dz:5582"
-],
-"duree": "63"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Guitar Improvisation #1",
-"date": "2020-07-01",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/221e6c02f8869ee0e20b4b226413df30/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 157562582,
-"refs": [
-"dz:5582"
-],
-"duree": "66"
-},
-{
 "groupe": "Powerwolf",
 "album": "Best of the Blessed (Deluxe Version)",
 "date": "2020-07-03",
@@ -8088,20 +7916,6 @@
 ],
 "deezer_id": 650924411,
 "duree": "47"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Guitar Improvisation #3",
-"date": "2020-07-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/a1e6eb54647f511365a2f604880360c9/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 161172462,
-"refs": [
-"dz:5582"
-],
-"duree": "84"
 },
 {
 "groupe": "In Flames",
@@ -8208,20 +8022,6 @@
 ],
 "deezer_id": 170344022,
 "duree": "38"
-},
-{
-"groupe": "Pathogen",
-"album": "Null Space",
-"date": "2020-08-25",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/38f0deae9c801e29bb3b852bc21d8bbd/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 168164782,
-"refs": [
-"dz:190260"
-],
-"duree": "36"
 },
 {
 "groupe": "In Flames",
@@ -8500,20 +8300,6 @@
 "duree": "48"
 },
 {
-"groupe": "Devin Townsend",
-"album": "Order Of Magnitude - Empath Live Volume 1",
-"date": "2020-10-23",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/2c58fcc6002cf805b28332c3786c19b6/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 177590332,
-"refs": [
-"dz:5582"
-],
-"duree": "109"
-},
-{
 "groupe": "Carcass",
 "album": "Despicable",
 "date": "2020-10-30",
@@ -8710,20 +8496,6 @@
 ],
 "deezer_id": 173961252,
 "duree": "38"
-},
-{
-"groupe": "Pathogen",
-"album": "Null Space (Instrumental)",
-"date": "2020-12-01",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/568bbab5ee8193ecfcff4bd87f28d530/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 190495532,
-"refs": [
-"dz:190260"
-],
-"duree": "41"
 },
 {
 "groupe": "Gama Bomb",
@@ -9032,20 +8804,6 @@
 ]
 },
 {
-"groupe": "Hoth",
-"album": "Tell Me How You Feel",
-"date": "2021-01-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/478e80e1aeae3778cc1efeff948b4871/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 205729722,
-"refs": [
-"dz:5706854"
-],
-"duree": "66"
-},
-{
 "groupe": "Grima",
 "album": "Rotting Garden",
 "date": "2021-01-22",
@@ -9283,20 +9041,6 @@
 "duree": "52"
 },
 {
-"groupe": "Hoth",
-"album": "Beyond the Black Gate",
-"date": "2021-03-10",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/7742b44c031b02ada4e49d9dc804672d/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 711997831,
-"refs": [
-"dz:5706854"
-],
-"duree": "40"
-},
-{
 "groupe": "Stortregn",
 "album": "Impermanence",
 "date": "2021-03-12",
@@ -9325,20 +9069,6 @@
 "dz:367907"
 ],
 "duree": "14"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Devolution Series #1 - Acoustically Inclined, Live in Leeds  ",
-"date": "2021-03-19",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/438185a06c680600257af93d7984bea1/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 201854842,
-"refs": [
-"dz:5582"
-],
-"duree": "61"
 },
 {
 "groupe": "Dvne",
@@ -9937,20 +9667,6 @@
 "duree": "65"
 },
 {
-"groupe": "Devin Townsend",
-"album": "Devolution Series #2 - Galactic Quarantine (Live)",
-"date": "2021-06-25",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/75bcbe0b900bd195fe6b07c3ca9a1bfb/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 224325502,
-"refs": [
-"dz:5582"
-],
-"duree": "79"
-},
-{
 "groupe": "The Absence",
 "album": "Coffinized",
 "date": "2021-06-25",
@@ -10238,20 +9954,6 @@
 "duree": "51"
 },
 {
-"groupe": "Pathogen",
-"album": "Express Elevator to Hell",
-"date": "2021-08-27",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/63c77e266ec9aca8953762e8020f7ee6/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 252428562,
-"refs": [
-"dz:190260"
-],
-"duree": "13"
-},
-{
 "groupe": "Thyrfing",
 "album": "Vanagandr",
 "date": "2021-08-27",
@@ -10487,20 +10189,6 @@
 "duree": "52"
 },
 {
-"groupe": "Pathogen",
-"album": "Halloween Town Massacre",
-"date": "2021-10-13",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/7ba1fcf08ac1cb8cdb8ede93ba2ebdd1/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 261433532,
-"refs": [
-"dz:190260"
-],
-"duree": "33"
-},
-{
 "groupe": "The Agonist",
 "album": "Days Before the World Wept",
 "date": "2021-10-15",
@@ -10529,38 +10217,6 @@
 "dz:121"
 ],
 "duree": "70"
-},
-{
-"groupe": "Devin Townsend",
-"album": "The Puzzle",
-"date": "2021-10-22",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/7c870369-f3b4-404e-b5b9-0fcde00f61b3/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "7c870369-f3b4-404e-b5b9-0fcde00f61b3",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 262794472,
-"duree": "65"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Snuggles",
-"date": "2021-10-22",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/de57c0b6-df76-45be-b168-86085c3cb684/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "de57c0b6-df76-45be-b168-86085c3cb684",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 262794172,
-"duree": "39"
 },
 {
 "groupe": "Zornheym",
@@ -10819,22 +10475,6 @@
 ],
 "deezer_id": 252979042,
 "duree": "89"
-},
-{
-"groupe": "Cien",
-"album": "Redemption",
-"date": "2021-11-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/9d9dcf63d7206ac889adee186f717d11/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "ee4ff9fb-61c1-46c1-84a3-77ce271b4223",
-"refs": [
-"dz:142393",
-"mb:d9b45bf7-81be-4b79-82bf-67068d65828f"
-],
-"deezer_id": 274054612,
-"duree": "49"
 },
 {
 "groupe": "Archgoat",
@@ -11727,20 +11367,6 @@
 "duree": "46"
 },
 {
-"groupe": "Outrage",
-"album": "Pavillon noir",
-"date": "2022-04-08",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/a9a78e30451b6425b379da1c3a28e3d2/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 305577647,
-"refs": [
-"dz:163097087"
-],
-"duree": "41"
-},
-{
 "groupe": "Papa Roach",
 "album": "Emo Trip",
 "date": "2022-04-08",
@@ -11919,20 +11545,6 @@
 "duree": "49"
 },
 {
-"groupe": "Raxa",
-"album": "Legend of Mictlan",
-"date": "2022-05-06",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/671cc054a758a25cd7c625bfc4762393/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 740239761,
-"refs": [
-"dz:283277"
-],
-"duree": "45"
-},
-{
 "groupe": "Sabaton",
 "album": "The Symphony To End All Wars (Symphonic Version)",
 "date": "2022-05-06",
@@ -11945,20 +11557,6 @@
 "dz:12022"
 ],
 "duree": "43"
-},
-{
-"groupe": "Outrage",
-"album": "Le souffle des fous (Remaster)",
-"date": "2022-05-10",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/c4ec478ac4e5c54b5389f837b473ce96/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 314112307,
-"refs": [
-"dz:163097087"
-],
-"duree": "52"
 },
 {
 "groupe": "Ash of Ashes",
@@ -12159,20 +11757,6 @@
 "duree": "53"
 },
 {
-"groupe": "Pathogen",
-"album": "Welcome to My Multi-Verse",
-"date": "2022-06-22",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/aca8997f21edde027346d099e3f57e86/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 316416907,
-"refs": [
-"dz:190260"
-],
-"duree": "42"
-},
-{
 "groupe": "Alestorm",
 "album": "Seventh Rum of a Seventh Rum",
 "date": "2022-06-24",
@@ -12187,20 +11771,6 @@
 ],
 "deezer_id": 301638417,
 "duree": "97"
-},
-{
-"groupe": "Black River",
-"album": "Generation Axe",
-"date": "2022-06-24",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/f4de27ddb4a023f626b31304ddad17bb/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 614651942,
-"refs": [
-"dz:84116"
-],
-"duree": "22"
 },
 {
 "groupe": "Saor",
@@ -12846,6 +12416,22 @@
 "duree": "42"
 },
 {
+"groupe": "Erocis",
+"album": "The Prelude",
+"date": "2022-09-30",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/5d2e5bb9-6134-4b24-87e0-11f0036b48f2/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5d2e5bb9-6134-4b24-87e0-11f0036b48f2",
+"refs": [
+"dz:182759977",
+"mb:0455076e-2b58-460d-9671-242a84b44214"
+],
+"deezer_id": 354977637,
+"duree": "12"
+},
+{
 "groupe": "Sabaton",
 "album": "Weapons of the Modern Age",
 "date": "2022-09-30",
@@ -12894,20 +12480,6 @@
 "duree": "41"
 },
 {
-"groupe": "Pathogen",
-"album": "Moribund Manifesto",
-"date": "2022-10-11",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/01143ed7f78abe2eb699ec5f149322a5/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 364200247,
-"refs": [
-"dz:190260"
-],
-"duree": "41"
-},
-{
 "groupe": "Firtan",
 "album": "Marter",
 "date": "2022-10-14",
@@ -12940,34 +12512,6 @@
 "duree": "34"
 },
 {
-"groupe": "Pathogen",
-"album": "Express Elevator to Hell: They Cut the Power",
-"date": "2022-10-19",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/e6880fe47c358f9294fe0ac30c3bcf5e/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 363148947,
-"refs": [
-"dz:190260"
-],
-"duree": "48"
-},
-{
-"groupe": "Hoth",
-"album": "5th Dimension",
-"date": "2022-10-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/8eb837a945d9315e2a834303c1830ff3/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 364821227,
-"refs": [
-"dz:5706854"
-],
-"duree": "45"
-},
-{
 "groupe": "Fear Factory",
 "album": "Recoded",
 "date": "2022-10-28",
@@ -12996,22 +12540,6 @@
 ],
 "deezer_id": 372645667,
 "duree": "40"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Lightwork",
-"date": "2022-11-04",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/56e0dd6f-1e18-479c-a591-4466f6c48466/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "56e0dd6f-1e18-479c-a591-4466f6c48466",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 343258827,
-"duree": "56"
 },
 {
 "groupe": "Necrophobic",
@@ -13190,20 +12718,6 @@
 "dz:4393422"
 ],
 "duree": "20"
-},
-{
-"groupe": "Pathogen",
-"album": "Spread the Cheer: The Acheron Variant",
-"date": "2022-11-30",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/a423a90bec3f99c1f49f6cfb1e5a1577/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 380437467,
-"refs": [
-"dz:190260"
-],
-"duree": "17"
 },
 {
 "groupe": "Elffor",
@@ -13957,20 +13471,6 @@
 "duree": "60"
 },
 {
-"groupe": "Pathogen",
-"album": "Between Trinity Ashes",
-"date": "2023-05-23",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/bd393fc355c8f23b23147298e785f9a8/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 444890755,
-"refs": [
-"dz:190260"
-],
-"duree": "15"
-},
-{
 "groupe": "Kalmah",
 "album": "Kalmah",
 "date": "2023-05-24",
@@ -14147,20 +13647,6 @@
 "duree": "53"
 },
 {
-"groupe": "Pathogen",
-"album": "Edm (Sort Of)",
-"date": "2023-06-20",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/cf78f1b0cbc688874b8c54ec5b635210/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 451550415,
-"refs": [
-"dz:190260"
-],
-"duree": "19"
-},
-{
 "groupe": "Fear Factory",
 "album": "Re-Industrialized",
 "date": "2023-06-23",
@@ -14205,20 +13691,6 @@
 ],
 "deezer_id": 422968447,
 "duree": "18"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Unplugged",
-"date": "2023-07-10",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/f1b9afd00a3d2070f76b172e5146d498/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 520499002,
-"refs": [
-"dz:5582"
-],
-"duree": "52"
 },
 {
 "groupe": "Forest of Frost",
@@ -14292,20 +13764,6 @@
 ],
 "deezer_id": 463366765,
 "duree": "19"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Devolution Series #3 - Empath Live In America",
-"date": "2023-08-04",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/fcae2c07e9991b88f766a4611168d9e1/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 440612147,
-"refs": [
-"dz:5582"
-],
-"duree": "61"
 },
 {
 "groupe": "Exmortus",
@@ -14424,20 +13882,6 @@
 ],
 "deezer_id": 453859575,
 "duree": "39"
-},
-{
-"groupe": "Pathogen",
-"album": "Return to Halloween Town",
-"date": "2023-09-15",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/ba14ede7c02687abec644eeb5ec30a7f/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 477734885,
-"refs": [
-"dz:190260"
-],
-"duree": "29"
 },
 {
 "groupe": "Moonlight Sorcery",
@@ -14759,20 +14203,6 @@
 ],
 "deezer_id": 478700115,
 "duree": "52"
-},
-{
-"groupe": "Devin Townsend",
-"album": "Infinity (Remastered 2023)",
-"date": "2023-11-24",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/5696ef37d25f7c80d74e18fc12436c84/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 485274385,
-"refs": [
-"dz:5582"
-],
-"duree": "85"
 },
 {
 "groupe": "Panopticon",
@@ -15844,20 +15274,6 @@
 "duree": "59"
 },
 {
-"groupe": "Pathogen",
-"album": "Bloodborn (Instrumental)",
-"date": "2024-06-14",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/57e5255d3bbd10afd34d51294e596dc7/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 613022522,
-"refs": [
-"dz:190260"
-],
-"duree": "40"
-},
-{
 "groupe": "Kampfar",
 "album": "Profan",
 "date": "2024-06-17",
@@ -16177,22 +15593,6 @@
 "duree": "52"
 },
 {
-"groupe": "Devin Townsend",
-"album": "PowerNerd",
-"date": "2024-08-23",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/b98e5031-cf0c-4f1e-829e-e9b455d951d5/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "b98e5031-cf0c-4f1e-829e-e9b455d951d5",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 626763741,
-"duree": "44"
-},
-{
 "groupe": "Edge of Sanity",
 "album": "Nothing But Death Remains (Remix 2024)",
 "date": "2024-08-23",
@@ -16456,20 +15856,6 @@
 ]
 },
 {
-"groupe": "Pathogen",
-"album": "Vegas, Baby!",
-"date": "2024-09-26",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/9d6b641d28bf2ce6ffe145100266e320/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 625794351,
-"refs": [
-"dz:190260"
-],
-"duree": "47"
-},
-{
 "groupe": "Amaranthe",
 "album": "Les Larmes de Babette",
 "date": "2024-09-27",
@@ -16622,20 +16008,6 @@
 "duree": "92"
 },
 {
-"groupe": "Devin Townsend",
-"album": "PowerNerd (Commentary Version)",
-"date": "2024-10-25",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/b370c44211d1101a3eec010dfcfca8d2/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 655341841,
-"refs": [
-"dz:5582"
-],
-"duree": "90"
-},
-{
 "groupe": "Iotunn",
 "album": "Kinship",
 "date": "2024-10-25",
@@ -16679,22 +16051,6 @@
 ],
 "deezer_id": 651282781,
 "duree": "58"
-},
-{
-"groupe": "Cien",
-"album": "Maledictio",
-"date": "2024-11-01",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/33b65a100a968b4822a32b276a75b2c0/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "2b45e4fa-9014-4a75-ab58-faa84f3cb94a",
-"refs": [
-"dz:142393",
-"mb:d9b45bf7-81be-4b79-82bf-67068d65828f"
-],
-"deezer_id": 648061981,
-"duree": "41"
 },
 {
 "groupe": "Mononc' Serge & Anonymus",
@@ -17046,20 +16402,6 @@
 "duree": "56"
 },
 {
-"groupe": "Pathogen",
-"album": "Crossing the Threshold (Demos)",
-"date": "2025-02-07",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/46fb7ecbc2221dc2e3e54de51e7b5e80/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 709676711,
-"refs": [
-"dz:190260"
-],
-"duree": "18"
-},
-{
 "groupe": "Saor",
 "album": "Amidst the Ruins",
 "date": "2025-02-07",
@@ -17223,6 +16565,22 @@
 "duree": "54"
 },
 {
+"groupe": "Erocis",
+"album": "The Sunken Lands",
+"date": "2025-03-07",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4f2a8a4b-9588-42cc-9611-854887c2af49/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4f2a8a4b-9588-42cc-9611-854887c2af49",
+"refs": [
+"dz:182759977",
+"mb:0455076e-2b58-460d-9671-242a84b44214"
+],
+"deezer_id": 713389561,
+"duree": "53"
+},
+{
 "groupe": "Whitechapel",
 "album": "Hymns in Dissonance",
 "date": "2025-03-07",
@@ -17357,20 +16715,6 @@
 ]
 },
 {
-"groupe": "Outrage",
-"album": "Règne Animal",
-"date": "2025-04-02",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/cf8bbfaf6b8c2c62fc2e7e6bff19896c/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 723931071,
-"refs": [
-"dz:163097087"
-],
-"duree": "41"
-},
-{
 "groupe": "Allegaeon",
 "album": "The Ossuary Lens",
 "date": "2025-04-04",
@@ -17385,20 +16729,6 @@
 ],
 "deezer_id": 685403271,
 "duree": "45"
-},
-{
-"groupe": "Pathogen",
-"album": "At The Break Of Dawn",
-"date": "2025-04-05",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/d00e84bf145dff614b5a297f45615d70/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 734916121,
-"refs": [
-"dz:190260"
-],
-"duree": "29"
 },
 {
 "groupe": "Battle Beast",
@@ -18630,34 +17960,6 @@
 "duree": "63"
 },
 {
-"groupe": "Raxa",
-"album": "La Metafísica del Semáforo",
-"date": "2025-12-20",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/add0c11a1532130e910a33817bb7d329/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 881909822,
-"refs": [
-"dz:283277"
-],
-"duree": "44"
-},
-{
-"groupe": "Pathogen",
-"album": "Decaying Worship",
-"date": "2025-12-28",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/ee48869f06003e5ff0ebcba1ffa219b4/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 880559392,
-"refs": [
-"dz:190260"
-],
-"duree": "23"
-},
-{
 "groupe": "Moongates Guardian",
 "album": "Come Shadow Of My End",
 "date": "2026-01-01",
@@ -18672,20 +17974,6 @@
 ],
 "deezer_id": 893874652,
 "duree": "41"
-},
-{
-"groupe": "Raxa",
-"album": "EL Soldado Desconocido (Poemas de Salomón de la Selva)",
-"date": "2026-01-02",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/141c1d90c2421cd3304aa84b9c7df960/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 889795032,
-"refs": [
-"dz:283277"
-],
-"duree": "19"
 },
 {
 "groupe": "Nanowar of Steel",
@@ -18750,20 +18038,6 @@
 "duree": "44"
 },
 {
-"groupe": "Raxa",
-"album": "Las Rolitas",
-"date": "2026-01-18",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/573e6f44a7e7cf3c96a89fd60b1bbbf6/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 900867912,
-"refs": [
-"dz:283277"
-],
-"duree": "36"
-},
-{
 "groupe": "Manegarm",
 "album": "Edsvuren (Deluxe Album)",
 "date": "2026-01-22",
@@ -18806,20 +18080,6 @@
 "dz:81414"
 ],
 "duree": "24"
-},
-{
-"groupe": "Cien",
-"album": "RESTART",
-"date": "2026-01-25",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/2de3d2fa6cae2463caffaa4a9577f763/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 895129332,
-"refs": [
-"dz:142393"
-],
-"duree": "34"
 },
 {
 "groupe": "Powerwolf",
@@ -19392,20 +18652,6 @@
 "duree": "42"
 },
 {
-"groupe": "Hoth",
-"album": "Delete Time",
-"date": "2026-04-24",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/662bbae1dd5629a6c6066ccf88a31749/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 950376871,
-"refs": [
-"dz:5706854"
-],
-"duree": "13"
-},
-{
 "groupe": "Pure Wrath",
 "album": "Bleak Days Ahead",
 "date": "2026-04-24",
@@ -19438,20 +18684,6 @@
 "duree": "66"
 },
 {
-"groupe": "Hoth",
-"album": "Nonsense",
-"date": "2026-05-13",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/0386300afbb046c19d87d0a4ead1a211/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 971126961,
-"refs": [
-"dz:5706854"
-],
-"duree": "15"
-},
-{
 "groupe": "Atavistia",
 "album": "Old Gods Awaken",
 "date": "2026-05-15",
@@ -19466,20 +18698,6 @@
 ],
 "deezer_id": 1063656561,
 "duree": "86"
-},
-{
-"groupe": "Outrage",
-"album": "IRRECUPERABLE",
-"date": "2026-05-19",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/087efa120859e2f1bf356585c4e33e94/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 978480411,
-"refs": [
-"dz:163097087"
-],
-"duree": "42"
 },
 {
 "groupe": "Inquisition",
@@ -19526,20 +18744,6 @@
 "duree": "69"
 },
 {
-"groupe": "Hoth",
-"album": "Combat",
-"date": "2026-05-22",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/ed7bc991e032d95fa0a7891d1b304166/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 986071781,
-"refs": [
-"dz:5706854"
-],
-"duree": "26"
-},
-{
 "groupe": "Varg",
 "album": "Live at Wolfszeit Festival 2024",
 "date": "2026-05-22",
@@ -19566,22 +18770,6 @@
 "dz:3218"
 ],
 "duree": "58"
-},
-{
-"groupe": "Devin Townsend",
-"album": "The Moth",
-"date": "2026-05-29",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/d408e36a-7328-40eb-b373-eaa5caa98651/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "d408e36a-7328-40eb-b373-eaa5caa98651",
-"refs": [
-"dz:5582",
-"mb:93e8c41e-8e4f-4d08-bbf5-bc1a903b2423"
-],
-"deezer_id": 925555061,
-"duree": "73"
 },
 {
 "groupe": "Anorexia Nervosa",
@@ -19686,19 +18874,6 @@
 ],
 "deezer_id": 1007299221,
 "duree": "53"
-},
-{
-"groupe": "Arckanum",
-"album": "Motestandarin",
-"date": "2026-06-22",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://coverartarchive.org/release-group/c17f73c1-8fae-4389-bcf1-7d8ff7c5ad37/front-500",
-"source": "musicbrainz",
-"mb_rg": "c17f73c1-8fae-4389-bcf1-7d8ff7c5ad37",
-"refs": [
-"mb:51a0f259-bde2-4d6b-9250-7aa1410b0040"
-]
 },
 {
 "groupe": "Darkened Nocturn Slaughtercult",
@@ -20058,20 +19233,6 @@
 "duree": "39"
 },
 {
-"groupe": "Black River",
-"album": "Archive Sessions",
-"date": "2026-09-10",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1076947842,
-"refs": [
-"dz:84116"
-],
-"duree": "13"
-},
-{
 "groupe": "Firtan",
 "album": "Kalika's Tongue",
 "date": "2026-09-10",
@@ -20197,20 +19358,6 @@
 "dz:15065381"
 ],
 "duree": "23"
-},
-{
-"groupe": "Outrage",
-"album": "LIVE 2025",
-"date": "2026-09-18",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/155bdc56a99e9b1aafb5d7bb7c33f4ee/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1062547181,
-"refs": [
-"dz:163097087"
-],
-"duree": "40"
 },
 {
 "groupe": "Amon Amarth",

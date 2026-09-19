@@ -2749,5 +2749,12 @@
   "disambiguation": null,
   "verified": false,
   "checked": "2026-09-19"
+ },
+ "erocis": {
+  "mbid": "0455076e-2b58-460d-9671-242a84b44214",
+  "name": "Erocis",
+  "disambiguation": "Erocis Epic Folk Band",
+  "verified": true,
+  "checked": "2026-09-19"
  }
 }
