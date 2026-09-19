@@ -1,7 +1,44 @@
 {
- "maj": "2026-09-19T11:57:12.523Z",
+ "maj": "2026-09-19T15:42:48.708Z",
  "statuts_sorties": {
-  "black messiah|walls of vanaheim": "À écouter"
+  "black messiah|walls of vanaheim": "À écouter",
+  "zmey gorynich|i": "À écouter",
+  "galactic empire|cinemetal": "Téléchargé",
+  "igorrr|amen": "Acheté",
+  "aephanemer|utopie": "Acheté",
+  "3 fromages|bon retour": "À écouter",
+  "omnium gatherum|may the bridges we burn light the way": "À écouter",
+  "vulgaires machins|contempler l abime": "Acheté",
+  "equilibrium|equinox": "Téléchargé",
+  "vomitron|3": "À écouter",
+  "psychostick|toxic crusaders original soundtrack": "À écouter",
+  "atavistia|the winter way reforged": "Téléchargé",
+  "moongates guardian|come shadow of my end": "À écouter",
+  "carrion vael|slay utterly": "À écouter",
+  "powerwolf|1589 live at olympiahalle": "À écouter",
+  "sigh|gallows gallery": "Téléchargé",
+  "wolfchant|echoes of a time once past": "À écouter",
+  "angus mcsix|angus mcsix and the all seeing astral eye": "Acheté",
+  "carpenter brut|leather temple": "À écouter",
+  "forlorn citadel|an oath undone": "À écouter",
+  "threat signal|revelations": "À écouter",
+  "inferi|heaven wept": "À écouter",
+  "cnoc an tursa|a cry for the slain": "Téléchargé",
+  "nekrogoblikon|the boiling sea": "À écouter",
+  "boisson divine|eretatge": "Acheté",
+  "august burns red|season of surrender": "À écouter",
+  "kalmankantaja|godless existence": "À écouter",
+  "sojourner|gateways": "À écouter",
+  "zornheym|descending into madness": "À écouter",
+  "devildriver|strike and kill": "À écouter",
+  "finsterforst|still": "Téléchargé",
+  "cryptic wintermoon|doomdark": "À écouter",
+  "noumena|maanaari": "À écouter",
+  "vanaheim|roede voor de borst": "Acheté",
+  "gorod|the ember gone": "À écouter",
+  "grimner|stormvingar": "À écouter",
+  "saor|carved in stone mmxxvi": "À écouter",
+  "whispered|honorbound": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -17,7 +54,9 @@
  "sorties_exclues": [
   "lutece|lutece",
   "varus|wushus",
-  "proutator|el maestro prouto"
+  "proutator|el maestro prouto",
+  "hoth|delete time",
+  "hoth|nonsense"
  ],
  "groupes_ignores": [
   "volbeat",
@@ -30,9 +69,69 @@
   "throne of chaos",
   "judas priest",
   "way to end",
-  "motorhead"
+  "motorhead",
+  "pathogen",
+  "raxa",
+  "cien",
+  "devin townsend",
+  "arckanum",
+  "black river",
+  "outrage"
  ],
- "achetes": [],
+ "groupes_refuses": [],
+ "achetes": [
+  {
+   "groupe": "Aephanemer",
+   "album": "Utopie",
+   "style": "Melodic Death Metal",
+   "pays": "France (Toulouse)",
+   "langue": "",
+   "annee": "2025",
+   "duree": "101",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/a9a69e01-d8e8-467a-b0ce-bd7b38f06200/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le badge Acheté ; à compléter"
+  },
+  {
+   "groupe": "Vanaheim",
+   "album": "Roede voor de Borst",
+   "style": "Epic Folk Metal",
+   "pays": "Pays-Bas",
+   "langue": "",
+   "annee": "2026",
+   "duree": "39",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/4a39dd68-a253-47eb-962b-d316f44ba909/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le badge Acheté ; à compléter"
+  },
+  {
+   "groupe": "Erocis",
+   "album": "The Sunken Lands",
+   "style": "",
+   "pays": "",
+   "langue": "",
+   "annee": "",
+   "duree": "53",
+   "note": "",
+   "pochette": "https://lastfm-img.freetls.fastly.net/i/u/174s/31220ab48afc2678b4f524c447fdd0ff.png",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Recherche",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le badge Acheté ; à compléter"
+  }
+ ],
  "souhaits": [
   {
    "groupe": "Thyrfing",
@@ -50,6 +149,45 @@
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Whispered",
+   "album": "Honorbound",
+   "style": "Melodic Death Metal (samouraï)",
+   "pays": "Finlande (Tampere)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "63",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/90e1424b-ff17-4298-8987-4ccf3666496f/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  }
+ ],
+ "a_ecouter": [
+  {
+   "groupe": "Drakum",
+   "album": "Arcade of Madness",
+   "deezer_id": 931951761,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/ff7e98e066f27c35bf3c737c2fc2c634/500x500-000000-80-0-0.jpg",
+   "annee": "",
+   "record_type": "album",
+   "nb_tracks": 11,
+   "ajoute": "2026-09-19"
+  },
+  {
+   "groupe": "Drakum",
+   "album": "Zombie Dragons from Outer Space",
+   "deezer_id": 128240342,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/65b24bd9e2bbbc87717b33c5ef3e6ab2/500x500-000000-80-0-0.jpg",
+   "annee": "",
+   "record_type": "album",
+   "nb_tracks": 12,
+   "ajoute": "2026-09-19"
   }
  ]
 }
