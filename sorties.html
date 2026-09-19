@@ -110,6 +110,7 @@ audio{width:100%;height:32px}
       <option value="m3">3 derniers mois</option>
       <option value="m6">6 derniers mois</option>
       <option value="m12" selected>12 derniers mois</option>
+      <option value="all">Toutes les périodes</option>
     </select>
     <select id="filtreStyle"><option value="">Tous les styles</option></select>
     <select id="filtreStatut">
@@ -311,27 +312,38 @@ audio{width:100%;height:32px}
   }
 
   // ------------------------------------------------------------ SORTIES
+  function periodOf(per){ var today=new Date(); today.setHours(0,0,0,0); if(per==='all') return {}; if(per.charAt(0)==='m'){ var c=new Date(today); c.setMonth(c.getMonth()-parseInt(per.slice(1),10)); return {cutoff:c}; } return {year:parseInt(per.slice(1),10)}; }
+  function passes(it, o){
+    var past=isPast(it.date,it.precision), k=key(it.groupe,it.album);
+    var masked=!!(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]);
+    if((o.f==='masques')!==masked) return false;
+    var p=periodOf(o.per), pd=parseDate(it.date).d;
+    if(p.year){ if(!pd || pd.getFullYear()!==p.year) return false; } else if(p.cutoff && pd && pd<p.cutoff) return false;
+    if(o.f==='avenir'&&past) return false; if(o.f==='sortis'&&!past) return false;
+    var st=STATE.statuts[k]||'', inKnown=STATE.known[k];
+    if(o.fs==='_none'&&st) return false; if(o.fs==='_collec'&&inKnown!=='collection') return false; if(o.fs==='_wish'&&inKnown!=='wishlist') return false; if(o.fs&&o.fs.charAt(0)!=='_'&&st!==o.fs) return false;
+    if(o.q&&norm(it.groupe+' '+it.album).indexOf(o.q)<0) return false;
+    if(o.fst){ var st0=(STATE.artistStyle[norm(it.groupe)]||{}).style||''; if(st0!==o.fst) return false; }
+    return true;
+  }
+  function currentOpts(){ return {f:$('filtreSorties').value, per:$('filtrePeriode').value, fst:$('filtreStyle').value, fs:$('filtreStatut').value, q:norm($('searchSorties').value)}; }
+  function updateCounts(o){
+    [['filtreSorties','f'],['filtrePeriode','per'],['filtreStatut','fs'],['filtreStyle','fst']].forEach(function(t){
+      var sel=$(t[0]); Array.prototype.forEach.call(sel.options,function(op){
+        if(!op.getAttribute('data-label')) op.setAttribute('data-label',op.textContent.replace(/ \(\d+\)$/,''));
+        var o2=Object.assign({},o); o2[t[1]]=op.value; if(t[1]==='per' && o.f!=='masques') o2.f='tous'; var n=STATE.sorties.filter(function(it){ return passes(it,o2); }).length;
+        op.textContent=op.getAttribute('data-label')+' ('+n+')';
+      });
+    });
+  }
   function renderSorties(){
-    var f=$('filtreSorties').value, fs=$('filtreStatut').value, q=norm($('searchSorties').value);
+    var o=currentOpts(); updateCounts(o);
     var grid=$('gridSorties'); grid.innerHTML='';
     var n=0;
-    var showMasked=f==='masques';
-    var per=$('filtrePeriode').value, today=new Date(); today.setHours(0,0,0,0);
-    var cutoff=null, year=null;
-    if(per.charAt(0)==='m'){ cutoff=new Date(today); cutoff.setMonth(cutoff.getMonth()-parseInt(per.slice(1),10)); } else { year=parseInt(per.slice(1),10); }
     STATE.sorties.forEach(function(it){
-      var past=isPast(it.date,it.precision);
-      var pd=parseDate(it.date).d;
-      if(year){ if(!pd || pd.getFullYear()!==year) return; }
-      else if(pd && pd<cutoff) return;
-      var k0=key(it.groupe,it.album), masked=!!(STATE.exclus[k0]||STATE.ignores[norm(it.groupe)]);
-      if(showMasked!==masked) return;
-      if(f==='avenir'&&past) return; if(f==='sortis'&&!past) return;
-      var k=key(it.groupe,it.album), st=STATE.statuts[k]||'';
-      var inKnown0=STATE.known[k];
-      if(fs==='_none'&&st) return; if(fs==='_collec'&&inKnown0!=='collection') return; if(fs==='_wish'&&inKnown0!=='wishlist') return; if(fs&&fs.charAt(0)!=='_'&&st!==fs) return;
-      if(q&&norm(it.groupe+' '+it.album).indexOf(q)<0) return;
-      var fst=$('filtreStyle').value; if(fst){ var st0=(STATE.artistStyle[norm(it.groupe)]||{}).style||''; if(st0!==fst) return; }
+      if(!passes(it,o)) return;
+      var past=isPast(it.date,it.precision), k=key(it.groupe,it.album), st=STATE.statuts[k]||'';
+      var masked=!!(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]);
       n++;
       var inKnown=STATE.known[k]; var isManual=STATE.manual.some(function(m){return key(m.groupe,m.album)===k;});
       var c=document.createElement('div'); c.className='card';
@@ -369,7 +381,7 @@ audio{width:100%;height:32px}
     STATE.manual.forEach(function(m){var k=key(m.groupe,m.album);if(idx[k]){if(m.date){idx[k].date=m.date;idx[k].precision=m.precision||'exact';}else if(m.precision==='unknown'){idx[k].date='';idx[k].precision='unknown';}if(m.pochette)idx[k].pochette=m.pochette;if(m.pochette_page)idx[k].pochette_page=m.pochette_page;idx[k].source=idx[k].source.indexOf('manuel')<0?idx[k].source+'+manuel':idx[k].source;idx[k].note=m.note||'';}else{var it={groupe:m.groupe,album:m.album,date:m.date||'',precision:m.precision||(m.date?'exact':'unknown'),type:'album',pochette:m.pochette||'',pochette_page:m.pochette_page||'',duree:m.duree||'',source:'manuel',note:m.note||''};items.push(it);idx[k]=it;}});
     items.sort(function(a,b){return (a.date||'9999')<(b.date||'9999')?-1:1;});
     STATE.sorties=items;
-    (function(){ var sel=$('filtreStyle'), cur=sel.value, cnt={}; items.forEach(function(it){ var st=(STATE.artistStyle[norm(it.groupe)]||{}).style; if(st) cnt[st]=(cnt[st]||0)+1; }); var keys=Object.keys(cnt).sort(function(a,b){ return a.localeCompare(b,'fr'); }); sel.innerHTML='<option value="">Tous les styles</option>'+keys.map(function(k){ return '<option value="'+esc(k)+'">'+esc(k)+' ('+cnt[k]+')</option>'; }).join(''); if(keys.indexOf(cur)>=0) sel.value=cur; })();
+    (function(){ var sel=$('filtreStyle'), cur=sel.value, cnt={}; items.forEach(function(it){ var st=(STATE.artistStyle[norm(it.groupe)]||{}).style; if(st) cnt[st]=(cnt[st]||0)+1; }); var keys=Object.keys(cnt).sort(function(a,b){ return a.localeCompare(b,'fr'); }); sel.innerHTML='<option value="">Tous les styles</option>'+keys.map(function(k){ return '<option value="'+esc(k)+'">'+esc(k)+'</option>'; }).join(''); if(keys.indexOf(cur)>=0) sel.value=cur; })();
     var av=items.filter(function(i){return !isPast(i.date,i.precision);}).length;
     $('subSorties').textContent=items.length+' sorties suivies, dont '+av+' à venir'+(STATE.generated?' — données du '+STATE.generated.slice(0,10):'');
     renderSorties();
