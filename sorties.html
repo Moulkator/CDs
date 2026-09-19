@@ -42,7 +42,9 @@ header p{color:var(--muted);margin:6px 0 0;font-size:.9rem}
 .status{display:flex;flex-wrap:wrap;gap:4px}
 .pbtn{width:100%;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:6px;font-size:.78rem;cursor:pointer}
 .pbtn:hover{border-color:var(--gold);color:var(--gold)}
+.wish{display:flex;flex-wrap:wrap;gap:4px}.wish .pbtn{flex:1 1 45%;width:auto}
 .wishbtn{border-color:#5a4a1a;color:var(--gold)}.wishbtn.on{background:var(--gold);color:#0c0e11;font-weight:700}
+.collbtn{border-color:#2e5a2e;color:#8fd48f}.collbtn.on{background:var(--green);color:#0c0e11;font-weight:700}
 .status button{flex:1 1 auto;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:5px 4px;font-size:.72rem;cursor:pointer}
 .status button.on{background:var(--gold);color:#0c0e11;border-color:transparent;font-weight:700}
 .status button.on.achete{background:var(--green)}
@@ -290,6 +292,8 @@ audio{width:100%;height:32px}
   function ajouterAchat(item){
     var k=key(item.groupe,item.album);
     if(STATE.achetes.some(function(a){return key(a.groupe,a.album)===k;})) return;
+    if(STATE.known[k]==='collection'){ toast('Déjà dans ta collection'); return; }
+    STATE.souhaits=STATE.souhaits.filter(function(a){return souhaitKey(a)!==k;});
     var st=STATE.artistStyle[norm(item.groupe)]||{};
     STATE.achetes.push({groupe:item.groupe,album:item.album,style:st.style||'',pays:st.pays||'',langue:'',annee:(item.date||'').slice(0,4),duree:item.duree||'',note:'',pochette:item.pochette||'',preview:'',historique:'',auto_source:'ajouté depuis Sorties à surveiller',auto_fields:'',pending_review:'1',review_reason:'ajouté via le badge Acheté ; à compléter'});
     toast('Ajouté à la collection personnelle');
@@ -303,9 +307,12 @@ audio{width:100%;height:32px}
     STATE.souhaits.push({groupe:item.groupe,album:item.album,style:item.style||st.style||'',pays:item.pays||st.pays||'',langue:'',annee:(item.date||item.annee||'').slice(0,4),duree:item.duree||'',note:'',pochette:item.pochette||'',preview:'',historique:'',auto_source:'ajouté depuis '+(item._from||'Sorties à surveiller'),auto_fields:'',pending_review:'1',review_reason:'ajouté via le bouton Liste de souhaits ; à compléter'});
     STATE.known[k]='wishlist'; persistBadges(); toast('Ajouté à la liste de souhaits');
   }
+  function achatKey(a){ return key(a.groupe,a.album); }
+  function collMarkup(item){ var k=key(item.groupe,item.album); var mine=STATE.achetes.some(function(a){return achatKey(a)===k;}); if(mine) return '<button class="pbtn collbtn on" data-act="uncoll">✓ Dans ma collection — retirer</button>'; if(STATE.known[k]==='collection') return ''; return '<button class="pbtn collbtn" data-act="coll">📀 Ajouter à ma collection</button>'; }
   function retirerSouhait(item){ var k=key(item.groupe,item.album); STATE.souhaits=STATE.souhaits.filter(function(a){return souhaitKey(a)!==k;}); if(STATE.known[k]==='wishlist') delete STATE.known[k]; persistBadges(); toast('Retiré de la liste de souhaits'); }
   function wishMarkup(item){ var k=key(item.groupe,item.album); var mine=STATE.souhaits.some(function(a){return souhaitKey(a)===k;}); if(mine) return '<button class="pbtn wishbtn on" data-act="unwish">✓ Dans la liste de souhaits — retirer</button>'; if(STATE.known[k]) return ''; return '<button class="pbtn wishbtn" data-act="wish">🎁 Ajouter à la liste de souhaits</button>'; }
-  function bindWish(el,item){ var b=el.querySelector('[data-act=wish]'); if(b) b.addEventListener('click',function(){ ajouterSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item); bindWish(el,item); } }); var u=el.querySelector('[data-act=unwish]'); if(u) u.addEventListener('click',function(){ retirerSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item); bindWish(el,item); } }); }
+  function bindWish(el,item){ var cb=el.querySelector('[data-act=coll]'); if(cb) cb.addEventListener('click',function(){ ajouterAchat(item); var k=key(item.groupe,item.album); if(STATE.known[k]!=='collection'){ STATE.souhaits=STATE.souhaits.filter(function(a){return souhaitKey(a)!==k;}); STATE.known[k]='collection'; } persistBadges(); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } }); var cu=el.querySelector('[data-act=uncoll]'); if(cu) cu.addEventListener('click',function(){ retirerAchat(item); var k=key(item.groupe,item.album); if(STATE.known[k]==='collection') delete STATE.known[k]; persistBadges(); toast('Retiré de la collection'); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } });
+    var b=el.querySelector('[data-act=wish]'); if(b) b.addEventListener('click',function(){ ajouterSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } }); var u=el.querySelector('[data-act=unwish]'); if(u) u.addEventListener('click',function(){ retirerSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } }); }
   function retirerAchat(item){var k=key(item.groupe,item.album);STATE.achetes=STATE.achetes.filter(function(a){return key(a.groupe,a.album)!==k;});}
 
   // ------------------------------------------------------------ extraits Deezer
@@ -373,7 +380,7 @@ audio{width:100%;height:32px}
       c.innerHTML='<img class="cover" src="'+esc(it.pochette||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'">'+
         '<div class="g">'+esc(it.groupe)+'</div><div class="a">'+esc(it.album)+'</div>'+
         '<div class="d">'+esc(fmtDate(it.date,it.precision))+(it.duree?' · ⏱ '+esc(fmtDuree(it.duree)):'')+((STATE.artistStyle[norm(it.groupe)]||{}).style?' · '+esc(STATE.artistStyle[norm(it.groupe)].style):'')+'</div>'+
-        '<div class="badges">'+badges+'</div><div class="prev" data-q="'+esc(it.groupe+' '+it.album)+'"><button class="pbtn">▶ Écouter un extrait</button></div>'+statusMarkup(st,'')+'<div class="wish">'+wishMarkup(it)+'</div>'+
+        '<div class="badges">'+badges+'</div><div class="prev" data-q="'+esc(it.groupe+' '+it.album)+'"><button class="pbtn">▶ Écouter un extrait</button></div>'+statusMarkup(st,'')+'<div class="wish">'+wishMarkup(it)+collMarkup(it)+'</div>'+
         '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(it.groupe)+'&type=band_name">Metallum</a></div>'+
         '<div class="acts">'+(STATE.owner?'<button class="own" data-act="edit">'+(isManual?'Modifier':'Corriger')+'</button>':'')+
         (masked?'<button data-act="restore">Réafficher</button>'+(STATE.ignores[norm(it.groupe)]?'<button data-act="follow">Suivre à nouveau le groupe</button>':''):
@@ -385,7 +392,7 @@ audio{width:100%;height:32px}
       var bf=c.querySelector('[data-act=follow]'); if(bf) bf.addEventListener('click',function(){ delete STATE.ignores[norm(it.groupe)]; persistBadges(); renderSorties(); toast('Groupe suivi à nouveau'); });
       c.querySelector('.prev .pbtn').addEventListener('click',function(){ playPreview(c.querySelector('.prev'), it.groupe, it.album); });
       bindWish(c,it);
-      c.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.statuts[k];setStatut(STATE.statuts,k,s);if(STATE.statuts[k]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);persistBadges();renderSorties();});});
+      c.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.statuts[k];setStatut(STATE.statuts,k,s);if(STATE.statuts[k]==='Acheté'){ajouterAchat(it);STATE.known[k]='collection';}else if(was==='Acheté'){retirerAchat(it);if(STATE.known[k]==='collection')delete STATE.known[k];}persistBadges();renderSorties();});});
       grid.appendChild(c);
     });
     $('emptySorties').style.display=n?'none':'';
@@ -491,14 +498,14 @@ audio{width:100%;height:32px}
         '<div class="d">'+[c.albumYear?esc(c.albumYear):'', c.duree?'⏱ '+esc(fmtDuree(c.duree)):'', (c.yearMin&&c.nbAlbums)?(c.nbAlbums+' album'+(c.nbAlbums>1?'s':'')+' · '+c.yearMin+(c.yearMax>c.yearMin?'–'+c.yearMax:'')):''].filter(Boolean).join(' · ')+'</div>'+
         '<div class="prev">'+((c.tracks&&c.tracks.length)||c.preview?'<button class="pbtn">▶ Écouter un extrait'+(c.tracks&&c.tracks.length>1?' ('+c.tracks.length+')':'')+'</button>':'<div class="d">Pas d\'extrait disponible</div>')+'</div>'+
         '<div class="sim">Similaire à '+esc(c.from.slice(0,4).join(', '))+(c.from.length>4?' (+'+(c.from.length-4)+')':'')+(toks.length?'<br>Affinités : '+esc(toks.join(', ')):'')+'</div>'+
-        statusMarkup(st,'')+'<div class="wish">'+wishMarkup({groupe:c.name,album:c.album||''})+'</div>'+
+        statusMarkup(st,'')+'<div class="wish">'+wishMarkup({groupe:c.name,album:c.album||''})+collMarkup({groupe:c.name,album:c.album||''})+'</div>'+
         '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/artist/'+c.id+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+q2+'&type=band_name">Metallum</a></div>'+
         '<div class="acts">'+(STATE.hidden[nk]?'<button data-act="unhide">Réafficher</button>':'<button class="danger" data-act="hide">Pas intéressé</button>')+'</div>';
       bindWish(el,{groupe:c.name,album:c.album||'',annee:c.albumYear||'',pochette:c.cover||'',duree:c.duree||'',_from:'À découvrir'});
       var pb=el.querySelector('.prev .pbtn'); if(pb) pb.addEventListener('click',function(){ var list=(c.tracks&&c.tracks.length)?c.tracks:[{title:c.track,preview:c.preview,album:{title:c.album}}]; renderPlayer(el.querySelector('.prev'),list,0,'Extrait'); });
       var bh=el.querySelector('[data-act=hide]'); if(bh) bh.addEventListener('click',function(){STATE.hidden[nk]=1;persistBadges();el.remove();toast('Masqué');});
       var bu=el.querySelector('[data-act=unhide]'); if(bu) bu.addEventListener('click',function(){delete STATE.hidden[nk];persistBadges();el.remove();toast('Réaffiché');});
-      el.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.dstatuts[nk];setStatut(STATE.dstatuts,nk,s);var it={groupe:c.name,album:c.album||'',date:'',pochette:c.cover||''};if(STATE.dstatuts[nk]==='Acheté')ajouterAchat(it);else if(was==='Acheté')retirerAchat(it);persistBadges();el.querySelectorAll('.status button').forEach(function(x){x.className=(STATE.dstatuts[nk]===x.getAttribute('data-s')?'on':'')+(x.getAttribute('data-s')==='Acheté'?' achete':'');});});});
+      el.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.dstatuts[nk];setStatut(STATE.dstatuts,nk,s);var it={groupe:c.name,album:c.album||'',date:'',pochette:c.cover||''};if(STATE.dstatuts[nk]==='Acheté'){ajouterAchat(it);STATE.known[key(it.groupe,it.album)]='collection';}else if(was==='Acheté'){retirerAchat(it);if(STATE.known[key(it.groupe,it.album)]==='collection')delete STATE.known[key(it.groupe,it.album)];}persistBadges();el.querySelector('.wish').innerHTML=wishMarkup(it)+collMarkup(it);bindWish(el,it);el.querySelectorAll('.status button').forEach(function(x){x.className=(STATE.dstatuts[nk]===x.getAttribute('data-s')?'on':'')+(x.getAttribute('data-s')==='Acheté'?' achete':'');});});});
       grid.appendChild(el);
     });
     $('btnPlus').style.display=STATE.decShown<list.length?'':'none';
@@ -560,6 +567,7 @@ audio{width:100%;height:32px}
     loadBadgesFromSite(function(){ chargerSorties(); showFromHash(); });
   }
   STATE.souhaits.forEach(function(a){ STATE.known[key(a.groupe,a.album)]=STATE.known[key(a.groupe,a.album)]||'wishlist'; });
+  STATE.achetes.forEach(function(a){ STATE.known[key(a.groupe,a.album)]='collection'; });
   getJSON('data/collection.json',function(c){coll=c||[];partLoaded();},function(){$('subSorties').textContent='Impossible de lire data/collection.json (ouvre le site depuis son adresse en ligne).';partLoaded();});
   getJSON('data/wishlist.json',function(w){wish=w||[];partLoaded();},partLoaded);
   getJSON('data/artists.json',function(o){over=o||[];partLoaded();},partLoaded);
