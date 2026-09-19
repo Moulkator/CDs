@@ -721,7 +721,7 @@
 "album": "Archive Sessions",
 "date": "2026-09-10",
 "precision": "exact",
-"type": "album",
+"type": "ep",
 "pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 1076947842,
@@ -888,6 +888,17 @@
 "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
 "source": "manuel+musicbrainz",
 "mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4"
+},
+{
+"groupe": "Proutator",
+"album": "El Maestro Prouto",
+"date": "2026-11",
+"precision": "month",
+"type": "album",
+"pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
+"pochette_page": "",
+"note": "",
+"source": "manuel"
 },
 {
 "groupe": "TrollfesT",
