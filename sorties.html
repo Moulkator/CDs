@@ -181,7 +181,9 @@ audio{width:100%;height:32px}
       <option value="both">Groupe ou album</option>
       <option value="artist">Nom du groupe seulement</option>
       <option value="album">Nom de l'album seulement</option>
+      <option value="style">Par style (ex. epic folk metal)</option>
     </select>
+    <datalist id="dlStyles"></datalist>
     <button class="btn gold" id="btnRecherche">Rechercher</button>
   </div>
   <div class="prog" id="progRecherche"></div>
@@ -599,11 +601,24 @@ audio{width:100%;height:32px}
       jsonp('https://api.deezer.com/album/'+al.id+'/tracks?limit=50',function(r){ var ts=((r&&r.data)||[]).filter(function(t){return t.preview;}).map(function(t){return {title:t.title,preview:t.preview,album:{title:a}};}); if(!ts.length){ box.innerHTML='<div class="d">Pas d\'extrait disponible</div>'; return; } renderPlayer(box,ts,0,'Piste'); },function(){ box.innerHTML='<div class="d">Extraits indisponibles</div>'; }); });
     // durée à la demande (1 appel) quand on ajoute
     bindWish(el,item); bindEcoute(el,al,artistName);
+    if(!al.release_date && al.id){ jsonp('https://api.deezer.com/album/'+al.id,function(d){ if(!d) return; al.release_date=d.release_date||''; al.nb_tracks=d.nb_tracks||al.nb_tracks; var yy=(d.release_date||'').slice(0,4); item.annee=yy; if(d.duration&&d.record_type!=='single') item.duree=String(Math.round(d.duration/60)); var dd=el.querySelector('.d'); if(dd) dd.textContent=[yy,type,al.nb_tracks?al.nb_tracks+' pistes':'', item.duree?'⏱ '+fmtDuree(item.duree):'', (STATE.artistStyle[norm(g)]||{}).style||''].filter(Boolean).join(' · '); },function(){}); }
     el.querySelectorAll('[data-act=wish],[data-act=coll]').forEach(function(b){ b.addEventListener('click',function(){ if(!item.duree){ jsonp('https://api.deezer.com/album/'+al.id,function(d){ if(d&&d.duration&&d.record_type!=='single'){ var m=String(Math.round(d.duration/60)); var lst=STATE.souhaits.concat(STATE.achetes); lst.forEach(function(x){ if(key(x.groupe,x.album)===k && !x.duree) x.duree=m; }); persistBadges(); } },function(){}); } },{once:true}); });
     return el;
   }
+  function rechercherStyle(q){
+    var grid=$('gridRecherche'), prog=$('progRecherche'); grid.innerHTML=''; $('artistesRecherche').innerHTML=''; prog.textContent='Recherche des albums tagués « '+q+' » sur MusicBrainz…';
+    var tag=q.toLowerCase().replace(/\s*\(.*?\)\s*/g,' ').replace(/\//g,' ').replace(/\s+/g,' ').trim();
+    var x=new XMLHttpRequest(); x.open('GET','https://musicbrainz.org/ws/2/release-group/?query='+encodeURIComponent('tag:"'+tag+'" AND primarytype:album AND status:official')+'&fmt=json&limit=60'); x.setRequestHeader('Accept','application/json');
+    x.onload=function(){ try{ var js=JSON.parse(x.responseText); var list=(js['release-groups']||[]).filter(function(rg){ return !(rg['secondary-types']||[]).length; });
+      $('titreDisco').style.display=''; $('titreDisco').innerHTML='Albums tagués <b>'+esc(tag)+'</b> sur MusicBrainz'+(list.length?' — '+list.length+' résultats, les tiens exclus':'');
+      var n=0; list.forEach(function(rg){ var g=((rg['artist-credit']||[])[0]||{}).name||''; var a=rg.title||''; if(!g||!a) return; if(STATE.known[key(g,a)]) return; n++;
+        grid.appendChild(albumCard({id:0,title:a,artist:{name:g},cover_big:'https://coverartarchive.org/release-group/'+rg.id+'/front-250',release_date:rg['first-release-date']||'',record_type:'album',nb_tracks:0},g)); });
+      prog.textContent=n?'':'Aucun album trouvé avec ce tag. Essaie plus court (ex. « folk metal »).'; }catch(e){ prog.textContent='Réponse MusicBrainz illisible.'; } };
+    x.onerror=function(){ prog.textContent='MusicBrainz injoignable (réessaie dans quelques secondes).'; }; x.send();
+  }
   function rechercher(){
     var q=$('qRecherche').value.trim(), mode=$('modeRecherche').value; if(!q) return;
+    if(mode==='style'){ rechercherStyle(q); return; }
     var arts=$('artistesRecherche'), grid=$('gridRecherche'), prog=$('progRecherche'); arts.innerHTML=''; grid.innerHTML=''; $('titreDisco').style.display='none'; prog.textContent='Recherche…';
     var pend=0; function done(){ if(--pend<=0) prog.textContent=(arts.children.length||grid.children.length)?'':'Aucun résultat.'; }
     if(mode!=='album'){ pend++; jsonp('https://api.deezer.com/search/artist?q='+encodeURIComponent(q)+'&limit=8',function(r){ ((r&&r.data)||[]).forEach(function(ar){ var c=document.createElement('div'); c.className='artcard'; c.innerHTML='<img src="'+esc(ar.picture_medium||PH)+'" alt=""><div class="g">'+esc(ar.name)+'</div><div class="d">'+(ar.nb_album?ar.nb_album+' disques':'')+((STATE.artistStyle[norm(ar.name)])?' · dans tes listes':'')+'</div>'; c.addEventListener('click',function(){ discographie(ar); }); arts.appendChild(c); }); done(); },done); }
@@ -629,7 +644,7 @@ audio{width:100%;height:32px}
   // ------------------------------------------------------------ init
   function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');window.scrollTo(0,0);if(t==='s'&&STATE.sorties.length)renderSorties();if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);else if(t==='d'&&$('paneDec').style.display!=='none')renderDecouvrir(true);if(t==='r')$('qRecherche').focus();}
   function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
-  $('btnRecherche').addEventListener('click',rechercher); $('qRecherche').addEventListener('keydown',function(e){ if(e.key==='Enter') rechercher(); });
+  $('btnRecherche').addEventListener('click',rechercher); $('modeRecherche').addEventListener('change',function(){ var st=this.value==='style'; $('qRecherche').setAttribute('list',st?'dlStyles':''); $('qRecherche').placeholder=st?'Style… (ex. epic folk metal, melodic death metal)':'Groupe ou album… (ex. Slayer, Reign in Blood)'; if(st&&!$('dlStyles').children.length){ var seen={}; STATE.artists.forEach(function(a){ (a.styles||[]).forEach(function(x){ var t=x.toLowerCase().replace(/\s*\(.*?\)\s*/g,' ').replace(/\//g,' ').replace(/\s+/g,' ').trim(); if(t&&!seen[t]){ seen[t]=1; var o=document.createElement('option'); o.value=t; $('dlStyles').appendChild(o); } }); }); } }); $('qRecherche').addEventListener('keydown',function(e){ if(e.key==='Enter') rechercher(); });
   window.addEventListener('hashchange',showFromHash);
   document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
   $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){STATE.editKey=null;$('ownerPanel').style.display='none';});
