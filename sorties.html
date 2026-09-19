@@ -58,6 +58,9 @@ audio{width:100%;height:32px}
 .sim{font-size:.74rem;color:var(--muted);line-height:1.3}
 .empty{color:var(--muted);text-align:center;padding:30px}
 .section{display:none}.section.active{display:block}
+.artcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center;cursor:pointer}
+.artcard:hover{border-color:var(--gold)}.artcard img{width:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover;display:block;margin-bottom:6px;background:#000}
+.artcard .g{font-size:.8rem}.artcard .d{font-size:.72rem}
 #toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:10px 16px;border-radius:10px;font-size:.85rem;opacity:0;transition:opacity .2s;pointer-events:none}
 #toast.show{opacity:1}
 .prog{color:var(--muted);font-size:.82rem;text-align:center;margin-bottom:10px}
@@ -155,6 +158,26 @@ audio{width:100%;height:32px}
   </div>
   <div class="prog" id="progDecouvrir"></div>
   <div class="grid" id="gridDecouvrir"></div>
+</section>
+
+<section id="secRecherche" class="section">
+  <header>
+    <h1><span>RECHERCHER</span></h1>
+    <p>Groupes et albums du monde entier (catalogue Deezer), même absents de tes listes.</p>
+  </header>
+  <div class="controls">
+    <input type="search" id="qRecherche" placeholder="Groupe ou album… (ex. Slayer, Reign in Blood)" style="min-width:280px">
+    <select id="modeRecherche">
+      <option value="both">Groupe ou album</option>
+      <option value="artist">Nom du groupe seulement</option>
+      <option value="album">Nom de l'album seulement</option>
+    </select>
+    <button class="btn gold" id="btnRecherche">Rechercher</button>
+  </div>
+  <div class="prog" id="progRecherche"></div>
+  <div id="artistesRecherche" class="grid" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr));margin-bottom:16px"></div>
+  <div id="titreDisco" class="weights" style="display:none"></div>
+  <div class="grid" id="gridRecherche"></div>
 </section>
 </div>
 <div id="toast"></div>
@@ -295,7 +318,7 @@ audio{width:100%;height:32px}
     if(STATE.known[k]==='collection'){ toast('Déjà dans ta collection'); return; }
     STATE.souhaits=STATE.souhaits.filter(function(a){return souhaitKey(a)!==k;});
     var st=STATE.artistStyle[norm(item.groupe)]||{};
-    STATE.achetes.push({groupe:item.groupe,album:item.album,style:st.style||'',pays:st.pays||'',langue:'',annee:(item.date||'').slice(0,4),duree:item.duree||'',note:'',pochette:item.pochette||'',preview:'',historique:'',auto_source:'ajouté depuis Sorties à surveiller',auto_fields:'',pending_review:'1',review_reason:'ajouté via le badge Acheté ; à compléter'});
+    STATE.achetes.push({groupe:item.groupe,album:item.album,style:st.style||'',pays:st.pays||'',langue:'',annee:(item.date||item.annee||'').slice(0,4),duree:item.duree||'',note:'',pochette:item.pochette||'',preview:'',historique:'',auto_source:'ajouté depuis '+(item._from||'Sorties à surveiller'),auto_fields:'',pending_review:'1',review_reason:'ajouté via le badge Acheté ; à compléter'});
     toast('Ajouté à la collection personnelle');
   }
   function souhaitKey(a){ return key(a.groupe,a.album); }
@@ -513,6 +536,42 @@ audio{width:100%;height:32px}
     grid.querySelectorAll('audio').forEach(function(a){a.onplay=function(){grid.querySelectorAll('audio').forEach(function(o){if(o!==a)o.pause();});};});
   }
 
+  // ------------------------------------------------------------ RECHERCHE (Deezer)
+  function albumCard(al, artistName){
+    var g=artistName||(al.artist&&al.artist.name)||'', a=al.title||'', y=(al.release_date||'').slice(0,4);
+    var item={groupe:g,album:a,annee:y,pochette:al.cover_big||al.cover_medium||al.cover||'',_from:'Recherche',_deezerAlbum:al.id};
+    var k=key(g,a), inKnown=STATE.known[k];
+    var el=document.createElement('div'); el.className='card';
+    var type=al.record_type==='ep'?'EP':al.record_type==='single'?'Single':al.record_type==='compile'?'Compilation':'Album';
+    el.innerHTML='<img class="cover" src="'+esc(item.pochette||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'">'+
+      '<div class="g">'+esc(g)+'</div><div class="a">'+esc(a)+'</div>'+
+      '<div class="d">'+[y,type,al.nb_tracks?al.nb_tracks+' pistes':'', (STATE.artistStyle[norm(g)]||{}).style||''].filter(Boolean).join(' · ')+'</div>'+
+      '<div class="badges">'+(inKnown?'<span class="badge collec">'+(inKnown==='collection'?'Dans la collection':'Dans la wishlist')+'</span>':'')+'</div>'+
+      '<div class="prev"><button class="pbtn">▶ Écouter des extraits</button></div>'+
+      '<div class="wish">'+wishMarkup(item)+collMarkup(item)+'</div>'+
+      '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/album/'+al.id+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+encodeURIComponent(g+' '+a)+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(g)+'&type=band_name">Metallum</a></div>';
+    el.querySelector('.prev .pbtn').addEventListener('click',function(){ var box=el.querySelector('.prev'); box.innerHTML='<div class="d">Chargement des extraits…</div>';
+      jsonp('https://api.deezer.com/album/'+al.id+'/tracks?limit=50',function(r){ var ts=((r&&r.data)||[]).filter(function(t){return t.preview;}).map(function(t){return {title:t.title,preview:t.preview,album:{title:a}};}); if(!ts.length){ box.innerHTML='<div class="d">Pas d\'extrait disponible</div>'; return; } renderPlayer(box,ts,0,'Piste'); },function(){ box.innerHTML='<div class="d">Extraits indisponibles</div>'; }); });
+    // durée à la demande (1 appel) quand on ajoute
+    var origBind=bindWish; bindWish(el,item);
+    el.querySelectorAll('[data-act=wish],[data-act=coll]').forEach(function(b){ b.addEventListener('click',function(){ if(!item.duree){ jsonp('https://api.deezer.com/album/'+al.id,function(d){ if(d&&d.duration&&d.record_type!=='single'){ var m=String(Math.round(d.duration/60)); var lst=STATE.souhaits.concat(STATE.achetes); lst.forEach(function(x){ if(key(x.groupe,x.album)===k && !x.duree) x.duree=m; }); persistBadges(); } },function(){}); } },{once:true}); });
+    return el;
+  }
+  function rechercher(){
+    var q=$('qRecherche').value.trim(), mode=$('modeRecherche').value; if(!q) return;
+    var arts=$('artistesRecherche'), grid=$('gridRecherche'), prog=$('progRecherche'); arts.innerHTML=''; grid.innerHTML=''; $('titreDisco').style.display='none'; prog.textContent='Recherche…';
+    var pend=0; function done(){ if(--pend<=0) prog.textContent=(arts.children.length||grid.children.length)?'':'Aucun résultat.'; }
+    if(mode!=='album'){ pend++; jsonp('https://api.deezer.com/search/artist?q='+encodeURIComponent(q)+'&limit=8',function(r){ ((r&&r.data)||[]).forEach(function(ar){ var c=document.createElement('div'); c.className='artcard'; c.innerHTML='<img src="'+esc(ar.picture_medium||PH)+'" alt=""><div class="g">'+esc(ar.name)+'</div><div class="d">'+(ar.nb_album?ar.nb_album+' disques':'')+((STATE.artistStyle[norm(ar.name)])?' · dans tes listes':'')+'</div>'; c.addEventListener('click',function(){ discographie(ar); }); arts.appendChild(c); }); done(); },done); }
+    if(mode!=='artist'){ pend++; jsonp('https://api.deezer.com/search/album?q='+encodeURIComponent(q)+'&limit=24',function(r){ var list=((r&&r.data)||[]).filter(function(al){ return al.record_type!=='single'; }); if(list.length){ $('titreDisco').style.display=''; $('titreDisco').innerHTML='Albums correspondant à « '+esc(q)+' »'; } list.forEach(function(al){ grid.appendChild(albumCard(al)); }); done(); },done); }
+  }
+  function discographie(ar){
+    var grid=$('gridRecherche'), prog=$('progRecherche'); grid.innerHTML=''; prog.textContent='Chargement de la discographie…'; $('titreDisco').style.display=''; $('titreDisco').innerHTML='Discographie de <b>'+esc(ar.name)+'</b>'+((STATE.artistStyle[norm(ar.name)])?' — groupe présent dans tes listes':'');
+    jsonp('https://api.deezer.com/artist/'+ar.id+'/albums?limit=200',function(r){ var list=((r&&r.data)||[]).filter(function(al){ return al.record_type!=='single'; }).sort(function(a,b){ return (a.release_date||'')<(b.release_date||'')?-1:1; });
+      // dédoublonnage des rééditions : on garde la première occurrence de chaque titre
+      var seen={}; list=list.filter(function(al){ var t=norm(al.title).replace(/\b(deluxe|edition|bonus|remastered|remaster|digipak|version|anniversary|expanded)\b/g,'').trim(); if(seen[t]) return false; seen[t]=1; return true; });
+      list.reverse(); list.forEach(function(al){ grid.appendChild(albumCard(al, ar.name)); }); prog.textContent=list.length?'':'Aucun disque trouvé.'; $('titreDisco').scrollIntoView({behavior:'smooth',block:'nearest'}); },function(){ prog.textContent='Discographie indisponible.'; });
+  }
+
   // ------------------------------------------------------------ export
   function exporter(){
     var out={exporte_le:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),achetes:STATE.achetes};
@@ -523,8 +582,9 @@ audio{width:100%;height:32px}
   }
 
   // ------------------------------------------------------------ init
-  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');window.scrollTo(0,0);if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);}
-  function showFromHash(){ showTab((location.hash||'')==='#decouvrir'?'d':'s'); }
+  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');window.scrollTo(0,0);if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);if(t==='r')$('qRecherche').focus();}
+  function showFromHash(){ var hsh=location.hash||''; showTab(hsh==='#decouvrir'?'d':hsh==='#recherche'?'r':'s'); }
+  $('btnRecherche').addEventListener('click',rechercher); $('qRecherche').addEventListener('keydown',function(e){ if(e.key==='Enter') rechercher(); });
   window.addEventListener('hashchange',showFromHash);
   document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
   $('fSave').addEventListener('click',saveManual); $('fCancel').addEventListener('click',function(){STATE.editKey=null;$('ownerPanel').style.display='none';});
