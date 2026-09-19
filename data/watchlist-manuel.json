@@ -7,6 +7,14 @@
   "note": ""
  },
  {
+  "groupe": "Proutator",
+  "album": "El Maestro Prouto",
+  "date": "2026-09-19",
+  "precision": "exact",
+  "note": "Joyeux Anniversaire !",
+  "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg"
+ },
+ {
   "groupe": "Brymir",
   "album": "What We Leave Behind",
   "date": "2026-10-02",
@@ -21,14 +29,6 @@
   "precision": "exact",
   "note": "",
   "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg"
- },
- {
-  "groupe": "Proutator",
-  "album": "El Maestro Prouto",
-  "date": "2026-11",
-  "precision": "month",
-  "note": "",
-  "pochette": "data/pochettes/proutator-el-maestro-prouto.jpg"
  },
  {
   "groupe": "Týr",
