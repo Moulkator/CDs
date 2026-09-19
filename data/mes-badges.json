@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T10:45:01.745Z",
+ "maj": "2026-09-19T10:45:13.369Z",
  "statuts_sorties": {},
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -17,7 +17,8 @@
  ],
  "groupes_ignores": [
   "volbeat",
-  "metallica"
+  "metallica",
+  "my chemical romance"
  ],
  "achetes": []
 }
