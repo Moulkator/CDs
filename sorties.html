@@ -58,6 +58,8 @@ audio{width:100%;height:32px}
 .sim{font-size:.74rem;color:var(--muted);line-height:1.3}
 .empty{color:var(--muted);text-align:center;padding:30px}
 .section{display:none}.section.active{display:block}
+.subtabs .btn{min-width:150px}
+.ecbtn{border-color:#2a4a6b;color:var(--blue)}.ecbtn.on{background:var(--blue);color:#0c0e11;font-weight:700}
 .artcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center;cursor:pointer}
 .artcard:hover{border-color:var(--gold)}.artcard img{width:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover;display:block;margin-bottom:6px;background:#000}
 .artcard .g{font-size:.8rem}.artcard .d{font-size:.72rem}
@@ -140,24 +142,41 @@ audio{width:100%;height:32px}
     <h1>À <span>DÉCOUVRIR</span></h1>
     <p>Groupes absents de tes listes, proposés d'après tes styles favoris (artistes similaires Deezer).</p>
   </header>
-  <div class="weights" id="weights"></div>
-  <div class="controls">
-    <button class="btn gold" id="btnDecouvrir">Chercher des suggestions</button>
-    <button class="btn" id="btnPlus" style="display:none">En voir plus</button>
-    <select id="filtreDec">
-      <option value="actifs">À découvrir (sans badge ou À écouter)</option>
-      <option value="">Tout</option>
-      <option value="_none">Sans badge</option>
-      <option value="À écouter">À écouter</option>
-      <option value="Écouté">Écouté</option>
-      <option value="Téléchargé">Téléchargé</option>
-      <option value="Acheté">Acheté</option>
-      <option value="_masques">Pas intéressé</option>
-    </select>
-    <button class="btn" id="btnResetHidden">Réafficher les « pas intéressé »</button>
+  <div class="controls subtabs">
+    <button class="btn gold" id="subDec">Découvertes</button>
+    <button class="btn" id="subEcoute">🎧 À écouter</button>
   </div>
-  <div class="prog" id="progDecouvrir"></div>
-  <div class="grid" id="gridDecouvrir"></div>
+  <div id="paneDec">
+    <div class="weights" id="weights"></div>
+    <div class="controls">
+      <button class="btn gold" id="btnDecouvrir">Chercher des suggestions</button>
+      <button class="btn" id="btnPlus" style="display:none">En voir plus</button>
+      <select id="filtreDec">
+        <option value="actifs">Sans badge</option>
+        <option value="">Tout (hors À écouter)</option>
+        <option value="Écouté">Écouté</option>
+        <option value="Téléchargé">Téléchargé</option>
+        <option value="Acheté">Acheté</option>
+        <option value="_masques">Pas intéressé</option>
+      </select>
+      <button class="btn" id="btnResetHidden">Réafficher les « pas intéressé »</button>
+    </div>
+    <div class="prog" id="progDecouvrir"></div>
+    <div class="grid" id="gridDecouvrir"></div>
+  </div>
+  <div id="paneEcoute" style="display:none">
+    <p class="weights">Groupes marqués « À écouter » dans les découvertes, et albums mis de côté depuis Rechercher.</p>
+    <div class="controls">
+      <select id="filtreEcoute">
+        <option value="À écouter">À écouter</option>
+        <option value="Écouté">Écouté</option>
+        <option value="Téléchargé">Téléchargé</option>
+        <option value="Acheté">Acheté</option>
+        <option value="">Tout</option>
+      </select>
+    </div>
+    <div class="grid" id="gridEcoute"></div>
+  </div>
 </section>
 
 <section id="secRecherche" class="section">
@@ -186,10 +205,10 @@ audio{width:100%;height:32px}
 <script>
 (function(){
   var STATUTS=['À écouter','Écouté','Téléchargé','Acheté'];
-  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v2', KEY_DSTATUT='decouvrir-statuts-v1';
+  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v2', KEY_DSTATUT='decouvrir-statuts-v1';
   var PH='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0" stop-color="#2a2233"/><stop offset="1" stop-color="#12141a"/></radialGradient></defs><rect width="200" height="200" fill="url(#g)"/><text x="100" y="118" text-anchor="middle" font-size="56" fill="#4a3f5e">♫</text><text x="100" y="160" text-anchor="middle" font-size="13" fill="#6b6090" font-family="sans-serif">pochette non dévoilée</text></svg>');
   var KEY_TOKEN='gh-token-v1', KEY_REPO='gh-repo-v1', KEY_EXCLUS='sorties-exclues-v1', KEY_IGNORES='groupes-ignores-v1';
-  var STATE={auto:[],generated:'',owner:false,exclus:{},ignores:{},souhaits:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
+  var STATE={auto:[],generated:'',owner:false,exclus:{},ignores:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
 
   function $(id){return document.getElementById(id);}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -232,11 +251,11 @@ audio{width:100%;height:32px}
   }
   var saveBadgesTimer=null;
   function persistBadges(){
-    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits);
+    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter);
     if(!STATE.owner) return;
     clearTimeout(saveBadgesTimer);
     saveBadgesTimer=setTimeout(function(){
-      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),achetes:STATE.achetes,souhaits:STATE.souhaits},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
+      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
     },1500);
   }
   function loadBadgesFromSite(cb){
@@ -250,7 +269,9 @@ audio{width:100%;height:32px}
         (b.achetes||[]).forEach(function(a){if(!have[key(a.groupe,a.album)]) STATE.achetes.push(a);});
         var haveS={}; STATE.souhaits.forEach(function(a){haveS[key(a.groupe,a.album)]=1;});
         (b.souhaits||[]).forEach(function(a){if(!haveS[key(a.groupe,a.album)]) STATE.souhaits.push(a);});
-        saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits);
+        var haveE={}; STATE.aecouter.forEach(function(a){haveE[key(a.groupe,a.album)]=1;});
+        (b.a_ecouter||[]).forEach(function(a){if(!haveE[key(a.groupe,a.album)]) STATE.aecouter.push(a);});
+        saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter);
       }
       cb&&cb();
     },function(){cb&&cb();});
@@ -503,24 +524,16 @@ audio{width:100%;height:32px}
     nextSeed();
   }
 
-  function renderDecouvrir(reset){
-    var grid=$('gridDecouvrir'); if(reset){grid.innerHTML='';STATE.decShown=0;}
-    var fd=$('filtreDec').value;
-    var list=STATE.dec.filter(function(c){var nk=norm(c.name), hid=!!STATE.hidden[nk], st=STATE.dstatuts[nk]||'';
-      if(fd==='_masques') return hid; if(hid) return false;
-      if(fd==='actifs') return !st||st==='À écouter'; if(fd==='_none') return !st; if(fd) return st===fd; return true;});
-    var slice=list.slice(STATE.decShown,STATE.decShown+20); STATE.decShown+=slice.length;
-    if(!list.length&&reset){grid.innerHTML='<div class="empty">'+(STATE.dec.length?'Rien dans ce filtre.':'Aucune suggestion pour l\'instant. Clique sur « Chercher des suggestions ».')+'</div>';}
-    slice.forEach(function(c){
+  function decCard(c){
       var nk=norm(c.name), st=STATE.dstatuts[nk]||'';
-      var toks=Object.keys(c.toks).filter(function(t){return t!=='metal';}).sort(function(x,y){return c.toks[y]-c.toks[x];}).slice(0,4);
+      var toks=Object.keys(c.toks||{}).filter(function(t){return t!=='metal';}).sort(function(x,y){return c.toks[y]-c.toks[x];}).slice(0,4);
       var el=document.createElement('div'); el.className='card';
       var q2=encodeURIComponent(c.name);
       el.innerHTML='<img class="cover" src="'+esc(c.cover||c.picture||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'">'+
         '<div class="g">'+esc(c.name)+'</div><div class="a">'+esc(c.album||'')+'</div>'+
         '<div class="d">'+[c.albumYear?esc(c.albumYear):'', c.duree?'⏱ '+esc(fmtDuree(c.duree)):'', (c.yearMin&&c.nbAlbums)?(c.nbAlbums+' album'+(c.nbAlbums>1?'s':'')+' · '+c.yearMin+(c.yearMax>c.yearMin?'–'+c.yearMax:'')):''].filter(Boolean).join(' · ')+'</div>'+
         '<div class="prev">'+((c.tracks&&c.tracks.length)||c.preview?'<button class="pbtn">▶ Écouter un extrait'+(c.tracks&&c.tracks.length>1?' ('+c.tracks.length+')':'')+'</button>':'<div class="d">Pas d\'extrait disponible</div>')+'</div>'+
-        '<div class="sim">Similaire à '+esc(c.from.slice(0,4).join(', '))+(c.from.length>4?' (+'+(c.from.length-4)+')':'')+(toks.length?'<br>Affinités : '+esc(toks.join(', ')):'')+'</div>'+
+        '<div class="sim">Similaire à '+esc((c.from||[]).slice(0,4).join(', '))+((c.from||[]).length>4?' (+'+(c.from.length-4)+')':'')+(toks.length?'<br>Affinités : '+esc(toks.join(', ')):'')+'</div>'+
         statusMarkup(st,'')+'<div class="wish">'+wishMarkup({groupe:c.name,album:c.album||''})+collMarkup({groupe:c.name,album:c.album||''})+'</div>'+
         '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/artist/'+c.id+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+q2+'&type=band_name">Metallum</a></div>'+
         '<div class="acts">'+(STATE.hidden[nk]?'<button data-act="unhide">Réafficher</button>':'<button class="danger" data-act="hide">Pas intéressé</button>')+'</div>';
@@ -529,12 +542,38 @@ audio{width:100%;height:32px}
       var bh=el.querySelector('[data-act=hide]'); if(bh) bh.addEventListener('click',function(){STATE.hidden[nk]=1;persistBadges();el.remove();toast('Masqué');});
       var bu=el.querySelector('[data-act=unhide]'); if(bu) bu.addEventListener('click',function(){delete STATE.hidden[nk];persistBadges();el.remove();toast('Réaffiché');});
       el.querySelectorAll('.status button').forEach(function(b){b.addEventListener('click',function(){var s=b.getAttribute('data-s');var was=STATE.dstatuts[nk];setStatut(STATE.dstatuts,nk,s);var it={groupe:c.name,album:c.album||'',date:'',pochette:c.cover||''};if(STATE.dstatuts[nk]==='Acheté'){ajouterAchat(it);STATE.known[key(it.groupe,it.album)]='collection';}else if(was==='Acheté'){retirerAchat(it);if(STATE.known[key(it.groupe,it.album)]==='collection')delete STATE.known[key(it.groupe,it.album)];}persistBadges();el.querySelector('.wish').innerHTML=wishMarkup(it)+collMarkup(it);bindWish(el,it);el.querySelectorAll('.status button').forEach(function(x){x.className=(STATE.dstatuts[nk]===x.getAttribute('data-s')?'on':'')+(x.getAttribute('data-s')==='Acheté'?' achete':'');});});});
-      grid.appendChild(el);
-    });
-    $('btnPlus').style.display=STATE.decShown<list.length?'':'none';
-    // pause des autres extraits quand on en lance un
-    grid.querySelectorAll('audio').forEach(function(a){a.onplay=function(){grid.querySelectorAll('audio').forEach(function(o){if(o!==a)o.pause();});};});
+      return el;
   }
+  function renderDecouvrir(reset){
+    var grid=$('gridDecouvrir'); if(reset){grid.innerHTML='';STATE.decShown=0;}
+    var fd=$('filtreDec').value;
+    var list=STATE.dec.filter(function(c){var nk=norm(c.name), hid=!!STATE.hidden[nk], st=STATE.dstatuts[nk]||'';
+      if(fd==='_masques') return hid; if(hid) return false;
+      if(st==='À écouter') return false;               // ceux-là vivent dans l'onglet À écouter
+      if(fd==='actifs') return !st; if(fd) return st===fd; return true;});
+    var slice=list.slice(STATE.decShown,STATE.decShown+20); STATE.decShown+=slice.length;
+    if(!list.length&&reset){grid.innerHTML='<div class="empty">'+(STATE.dec.length?'Rien dans ce filtre.':'Aucune suggestion pour l\'instant. Clique sur « Chercher des suggestions ».')+'</div>';}
+    slice.forEach(function(c){ grid.appendChild(decCard(c)); });
+    $('btnPlus').style.display=STATE.decShown<list.length?'':'none';
+    grid.querySelectorAll('audio').forEach(function(a){a.onplay=function(){document.querySelectorAll('audio').forEach(function(o){if(o!==a)o.pause();});};});
+  }
+  // ---- onglet À écouter : groupes « À écouter » des découvertes + albums mis de côté depuis Rechercher
+  function ecouteKey(a){ return key(a.groupe,a.album); }
+  function ecouteMarkup(item){ var k=key(item.groupe,item.album); var mine=STATE.aecouter.some(function(a){return ecouteKey(a)===k;}); return mine?'<button class="pbtn ecbtn on" data-act="unlisten">✓ À écouter — retirer</button>':'<button class="pbtn ecbtn" data-act="listen">🎧 À écouter</button>'; }
+  function bindEcoute(el,al,artistName){ var g=artistName||(al.artist&&al.artist.name)||'', a=al.title||''; var item={groupe:g,album:a};
+    var b=el.querySelector('[data-act=listen]'); if(b) b.addEventListener('click',function(){ var k=key(g,a); if(!STATE.aecouter.some(function(x){return ecouteKey(x)===k;})){ STATE.aecouter.push({groupe:g,album:a,deezer_id:al.id,pochette:al.cover_big||al.cover_medium||al.cover||'',annee:(al.release_date||'').slice(0,4),record_type:al.record_type||'album',nb_tracks:al.nb_tracks||0,ajoute:new Date().toISOString().slice(0,10)}); persistBadges(); toast('Mis de côté dans « À écouter »'); } el.querySelector('.ecoute').innerHTML=ecouteMarkup(item); bindEcoute(el,al,artistName); });
+    var u=el.querySelector('[data-act=unlisten]'); if(u) u.addEventListener('click',function(){ var k=key(g,a); STATE.aecouter=STATE.aecouter.filter(function(x){return ecouteKey(x)!==k;}); delete STATE.dstatuts[k]; persistBadges(); toast('Retiré de « À écouter »'); if(el.closest('#gridEcoute')) el.remove(); else { el.querySelector('.ecoute').innerHTML=ecouteMarkup(item); bindEcoute(el,al,artistName); } }); }
+  function renderEcoute(){
+    var grid=$('gridEcoute'); grid.innerHTML=''; var f=$('filtreEcoute').value, n=0;
+    STATE.dec.forEach(function(c){ var nk=norm(c.name), st=STATE.dstatuts[nk]||''; if(STATE.hidden[nk]) return; if(f? st!==f : st!=='À écouter'&&st!=='Écouté'&&st!=='Téléchargé'&&st!=='Acheté') return; if(!f&&!st) return; n++; grid.appendChild(decCard(c)); });
+    STATE.aecouter.slice().reverse().forEach(function(a){ var k=ecouteKey(a), st=STATE.dstatuts[k]||'À écouter'; if(f && st!==f) return; n++;
+      var al={id:a.deezer_id,title:a.album,artist:{name:a.groupe},cover_big:a.pochette,release_date:a.annee?a.annee+'-01-01':'',record_type:a.record_type||'album',nb_tracks:a.nb_tracks||0};
+      var el=albumCard(al,a.groupe); el.querySelector('.status').outerHTML=statusMarkup(st,''); 
+      el.querySelectorAll('.status button').forEach(function(b){ b.addEventListener('click',function(){ var sv=b.getAttribute('data-s'); var was=STATE.dstatuts[k]||'À écouter'; if(sv==='À écouter'){ STATE.dstatuts[k]='À écouter'; } else setStatut(STATE.dstatuts,k,sv); if(!STATE.dstatuts[k]) STATE.dstatuts[k]='À écouter'; var it={groupe:a.groupe,album:a.album,annee:a.annee,pochette:a.pochette,duree:a.duree||''}; if(STATE.dstatuts[k]==='Acheté'){ ajouterAchat(it); STATE.known[k]='collection'; } else if(was==='Acheté'){ retirerAchat(it); if(STATE.known[k]==='collection') delete STATE.known[k]; } persistBadges(); renderEcoute(); }); });
+      grid.appendChild(el); });
+    if(!n) grid.innerHTML='<div class="empty">'+(f?'Rien avec ce badge.':'Rien à écouter pour l\'instant : marque un groupe « À écouter » dans Découvertes, ou un album depuis Rechercher.')+'</div>';
+  }
+  function showSub(t){ $('paneDec').style.display=t==='dec'?'':'none'; $('paneEcoute').style.display=t==='ec'?'':'none'; $('subDec').classList.toggle('gold',t==='dec'); $('subEcoute').classList.toggle('gold',t==='ec'); if(t==='ec') renderEcoute(); }
 
   // ------------------------------------------------------------ RECHERCHE (Deezer)
   function albumCard(al, artistName){
@@ -548,12 +587,12 @@ audio{width:100%;height:32px}
       '<div class="d">'+[y,type,al.nb_tracks?al.nb_tracks+' pistes':'', (STATE.artistStyle[norm(g)]||{}).style||''].filter(Boolean).join(' · ')+'</div>'+
       '<div class="badges">'+(inKnown?'<span class="badge collec">'+(inKnown==='collection'?'Dans la collection':'Dans la wishlist')+'</span>':'')+'</div>'+
       '<div class="prev"><button class="pbtn">▶ Écouter des extraits</button></div>'+
-      '<div class="wish">'+wishMarkup(item)+collMarkup(item)+'</div>'+
+      '<div class="status" style="display:none"></div><div class="ecoute">'+ecouteMarkup(item)+'</div><div class="wish">'+wishMarkup(item)+collMarkup(item)+'</div>'+
       '<div class="links"><a target="_blank" rel="noopener" href="https://www.deezer.com/album/'+al.id+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+encodeURIComponent(g+' '+a)+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(g)+'&type=band_name">Metallum</a></div>';
     el.querySelector('.prev .pbtn').addEventListener('click',function(){ var box=el.querySelector('.prev'); box.innerHTML='<div class="d">Chargement des extraits…</div>';
       jsonp('https://api.deezer.com/album/'+al.id+'/tracks?limit=50',function(r){ var ts=((r&&r.data)||[]).filter(function(t){return t.preview;}).map(function(t){return {title:t.title,preview:t.preview,album:{title:a}};}); if(!ts.length){ box.innerHTML='<div class="d">Pas d\'extrait disponible</div>'; return; } renderPlayer(box,ts,0,'Piste'); },function(){ box.innerHTML='<div class="d">Extraits indisponibles</div>'; }); });
     // durée à la demande (1 appel) quand on ajoute
-    var origBind=bindWish; bindWish(el,item);
+    bindWish(el,item); bindEcoute(el,al,artistName);
     el.querySelectorAll('[data-act=wish],[data-act=coll]').forEach(function(b){ b.addEventListener('click',function(){ if(!item.duree){ jsonp('https://api.deezer.com/album/'+al.id,function(d){ if(d&&d.duration&&d.record_type!=='single'){ var m=String(Math.round(d.duration/60)); var lst=STATE.souhaits.concat(STATE.achetes); lst.forEach(function(x){ if(key(x.groupe,x.album)===k && !x.duree) x.duree=m; }); persistBadges(); } },function(){}); } },{once:true}); });
     return el;
   }
@@ -583,7 +622,7 @@ audio{width:100%;height:32px}
 
   // ------------------------------------------------------------ init
   function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');window.scrollTo(0,0);if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);if(t==='r')$('qRecherche').focus();}
-  function showFromHash(){ var hsh=location.hash||''; showTab(hsh==='#decouvrir'?'d':hsh==='#recherche'?'r':'s'); }
+  function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
   $('btnRecherche').addEventListener('click',rechercher); $('qRecherche').addEventListener('keydown',function(e){ if(e.key==='Enter') rechercher(); });
   window.addEventListener('hashchange',showFromHash);
   document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
@@ -606,8 +645,9 @@ audio{width:100%;height:32px}
   $('searchSorties').addEventListener('input',renderSorties);
   $('filtrePeriode').addEventListener('change',function(){ if(this.value.charAt(0)==='y' && $('filtreSorties').value!=='masques') $('filtreSorties').value='tous'; renderSorties(); });
   $('filtreDec').addEventListener('change',function(){renderDecouvrir(true);});
+  $('filtreEcoute').addEventListener('change',renderEcoute); $('subDec').addEventListener('click',function(){showSub('dec');}); $('subEcoute').addEventListener('click',function(){showSub('ec');});
 
-  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]);
+  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]);
   function buildArtists(coll,wish,over){
     var ov={}; (over||[]).forEach(function(o){ov[norm(o.groupe)]=o;});
     var arts={};

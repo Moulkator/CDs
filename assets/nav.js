@@ -29,7 +29,7 @@
     deactivate:function(){ if(!confirm('Désactiver le mode propriétaire sur cet appareil ? (le jeton sera oublié ici)')) return; localStorage.removeItem(KEY_TOKEN); render(); fire(false); }
   };
   function fire(on){ try{ document.dispatchEvent(new CustomEvent('owner-changed',{detail:{owner:on}})); }catch(e){} }
-  function currentPage(){ var f=location.pathname.split('/').pop()||'index.html', hsh=(location.hash||'').replace('#',''); if(f==='sorties.html') return hsh==='decouvrir'?'decouvrir':hsh==='recherche'?'recherche':'sorties'; return hsh==='collection'?'collection':'wishlist'; }
+  function currentPage(){ var f=location.pathname.split('/').pop()||'index.html', hsh=(location.hash||'').replace('#',''); if(f==='sorties.html') return (hsh==='decouvrir'||hsh==='ecouter')?'decouvrir':hsh==='recherche'?'recherche':'sorties'; return hsh==='collection'?'collection':'wishlist'; }
   function render(){
     var nav=document.getElementById('topnav'); if(!nav) return;
     var cur=currentPage(), on=Owner.isOn();
