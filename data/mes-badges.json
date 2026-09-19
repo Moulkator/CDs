@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-19T21:47:23.570Z",
+ "maj": "2026-09-19T21:47:31.118Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -199,6 +199,16 @@
    "annee": "2022",
    "record_type": "album",
    "nb_tracks": 13,
+   "ajoute": "2026-09-19"
+  },
+  {
+   "groupe": "Zmey Gorynich",
+   "album": "Странствiя Рукоблуда и сестры его Малафѣи",
+   "deezer_id": 841927862,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/276de03e8775568b7b3929f86226e7c5/500x500-000000-80-0-0.jpg",
+   "annee": "2025",
+   "record_type": "album",
+   "nb_tracks": 11,
    "ajoute": "2026-09-19"
   }
  ]
