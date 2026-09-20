@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:16:03.451Z",
+ "maj": "2026-09-20T17:20:07.979Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -251,6 +251,12 @@
    "id": "PLQ0pFGP93ZmwRWveEvhbXvjHVi9cLu-WU",
    "title": "At The Gates - To Drink From The Night Itself (Full Album)",
    "t": 1789924561948,
+   "bad": []
+  },
+  "all shall perish|this is where it ends": {
+   "id": "PLxsbSec0F38gf3aDoXDWG-A93RpN3j39W",
+   "title": "all shall perish this is where it ends",
+   "t": 1789924806467,
    "bad": []
   }
  },
