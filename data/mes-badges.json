@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:31:11.401Z",
+ "maj": "2026-09-20T17:32:09.792Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -283,6 +283,12 @@
    "video": true,
    "title": "Deathcode Society - Unlightenment (full album, 2023)",
    "t": 1789925469886,
+   "bad": []
+  },
+  "summoning|old mornings dawn": {
+   "id": "PL9Wcv68ru_bjvnrhI_YWz6E2-L7-tzwh0",
+   "title": "Summoning - Old Mornings Dawn (FULL ALBUM) [HD]",
+   "t": 1789925528277,
    "bad": []
   }
  },
