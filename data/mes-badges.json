@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T20:22:43.782Z",
+ "maj": "2026-09-20T20:22:48.056Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -432,6 +432,13 @@
    "id": "PL6fXru2X83WpMnTYB3f_x-zm6fppQMmod",
    "title": "Boisson Divine - La Halha (2020)",
    "t": 1789935731404,
+   "bad": []
+  },
+  "equilibrium|waldschrein": {
+   "id": "WKyqHjjy9Ic",
+   "video": true,
+   "title": "Equilibrium - Waldschrein |EP|",
+   "t": 1789935766545,
    "bad": []
   }
  },
