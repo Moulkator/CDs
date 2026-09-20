@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sorties à surveiller & À découvrir</title>
 <link rel="stylesheet" href="assets/nav.css">
+<script src="assets/yt.js"></script>
 <style>
 :root{--bg:#0c0e11;--panel:#15181e;--panel2:#1c2028;--text:#e8e4da;--muted:#9a93c4;--gold:#c9a227;--line:#2a2f3a;--red:#a02c2c;--green:#4caf50;--blue:#79c6ff}
 *{box-sizing:border-box} html,body{margin:0;padding:0}
@@ -60,8 +61,7 @@ audio{width:100%;height:32px}
 .section{display:none}.section.active{display:block}
 .subtabs .btn{min-width:150px}
 .ecbtn{border-color:#2a4a6b;color:var(--blue)}.ecbtn.on{background:var(--blue);color:#0c0e11;font-weight:700}
-.ytbtn{border-color:#6b2a2a;color:#ff8a8a}.ytbtn.on{background:#c4302b;color:#fff;font-weight:700}
-.coverwrap{position:relative;width:100%;aspect-ratio:1/1;border-radius:10px;overflow:hidden;background:#000}.coverwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
 .artcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center;cursor:pointer}
 .artcard:hover{border-color:var(--gold)}.artcard img{width:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover;display:block;margin-bottom:6px;background:#000}
 .artcard .g{font-size:.8rem}.artcard .d{font-size:.72rem}
@@ -202,10 +202,10 @@ audio{width:100%;height:32px}
 <script>
 (function(){
   var STATUTS=['À écouter','Écouté','Téléchargé','Acheté'];
-  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_YTCACHE='youtube-playlists-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1';
+  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1';
   var PH='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0" stop-color="#2a2233"/><stop offset="1" stop-color="#12141a"/></radialGradient></defs><rect width="200" height="200" fill="url(#g)"/><text x="100" y="118" text-anchor="middle" font-size="56" fill="#4a3f5e">♫</text><text x="100" y="160" text-anchor="middle" font-size="13" fill="#6b6090" font-family="sans-serif">pochette non dévoilée</text></svg>');
   var KEY_TOKEN='gh-token-v1', KEY_REPO='gh-repo-v1', KEY_EXCLUS='sorties-exclues-v1', KEY_IGNORES='groupes-ignores-v1';
-  var STATE={auto:[],generated:'',owner:false,exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],youtube:{},token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
+  var STATE={auto:[],generated:'',owner:false,exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
 
   function $(id){return document.getElementById(id);}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -248,11 +248,11 @@ audio{width:100%;height:32px}
   }
   var saveBadgesTimer=null;
   function persistBadges(){
-    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus); saveLS(KEY_YTCACHE,STATE.youtube);
+    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus);
     if(!STATE.owner) return;
     clearTimeout(saveBadgesTimer);
     saveBadgesTimer=setTimeout(function(){
-      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:STATE.youtube,achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
+      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:YTA.cache,achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
     },1500);
   }
   function loadBadgesFromSite(cb){
@@ -263,14 +263,14 @@ audio{width:100%;height:32px}
         (b.sorties_exclues||[]).forEach(function(m){STATE.exclus[m]=1;});
         (b.groupes_ignores||[]).forEach(function(m){STATE.ignores[m]=1;});
         (b.groupes_refuses||[]).forEach(function(m){STATE.refus[m]=1;});
-        var yk; for(yk in (b.youtube||{})) if(!STATE.youtube[yk]) STATE.youtube[yk]=b.youtube[yk];
+        YTA.merge(b.youtube||{});
         var have={}; STATE.achetes.forEach(function(a){have[key(a.groupe,a.album)]=1;});
         (b.achetes||[]).forEach(function(a){if(!have[key(a.groupe,a.album)]) STATE.achetes.push(a);});
         var haveS={}; STATE.souhaits.forEach(function(a){haveS[key(a.groupe,a.album)]=1;});
         (b.souhaits||[]).forEach(function(a){if(!haveS[key(a.groupe,a.album)]) STATE.souhaits.push(a);});
         var haveE={}; STATE.aecouter.forEach(function(a){haveE[key(a.groupe,a.album)]=1;});
         (b.a_ecouter||[]).forEach(function(a){if(!haveE[key(a.groupe,a.album)]) STATE.aecouter.push(a);});
-        saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus); saveLS(KEY_YTCACHE,STATE.youtube);
+        saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus);
       }
       cb&&cb();
     },function(){cb&&cb();});
@@ -358,35 +358,8 @@ audio{width:100%;height:32px}
     var b=el.querySelector('[data-act=wish]'); if(b) b.addEventListener('click',function(){ ajouterSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } }); var u=el.querySelector('[data-act=unwish]'); if(u) u.addEventListener('click',function(){ retirerSouhait(item); if(el.closest('#gridSorties')){ renderSorties(); } else { el.querySelector('.wish').innerHTML=wishMarkup(item)+collMarkup(item); bindWish(el,item); } }); }
   function retirerAchat(item){var k=key(item.groupe,item.album);STATE.achetes=STATE.achetes.filter(function(a){return key(a.groupe,a.album)!==k;});}
 
-  // ------------------------------------------------------------ YouTube (playlist de l'album, lecteur intégré)
-  function ytKey(){ return loadLS(KEY_YT,''); }
-  function ytFind(groupe, album, cb){
-    var k=key(groupe,album), c=STATE.youtube[k];
-    if(c && c.id){ cb(c.id); return; }
-    if(c && c.none && Date.now()-c.t<7*864e5){ cb(null,'Aucune playlist trouvée pour cet album (revérifié dans quelques jours).'); return; }
-    if(!ytKey()){ cb(null,'Ajoute une clé YouTube (bouton « Clé YouTube » dans Rechercher) pour chercher la playlist.'); return; }
-    var q=groupe+' '+album+' full album';
-    var x=new XMLHttpRequest(); x.open('GET','https://www.googleapis.com/youtube/v3/search?part=snippet&type=playlist&maxResults=8&q='+encodeURIComponent(q)+'&key='+encodeURIComponent(ytKey()));
-    x.onload=function(){ try{ var js=JSON.parse(x.responseText); if(js.error){ cb(null,'YouTube : '+(js.error.errors&&js.error.errors[0]&&js.error.errors[0].reason==='quotaExceeded'?'quota du jour épuisé, réessaie demain':js.error.message)); return; }
-      var items=js.items||[], ng=norm(groupe), na=norm(album);
-      function scoreOf(it){ var t=norm(it.snippet.title), ch=norm(it.snippet.channelTitle||''); var sc=0; if(t.indexOf(na)>=0) sc+=4; if(t.indexOf(ng)>=0||ch.indexOf(ng)>=0) sc+=2; if(/topic$/.test(ch)) sc+=2; if(/full album|album complet/.test(t)) sc+=1; if(/live|cover|reaction|karaoke|instrumental/.test(t)&&!/live|instrumental/.test(na)) sc-=3; return sc; }
-      var best=items.map(function(it){ return {it:it, sc:scoreOf(it)}; }).sort(function(a,b){ return b.sc-a.sc; })[0];
-      if(best && best.sc>=4){ STATE.youtube[k]={id:best.it.id.playlistId,title:best.it.snippet.title,t:Date.now()}; persistBadges(); cb(best.it.id.playlistId); }
-      else { STATE.youtube[k]={none:1,t:Date.now()}; saveLS(KEY_YTCACHE,STATE.youtube); cb(null,'Aucune playlist convaincante trouvée pour cet album.'); }
-    }catch(e){ cb(null,'Réponse YouTube illisible.'); } };
-    x.onerror=function(){ cb(null,'YouTube injoignable.'); }; x.send();
-  }
-  function ytMarkup(groupe, album){ var c=STATE.youtube[key(groupe,album)]; return '<button class="pbtn ytbtn" data-act="yt">▶ YouTube'+(c&&c.id?' (playlist trouvée)':'')+'</button>'; }
-  function bindYt(el, groupe, album){ var b=el.querySelector('[data-act=yt]'); if(!b) return; var wrap=el.querySelector('.coverwrap'); if(!wrap) return;
-    b.addEventListener('click',function(){
-      if(b.classList.contains('on')){ wrap.innerHTML=wrap.getAttribute('data-cover'); b.classList.remove('on'); b.textContent='▶ YouTube (playlist trouvée)'; return; }
-      b.disabled=true; b.textContent='Recherche de la playlist…';
-      ytFind(groupe, album, function(id, msg){ b.disabled=false; if(!id){ b.textContent='▶ YouTube'; toast(msg||'Playlist introuvable'); return; }
-        if(!wrap.getAttribute('data-cover')) wrap.setAttribute('data-cover', wrap.innerHTML);
-        document.querySelectorAll('audio').forEach(function(o){ o.pause(); }); document.querySelectorAll('.ytbtn.on').forEach(function(o){ o.click(); });
-        wrap.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(id)+'&autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="YouTube"></iframe>';
-        b.classList.add('on'); b.textContent='⏹ Fermer YouTube'; });
-    }); }
+  function ytMarkup(g,a){ return YTA.markup(g,a).replace(/^<div class="yt">|<\/div>$/g,''); }
+  function bindYt(el,g,a){ YTA.bind(el,g,a); }
 
   // ------------------------------------------------------------ extraits Deezer
   function renderPlayer(box, tracks, i, label){
@@ -702,8 +675,8 @@ audio{width:100%;height:32px}
   function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
   $('btnLastfm').addEventListener('click',function(){ var k=prompt('Clé API Last.fm (gratuite : https://www.last.fm/api/account/create — colle la « API key », pas le secret).\nElle reste dans ce navigateur. Vide pour retirer.', lastfmKey()||''); if(k===null) return; k=k.trim(); if(k) saveLS(KEY_LASTFM,k); else localStorage.removeItem(KEY_LASTFM); $('btnLastfm').textContent=k?'🔓 Clé Last.fm':'🔑 Clé Last.fm'; toast(k?'Clé enregistrée : la recherche par style passe par Last.fm':'Clé retirée : recherche par style via MusicBrainz'); });
   if(lastfmKey()) $('btnLastfm').textContent='🔓 Clé Last.fm';
-  $('btnYt').addEventListener('click',function(){ var k=prompt('Clé API YouTube Data v3 (gratuite, voir le guide). Elle reste dans ce navigateur. Vide pour retirer.', ytKey()||''); if(k===null) return; k=k.trim(); if(k) saveLS(KEY_YT,k); else localStorage.removeItem(KEY_YT); $('btnYt').textContent=k?'🔓 Clé YouTube':'🔑 Clé YouTube'; toast(k?'Clé enregistrée : les boutons YouTube peuvent chercher les playlists':'Clé retirée'); });
-  if(ytKey()) $('btnYt').textContent='🔓 Clé YouTube';
+  $('btnYt').addEventListener('click',function(){ var k=prompt('Clé API YouTube Data v3 (gratuite, voir le guide). Elle reste dans ce navigateur. Vide pour retirer.', YTA.getKey()||''); if(k===null) return; k=k.trim(); YTA.setKey(k); $('btnYt').textContent=k?'🔓 Clé YouTube':'🔑 Clé YouTube'; toast(k?'Clé enregistrée : les boutons YouTube peuvent chercher les playlists':'Clé retirée'); });
+  if(YTA.getKey()) $('btnYt').textContent='🔓 Clé YouTube';
   $('btnRecherche').addEventListener('click',rechercher); $('modeRecherche').addEventListener('change',function(){ var st=this.value==='style'; $('qRecherche').setAttribute('list',st?'dlStyles':''); $('qRecherche').placeholder=st?'Style… (ex. epic folk metal, melodic death metal)':'Groupe ou album… (ex. Slayer, Reign in Blood)'; if(st&&!$('dlStyles').children.length){ var seen={}; STATE.artists.forEach(function(a){ (a.styles||[]).forEach(function(x){ var t=x.toLowerCase().replace(/\s*\(.*?\)\s*/g,' ').replace(/\//g,' ').replace(/\s+/g,' ').trim(); if(t&&!seen[t]){ seen[t]=1; var o=document.createElement('option'); o.value=t; $('dlStyles').appendChild(o); } }); }); } }); $('qRecherche').addEventListener('keydown',function(e){ if(e.key==='Enter') rechercher(); });
   window.addEventListener('hashchange',showFromHash);
   document.addEventListener('owner-changed',function(){ syncOwnerFromNav(); renderSorties(); if(STATE.dec.length) renderDecouvrir(true); });
@@ -728,7 +701,7 @@ audio{width:100%;height:32px}
   $('filtreDec').addEventListener('change',function(){renderDecouvrir(true);});
   $('subDec').addEventListener('click',function(){showSub('dec');}); $('subEcoute').addEventListener('click',function(){showSub('ec');});
 
-  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); STATE.youtube=loadLS(KEY_YTCACHE,{});
+  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); YTA.toast=toast; YTA.persist=function(){ persistBadges(); };
   function buildArtists(coll,wish,over){
     var ov={}; (over||[]).forEach(function(o){ov[norm(o.groupe)]=o;});
     var arts={};
