@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T20:22:48.056Z",
+ "maj": "2026-09-20T20:24:02.928Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -439,6 +439,12 @@
    "video": true,
    "title": "Equilibrium - Waldschrein |EP|",
    "t": 1789935766545,
+   "bad": []
+  },
+  "salacious gods|oalevluuk": {
+   "id": "PL6koST9s5SKLMZuI3B5__jbA19PInWgIk",
+   "title": "Salacious Gods - Oalevluuk (Full Album)",
+   "t": 1789935841422,
    "bad": []
   }
  },
