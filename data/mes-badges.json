@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:37:38.377Z",
+ "maj": "2026-09-20T17:55:59.262Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -331,6 +331,12 @@
    "id": "PLToXWne2Bk-fU94r93BsDeEUiEL1JKSBi",
    "title": "Falkenbach - Heralding - The Fireblade [full album]",
    "t": 1789925856873,
+   "bad": []
+  },
+  "alcest|kodama": {
+   "id": "PLToXWne2Bk-dvJLnKrrkewRLEguZV1X60",
+   "title": "Alcest - Kodama [full album]",
+   "t": 1789926957762,
    "bad": []
   }
  },
