@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:36:21.400Z",
+ "maj": "2026-09-20T17:36:25.137Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -306,6 +306,13 @@
    "id": "PL3dXj1hwjTEsXL74AuIydMvNck6RAVmUH",
    "title": "Keep Of Kalessin - Armada (Full Album)",
    "t": 1789925779859,
+   "bad": []
+  },
+  "goatmoon|stella polaris": {
+   "id": "EkcQjrYLOEc",
+   "video": true,
+   "title": "Goatmoon - Stella Polaris (Full Album)",
+   "t": 1789925783632,
    "bad": []
   }
  },
