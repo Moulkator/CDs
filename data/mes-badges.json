@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:36:25.137Z",
+ "maj": "2026-09-20T17:37:10.197Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -313,6 +313,12 @@
    "video": true,
    "title": "Goatmoon - Stella Polaris (Full Album)",
    "t": 1789925783632,
+   "bad": []
+  },
+  "ghostbath|moonlover": {
+   "id": "PL4wGBw_Zl8c_XImkgZlDWBExoEwhl0TPW",
+   "title": "Ghost Bath - Moonlover (Full Album)",
+   "t": 1789925828695,
    "bad": []
   }
  },
