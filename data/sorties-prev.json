@@ -291,11 +291,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/959b6333-3ea4-40ea-9f49-0382fb9126b6/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "959b6333-3ea4-40ea-9f49-0382fb9126b6",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-]
+],
+"deezer_id": 387791237,
+"duree": "40"
 },
 {
 "groupe": "Korn",
@@ -4371,11 +4374,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/b36854d9-e3eb-4310-8b97-976a6d86db34/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "b36854d9-e3eb-4310-8b97-976a6d86db34",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-]
+],
+"deezer_id": 387750447,
+"duree": "41"
 },
 {
 "groupe": "Falkenbach",
@@ -8201,11 +8207,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/fcde98ad-1e60-47c8-a206-00e915658a3c/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "fcde98ad-1e60-47c8-a206-00e915658a3c",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-]
+],
+"deezer_id": 154304932,
+"duree": "40"
 },
 {
 "groupe": "Anaal Nathrakh",
@@ -8891,6 +8900,20 @@
 ],
 "deezer_id": 181450312,
 "duree": "60"
+},
+{
+"groupe": "Amaranthe",
+"album": "HELIX (2021 Version)",
+"date": "2021-02-12",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f0e2253ffe2f1e94ce311c119ef8b913/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 387750467,
+"refs": [
+"dz:807296"
+],
+"duree": "54"
 },
 {
 "groupe": "Holy Blood",
@@ -14750,11 +14773,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/8193619a-f2d6-4f24-87f8-e8751f2cf484/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "8193619a-f2d6-4f24-87f8-e8751f2cf484",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-]
+],
+"deezer_id": 696279011,
+"duree": "50"
 },
 {
 "groupe": "Austrian Death Machine",
@@ -15856,20 +15882,6 @@
 ]
 },
 {
-"groupe": "Amaranthe",
-"album": "Les Larmes de Babette",
-"date": "2024-09-27",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/06bdef6a158a95abb2b7a7cb431e51f0/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 643163861,
-"refs": [
-"dz:285257641"
-],
-"duree": "23"
-},
-{
 "groupe": "Ultra Vomit",
 "album": "Ultra Vomit et le pouvoir de la puissance",
 "date": "2024-09-27",
@@ -16130,13 +16142,11 @@
 "precision": "exact",
 "type": "ep",
 "pochette": "https://coverartarchive.org/release-group/0406866c-376b-42bf-bbc3-c339bc28d499/front-500",
-"source": "deezer+musicbrainz",
+"source": "musicbrainz",
 "mb_rg": "0406866c-376b-42bf-bbc3-c339bc28d499",
 "refs": [
-"dz:285257641",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
-"deezer_id": 674254401,
 "duree": "10"
 },
 {
