@@ -635,7 +635,7 @@ audio{width:100%;height:32px}
     var g=artistName||(al.artist&&al.artist.name)||'', a=al.title||'', y=(al.release_date||'').slice(0,4);
     var item={groupe:g,album:a,annee:y,pochette:al.cover_big||al.cover_medium||al.cover||'',_from:'Recherche',_deezerAlbum:al.id};
     var k=key(g,a), inKnown=knownOf(g,a);
-    var el=document.createElement('div'); el.className='card'; el.setAttribute('data-artist',norm(g)); el.setAttribute('data-year',y||'9999');
+    var el=document.createElement('div'); el.className='card'; el.setAttribute('data-artist',norm(g)); el.setAttribute('data-year',y||'0000');
     var type=al.record_type==='ep'?'EP':al.record_type==='single'?'Single':al.record_type==='compile'?'Compilation':'Album';
     el.innerHTML='<div class="coverwrap"><img class="cover" src="'+esc(item.pochette||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'"></div>'+
       '<div class="g">'+esc(g)+'</div><div class="a">'+esc(a)+'</div>'+
@@ -654,7 +654,7 @@ audio{width:100%;height:32px}
   }
   var KEY_LASTFM='lastfm-key-v1';
   function lastfmKey(){ return loadLS(KEY_LASTFM,''); }
-  function sortRechercheGrid(){ var grid=$('gridRecherche'); if(!grid) return; var cards=Array.prototype.slice.call(grid.children); cards.sort(function(a,b){ var ga=a.getAttribute('data-artist')||'', gb=b.getAttribute('data-artist')||''; if(ga!==gb) return ga<gb?-1:1; var ya=a.getAttribute('data-year')||'9999', yb=b.getAttribute('data-year')||'9999'; return ya<yb?-1:ya>yb?1:0; }); cards.forEach(function(c){ grid.appendChild(c); }); }
+  function sortRechercheGrid(){ var grid=$('gridRecherche'); if(!grid) return; var cards=Array.prototype.slice.call(grid.children); cards.sort(function(a,b){ var ga=a.getAttribute('data-artist')||'', gb=b.getAttribute('data-artist')||''; if(ga!==gb) return ga<gb?-1:1; var ya=a.getAttribute('data-year')||'0000', yb=b.getAttribute('data-year')||'0000'; return ya>yb?-1:ya<yb?1:0; }); cards.forEach(function(c){ grid.appendChild(c); }); }
   function rechercherStyleLastfm(q, page){
     var grid=$('gridRecherche'), prog=$('progRecherche'); if(page===1){ grid.innerHTML=''; $('artistesRecherche').innerHTML=''; }
     var tag=q.toLowerCase().replace(/\s*\(.*?\)\s*/g,' ').replace(/\//g,' ').replace(/\s+/g,' ').trim();
@@ -788,7 +788,7 @@ audio{width:100%;height:32px}
   function randPrefetch(){ if(!YTA.getKey()) return; var pool=randPool(), playedKeys={}; RAND.played.forEach(function(k){ playedKeys[k]=1; }); var cand=pool.filter(function(p){ return !playedKeys[key(p.groupe,p.album)] && !YTA.cache[key(p.groupe,p.album)]; }); if(!cand.length) return; var p=cand[Math.floor(Math.random()*cand.length)]; RAND.prefetched=p; YTA.find(p.groupe,p.album,function(){}); }
   function randIsWanted(){ try{ if(!RAND.player||!RAND.want) return true; if(RAND.want.video){ var vd=RAND.player.getVideoData&&RAND.player.getVideoData(); return !vd||!vd.video_id||vd.video_id===RAND.want.id; } var pl=RAND.player.getPlaylistId&&RAND.player.getPlaylistId(); return !pl||pl===RAND.want.id; }catch(e){ return true; } }
   function randReconcile(){ if(randIsWanted()) return; /* le lecteur joue encore l'album précédent (clic pendant le chargement) : on recharge le bon */ try{ if(RAND.want.video) RAND.player.loadVideoById(RAND.want.id); else RAND.player.loadPlaylist({list:RAND.want.id, listType:'playlist'}); }catch(e){} }
-  function randWatchdog(){ clearTimeout(RAND.wdTimer); RAND.playing=false; var stamp=RAND.loadedAt; RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ var st=RAND.player&&RAND.player.getPlayerState&&RAND.player.getPlayerState(); if(st===1) return; }catch(e){} $('randInfo').textContent='YouTube met du temps à démarrer… nouvelle tentative.'; try{ if(RAND.want.video) RAND.player.loadVideoById(RAND.want.id); else RAND.player.loadPlaylist({list:RAND.want.id, listType:'playlist'}); }catch(e){} RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ if(RAND.player.getPlayerState()===1) return; }catch(e){} $('randInfo').textContent='Cet album ne démarre pas sur YouTube — passage au suivant.'; randNext(); },12000); },12000); }
+  function randWatchdog(){ clearTimeout(RAND.wdTimer); RAND.playing=false; var stamp=RAND.loadedAt; RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ var st=RAND.player&&RAND.player.getPlayerState&&RAND.player.getPlayerState(); if(st===1) return; }catch(e){} $('randInfo').textContent='YouTube met du temps à démarrer… nouvelle tentative.'; try{ if(RAND.want.video) RAND.player.loadVideoById(RAND.want.id); else RAND.player.loadPlaylist({list:RAND.want.id, listType:'playlist'}); }catch(e){} RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ if(RAND.player.getPlayerState()===1) return; }catch(e){} $('randInfo').textContent='Cet album ne démarre pas sur YouTube — passage au suivant.'; randNext(); },45000); },45000); }
   function randNext(){
     clearTimeout(RAND.autoTimer);
     if(RAND.busy) return; RAND.busy=true; $('randNext').disabled=true;
