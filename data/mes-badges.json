@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:15:46.101Z",
+ "maj": "2026-09-20T17:16:03.451Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -216,6 +216,41 @@
    "video": true,
    "title": "Gorod (Technical Death Metal) - Transcendence [Full EP]",
    "t": 1789924544596,
+   "bad": []
+  },
+  "thorium|memories": {
+   "none": 1,
+   "t": 1789924559527,
+   "bad": []
+  },
+  "edge of sanity|crimson ii  2025": {
+   "id": "PL0BFF8B46FEB6215B",
+   "title": "Edge of sanity - Crimson II",
+   "t": 1789924559964,
+   "bad": []
+  },
+  "in flames|soundtrack to your escape": {
+   "id": "PLJ9JwQm8HZ_UrZv6ATPMoCqkkTXQOi5-d",
+   "title": "IN FLAMES - SOUNDTRACK TO YOUR ESCAPE - FULL ALBUM 2004",
+   "t": 1789924560479,
+   "bad": []
+  },
+  "septicflesh|titan": {
+   "id": "PLArAJlC1y55-DE0w-AsPC8b0BKWfQRWCw",
+   "title": "SepticFlesh - Titan (2014) - Full Album",
+   "t": 1789924560934,
+   "bad": []
+  },
+  "kalmah|swamplord": {
+   "id": "PLgiF6PIW3TGJT2NF3lNKdqaYqUEw5dnON",
+   "title": "Kalmah - Swamplord (Full Album)",
+   "t": 1789924561505,
+   "bad": []
+  },
+  "at the gates|to drink from the night itself": {
+   "id": "PLQ0pFGP93ZmwRWveEvhbXvjHVi9cLu-WU",
+   "title": "At The Gates - To Drink From The Night Itself (Full Album)",
+   "t": 1789924561948,
    "bad": []
   }
  },
