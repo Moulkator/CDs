@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:15:19.194Z",
+ "maj": "2026-09-20T17:15:46.101Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -180,6 +180,42 @@
    "id": "PLArAJlC1y559tTU1tRgyKdMiluUuFaJ7U",
    "title": "Septicflesh &#39;Codex Omega&#39; (2017) full album",
    "t": 1789924517690,
+   "bad": []
+  },
+  "omnium gatherum|slasher ep": {
+   "id": "PLDhajrZgo0TKfkUyuVrYVA6pd2wGHGEEu",
+   "title": "Omnium Gatherum - Slasher [EP] (FULL EP)",
+   "t": 1789924541488,
+   "bad": []
+  },
+  "carcass|tools of the trade": {
+   "id": "PLfKPU9Z2e6rq41MT3uVOxG7wRhSv-eBu3",
+   "title": "Carcass - Tools of the Trade / The Heartwork EP (EP)",
+   "t": 1789924541986,
+   "bad": []
+  },
+  "atlantis chronicles|barton s odyssey instrumental": {
+   "none": 1,
+   "t": 1789924542861,
+   "bad": []
+  },
+  "arch enemy|wages of sin": {
+   "id": "PLnHEfA-hPpQfn53AZSSDeajQTBekucjHW",
+   "title": "Arch Enemy - Wages of Sin (Full Album)",
+   "t": 1789924543275,
+   "bad": []
+  },
+  "shadow of intent|the instrumentals": {
+   "id": "PLDC8AvyG3QSHrWHPGGdnDr-UqZFmFhIwD",
+   "title": "Shadow of Intent - The Instrumentals (Full Album)",
+   "t": 1789924543765,
+   "bad": []
+  },
+  "gorod|transcendence": {
+   "id": "z2JObAskGHI",
+   "video": true,
+   "title": "Gorod (Technical Death Metal) - Transcendence [Full EP]",
+   "t": 1789924544596,
    "bad": []
   }
  },
