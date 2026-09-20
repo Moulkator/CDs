@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T20:22:09.470Z",
+ "maj": "2026-09-20T20:22:12.909Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -424,6 +424,12 @@
    "id": "PLrVhW4FOUU9fbAlj858Oqs8Dc7TRIJeHx",
    "title": "Powerwolf - The Sacrilege Symphony II (Night Shift for Choir and Orchestra) (EP)",
    "t": 1789935727961,
+   "bad": []
+  },
+  "boisson divine|la halha": {
+   "id": "PL6fXru2X83WpMnTYB3f_x-zm6fppQMmod",
+   "title": "Boisson Divine - La Halha (2020)",
+   "t": 1789935731404,
    "bad": []
   }
  },
