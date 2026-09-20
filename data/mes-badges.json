@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T20:22:37.230Z",
+ "maj": "2026-09-20T20:22:43.782Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -421,12 +421,11 @@
    "bad": []
   },
   "powerwolf|the sacrilege symphony ii": {
-   "id": "LrpXzLXDDq8",
-   "video": true,
-   "title": "Powerwolf - The Sacrilege Symphony II (Bonus Disc) - [Full Album] - {Choir and Orchestra} HD",
-   "t": 1789935755559,
+   "none": 1,
+   "t": 1789935762872,
    "bad": [
-    "PLrVhW4FOUU9fbAlj858Oqs8Dc7TRIJeHx"
+    "PLrVhW4FOUU9fbAlj858Oqs8Dc7TRIJeHx",
+    "LrpXzLXDDq8"
    ]
   },
   "boisson divine|la halha": {
