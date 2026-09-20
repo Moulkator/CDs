@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:47:09.513Z",
+ "maj": "2026-09-20T08:47:56.448Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -124,6 +124,15 @@
    "id": "PLnTJ_ytRZOG3r8yqJ3QNHVhPNSr5FcZ2-",
    "title": "ZMEY GORYNICH - Ѵжица (Full Album)",
    "t": 1789894027984
+  },
+  "drakum|arcade of madness": {
+   "none": 1,
+   "t": 1789894069121
+  },
+  "drakum|zombie dragons from outer space": {
+   "id": "PLz6HmVR0JRBQ5QL3ecByK1WeAGd40fHuL",
+   "title": "Zombie Dragons From Outer Space [Full album]",
+   "t": 1789894074947
   }
  },
  "achetes": [
