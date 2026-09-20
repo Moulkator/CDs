@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:36:18.783Z",
+ "maj": "2026-09-20T18:36:24.095Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -387,6 +387,19 @@
    "id": "PLHWCyg3patmpDThzkvimXAxC78Z1fJf1r",
    "title": "Gama Bomb - Speed Between the Lines (Full Album)",
    "t": 1789929377274,
+   "bad": []
+  },
+  "borknagar|borknagar 25th anniversary re issue 2021": {
+   "id": "PLZMW6PYQA9d2o23ErzU3sDVctw2RLyJNj",
+   "title": "Borknagar - Borknagar (25th Anniversary Re-issue 2021) (Full Album)",
+   "t": 1789929381833,
+   "bad": []
+  },
+  "finsterforst|jenseits": {
+   "id": "nnRA1W9Ap8E",
+   "video": true,
+   "title": "Finsterforst - Jenseits (Full Album)",
+   "t": 1789929382594,
    "bad": []
   }
  },
