@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:56:09.222Z",
+ "maj": "2026-09-20T08:57:33.169Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -143,6 +143,22 @@
    "id": "PLpcoWc0KR7VwQ6TGQ2EI-UJHb4BQ1Qcpr",
    "title": "[Pop Punk] Les 3 Fromages - Et puis ... zet [2009] (Album + Clip)",
    "t": 1789894566544,
+   "bad": []
+  },
+  "a tribute to emperor|in honor of icon e": {
+   "none": 1,
+   "t": 1789894589866,
+   "bad": []
+  },
+  "a tribute to emperor|in honour of icon e": {
+   "none": 1,
+   "t": 1789894633362,
+   "bad": []
+  },
+  "amorphis|queen of time": {
+   "id": "PLCd7cQPF7kdgui2IBXILJwy-1ksrxuxUY",
+   "title": "AMORPHIS - Queen Of Time (Full Album)",
+   "t": 1789894650659,
    "bad": []
   }
  },
