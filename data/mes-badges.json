@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:55:59.262Z",
+ "maj": "2026-09-20T17:56:02.754Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -337,6 +337,12 @@
    "id": "PLToXWne2Bk-dvJLnKrrkewRLEguZV1X60",
    "title": "Alcest - Kodama [full album]",
    "t": 1789926957762,
+   "bad": []
+  },
+  "blink 182|nine": {
+   "id": "PLK2YUluV4M68",
+   "title": "blink-182 - NINE (Full Album) - 2019",
+   "t": 1789926961242,
    "bad": []
   }
  },
