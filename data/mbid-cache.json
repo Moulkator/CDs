@@ -2756,5 +2756,12 @@
   "disambiguation": "Erocis Epic Folk Band",
   "verified": true,
   "checked": "2026-09-19"
+ },
+ "bat bat": {
+  "mbid": null,
+  "name": null,
+  "disambiguation": null,
+  "verified": false,
+  "checked": "2026-09-20"
  }
 }
