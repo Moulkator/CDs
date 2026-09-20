@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:36:26.965Z",
+ "maj": "2026-09-20T18:36:31.166Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -407,6 +407,12 @@
    "video": true,
    "title": "Aktarum - Trollvengers (Full Album)",
    "t": 1789929385464,
+   "bad": []
+  },
+  "rise against|nowhere generation ii": {
+   "id": "PLIOsjztPfuHclMGc3PNpXeJ9i8TXWuwTS",
+   "title": "Rise Against - Nowhere Generation II EP (Full Album) (Deluxe Edition)",
+   "t": 1789929389665,
    "bad": []
   }
  },
