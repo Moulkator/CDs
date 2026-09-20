@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:21:20.299Z",
+ "maj": "2026-09-20T17:28:43.559Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -269,6 +269,13 @@
    "id": "PL2oWqDmf8-1fT68a4cFwf_Oma21q3h340",
    "title": "Slugdge - The Cosmic Cornucopia (Full Album)",
    "t": 1789924878791,
+   "bad": []
+  },
+  "ancestral shadows|eldritch illuminations": {
+   "id": "K3rvI8prx6E",
+   "video": true,
+   "title": "Ancestral Shadows - Eldritch Illuminations (Full EP)",
+   "t": 1789925322053,
    "bad": []
   }
  },
