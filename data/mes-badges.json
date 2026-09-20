@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-20T18:36:31.166Z",
+ "maj": "2026-09-20T20:22:09.470Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,7 +37,8 @@
   "gorod|the ember gone": "À écouter",
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
-  "whispered|honorbound": "Téléchargé"
+  "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -413,6 +413,17 @@
    "id": "PLIOsjztPfuHclMGc3PNpXeJ9i8TXWuwTS",
    "title": "Rise Against - Nowhere Generation II EP (Full Album) (Deluxe Edition)",
    "t": 1789929389665,
+   "bad": []
+  },
+  "artemis the endless journey|north": {
+   "none": 1,
+   "t": 1789935727647,
+   "bad": []
+  },
+  "powerwolf|the sacrilege symphony ii": {
+   "id": "PLrVhW4FOUU9fbAlj858Oqs8Dc7TRIJeHx",
+   "title": "Powerwolf - The Sacrilege Symphony II (Night Shift for Choir and Orchestra) (EP)",
+   "t": 1789935727961,
    "bad": []
   }
  },
