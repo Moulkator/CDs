@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:20:07.979Z",
+ "maj": "2026-09-20T17:20:48.501Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -257,6 +257,12 @@
    "id": "PLxsbSec0F38gf3aDoXDWG-A93RpN3j39W",
    "title": "all shall perish this is where it ends",
    "t": 1789924806467,
+   "bad": []
+  },
+  "children of bodom|hexed": {
+   "id": "PLWVo2tank-zw9UZhvL-pOLt1XtLrr26VS",
+   "title": "Children Of Bodom · Hexed (Deluxe Edition) (Full Album)",
+   "t": 1789924846990,
    "bad": []
   }
  },
