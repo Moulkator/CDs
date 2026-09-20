@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:32:09.792Z",
+ "maj": "2026-09-20T17:32:17.353Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -289,6 +289,12 @@
    "id": "PL9Wcv68ru_bjvnrhI_YWz6E2-L7-tzwh0",
    "title": "Summoning - Old Mornings Dawn (FULL ALBUM) [HD]",
    "t": 1789925528277,
+   "bad": []
+  },
+  "woe of tyrants|threnody": {
+   "id": "PLOOOVmtz2ScQmJfmn_6rFWJz1bE6sjBYh",
+   "title": "Woe Of Tyrants - Threnody (Full Album)",
+   "t": 1789925535837,
    "bad": []
   }
  },
