@@ -63,6 +63,7 @@ audio{width:100%;height:32px}
 .randwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
 .randplayer{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.randplayer iframe,.randplayer > div{position:absolute;inset:0;width:100%;height:100%;border:0}
 .randmeta{display:flex;flex-direction:column;gap:8px}.randmeta .a{font-size:1.3rem}
+.randmeta .acts{flex-wrap:wrap}.randmeta .wish .pbtn{flex:1 1 45%}
 @media (max-width:760px){.randwrap{grid-template-columns:1fr}}
 .ecbtn{border-color:#2a4a6b;color:var(--blue)}.ecbtn.on{background:var(--blue);color:#0c0e11;font-weight:700}
 
@@ -743,10 +744,14 @@ audio{width:100%;height:32px}
   function randShow(p){
     RAND.current=p; $('randWrap').style.display=''; $('randG').textContent=p.groupe; $('randA').textContent=p.album;
     $('randD').textContent=[p.annee, p.style, p.pays, p.duree?'⏱ '+fmtDuree(p.duree):''].filter(Boolean).join(' · ');
-    $('randBadges').innerHTML='<span class="badge collec">'+({collection:'Collection',wishlist:'Liste de souhaits',sorties:'Sortie récente'}[p.source]||'')+'</span>'+(YTA.isVideo(p.groupe,p.album)?'<span class="badge">vidéo album complet</span>':'');
+    var kn=STATE.known[key(p.groupe,p.album)];
+    $('randBadges').innerHTML='<span class="badge">'+({collection:'Collection',wishlist:'Liste de souhaits',sorties:'Sortie récente'}[p.source]||'')+'</span>'+(kn&&p.source==='sorties'?'<span class="badge collec">'+(kn==='collection'?'Dans la collection':'Dans la wishlist')+'</span>':'')+(YTA.isVideo(p.groupe,p.album)?'<span class="badge">vidéo album complet</span>':'');
     var q2=encodeURIComponent(p.groupe+' '+p.album);
-    $('randLinks').innerHTML='<a target="_blank" rel="noopener" href="'+(YTA.watchUrl(p.groupe,p.album)||('https://www.youtube.com/results?search_query='+q2))+'">↗ Ouvrir dans YouTube</a><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a>';
-    $('randActs').innerHTML='<button data-act="rbad" class="danger">✗ Mauvaise playlist</button><button data-act="rlink">🔗 Autre lien</button>';
+    $('randLinks').innerHTML='<a target="_blank" rel="noopener" href="'+(YTA.watchUrl(p.groupe,p.album)||('https://www.youtube.com/results?search_query='+q2))+'">↗ Ouvrir dans YouTube</a><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(p.groupe)+'&type=band_name">Metallum</a>';
+    var item={groupe:p.groupe,album:p.album,annee:p.annee||'',pochette:p.pochette||'',duree:p.duree||'',_from:'Album aléatoire'}, kk=key(p.groupe,p.album);
+    var randAl={id:0,title:p.album,artist:{name:p.groupe},cover_big:p.pochette||'',release_date:p.annee?p.annee+'-01-01':'',record_type:'album',nb_tracks:0};
+    $('randActs').innerHTML='<div class="ecoute" style="flex:1 1 100%">'+ecouteMarkup(item)+'</div><div class="wish" style="flex:1 1 100%">'+wishMarkup(item)+collMarkup(item)+'</div><button data-act="rbad" class="danger">✗ Mauvaise playlist</button><button data-act="rlink">🔗 Autre lien</button>';
+    bindEcoute($('randActs'),randAl,p.groupe); bindWish($('randActs'),item);
     $('randActs').querySelector('[data-act=rbad]').addEventListener('click',function(){ YTA.reject(p.groupe,p.album,function(id,msg){ if(id){ randPlayId(p); toast('Autre lecture chargée'); } else { toast(msg||'Rien d\'autre trouvé'); randNext(); } }); });
     $('randActs').querySelector('[data-act=rlink]').addEventListener('click',function(){ var u=prompt('Lien YouTube pour « '+p.groupe+' — '+p.album+' » (playlist list=… ou vidéo v=…) :',''); if(!u) return; if(YTA.setManual(p.groupe,p.album,u)) randPlayId(p); else toast('Lien non reconnu'); });
     RAND.played.push(key(p.groupe,p.album)); if(RAND.played.length>60) RAND.played.shift();
