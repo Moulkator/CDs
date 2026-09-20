@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:32:17.353Z",
+ "maj": "2026-09-20T17:36:21.400Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -295,6 +295,17 @@
    "id": "PLOOOVmtz2ScQmJfmn_6rFWJz1bE6sjBYh",
    "title": "Woe Of Tyrants - Threnody (Full Album)",
    "t": 1789925535837,
+   "bad": []
+  },
+  "onirism|cosmic dreams": {
+   "none": 1,
+   "t": 1789925779474,
+   "bad": []
+  },
+  "keep of kalessin|armada": {
+   "id": "PL3dXj1hwjTEsXL74AuIydMvNck6RAVmUH",
+   "title": "Keep Of Kalessin - Armada (Full Album)",
+   "t": 1789925779859,
    "bad": []
   }
  },
