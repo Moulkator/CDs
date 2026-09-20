@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T15:59:50.437Z",
+ "maj": "2026-09-20T17:14:21.580Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -152,8 +152,10 @@
    "bad": []
   },
   "a tribute to emperor|in honour of icon e": {
-   "none": 1,
-   "t": 1789894633362,
+   "id": "6FtiACNzgqA",
+   "video": true,
+   "title": "In Honour of Icon E - A Tribute to EMPEROR (FULL ALBUM)",
+   "t": 1789924458876,
    "bad": []
   },
   "amorphis|queen of time": {
