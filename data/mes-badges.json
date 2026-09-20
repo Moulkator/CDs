@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:42:37.480Z",
+ "maj": "2026-09-20T08:43:17.728Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -100,6 +100,11 @@
    "id": "PLZXdIphK_aYH9BE4HReXVh9MiR0cpkhlh",
    "title": "Music 3",
    "t": 1789893755975
+  },
+  "carpenter brut|leather temple": {
+   "id": "PLci80MEVlgaR-KEwGBoonZlqHzgHg1But",
+   "title": "Carpenter brut - Leather temple full album",
+   "t": 1789893796215
   }
  },
  "achetes": [
