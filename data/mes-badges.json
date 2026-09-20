@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:36:24.095Z",
+ "maj": "2026-09-20T18:36:26.965Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -400,6 +400,13 @@
    "video": true,
    "title": "Finsterforst - Jenseits (Full Album)",
    "t": 1789929382594,
+   "bad": []
+  },
+  "aktarum|trollvengers": {
+   "id": "mu-UDOv8Ueo",
+   "video": true,
+   "title": "Aktarum - Trollvengers (Full Album)",
+   "t": 1789929385464,
    "bad": []
   }
  },
