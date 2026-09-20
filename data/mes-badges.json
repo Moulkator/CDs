@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:57:33.169Z",
+ "maj": "2026-09-20T08:58:13.968Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -97,9 +97,12 @@
    "t": 1789893708674
   },
   "vomitron|3": {
-   "id": "PLZXdIphK_aYH9BE4HReXVh9MiR0cpkhlh",
-   "title": "Music 3",
-   "t": 1789893755975
+   "id": "PL7B030644D9D31BC1",
+   "title": "game music 3",
+   "t": 1789894692461,
+   "bad": [
+    "PLZXdIphK_aYH9BE4HReXVh9MiR0cpkhlh"
+   ]
   },
   "carpenter brut|leather temple": {
    "id": "PLci80MEVlgaR-KEwGBoonZlqHzgHg1But",
