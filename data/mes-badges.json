@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:47:56.448Z",
+ "maj": "2026-09-20T08:56:09.222Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -133,6 +133,17 @@
    "id": "PLz6HmVR0JRBQ5QL3ecByK1WeAGd40fHuL",
    "title": "Zombie Dragons From Outer Space [Full album]",
    "t": 1789894074947
+  },
+  "10 juin|ep quatre titres": {
+   "none": 1,
+   "t": 1789894563278,
+   "bad": []
+  },
+  "3 fromages|et puis zet": {
+   "id": "PLpcoWc0KR7VwQ6TGQ2EI-UJHb4BQ1Qcpr",
+   "title": "[Pop Punk] Les 3 Fromages - Et puis ... zet [2009] (Album + Clip)",
+   "t": 1789894566544,
+   "bad": []
   }
  },
  "achetes": [
