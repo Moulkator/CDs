@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T09:27:10.613Z",
+ "maj": "2026-09-20T11:25:59.009Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -160,6 +160,12 @@
    "id": "PLCd7cQPF7kdgui2IBXILJwy-1ksrxuxUY",
    "title": "AMORPHIS - Queen Of Time (Full Album)",
    "t": 1789894650659,
+   "bad": []
+  },
+  "a loathing requiem|acolytes eternal": {
+   "id": "PLps3TqmUCn3nIYAne47pF8O52RX4_DBMv",
+   "title": "A LOATHING REQUIEM - Acolytes Eternal [Full Album]",
+   "t": 1789903556373,
    "bad": []
   }
  },
