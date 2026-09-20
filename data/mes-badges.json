@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:20:48.501Z",
+ "maj": "2026-09-20T17:21:20.299Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -263,6 +263,12 @@
    "id": "PLWVo2tank-zw9UZhvL-pOLt1XtLrr26VS",
    "title": "Children Of Bodom · Hexed (Deluxe Edition) (Full Album)",
    "t": 1789924846990,
+   "bad": []
+  },
+  "slugdge|the cosmic cornucopia": {
+   "id": "PL2oWqDmf8-1fT68a4cFwf_Oma21q3h340",
+   "title": "Slugdge - The Cosmic Cornucopia (Full Album)",
+   "t": 1789924878791,
    "bad": []
   }
  },
