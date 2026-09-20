@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:28:43.559Z",
+ "maj": "2026-09-20T17:31:11.401Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -276,6 +276,13 @@
    "video": true,
    "title": "Ancestral Shadows - Eldritch Illuminations (Full EP)",
    "t": 1789925322053,
+   "bad": []
+  },
+  "deathcode society|unlightenment": {
+   "id": "ioPyNlatKNg",
+   "video": true,
+   "title": "Deathcode Society - Unlightenment (full album, 2023)",
+   "t": 1789925469886,
    "bad": []
   }
  },
