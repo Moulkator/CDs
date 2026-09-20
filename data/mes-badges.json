@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:15:21.557Z",
+ "maj": "2026-09-20T18:15:24.936Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -363,6 +363,12 @@
    "id": "PLL44kuYYS8ynAhM2g6wueZ9BMSC8O1Cae",
    "title": "♫ ❤️ The Halo Effect - March Of The Unheard (2025) full Album  🤘",
    "t": 1789928120025,
+   "bad": []
+  },
+  "carrion vael|abhorrent obsessions": {
+   "id": "PLMzepslwWUzoXQwLSr_aRyKF6NsUSvP3N",
+   "title": "Carrion Vael - Abhorrent Obsessions (Full Album)",
+   "t": 1789928123435,
    "bad": []
   }
  },
