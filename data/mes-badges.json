@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:41:01.232Z",
+ "maj": "2026-09-20T08:41:50.187Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -86,6 +86,15 @@
    "id": "PLzEMkaHCB3WKL1RzUDa4TiXtmP1Sd3Elz",
    "title": "Slayer - Reign In Blood (Expanded)",
    "t": 1789893659720
+  },
+  "zmey gorynich|i": {
+   "none": 1,
+   "t": 1789893702209
+  },
+  "omnium gatherum|may the bridges we burn light the way": {
+   "id": "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
+   "title": "Omnium Gatherum - May the Bridges We Burn Light the Way (ALBUM 2025)",
+   "t": 1789893708674
   }
  },
  "achetes": [
