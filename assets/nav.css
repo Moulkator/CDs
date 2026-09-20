@@ -20,3 +20,5 @@
 .ytextra{display:flex;gap:4px;margin-top:4px}
 .ytmini{flex:1;border:1px solid #2a2f3a;background:#1c2028;color:#9a93c4;border-radius:8px;padding:4px;font-size:.7rem;cursor:pointer;font-family:inherit}
 .ytmini:hover{color:#e8e4da;border-color:#5a4a1a}
+.ytopen{text-decoration:none;text-align:center;color:#ff8a8a;border-color:#6b2a2a}
+@media (max-width:520px){.ytextra{flex-wrap:wrap}.ytopen{flex:1 1 100%}}
