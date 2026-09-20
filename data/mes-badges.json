@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:00:48.045Z",
+ "maj": "2026-09-20T18:01:02.523Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -352,10 +352,12 @@
    "bad": []
   },
   "ghost|skeleta": {
-   "id": "PLxA687tYuMWhPtPdNOpFZ4adEN3O1gmtM",
-   "title": "Ghost - Skeletá (Full Album)",
-   "t": 1789927246532,
-   "bad": []
+   "id": "PLgaFNC_I_ZkkInwVjMx6YH0VPtCQCB8sJ",
+   "title": "Ghost - Skeleta (Full Album, 2025/Album Completo)",
+   "t": 1789927260952,
+   "bad": [
+    "PLxA687tYuMWhPtPdNOpFZ4adEN3O1gmtM"
+   ]
   }
  },
  "achetes": [
