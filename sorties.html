@@ -60,6 +60,10 @@ audio{width:100%;height:32px}
 .empty{color:var(--muted);text-align:center;padding:30px}
 .section{display:none}.section.active{display:block}
 .subtabs .btn{min-width:150px}
+.randwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
+.randplayer{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.randplayer iframe,.randplayer > div{position:absolute;inset:0;width:100%;height:100%;border:0}
+.randmeta{display:flex;flex-direction:column;gap:8px}.randmeta .a{font-size:1.3rem}
+@media (max-width:760px){.randwrap{grid-template-columns:1fr}}
 .ecbtn{border-color:#2a4a6b;color:var(--blue)}.ecbtn.on{background:var(--blue);color:#0c0e11;font-weight:700}
 
 .artcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center;cursor:pointer}
@@ -194,6 +198,37 @@ audio{width:100%;height:32px}
   <div id="artistesRecherche" class="grid" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr));margin-bottom:16px"></div>
   <div id="titreDisco" class="weights" style="display:none"></div>
   <div class="grid" id="gridRecherche"></div>
+</section>
+
+<section id="secAleatoire" class="section">
+  <header>
+    <h1>ALBUM <span>ALÉATOIRE</span></h1>
+    <p>Un album au hasard parmi ta collection, ta liste de souhaits et les sorties déjà parues — lu sur YouTube, puis un autre quand il se termine.</p>
+  </header>
+  <div class="controls">
+    <select id="randSource">
+      <option value="">Tout</option>
+      <option value="collection">Collection</option>
+      <option value="wishlist">Liste de souhaits</option>
+      <option value="sorties">Sorties déjà parues</option>
+    </select>
+    <select id="randFamille"><option value="">Tous les styles</option></select>
+    <input id="randGroupe" list="dlGroupesRand" placeholder="Un groupe en particulier (optionnel)"><datalist id="dlGroupesRand"></datalist>
+    <button class="btn gold" id="randPlay">🎲 Lancer</button>
+    <button class="btn" id="randNext" disabled>⏭ Suivant</button>
+    <label class="d" style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="randAuto" checked> Enchaîner automatiquement</label>
+  </div>
+  <div class="prog" id="randInfo"></div>
+  <div class="randwrap" id="randWrap" style="display:none">
+    <div class="randplayer"><div id="randPlayer"></div></div>
+    <div class="randmeta">
+      <div class="g" id="randG"></div><div class="a" id="randA"></div><div class="d" id="randD"></div>
+      <div class="badges" id="randBadges"></div>
+      <div class="links" id="randLinks"></div>
+      <div class="acts" id="randActs"></div>
+    </div>
+  </div>
+  <div class="weights" id="randHist"></div>
 </section>
 </div>
 <div id="toast"></div>
@@ -661,6 +696,94 @@ audio{width:100%;height:32px}
       list.reverse(); list.forEach(function(al){ grid.appendChild(albumCard(al, ar.name)); }); prog.textContent=list.length?'':'Aucun disque trouvé.'; $('titreDisco').scrollIntoView({behavior:'smooth',block:'nearest'}); },function(){ prog.textContent='Discographie indisponible.'; });
   }
 
+  // ------------------------------------------------------------ ALBUM ALÉATOIRE
+  var FAMILLES=[
+    ['black','Black metal',/black/],
+    ['epique','Épique, folk & pagan',/epic|folk|pagan|viking|pirate|heraldic|goblin/],
+    ['death','Death metal',/death|melodeath|deathcore/],
+    ['sympho','Symphonique & orchestral',/symphonic|symphonique|orchestral|neoclassical|\bbo\b/],
+    ['thrash','Thrash, heavy & power',/thrash|heavy|power|speed|hard rock|nwobhm/],
+    ['core','Core, groove, néo & indus',/core|groove|neo metal|nu metal|industrial|modern|alternative/],
+    ['prog','Progressif & inclassable',/progressive|avant|inclassable|experimental/],
+    ['atmo','Atmosphérique & post',/atmospheric|ambient|post|neofolk|blackgaze/],
+    ['punk','Punk & rock',/punk|rock|ska|emo|synthwave|electro|chiptune|bruit|noise/],
+    ['humour','Humour',/comedy|humour|parod/]
+  ];
+  function famillesDe(style){ var st=norm(style||''); return FAMILLES.filter(function(f){ return f[2].test(st); }).map(function(f){ return f[0]; }); }
+  function styleDe(g,a,rowStyle){ return rowStyle||(STATE.artistStyle[norm(g)]||{}).style||''; }
+  function randPool(){
+    var src=$('randSource').value, fam=$('randFamille').value, grp=norm($('randGroupe').value||''), pool=[], seen={};
+    function add(r, source){ var g=(r.groupe||'').trim(), a=(r.album||'').trim(); if(!g||!a) return; var k=key(g,a); if(seen[k]) return; seen[k]=1; var st=styleDe(g,a,r.style); pool.push({groupe:g,album:a,annee:(r.annee||(r.date||'').slice(0,4)||''),style:st,pays:r.pays||(STATE.artistStyle[norm(g)]||{}).pays||'',duree:r.duree||'',pochette:r.pochette||'',source:source,fams:famillesDe(st)}); }
+    if(!src||src==='collection') (STATE.coll||[]).forEach(function(r){ add(r,'collection'); });
+    if(!src||src==='wishlist') (STATE.wish||[]).forEach(function(r){ add(r,'wishlist'); });
+    if(!src||src==='sorties') (STATE.sorties||[]).forEach(function(it){ var k=key(it.groupe,it.album); if(!isPast(it.date,it.precision)) return; if(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]) return; if(it.refs&&it.refs.length&&it.refs.every(function(r){return STATE.refus[r];})) return; add(it,'sorties'); });
+    if(fam) pool=pool.filter(function(p){ return p.fams.indexOf(fam)>=0; });
+    if(grp) pool=pool.filter(function(p){ return norm(p.groupe)===grp; });
+    return pool;
+  }
+  function randRefreshCounts(){
+    var base=$('randFamille').value, grp=$('randGroupe').value; 
+    // comptes par famille (hors filtre famille)
+    $('randFamille').value=''; var all=randPool(); $('randFamille').value=base;
+    var cnt={}; all.forEach(function(p){ p.fams.forEach(function(f){ cnt[f]=(cnt[f]||0)+1; }); });
+    var sel=$('randFamille'); sel.innerHTML='<option value="">Tous les styles ('+all.length+')</option>'+FAMILLES.map(function(f){ return '<option value="'+f[0]+'">'+esc(f[1])+' ('+(cnt[f[0]]||0)+')</option>'; }).join(''); sel.value=base;
+    var dl=$('dlGroupesRand'), gs={}; all.forEach(function(p){ gs[p.groupe]=1; }); dl.innerHTML=Object.keys(gs).sort(function(a,b){ return norm(a)<norm(b)?-1:1; }).map(function(g){ return '<option value="'+esc(g)+'">'; }).join('');
+    var pool=randPool(), known=pool.filter(function(p){ return YTA.known(p.groupe,p.album); }).length;
+    $('randInfo').textContent=pool.length+' album(s) dans la sélection, dont '+known+' avec lecture YouTube déjà connue'+(YTA.getKey()?' (les autres seront cherchés à la volée)':' — sans clé YouTube, seuls ceux-là peuvent être lus');
+  }
+  var RAND={played:[], current:null, player:null, apiReady:false, apiLoading:false, busy:false};
+  function loadYtApi(cb){ if(window.YT && window.YT.Player){ cb(); return; } if(RAND.apiLoading){ var t=setInterval(function(){ if(window.YT&&window.YT.Player){ clearInterval(t); cb(); } },200); setTimeout(function(){ clearInterval(t); },8000); return; } RAND.apiLoading=true; window.onYouTubeIframeAPIReady=function(){ RAND.apiReady=true; cb(); }; var sc=document.createElement('script'); sc.src='https://www.youtube.com/iframe_api'; sc.onerror=function(){ cb(new Error('api')); }; document.body.appendChild(sc); }
+  function randPick(){
+    var pool=randPool(); if(!pool.length){ toast('Aucun album dans cette sélection'); return null; }
+    var playedKeys={}; RAND.played.forEach(function(k){ playedKeys[k]=1; });
+    var cand=pool.filter(function(p){ return !playedKeys[key(p.groupe,p.album)]; }); if(!cand.length){ RAND.played=[]; cand=pool; }
+    if(!YTA.getKey()){ var k2=cand.filter(function(p){ return YTA.known(p.groupe,p.album); }); if(k2.length) cand=k2; }
+    return cand[Math.floor(Math.random()*cand.length)];
+  }
+  function randShow(p){
+    RAND.current=p; $('randWrap').style.display=''; $('randG').textContent=p.groupe; $('randA').textContent=p.album;
+    $('randD').textContent=[p.annee, p.style, p.pays, p.duree?'⏱ '+fmtDuree(p.duree):''].filter(Boolean).join(' · ');
+    $('randBadges').innerHTML='<span class="badge collec">'+({collection:'Collection',wishlist:'Liste de souhaits',sorties:'Sortie récente'}[p.source]||'')+'</span>'+(YTA.isVideo(p.groupe,p.album)?'<span class="badge">vidéo album complet</span>':'');
+    var q2=encodeURIComponent(p.groupe+' '+p.album);
+    $('randLinks').innerHTML='<a target="_blank" rel="noopener" href="'+(YTA.watchUrl(p.groupe,p.album)||('https://www.youtube.com/results?search_query='+q2))+'">↗ Ouvrir dans YouTube</a><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a>';
+    $('randActs').innerHTML='<button data-act="rbad" class="danger">✗ Mauvaise playlist</button><button data-act="rlink">🔗 Autre lien</button>';
+    $('randActs').querySelector('[data-act=rbad]').addEventListener('click',function(){ YTA.reject(p.groupe,p.album,function(id,msg){ if(id){ randPlayId(p); toast('Autre lecture chargée'); } else { toast(msg||'Rien d\'autre trouvé'); randNext(); } }); });
+    $('randActs').querySelector('[data-act=rlink]').addEventListener('click',function(){ var u=prompt('Lien YouTube pour « '+p.groupe+' — '+p.album+' » (playlist list=… ou vidéo v=…) :',''); if(!u) return; if(YTA.setManual(p.groupe,p.album,u)) randPlayId(p); else toast('Lien non reconnu'); });
+    RAND.played.push(key(p.groupe,p.album)); if(RAND.played.length>60) RAND.played.shift();
+    var h=$('randHist'); h.innerHTML='Écoutés : '+RAND.played.slice(-8).reverse().map(function(k){ var m=null; randPool().some(function(x){ if(key(x.groupe,x.album)===k){ m=x; return true; } }); return m?esc(m.groupe+' — '+m.album):''; }).filter(Boolean).join(' · ');
+  }
+  function randPlayId(p){
+    var c=YTA.cache[key(p.groupe,p.album)]||{}; if(!c.id) return;
+    document.querySelectorAll('audio').forEach(function(o){ o.pause(); });
+    loadYtApi(function(err){
+      var host=document.querySelector('.randplayer');
+      if(err || !(window.YT&&window.YT.Player)){ host.innerHTML='<iframe src="'+YTA.embedUrl(p.groupe,p.album)+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'; $('randInfo').textContent='Lecteur simple (l\'enchaînement automatique nécessite l\'API YouTube, bloquée ici) — utilise ⏭ Suivant.'; return; }
+      host.innerHTML='<div id="randPlayer"></div>';
+      var vars={autoplay:1, rel:0};
+      if(c.video){ vars.playsinline=1; }
+      RAND.player=new YT.Player('randPlayer',{host:'https://www.youtube-nocookie.com', videoId:c.video?c.id:undefined, playerVars:c.video?vars:Object.assign(vars,{listType:'playlist',list:c.id}), events:{
+        onReady:function(e){ try{ e.target.playVideo(); }catch(x){} },
+        onStateChange:function(e){ if(e.data===YT.PlayerState.ENDED && $('randAuto').checked){ setTimeout(randNext, 800); } },
+        onError:function(e){ toast('YouTube ne peut pas lire cet album ici (vidéo bloquée) — suivant'); setTimeout(randNext, 1200); }
+      }});
+    });
+  }
+  function randNext(){
+    if(RAND.busy) return; RAND.busy=true; $('randNext').disabled=true;
+    var tries=0;
+    function attempt(){
+      var p=randPick(); if(!p){ RAND.busy=false; $('randNext').disabled=false; return; }
+      $('randInfo').textContent='Recherche de la lecture YouTube pour '+p.groupe+' — '+p.album+'…';
+      YTA.find(p.groupe,p.album,function(id,msg){ if(id){ RAND.busy=false; $('randNext').disabled=false; randShow(p); randPlayId(p); $('randInfo').textContent=''; return; }
+        RAND.played.push(key(p.groupe,p.album)); tries++; if(tries<6 && !/quota|clé YouTube/i.test(msg||'')){ attempt(); } else { RAND.busy=false; $('randNext').disabled=false; toast(msg||'Rien à lire dans cette sélection'); $('randInfo').textContent=msg||''; } });
+    }
+    attempt();
+  }
+  ['randSource','randFamille','randGroupe'].forEach(function(id){ $(id).addEventListener('change',randRefreshCounts); });
+  $('randGroupe').addEventListener('input',function(){ if(!this.value) randRefreshCounts(); });
+  $('randPlay').addEventListener('click',function(){ RAND.played=[]; randNext(); });
+  $('randNext').addEventListener('click',randNext);
+
   // ------------------------------------------------------------ export
   function exporter(){
     var out={exporte_le:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),achetes:STATE.achetes};
@@ -671,8 +794,8 @@ audio{width:100%;height:32px}
   }
 
   // ------------------------------------------------------------ init
-  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');window.scrollTo(0,0);if(t==='s'&&STATE.sorties.length)renderSorties();if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);else if(t==='d'&&$('paneDec').style.display!=='none')renderDecouvrir(true);if(t==='r')$('qRecherche').focus();}
-  function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
+  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');$('secAleatoire').classList.toggle('active',t==='a');window.scrollTo(0,0);if(t==='a'){ randRefreshCounts(); }if(t==='s'&&STATE.sorties.length)renderSorties();if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);else if(t==='d'&&$('paneDec').style.display!=='none')renderDecouvrir(true);if(t==='r')$('qRecherche').focus();}
+  function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':hsh==='#aleatoire'?'a':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
   $('btnLastfm').addEventListener('click',function(){ var k=prompt('Clé API Last.fm (gratuite : https://www.last.fm/api/account/create — colle la « API key », pas le secret).\nElle reste dans ce navigateur. Vide pour retirer.', lastfmKey()||''); if(k===null) return; k=k.trim(); if(k) saveLS(KEY_LASTFM,k); else localStorage.removeItem(KEY_LASTFM); $('btnLastfm').textContent=k?'🔓 Clé Last.fm':'🔑 Clé Last.fm'; toast(k?'Clé enregistrée : la recherche par style passe par Last.fm':'Clé retirée : recherche par style via MusicBrainz'); });
   if(lastfmKey()) $('btnLastfm').textContent='🔓 Clé Last.fm';
   $('btnYt').addEventListener('click',function(){ var k=prompt('Clé API YouTube Data v3 (gratuite, voir le guide). Elle reste dans ce navigateur. Vide pour retirer.', YTA.getKey()||''); if(k===null) return; k=k.trim(); YTA.setKey(k); $('btnYt').textContent=k?'🔓 Clé YouTube':'🔑 Clé YouTube'; toast(k?'Clé enregistrée : les boutons YouTube peuvent chercher les playlists':'Clé retirée'); });
@@ -714,6 +837,7 @@ audio{width:100%;height:32px}
   }
   var pend=3, coll=[], wish=[], over=[];
   function partLoaded(){ if(--pend) return;
+    STATE.coll=coll; STATE.wish=wish;
     STATE.artists=buildArtists(coll,wish,over);
     STATE.artists.forEach(function(a){STATE.artistStyle[norm(a.groupe)]={style:(a.styles||[])[0]||'',pays:a.pays||''};if(a.search)STATE.artistStyle[norm(a.search)]=STATE.artistStyle[norm(a.groupe)];});
     calcWeights();
