@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T18:36:15.457Z",
+ "maj": "2026-09-20T18:36:18.783Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -381,6 +381,12 @@
    "id": "PL7Ak4wpkZ6tOR6QtYmEAE1JQe4Iwgo92Q",
    "title": "Blind Guardian - Memories of a Time to Come (Full Album)",
    "t": 1789929373951,
+   "bad": []
+  },
+  "gama bomb|speed between the lines": {
+   "id": "PLHWCyg3patmpDThzkvimXAxC78Z1fJf1r",
+   "title": "Gama Bomb - Speed Between the Lines (Full Album)",
+   "t": 1789929377274,
    "bad": []
   }
  },
