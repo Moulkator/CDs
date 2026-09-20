@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:56:27.902Z",
+ "maj": "2026-09-20T18:00:48.045Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -349,6 +349,12 @@
    "id": "PLHTo__bpnlYUR8w1FqqsE89RR7xheBiGz",
    "title": "Equilibrium - Renegades",
    "t": 1789926986393,
+   "bad": []
+  },
+  "ghost|skeleta": {
+   "id": "PLxA687tYuMWhPtPdNOpFZ4adEN3O1gmtM",
+   "title": "Ghost - Skeletá (Full Album)",
+   "t": 1789927246532,
    "bad": []
   }
  },
