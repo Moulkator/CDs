@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:37:32.586Z",
+ "maj": "2026-09-20T17:37:38.377Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -325,6 +325,12 @@
    "id": "PL100FBF2B4B4325B5",
    "title": "Arkona (Rus) - Vo Slavu Velikim!",
    "t": 1789925851079,
+   "bad": []
+  },
+  "falkenbach|heralding the fireblade": {
+   "id": "PLToXWne2Bk-fU94r93BsDeEUiEL1JKSBi",
+   "title": "Falkenbach - Heralding - The Fireblade [full album]",
+   "t": 1789925856873,
    "bad": []
   }
  },
