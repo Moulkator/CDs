@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-19T21:47:31.118Z",
+ "maj": "2026-09-20T08:41:01.232Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,7 +37,8 @@
   "gorod|the ember gone": "À écouter",
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
-  "whispered|honorbound": "Téléchargé"
+  "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -81,6 +81,13 @@
  "groupes_refuses": [
   "dz:5706854"
  ],
+ "youtube": {
+  "slayer|reign in blood expanded": {
+   "id": "PLzEMkaHCB3WKL1RzUDa4TiXtmP1Sd3Elz",
+   "title": "Slayer - Reign In Blood (Expanded)",
+   "t": 1789893659720
+  }
+ },
  "achetes": [
   {
    "groupe": "Aephanemer",
