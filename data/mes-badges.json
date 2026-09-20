@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:59:52.450Z",
+ "maj": "2026-09-20T09:27:10.613Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -292,6 +292,16 @@
    "record_type": "album",
    "nb_tracks": 11,
    "ajoute": "2026-09-19"
+  },
+  {
+   "groupe": "Dark Fortress",
+   "album": "Spectres from the Old World",
+   "deezer_id": 121827242,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/64c9bc5f9382494bc6d435be5e633f8f/500x500-000000-80-0-0.jpg",
+   "annee": "2020",
+   "record_type": "album",
+   "nb_tracks": 12,
+   "ajoute": "2026-09-20"
   }
  ]
 }
