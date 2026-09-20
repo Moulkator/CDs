@@ -1,6 +1,7 @@
 {
- "maj": "2026-09-20T11:25:59.009Z",
+ "maj": "2026-09-20T15:59:50.437Z",
  "statuts_sorties": {
+  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -37,8 +38,7 @@
   "gorod|the ember gone": "À écouter",
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
-  "whispered|honorbound": "Téléchargé",
-  "dimmu borgir|grand serpent rising": "Téléchargé"
+  "whispered|honorbound": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -166,6 +166,12 @@
    "id": "PLps3TqmUCn3nIYAne47pF8O52RX4_DBMv",
    "title": "A LOATHING REQUIEM - Acolytes Eternal [Full Album]",
    "t": 1789903556373,
+   "bad": []
+  },
+  "mors principium est|dawn of the 5th era": {
+   "id": "PLjc8Aug4fdvS4x7jL7lsAXRwnNRATzBEG",
+   "title": "Mors Principium Est - Dawn of the 5TH Era (Full Album)",
+   "t": 1789919988843,
    "bad": []
   }
  },
