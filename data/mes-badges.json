@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:37:10.197Z",
+ "maj": "2026-09-20T17:37:32.586Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -319,6 +319,12 @@
    "id": "PL4wGBw_Zl8c_XImkgZlDWBExoEwhl0TPW",
    "title": "Ghost Bath - Moonlover (Full Album)",
    "t": 1789925828695,
+   "bad": []
+  },
+  "arkona|vo slavu velikim": {
+   "id": "PL100FBF2B4B4325B5",
+   "title": "Arkona (Rus) - Vo Slavu Velikim!",
+   "t": 1789925851079,
    "bad": []
   }
  },
