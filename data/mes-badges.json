@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T08:43:17.728Z",
+ "maj": "2026-09-20T08:44:05.536Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -105,6 +105,15 @@
    "id": "PLci80MEVlgaR-KEwGBoonZlqHzgHg1But",
    "title": "Carpenter brut - Leather temple full album",
    "t": 1789893796215
+  },
+  "moongates guardian|come shadow of my end": {
+   "none": 1,
+   "t": 1789893838188
+  },
+  "august burns red|season of surrender": {
+   "id": "PLZxKy04e5wXpEAq_V0vevm4YiRN1po--a",
+   "title": "August Burns Red ~ Season of Surrender {Full Album}",
+   "t": 1789893844031
   }
  },
  "achetes": [
