@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T17:56:02.754Z",
+ "maj": "2026-09-20T17:56:27.902Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -343,6 +343,12 @@
    "id": "PLK2YUluV4M68",
    "title": "blink-182 - NINE (Full Album) - 2019",
    "t": 1789926961242,
+   "bad": []
+  },
+  "equilibrium|renegades": {
+   "id": "PLHTo__bpnlYUR8w1FqqsE89RR7xheBiGz",
+   "title": "Equilibrium - Renegades",
+   "t": 1789926986393,
    "bad": []
   }
  },
