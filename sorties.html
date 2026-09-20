@@ -732,7 +732,7 @@ audio{width:100%;height:32px}
     $('randInfo').textContent=pool.length+' album(s) dans la sélection, dont '+known+' avec lecture YouTube déjà connue'+(YTA.getKey()?' (les autres seront cherchés à la volée)':' — sans clé YouTube, seuls ceux-là peuvent être lus');
   }
   var RAND={played:[], current:null, player:null, apiReady:false, apiLoading:false, busy:false};
-  function loadYtApi(cb){ if(window.YT && window.YT.Player){ cb(); return; } if(RAND.apiLoading){ var t=setInterval(function(){ if(window.YT&&window.YT.Player){ clearInterval(t); cb(); } },200); setTimeout(function(){ clearInterval(t); },8000); return; } RAND.apiLoading=true; window.onYouTubeIframeAPIReady=function(){ RAND.apiReady=true; cb(); }; var sc=document.createElement('script'); sc.src='https://www.youtube.com/iframe_api'; sc.onerror=function(){ cb(new Error('api')); }; document.body.appendChild(sc); }
+  function loadYtApi(cb){ if(window.YT && window.YT.Player){ cb(); return; } var done=false; function once(err){ if(done) return; done=true; cb(err); } if(!RAND.apiLoading){ RAND.apiLoading=true; window.onYouTubeIframeAPIReady=function(){ RAND.apiReady=true; }; var sc=document.createElement('script'); sc.src='https://www.youtube.com/iframe_api'; sc.onerror=function(){ once(new Error('api')); }; document.body.appendChild(sc); } var t=setInterval(function(){ if(window.YT&&window.YT.Player){ clearInterval(t); once(); } },150); setTimeout(function(){ clearInterval(t); once(new Error('timeout')); },8000); }
   function randPick(){
     var pool=randPool(); if(!pool.length){ toast('Aucun album dans cette sélection'); return null; }
     var playedKeys={}; RAND.played.forEach(function(k){ playedKeys[k]=1; });
@@ -759,13 +759,16 @@ audio{width:100%;height:32px}
       var host=document.querySelector('.randplayer');
       if(err || !(window.YT&&window.YT.Player)){ host.innerHTML='<iframe src="'+YTA.embedUrl(p.groupe,p.album)+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'; $('randInfo').textContent='Lecteur simple (l\'enchaînement automatique nécessite l\'API YouTube, bloquée ici) — utilise ⏭ Suivant.'; return; }
       host.innerHTML='<div id="randPlayer"></div>';
-      var vars={autoplay:1, rel:0};
-      if(c.video){ vars.playsinline=1; }
-      RAND.player=new YT.Player('randPlayer',{host:'https://www.youtube-nocookie.com', videoId:c.video?c.id:undefined, playerVars:c.video?vars:Object.assign(vars,{listType:'playlist',list:c.id}), events:{
-        onReady:function(e){ try{ e.target.playVideo(); }catch(x){} },
-        onStateChange:function(e){ if(e.data===YT.PlayerState.ENDED && $('randAuto').checked){ setTimeout(randNext, 800); } },
-        onError:function(e){ toast('YouTube ne peut pas lire cet album ici (vidéo bloquée) — suivant'); setTimeout(randNext, 1200); }
-      }});
+      try{
+        if(RAND.player && RAND.player.destroy){ try{ RAND.player.destroy(); }catch(x){} RAND.player=null; }
+        var vars={autoplay:1, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
+          onReady:function(e){ try{ e.target.playVideo(); }catch(x){} },
+          onStateChange:function(e){ if(e.data===YT.PlayerState.ENDED && $('randAuto').checked){ setTimeout(randNext, 800); } },
+          onError:function(e){ toast('YouTube ne peut pas lire cet album ici (vidéo '+(e&&e.data)+') — suivant'); setTimeout(randNext, 1200); }
+        }};
+        if(c.video) opts.videoId=c.id; else { vars.listType='playlist'; vars.list=c.id; }
+        RAND.player=new YT.Player('randPlayer',opts);
+      }catch(e){ host.innerHTML='<iframe src="'+YTA.embedUrl(p.groupe,p.album)+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'; $('randInfo').textContent='Lecteur simple (API YouTube en erreur : '+e.message+') — utilise ⏭ Suivant.'; }
     });
   }
   function randNext(){
