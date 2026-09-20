@@ -1288,6 +1288,22 @@
 "duree": "28"
 },
 {
+"groupe": "Ghost Bath",
+"album": "Starmourner",
+"date": "2017-04-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/d2bdd00c-74b9-4744-94ff-c7de15699c80/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "d2bdd00c-74b9-4744-94ff-c7de15699c80",
+"refs": [
+"dz:9741138",
+"mb:b9b1d6e0-2920-4d21-bdeb-546a032d7dd7"
+],
+"deezer_id": 92557812,
+"duree": "71"
+},
+{
 "groupe": "Dimmu Borgir",
 "album": "Forces of the Northern Night (Live in Oslo)",
 "date": "2017-04-28",
@@ -5226,6 +5242,20 @@
 "dz:4502"
 ],
 "duree": "18"
+},
+{
+"groupe": "Ghost Bath",
+"album": "Funeral",
+"date": "2019-03-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/067fdde29d73886deb5099f10db4c625/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 92674272,
+"refs": [
+"dz:9741138"
+],
+"duree": "64"
 },
 {
 "groupe": "Melechesh",
@@ -10272,6 +10302,22 @@
 ],
 "deezer_id": 231087412,
 "duree": "71"
+},
+{
+"groupe": "Ghost Bath",
+"album": "Self Loather",
+"date": "2021-10-29",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/5300071e-d2bc-47dd-b80f-febb2e1e12d9/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5300071e-d2bc-47dd-b80f-febb2e1e12d9",
+"refs": [
+"dz:9741138",
+"mb:b9b1d6e0-2920-4d21-bdeb-546a032d7dd7"
+],
+"deezer_id": 244282062,
+"duree": "46"
 },
 {
 "groupe": "Thulcandra",
@@ -16890,6 +16936,22 @@
 ],
 "deezer_id": 687798251,
 "duree": "38"
+},
+{
+"groupe": "Ghost Bath",
+"album": "Rose Thorn Necklace",
+"date": "2025-05-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b0f77147-ad69-4b49-8e12-fbdfaa19affb/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b0f77147-ad69-4b49-8e12-fbdfaa19affb",
+"refs": [
+"dz:9741138",
+"mb:b9b1d6e0-2920-4d21-bdeb-546a032d7dd7"
+],
+"deezer_id": 699370231,
+"duree": "35"
 },
 {
 "groupe": "Shores of Null",

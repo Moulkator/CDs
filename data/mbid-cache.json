@@ -2763,5 +2763,12 @@
   "disambiguation": null,
   "verified": false,
   "checked": "2026-09-20"
+ },
+ "ghost bath": {
+  "mbid": "b9b1d6e0-2920-4d21-bdeb-546a032d7dd7",
+  "name": "Ghost Bath",
+  "disambiguation": null,
+  "verified": true,
+  "checked": "2026-09-20"
  }
 }
