@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-20T17:14:21.580Z",
+ "maj": "2026-09-20T17:15:19.194Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,7 +37,8 @@
   "gorod|the ember gone": "À écouter",
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
-  "whispered|honorbound": "Téléchargé"
+  "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -174,6 +174,12 @@
    "id": "PLjc8Aug4fdvS4x7jL7lsAXRwnNRATzBEG",
    "title": "Mors Principium Est - Dawn of the 5TH Era (Full Album)",
    "t": 1789919988843,
+   "bad": []
+  },
+  "septicflesh|codex omega": {
+   "id": "PLArAJlC1y559tTU1tRgyKdMiluUuFaJ7U",
+   "title": "Septicflesh &#39;Codex Omega&#39; (2017) full album",
+   "t": 1789924517690,
    "bad": []
   }
  },
