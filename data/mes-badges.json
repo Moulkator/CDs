@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-21T11:44:16.518Z",
+ "maj": "2026-09-21T15:28:25.647Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,7 +37,8 @@
   "gorod|the ember gone": "À écouter",
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
-  "whispered|honorbound": "Téléchargé"
+  "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -415,11 +415,6 @@
    "t": 1789929389665,
    "bad": []
   },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
-   "bad": []
-  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -464,6 +459,11 @@
    "t": 1789970102708,
    "bad": []
   },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
+   "bad": []
+  },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
    "none": 1,
    "t": 1789991050586,
@@ -484,6 +484,12 @@
    "id": "PLSvXGIHReYnCFCcUvQZmi6Z9rAUTl3IfT",
    "title": "Öxxö Xööx",
    "t": 1789991055017,
+   "bad": []
+  },
+  "alestorm|the thunderfist chronicles": {
+   "id": "PLBzBwYhHpqLJIfZTjHMP6zDjDpXM-31cd",
+   "title": "Alestorm - The Thunderfist Chronicles (full album)",
+   "t": 1790004504142,
    "bad": []
   }
  },
