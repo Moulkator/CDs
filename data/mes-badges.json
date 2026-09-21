@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T05:55:00.816Z",
+ "maj": "2026-09-21T05:55:04.213Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -451,6 +451,12 @@
    "id": "PLToXWne2Bk-cxaEZMr7kRjS_miEAYDXFa",
    "title": "Unreqvited - Disquiet [full album]",
    "t": 1789970099315,
+   "bad": []
+  },
+  "igorrr|savage sinusoid": {
+   "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
+   "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
+   "t": 1789970102708,
    "bad": []
   }
  },
