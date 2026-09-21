@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-20T20:24:02.928Z",
+ "maj": "2026-09-21T05:55:00.816Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -445,6 +445,12 @@
    "id": "PL6koST9s5SKLMZuI3B5__jbA19PInWgIk",
    "title": "Salacious Gods - Oalevluuk (Full Album)",
    "t": 1789935841422,
+   "bad": []
+  },
+  "unreqvited|disquiet": {
+   "id": "PLToXWne2Bk-cxaEZMr7kRjS_miEAYDXFa",
+   "title": "Unreqvited - Disquiet [full album]",
+   "t": 1789970099315,
    "bad": []
   }
  },
