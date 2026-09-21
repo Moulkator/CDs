@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T15:28:38.706Z",
+ "maj": "2026-09-21T15:28:43.507Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -502,6 +502,13 @@
    "id": "PLfrfoZ4YlP4_6zkzuM3wqzB6Co7wuHrrY",
    "title": "Grima - Rotting Garden (Full Album)",
    "t": 1790004517204,
+   "bad": []
+  },
+  "anaal nathrakh|desideratum": {
+   "id": "289966EXMuI",
+   "video": true,
+   "title": "Anaal Nathrakh - Desideratum (Full Album)",
+   "t": 1790004521999,
    "bad": []
   }
  },
