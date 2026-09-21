@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T11:44:13.136Z",
+ "maj": "2026-09-21T11:44:16.518Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -478,6 +478,12 @@
    "id": "PLGdGQTI36H_DUvGer82ZC_jE48vB4pSDB",
    "title": "The Agonist - Prisoners (Full Album)",
    "t": 1789991051618,
+   "bad": []
+  },
+  "oxxo xoox|": {
+   "id": "PLSvXGIHReYnCFCcUvQZmi6Z9rAUTl3IfT",
+   "title": "Öxxö Xööx",
+   "t": 1789991055017,
    "bad": []
   }
  },
