@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T15:28:47.083Z",
+ "maj": "2026-09-21T15:28:51.260Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -515,6 +515,12 @@
    "id": "PLsT9douBcx9_O49eKul2uxbNN1IgckGoZ",
    "title": "Whitechapel Self Titled Full Album",
    "t": 1790004525571,
+   "bad": []
+  },
+  "primalfrost|path of resilience": {
+   "id": "PLZNIiX5UQ_PHd5m-a9J4iV8u7YEDhCKG1",
+   "title": "Primalfrost - Path of Resilience (full album 💿 2025)",
+   "t": 1790004529758,
    "bad": []
   }
  },
