@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T15:28:25.647Z",
+ "maj": "2026-09-21T15:28:28.998Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -490,6 +490,12 @@
    "id": "PLBzBwYhHpqLJIfZTjHMP6zDjDpXM-31cd",
    "title": "Alestorm - The Thunderfist Chronicles (full album)",
    "t": 1790004504142,
+   "bad": []
+  },
+  "schattenvald|v": {
+   "id": "PLsBFJfGgiG_hl0oSuRkGHLhz29zMk3RvR",
+   "title": "favorite black metal albums",
+   "t": 1790004507492,
    "bad": []
   }
  },
