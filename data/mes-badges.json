@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T15:28:43.507Z",
+ "maj": "2026-09-21T15:28:47.083Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -509,6 +509,12 @@
    "video": true,
    "title": "Anaal Nathrakh - Desideratum (Full Album)",
    "t": 1790004521999,
+   "bad": []
+  },
+  "whitechapel|whitechapel": {
+   "id": "PLsT9douBcx9_O49eKul2uxbNN1IgckGoZ",
+   "title": "Whitechapel Self Titled Full Album",
+   "t": 1790004525571,
    "bad": []
   }
  },
