@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:39:47.946Z",
+ "maj": "2026-09-22T19:39:51.732Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -637,6 +637,12 @@
    "id": "PLvJMev5cOHsYAy4Onr1Fts8CEjZwe8J72",
    "title": "All Christianity Ends",
    "t": 1790105986442,
+   "bad": []
+  },
+  "children of bodom|are you dead yet": {
+   "id": "PL0o6D3PUTG8SNmRZvJ4_7uaM2Pn3eBO8H",
+   "title": "Children Of Bodom - Are You Dead Yet? Full Album",
+   "t": 1790105990175,
    "bad": []
   }
  },
