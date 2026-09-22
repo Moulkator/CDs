@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T11:42:37.809Z",
+ "maj": "2026-09-22T11:42:41.246Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -540,6 +540,12 @@
    "id": "PLqpDlawEOspOqPcum_HlSsWUd4BajdDCp",
    "title": "AMARANTHE - Manifest (Full Album 2020)",
    "t": 1790077356307,
+   "bad": []
+  },
+  "dimmu borgir|eonian": {
+   "id": "PLsT9douBcx99Qup0-S8MjRpGVV-94EG0D",
+   "title": "Dimmu Borgir Eonian Full Album",
+   "t": 1790077359745,
    "bad": []
   }
  },
