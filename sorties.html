@@ -792,11 +792,12 @@ audio{width:100%;height:32px}
   function randWatchdog(){ clearTimeout(RAND.wdTimer); RAND.playing=false; var stamp=RAND.loadedAt; RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; if(!randUserActive()){ randOverlay(true); return; } try{ var st=RAND.player&&RAND.player.getPlayerState&&RAND.player.getPlayerState(); if(st===1) return; }catch(e){} $('randInfo').textContent='YouTube met du temps à démarrer… nouvelle tentative.'; randRecreate(); RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ if(RAND.player.getPlayerState()===1) return; }catch(e){} $('randInfo').textContent='Cet album ne démarre pas sur YouTube — passage au suivant.'; randNext(); },45000); },45000); }
   function randMessageActivation(){ if(!randUserActive()) $('randInfo').textContent='Clique sur ▶ Écouter : le navigateur exige un clic avant la première lecture.'; }
   function randRecreate(){ if(!RAND.current) return; var c=YTA.cache[key(RAND.current.groupe,RAND.current.album)]||{}; if(!c.id) return; RAND.playing=false; var host=document.querySelector('.randplayer'); host.innerHTML='<div id="randPlayer"></div>'; try{ if(RAND.player && RAND.player.destroy){ try{ RAND.player.destroy(); }catch(x){} } RAND.player=null; randBuildPlayer(c); }catch(e){} }
+  function randAtPlaylistEnd(pl){ try{ var list=pl.getPlaylist&&pl.getPlaylist(); if(!list||!list.length) return true; /* vidéo seule : la fin est la fin */ var i=pl.getPlaylistIndex(); return i>=list.length-1; }catch(e){ return true; } }
   function randBuildPlayer(c){
     var active=randUserActive();
     var vars={autoplay:active?1:0, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
       onReady:function(e){ if(randUserActive()){ try{ e.target.playVideo(); }catch(x){} } else { randOverlay(true); } },
-      onStateChange:function(e){ if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
+      onStateChange:function(e){ if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
       onError:function(e){ toast('YouTube ne peut pas lire cet album ici (vidéo '+(e&&e.data)+') — suivant'); setTimeout(randNext, 1200); }
     }};
     if(c.video) opts.videoId=c.id; else { vars.listType='playlist'; vars.list=c.id; }
