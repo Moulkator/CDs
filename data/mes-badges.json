@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:48:46.036Z",
+ "maj": "2026-09-22T19:49:10.855Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -709,6 +709,12 @@
    "id": "PLZnCQ7WvAejj2LqmJXT7Z6BcEMepUFyav",
    "title": "Daath [FULL ALBUM] (2009)",
    "t": 1790106524413,
+   "bad": []
+  },
+  "insomnium|songs of the dusk ep": {
+   "id": "PLp_9DvFXbPGFcK-rACEb9eFvmf8F56aD4",
+   "title": "Insomnium  Songs of the Dusk | EP",
+   "t": 1790106549349,
    "bad": []
   }
  },
