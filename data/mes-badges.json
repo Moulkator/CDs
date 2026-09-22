@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:39:13.336Z",
+ "maj": "2026-09-22T19:39:31.115Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -619,6 +619,12 @@
    "id": "PLUU5kbSLryNyyyvNIvQUj3-InUsxw53c0",
    "title": "Grima - Tales of the Enchanted Woods (Full Album)",
    "t": 1790105951826,
+   "bad": []
+  },
+  "ensiferum|ensiferum": {
+   "id": "PLxrfHqi4x6Js1lr_CrUmpZ3L36CBFCF6_",
+   "title": "Ensiferum FULL ALBUM - Ensiferum",
+   "t": 1790105969611,
    "bad": []
   }
  },
