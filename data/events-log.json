@@ -103,5 +103,368 @@
 "changes": [
 "🖼️ Pochette dévoilée"
 ]
+},
+{
+"groupe": "All Shall Perish",
+"album": "The Price of Existence (20th Anniversary Remaster)",
+"date": "2026-08-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/9ebf61e91baf58df3ee5f741a56ea799/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1048780632,
+"refs": [
+"dz:3271"
+],
+"duree": "43",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Firtan",
+"album": "Ascension",
+"date": "2026-08-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d0ca1b56750edd94e17eea9365638239/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1045443512,
+"refs": [
+"dz:5477836"
+],
+"duree": "19",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Fejd",
+"album": "Nifelheim",
+"date": "2026-08-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/517fbfab-1609-478b-8e91-40186c3a5b66/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "517fbfab-1609-478b-8e91-40186c3a5b66",
+"refs": [
+"dz:255003",
+"mb:2d87db27-099d-45db-bd7c-ec95146e42c3"
+],
+"deezer_id": 983629031,
+"duree": "43",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Gorod",
+"album": "The Ember Gone",
+"date": "2026-08-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/4d680ed0e9b2efb6dbef1525d279c822/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1017349061,
+"refs": [
+"dz:246221"
+],
+"duree": "44",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Airbourne",
+"album": "Airbourne",
+"date": "2026-09-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/27a952a1-8a85-41f2-b69c-719e3494329c/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "27a952a1-8a85-41f2-b69c-719e3494329c",
+"refs": [
+"dz:64106",
+"mb:5365f55c-b1e1-48f9-b09f-078f7a14cb1f"
+],
+"deezer_id": 952408591,
+"duree": "47",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Behemoth",
+"album": "I, Scvlptor",
+"date": "2026-09-04",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/f164e1c2-a01d-4ce1-9750-dc9bb525f33d/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "f164e1c2-a01d-4ce1-9750-dc9bb525f33d",
+"refs": [
+"dz:6456",
+"mb:69632f9c-31eb-43d5-a864-e73ac72efc66"
+],
+"deezer_id": 993902311,
+"duree": "38",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Sigh",
+"album": "Goh-Ka",
+"date": "2026-09-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8efb11696238ebf05032caa13106a14f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1019855051,
+"refs": [
+"dz:81414"
+],
+"duree": "58",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Vanaheim",
+"album": "Roede voor de Borst",
+"date": "2026-09-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/4a39dd68-a253-47eb-962b-d316f44ba909/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "4a39dd68-a253-47eb-962b-d316f44ba909",
+"refs": [
+"dz:1488870",
+"mb:9b4ba1b5-f495-490d-a9df-64c86cbf3503"
+],
+"deezer_id": 931622811,
+"duree": "39",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Firtan",
+"album": "Kalika's Tongue",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d0ca1b56750edd94e17eea9365638239/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1062536611,
+"refs": [
+"dz:5477836"
+],
+"duree": "25",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Saor",
+"album": "Carved in Stone MMXXVI",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/b45300b4dd2cbe2e8b45ac8ee13f6645/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1045178482,
+"refs": [
+"dz:6768301"
+],
+"duree": "10",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Thulcandra",
+"album": "Black Sun Aeon",
+"date": "2026-09-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/faf77842-754d-48a3-a501-fce14cace069/front-500",
+"source": "musicbrainz",
+"mb_rg": "faf77842-754d-48a3-a501-fce14cace069",
+"refs": [
+"mb:0029abc7-163b-4ffb-a25b-0749126c9267"
+],
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Archgoat",
+"album": "Nightbringer, Lightbringer",
+"date": "2026-09-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ac8b81418c7b51ebe25fa26b295d29cb/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 992419801,
+"refs": [
+"dz:1452989"
+],
+"duree": "41",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Jaldaboath",
+"album": "Blazin in the Northern Sky",
+"date": "2026-09-14",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ed17c8ad2b3744ec73d46e95e41d80d2/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1064795111,
+"refs": [
+"dz:3522401"
+],
+"duree": "40",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Aephanemer",
+"album": "Memento Mori (2026 Remaster)",
+"date": "2026-09-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bfa62c33279f5023df5b4a8cfc921d3e/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 998668841,
+"refs": [
+"dz:12249836"
+],
+"duree": "54",
+"kind": "sorti",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Amon Amarth",
+"album": "The Allfather Awakens",
+"date": "2026-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/86da6d7a-725b-48a1-a649-cce3d280832a/front-500",
+"source": "musicbrainz",
+"mb_rg": "86da6d7a-725b-48a1-a649-cce3d280832a",
+"refs": [
+"mb:5b687684-ad34-4a9f-b425-0e7aa81fbd38"
+],
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Firtan",
+"album": "Helios",
+"date": "2026-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205",
+"refs": [
+"dz:5477836",
+"mb:29c38f48-0a16-4c76-885a-2668ebd77842"
+],
+"deezer_id": 1018530201,
+"duree": "60",
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Gloryhammer",
+"album": "Space 1993: Wrath of Kor-Virliath",
+"date": "2026-10-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
+"source": "musicbrainz",
+"mb_rg": "a5900014-6f60-4c2b-8f71-100b96b0fcc9",
+"refs": [
+"mb:85997032-ff48-4383-b86a-a920d4230a0b"
+],
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Insomnium",
+"album": "Netherworlds",
+"date": "2026-10-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
+"source": "musicbrainz",
+"mb_rg": "446e691c-d0be-4225-9654-0f24e4e174d9",
+"refs": [
+"mb:c1f8e226-75ea-4fe6-83ce-59c122bcbca4"
+],
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "TrollfesT",
+"album": "Trollywood",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/cb/6f/f4cb6f8f-06c5-a282-03c6-306ee858c8b3/1200214344399.jpg/600x600bb.jpg",
+"source": "deezer+musicbrainz",
+"mb_rg": "462dc737-edf7-4f9b-8b9b-6f858c778baa",
+"refs": [
+"dz:838847",
+"mb:0916ab75-145f-4045-885d-71722075c349"
+],
+"deezer_id": 1024164391,
+"duree": "42",
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "Aether Realm",
+"album": "Season of Bloodshed",
+"date": "2026-12-11",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a63a4321-ca12-4b02-ae89-151ffa6bfbad/front-500",
+"source": "musicbrainz",
+"mb_rg": "a63a4321-ca12-4b02-ae89-151ffa6bfbad",
+"refs": [
+"mb:744d43a5-3cbf-4b43-acfc-045cc0062af2"
+],
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
+},
+{
+"groupe": "As I Lay Dying",
+"album": "As I Lay Dying",
+"date": "2027-02-05",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/89924ae3-1cb7-4a37-8bfd-6899580c1ce9/front-500",
+"source": "musicbrainz",
+"mb_rg": "89924ae3-1cb7-4a37-8bfd-6899580c1ce9",
+"refs": [
+"mb:ba147ea0-60c4-4a40-9da6-0d5c2b2e7b03"
+],
+"kind": "annonce",
+"jour": "2026-09-22",
+"changes": []
 }
 ]
