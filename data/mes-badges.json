@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:48:38.037Z",
+ "maj": "2026-09-22T19:48:46.036Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -703,6 +703,12 @@
    "id": "PLLzuAYipTJqGg07fZxq3AQOup8C3kfFoi",
    "title": "Finntroll - Jaktens Tid (Full Album)",
    "t": 1790106516425,
+   "bad": []
+  },
+  "daath|daath": {
+   "id": "PLZnCQ7WvAejj2LqmJXT7Z6BcEMepUFyav",
+   "title": "Daath [FULL ALBUM] (2009)",
+   "t": 1790106524413,
    "bad": []
   }
  },
