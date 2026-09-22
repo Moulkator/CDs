@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:12.445Z",
+ "maj": "2026-09-22T20:15:17.343Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -858,6 +858,13 @@
    "id": "PLQfEQixi55OXXkKBp1hNb4wx6an3NU7ob",
    "title": "Twilight Force - At the Heart of Wintervale (2023) [Full Album + Bonus Tracks]",
    "t": 1790108110941,
+   "bad": []
+  },
+  "instorm|taming the chaos": {
+   "id": "9trR442Q6Jo",
+   "video": true,
+   "title": "Instorm - Taming the Chaos (Full Album) [Melodic Death Metal]",
+   "t": 1790108115260,
    "bad": []
   }
  },
