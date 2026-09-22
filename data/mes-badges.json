@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T18:48:06.207Z",
+ "maj": "2026-09-22T18:56:47.548Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -718,6 +718,16 @@
    "record_type": "album",
    "nb_tracks": 12,
    "ajoute": "2026-09-20"
+  },
+  {
+   "groupe": "Stam1na",
+   "album": "X",
+   "deezer_id": 486528725,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/1ba31d16aa35a8f1121d00bfe473d72e/500x500-000000-80-0-0.jpg",
+   "annee": "2023",
+   "record_type": "album",
+   "nb_tracks": 10,
+   "ajoute": "2026-09-22"
   }
  ]
 }
