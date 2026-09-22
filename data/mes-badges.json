@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:39:08.244Z",
+ "maj": "2026-09-22T19:39:13.336Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -613,6 +613,12 @@
    "id": "PLZNIiX5UQ_PHwaVB4GXArNDx9YxboRKAc",
    "title": "Atavistia - Old Gods Awaken (full album 💿 2026)",
    "t": 1790105946732,
+   "bad": []
+  },
+  "grima|tales of the enchanted woods": {
+   "id": "PLUU5kbSLryNyyyvNIvQUj3-InUsxw53c0",
+   "title": "Grima - Tales of the Enchanted Woods (Full Album)",
+   "t": 1790105951826,
    "bad": []
   }
  },
