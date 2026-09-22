@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:51:03.068Z",
+ "maj": "2026-09-22T19:51:06.408Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -756,6 +756,12 @@
    "id": "PL5fudCKWuqA0d6f01DGDKpqzVjfFFqk6O",
    "title": "Unearth - The Wretched; The Ruinous (Full Album)",
    "t": 1790106661552,
+   "bad": []
+  },
+  "edge of sanity|the spectral sorrows  2024": {
+   "id": "PLlTSqF66IqjUFzX8snPfJjzx9RPpFqiyw",
+   "title": "Edge Of Sanity-The Spectral Sorrows-Full Album-HQ-320k.",
+   "t": 1790106664892,
    "bad": []
   }
  },
