@@ -853,10 +853,17 @@ audio{width:100%;height:32px}
   var PAYS_FR={FR:'France',France:'France',DE:'Allemagne',Germany:'Allemagne',BE:'Belgique',Belgium:'Belgique',LU:'Luxembourg',CH:'Suisse',Switzerland:'Suisse',NL:'Pays-Bas',Netherlands:'Pays-Bas',ES:'Espagne',Spain:'Espagne',IT:'Italie',Italy:'Italie',GB:'Royaume-Uni','United Kingdom':'Royaume-Uni',AT:'Autriche',Austria:'Autriche',CZ:'Tchéquie','Czech Republic':'Tchéquie',PL:'Pologne',Poland:'Pologne',DK:'Danemark',Denmark:'Danemark',SE:'Suède',Sweden:'Suède',NO:'Norvège',Norway:'Norvège',FI:'Finlande',Finland:'Finlande',PT:'Portugal',IE:'Irlande',Ireland:'Irlande',HU:'Hongrie',Hungary:'Hongrie',US:'USA','United States':'USA',CA:'Canada'};
   function paysFr(p){ return PAYS_FR[p]||p||''; }
   function cDate(dt){ if(!dt) return {d:'',h:''}; var d=new Date(dt.replace(' ','T')); if(isNaN(d)) return {d:dt.slice(0,10),h:''}; var jours=['dim.','lun.','mar.','mer.','jeu.','ven.','sam.']; return {d:jours[d.getDay()]+' '+d.getDate()+' '+MOIS[d.getMonth()]+' '+d.getFullYear(), h:(dt.length>10?String(d.getHours()).padStart(2,'0')+'h'+String(d.getMinutes()).padStart(2,'0'):''), t:d}; }
-  function geocode(q, cb){
+  function geocodeNominatim(q, cb){
     var x=new XMLHttpRequest(); x.open('GET','https://nominatim.openstreetmap.org/search?format=json&limit=1&accept-language=fr&q='+encodeURIComponent(q)); x.setRequestHeader('Accept','application/json');
     x.onload=function(){ try{ var js=JSON.parse(x.responseText); if(!js.length){ cb(null,'Lieu introuvable'); return; } cb({lat:parseFloat(js[0].lat),lng:parseFloat(js[0].lon),nom:js[0].display_name.split(',').slice(0,2).join(',')}); }catch(e){ cb(null,'Réponse illisible'); } };
     x.onerror=function(){ cb(null,'Service de localisation injoignable'); }; x.send();
+  }
+  function geocode(q, cb){
+    // France d'abord (Base Adresse Nationale : comprend les codes postaux), puis OpenStreetMap pour le reste
+    var cp=/^\d{5}$/.test(q), x=new XMLHttpRequest();
+    x.open('GET','https://api-adresse.data.gouv.fr/search/?limit=1&type=municipality&'+(cp?'q='+q+'&postcode='+q:'q='+encodeURIComponent(q)));
+    x.onload=function(){ try{ var js=JSON.parse(x.responseText), f=(js.features||[])[0]; if(f && f.geometry && (cp || (f.properties.score||0)>=0.5)){ var pr=f.properties; cb({lat:f.geometry.coordinates[1],lng:f.geometry.coordinates[0],nom:(pr.city||pr.name||q)+(pr.postcode?' ('+pr.postcode+')':'')+', France'}); return; } }catch(e){} geocodeNominatim(q, cb); };
+    x.onerror=function(){ geocodeNominatim(q, cb); }; x.send();
   }
   function concertsSourceOf(ev){ var src=ev.sources||[]; if(ev.decouverte) return 'decouverte'; if(src.indexOf('collection')>=0) return 'collection'; if(src.indexOf('wishlist')>=0) return 'wishlist'; return 'ecouter'; }
   function renderConcerts(){
