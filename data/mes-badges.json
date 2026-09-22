@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T18:09:29.638Z",
+ "maj": "2026-09-22T18:48:06.207Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -570,6 +570,12 @@
    "id": "PLvzEJTvo2iuZcoip82qv04OK44QNp4OnX",
    "title": "Utopie - Full Album",
    "t": 1790100567959,
+   "bad": []
+  },
+  "sigh|goh ka": {
+   "id": "PLIMS446I_l3o",
+   "title": "Sigh - Goh-Ka (full album 💿 2026)",
+   "t": 1790102884692,
    "bad": []
   }
  },
