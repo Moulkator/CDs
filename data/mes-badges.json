@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T17:07:49.212Z",
+ "maj": "2026-09-22T17:07:52.637Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -552,6 +552,12 @@
    "id": "PLXIiHUVyE2EVZOoyJakdFPgi93nkMbAwg",
    "title": "Fear Factory - Mechanize (Full Album) 2010 [Bonus Tracks]",
    "t": 1790096867705,
+   "bad": []
+  },
+  "unleashed|fire upon your lands": {
+   "id": "PLMUoA2MhTaseRxBaa-IT3cvRwup9Eeih1",
+   "title": "Unleashed - Fire upon Your Lands (Full Album) 2025",
+   "t": 1790096871111,
    "bad": []
   }
  },
