@@ -6,9 +6,9 @@
     {id:'collection', label:'Collection',          href:'index.html#collection'},
     {id:'sorties',    label:'Sorties à surveiller',href:'sorties.html#sorties'},
     {id:'decouvrir',  label:'À découvrir',         href:'sorties.html#decouvrir'},
+    {id:'concerts',   label:'Concerts',            href:'sorties.html#concerts'},
     {id:'aleatoire',  label:'Album aléatoire',     href:'sorties.html#aleatoire'},
-    {id:'recherche',  label:'Rechercher',          href:'sorties.html#recherche'},
-    {id:'concerts',   label:'Concerts',            href:'sorties.html#concerts'}
+    {id:'recherche',  label:'Rechercher',          href:'sorties.html#recherche'}
   ];
   function ls(k,def){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(e){ return def; } }
   function detectRepo(){ var m=location.hostname.match(/^([^.]+)\.github\.io$/); var seg=location.pathname.split('/').filter(Boolean); if(m&&seg.length&&seg[0].indexOf('.')<0) return {owner:m[1],repo:seg[0]}; return null; }
