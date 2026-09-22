@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:43.084Z",
+ "maj": "2026-09-22T20:19:05.815Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -910,6 +910,22 @@
    "video": true,
    "title": "Witchking – Hand Of Justice (Full Album)",
    "t": 1790108141582,
+   "bad": []
+  },
+  "vomitron|nessessary evil": {
+   "none": 1,
+   "t": 1790108343462,
+   "bad": []
+  },
+  "stormtide|a throne of hollow fire": {
+   "none": 1,
+   "t": 1790108343984,
+   "bad": []
+  },
+  "twilight force|dawn of the dragonstar": {
+   "id": "PL1U1CyG8PG2gQ5qG9l4Wvr7iU-32AtZzK",
+   "title": "Dawn of the Dragonstar - Twilight Force (full album)",
+   "t": 1790108344306,
    "bad": []
   }
  },
