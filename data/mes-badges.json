@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:19:05.815Z",
+ "maj": "2026-09-22T20:19:09.184Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -926,6 +926,12 @@
    "id": "PL1U1CyG8PG2gQ5qG9l4Wvr7iU-32AtZzK",
    "title": "Dawn of the Dragonstar - Twilight Force (full album)",
    "t": 1790108344306,
+   "bad": []
+  },
+  "behemoth|in absentia dei live": {
+   "id": "PL04AMsf8_QOKHizQpOV-TtzRb44893grw",
+   "title": "Behemoth - In Absentia Dei (Live) (Full Album)",
+   "t": 1790108347641,
    "bad": []
   }
  },
