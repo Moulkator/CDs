@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-21T15:28:51.260Z",
+ "maj": "2026-09-22T11:21:23.010Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -415,6 +415,11 @@
    "t": 1789929389665,
    "bad": []
   },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
+   "bad": []
+  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -457,11 +462,6 @@
    "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
    "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
    "t": 1789970102708,
-   "bad": []
-  },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
    "bad": []
   },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
@@ -521,6 +521,13 @@
    "id": "PLZNIiX5UQ_PHd5m-a9J4iV8u7YEDhCKG1",
    "title": "Primalfrost - Path of Resilience (full album 💿 2025)",
    "t": 1790004529758,
+   "bad": []
+  },
+  "valuatir|exobnos": {
+   "id": "if612QMEpVk",
+   "video": true,
+   "title": "Valuatir - Exobnos | Full Album",
+   "t": 1790076080234,
    "bad": []
   }
  },
