@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:49:10.855Z",
+ "maj": "2026-09-22T19:49:30.605Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -715,6 +715,12 @@
    "id": "PLp_9DvFXbPGFcK-rACEb9eFvmf8F56aD4",
    "title": "Insomnium  Songs of the Dusk | EP",
    "t": 1790106549349,
+   "bad": []
+  },
+  "murderdolls|white wedding": {
+   "id": "PLK3c9YUV3dHMA5q4yrlRZpjbKxNoyQJNg",
+   "title": "Murderdolls - White Wedding (Full Album)",
+   "t": 1790106569094,
    "bad": []
   }
  },
