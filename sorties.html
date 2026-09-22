@@ -63,6 +63,12 @@ audio{width:100%;height:32px}
 .randwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
 .randplayer{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.randplayer iframe,.randplayer > div{position:absolute;inset:0;width:100%;height:100%;border:0}
 .randmeta{display:flex;flex-direction:column;gap:8px}.randmeta .a{font-size:1.3rem}
+.crow{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.crow .cdate{color:var(--gold);font-weight:800;line-height:1.15}.crow .cdate small{display:block;color:var(--muted);font-weight:500;font-size:.72rem}
+.crow .cg{font-weight:800;text-transform:uppercase;letter-spacing:1.2px;font-size:.85rem}.crow .cv{color:var(--text);font-size:.9rem}.crow .cl{color:var(--muted);font-size:.78rem;line-height:1.3}
+.crow .cdist{text-align:right;white-space:nowrap}.crow .cdist b{display:block;font-size:1.05rem}.crow .cdist a{font-size:.78rem;color:var(--blue)}
+.crow.festival{border-color:#5a4a1a}
+@media (max-width:640px){.crow{grid-template-columns:80px minmax(0,1fr)}.crow .cdist{grid-column:1/3;text-align:left}}
 .randoverlay{position:absolute;inset:0;width:100%;height:100%;border:0;background:rgba(12,14,17,.72);color:var(--gold);font-size:3rem;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;z-index:2}.randoverlay span{font-size:1rem;letter-spacing:2px;text-transform:uppercase;color:var(--text)}
 .randmeta .acts{flex-wrap:wrap}.randmeta .wish .pbtn{flex:1 1 45%}
 @media (max-width:760px){.randwrap{grid-template-columns:1fr}}
@@ -231,6 +237,25 @@ audio{width:100%;height:32px}
     </div>
   </div>
   <div class="weights" id="randHist"></div>
+</section>
+
+<section id="secConcerts" class="section">
+  <header>
+    <h1><span>CONCERTS</span></h1>
+    <p>Dates annoncées (Bandsintown) des groupes de ta collection, de ta liste de souhaits et de tes découvertes, autour de chez toi.</p>
+  </header>
+  <div class="controls">
+    <input id="cLieu" placeholder="Ville ou code postal (ex. Metz, 57000, Bruxelles)" style="min-width:240px">
+    <button class="btn gold" id="cLocaliser">📍 Localiser</button>
+    <select id="cRayon">
+      <option value="50">50 km</option><option value="100">100 km</option><option value="200" selected>200 km</option><option value="300">300 km</option><option value="500">500 km</option><option value="1000">1000 km</option><option value="">Sans limite</option>
+    </select>
+    <select id="cSource"><option value="">Tous les groupes</option><option value="collection">Collection</option><option value="wishlist">Liste de souhaits</option><option value="decouverte">Découvertes</option></select>
+    <select id="cTri"><option value="date">Tri : date</option><option value="distance">Tri : distance</option><option value="groupe">Tri : groupe</option></select>
+    <button class="btn" id="cDecouvertes" title="Interroge Bandsintown pour tes découvertes (dans ce navigateur)">Charger les découvertes</button>
+  </div>
+  <div class="prog" id="cInfo"></div>
+  <div id="cListe"></div>
 </section>
 </div>
 <div id="toast"></div>
@@ -821,6 +846,59 @@ audio{width:100%;height:32px}
   $('randPlay').addEventListener('click',function(){ RAND.played=[]; randNext(); });
   $('randNext').addEventListener('click',randNext);
 
+  // ------------------------------------------------------------ CONCERTS
+  var KEY_LIEU='concerts-lieu-v1', KEY_CDEC='concerts-decouvertes-v1';
+  var CONC={items:[], dec:[], lieu:loadLS(KEY_LIEU,null)};
+  function haversine(a,b,c,d){ var R=6371, toR=Math.PI/180, dLat=(c-a)*toR, dLng=(d-b)*toR; var x=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a*toR)*Math.cos(c*toR)*Math.sin(dLng/2)*Math.sin(dLng/2); return R*2*Math.atan2(Math.sqrt(x),Math.sqrt(1-x)); }
+  var PAYS_FR={FR:'France',France:'France',DE:'Allemagne',Germany:'Allemagne',BE:'Belgique',Belgium:'Belgique',LU:'Luxembourg',CH:'Suisse',Switzerland:'Suisse',NL:'Pays-Bas',Netherlands:'Pays-Bas',ES:'Espagne',Spain:'Espagne',IT:'Italie',Italy:'Italie',GB:'Royaume-Uni','United Kingdom':'Royaume-Uni',AT:'Autriche',Austria:'Autriche',CZ:'Tchéquie','Czech Republic':'Tchéquie',PL:'Pologne',Poland:'Pologne',DK:'Danemark',Denmark:'Danemark',SE:'Suède',Sweden:'Suède',NO:'Norvège',Norway:'Norvège',FI:'Finlande',Finland:'Finlande',PT:'Portugal',IE:'Irlande',Ireland:'Irlande',HU:'Hongrie',Hungary:'Hongrie',US:'USA','United States':'USA',CA:'Canada'};
+  function paysFr(p){ return PAYS_FR[p]||p||''; }
+  function cDate(dt){ if(!dt) return {d:'',h:''}; var d=new Date(dt.replace(' ','T')); if(isNaN(d)) return {d:dt.slice(0,10),h:''}; var jours=['dim.','lun.','mar.','mer.','jeu.','ven.','sam.']; return {d:jours[d.getDay()]+' '+d.getDate()+' '+MOIS[d.getMonth()]+' '+d.getFullYear(), h:(dt.length>10?String(d.getHours()).padStart(2,'0')+'h'+String(d.getMinutes()).padStart(2,'0'):''), t:d}; }
+  function geocode(q, cb){
+    var x=new XMLHttpRequest(); x.open('GET','https://nominatim.openstreetmap.org/search?format=json&limit=1&accept-language=fr&q='+encodeURIComponent(q)); x.setRequestHeader('Accept','application/json');
+    x.onload=function(){ try{ var js=JSON.parse(x.responseText); if(!js.length){ cb(null,'Lieu introuvable'); return; } cb({lat:parseFloat(js[0].lat),lng:parseFloat(js[0].lon),nom:js[0].display_name.split(',').slice(0,2).join(',')}); }catch(e){ cb(null,'Réponse illisible'); } };
+    x.onerror=function(){ cb(null,'Service de localisation injoignable'); }; x.send();
+  }
+  function concertsSourceOf(ev){ var src=ev.sources||[]; if(ev.decouverte) return 'decouverte'; if(src.indexOf('collection')>=0) return 'collection'; if(src.indexOf('wishlist')>=0) return 'wishlist'; return 'ecouter'; }
+  function renderConcerts(){
+    var box=$('cListe'), info=$('cInfo'); box.innerHTML='';
+    var rayon=parseFloat($('cRayon').value||'0'), src=$('cSource').value, tri=$('cTri').value, lieu=CONC.lieu;
+    var all=CONC.items.concat(CONC.dec), today=new Date(); today.setHours(0,0,0,0);
+    var rows=[]; all.forEach(function(ev){ var d=cDate(ev.date); if(d.t && d.t<today) return; var s=concertsSourceOf(ev); if(src && s!==src) return;
+      var dist=null; if(lieu && ev.lat!=null && ev.lng!=null) dist=haversine(lieu.lat,lieu.lng,ev.lat,ev.lng);
+      if(rayon && lieu){ if(dist==null || dist>rayon) return; }
+      rows.push({ev:ev,dist:dist,d:d,s:s}); });
+    if(tri==='date') rows.sort(function(a,b){ return (a.ev.date||'')<(b.ev.date||'')?-1:1; });
+    else if(tri==='distance') rows.sort(function(a,b){ return (a.dist==null?1e9:a.dist)-(b.dist==null?1e9:b.dist) || ((a.ev.date||'')<(b.ev.date||'')?-1:1); });
+    else rows.sort(function(a,b){ var c=norm(a.ev.groupe).localeCompare(norm(b.ev.groupe)); return c || ((a.ev.date||'')<(b.ev.date||'')?-1:1); });
+    if(!lieu) info.textContent='Indique ta ville ou ton code postal puis « Localiser » pour filtrer par distance. '+(rows.length?rows.length+' concert(s) annoncés au total.':'');
+    else info.textContent=rows.length+' concert(s) '+(rayon?'à moins de '+rayon+' km de ':'depuis ')+lieu.nom+(CONC.generated?' — données du '+CONC.generated.slice(0,10):'')+(CONC.dec.length?' + '+CONC.dec.length+' de tes découvertes':'');
+    if(!rows.length){ box.innerHTML='<div class="empty">Aucun concert dans ces critères.'+(CONC.appRefuse?' Le service Bandsintown a refusé l\'identifiant : voir le guide.':'')+'</div>'; return; }
+    rows.forEach(function(r){ var ev=r.ev, el=document.createElement('div'); el.className='crow'+(ev.festival?' festival':'');
+      var lu=(ev.lineup||[]).length?'<div class="cl">Avec : '+esc(ev.lineup.join(', '))+'</div>':'';
+      el.innerHTML='<div class="cdate">'+esc(r.d.d)+'<small>'+esc(r.d.h)+(ev.festival?' · festival':'')+'</small></div>'+
+        '<div><div class="cg" style="color:'+({collection:'var(--gold)',wishlist:'#e0b94a',decouverte:'var(--blue)',ecouter:'var(--blue)'}[r.s])+'">'+esc(ev.groupe)+' <span class="badge" style="font-weight:600;text-transform:none;letter-spacing:0">'+({collection:'Collection',wishlist:'Liste de souhaits',decouverte:'Découverte',ecouter:'À écouter'}[r.s])+'</span></div>'+
+        '<div class="cv">'+esc(ev.titre&&ev.titre!==ev.groupe?ev.titre+' — ':'')+esc(ev.salle)+'</div><div class="cl">'+esc([ev.ville,ev.region,paysFr(ev.pays)].filter(Boolean).join(', '))+'</div>'+lu+'</div>'+
+        '<div class="cdist">'+(r.dist!=null?'<b>'+Math.round(r.dist)+' km</b>':'')+(ev.url?'<a target="_blank" rel="noopener" href="'+esc(ev.url)+'">Billets / infos ↗</a>':'')+'</div>';
+      box.appendChild(el); });
+  }
+  function chargerConcerts(){ getJSON('data/concerts.json',function(js){ CONC.items=(js&&js.items)||[]; CONC.generated=(js&&js.generated)||''; CONC.appRefuse=!!(js&&js.app_id_refuse); var c=loadLS(KEY_CDEC,null); if(c&&c.t&&Date.now()-c.t<864e5) CONC.dec=c.items||[]; if(CONC.lieu) $('cLieu').value=CONC.lieu.nom; renderConcerts(); },function(){ $('cInfo').textContent='Impossible de lire data/concerts.json.'; }); }
+  function concertsDecouvertes(){
+    var names={}; STATE.dec.forEach(function(c){ if(!STATE.hidden[norm(c.name)]) names[norm(c.name)]=c.name; }); STATE.aecouter.forEach(function(a){ names[norm(a.groupe)]=a.groupe; });
+    var list=Object.keys(names).map(function(k){ return names[k]; }).filter(function(n){ return !STATE.artistStyle[norm(n)]; });
+    if(!list.length){ toast('Aucune découverte à charger (ouvre d\'abord À découvrir)'); return; }
+    var btn=$('cDecouvertes'); btn.disabled=true; var i=0, out=[];
+    function next(){ if(i>=list.length){ btn.disabled=false; btn.textContent='Charger les découvertes'; CONC.dec=out; saveLS(KEY_CDEC,{t:Date.now(),items:out}); renderConcerts(); toast(out.length+' concert(s) de découvertes'); return; }
+      var n=list[i++]; btn.textContent='Découvertes '+i+'/'+list.length;
+      var x=new XMLHttpRequest(); x.open('GET','https://rest.bandsintown.com/artists/'+encodeURIComponent(n)+'/events?app_id=site-cd-moulkator&date=upcoming');
+      x.onload=function(){ try{ var js=JSON.parse(x.responseText); if(Array.isArray(js)) js.forEach(function(ev){ var v=ev.venue||{}; out.push({groupe:n,decouverte:true,date:(ev.datetime||'').slice(0,16),titre:ev.title||'',salle:v.name||'',ville:v.city||'',region:v.region||'',pays:v.country||'',lat:parseFloat(v.latitude),lng:parseFloat(v.longitude),lineup:(ev.lineup||[]).filter(function(z){return norm(z)!==norm(n);}).slice(0,6),url:ev.url||'',festival:!!ev.festival_datetime_display_start}); }); }catch(e){} setTimeout(next,250); };
+      x.onerror=function(){ setTimeout(next,250); }; x.send(); }
+    next();
+  }
+  $('cLocaliser').addEventListener('click',function(){ var q=$('cLieu').value.trim(); if(!q) return; $('cInfo').textContent='Localisation…'; geocode(q,function(pos,msg){ if(!pos){ $('cInfo').textContent=msg; return; } CONC.lieu=pos; saveLS(KEY_LIEU,pos); $('cLieu').value=pos.nom; renderConcerts(); }); });
+  $('cLieu').addEventListener('keydown',function(e){ if(e.key==='Enter') $('cLocaliser').click(); });
+  ['cRayon','cSource','cTri'].forEach(function(id){ $(id).addEventListener('change',renderConcerts); });
+  $('cDecouvertes').addEventListener('click',concertsDecouvertes);
+
   // ------------------------------------------------------------ export
   function exporter(){
     var out={exporte_le:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),achetes:STATE.achetes};
@@ -831,8 +909,8 @@ audio{width:100%;height:32px}
   }
 
   // ------------------------------------------------------------ init
-  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');$('secAleatoire').classList.toggle('active',t==='a');window.scrollTo(0,0);if(t==='a'){ randRefreshCounts(); if(!RAND.current && !RAND.busy){ $('randSource').value=''; $('randFamille').value=''; $('randGroupe').value=''; randRefreshCounts(); setTimeout(randNext, 200); } }if(t==='s'&&STATE.sorties.length)renderSorties();if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);else if(t==='d'&&$('paneDec').style.display!=='none')renderDecouvrir(true);if(t==='r')$('qRecherche').focus();}
-  function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':hsh==='#aleatoire'?'a':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
+  function showTab(t){$('secSorties').classList.toggle('active',t==='s');$('secDecouvrir').classList.toggle('active',t==='d');$('secRecherche').classList.toggle('active',t==='r');$('secAleatoire').classList.toggle('active',t==='a');$('secConcerts').classList.toggle('active',t==='c');window.scrollTo(0,0);if(t==='c'){ chargerConcerts(); }if(t==='a'){ randRefreshCounts(); if(!RAND.current && !RAND.busy){ $('randSource').value=''; $('randFamille').value=''; $('randGroupe').value=''; randRefreshCounts(); setTimeout(randNext, 200); } }if(t==='s'&&STATE.sorties.length)renderSorties();if(t==='d'&&!STATE.dec.length)chercherDecouvertes(false);else if(t==='d'&&$('paneDec').style.display!=='none')renderDecouvrir(true);if(t==='r')$('qRecherche').focus();}
+  function showFromHash(){ var hsh=location.hash||''; showTab((hsh==='#decouvrir'||hsh==='#ecouter')?'d':hsh==='#recherche'?'r':hsh==='#aleatoire'?'a':hsh==='#concerts'?'c':'s'); if(hsh==='#ecouter') showSub('ec'); else if(hsh==='#decouvrir') showSub('dec'); }
   $('btnLastfm').addEventListener('click',function(){ var k=prompt('Clé API Last.fm (gratuite : https://www.last.fm/api/account/create — colle la « API key », pas le secret).\nElle reste dans ce navigateur. Vide pour retirer.', lastfmKey()||''); if(k===null) return; k=k.trim(); if(k) saveLS(KEY_LASTFM,k); else localStorage.removeItem(KEY_LASTFM); $('btnLastfm').textContent=k?'🔓 Clé Last.fm':'🔑 Clé Last.fm'; toast(k?'Clé enregistrée : la recherche par style passe par Last.fm':'Clé retirée : recherche par style via MusicBrainz'); });
   if(lastfmKey()) $('btnLastfm').textContent='🔓 Clé Last.fm';
   $('btnYt').addEventListener('click',function(){ var k=prompt('Clé API YouTube Data v3 (gratuite, voir le guide). Elle reste dans ce navigateur. Vide pour retirer.', YTA.getKey()||''); if(k===null) return; k=k.trim(); YTA.setKey(k); $('btnYt').textContent=k?'🔓 Clé YouTube':'🔑 Clé YouTube'; toast(k?'Clé enregistrée : les boutons YouTube peuvent chercher les playlists':'Clé retirée'); });

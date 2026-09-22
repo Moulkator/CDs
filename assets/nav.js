@@ -7,7 +7,8 @@
     {id:'sorties',    label:'Sorties à surveiller',href:'sorties.html#sorties'},
     {id:'decouvrir',  label:'À découvrir',         href:'sorties.html#decouvrir'},
     {id:'aleatoire',  label:'Album aléatoire',     href:'sorties.html#aleatoire'},
-    {id:'recherche',  label:'Rechercher',          href:'sorties.html#recherche'}
+    {id:'recherche',  label:'Rechercher',          href:'sorties.html#recherche'},
+    {id:'concerts',   label:'Concerts',            href:'sorties.html#concerts'}
   ];
   function ls(k,def){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(e){ return def; } }
   function detectRepo(){ var m=location.hostname.match(/^([^.]+)\.github\.io$/); var seg=location.pathname.split('/').filter(Boolean); if(m&&seg.length&&seg[0].indexOf('.')<0) return {owner:m[1],repo:seg[0]}; return null; }
@@ -30,7 +31,7 @@
     deactivate:function(){ if(!confirm('Désactiver le mode propriétaire sur cet appareil ? (le jeton sera oublié ici)')) return; localStorage.removeItem(KEY_TOKEN); render(); fire(false); }
   };
   function fire(on){ try{ document.dispatchEvent(new CustomEvent('owner-changed',{detail:{owner:on}})); }catch(e){} }
-  function currentPage(){ var f=location.pathname.split('/').pop()||'index.html', hsh=(location.hash||'').replace('#',''); if(f==='sorties.html') return (hsh==='decouvrir'||hsh==='ecouter')?'decouvrir':hsh==='recherche'?'recherche':hsh==='aleatoire'?'aleatoire':'sorties'; return hsh==='collection'?'collection':'wishlist'; }
+  function currentPage(){ var f=location.pathname.split('/').pop()||'index.html', hsh=(location.hash||'').replace('#',''); if(f==='sorties.html') return (hsh==='decouvrir'||hsh==='ecouter')?'decouvrir':hsh==='recherche'?'recherche':hsh==='aleatoire'?'aleatoire':hsh==='concerts'?'concerts':'sorties'; return hsh==='collection'?'collection':'wishlist'; }
   function render(){
     var nav=document.getElementById('topnav'); if(!nav) return;
     var cur=currentPage(), on=Owner.isOn();
