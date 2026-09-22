@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:36:05.833Z",
+ "maj": "2026-09-22T19:38:55.626Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -578,10 +578,22 @@
    "t": 1790102884692,
    "bad": []
   },
+  "suotana|ounas ii": {
+   "id": "PLZNIiX5UQ_PHaTpO7gAbUSNKz79QsJpBZ",
+   "title": "Suotana - Ounas II (full álbum 💿 2025)",
+   "t": 1790105931290,
+   "bad": []
+  },
   "aeternam|al qassam": {
    "id": "PLCoPMdevokxdgoVp9-TLjOoKOCSyQiTvT",
    "title": "Aeternam - Al Qassam (Full Album)",
    "t": 1790105764328,
+   "bad": []
+  },
+  "kvelertak|kvelertak": {
+   "id": "PLPkyV9qqKhSxCvSFUAPj8jdwlxAUOzc-r",
+   "title": "Kvelertak - Kvelertak [Full Album]",
+   "t": 1790105934121,
    "bad": []
   }
  },
@@ -724,6 +736,16 @@
    "record_type": "album",
    "nb_tracks": 12,
    "ajoute": "2026-09-20"
+  },
+  {
+   "groupe": "Stam1na",
+   "album": "X",
+   "deezer_id": 486528725,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/1ba31d16aa35a8f1121d00bfe473d72e/500x500-000000-80-0-0.jpg",
+   "annee": "2023",
+   "record_type": "album",
+   "nb_tracks": 10,
+   "ajoute": "2026-09-22"
   }
  ]
 }
