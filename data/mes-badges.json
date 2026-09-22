@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:39:02.565Z",
+ "maj": "2026-09-22T19:39:08.244Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -607,6 +607,12 @@
    "video": true,
    "title": "Havukruunu   Kuu Erkylan Ylla",
    "t": 1790105941053,
+   "bad": []
+  },
+  "atavistia|old gods awaken": {
+   "id": "PLZNIiX5UQ_PHwaVB4GXArNDx9YxboRKAc",
+   "title": "Atavistia - Old Gods Awaken (full album 💿 2026)",
+   "t": 1790105946732,
    "bad": []
   }
  },
