@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:07:09.305Z",
+ "maj": "2026-09-22T20:07:12.690Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -791,6 +791,12 @@
    "id": "PLnvfG6GegYVRjZnF2zPnmpH31qON2KBGu",
    "title": "Holy Blood - The Wanderer 20th Anniversary Edition (Full Album)",
    "t": 1790107627804,
+   "bad": []
+  },
+  "nofx|single album": {
+   "id": "PL_uD5vh8_aM7dKg-bXcRFOgq0rZMrBUhv",
+   "title": "NOFX - Single Album (OFFICIAL FULL ALBUM STREAM)",
+   "t": 1790107631181,
    "bad": []
   }
  },
