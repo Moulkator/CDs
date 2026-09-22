@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:41:31.840Z",
+ "maj": "2026-09-22T20:48:42.713Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -944,6 +944,13 @@
    "id": "PLA6fygbZp6OKrv-rZglYEgW3aRvXn9Hdo",
    "title": "DIMMU BORGIR THE GRAND SERPENT RISING FULL ALBUM 2026",
    "t": 1790109690327,
+   "bad": []
+  },
+  "dunkelnacht|revelatio": {
+   "id": "j_A9d74_Rto",
+   "video": true,
+   "title": "Dunkelnacht - Revelatio (Full album)",
+   "t": 1790110121201,
    "bad": []
   }
  },
