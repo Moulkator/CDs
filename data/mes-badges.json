@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:07:50.720Z",
+ "maj": "2026-09-22T20:15:12.445Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -816,6 +816,48 @@
    "id": "PLn6XQz4Dm0aSDFKiwN8mhejXuCTFjNviC",
    "title": "IOTUNN - Access All Worlds (Full Album)",
    "t": 1790107669134,
+   "bad": []
+  },
+  "arthemesia|devs iratvs": {
+   "id": "PLsheAW1S_e_3_FsFYyjBSMkaHjtwDos-O",
+   "title": "Arthemesia - Devs - Iratvs // 2001, Album Playlist ** Melodic Black Metal",
+   "t": 1790108034386,
+   "bad": []
+  },
+  "dagoba|poseidon": {
+   "id": "PLNrny2k29CnrKJKGi8prvPI9Da4XXp5k0",
+   "title": "Dagoba Poseidon",
+   "t": 1790108037044,
+   "bad": []
+  },
+  "3 inches of blood|fire up the blades": {
+   "id": "PLm60i8-bK0lYGhjV9uPa0l3BONjyOVdRB",
+   "title": "3 Inches Of Blood - Fire Up The Blades (Full Album)",
+   "t": 1790108039023,
+   "bad": []
+  },
+  "arch enemy|the root of all evil": {
+   "id": "PLb366Iw4ffXfR0r5Np5NNtmLuutG0ksA1",
+   "title": "Arch Enemy &quot;The Root of All Evil&quot; Full Album",
+   "t": 1790108039999,
+   "bad": []
+  },
+  "grimner|vanadrottning": {
+   "id": "PL8_S9XAWydA3dFecb6AY292cV8ze2oHuV",
+   "title": "Grimner - Vanadrottning (Full Album)",
+   "t": 1790108041434,
+   "bad": []
+  },
+  "amorphis|under the red cloud": {
+   "id": "PLL44kuYYS8ykC4pcJpoMF55ETtrfJBGGw",
+   "title": "♫ ❤️ Amorphis - Under The Red Cloud (2015) 🤘 full album",
+   "t": 1790108043766,
+   "bad": []
+  },
+  "twilight force|the heart of wintervale": {
+   "id": "PLQfEQixi55OXXkKBp1hNb4wx6an3NU7ob",
+   "title": "Twilight Force - At the Heart of Wintervale (2023) [Full Album + Bonus Tracks]",
+   "t": 1790108110941,
    "bad": []
   }
  },
