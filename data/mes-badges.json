@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T11:21:23.010Z",
+ "maj": "2026-09-22T11:35:04.914Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -528,6 +528,12 @@
    "video": true,
    "title": "Valuatir - Exobnos | Full Album",
    "t": 1790076080234,
+   "bad": []
+  },
+  "airbourne|no guts no glory": {
+   "id": "PLLy1F0NPv5gqPFiXaAOMolhdRBcFFEgfs",
+   "title": "Airbourne - No Guts. No Glory. (Full Album)",
+   "t": 1790076902332,
    "bad": []
   }
  },
