@@ -69,7 +69,11 @@ def artists():
     return out
 
 
+STATS = {"ok": 0, "vide": 0, "404": 0, "403": 0, "autre": 0}
+
+
 def fetch(artist):
+    """Renvoie la liste d'événements, [] si rien, None si Bandsintown refuse (403)."""
     url = API.format(name=quote(artist["search"], safe=""), app=quote(APP_ID))
     for attempt in range(3):
         try:
@@ -77,11 +81,25 @@ def fetch(artist):
             if r.status_code == 429:
                 time.sleep(3)
                 continue
-            if r.status_code in (403, 404):
-                return [] if r.status_code == 404 else None
+            if r.status_code == 404:
+                STATS["404"] += 1
+                return []
+            if r.status_code == 403:
+                STATS["403"] += 1
+                if STATS["403"] <= 3:
+                    print(f"  ~ 403 pour {artist['groupe']} : {r.text[:120]}")
+                return None
             r.raise_for_status()
             js = r.json()
-            return js if isinstance(js, list) else []
+            if isinstance(js, dict) and js.get("errorMessage"):
+                STATS["autre"] += 1
+                if STATS["autre"] <= 3:
+                    print(f"  ~ {artist['groupe']} : {js.get('errorMessage')}")
+                return []
+            if isinstance(js, list):
+                STATS["ok" if js else "vide"] += 1
+                return js
+            return []
         except requests.RequestException as e:
             print(f"  ! {artist['groupe']}: {e}", file=sys.stderr)
             time.sleep(2)
@@ -91,12 +109,16 @@ def fetch(artist):
 def main():
     arts = artists()
     events, forbidden = [], False
+    print(f"Identifiant d'application : {'secret BANDSINTOWN_APP_ID' if os.environ.get('BANDSINTOWN_APP_ID','').strip() else 'générique (aucun secret)'}")
     for i, a in enumerate(arts, 1):
         res = fetch(a)
         if res is None:
-            forbidden = True
-            print("  ! Bandsintown refuse l'identifiant d'application (403) : définis le secret BANDSINTOWN_APP_ID", file=sys.stderr)
-            break
+            # un 403 isolé arrive (nom particulier) ; une série de 403 sans aucun succès = clé refusée
+            if STATS["403"] >= 8 and STATS["ok"] + STATS["vide"] == 0:
+                forbidden = True
+                print("  ! Bandsintown refuse systématiquement l'identifiant (403) : vérifie le secret BANDSINTOWN_APP_ID", file=sys.stderr)
+                break
+            continue
         for ev in res:
             v = ev.get("venue") or {}
             try:
@@ -119,6 +141,7 @@ def main():
     out = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "app_id_refuse": forbidden, "artistes": len(arts), "items": events}
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=0)
+    print(f"Réponses Bandsintown : {STATS['ok']} avec concerts, {STATS['vide']} sans, {STATS['404']} inconnus, {STATS['403']} refusés, {STATS['autre']} erreurs")
     print(f"OK : {len(events)} concert(s) pour {len(arts)} groupe(s)")
 
 
