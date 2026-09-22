@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:50:20.239Z",
+ "maj": "2026-09-22T19:50:24.286Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -728,6 +728,12 @@
    "id": "PLCB_54AqMrM3GkmMQkh5orU1JYpuuxx0Y",
    "title": "Septicflesh - Infernus Sinfonica MMXIX (Live) (Full Album)",
    "t": 1790106574106,
+   "bad": []
+  },
+  "manegarm|legions of the north": {
+   "id": "PLsgT-xdiIquBqqL0CgbYtm-2jKcmTNkuz",
+   "title": "Manegarm - Legions of the North (Full Album)",
+   "t": 1790106622775,
    "bad": []
   }
  },
