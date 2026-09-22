@@ -63,6 +63,14 @@ audio{width:100%;height:32px}
 .randwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
 .randplayer{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.randplayer iframe,.randplayer > div{position:absolute;inset:0;width:100%;height:100%;border:0}
 .randmeta{display:flex;flex-direction:column;gap:8px}.randmeta .a{font-size:1.3rem}
+#miniplayer{position:fixed;left:0;right:0;bottom:0;z-index:70;display:flex;align-items:center;gap:14px;padding:8px 14px calc(8px + env(safe-area-inset-bottom,0px));background:rgba(21,24,30,.97);border-top:1px solid #5a4a1a;backdrop-filter:blur(6px)}
+body.has-mp .wrap{padding-bottom:110px}
+#miniplayer .mpinfo{flex:1 1 auto;min-width:0}#miniplayer .mpalbum{color:var(--gold);font-weight:800;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#miniplayer .mptrack{font-size:.85rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#miniplayer .mpbar{height:3px;background:#2a2f3a;border-radius:2px;margin-top:5px;overflow:hidden}#miniplayer #mpProg{height:100%;width:0;background:var(--gold)}
+#miniplayer .mpctl{display:flex;align-items:center;gap:6px;flex:0 0 auto}#miniplayer .mpctl button{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;width:36px;height:36px;cursor:pointer;font-size:.9rem}
+#miniplayer .mpctl button.big{width:46px;height:46px;background:var(--gold);color:#0c0e11;border-color:transparent;font-size:1.2rem;font-weight:700}#miniplayer .mpctl button:hover{border-color:var(--gold)}
+#miniplayer .mpvol{display:flex;align-items:center;gap:4px}#miniplayer #mpVol{width:90px;accent-color:#c9a227}#miniplayer #mpGoto{color:var(--muted);text-decoration:none;font-size:1.2rem;padding:0 4px}
+@media (max-width:700px){#miniplayer{flex-wrap:wrap;gap:6px}#miniplayer .mpinfo{flex:1 1 100%}#miniplayer .mpctl{flex:1 1 100%;justify-content:center}#miniplayer .mpvol #mpVol{width:60px}body.has-mp .wrap{padding-bottom:150px}}
 .crow{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
 .crow .cdate{color:var(--gold);font-weight:800;line-height:1.15}.crow .cdate small{display:block;color:var(--muted);font-weight:500;font-size:.72rem}
 .crow .cg{font-weight:800;text-transform:uppercase;letter-spacing:1.2px;font-size:.85rem}.crow .cv{color:var(--text);font-size:.9rem}.crow .cl{color:var(--muted);font-size:.78rem;line-height:1.3}
@@ -225,7 +233,8 @@ audio{width:100%;height:32px}
     <select id="randFamille"><option value="">Tous les styles</option></select>
     <input id="randGroupe" list="dlGroupesRand" placeholder="Un groupe en particulier (optionnel)"><datalist id="dlGroupesRand"></datalist>
     <button class="btn gold" id="randPlay">🎲 Lancer</button>
-    <button class="btn" id="randNext" disabled>⏭ Suivant</button>
+    <button class="btn" id="randPrev" disabled>⏮ Album précédent</button>
+    <button class="btn" id="randNext" disabled>⏭ Album suivant</button>
     <label class="d" style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="randAuto" checked> Enchaîner automatiquement</label>
   </div>
   <div class="prog" id="randInfo"></div>
@@ -261,6 +270,18 @@ audio{width:100%;height:32px}
   <div class="prog" id="cInfo"></div>
   <div id="cListe"></div>
 </section>
+</div>
+<div id="miniplayer" style="display:none">
+  <div class="mpinfo"><div class="mpalbum" id="mpAlbum"></div><div class="mptrack" id="mpTrack"></div><div class="mpbar"><div id="mpProg"></div></div></div>
+  <div class="mpctl">
+    <button id="mpPrevAlbum" title="Album précédent">⏮</button>
+    <button id="mpPrevTrack" title="Morceau précédent">◀◀</button>
+    <button id="mpPlay" class="big" title="Lecture / pause">▶</button>
+    <button id="mpNextTrack" title="Morceau suivant">▶▶</button>
+    <button id="mpNextAlbum" title="Album suivant">⏭</button>
+    <span class="mpvol"><button id="mpMute" title="Couper le son">🔊</button><input type="range" id="mpVol" min="0" max="100" value="100"></span>
+    <a id="mpGoto" href="#aleatoire" title="Aller à l'onglet Album aléatoire">🎲</a>
+  </div>
 </div>
 <div id="toast"></div>
 <div class="saving" id="saving">Enregistrement…</div>
@@ -766,7 +787,7 @@ audio{width:100%;height:32px}
     var pool=randPool(), known=pool.filter(function(p){ return YTA.known(p.groupe,p.album); }).length;
     $('randInfo').textContent=pool.length+' album(s) dans la sélection, dont '+known+' avec lecture YouTube déjà connue'+(YTA.getKey()?' (les autres seront cherchés à la volée)':' — sans clé YouTube, seuls ceux-là peuvent être lus');
   }
-  var RAND={played:[], current:null, player:null, apiReady:false, apiLoading:false, busy:false, gesture:false};
+  var RAND={played:[], hist:[], histPos:-1, current:null, player:null, apiReady:false, apiLoading:false, busy:false, gesture:false};
   document.addEventListener('pointerdown',function(){ RAND.gesture=true; },true); document.addEventListener('keydown',function(){ RAND.gesture=true; },true);
   function randUserActive(){ if(navigator.userActivation && typeof navigator.userActivation.hasBeenActive==='boolean') return navigator.userActivation.hasBeenActive; return RAND.gesture; }
   function randOverlay(show){ var host=document.querySelector('.randplayer'); if(!host) return; var ov=host.querySelector('.randoverlay'); if(!show){ if(ov) ov.remove(); return; } if(ov) return; ov=document.createElement('button'); ov.className='randoverlay'; ov.type='button'; ov.innerHTML='▶<span>Écouter</span>'; ov.addEventListener('click',function(){ RAND.gesture=true; ov.remove(); if(RAND.player && RAND.player.playVideo){ try{ RAND.player.playVideo(); }catch(e){} } else if(RAND.current){ randPlayId(RAND.current); } }); host.appendChild(ov); }
@@ -793,6 +814,8 @@ audio{width:100%;height:32px}
     $('randActs').querySelector('[data-act=rbad]').addEventListener('click',function(){ YTA.reject(p.groupe,p.album,function(id,msg){ if(id){ randPlayId(p); toast('Autre lecture chargée'); } else { toast(msg||'Rien d\'autre trouvé'); randNext(); } }); });
     $('randActs').querySelector('[data-act=rlink]').addEventListener('click',function(){ var u=prompt('Lien YouTube pour « '+p.groupe+' — '+p.album+' » (playlist list=… ou vidéo v=…) :',''); if(!u) return; if(YTA.setManual(p.groupe,p.album,u)) randPlayId(p); else toast('Lien non reconnu'); });
     RAND.played.push(key(p.groupe,p.album)); if(RAND.played.length>60) RAND.played.shift();
+    if(!(RAND.hist[RAND.histPos]&&key(RAND.hist[RAND.histPos].groupe,RAND.hist[RAND.histPos].album)===key(p.groupe,p.album))){ RAND.hist=RAND.hist.slice(0,RAND.histPos+1); RAND.hist.push(p); RAND.histPos=RAND.hist.length-1; if(RAND.hist.length>60){ RAND.hist.shift(); RAND.histPos--; } }
+    $('randPrev').disabled=RAND.histPos<=0; mpShow(p);
     RAND.names=RAND.names||{}; RAND.names[key(p.groupe,p.album)]={t:p.groupe+' — '+p.album, g:p.groupe, a:p.album};
     var h=$('randHist'); h.innerHTML='Écoutés : '+RAND.played.slice(-8).reverse().map(function(k){ var n=RAND.names[k]; if(!n) return ''; var u=YTA.watchUrl(n.g,n.a)||('https://www.youtube.com/results?search_query='+encodeURIComponent(n.t)); return '<a href="'+esc(u)+'" target="_blank" rel="noopener" style="color:#79c6ff">'+esc(n.t)+'</a>'; }).filter(Boolean).join(' · ');
   }
@@ -832,8 +855,11 @@ audio{width:100%;height:32px}
     if(c.video) opts.videoId=c.id; else { vars.listType='playlist'; vars.list=c.id; }
     RAND.player=new YT.Player('randPlayer',opts);
   }
+  function randGoto(p){ RAND.current=p; randShow(p); randPlayId(p); $('randInfo').textContent=''; randMessageActivation(); }
+  function randPrev(){ clearTimeout(RAND.autoTimer); if(RAND.histPos<=0) return; RAND.histPos--; var p=RAND.hist[RAND.histPos]; RAND.busy=false; randGoto(p); $('randPrev').disabled=RAND.histPos<=0; }
   function randNext(){
     clearTimeout(RAND.autoTimer);
+    if(RAND.histPos>=0 && RAND.histPos<RAND.hist.length-1){ RAND.histPos++; randGoto(RAND.hist[RAND.histPos]); $('randPrev').disabled=false; return; }
     if(RAND.busy) return; RAND.busy=true; $('randNext').disabled=true;
     var tries=0;
     function attempt(){
@@ -848,7 +874,20 @@ audio{width:100%;height:32px}
   ['randSource','randFamille','randGroupe'].forEach(function(id){ $(id).addEventListener('change',randRefreshCounts); });
   $('randGroupe').addEventListener('input',function(){ if(!this.value) randRefreshCounts(); });
   $('randPlay').addEventListener('click',function(){ RAND.played=[]; randNext(); });
-  $('randNext').addEventListener('click',randNext);
+  $('randNext').addEventListener('click',randNext); $('randPrev').addEventListener('click',randPrev);
+
+  // ------------------------------------------------------------ MINI-LECTEUR (bas de page)
+  function mpShow(p){ var mp=$('miniplayer'); mp.style.display=''; document.body.classList.add('has-mp'); $('mpAlbum').textContent=p.groupe+' — '+p.album; $('mpTrack').textContent='Chargement…'; $('mpProg').style.width='0'; if(!RAND.mpTimer) RAND.mpTimer=setInterval(mpTick,1000); }
+  function mpTick(){ var pl=RAND.player; if(!pl||!pl.getPlayerState) return; try{ var st=pl.getPlayerState(); $('mpPlay').textContent=(st===1||st===3)?'⏸':'▶'; var vd=pl.getVideoData&&pl.getVideoData(); var t=(vd&&vd.title)||''; var list=pl.getPlaylist&&pl.getPlaylist(); var idx=list&&list.length?(pl.getPlaylistIndex()+1)+'/'+list.length+' · ':''; if(t) $('mpTrack').textContent=idx+t; var d=pl.getDuration&&pl.getDuration(), c=pl.getCurrentTime&&pl.getCurrentTime(); if(d>0) $('mpProg').style.width=Math.min(100,100*c/d)+'%'; var m=pl.isMuted&&pl.isMuted(); $('mpMute').textContent=m?'🔇':'🔊'; }catch(e){} }
+  function mpCall(fn){ var pl=RAND.player; if(!pl) return; try{ fn(pl); }catch(e){} }
+  $('mpPlay').addEventListener('click',function(){ RAND.gesture=true; randOverlay(false); mpCall(function(pl){ var st=pl.getPlayerState(); if(st===1||st===3) pl.pauseVideo(); else pl.playVideo(); }); });
+  $('mpPrevTrack').addEventListener('click',function(){ mpCall(function(pl){ if(pl.getCurrentTime&&pl.getCurrentTime()>4){ pl.seekTo(0,true); } else if(pl.getPlaylist&&pl.getPlaylist()&&pl.getPlaylist().length){ pl.previousVideo(); } else pl.seekTo(0,true); }); });
+  $('mpNextTrack').addEventListener('click',function(){ mpCall(function(pl){ var list=pl.getPlaylist&&pl.getPlaylist(); if(list&&list.length&&pl.getPlaylistIndex()<list.length-1) pl.nextVideo(); else randNext(); }); });
+  $('mpPrevAlbum').addEventListener('click',randPrev); $('mpNextAlbum').addEventListener('click',randNext);
+  $('mpVol').addEventListener('input',function(){ var v=parseInt(this.value,10); mpCall(function(pl){ pl.unMute(); pl.setVolume(v); }); });
+  $('mpMute').addEventListener('click',function(){ mpCall(function(pl){ if(pl.isMuted()) pl.unMute(); else pl.mute(); }); });
+  $('mpGoto').addEventListener('click',function(e){ e.preventDefault(); location.hash='#aleatoire'; });
+  document.querySelector('#miniplayer .mpbar').addEventListener('click',function(e){ var r=this.getBoundingClientRect(), f=(e.clientX-r.left)/r.width; mpCall(function(pl){ var d=pl.getDuration(); if(d>0) pl.seekTo(d*f,true); }); });
 
   // ------------------------------------------------------------ CONCERTS
   var KEY_LIEU='concerts-lieu-v1', KEY_CDEC='concerts-decouvertes-v1';
