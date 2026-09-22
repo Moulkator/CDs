@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:20.543Z",
+ "maj": "2026-09-22T20:15:22.014Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -867,10 +867,17 @@
    "t": 1790108115260,
    "bad": []
   },
-  "sulphur aeon|gateway to the antisphere": {
-   "id": "PLzng3oJwoM4wLbt5Ec9YKRCPdzIL_xdyW",
-   "title": "Sulphur Aeon - Gateway to the Antisphere (Full Album)",
-   "t": 1790108118704,
+  "zgard|totem": {
+   "id": "_IcuwdlIIHE",
+   "video": true,
+   "title": "Zgard - Totem (Full Album)",
+   "t": 1790108117192,
+   "bad": []
+  },
+  "paladin|ascension": {
+   "id": "PL44gxJwuwoabFwfI3_uX5kSodtEZZT2wi",
+   "title": "PALADIN (🇺🇸)🔸2019🔸Ascension",
+   "t": 1790108120485,
    "bad": []
   }
  },
