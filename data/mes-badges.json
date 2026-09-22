@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:55:43.482Z",
+ "maj": "2026-09-22T20:07:09.305Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -785,6 +785,12 @@
    "id": "PL_PLe7ghE3d8w5bvZSfG-AZ0LcUSr_IK1",
    "title": "DIMMU BORGIR - Enthrone Darkness Triumphant (OFFICIAL FULL  ALBUM STREAM) by Nuclear Blast Records a",
    "t": 1790106941979,
+   "bad": []
+  },
+  "holy blood|the wanderer": {
+   "id": "PLnvfG6GegYVRjZnF2zPnmpH31qON2KBGu",
+   "title": "Holy Blood - The Wanderer 20th Anniversary Edition (Full Album)",
+   "t": 1790107627804,
    "bad": []
   }
  },
