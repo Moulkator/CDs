@@ -28,6 +28,10 @@ jobs:
         env:
           BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
         run: python scripts/update_concerts.py
+      - name: Setlists (setlist.fm)
+        env:
+          SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
+        run: python scripts/update_setlists.py
       - name: Notifications Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
