@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:19:09.184Z",
+ "maj": "2026-09-22T20:41:28.524Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -932,6 +932,12 @@
    "id": "PL04AMsf8_QOKHizQpOV-TtzRb44893grw",
    "title": "Behemoth - In Absentia Dei (Live) (Full Album)",
    "t": 1790108347641,
+   "bad": []
+  },
+  "hypocrisy|end of disclosure": {
+   "id": "PL0l7xbAkeaFNSKeQ1tQ1Rz13_e0hjTiRN",
+   "title": "Hypocrisy - End of Disclosure (Full Album)",
+   "t": 1790109687018,
    "bad": []
   }
  },
