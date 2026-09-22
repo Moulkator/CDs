@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:30.311Z",
+ "maj": "2026-09-22T20:15:38.496Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -891,6 +891,12 @@
    "id": "PLWVo2tank-zzoQ8kOIp2114u4tLLM0bCw",
    "title": "Papa Roach · 20/20 (Full Album)",
    "t": 1790108128802,
+   "bad": []
+  },
+  "fortid|9": {
+   "id": "PLToXWne2Bk-c5scmbTS5D6oyz2jlqVKrz",
+   "title": "Fortíð - 9 [Full Album, 2015]",
+   "t": 1790108136993,
    "bad": []
   }
  },
