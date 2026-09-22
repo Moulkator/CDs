@@ -24,6 +24,10 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scripts/update_sorties.py
+      - name: Concerts (Bandsintown)
+        env:
+          BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
+        run: python scripts/update_concerts.py
       - name: Notifications Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
