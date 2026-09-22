@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:50:24.286Z",
+ "maj": "2026-09-22T19:50:51.926Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -734,6 +734,12 @@
    "id": "PLsgT-xdiIquBqqL0CgbYtm-2jKcmTNkuz",
    "title": "Manegarm - Legions of the North (Full Album)",
    "t": 1790106622775,
+   "bad": []
+  },
+  "nofx|wolves in wolves clothing": {
+   "id": "PLmrL1UQ4ueQoV0O12I6JqpZsNwpkHzbMd",
+   "title": "Wolves in Wolves Clothing Full Album NOFX",
+   "t": 1790106650412,
    "bad": []
   }
  },
