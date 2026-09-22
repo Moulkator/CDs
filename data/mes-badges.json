@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:07:12.690Z",
+ "maj": "2026-09-22T20:07:32.116Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -797,6 +797,12 @@
    "id": "PL_uD5vh8_aM7dKg-bXcRFOgq0rZMrBUhv",
    "title": "NOFX - Single Album (OFFICIAL FULL ALBUM STREAM)",
    "t": 1790107631181,
+   "bad": []
+  },
+  "papa roach|who do you trust": {
+   "id": "PLLy1F0NPv5gqI8377m2GKsq1M587XblWL",
+   "title": "Papa Roach - Who Do You Trust? (Full Album)",
+   "t": 1790107650606,
    "bad": []
   }
  },
