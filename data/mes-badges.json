@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:38:59.027Z",
+ "maj": "2026-09-22T19:39:02.565Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -600,6 +600,13 @@
    "id": "PLDc6g6D2cadGcEwWYK_Tq2EwaxwCZapNO",
    "title": "Finsterforst - #YØLØ (Full Album)",
    "t": 1790105937525,
+   "bad": []
+  },
+  "havukruunu|kuu erkylan ylla": {
+   "id": "NeJLJFi51vI",
+   "video": true,
+   "title": "Havukruunu   Kuu Erkylan Ylla",
+   "t": 1790105941053,
    "bad": []
   }
  },
