@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:07:32.116Z",
+ "maj": "2026-09-22T20:07:47.210Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -803,6 +803,13 @@
    "id": "PLLy1F0NPv5gqI8377m2GKsq1M587XblWL",
    "title": "Papa Roach - Who Do You Trust? (Full Album)",
    "t": 1790107650606,
+   "bad": []
+  },
+  "misteltein|divine desecrate complete": {
+   "id": "r03ffjn89e8",
+   "video": true,
+   "title": "Misteltein - Divine. Desecrate. Complete 2001 [FULL ALBUM]",
+   "t": 1790107665698,
    "bad": []
   }
  },
