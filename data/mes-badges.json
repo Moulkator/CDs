@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:38.496Z",
+ "maj": "2026-09-22T20:15:43.084Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -897,6 +897,19 @@
    "id": "PLToXWne2Bk-c5scmbTS5D6oyz2jlqVKrz",
    "title": "Fortíð - 9 [Full Album, 2015]",
    "t": 1790108136993,
+   "bad": []
+  },
+  "devin townsend|physicist": {
+   "id": "PLysvtmnTJNyGnnGghlWwxYHAuEW8dxlGF",
+   "title": "Devin Townsend - Physicist (Full Album)",
+   "t": 1790108138089,
+   "bad": []
+  },
+  "goatmoon|witchking": {
+   "id": "r3BTLur5VqU",
+   "video": true,
+   "title": "Witchking – Hand Of Justice (Full Album)",
+   "t": 1790108141582,
    "bad": []
   }
  },
