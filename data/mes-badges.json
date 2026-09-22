@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:39:55.450Z",
+ "maj": "2026-09-22T19:40:00.292Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -649,6 +649,13 @@
    "id": "PLGkWGfBw0s3bu6zNzezjL0sSdYm83uSVM",
    "title": "06 72 43 58 15",
    "t": 1790105993949,
+   "bad": []
+  },
+  "oxxo xoox|namidae": {
+   "id": "gL_MaRWRmBU",
+   "video": true,
+   "title": "Öxxö Xööx - &quot;Nämïdäë&quot; [Full Album - Official - HD]",
+   "t": 1790105998777,
    "bad": []
   }
  },
