@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:41:15.469Z",
+ "maj": "2026-09-22T19:48:34.611Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -686,6 +686,17 @@
    "id": "PLONVEQP6SwpEtl7J9ob0K_5BQuv5lXaqS",
    "title": "children of bodom halo of blood full album",
    "t": 1790106073968,
+   "bad": []
+  },
+  "heimsgard|following the starlight": {
+   "none": 1,
+   "t": 1790106512774,
+   "bad": []
+  },
+  "fleshgod apocalypse|labyrinth": {
+   "id": "PLChRbzKxOiRfGkDCRVpYFPivE336BmZHq",
+   "title": "Fleshgod Apocalypse - Labyrinth (Full Album)",
+   "t": 1790106513108,
    "bad": []
   }
  },
