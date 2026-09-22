@@ -63,6 +63,7 @@ audio{width:100%;height:32px}
 .randwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
 .randplayer{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.randplayer iframe,.randplayer > div{position:absolute;inset:0;width:100%;height:100%;border:0}
 .randmeta{display:flex;flex-direction:column;gap:8px}.randmeta .a{font-size:1.3rem}
+.randoverlay{position:absolute;inset:0;width:100%;height:100%;border:0;background:rgba(12,14,17,.72);color:var(--gold);font-size:3rem;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;z-index:2}.randoverlay span{font-size:1rem;letter-spacing:2px;text-transform:uppercase;color:var(--text)}
 .randmeta .acts{flex-wrap:wrap}.randmeta .wish .pbtn{flex:1 1 45%}
 @media (max-width:760px){.randwrap{grid-template-columns:1fr}}
 .ecbtn{border-color:#2a4a6b;color:var(--blue)}.ecbtn.on{background:var(--blue);color:#0c0e11;font-weight:700}
@@ -736,7 +737,10 @@ audio{width:100%;height:32px}
     var pool=randPool(), known=pool.filter(function(p){ return YTA.known(p.groupe,p.album); }).length;
     $('randInfo').textContent=pool.length+' album(s) dans la sélection, dont '+known+' avec lecture YouTube déjà connue'+(YTA.getKey()?' (les autres seront cherchés à la volée)':' — sans clé YouTube, seuls ceux-là peuvent être lus');
   }
-  var RAND={played:[], current:null, player:null, apiReady:false, apiLoading:false, busy:false};
+  var RAND={played:[], current:null, player:null, apiReady:false, apiLoading:false, busy:false, gesture:false};
+  document.addEventListener('pointerdown',function(){ RAND.gesture=true; },true); document.addEventListener('keydown',function(){ RAND.gesture=true; },true);
+  function randUserActive(){ if(navigator.userActivation && typeof navigator.userActivation.hasBeenActive==='boolean') return navigator.userActivation.hasBeenActive; return RAND.gesture; }
+  function randOverlay(show){ var host=document.querySelector('.randplayer'); if(!host) return; var ov=host.querySelector('.randoverlay'); if(!show){ if(ov) ov.remove(); return; } if(ov) return; ov=document.createElement('button'); ov.className='randoverlay'; ov.type='button'; ov.innerHTML='▶<span>Écouter</span>'; ov.addEventListener('click',function(){ RAND.gesture=true; ov.remove(); if(RAND.player && RAND.player.playVideo){ try{ RAND.player.playVideo(); }catch(e){} } else if(RAND.current){ randPlayId(RAND.current); } }); host.appendChild(ov); }
   function loadYtApi(cb){ if(window.YT && window.YT.Player){ cb(); return; } var done=false; function once(err){ if(done) return; done=true; cb(err); } if(!RAND.apiLoading){ RAND.apiLoading=true; window.onYouTubeIframeAPIReady=function(){ RAND.apiReady=true; }; var sc=document.createElement('script'); sc.src='https://www.youtube.com/iframe_api'; sc.onerror=function(){ once(new Error('api')); }; document.body.appendChild(sc); } var t=setInterval(function(){ if(window.YT&&window.YT.Player){ clearInterval(t); once(); } },150); setTimeout(function(){ clearInterval(t); once(new Error('timeout')); },8000); }
   function randPick(){
     var pool=randPool(); if(!pool.length){ toast('Aucun album dans cette sélection'); return null; }
@@ -772,6 +776,7 @@ audio{width:100%;height:32px}
       // lecteur déjà en place : on lui charge simplement le nouvel album (bien plus rapide)
       var wasPlaying=!!RAND.playing;
       RAND.prevWant=RAND.want; RAND.want={id:c.id, video:!!c.video}; RAND.loadedAt=Date.now(); RAND.reconciled=false; randWatchdog();
+      randOverlay(false);
       if(wasPlaying && RAND.player && RAND.player.loadPlaylist && host.querySelector('iframe')){ try{ if(c.video) RAND.player.loadVideoById(c.id); else RAND.player.loadPlaylist({list:c.id, listType:'playlist'}); return; }catch(x){} }
       host.innerHTML='<div id="randPlayer"></div>';
       try{
@@ -784,12 +789,14 @@ audio{width:100%;height:32px}
   function randIsWanted(){ try{ if(!RAND.player||!RAND.want) return true; if(RAND.want.video){ var vd=RAND.player.getVideoData&&RAND.player.getVideoData(); return !vd||!vd.video_id||vd.video_id===RAND.want.id; } var pl=RAND.player.getPlaylistId&&RAND.player.getPlaylistId(); return !pl||pl===RAND.want.id; }catch(e){ return true; } }
   function randPlayingId(){ try{ if(!RAND.player) return ''; var vd=RAND.player.getVideoData&&RAND.player.getVideoData(); var pl=RAND.player.getPlaylistId&&RAND.player.getPlaylistId(); return pl||(vd&&vd.video_id)||''; }catch(e){ return ''; } }
   function randReconcile(){ if(RAND.reconciled || !RAND.want || !RAND.prevWant) return; var cur=randPlayingId(); if(!cur || cur===RAND.want.id) return; if(cur!==RAND.prevWant.id) return; RAND.reconciled=true; /* c'est l'album précédent qui joue : on repart d'un lecteur neuf sur le bon */ RAND.playing=false; randRecreate(); }
-  function randWatchdog(){ clearTimeout(RAND.wdTimer); RAND.playing=false; var stamp=RAND.loadedAt; RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ var st=RAND.player&&RAND.player.getPlayerState&&RAND.player.getPlayerState(); if(st===1) return; }catch(e){} $('randInfo').textContent='YouTube met du temps à démarrer… nouvelle tentative.'; randRecreate(); RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ if(RAND.player.getPlayerState()===1) return; }catch(e){} $('randInfo').textContent='Cet album ne démarre pas sur YouTube — passage au suivant.'; randNext(); },45000); },45000); }
+  function randWatchdog(){ clearTimeout(RAND.wdTimer); RAND.playing=false; var stamp=RAND.loadedAt; RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; if(!randUserActive()){ randOverlay(true); return; } try{ var st=RAND.player&&RAND.player.getPlayerState&&RAND.player.getPlayerState(); if(st===1) return; }catch(e){} $('randInfo').textContent='YouTube met du temps à démarrer… nouvelle tentative.'; randRecreate(); RAND.wdTimer=setTimeout(function(){ if(RAND.loadedAt!==stamp || RAND.playing) return; try{ if(RAND.player.getPlayerState()===1) return; }catch(e){} $('randInfo').textContent='Cet album ne démarre pas sur YouTube — passage au suivant.'; randNext(); },45000); },45000); }
+  function randMessageActivation(){ if(!randUserActive()) $('randInfo').textContent='Clique sur ▶ Écouter : le navigateur exige un clic avant la première lecture.'; }
   function randRecreate(){ if(!RAND.current) return; var c=YTA.cache[key(RAND.current.groupe,RAND.current.album)]||{}; if(!c.id) return; RAND.playing=false; var host=document.querySelector('.randplayer'); host.innerHTML='<div id="randPlayer"></div>'; try{ if(RAND.player && RAND.player.destroy){ try{ RAND.player.destroy(); }catch(x){} } RAND.player=null; randBuildPlayer(c); }catch(e){} }
   function randBuildPlayer(c){
-    var vars={autoplay:1, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
-      onReady:function(e){ try{ e.target.playVideo(); }catch(x){} },
-      onStateChange:function(e){ if(e.data===YT.PlayerState.PLAYING){ randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
+    var active=randUserActive();
+    var vars={autoplay:active?1:0, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
+      onReady:function(e){ if(randUserActive()){ try{ e.target.playVideo(); }catch(x){} } else { randOverlay(true); } },
+      onStateChange:function(e){ if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
       onError:function(e){ toast('YouTube ne peut pas lire cet album ici (vidéo '+(e&&e.data)+') — suivant'); setTimeout(randNext, 1200); }
     }};
     if(c.video) opts.videoId=c.id; else { vars.listType='playlist'; vars.list=c.id; }
@@ -803,7 +810,7 @@ audio{width:100%;height:32px}
       var p=null; if(RAND.prefetched && YTA.known(RAND.prefetched.groupe,RAND.prefetched.album) && RAND.played.indexOf(key(RAND.prefetched.groupe,RAND.prefetched.album))<0){ p=RAND.prefetched; } RAND.prefetched=null;
       if(!p) p=randPick(); if(!p){ RAND.busy=false; $('randNext').disabled=false; return; }
       $('randInfo').textContent='Recherche de la lecture YouTube pour '+p.groupe+' — '+p.album+'…';
-      YTA.find(p.groupe,p.album,function(id,msg){ if(id){ RAND.busy=false; $('randNext').disabled=false; randShow(p); randPlayId(p); $('randInfo').textContent=''; setTimeout(randPrefetch, 3000); return; }
+      YTA.find(p.groupe,p.album,function(id,msg){ if(id){ RAND.busy=false; $('randNext').disabled=false; randShow(p); randPlayId(p); $('randInfo').textContent=''; randMessageActivation(); setTimeout(randPrefetch, 3000); return; }
         RAND.played.push(key(p.groupe,p.album)); tries++; if(tries<6 && !/quota|clé YouTube/i.test(msg||'')){ attempt(); } else { RAND.busy=false; $('randNext').disabled=false; toast(msg||'Rien à lire dans cette sélection'); $('randInfo').textContent=msg||''; } });
     }
     attempt();
