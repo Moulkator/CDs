@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:41:28.524Z",
+ "maj": "2026-09-22T20:41:31.840Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -938,6 +938,12 @@
    "id": "PL0l7xbAkeaFNSKeQ1tQ1Rz13_e0hjTiRN",
    "title": "Hypocrisy - End of Disclosure (Full Album)",
    "t": 1790109687018,
+   "bad": []
+  },
+  "dimmu borgir|grand serpent rising": {
+   "id": "PLA6fygbZp6OKrv-rZglYEgW3aRvXn9Hdo",
+   "title": "DIMMU BORGIR THE GRAND SERPENT RISING FULL ALBUM 2026",
+   "t": 1790109690327,
    "bad": []
   }
  },
