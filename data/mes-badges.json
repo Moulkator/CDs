@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:22.014Z",
+ "maj": "2026-09-22T20:15:26.960Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -878,6 +878,13 @@
    "id": "PL44gxJwuwoabFwfI3_uX5kSodtEZZT2wi",
    "title": "PALADIN (🇺🇸)🔸2019🔸Ascension",
    "t": 1790108120485,
+   "bad": []
+  },
+  "elffor|into the dark forest": {
+   "id": "kTT5WFOogtQ",
+   "video": true,
+   "title": "Elffor - Into the Dark Forest... (Full Album)",
+   "t": 1790108125456,
    "bad": []
   }
  },
