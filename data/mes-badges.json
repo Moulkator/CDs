@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T19:40:00.292Z",
+ "maj": "2026-09-22T19:40:25.811Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -656,6 +656,18 @@
    "video": true,
    "title": "Öxxö Xööx - &quot;Nämïdäë&quot; [Full Album - Official - HD]",
    "t": 1790105998777,
+   "bad": []
+  },
+  "neaera|neaera": {
+   "id": "PLZyrWILi75rKDBG3SaMwscWzmr3QVk0xE",
+   "title": "Neaera - Rising Tide Of Oblivion (Full Album)",
+   "t": 1790106023984,
+   "bad": []
+  },
+  "arafel|for battles once fought": {
+   "id": "PLE6DB4978BA3A64E8",
+   "title": "Arafel - For Battles Once Fought Album",
+   "t": 1790106024307,
    "bad": []
   }
  },
