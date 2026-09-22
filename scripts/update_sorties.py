@@ -184,12 +184,13 @@ def caa_front(rg_id):
 
 
 def mb_releases(artist, mbid):
+    """Renvoie la liste des sorties, ou None si MusicBrainz n'a pas répondu."""
     out = []
     offset = 0
     while True:
         js = mb_get("/release-group", {"artist": mbid, "limit": 100, "offset": offset})
-        if not js:
-            break
+        if js is None:
+            return None
         for rg in js.get("release-groups", []):
             ptype = rg.get("primary-type") or ""
             if ptype not in ("Album", "EP"):
@@ -418,20 +419,32 @@ def main():
         cur["refs"] = sorted(set(cur.get("refs", []) + item.get("refs", [])))
 
     n = len(artists)
+    failed = set()   # groupes dont MusicBrainz n'a pas répondu : on garde leurs sorties du passage précédent
     for i, artist in enumerate(artists, 1):
         print(f"[{i}/{n}] {artist['groupe']}")
         try:
             mbid = resolve_mbid(artist, cache)
             if mbid:
-                for it in mb_releases(artist, mbid):
-                    add(it)
+                rels = mb_releases(artist, mbid)
+                if rels is None:
+                    failed.add(norm(artist["groupe"]))
+                    print(f"  ! MusicBrainz sans réponse pour {artist['groupe']} : anciennes sorties conservées", file=sys.stderr)
+                else:
+                    for it in rels:
+                        add(it)
         except Exception as e:  # on ne veut jamais planter tout le run pour un groupe
+            failed.add(norm(artist["groupe"]))
             print(f"  ! MusicBrainz échec {artist['groupe']}: {e}", file=sys.stderr)
         try:
             for it in deezer_releases(artist):
                 add(it)
         except Exception as e:
             print(f"  ! Deezer échec {artist['groupe']}: {e}", file=sys.stderr)
+    for k, it in prev_by_key.items():
+        if norm(it.get("groupe", "")) in failed and k not in merged:
+            merged[k] = it
+    if failed:
+        print(f"{len(failed)} groupe(s) sans réponse MusicBrainz ce passage, sorties précédentes reportées")
         if i % 25 == 0:
             with open(CACHE_FILE, "w", encoding="utf-8") as f:
                 json.dump(cache, f, ensure_ascii=False, indent=1)
@@ -489,6 +502,12 @@ def main():
             if detail and detail.get("duration") and detail.get("record_type") != "single":
                 it["duree"] = str(round(detail["duration"] / 60))
     items = sorted(items, key=lambda x: (x["date"] or "9999", norm(x["groupe"])))
+    prev_n = len(previous.get("items", []))
+    if prev_n >= 100 and len(items) < 0.6 * prev_n and os.environ.get("FORCE_SORTIES") != "1":
+        print(f"!! Seulement {len(items)} sorties contre {prev_n} au passage précédent : sources probablement défaillantes, fichier conservé tel quel (FORCE_SORTIES=1 pour forcer)", file=sys.stderr)
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=1)
+        return
     out = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "sources": ["manuel", "musicbrainz", "deezer"],
