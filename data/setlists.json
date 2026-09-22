@@ -1,1 +1,1327 @@
-{"generated": "", "items": []}
+{
+"generated": "2026-09-22T21:27:54Z",
+"items": [
+{
+"groupe": "Ensiferum",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/ensiferum-43d68317.html",
+"updated": "2026-09-22",
+"avg": 12.1,
+"derniere": "16-09-2026",
+"songs": [
+{
+"t": "Andromeda",
+"pct": 100
+},
+{
+"t": "Fatherland",
+"pct": 100
+},
+{
+"t": "In My Sword I Trust",
+"pct": 100
+},
+{
+"t": "The Howl",
+"pct": 100
+},
+{
+"t": "Winter Storm Vigilantes",
+"pct": 100
+},
+{
+"t": "Lai Lai Hei",
+"pct": 90
+},
+{
+"t": "One More Magic Potion",
+"pct": 90
+},
+{
+"t": "Way of the Warrior",
+"pct": 90
+},
+{
+"t": "Treacherous Gods",
+"pct": 60
+},
+{
+"t": "Two of Spades",
+"pct": 60
+},
+{
+"t": "Axe of Judgement",
+"pct": 50
+},
+{
+"t": "For Sirens",
+"pct": 50
+},
+{
+"t": "Run From the Crushing Tide",
+"pct": 50
+},
+{
+"t": "Stone Cold Metal",
+"pct": 50
+},
+{
+"t": "Token of Time",
+"pct": 50
+},
+{
+"t": "Cold Northland (Väinämöinen Part III)",
+"pct": 40
+}
+]
+},
+{
+"groupe": "Vader",
+"n": 7,
+"url": "https://www.setlist.fm/setlists/vader-2bd6f48e.html",
+"updated": "2026-09-22",
+"avg": 16.7,
+"derniere": "19-09-2026",
+"songs": [
+{
+"t": "Cold Demons",
+"pct": 100
+},
+{
+"t": "Fractal Light",
+"pct": 100
+},
+{
+"t": "Kingdom",
+"pct": 100
+},
+{
+"t": "Lead Us!!!",
+"pct": 100
+},
+{
+"t": "Predator",
+"pct": 100
+},
+{
+"t": "Reign Forever World",
+"pct": 100
+},
+{
+"t": "Sothis",
+"pct": 100
+},
+{
+"t": "The Book",
+"pct": 100
+},
+{
+"t": "The One Made of Dreams",
+"pct": 100
+},
+{
+"t": "This Is the War",
+"pct": 100
+},
+{
+"t": "Wings",
+"pct": 100
+},
+{
+"t": "Privilege of the Gods",
+"pct": 86
+},
+{
+"t": "Triumph of Death",
+"pct": 71
+},
+{
+"t": "Unbending",
+"pct": 71
+},
+{
+"t": "Vicious Circle",
+"pct": 71
+},
+{
+"t": "Carnal",
+"pct": 57
+},
+{
+"t": "Dark Age",
+"pct": 57
+},
+{
+"t": "Hell Awaits / Raining Blood",
+"pct": 57
+},
+{
+"t": "Breath of Centuries",
+"pct": 43
+},
+{
+"t": "Dark Age / Carnal",
+"pct": 43
+}
+]
+},
+{
+"groupe": "Alcest",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/alcest-5bd6f73c.html",
+"updated": "2026-09-22",
+"avg": 6.9,
+"derniere": "19-09-2026",
+"songs": [
+{
+"t": "Kodama",
+"pct": 90
+},
+{
+"t": "Protection",
+"pct": 90
+},
+{
+"t": "Sapphire",
+"pct": 90
+},
+{
+"t": "Écailles de lune - Part 2",
+"pct": 90
+},
+{
+"t": "Eclosion",
+"pct": 80
+},
+{
+"t": "Améthyste",
+"pct": 60
+},
+{
+"t": "Le miroir",
+"pct": 60
+},
+{
+"t": "Autre temps",
+"pct": 40
+},
+{
+"t": "Flamme jumelle",
+"pct": 40
+},
+{
+"t": "L’Envol",
+"pct": 40
+}
+]
+},
+{
+"groupe": "All Shall Perish",
+"n": 7,
+"url": "https://www.setlist.fm/setlists/all-shall-perish-3bd6fce8.html",
+"updated": "2026-09-22",
+"avg": 12.0,
+"derniere": "12-09-2026",
+"songs": [
+{
+"t": "Better Living Through Catastrophe",
+"pct": 100
+},
+{
+"t": "Eradication",
+"pct": 100
+},
+{
+"t": "Prisoner of War",
+"pct": 100
+},
+{
+"t": "Promises",
+"pct": 100
+},
+{
+"t": "The Day of Justice",
+"pct": 100
+},
+{
+"t": "The Last Relapse",
+"pct": 100
+},
+{
+"t": "The True Beast",
+"pct": 100
+},
+{
+"t": "There Is No Business to Be Done on a Dead Planet",
+"pct": 100
+},
+{
+"t": "Wage Slaves",
+"pct": 100
+},
+{
+"t": "We Hold These Truths...",
+"pct": 100
+},
+{
+"t": "Greyson",
+"pct": 86
+},
+{
+"t": "Never...Again",
+"pct": 43
+},
+{
+"t": "Be as Kings, Be as Gods",
+"pct": 29
+},
+{
+"t": "Be as kings be as gods",
+"pct": 29
+}
+]
+},
+{
+"groupe": "Galactic Empire",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/galactic-empire-bce8126.html",
+"updated": "2026-09-22",
+"avg": 12.9,
+"derniere": "20-09-2026",
+"songs": [
+{
+"t": "Duel of the Fates",
+"pct": 100
+},
+{
+"t": "Star Wars: Main Title",
+"pct": 100
+},
+{
+"t": "The Imperial March (Darth Vader's Theme)",
+"pct": 100
+},
+{
+"t": "20th Century Fox Fanfare",
+"pct": 90
+},
+{
+"t": "Cantina Band",
+"pct": 90
+},
+{
+"t": "The Mandalorian",
+"pct": 90
+},
+{
+"t": "Batman",
+"pct": 70
+},
+{
+"t": "Battle of the Heroes",
+"pct": 70
+},
+{
+"t": "Godzilla",
+"pct": 70
+},
+{
+"t": "Pirates of the Caribbean",
+"pct": 70
+},
+{
+"t": "The Force Theme",
+"pct": 70
+},
+{
+"t": "The Terminator",
+"pct": 70
+},
+{
+"t": "Throne Room / End Credits",
+"pct": 60
+},
+{
+"t": "March of the Resistance",
+"pct": 50
+},
+{
+"t": "The Book of Boba Fett",
+"pct": 50
+},
+{
+"t": "Halloween Theme",
+"pct": 30
+},
+{
+"t": "Battle Of Hoth",
+"pct": 20
+},
+{
+"t": "Theme From Jurassic Park",
+"pct": 20
+},
+{
+"t": "Throne Room / Finale / End Credits from “The Empire Strikes Back”",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Psychostick",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/psychostick-2bd7c476.html",
+"updated": "2026-09-22",
+"avg": 14.4,
+"derniere": "19-09-2026",
+"songs": [
+{
+"t": "BEER!!",
+"pct": 100
+},
+{
+"t": "Numbers (I Can Only Count to Four)",
+"pct": 100
+},
+{
+"t": "ABCDEath",
+"pct": 90
+},
+{
+"t": "This Is Not a Song, It's a Sandwich",
+"pct": 90
+},
+{
+"t": "Ultra Mega Fast",
+"pct": 90
+},
+{
+"t": "Bruce Campbell",
+"pct": 70
+},
+{
+"t": "Do You Want a Taco?",
+"pct": 70
+},
+{
+"t": "Dogs Like Socks",
+"pct": 70
+},
+{
+"t": "Sombrero Prophecy",
+"pct": 70
+},
+{
+"t": "From the Heart (I Hate You)",
+"pct": 60
+},
+{
+"t": "So. Heavy.",
+"pct": 60
+},
+{
+"t": "¡Mi Queso!",
+"pct": 60
+},
+{
+"t": "Hokey Fucking Pokey",
+"pct": 50
+},
+{
+"t": "NSFW",
+"pct": 50
+},
+{
+"t": "Polluto",
+"pct": 50
+},
+{
+"t": "Shower",
+"pct": 50
+},
+{
+"t": "You Beat the Game!",
+"pct": 50
+},
+{
+"t": "Because Boobs",
+"pct": 40
+},
+{
+"t": "Danger Zone",
+"pct": 40
+},
+{
+"t": "Obey the Beard",
+"pct": 40
+},
+{
+"t": "We Are a Band",
+"pct": 40
+},
+{
+"t": "Smooches",
+"pct": 20
+},
+{
+"t": "Welcome to the Show",
+"pct": 20
+},
+{
+"t": "World's Shortest Song",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Revocation",
+"n": 8,
+"url": "https://www.setlist.fm/setlists/revocation-7bd4d2d0.html",
+"updated": "2026-09-22",
+"avg": 11.2,
+"derniere": "19-09-2026",
+"songs": [
+{
+"t": "Bound by Desire",
+"pct": 100
+},
+{
+"t": "Confines of Infinity",
+"pct": 100
+},
+{
+"t": "Data Corpse",
+"pct": 100
+},
+{
+"t": "Dismantle the Dictator",
+"pct": 100
+},
+{
+"t": "Fracked",
+"pct": 100
+},
+{
+"t": "Nihilistic Violence",
+"pct": 100
+},
+{
+"t": "Of Unworldly Origin",
+"pct": 100
+},
+{
+"t": "Only the Spineless Survive",
+"pct": 100
+},
+{
+"t": "Scorched Earth Policy",
+"pct": 100
+},
+{
+"t": "Summon the Spawn",
+"pct": 100
+},
+{
+"t": "Chaos of Forms",
+"pct": 62
+},
+{
+"t": "The All Seeing",
+"pct": 62
+}
+]
+},
+{
+"groupe": "Rise Against",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/rise-against-6bd68a0e.html",
+"updated": "2026-09-22",
+"avg": 12.6,
+"derniere": "18-09-2026",
+"songs": [
+{
+"t": "Give It All",
+"pct": 100
+},
+{
+"t": "Prayer of the Refugee",
+"pct": 100
+},
+{
+"t": "Re-Education (Through Labor)",
+"pct": 100
+},
+{
+"t": "Ready to Fall",
+"pct": 100
+},
+{
+"t": "Satellite",
+"pct": 100
+},
+{
+"t": "Savior",
+"pct": 100
+},
+{
+"t": "Swing Life Away",
+"pct": 100
+},
+{
+"t": "The Good Left Undone",
+"pct": 100
+},
+{
+"t": "Chamber the Cartridge",
+"pct": 90
+},
+{
+"t": "Under the Knife",
+"pct": 90
+},
+{
+"t": "Nod",
+"pct": 70
+},
+{
+"t": "Help Is on the Way",
+"pct": 60
+},
+{
+"t": "Like the Angel",
+"pct": 50
+},
+{
+"t": "Make It Stop (September's Children)",
+"pct": 50
+},
+{
+"t": "Hero of War",
+"pct": 40
+}
+]
+},
+{
+"groupe": "Igorrr",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/igorrr-33d644d1.html",
+"updated": "2026-09-22",
+"avg": 14.0,
+"derniere": "21-09-2026",
+"songs": [
+{
+"t": "Headbutt",
+"pct": 100
+},
+{
+"t": "Blastbeat Falafel",
+"pct": 90
+},
+{
+"t": "Daemoni",
+"pct": 90
+},
+{
+"t": "Downgrade Desert",
+"pct": 90
+},
+{
+"t": "Infestis",
+"pct": 90
+},
+{
+"t": "Nervous Waltz",
+"pct": 90
+},
+{
+"t": "Opus Brain",
+"pct": 90
+},
+{
+"t": "Very Noise",
+"pct": 90
+},
+{
+"t": "Viande",
+"pct": 90
+},
+{
+"t": "ADHD",
+"pct": 80
+},
+{
+"t": "Camel Dancefloor",
+"pct": 80
+},
+{
+"t": "Polyphonic Rust",
+"pct": 80
+},
+{
+"t": "Spaghetti Forever",
+"pct": 80
+},
+{
+"t": "ieuD",
+"pct": 80
+},
+{
+"t": "Hollow Tree",
+"pct": 60
+},
+{
+"t": "Himalaya Massive Ritual",
+"pct": 50
+},
+{
+"t": "Pure Disproportionate Black and White Nihilism",
+"pct": 50
+},
+{
+"t": "Silence",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Fear Factory",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/fear-factory-13d699d1.html",
+"updated": "2026-09-22",
+"avg": 17.0,
+"derniere": "21-09-2026",
+"songs": [
+{
+"t": "Acres of Skin",
+"pct": 100
+},
+{
+"t": "Archetype",
+"pct": 100
+},
+{
+"t": "Arise Above Oppression",
+"pct": 100
+},
+{
+"t": "Demanufacture",
+"pct": 100
+},
+{
+"t": "Edgecrusher",
+"pct": 100
+},
+{
+"t": "Industrial Discipline",
+"pct": 100
+},
+{
+"t": "Invisible Wounds (Dark Bodies)",
+"pct": 100
+},
+{
+"t": "Linchpin",
+"pct": 100
+},
+{
+"t": "Martyr",
+"pct": 100
+},
+{
+"t": "No One",
+"pct": 100
+},
+{
+"t": "Powershifter",
+"pct": 100
+},
+{
+"t": "Replica",
+"pct": 100
+},
+{
+"t": "Resurrection",
+"pct": 100
+},
+{
+"t": "Roboticist",
+"pct": 100
+},
+{
+"t": "Shock",
+"pct": 100
+},
+{
+"t": "Soul Hacker",
+"pct": 100
+},
+{
+"t": "Zero Signal",
+"pct": 100
+}
+]
+},
+{
+"groupe": "Devin Townsend",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/devin-townsend-33d6b0f5.html",
+"updated": "2026-09-22",
+"avg": 26.6,
+"derniere": "22-09-2026",
+"songs": [
+{
+"t": "AAA",
+"pct": 100
+},
+{
+"t": "Aftermath",
+"pct": 100
+},
+{
+"t": "Almost Again",
+"pct": 100
+},
+{
+"t": "Bring Him Home",
+"pct": 100
+},
+{
+"t": "Coast",
+"pct": 100
+},
+{
+"t": "Deadhead",
+"pct": 100
+},
+{
+"t": "Deep Peace",
+"pct": 100
+},
+{
+"t": "Fake Punk",
+"pct": 100
+},
+{
+"t": "Feather",
+"pct": 100
+},
+{
+"t": "From the Heart",
+"pct": 100
+},
+{
+"t": "Funeral",
+"pct": 100
+},
+{
+"t": "Hyperdrive",
+"pct": 100
+},
+{
+"t": "Ih-Ah!",
+"pct": 100
+},
+{
+"t": "Life",
+"pct": 100
+},
+{
+"t": "Lightworker",
+"pct": 100
+},
+{
+"t": "Love?",
+"pct": 100
+},
+{
+"t": "Material",
+"pct": 100
+},
+{
+"t": "S.Y.L.",
+"pct": 100
+},
+{
+"t": "Solar Winds",
+"pct": 100
+},
+{
+"t": "Why?",
+"pct": 100
+},
+{
+"t": "Christeen",
+"pct": 90
+},
+{
+"t": "Kingdom",
+"pct": 90
+},
+{
+"t": "Midnight Sun",
+"pct": 90
+},
+{
+"t": "Let It Roll",
+"pct": 80
+},
+{
+"t": "The Mighty Masturbator",
+"pct": 70
+},
+{
+"t": "Storm",
+"pct": 60
+},
+{
+"t": "Little Pig",
+"pct": 50
+},
+{
+"t": "Truth",
+"pct": 50
+},
+{
+"t": "Life Is But a Dream",
+"pct": 20
+},
+{
+"t": "Mountaintop",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Machine Head",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/machine-head-13d69909.html",
+"updated": "2026-09-22",
+"avg": 10.9,
+"derniere": "21-09-2026",
+"songs": [
+{
+"t": "BØNESCRAPER",
+"pct": 100
+},
+{
+"t": "CHØKE ØN THE ASHES ØF YØUR HATE",
+"pct": 100
+},
+{
+"t": "Davidian",
+"pct": 100
+},
+{
+"t": "Imperium",
+"pct": 100
+},
+{
+"t": "ØUTSIDER",
+"pct": 100
+},
+{
+"t": "Locust",
+"pct": 90
+},
+{
+"t": "Is There Anybody Out There?",
+"pct": 80
+},
+{
+"t": "Game Over",
+"pct": 70
+},
+{
+"t": "From This Day",
+"pct": 30
+},
+{
+"t": "Ten Ton Hammer",
+"pct": 30
+},
+{
+"t": "ARRØWS IN WØRDS FRØM THE SKY",
+"pct": 20
+},
+{
+"t": "Aesthetics of Hate",
+"pct": 20
+},
+{
+"t": "Bulldozer",
+"pct": 20
+},
+{
+"t": "Catharsis",
+"pct": 20
+},
+{
+"t": "Darkness Within",
+"pct": 20
+},
+{
+"t": "Halo",
+"pct": 20
+},
+{
+"t": "Now I Lay Thee Down",
+"pct": 20
+},
+{
+"t": "Now We Die",
+"pct": 20
+},
+{
+"t": "Old",
+"pct": 20
+},
+{
+"t": "SLAUGHTER THE MARTYR",
+"pct": 20
+},
+{
+"t": "Take My Scars",
+"pct": 20
+},
+{
+"t": "The Blood, the Sweat, the Tears",
+"pct": 20
+},
+{
+"t": "The Rage to Overcome",
+"pct": 20
+},
+{
+"t": "This Is the End",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Sabaton",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/sabaton-13d6d1c5.html",
+"updated": "2026-09-22",
+"avg": 17.7,
+"derniere": "17-09-2026",
+"songs": [
+{
+"t": "Ghost Division",
+"pct": 100
+},
+{
+"t": "Primo Victoria",
+"pct": 100
+},
+{
+"t": "Stormtroopers",
+"pct": 100
+},
+{
+"t": "Templars",
+"pct": 100
+},
+{
+"t": "The Last Stand",
+"pct": 100
+},
+{
+"t": "The Red Baron",
+"pct": 100
+},
+{
+"t": "To Hell and Back",
+"pct": 100
+},
+{
+"t": "Bismarck",
+"pct": 90
+},
+{
+"t": "Christmas Truce",
+"pct": 90
+},
+{
+"t": "Crossing the Rubicon",
+"pct": 90
+},
+{
+"t": "Great War",
+"pct": 90
+},
+{
+"t": "Hordes of Khan",
+"pct": 90
+},
+{
+"t": "I, Emperor",
+"pct": 90
+},
+{
+"t": "Night Witches",
+"pct": 90
+},
+{
+"t": "Soldier of Heaven",
+"pct": 90
+},
+{
+"t": "Swedish Pagans",
+"pct": 90
+},
+{
+"t": "The Attack of the Dead Men",
+"pct": 90
+},
+{
+"t": "Yamato",
+"pct": 90
+},
+{
+"t": "Coat of Arms",
+"pct": 50
+}
+]
+},
+{
+"groupe": "Allegaeon",
+"n": 5,
+"url": "https://www.setlist.fm/setlists/allegaeon-5bd4cf20.html",
+"updated": "2026-09-22",
+"avg": 8.4,
+"derniere": "21-09-2026",
+"songs": [
+{
+"t": "1.618",
+"pct": 100
+},
+{
+"t": "Biomech - Vals No. 666",
+"pct": 80
+},
+{
+"t": "Gray Matter Mechanics - Apassionata Ex Machinea",
+"pct": 80
+},
+{
+"t": "Of Beasts and Worms",
+"pct": 80
+},
+{
+"t": "Proponent for Sentience III - The Extermination",
+"pct": 80
+},
+{
+"t": "The Swarm",
+"pct": 80
+},
+{
+"t": "Wake Circling Above",
+"pct": 80
+},
+{
+"t": "Behold (God I Am)",
+"pct": 60
+},
+{
+"t": "Threshold of Perception",
+"pct": 60
+},
+{
+"t": "Stellar Tidal Disruption",
+"pct": 40
+},
+{
+"t": "All Hail Science",
+"pct": 20
+},
+{
+"t": "Chaos Theory",
+"pct": 20
+},
+{
+"t": "Dark Matter Dynamics",
+"pct": 20
+},
+{
+"t": "Formshifter",
+"pct": 20
+},
+{
+"t": "Our Cosmic Casket",
+"pct": 20
+}
+]
+},
+{
+"groupe": "Gorod",
+"n": 7,
+"url": "https://www.setlist.fm/setlists/gorod-2bd6fc76.html",
+"updated": "2026-09-22",
+"avg": 10.4,
+"derniere": "21-09-2026",
+"songs": [
+{
+"t": "Bekhten's Curse",
+"pct": 100
+},
+{
+"t": "Disavow Your God",
+"pct": 100
+},
+{
+"t": "The Orb",
+"pct": 100
+},
+{
+"t": "We Are the Sun Gods",
+"pct": 100
+},
+{
+"t": "Wolfsmond",
+"pct": 100
+},
+{
+"t": "Birds of Sulphur",
+"pct": 86
+},
+{
+"t": "Forgiveness",
+"pct": 86
+},
+{
+"t": "Remains",
+"pct": 86
+},
+{
+"t": "Signs",
+"pct": 86
+},
+{
+"t": "The Path",
+"pct": 86
+},
+{
+"t": "The Axe of God",
+"pct": 71
+}
+]
+},
+{
+"groupe": "Amorphis",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/amorphis-7bd682f4.html",
+"updated": "2026-09-22",
+"avg": 13.6,
+"derniere": "19-09-2026",
+"songs": [
+{
+"t": "Black Winter Day",
+"pct": 100
+},
+{
+"t": "Bones",
+"pct": 100
+},
+{
+"t": "Dancing Shadow",
+"pct": 100
+},
+{
+"t": "House of Sleep",
+"pct": 100
+},
+{
+"t": "Light and Shadow",
+"pct": 100
+},
+{
+"t": "Silver Bride",
+"pct": 100
+},
+{
+"t": "The Bee",
+"pct": 100
+},
+{
+"t": "The Moon",
+"pct": 100
+},
+{
+"t": "Wrong Direction",
+"pct": 100
+},
+{
+"t": "Sampo",
+"pct": 90
+},
+{
+"t": "The Castaway",
+"pct": 80
+},
+{
+"t": "The Lantern",
+"pct": 80
+},
+{
+"t": "Fog to Fog",
+"pct": 70
+},
+{
+"t": "Death of a King",
+"pct": 60
+},
+{
+"t": "The Smoke",
+"pct": 60
+}
+]
+},
+{
+"groupe": "Iotunn",
+"n": 10,
+"url": "https://www.setlist.fm/setlists/iotunn-4bc24b0a.html",
+"updated": "2026-09-22",
+"avg": 7.6,
+"derniere": "14-08-2026",
+"songs": [
+{
+"t": "Kinship Elegiac",
+"pct": 100
+},
+{
+"t": "Mistland",
+"pct": 100
+},
+{
+"t": "The Anguished Ethereal",
+"pct": 100
+},
+{
+"t": "The Tower of Cosmic Nihility",
+"pct": 90
+},
+{
+"t": "Earth to Sky",
+"pct": 80
+},
+{
+"t": "Twilight",
+"pct": 80
+},
+{
+"t": "I Feel the Night",
+"pct": 70
+},
+{
+"t": "Laihem's Golden Pits",
+"pct": 60
+},
+{
+"t": "Safe Across the Endless Night",
+"pct": 60
+}
+]
+}
+]
+}
