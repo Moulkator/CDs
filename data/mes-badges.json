@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:15:26.960Z",
+ "maj": "2026-09-22T20:15:30.311Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -885,6 +885,12 @@
    "video": true,
    "title": "Elffor - Into the Dark Forest... (Full Album)",
    "t": 1790108125456,
+   "bad": []
+  },
+  "papa roach|20 20": {
+   "id": "PLWVo2tank-zzoQ8kOIp2114u4tLLM0bCw",
+   "title": "Papa Roach · 20/20 (Full Album)",
+   "t": 1790108128802,
    "bad": []
   }
  },
