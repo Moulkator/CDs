@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T20:42:03Z",
+ "generated": "2026-09-22T09:33:30Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -7494,7 +7494,7 @@
    "date": "2020-04-14",
    "precision": "exact",
    "type": "ep",
-   "pochette": "https://coverartarchive.org/release-group/2ae46495-08a3-4e6c-86dd-18afdc6dc866/front-500",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/cd7139f2c6aac02e4d9794b0791d7d2e/500x500-000000-80-0-0.jpg",
    "source": "deezer+musicbrainz",
    "mb_rg": "2ae46495-08a3-4e6c-86dd-18afdc6dc866",
    "refs": [
