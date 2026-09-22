@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T20:48:42.713Z",
+ "maj": "2026-09-22T21:30:03.542Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -951,6 +951,12 @@
    "video": true,
    "title": "Dunkelnacht - Revelatio (Full album)",
    "t": 1790110121201,
+   "bad": []
+  },
+  "gloryhammer|space 1992 rise of the chaos wizards": {
+   "id": "PLL44kuYYS8ynApWZvBiifN0bdb1OaHH5i",
+   "title": "♫ ❤️ Gloryhammer - Space 1992: Rise Of The Chaos Wizards (2015) 🎧 🤘 full album",
+   "t": 1790112602031,
    "bad": []
   }
  },
