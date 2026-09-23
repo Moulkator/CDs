@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T17:09:10.857Z",
+ "maj": "2026-09-23T17:09:13.676Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2809,6 +2809,23 @@
    "bad": [
     "PLtVCVBw8XVhCDgd9EuDcBA4GRrmbormPD"
    ]
+  },
+  "@artist|dvne": {
+   "channelId": "UCtKeXxd32QDcbGJMY3xxWlg",
+   "playlists": [
+    {
+     "id": "PLYyOnndSaesPvycn2X8ZD2mVy3Z5Z2PN2",
+     "title": ""
+    }
+   ],
+   "t": 1790183352168
+  },
+  "dvne|voidkind": {
+   "id": "PLYyOnndSaesPvycn2X8ZD2mVy3Z5Z2PN2",
+   "title": "",
+   "t": 1790183352169,
+   "bad": [],
+   "topic": true
   }
  },
  "achetes": [
