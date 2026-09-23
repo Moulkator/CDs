@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:44:25.797Z",
+ "maj": "2026-09-23T16:44:28.803Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2142,6 +2142,78 @@
    "id": "PLAxqEQmX-PkntPNiXbm8otsEgCsq9Oqhk",
    "title": "",
    "t": 1790181864291,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|sacramentum": {
+   "channelId": "UCHPpfH0rRBXnlfwA9zOroqQ",
+   "playlists": [
+    {
+     "id": "PLmo4IpjBPoBsdmHemHtXn_-3pnYalCrac",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBvfyF0Ju36QJUBPg2jdMWXc",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBsmU3JFIVuY0T1VEYP_rZUH",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBu0idDLZrqgjMjuecfLREWk",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBtz0kYrN9O7CimLz5iHYkiT",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBvqVPn_r7nmdttlZV7Fr9dP",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBvx3bXeVnJOvJMpFkRhu53F",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBuCrjzaImvKHbiPVn9aZIaV",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBuuEslVut2CAFqEC4wuKwko",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBtDW-U0srrVnCoy3RQ5N1Ub",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBv0u9NMXgJ-CXs2pMTArfkC",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBsyGvRsDX4-pZEXJAj9dxQI",
+     "title": ""
+    },
+    {
+     "id": "PLmo4IpjBPoBuMdY3FhewjQivCw40FuNfF",
+     "title": ""
+    }
+   ],
+   "t": 1790181866738
+  },
+  "sacramentum|finis malorum": {
+   "id": "PLmo4IpjBPoBsdmHemHtXn_-3pnYalCrac",
+   "title": "",
+   "t": 1790181866739,
+   "bad": [],
+   "topic": true
+  },
+  "korpiklaani|karkelo": {
+   "id": "PLxT2pkn3MLYWyLUBRWOb2R3HV4u17-VM9",
+   "title": "",
+   "t": 1790181867303,
    "bad": [],
    "topic": true
   }
