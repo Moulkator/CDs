@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:44:35.542Z",
+ "maj": "2026-09-23T16:44:39.593Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2400,6 +2400,182 @@
    "t": 1790181874041,
    "bad": [],
    "topic": true
+  },
+  "@artist|bullet for my valentine": {
+   "channelId": "UCTmXENHeU8wvjd4I180VdBw",
+   "playlists": [
+    {
+     "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUna1rkyrqFg3dV-jfL1mJQ",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQW3yRas_ifNw6ozlDnrjoq4",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQWbc8vetUxBnzlnjOoV2fDV",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQVMgRZ2pt8Dl3GFU9IJYELl",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUNLpL5wUmvsZj11EhKUp3f",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQVg1o1WaEMLusq8Dx4tTlud",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUMbHr8L_Ci8i6SeM5gMIeE",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQVgrICawSEIrISBAxrnVpg3",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQVoJKKkCeVUuEVN9oknHifs",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQWNNbDsClRjBeZtD6HiawPv",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUAU7Krz-7rdXOFLomqBMeC",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQURaq6mHpLijSDf38qdNKZB",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUuO3IAMPn__ryPILrBPpqD",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQXIoAPZAGhAJicye1FkEKYu",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQWVMcdtIb6PPtZ52Bwa_LYs",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQUSRL3J9NH1M8VNnM9Ej6pX",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQV48Hfqe5RSkkrQkuFtJ5np",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQV5AFmAmCknEOt-vM-4thX7",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQWlsYw63IVe7DVPNK6ofgYV",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQVgm-0PhrZkRTNY15Ewrzah",
+     "title": ""
+    },
+    {
+     "id": "PLmmWbcMayTQWqGV5biO3reK8gc1YA-gM1",
+     "title": ""
+    }
+   ],
+   "t": 1790181876222
+  },
+  "bullet for my valentine|live from brixton chapter two night one": {
+   "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
+   "title": "",
+   "t": 1790181876222,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|blazing war machine": {
+   "channelId": "UCZEAVxcB10mQ030exi9LvmQ",
+   "playlists": [],
+   "t": 1790181876226
+  },
+  "blazing war machine|blazing war machine": {
+   "id": "PLJR1VelUkCWu1tksTTp0AWsCPoNDJSYs4",
+   "title": "Blazing War Machine - Blazing War Machine (Full Album)",
+   "t": 1790181876678,
+   "bad": []
+  },
+  "@artist|arckanum": {
+   "channelId": "UCpS9shJII-1fW-Tpn48V31Q",
+   "playlists": [
+    {
+     "id": "PLqBSO3V9xf_-vpH1xNSb4pVCSkHlhbiMt",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_8AS9YS-ZnasXVFkMTCCuwu",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_8a8X_ssOKrMN0IK9gGmj-J",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_-OLsH3-_UUwyu5BcB4YdpC",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_9xQXUoSxMcAYCOTsUiRcMn",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_-mpR2bP2AGTKOUrYcnASQP",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_9LgMDto7L6E-8k-RvXXhmF",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_9nPkJKU--llQMHYoNz8PY5",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_-KCabYLwAhnckV9f6sq_XN",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_9vpnHfC_upl8PnjAJGFioa",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf__OAtslPFtBlfLIASVW6l2L",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf__UsZB4HOn3pqIJstSnVS4Q",
+     "title": ""
+    },
+    {
+     "id": "PLqBSO3V9xf_9ZSr-5RGJGx3mOC3ClZO5T",
+     "title": ""
+    }
+   ],
+   "t": 1790181877793
+  },
+  "arckanum|kampen": {
+   "id": "PLrGB2Jrldw_NO7Bs10bAA9WsLGNAfDDx8",
+   "title": "Arckanum - Kampen",
+   "t": 1790181878092,
+   "bad": []
   }
  },
  "achetes": [
