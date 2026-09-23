@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T19:45:35.369Z",
+ "maj": "2026-09-23T19:45:38.124Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -3047,6 +3047,91 @@
    "id": "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
    "title": "",
    "t": 1790192733202,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|dissection": {
+   "channelId": "UCV5FNZm1u1zD0QwrxRThCyw",
+   "playlists": [
+    {
+     "id": "PLlzKBeIeWxGdiXeZ82QT1QIm9qBg2rDel",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGcoRz5DDwRvQJnfnUSJWES6",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGfR3ACZNd7VkvnDbqqsLgN1",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGfqRmx4obZUXp9ms3O7lLTM",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGeajURkGgyXF1WabvDL2ctJ",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGdY7GD3rwTzZ7Jjzxzaia3y",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGf0bxkyjRuThf-wSlCtRtqI",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGeK1eUnaROzf0hkzfeGY5Zu",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGdhpPcj9YTryyKHls48VpDz",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGemReDzZ6ojdprngp7Fmgc7",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGfNY7FSZNeelBPx2jcGeeZi",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGdDbKHzsVpH5zaI2OcAhiD3",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGf16Vu3DQeYiQhIdKISytkk",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGfJIUusERmVrXG6bLj2bp8h",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGcknmIzb0XbSfPU_vr50l9k",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGejeod5eqWQVyRfmXO43qZY",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGcjkU7db4HSGC94kqq9Su1v",
+     "title": ""
+    },
+    {
+     "id": "PLlzKBeIeWxGcyi8p8pyYT-PafQZMiKIjk",
+     "title": ""
+    }
+   ],
+   "t": 1790192736620
+  },
+  "dissection|storm of the light s bane": {
+   "id": "PLlzKBeIeWxGdiXeZ82QT1QIm9qBg2rDel",
+   "title": "",
+   "t": 1790192736622,
    "bad": [],
    "topic": true
   }
