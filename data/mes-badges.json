@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T11:25:47.598Z",
+ "maj": "2026-09-23T12:15:22.709Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1169,6 +1169,23 @@
    "title": "Paganland - Wind Of Freedom (Full Album)",
    "t": 1790162746086,
    "bad": []
+  },
+  "@artist|keep of kalessin": {
+   "channelId": "UCXSASFEXLe9PPrefnKqyURg",
+   "playlists": [
+    {
+     "id": "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL",
+     "title": ""
+    }
+   ],
+   "t": 1790165721203
+  },
+  "keep of kalessin|epistemology": {
+   "id": "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL",
+   "title": "",
+   "t": 1790165721204,
+   "bad": [],
+   "topic": true
   }
  },
  "achetes": [
