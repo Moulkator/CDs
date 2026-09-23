@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:44:41.907Z",
+ "maj": "2026-09-23T16:49:06.381Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2593,6 +2593,16 @@
    "t": 1790181880407,
    "bad": [],
    "topic": true
+  },
+  "carpenter brut|trilogy": {
+   "id": "PLrnz4iRZQNldupxG8vDDxFFtAQz9frAaw",
+   "title": "Carpenter Brut - TRILOGY (full album)💿",
+   "t": 1790182144871,
+   "bad": [
+    "PL4vgMxGLWu5te4i67cFp9AO5GYiIf_50G",
+    "PL4vgMxGLWu5sRip2NWFbO1KOh8KT9NF4G",
+    "PL4vgMxGLWu5tlwCKJLUuDtFsUSizvkb4J"
+   ]
   }
  },
  "achetes": [
