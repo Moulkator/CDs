@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-22T22:27:50.121Z",
+ "maj": "2026-09-23T07:59:36.378Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -965,6 +965,23 @@
    "id": "PLQChYBUka7qktXx_pM55RD05cjmvsnP5d",
    "title": "Angelus Apatrida - Hidden Evolution (Full Album)",
    "t": 1790113326563,
+   "bad": []
+  },
+  "@artist|kampfar": {
+   "channelId": "UCaleWUV8WYUyx1bIKXVR8zw",
+   "playlists": [
+    {
+     "id": "PLpwuErAdl9MJUHei7MWtNcTIYG48kLe6s",
+     "title": ""
+    }
+   ],
+   "t": 1790150374167
+  },
+  "kampfar|profan": {
+   "id": "duGxKJ6K2Lc",
+   "video": true,
+   "title": "Kampfar - Profan (Full Album)",
+   "t": 1790150374863,
    "bad": []
   }
  },
