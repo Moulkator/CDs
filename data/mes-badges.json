@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T12:53:13.608Z",
+ "maj": "2026-09-23T12:53:17.161Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1414,6 +1414,64 @@
    "id": "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
    "title": "",
    "t": 1790167992107,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|carcass": {
+   "channelId": "UCfaXieIHax5w0sYTmFlt4Jg",
+   "playlists": [
+    {
+     "id": "PLmCjQaBfJ2k6q3vfkj2YJS1q5hIf--2uC",
+     "title": ""
+    },
+    {
+     "id": "PLmCjQaBfJ2k7I620xL1OjUVRISoKUNFMD",
+     "title": ""
+    }
+   ],
+   "t": 1790167993620
+  },
+  "carcass|surgical remission surplus steel": {
+   "id": "PLmCjQaBfJ2k6q3vfkj2YJS1q5hIf--2uC",
+   "title": "",
+   "t": 1790167993620,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|windir": {
+   "channelId": "UC222uedFuoQgPeqcF1Ml4Ww",
+   "playlists": [
+    {
+     "id": "PLVi65bRvqG5-lJg9lViO5VeYf4bRX6xVO",
+     "title": ""
+    },
+    {
+     "id": "PLVi65bRvqG5_DseFEABgn-JCusSceYWhQ",
+     "title": ""
+    }
+   ],
+   "t": 1790167994136
+  },
+  "windir|arntor": {
+   "id": "PLrnPdwigCeBJZifk-tpGGfC2BEIDuTpId",
+   "title": "Windir - Arntor (Full Album)",
+   "t": 1790167994538,
+   "bad": []
+  },
+  "@artist|arafel": {
+   "channelId": "UC-YbHuxIOLOMEDCvvW4l5Fg",
+   "playlists": [
+    {
+     "id": "PL5L-4OV1VdJaxKMSYQF0UnpQ7H9jWlbop",
+     "title": ""
+    }
+   ],
+   "t": 1790167995661
+  },
+  "arafel|selective amnesia": {
+   "id": "PL5L-4OV1VdJaxKMSYQF0UnpQ7H9jWlbop",
+   "title": "",
+   "t": 1790167995661,
    "bad": [],
    "topic": true
   }
