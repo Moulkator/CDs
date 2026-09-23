@@ -353,6 +353,7 @@ body.has-mp .wrap{padding-bottom:120px}
       <button id="mpPlay" class="big" title="Lecture / pause">▶</button>
       <button id="mpNextTrack" title="Morceau suivant">▶▶</button>
       <button id="mpNextAlbum" title="Album suivant">⏭</button>
+      <button id="mpBan" title="Ne plus jamais lire ce morceau (vidéo parasite)">⛔</button>
     </div>
     <div class="mpseek"><span id="mpCur">0:00</span><input type="range" id="mpSeek" min="0" max="1000" value="0"><span id="mpDur">0:00</span></div>
   </div>
@@ -555,10 +556,10 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
 <script>
 (function(){
   var STATUTS=['À écouter','Écouté','Téléchargé','Acheté'];
-  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1';
+  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_YTSKIP='youtube-skip-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1';
   var PH='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0" stop-color="#2a2233"/><stop offset="1" stop-color="#12141a"/></radialGradient></defs><rect width="200" height="200" fill="url(#g)"/><text x="100" y="118" text-anchor="middle" font-size="56" fill="#4a3f5e">♫</text><text x="100" y="160" text-anchor="middle" font-size="13" fill="#6b6090" font-family="sans-serif">pochette non dévoilée</text></svg>');
   var KEY_TOKEN='gh-token-v1', KEY_REPO='gh-repo-v1', KEY_EXCLUS='sorties-exclues-v1', KEY_IGNORES='groupes-ignores-v1';
-  var STATE={auto:[],generated:'',owner:false,knownLoose:{},exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
+  var STATE={auto:[],generated:'',owner:false,knownLoose:{},skipVideos:{'J0vUqvfHQeQ':1},exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
 
   function $(id){return document.getElementById(id);}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -603,11 +604,11 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   }
   var saveBadgesTimer=null;
   function persistBadges(){
-    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus);
+    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus); saveLS(KEY_YTSKIP,STATE.skipVideos);
     if(!STATE.owner) return;
     clearTimeout(saveBadgesTimer);
     saveBadgesTimer=setTimeout(function(){
-      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:YTA.cache,achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
+      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:YTA.cache,youtube_skip:Object.keys(STATE.skipVideos),achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
     },1500);
   }
   function loadBadgesFromSite(cb){
@@ -618,6 +619,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
         (b.sorties_exclues||[]).forEach(function(m){STATE.exclus[m]=1;});
         (b.groupes_ignores||[]).forEach(function(m){STATE.ignores[m]=1;});
         (b.groupes_refuses||[]).forEach(function(m){STATE.refus[m]=1;});
+        (b.youtube_skip||[]).forEach(function(m){STATE.skipVideos[m]=1;});
         YTA.merge(b.youtube||{});
         var have={}; STATE.achetes.forEach(function(a){have[key(a.groupe,a.album)]=1;});
         (b.achetes||[]).forEach(function(a){if(!have[key(a.groupe,a.album)]) STATE.achetes.push(a);});
@@ -1075,8 +1077,8 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     $('randLinks').innerHTML='<a target="_blank" rel="noopener" href="'+(YTA.watchUrl(p.groupe,p.album)||('https://www.youtube.com/results?search_query='+q2))+'">↗ Ouvrir dans YouTube</a><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(p.groupe)+'&type=band_name">Metallum</a>';
     var item={groupe:p.groupe,album:p.album,annee:p.annee||'',pochette:p.pochette||'',duree:p.duree||'',_from:'Album aléatoire'}, kk=key(p.groupe,p.album);
     var randAl={id:0,title:p.album,artist:{name:p.groupe},cover_big:p.pochette||'',release_date:p.annee?p.annee+'-01-01':'',record_type:'album',nb_tracks:0};
-    $('randActs').innerHTML='<div class="ecoute" style="flex:1 1 100%">'+ecouteMarkup(item)+'</div><div class="wish" style="flex:1 1 100%">'+wishMarkup(item)+collMarkup(item)+'</div><button data-act="rbad" class="danger">✗ Mauvaise playlist</button><button data-act="rlink">🔗 Autre lien</button>';
-    bindEcoute($('randActs'),randAl,p.groupe); bindWish($('randActs'),item);
+    $('randActs').innerHTML='<div class="ecoute" style="flex:1 1 100%">'+ecouteMarkup(item)+'</div><div class="wish" style="flex:1 1 100%">'+wishMarkup(item)+collMarkup(item)+'</div><button data-act="rbad" class="danger">✗ Mauvaise playlist</button><button data-act="rlink">🔗 Autre lien</button><button data-act="rban" class="danger" title="Ne plus jamais lire ce morceau (vidéo parasite)">⛔ Ignorer ce morceau</button>';
+    bindEcoute($('randActs'),randAl,p.groupe); bindWish($('randActs'),item); $('randActs').querySelector('[data-act=rban]').addEventListener('click',randBanCurrent);
     $('randActs').querySelector('[data-act=rbad]').addEventListener('click',function(){ YTA.reject(p.groupe,p.album,function(id,msg){ if(id){ randPlayId(p); toast('Autre lecture chargée'); } else { toast(msg||'Rien d\'autre trouvé'); randNext(); } }); });
     $('randActs').querySelector('[data-act=rlink]').addEventListener('click',function(){ var u=prompt('Lien YouTube pour « '+p.groupe+' — '+p.album+' » (playlist list=… ou vidéo v=…) :',''); if(!u) return; if(YTA.setManual(p.groupe,p.album,u)) randPlayId(p); else toast('Lien non reconnu'); });
     RAND.played.push(key(p.groupe,p.album)); if(RAND.played.length>60) RAND.played.shift();
@@ -1110,12 +1112,14 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   function randMessageActivation(){ if(!randUserActive()) $('randInfo').textContent='Clique sur ▶ Écouter : le navigateur exige un clic avant la première lecture.'; }
   function randRecreate(){ if(!RAND.current) return; var c=YTA.cache[key(RAND.current.groupe,RAND.current.album)]||{}; if(!c.id) return; RAND.playing=false; var host=document.querySelector('.randplayer'); host.innerHTML='<div id="randPlayer"></div>'; try{ if(RAND.player && RAND.player.destroy){ try{ RAND.player.destroy(); }catch(x){} } RAND.player=null; randBuildPlayer(c); }catch(e){} }
   function randAtPlaylistEnd(pl){ try{ var list=pl.getPlaylist&&pl.getPlaylist(); if(!list||!list.length) return true; /* vidéo seule : la fin est la fin */ var i=pl.getPlaylistIndex(); return i>=list.length-1; }catch(e){ return true; } }
+  function randSkipIfBanned(pl){ try{ var vd=pl.getVideoData&&pl.getVideoData(); var vid=vd&&vd.video_id; if(!vid || !STATE.skipVideos[vid]) return false; var list=pl.getPlaylist&&pl.getPlaylist(), idx=pl.getPlaylistIndex?pl.getPlaylistIndex():-1; $('randInfo').textContent='Vidéo parasite ignorée ('+esc(vd.title||vid)+').'; if(list && list.length>1 && idx<list.length-1){ pl.nextVideo(); } else { setTimeout(randNext, 600); } return true; }catch(e){ return false; } }
+  function randBanCurrent(){ try{ var vd=RAND.player&&RAND.player.getVideoData&&RAND.player.getVideoData(); if(!vd||!vd.video_id){ toast('Aucun morceau en cours'); return; } STATE.skipVideos[vd.video_id]=1; persistBadges(); toast('Ce morceau sera toujours ignoré : '+(vd.title||vd.video_id)); randSkipIfBanned(RAND.player); }catch(e){} }
   function randBuildPlayer(c){
     var gen=(RAND.gen=(RAND.gen||0)+1);
     var active=randUserActive();
     var vars={autoplay:active?1:0, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
       onReady:function(e){ if(gen!==RAND.gen) return; if(randUserActive()){ try{ e.target.playVideo(); }catch(x){} } else { randOverlay(true); } },
-      onStateChange:function(e){ if(gen!==RAND.gen) return; if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
+      onStateChange:function(e){ if(gen!==RAND.gen) return; if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; if(randSkipIfBanned(e.target)) return; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
       onError:function(e){ if(gen!==RAND.gen) return; var code=e&&e.data, pl=e.target; RAND.errCount=(RAND.errCount||0)+1;
         var list=null, idx=-1; try{ list=pl.getPlaylist&&pl.getPlaylist(); idx=pl.getPlaylistIndex?pl.getPlaylistIndex():-1; }catch(x){}
         var why={2:'lien invalide',5:'erreur du lecteur',100:'vidéo supprimée ou privée',101:'intégration interdite par l\'ayant droit',150:'intégration interdite par l\'ayant droit'}[code]||('code '+code);
@@ -1157,7 +1161,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   $('mpPlay').addEventListener('click',function(){ RAND.gesture=true; randOverlay(false); mpCall(function(pl){ var st=pl.getPlayerState(); if(st===1||st===3) pl.pauseVideo(); else pl.playVideo(); }); });
   $('mpPrevTrack').addEventListener('click',function(){ mpCall(function(pl){ if(pl.getCurrentTime&&pl.getCurrentTime()>4){ pl.seekTo(0,true); } else if(pl.getPlaylist&&pl.getPlaylist()&&pl.getPlaylist().length){ pl.previousVideo(); } else pl.seekTo(0,true); }); });
   $('mpNextTrack').addEventListener('click',function(){ mpCall(function(pl){ var list=pl.getPlaylist&&pl.getPlaylist(); if(list&&list.length&&pl.getPlaylistIndex()<list.length-1) pl.nextVideo(); else randNext(); }); });
-  $('mpPrevAlbum').addEventListener('click',randPrev); $('mpNextAlbum').addEventListener('click',randNext);
+  $('mpPrevAlbum').addEventListener('click',randPrev); $('mpNextAlbum').addEventListener('click',randNext); $('mpBan').addEventListener('click',randBanCurrent);
   $('mpVol').addEventListener('pointerdown',function(){ RAND.volDrag=true; }); $('mpVol').addEventListener('pointerup',function(){ RAND.volDrag=false; }); $('mpVol').addEventListener('change',function(){ RAND.volDrag=false; });
   $('mpVol').addEventListener('input',function(){ var v=parseInt(this.value,10); mpCall(function(pl){ pl.unMute(); pl.setVolume(v); }); });
   $('mpMute').addEventListener('click',function(){ mpCall(function(pl){ if(pl.isMuted()) pl.unMute(); else pl.mute(); }); });
@@ -1271,7 +1275,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   $('filtreDec').addEventListener('change',function(){renderDecouvrir(true);});
   $('subDec').addEventListener('click',function(){showSub('dec');}); $('subEcoute').addEventListener('click',function(){showSub('ec');});
 
-  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); YTA.toast=toast; YTA.persist=function(){ persistBadges(); };
+  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); (function(){ var sk=loadLS(KEY_YTSKIP,null); if(sk) Object.keys(sk).forEach(function(k){ STATE.skipVideos[k]=1; }); })(); YTA.toast=toast; YTA.persist=function(){ persistBadges(); };
   function buildArtists(coll,wish,over){
     var ov={}; (over||[]).forEach(function(o){ov[norm(o.groupe)]=o;});
     var arts={};
