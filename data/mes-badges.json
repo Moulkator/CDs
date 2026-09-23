@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:41:54.202Z",
+ "maj": "2026-09-23T16:41:57.199Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1968,6 +1968,29 @@
    "title": "Anorexia Nervosa - New Obscurantis Order (Full Album)",
    "t": 1790181712689,
    "bad": []
+  },
+  "@artist|firtan": {
+   "channelId": "UCaj94aEveAjA5jqy35FrUIw",
+   "playlists": [
+    {
+     "id": "PLFS95DhP6zlJo4-3REKkWhTwOPXTG16Tw",
+     "title": ""
+    }
+   ],
+   "t": 1790181715011
+  },
+  "firtan|marter": {
+   "id": "PLEXONapsQYwoMCwFNFow2Aw0edEiqFJCT",
+   "title": "Firtan - Marter (Full Album)",
+   "t": 1790181715286,
+   "bad": []
+  },
+  "rise against|the sufferer and the witness": {
+   "id": "PL4cH_oiNvdmBdfa4ghBr2NIqOf2LexD_a",
+   "title": "",
+   "t": 1790181715698,
+   "bad": [],
+   "topic": true
   }
  },
  "achetes": [
