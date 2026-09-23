@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:42:16.962Z",
+ "maj": "2026-09-23T16:44:25.797Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2125,6 +2125,23 @@
    "id": "PLtEe0OLFu0DROzxUlr7jWp50Ab1ieKcdv",
    "title": "",
    "t": 1790181734611,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|nanowar of steel": {
+   "channelId": "UCWc4wCNn-f4hsdBCqfTjJ_w",
+   "playlists": [
+    {
+     "id": "PLAxqEQmX-PkntPNiXbm8otsEgCsq9Oqhk",
+     "title": ""
+    }
+   ],
+   "t": 1790181864291
+  },
+  "nanowar of steel|dislike to false metal": {
+   "id": "PLAxqEQmX-PkntPNiXbm8otsEgCsq9Oqhk",
+   "title": "",
+   "t": 1790181864291,
    "bad": [],
    "topic": true
   }
