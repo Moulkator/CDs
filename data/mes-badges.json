@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T13:40:19.955Z",
+ "maj": "2026-09-23T13:40:28.251Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1702,6 +1702,74 @@
    "id": "PLshPnUEF5etHjLngr_bv6YtjpWIgUY55k",
    "title": "",
    "t": 1790170816763,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|saor": {
+   "channelId": "UCCCEBV0cL9bFiG9Bfh5RuAw",
+   "playlists": [
+    {
+     "id": "PLHNQsUEWxJmOPk5hUerdJbWX4Pb2PiSAj",
+     "title": ""
+    },
+    {
+     "id": "PLHNQsUEWxJmMkkuu5HC9-yC367Lhbfdww",
+     "title": ""
+    }
+   ],
+   "t": 1790170820493
+  },
+  "saor|guardians remixed": {
+   "id": "PLHNQsUEWxJmOPk5hUerdJbWX4Pb2PiSAj",
+   "title": "",
+   "t": 1790170820493,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|run run jump punch": {
+   "channelId": "UCjJ-a1otkmrvuJ5mC-lqj0A",
+   "playlists": [],
+   "t": 1790170823772
+  },
+  "run run jump punch|pizza trois sauvages": {
+   "none": 1,
+   "t": 1790170824358,
+   "bad": []
+  },
+  "@artist|onirism": {
+   "channelId": "UCLVaI8h7p4cQXEwuOEp31lg",
+   "playlists": [],
+   "t": 1790170825237
+  },
+  "onirism|lullaby": {
+   "none": 1,
+   "t": 1790170825704,
+   "bad": []
+  },
+  "gorod|the ember gone": {
+   "id": "PLCpsl_5_caZE",
+   "title": "Gorod - The Ember Gone (full album 💿 2026)",
+   "t": 1790170826006,
+   "bad": []
+  },
+  "@artist|thorium": {
+   "channelId": "UCe3pbUMz5mGPKJdD5isucSQ",
+   "playlists": [
+    {
+     "id": "PLh-6DejadtaBxeNMj12Hhnrqm0OsbPcq2",
+     "title": ""
+    },
+    {
+     "id": "PLh-6DejadtaB11ecL2gP8trIrWpC9WXOI",
+     "title": ""
+    }
+   ],
+   "t": 1790170826312
+  },
+  "thorium|empires in the sun": {
+   "id": "PLh-6DejadtaBxeNMj12Hhnrqm0OsbPcq2",
+   "title": "",
+   "t": 1790170826313,
    "bad": [],
    "topic": true
   }
