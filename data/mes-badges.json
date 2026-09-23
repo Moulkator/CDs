@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T13:40:09.192Z",
+ "maj": "2026-09-23T13:40:14.170Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1488,6 +1488,126 @@
    "id": "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL",
    "title": "",
    "t": 1790170806849,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|retrovizer": {
+   "channelId": "UC0Im3kqEqodE8nKIBgKH8pg",
+   "playlists": [],
+   "t": 1790170810879
+  },
+  "retrovizer|chillin times vol 5": {
+   "none": 1,
+   "t": 1790170811429,
+   "bad": []
+  },
+  "@artist|august burns red": {
+   "channelId": "UCW92JR_Ej-BIxNTg8CLfnvw",
+   "playlists": [
+    {
+     "id": "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjtgHKYnsfRPCnXA5jRC-KqI",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjseTpPz1bAf30ffMdiRgUBA",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjv-aKBxE2y8_0Lxmt55zLKu",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjs-wB-IDEqzc8HrLJfmIWZN",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjtAbSOfLV-Otbf0MSqOj2lb",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjsmQRg3c0gOC2OHlWCq01-1",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjuhIIJzhdr9_efd98PUo2jV",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjt16cOw0lW8i7zm5RedGu5_",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjvA-XonoQCepJsYJQohouFq",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjtWgBjILEuNPvi6qmxsqzFW",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjvXdRk2hs8xEiMuqsefW0Zg",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjsSJNkNBhzuG-2qJxl4-Vdr",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjujb2WN1_IK_kas_31fLoOI",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjtwtuUl0jJWsDsK9o6E6Sd2",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjugTSI8tYaOTawpszg-qsCZ",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjsEI3tcmQaAuHlwL369CM6y",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjsyMgfsftu_Ps-k3DRa2WMh",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjvgOktd21wXx6oP_L9CsU2e",
+     "title": ""
+    },
+    {
+     "id": "PLkwNoYG6IRjvkFFqnDJB4zmlly2-mdYdB",
+     "title": ""
+    }
+   ],
+   "t": 1790170811799
+  },
+  "august burns red|thrill seeker live": {
+   "id": "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
+   "title": "",
+   "t": 1790170811799,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|woods of desolation": {
+   "channelId": "UC38LZp4Y0YFrnM-BmNNlcSg",
+   "playlists": [
+    {
+     "id": "PLwqrs0YCcjtdKEpVMFZhz6fK-8X6PeQK_",
+     "title": ""
+    }
+   ],
+   "t": 1790170811930
+  },
+  "woods of desolation|as the stars": {
+   "id": "PLwqrs0YCcjtdKEpVMFZhz6fK-8X6PeQK_",
+   "title": "",
+   "t": 1790170811930,
    "bad": [],
    "topic": true
   }
