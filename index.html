@@ -1093,7 +1093,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
       if(err || !(window.YT&&window.YT.Player)){ host.innerHTML='<iframe src="'+YTA.embedUrl(p.groupe,p.album)+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'; $('randInfo').textContent='Lecteur simple (l\'enchaînement automatique nécessite l\'API YouTube, bloquée ici) — utilise ⏭ Suivant.'; return; }
       // lecteur déjà en place : on lui charge simplement le nouvel album (bien plus rapide)
       var wasPlaying=!!RAND.playing;
-      RAND.prevWant=RAND.want; RAND.want={id:c.id, video:!!c.video}; RAND.loadedAt=Date.now(); RAND.reconciled=false; randWatchdog();
+      RAND.prevWant=RAND.want; RAND.want={id:c.id, video:!!c.video}; RAND.loadedAt=Date.now(); RAND.reconciled=false; RAND.errCount=0; randWatchdog();
       randOverlay(false);
       host.innerHTML='<div id="randPlayer"></div>';
       try{
@@ -1116,7 +1116,14 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     var vars={autoplay:active?1:0, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
       onReady:function(e){ if(gen!==RAND.gen) return; if(randUserActive()){ try{ e.target.playVideo(); }catch(x){} } else { randOverlay(true); } },
       onStateChange:function(e){ if(gen!==RAND.gen) return; if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
-      onError:function(e){ if(gen!==RAND.gen) return; toast('YouTube ne peut pas lire cet album ici (vidéo '+(e&&e.data)+') — suivant'); setTimeout(randNext, 1200); }
+      onError:function(e){ if(gen!==RAND.gen) return; var code=e&&e.data, pl=e.target; RAND.errCount=(RAND.errCount||0)+1;
+        var list=null, idx=-1; try{ list=pl.getPlaylist&&pl.getPlaylist(); idx=pl.getPlaylistIndex?pl.getPlaylistIndex():-1; }catch(x){}
+        var why={2:'lien invalide',5:'erreur du lecteur',100:'vidéo supprimée ou privée',101:'intégration interdite par l\'ayant droit',150:'intégration interdite par l\'ayant droit'}[code]||('code '+code);
+        // 1. un morceau non lisible au milieu d'une playlist : on passe au morceau suivant
+        if(list && list.length>1 && idx>=0 && idx<list.length-1 && RAND.errCount<=4){ $('randInfo').textContent='Morceau '+(idx+1)+' non lisible ici ('+why+') — morceau suivant.'; setTimeout(function(){ try{ pl.nextVideo(); }catch(x){} }, 600); return; }
+        // 2. sinon : autre playlist / vidéo pour cet album, et à défaut album suivant
+        if(RAND.current && RAND.errCount<=6){ $('randInfo').textContent='Non lisible ici ('+why+') — recherche d\'une autre version…'; var cur=RAND.current; YTA.reject(cur.groupe,cur.album,function(id,msg){ if(gen!==RAND.gen) return; if(id){ randPlayId(cur); } else { toast('Aucune version lisible pour '+cur.groupe+' — '+cur.album+' — suivant'); setTimeout(randNext, 800); } }); return; }
+        toast('YouTube ne peut pas lire cet album ici ('+why+') — suivant'); setTimeout(randNext, 1200); }
     }};
     if(c.video) opts.videoId=c.id; else { vars.listType='playlist'; vars.list=c.id; }
     RAND.player=new YT.Player('randPlayer',opts);
