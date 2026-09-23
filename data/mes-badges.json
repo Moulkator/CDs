@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T13:40:32.281Z",
+ "maj": "2026-09-23T16:41:46.159Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1911,6 +1911,23 @@
    "id": "PL4cH_oiNvdmBdfa4ghBr2NIqOf2LexD_a",
    "title": "",
    "t": 1790170829847,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|cnoc an tursa": {
+   "channelId": "UCEzKsehu6EQy-vR-RXSgEZQ",
+   "playlists": [
+    {
+     "id": "PLOJxvg_LuLJNLI02mvlImTc2Ngey-FDrD",
+     "title": ""
+    }
+   ],
+   "t": 1790181704648
+  },
+  "cnoc an tursa|the forty five": {
+   "id": "PLOJxvg_LuLJNLI02mvlImTc2Ngey-FDrD",
+   "title": "",
+   "t": 1790181704649,
    "bad": [],
    "topic": true
   }
