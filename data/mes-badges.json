@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T19:45:32.638Z",
+ "maj": "2026-09-23T19:45:35.369Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -3024,6 +3024,31 @@
    "bad": [
     "PLja7paMJFWVn91EFxxXLXALvyBjodb8cb"
    ]
+  },
+  "@artist|chthonic": {
+   "channelId": "UCSIzci_QRVzp6f1m3v3CMUw",
+   "playlists": [
+    {
+     "id": "PLBFsFtGy-6YIBeGpZ6wEVA5hzIvhbogeP",
+     "title": ""
+    }
+   ],
+   "t": 1790192733079
+  },
+  "chthonic|souls of the revolution": {
+   "id": "PLk77y88V0X_xI3idUHltMnanjNqzDlc2O",
+   "title": "閃靈 CHTHONIC - 失落的令旗 (電影【衝組】電影原聲帶) (Souls of the Revolution) (Full Album)",
+   "t": 1790192733840,
+   "bad": [
+    "PLBFsFtGy-6YIBeGpZ6wEVA5hzIvhbogeP"
+   ]
+  },
+  "powerwolf|preaching at the breeze": {
+   "id": "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
+   "title": "",
+   "t": 1790192733202,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
