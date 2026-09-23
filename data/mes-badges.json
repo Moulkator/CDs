@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T13:40:28.251Z",
+ "maj": "2026-09-23T13:40:32.281Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1770,6 +1770,147 @@
    "id": "PLh-6DejadtaBxeNMj12Hhnrqm0OsbPcq2",
    "title": "",
    "t": 1790170826313,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|rise against": {
+   "channelId": "UCNEOs26SV8KlC9XxqdR7jew",
+   "playlists": [
+    {
+     "id": "PL4cH_oiNvdmBdfa4ghBr2NIqOf2LexD_a",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDeYT2xFi0mTXoMbI4_hAJR",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAFqMLV9JbFH7b-SP9mEZkA",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmC23cnR29xoT2BrJsrBJLbB",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmBFJ9LV6QBFeZfJ9PqztNax",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmBi5S1zILQ6oaFYq5mlqZRI",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDQKIJN3OnuDkz2K6dnXBA_",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCHr4j9l9sdMsMJDAstzWeN",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDTyKNX1A5Apj4vL-QxK8ef",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmC45AKtfian1aQ_VW4z85oj",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAO35P2BmRHRoEEXugq0YYM",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmA56jaLUT2KTWMCzsyIOa1f",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmA3OAEmLWDV_Y0cflox0T2N",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDAFp3rw-VEo8_7Iz4ejd6t",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCuiVX3_3trtiEbxWwvgdY9",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCqCwb_mInMfT8JsDBuw4WS",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmABtOuyA7NhBZFtJ8qY7BSe",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCJmTjwINdSO9ef-3C78Zp5",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCgeAlR65paRXpIwDZKCcmk",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmC1jiBSpqOb5PSyMv5e2rtN",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAw_Dd7YlAMZQ_zwKK5i-XQ",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmC1T5nUAdE_gq_d5WFMy3EP",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDVNyXu8rBKtUXxgi7jO4XB",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDKANpBsRzhTf67aCAc3frm",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAutNx0iEsmi1Bn_d7nQZFO",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDxM6LQEq93msainq5IK_Dp",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAj_qnm_ZFSCJSdxdeIRdxP",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmB96l-AcU1B4UrBj36NjKKy",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmAyqc57ohIrvhqppGrtESGi",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmCvtYLeH2WEpRvVLniA5YoB",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDrxAR04JD6lvSMnbOWSHAX",
+     "title": ""
+    },
+    {
+     "id": "PL4cH_oiNvdmDF9WpDgNW446A_bjRYrZ29",
+     "title": ""
+    }
+   ],
+   "t": 1790170829847
+  },
+  "rise against|the eco terrorist in me": {
+   "id": "PL4cH_oiNvdmBdfa4ghBr2NIqOf2LexD_a",
+   "title": "",
+   "t": 1790170829847,
    "bad": [],
    "topic": true
   }
