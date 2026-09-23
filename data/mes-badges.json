@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T07:59:36.378Z",
+ "maj": "2026-09-23T07:59:40.042Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -982,6 +982,17 @@
    "video": true,
    "title": "Kampfar - Profan (Full Album)",
    "t": 1790150374863,
+   "bad": []
+  },
+  "@artist|seth": {
+   "channelId": "UCW4J7PknSpKWqlq73HOv32w",
+   "playlists": [],
+   "t": 1790150378325
+  },
+  "seth|la france des maudits": {
+   "id": "PLt1oYd4JzxR65eUzhDUXniiIhBdas1FhO",
+   "title": "SETH - La France des Maudits[Full Album]",
+   "t": 1790150378535,
    "bad": []
   }
  },
