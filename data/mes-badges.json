@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T17:09:13.676Z",
+ "maj": "2026-09-23T17:38:57.622Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2826,8 +2826,192 @@
    "t": 1790183352169,
    "bad": [],
    "topic": true
+  },
+  "@artist|arch enemy": {
+   "channelId": "UCrflfrfvAw_s8fGcVXUtnPA",
+   "playlists": [
+    {
+     "id": "PLxXJWa4J5wHpzR8lB9Lr7GLNvvy-CpfnC",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHosXEKKqTeTzbcgnAJgATtO",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHoFxEMJJmoLiNoKjkLXzKL6",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqbuo8e285N8_UcmuWSFxjf",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrV4G-dIDlmL-SF9Qf3REgw",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpjW4gpgYgG3v4K_GTnYra_",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHohm8FWHbHiMuOLKWZVYQea",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpZ-bz_6rxWtAJiGICWDdPV",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpa2l_JR1NrTSXXhs-4e0EV",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpzlM6NHJ0np26XTlWaNgfW",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHoBRczgdXzQgwfZoXLER1Sh",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrEhe_9N0RHUTTtqn-BQQeJ",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqWNtt5c4pC2bvRwlsizA2n",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrsWN9avAr3EcVlyClQNHtP",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHofn5XNQrb3t6zy4Qr_QPPD",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpKgA7PH4jLMv12szh1ZXKv",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrLVrOHwyOqFpzz_PerHXVr",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpNiPodJUIYeaMGTeekRm64",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHoF-F8x1jpHnqZz8_BBYOt4",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrq5aNVhHCSAXeSmd27avMu",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqlZCi-feD5Y0J20zUPRjBc",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHphEZRIrAinGdscl_zLYwsz",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpIYN1QZ_m8Ie8Pv_BxwerS",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpIGmipUhl3CG77WHmyrkXA",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpyAc4jvjZQq-o1cyMdx6WL",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHplhpe3ZOROiiPsMBXASwQK",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrdS1PKnKQkEXpwcWvF3m_b",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqzzvfW2CPEsBXKkoAm-8h7",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpPm1ho5IqATtpkM25qgayy",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHppUOzaB0VzX7P7xjY-dEyz",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpLONBJ7PCbidbDDb9PPvHq",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHplCFAVgWz4wuABN838hvCW",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHq-og7OJavvjtHU_7LR1nxd",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqZ85G-xFYSggmhABmJbBUu",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHo_deD_uDNZdPMEApauHju0",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqOrUYelnLSOLqJg5n_yUP0",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHpA-G4F-OJ-5vot8j4UABbQ",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHoOFvcr6f82F9yOQ5uxBxde",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHrygFvKwHZEN1Ek7X2mPWWY",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHq3M_977Hjec7CL907BAH1Q",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHqKCk7maZw1KhPr3Tom_qoB",
+     "title": ""
+    },
+    {
+     "id": "PLxXJWa4J5wHroL1uRodUAeJlaOMs0-Ylc",
+     "title": ""
+    }
+   ],
+   "t": 1790185136119
+  },
+  "arch enemy|blood dynasty expanded": {
+   "id": "PLxXJWa4J5wHpzR8lB9Lr7GLNvvy-CpfnC",
+   "title": "",
+   "t": 1790185136120,
+   "bad": [],
+   "topic": true
   }
  },
+ "youtube_skip": [
+  "J0vUqvfHQeQ"
+ ],
  "achetes": [
   {
    "groupe": "Aephanemer",
