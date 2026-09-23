@@ -1,6 +1,7 @@
 {
- "maj": "2026-09-23T17:38:57.622Z",
+ "maj": "2026-09-23T19:45:32.638Z",
  "statuts_sorties": {
+  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,7 +39,6 @@
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
   "whispered|honorbound": "Téléchargé",
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "manegarm|edsvuren  album": "À écouter"
  },
  "statuts_decouvrir": {
@@ -417,6 +417,11 @@
    "t": 1789929389665,
    "bad": []
   },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
+   "bad": []
+  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -459,11 +464,6 @@
    "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
    "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
    "t": 1789970102708,
-   "bad": []
-  },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
    "bad": []
   },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
@@ -3007,6 +3007,23 @@
    "t": 1790185136120,
    "bad": [],
    "topic": true
+  },
+  "@artist|2 times terror": {
+   "channelId": "UC_XQnYX5HoC96oL-ad2u0cQ",
+   "playlists": [
+    {
+     "id": "PLja7paMJFWVn91EFxxXLXALvyBjodb8cb",
+     "title": ""
+    }
+   ],
+   "t": 1790192730152
+  },
+  "2 times terror|equals on sudden death": {
+   "none": 1,
+   "t": 1790192731836,
+   "bad": [
+    "PLja7paMJFWVn91EFxxXLXALvyBjodb8cb"
+   ]
   }
  },
  "youtube_skip": [
