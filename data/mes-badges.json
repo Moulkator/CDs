@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T11:25:41.023Z",
+ "maj": "2026-09-23T11:25:44.509Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1040,6 +1040,122 @@
    "id": "PLxIRdE8N14FPqFUEYWs7hjjqfqVWkEKN_",
    "title": "",
    "t": 1790162739488,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|unreqvited": {
+   "channelId": "UCxmOpe_Qf-Sa5TSxByaNa8A",
+   "playlists": [],
+   "t": 1790162741850
+  },
+  "unreqvited|mosaic ii la deteste et la detresse": {
+   "id": "PLToXWne2Bk-cNnEqfXVLxO1iLRf-Fja02",
+   "title": "Unreqvited - Mosaic II: la déteste et la détresse [full album]",
+   "t": 1790162742136,
+   "bad": []
+  },
+  "@artist|darkened nocturn slaughtercult": {
+   "channelId": "UCtPnkIvX3o7CvkrgWZPJ0qw",
+   "playlists": [
+    {
+     "id": "PLIlNf0j5eBN-CyfW3-etQTie881zgOJEe",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-fOW0rsKXtyRJsBPvmmp70",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN8RPMFWGkI6U76_3CvY76qp",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN9Mbt-DS-2sLyGZGeSNCRqF",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN99WzH09YBq7tpfEHYe-Bx1",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN8V68lFWovlLQm41K4okXoD",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN--3l6QgSW1LDanRvrnJzgl",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN_c0_lyO88tFM2ywAywYmUq",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN8FeJk2SWeZtduHW7tq3BGR",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN_q2PwjeCxPDpbLJpkxuGUo",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-SIO7GmdsJ9y4Yy--_Klzp",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-LU4PsH33FthMxQuX1qGWH",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN9iSLsirxU62ngAGWYnUZLO",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN9-7pagSx-G35Na26jEikVK",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-AZBBkp27hnY76qwsjaoVG",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN8EAEJvBEUrshysNLecMS_8",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-bnv4DARMwYi99zu4__zi4",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN9kTVTZjVQJIOy-NNRov2hy",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-_6fGC1pYl1gFpR_VSL6tn",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN_gbcZcOVSLGgRqyykzwYjY",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-Y9xXrUWWV2fM_PBnxD9_g",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN9-axap6fPbil7I-VkNwrZG",
+     "title": ""
+    },
+    {
+     "id": "PLIlNf0j5eBN-LZcpd_lqH-lr046VAP4Vg",
+     "title": ""
+    }
+   ],
+   "t": 1790162742994
+  },
+  "darkened nocturn slaughtercult|necrovision": {
+   "id": "PLIlNf0j5eBN-CyfW3-etQTie881zgOJEe",
+   "title": "",
+   "t": 1790162742994,
    "bad": [],
    "topic": true
   }
