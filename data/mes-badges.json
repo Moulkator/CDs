@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T12:53:17.161Z",
+ "maj": "2026-09-23T13:40:09.192Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1472,6 +1472,22 @@
    "id": "PL5L-4OV1VdJaxKMSYQF0UnpQ7H9jWlbop",
    "title": "",
    "t": 1790167995661,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|run run jump punch x marty can fly": {
+   "none": 1,
+   "t": 1790167997878
+  },
+  "run run jump punch x marty can fly|mega fun park": {
+   "none": 1,
+   "t": 1790167998508,
+   "bad": []
+  },
+  "keep of kalessin|anthology armada": {
+   "id": "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL",
+   "title": "",
+   "t": 1790170806849,
    "bad": [],
    "topic": true
   }
