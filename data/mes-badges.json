@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:55:32.371Z",
+ "maj": "2026-09-23T16:55:35.948Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2790,6 +2790,23 @@
    "title": "DEATH OATH - &quot;Pernicious Conjure&quot; [Remastered from the original master CD]",
    "t": 1790182530866,
    "bad": []
+  },
+  "@artist|old wainds": {
+   "channelId": "UCXY_fCDC5SM3_B_XKL6X0QQ",
+   "playlists": [
+    {
+     "id": "PLtVCVBw8XVhCDgd9EuDcBA4GRrmbormPD",
+     "title": ""
+    }
+   ],
+   "t": 1790182534448
+  },
+  "old wainds|death nord kult": {
+   "id": "PLtVCVBw8XVhCDgd9EuDcBA4GRrmbormPD",
+   "title": "",
+   "t": 1790182534448,
+   "bad": [],
+   "topic": true
   }
  },
  "achetes": [
