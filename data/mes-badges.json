@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:44:28.803Z",
+ "maj": "2026-09-23T16:44:35.542Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2214,6 +2214,190 @@
    "id": "PLxT2pkn3MLYWyLUBRWOb2R3HV4u17-VM9",
    "title": "",
    "t": 1790181867303,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|alestorm": {
+   "channelId": "UCpmH4GvnC0AmPhrLUAKJyUg",
+   "playlists": [
+    {
+     "id": "PLDLuML11GrQAAFYXv3DHkpmhMiiq2xy9Q",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQAoy2Nz_WF3gSO9fcwLjVff",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQD_79cYQEiK0g3UYYYMlTfq",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCyN0IDERS9rIcrsTI2V-NM",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDEBKePI9YdIGhPa0PVVTRN",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQBs3AZ332Wf8ZSLQalFEDZt",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDEyHLtBqsG70Rl0FnkM-jq",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDMW5PbYys9L4hHAHrGvqR-",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCRLsZmRNFyoyWILvJnx02v",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCZuy7tMkjUBogvljOfTiJP",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQArZzMNrXPlhUC1lvRMzeBL",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCvpejPW0_Tp1k2fUOgkX0s",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDzAugEw1Vqai0FUIBzmA2s",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCbxvSefbBrmgETKhNCIypD",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCp1MdsY1kEW_p9kO6OUGeE",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDtyLb2uoMXdBW8OAhpzSOQ",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQAWyrzVwOPyvRyOVjmwqRj3",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQBX-QLR49bhTsjQAyMpzHLq",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCXu-QsH36M2rHwdDgR2FYb",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCoKkMGuj8W0JpC5aPdfqGm",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDaFFs2jOBzAnwwER3JKn1c",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQAykSnhW9JFOBw2Uss8HTBx",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQBJts-blwdMw2TOYrhZN1i5",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCsXG3sJ7pHWk9qaBhlgeVl",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQDVob7aftzt-MX0Req2Wviu",
+     "title": ""
+    },
+    {
+     "id": "PLDLuML11GrQCdP6HSkNUff9wdaWr_HoUI",
+     "title": ""
+    }
+   ],
+   "t": 1790181870352
+  },
+  "alestorm|black sails at midnight": {
+   "id": "PLDLuML11GrQAAFYXv3DHkpmhMiiq2xy9Q",
+   "title": "",
+   "t": 1790181870352,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|the absence": {
+   "channelId": "UCSKEPJ8oCflVRmlJWOMIw0Q",
+   "playlists": [
+    {
+     "id": "PLIhqYVMJkDhREzj7TGuHXu-e5FP1GzDhl",
+     "title": ""
+    }
+   ],
+   "t": 1790181870511
+  },
+  "the absence|riders of the plague": {
+   "id": "PLIhqYVMJkDhREzj7TGuHXu-e5FP1GzDhl",
+   "title": "",
+   "t": 1790181870512,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|goatmoon": {
+   "channelId": "UCep5cXScsBjLSgbs5aIX6nQ",
+   "playlists": [],
+   "t": 1790181871932
+  },
+  "goatmoon|summerforest": {
+   "id": "q1iukEydk4Y",
+   "video": true,
+   "title": "Goatmoon / Dead Reptile Shrine - Summerforest (Full Split) 2025",
+   "t": 1790181872599,
+   "bad": []
+  },
+  "@artist|watain": {
+   "channelId": "UCn1rAeozFY75AqIxgBM2JPw",
+   "playlists": [
+    {
+     "id": "PLjPf4NfHUSZOBK_Re4d4h4oRqHi1DG3Ig",
+     "title": ""
+    },
+    {
+     "id": "PLjPf4NfHUSZOCroKq84xCrhw34oRanhTg",
+     "title": ""
+    }
+   ],
+   "t": 1790181872608
+  },
+  "watain|die in fire live in hell live in stockholm 2022": {
+   "id": "PLjPf4NfHUSZOBK_Re4d4h4oRqHi1DG3Ig",
+   "title": "",
+   "t": 1790181872608,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|aeternam": {
+   "channelId": "UCu0J1RgPdq2aIv7LZBGNGUg",
+   "playlists": [
+    {
+     "id": "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb",
+     "title": ""
+    }
+   ],
+   "t": 1790181874041
+  },
+  "aeternam|ruins of empires": {
+   "id": "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb",
+   "title": "",
+   "t": 1790181874041,
    "bad": [],
    "topic": true
   }
