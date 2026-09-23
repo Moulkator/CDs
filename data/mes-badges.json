@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:41:50.202Z",
+ "maj": "2026-09-23T16:41:54.202Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1942,22 +1942,32 @@
    "t": 1790181707288,
    "bad": []
   },
-  "@artist|sigh": {
-   "channelId": "UC4RHP2BOfd15i7NCT1-whKg",
+  "@artist|grimner": {
+   "channelId": "UC7U4IRdgPlSTX85MtFYlyGw",
    "playlists": [
     {
-     "id": "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV",
+     "id": "PLt7TgV437le39FnD6vQahyHQ71h8k4K_s",
      "title": ""
     }
    ],
-   "t": 1790181708280
+   "t": 1790181709061
   },
-  "sigh|gallows gallery": {
-   "id": "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV",
+  "grimner|frost mot eld": {
+   "id": "PLt7TgV437le39FnD6vQahyHQ71h8k4K_s",
    "title": "",
-   "t": 1790181708281,
+   "t": 1790181709061,
    "bad": [],
    "topic": true
+  },
+  "@artist|anorexia nervosa": {
+   "none": 1,
+   "t": 1790181712188
+  },
+  "anorexia nervosa|new obscurantis order": {
+   "id": "PLlRSp5L2JpYe7ZjhqXBWzqzFj6snRrn08",
+   "title": "Anorexia Nervosa - New Obscurantis Order (Full Album)",
+   "t": 1790181712689,
+   "bad": []
   }
  },
  "achetes": [
