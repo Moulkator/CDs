@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T17:09:04.287Z",
+ "maj": "2026-09-23T17:09:10.857Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2785,12 +2785,11 @@
    "t": 1790182530236
   },
   "the last oath|pernicious": {
-   "id": "iqI1Z9sBFYM",
-   "video": true,
-   "title": "DEATH OATH - Pernicious Conjure [U.S. CD REISSUE]",
-   "t": 1790183342772,
+   "none": 1,
+   "t": 1790183348669,
    "bad": [
-    "lhWkG_7bp_s"
+    "lhWkG_7bp_s",
+    "iqI1Z9sBFYM"
    ]
   },
   "@artist|old wainds": {
@@ -2804,11 +2803,12 @@
    "t": 1790182534448
   },
   "old wainds|death nord kult": {
-   "id": "PLtVCVBw8XVhCDgd9EuDcBA4GRrmbormPD",
-   "title": "",
-   "t": 1790182534448,
-   "bad": [],
-   "topic": true
+   "id": "PLn8Mt7ty9si3A2kzJxosazKXSP1MQNomd",
+   "title": "Old Wainds - Death Nord Kult (Full Album)",
+   "t": 1790183349349,
+   "bad": [
+    "PLtVCVBw8XVhCDgd9EuDcBA4GRrmbormPD"
+   ]
   }
  },
  "achetes": [
