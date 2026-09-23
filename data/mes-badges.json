@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:49:08.448Z",
+ "maj": "2026-09-23T16:49:27.311Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2622,6 +2622,160 @@
    "id": "PLFfAVnpoj_8D_k4VG3Exs4bRK6XTO1JGr",
    "title": "",
    "t": 1790182146947,
+   "bad": [],
+   "topic": true
+  },
+  "powerwolf|blood of the saints": {
+   "id": "PLrJHVWhq2TpGdbpfR4JLUF_KUZyEv78op",
+   "title": "Powerwolf - Blood of the Saints (Full Album)",
+   "t": 1790182165810,
+   "bad": [
+    "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
+    "PLOWHAXatyYOQWFefJ2iEWzYhAPzhBiSf6",
+    "PLOWHAXatyYORxFmoeT7fn_4rEVKxjfRtw",
+    "PLOWHAXatyYOQ7LTe3zk0WSyK4LTTWO_iT",
+    "PLOWHAXatyYOTyBHd4AypfevsZWiJWPM25",
+    "PLOWHAXatyYORJEArautC6eay7E26y8MYp",
+    "PLOWHAXatyYORqKn-V4AcWmlVkcNPcNSFd",
+    "PLOWHAXatyYORwkMrK6JhQPKyWHwH8TYZa",
+    "PLOWHAXatyYOQ1OfVf0PBS2s3QPNBEM7ZW",
+    "PLOWHAXatyYORQsfuE8hxcCIZHAdl2B71C",
+    "PLOWHAXatyYOTj0YsMRGzx4z8v5tviSA-E",
+    "PLOWHAXatyYOTVE_jovHe5dcAZ4pcPCcWm",
+    "PLOWHAXatyYORmYoNDni0pqlSnuN6NOVQA",
+    "PLOWHAXatyYOSFfs27HN2Rp4dchw8QLGuO",
+    "PLOWHAXatyYOQ0xLek-M21SLwEPYJudxSK",
+    "PLOWHAXatyYOTdN1Y1PYxYu0HqfiiDvHMn",
+    "PLOWHAXatyYOQ80o1gWUOWiaY2KR7WEGfw",
+    "PLOWHAXatyYOQLQ6Z2-h_QhrviHzDuPYik",
+    "PLOWHAXatyYOQ51NLYuI3_xY61UdpEH8H6",
+    "PLOWHAXatyYORBVuT2P4A3IX6chuuaNDjr",
+    "PLOWHAXatyYORPcw560OAMEA_V7UfahaUU",
+    "PLOWHAXatyYORQ311xEgWZnjQZw7B1jWCW"
+   ]
+  },
+  "@artist|slipknot": {
+   "channelId": "UCh9xZWuDWSMeedunotdYYrQ",
+   "playlists": [
+    {
+     "id": "PLS7pGaPiTpwWUq94TN2dEV2gxly72-21y",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVL7yDGW9WoaKOG0nP1xoyF",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXdJlGy0wkT8meRUiDKODeE",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXIOGsDavpY7C22O6YKS-ZA",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXWprBTx1Pacoa06ffFcN6j",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwUDK9pAaIYN6i9NkVso0ph0",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwWAIkS_yFroNjCEsuyx_t4n",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXtCk5xT6ZF6ua-sz_kCL-w",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVpIJmkUJ0QiwtJeNdonq7S",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwULBHaHIGsyGOPNI_qOGH6V",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwW2hI3BQBu18unHvc64qiee",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXJSAFa1kmeASczMfpP-FWk",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwUG2EC3j_CuW3yK0fp9BoiW",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwWI8j1gideg1uINztEFakzW",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXwniRwU7VTCukh4YeiyZ_r",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVJy4O_hwjcM4yUizd-8aeC",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwUGTNf7yCdyLRdobv1a0CDC",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwUbgPhL_-TI3BBovm3n-Zci",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwWvS64Q8j9viXz9wewPUuXw",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVY1FwJBVUr5WIrTUpru641",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwV-avGgQmUGi8Mntb5moPT2",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwU1iTXZKQw1swc_aYLhmjdI",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwWM5VZHSl9CW0_6rCYUP315",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVSqtgyO3lFaFaqLw_aWdR8",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwVBrK0JQNO77Knm-x4D0Dmx",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwUIuAFr_Lvn3o9fverKFKPa",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwXFEpj61-hNvZHtYaQd8Q_-",
+     "title": ""
+    },
+    {
+     "id": "PLS7pGaPiTpwWTAOrWLKuTAmmLGnVJIC0L",
+     "title": ""
+    }
+   ],
+   "t": 1790182161952
+  },
+  "slipknot|vol 3 the subliminal verses": {
+   "id": "PLS7pGaPiTpwWUq94TN2dEV2gxly72-21y",
+   "title": "",
+   "t": 1790182161953,
    "bad": [],
    "topic": true
   }
