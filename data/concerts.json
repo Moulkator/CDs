@@ -1,5 +1,5 @@
 {
-"generated": "2026-09-22T22:18:22Z",
+"generated": "2026-09-23T09:37:41Z",
 "app_id_refuse": false,
 "artistes": 393,
 "items": [
@@ -30187,6 +30187,28 @@
 "festival": false
 },
 {
+"groupe": "Thulcandra",
+"sources": [
+"collection"
+],
+"date": "2027-03-27T19:00",
+"titre": "Dark Easter Metal Meeting 2027",
+"salle": "Dark Easter Metal Meeting 2027",
+"ville": "München",
+"region": "",
+"pays": "Germany",
+"lat": 48.14504849999999,
+"lng": 11.521601,
+"lineup": [
+"Emperor",
+"Dödsrit",
+"Yoth Iria",
+"Vorga"
+],
+"url": "https://www.bandsintown.com/e/108941870?app_id=69151346a7baf9bb20af568ca8cbb7da&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+"festival": false
+},
+{
 "groupe": "Alcest",
 "sources": [
 "collection"
@@ -32772,6 +32794,30 @@
 "lng": 2.1353765,
 "lineup": [],
 "url": "https://www.bandsintown.com/e/108875113?app_id=69151346a7baf9bb20af568ca8cbb7da&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+"festival": false
+},
+{
+"groupe": "Thulcandra",
+"sources": [
+"collection"
+],
+"date": "2027-08-26T19:00",
+"titre": "Drums of War 2027",
+"salle": "Drums of War 2027",
+"ville": "Barcelona",
+"region": "",
+"pays": "Spain",
+"lat": 41.3517283,
+"lng": 2.1353765,
+"lineup": [
+"Samael",
+"Gehenna",
+"Nile",
+"Hypocrisy",
+"Asphyx",
+"Sinister"
+],
+"url": "https://www.bandsintown.com/e/108941868?app_id=69151346a7baf9bb20af568ca8cbb7da&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
 "festival": false
 },
 {

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T22:16:23Z",
+ "generated": "2026-09-23T09:34:12Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -21,22 +21,6 @@
    ]
   },
   {
-   "groupe": "Finsterforst",
-   "album": "#YØLØ",
-   "date": "2016-09-14",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "https://coverartarchive.org/release-group/97d81a73-16d4-47a6-9f0e-c8a4c11097e9/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "97d81a73-16d4-47a6-9f0e-c8a4c11097e9",
-   "refs": [
-    "dz:470575",
-    "mb:45c6b878-48c5-48cf-ad48-4a7cf5a10787"
-   ],
-   "deezer_id": 14789881,
-   "duree": "40"
-  },
-  {
    "groupe": "Aephanemer",
    "album": "Memento Mori",
    "date": "2016-09-16",
@@ -51,6 +35,20 @@
    ],
    "deezer_id": 146502942,
    "duree": "98"
+  },
+  {
+   "groupe": "Finsterforst",
+   "album": "#YØLØ",
+   "date": "2016-09-16",
+   "precision": "exact",
+   "type": "ep",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/615e2502265c6df9f454e3aced85a27e/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 14789881,
+   "refs": [
+    "dz:470575"
+   ],
+   "duree": "40"
   },
   {
    "groupe": "Lordi",
@@ -5828,20 +5826,6 @@
    "duree": "52"
   },
   {
-   "groupe": "Rêx Mündi",
-   "album": "The Perspective Space (Markus Schulz Mash Up)",
-   "date": "2019-07-01",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/7bdd6f7356b0a8c84c89f12732b46cfc/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 471375905,
-   "refs": [
-    "dz:367907"
-   ],
-   "duree": "25"
-  },
-  {
    "groupe": "Unreqvited",
    "album": "River",
    "date": "2019-07-07",
@@ -9112,20 +9096,6 @@
    ],
    "deezer_id": 187863352,
    "duree": "44"
-  },
-  {
-   "groupe": "Rêx Mündi",
-   "album": "Turning Rich",
-   "date": "2021-03-16",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/b5faa50e6e6ae14a69c0a0330912234f/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 215552762,
-   "refs": [
-    "dz:367907"
-   ],
-   "duree": "14"
   },
   {
    "groupe": "Dvne",
@@ -17644,20 +17614,6 @@
    "duree": "44"
   },
   {
-   "groupe": "Rêx Mündi",
-   "album": "da bomb diggy",
-   "date": "2025-10-24",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/1641d73d40885bd0cc7c96fb726b7a00/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 834830552,
-   "refs": [
-    "dz:367907"
-   ],
-   "duree": "16"
-  },
-  {
    "groupe": "Aephanemer",
    "album": "Utopie",
    "date": "2025-10-29",
@@ -19507,11 +19463,14 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
-   "source": "manuel+musicbrainz",
+   "source": "deezer+manuel+musicbrainz",
    "mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4",
    "refs": [
+    "dz:5498899",
     "mb:a2e60b17-960e-4e9c-8194-681b39d5613e"
-   ]
+   ],
+   "deezer_id": 1063015051,
+   "duree": "19"
   },
   {
    "groupe": "TrollfesT",
