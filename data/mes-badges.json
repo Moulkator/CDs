@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T11:25:44.509Z",
+ "maj": "2026-09-23T11:25:47.598Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1158,6 +1158,17 @@
    "t": 1790162742994,
    "bad": [],
    "topic": true
+  },
+  "@artist|pagan land": {
+   "none": 1,
+   "t": 1790162745423
+  },
+  "pagan land|wind of freedom": {
+   "id": "VNccwHLaHlA",
+   "video": true,
+   "title": "Paganland - Wind Of Freedom (Full Album)",
+   "t": 1790162746086,
+   "bad": []
   }
  },
  "achetes": [
