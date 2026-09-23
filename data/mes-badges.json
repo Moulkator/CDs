@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T12:15:22.709Z",
+ "maj": "2026-09-23T12:53:13.608Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1184,6 +1184,236 @@
    "id": "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL",
    "title": "",
    "t": 1790165721204,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|nofx": {
+   "channelId": "UC5-MatmZOvX-ORzhTuO0ZiQ",
+   "playlists": [
+    {
+     "id": "PL5P264OjYRPpYr9cOoYIO8a96cZPph8oU",
+     "title": ""
+    },
+    {
+     "id": "PL5P264OjYRPqQCmct-uFsJqunutCSa3Oa",
+     "title": ""
+    },
+    {
+     "id": "PL5P264OjYRPo3w0Hpfr6LcosKWPt5MTfx",
+     "title": ""
+    }
+   ],
+   "t": 1790167990106
+  },
+  "nofx|first ditch effort": {
+   "id": "PL5P264OjYRPpYr9cOoYIO8a96cZPph8oU",
+   "title": "",
+   "t": 1790167990106,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|eluveitie": {
+   "channelId": "UCbdGmf2QbfPRTPnlnFNFUhw",
+   "playlists": [
+    {
+     "id": "PL4Jg7p5v3wbNY_Ho6kguxAsQOpiFUU0qo",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbPP2Jd7gQMMGCfIEmgH4mAn",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbPabLc7XyLpeuXQ2nNfJFL1",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbNhB27fANE1VzqtGJue2hGc",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbOAr7waQx8nl0fZWCz7Gfvh",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbO0DA0GzD1x8OQy5Sm3gkoh",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbO_bbYdfypMjZ10WLN_iNHt",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbO7vd01RmGTF_AIeBxkay1Z",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbOJWPLWUcBkPDAsF_trvtRo",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbOlpd1m7wG3qWsCr2edmKeW",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbPY0dpfs4WXdYl2qe2IfoHW",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbN3WmkDzUOvwCNHIPMcThmT",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbMnGjf4w-JU7j63PSnhshmt",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbPrILF5mgvGFZ0jdS_aTWXP",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbMflenYGjPf2qdC9SLu0NUC",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbNUq17qr5n9yxMdcgU2C5nU",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbMsZFmRHW5mvVE4h7f-JQH_",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbNuFc65vBJ37sZMcwkH3P6m",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbPy4MtqAKiv5c_7wNRrz4WT",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbNYSYLLCvtPhXSZYsVoJlkC",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbP31MOwzKskS8RTHDu6GoQi",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbNwnnGdT32T1TRUxBcQpDtS",
+     "title": ""
+    },
+    {
+     "id": "PL4Jg7p5v3wbMxxc_aQcSueFCJbiZEpJpw",
+     "title": ""
+    }
+   ],
+   "t": 1790167991590
+  },
+  "eluveitie|anv": {
+   "id": "PLDhajrZgo0TL9_iqVS72nlfwRDW4LjIAD",
+   "title": "Eluveitie - Ànv (ALBUM 2025)",
+   "t": 1790167991931,
+   "bad": []
+  },
+  "@artist|powerwolf": {
+   "channelId": "UC9LO_ioQYQay7CrsbacNqBQ",
+   "playlists": [
+    {
+     "id": "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQWFefJ2iEWzYhAPzhBiSf6",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORxFmoeT7fn_4rEVKxjfRtw",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQ7LTe3zk0WSyK4LTTWO_iT",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOTyBHd4AypfevsZWiJWPM25",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORJEArautC6eay7E26y8MYp",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORqKn-V4AcWmlVkcNPcNSFd",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORwkMrK6JhQPKyWHwH8TYZa",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQ1OfVf0PBS2s3QPNBEM7ZW",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORQsfuE8hxcCIZHAdl2B71C",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOTj0YsMRGzx4z8v5tviSA-E",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOTVE_jovHe5dcAZ4pcPCcWm",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORmYoNDni0pqlSnuN6NOVQA",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOSFfs27HN2Rp4dchw8QLGuO",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQ0xLek-M21SLwEPYJudxSK",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOTdN1Y1PYxYu0HqfiiDvHMn",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQ80o1gWUOWiaY2KR7WEGfw",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQLQ6Z2-h_QhrviHzDuPYik",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYOQ51NLYuI3_xY61UdpEH8H6",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORBVuT2P4A3IX6chuuaNDjr",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORPcw560OAMEA_V7UfahaUU",
+     "title": ""
+    },
+    {
+     "id": "PLOWHAXatyYORQ311xEgWZnjQZw7B1jWCW",
+     "title": ""
+    }
+   ],
+   "t": 1790167992107
+  },
+  "powerwolf|the sacrilege symphony ii night shift for choir and orchestra": {
+   "id": "PLOWHAXatyYOQ2pIKIEY-xP0bT5BKUYsB6",
+   "title": "",
+   "t": 1790167992107,
    "bad": [],
    "topic": true
   }
