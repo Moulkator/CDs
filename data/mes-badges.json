@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T13:40:14.170Z",
+ "maj": "2026-09-23T13:40:19.955Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1608,6 +1608,100 @@
    "id": "PLwqrs0YCcjtdKEpVMFZhz6fK-8X6PeQK_",
    "title": "",
    "t": 1790170811930,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|manegarm": {
+   "channelId": "UCuX80UwxiAX1GKN_q0hUdmw",
+   "playlists": [
+    {
+     "id": "PLnwUx43NhUZEkMMzjzxZIGTT9CuBAcMh8",
+     "title": ""
+    },
+    {
+     "id": "PLnwUx43NhUZFx2BWJzmE5wJSuwRK4z7B4",
+     "title": ""
+    },
+    {
+     "id": "PLnwUx43NhUZFVM_axyc1-EFWDCpMMU9d4",
+     "title": ""
+    }
+   ],
+   "t": 1790170815712
+  },
+  "manegarm|edsvuren": {
+   "id": "PLnwUx43NhUZEkMMzjzxZIGTT9CuBAcMh8",
+   "title": "",
+   "t": 1790170815712,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|tsjuder": {
+   "channelId": "UCCg1vwQXqUfPpA-hSDswMlg",
+   "playlists": [
+    {
+     "id": "PLshPnUEF5etHjLngr_bv6YtjpWIgUY55k",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etFhu3P2_Sl62MYX1JgLA1pX",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etFMJqUj0BvuSEM2LldbqKas",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etG7RAaCrufWeokKbb5-WZNw",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etFGd6N2c9F-At8NVNSzoK59",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etGJa3enCwhjbDavKptUcha5",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etG1U2c5O1HgzXET3MoT5wM9",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etGboLukgaEJi2Lm_UBD7Rk3",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etGsozfL5o4bqIDVAsdgqiT_",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etHgcYGElQTakPpt2PkL9W1h",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etHwCrzCdfusp9jbpZZ1mO7K",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etG95X7_as8hO9GSXb4UQz63",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etHwbShMNdqqzTPtz35OnlsM",
+     "title": ""
+    },
+    {
+     "id": "PLshPnUEF5etF60f7SAeZHh29qT62aGVxT",
+     "title": ""
+    }
+   ],
+   "t": 1790170816763
+  },
+  "tsjuder|legion helvete": {
+   "id": "PLshPnUEF5etHjLngr_bv6YtjpWIgUY55k",
+   "title": "",
+   "t": 1790170816763,
    "bad": [],
    "topic": true
   }
