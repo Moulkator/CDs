@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-23T07:59:40.042Z",
+ "maj": "2026-09-23T10:57:24.418Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -39,6 +38,7 @@
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
   "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé",
   "manegarm|edsvuren  album": "À écouter"
  },
  "statuts_decouvrir": {
@@ -417,11 +417,6 @@
    "t": 1789929389665,
    "bad": []
   },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
-   "bad": []
-  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -464,6 +459,11 @@
    "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
    "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
    "t": 1789970102708,
+   "bad": []
+  },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
    "bad": []
   },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
@@ -993,6 +993,17 @@
    "id": "PLt1oYd4JzxR65eUzhDUXniiIhBdas1FhO",
    "title": "SETH - La France des Maudits[Full Album]",
    "t": 1790150378535,
+   "bad": []
+  },
+  "@artist|gorod": {
+   "channelId": "UCichOO5ZyWiuT5-K-2E61rg",
+   "playlists": [],
+   "t": 1790161042473
+  },
+  "gorod|aethra": {
+   "id": "PL3d8Q5v1ZtW9QzZEbpukBT3nPyP-U6WkT",
+   "title": "Gorod - Aethra (Full Album)",
+   "t": 1790161042903,
    "bad": []
   }
  },
