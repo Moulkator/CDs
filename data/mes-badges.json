@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T16:42:01.932Z",
+ "maj": "2026-09-23T16:42:16.962Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2066,6 +2066,65 @@
    "id": "PLxT2pkn3MLYWyLUBRWOb2R3HV4u17-VM9",
    "title": "",
    "t": 1790181720418,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|mare cognitum": {
+   "channelId": "UCV_mFGaVTgifOrW9f01VppQ",
+   "playlists": [
+    {
+     "id": "PLRzz1kMXfRmrn-vvHy1ZSVECmI4ikOMS0",
+     "title": ""
+    }
+   ],
+   "t": 1790181722709
+  },
+  "mare cognitum|the sea which has become known": {
+   "id": "PLRzz1kMXfRmrn-vvHy1ZSVECmI4ikOMS0",
+   "title": "",
+   "t": 1790181722710,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|carpenter brut": {
+   "channelId": "UCLZeFBZ-PRQsYaNMzPOnReA",
+   "playlists": [
+    {
+     "id": "PL4vgMxGLWu5te4i67cFp9AO5GYiIf_50G",
+     "title": ""
+    },
+    {
+     "id": "PL4vgMxGLWu5sRip2NWFbO1KOh8KT9NF4G",
+     "title": ""
+    },
+    {
+     "id": "PL4vgMxGLWu5tlwCKJLUuDtFsUSizvkb4J",
+     "title": ""
+    }
+   ],
+   "t": 1790181724016
+  },
+  "carpenter brut|leather teeth": {
+   "id": "PL4vgMxGLWu5te4i67cFp9AO5GYiIf_50G",
+   "title": "",
+   "t": 1790181724017,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|wintersun": {
+   "channelId": "UCHIdaCHQOKh44SlqeCkgGfw",
+   "playlists": [
+    {
+     "id": "PLtEe0OLFu0DROzxUlr7jWp50Ab1ieKcdv",
+     "title": ""
+    }
+   ],
+   "t": 1790181734611
+  },
+  "wintersun|time ii": {
+   "id": "PLtEe0OLFu0DROzxUlr7jWp50Ab1ieKcdv",
+   "title": "",
+   "t": 1790181734611,
    "bad": [],
    "topic": true
   }
