@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-23T10:57:24.418Z",
+ "maj": "2026-09-23T10:57:28.222Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1004,6 +1004,26 @@
    "id": "PL3d8Q5v1ZtW9QzZEbpukBT3nPyP-U6WkT",
    "title": "Gorod - Aethra (Full Album)",
    "t": 1790161042903,
+   "bad": []
+  },
+  "@artist|the offspring": {
+   "channelId": "UCQVUXQu8RpxhihAMla6ke5A",
+   "playlists": [
+    {
+     "id": "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
+     "title": ""
+    },
+    {
+     "id": "PL4umc8IE6eUN8shaJipd24q9mUD5tYNvl",
+     "title": ""
+    }
+   ],
+   "t": 1790161046435
+  },
+  "the offspring|smash": {
+   "id": "PLcZMZxR9uxC86NE7jaibvYapgUzSPIv5Z",
+   "title": "The Offspring - Smash (Full Album Stream)",
+   "t": 1790161046718,
    "bad": []
   }
  },
