@@ -9021,7 +9021,7 @@
 "date": "2021-02-26",
 "precision": "exact",
 "type": "album",
-"pochette": "https://coverartarchive.org/release-group/99a2d795-8f86-4380-9bc4-4eaba8b5c264/front-500",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/af9ae1a5badfb87df8e8f80c4da1d854/500x500-000000-80-0-0.jpg",
 "source": "deezer+musicbrainz",
 "mb_rg": "99a2d795-8f86-4380-9bc4-4eaba8b5c264",
 "refs": [
@@ -19517,6 +19517,20 @@
 "refs": [
 "mb:ba147ea0-60c4-4a40-9da6-0d5c2b2e7b03"
 ]
+},
+{
+"groupe": "Bullet For My Valentine",
+"album": "Social Apocalypse",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "deezer",
+"deezer_id": 1074649802,
+"refs": [
+"dz:327"
+],
+"duree": "40"
 }
 ]
 }

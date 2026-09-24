@@ -466,5 +466,22 @@
 "kind": "annonce",
 "jour": "2026-09-22",
 "changes": []
+},
+{
+"groupe": "Bullet For My Valentine",
+"album": "Social Apocalypse",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "deezer",
+"deezer_id": 1074649802,
+"refs": [
+"dz:327"
+],
+"duree": "40",
+"kind": "annonce",
+"jour": "2026-09-24",
+"changes": []
 }
 ]
