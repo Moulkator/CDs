@@ -483,5 +483,26 @@
 "kind": "annonce",
 "jour": "2026-09-24",
 "changes": []
+},
+{
+"groupe": "Bullet For My Valentine",
+"album": "Social Apocalypse",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/7c5cfb99-04c5-469a-9c9c-ae4e34afd2ec/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "7c5cfb99-04c5-469a-9c9c-ae4e34afd2ec",
+"refs": [
+"dz:327",
+"mb:d530dbf9-69b1-404f-98f2-0431104f5a1e"
+],
+"deezer_id": 1074649802,
+"duree": "40",
+"kind": "maj",
+"jour": "2026-09-24",
+"changes": [
+"🖼️ Pochette dévoilée"
+]
 }
 ]

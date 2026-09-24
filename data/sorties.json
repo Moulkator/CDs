@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T09:33:52Z",
+ "generated": "2026-09-24T20:14:53Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -295,13 +295,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/959b6333-3ea4-40ea-9f49-0382fb9126b6/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "959b6333-3ea4-40ea-9f49-0382fb9126b6",
    "refs": [
-    "dz:807296",
     "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
    ],
-   "deezer_id": 387791237,
    "duree": "40"
   },
   {
@@ -4393,13 +4391,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/b36854d9-e3eb-4310-8b97-976a6d86db34/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "b36854d9-e3eb-4310-8b97-976a6d86db34",
    "refs": [
-    "dz:807296",
     "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
    ],
-   "deezer_id": 387750447,
    "duree": "41"
   },
   {
@@ -6585,20 +6581,6 @@
    "duree": "46"
   },
   {
-   "groupe": "Seth",
-   "album": "Les Blessures De L'âme: XX Ans De Blasphème",
-   "date": "2019-11-15",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/958c056793e68284ff019e1c41ee098a/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 117566932,
-   "refs": [
-    "dz:56150"
-   ],
-   "duree": "51"
-  },
-  {
    "groupe": "Dark Fortress",
    "album": "Stab Wounds (remastered Re-issue 2019)",
    "date": "2019-11-22",
@@ -8225,13 +8207,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/fcde98ad-1e60-47c8-a206-00e915658a3c/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "fcde98ad-1e60-47c8-a206-00e915658a3c",
    "refs": [
-    "dz:807296",
     "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
    ],
-   "deezer_id": 154304932,
    "duree": "40"
   },
   {
@@ -8920,20 +8900,6 @@
    "duree": "60"
   },
   {
-   "groupe": "Amaranthe",
-   "album": "HELIX (2021 Version)",
-   "date": "2021-02-12",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/f0e2253ffe2f1e94ce311c119ef8b913/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 387750467,
-   "refs": [
-    "dz:807296"
-   ],
-   "duree": "54"
-  },
-  {
    "groupe": "Holy Blood",
    "album": "Day of Vengeance (Remastered)",
    "date": "2021-02-19",
@@ -9028,7 +8994,7 @@
    "date": "2021-02-26",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/af9ae1a5badfb87df8e8f80c4da1d854/500x500-000000-80-0-0.jpg",
+   "pochette": "https://coverartarchive.org/release-group/99a2d795-8f86-4380-9bc4-4eaba8b5c264/front-500",
    "source": "deezer+musicbrainz",
    "mb_rg": "99a2d795-8f86-4380-9bc4-4eaba8b5c264",
    "refs": [
@@ -9373,13 +9339,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/93f217f9-c299-4b2f-9e79-e3c39c98ac6d/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "93f217f9-c299-4b2f-9e79-e3c39c98ac6d",
    "refs": [
-    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
-   "deezer_id": 202089622,
    "duree": "44"
   },
   {
@@ -14791,13 +14755,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/8193619a-f2d6-4f24-87f8-e8751f2cf484/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "8193619a-f2d6-4f24-87f8-e8751f2cf484",
    "refs": [
-    "dz:807296",
     "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
    ],
-   "deezer_id": 696279011,
    "duree": "50"
   },
   {
@@ -15538,13 +15500,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/ab8c4017-c47c-4388-b96d-8f817b9f47a7/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "ab8c4017-c47c-4388-b96d-8f817b9f47a7",
    "refs": [
-    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
-   "deezer_id": 568325051,
    "duree": "50"
   },
   {
@@ -15900,6 +15860,20 @@
    ]
   },
   {
+   "groupe": "Amaranthe",
+   "album": "Les Larmes de Babette",
+   "date": "2024-09-27",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/06bdef6a158a95abb2b7a7cb431e51f0/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 643163861,
+   "refs": [
+    "dz:285257641"
+   ],
+   "duree": "23"
+  },
+  {
    "groupe": "Ultra Vomit",
    "album": "Ultra Vomit et le pouvoir de la puissance",
    "date": "2024-09-27",
@@ -16160,11 +16134,14 @@
    "precision": "exact",
    "type": "ep",
    "pochette": "https://coverartarchive.org/release-group/0406866c-376b-42bf-bbc3-c339bc28d499/front-500",
-   "source": "musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "0406866c-376b-42bf-bbc3-c339bc28d499",
    "refs": [
+    "dz:285257641",
     "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-   ]
+   ],
+   "deezer_id": 674254401,
+   "duree": "10"
   },
   {
    "groupe": "Old Wainds",
@@ -17255,14 +17232,12 @@
    "date": "2025-08-15",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/76862aec-b207-4878-b5db-4075a834f7c7/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "76862aec-b207-4878-b5db-4075a834f7c7",
-   "refs": [
-    "dz:565916",
-    "mb:d9b1f00a-31a7-4f64-9f29-8481e7be8911"
-   ],
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/a5e8d5eb425565d8b1185a596fe21605/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
    "deezer_id": 773853381,
+   "refs": [
+    "dz:565916"
+   ],
    "duree": "61"
   },
   {
@@ -19531,12 +19506,14 @@
    "date": "2027-03-19",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
-   "source": "deezer",
-   "deezer_id": 1074649802,
+   "pochette": "https://coverartarchive.org/release-group/7c5cfb99-04c5-469a-9c9c-ae4e34afd2ec/front-500",
+   "source": "deezer+musicbrainz",
+   "mb_rg": "7c5cfb99-04c5-469a-9c9c-ae4e34afd2ec",
    "refs": [
-    "dz:327"
+    "dz:327",
+    "mb:d530dbf9-69b1-404f-98f2-0431104f5a1e"
    ],
+   "deezer_id": 1074649802,
    "duree": "40"
   }
  ]
