@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T20:14:53Z",
+ "generated": "2026-09-25T09:50:38Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,68 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Aephanemer",
-   "album": "Memento Mori",
-   "date": "2016-09-16",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/dbed81b8-d832-420e-a3e5-cc53bcce6408/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "dbed81b8-d832-420e-a3e5-cc53bcce6408",
-   "refs": [
-    "dz:12249836",
-    "mb:114a7dd2-00bb-4666-a650-367a2fb08b35"
-   ],
-   "deezer_id": 146502942,
-   "duree": "98"
-  },
-  {
-   "groupe": "Finsterforst",
-   "album": "#YØLØ",
-   "date": "2016-09-16",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/615e2502265c6df9f454e3aced85a27e/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 14789881,
-   "refs": [
-    "dz:470575"
-   ],
-   "duree": "40"
-  },
-  {
-   "groupe": "Lordi",
-   "album": "Monstereophonic: Theaterror vs. Demonarchy",
-   "date": "2016-09-16",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/9d271e8c-0f36-48c6-a9c2-c31a8427f139/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "9d271e8c-0f36-48c6-a9c2-c31a8427f139",
-   "refs": [
-    "dz:3085",
-    "mb:b5b4ba6e-6e34-4669-a33b-0d813b4c3d83"
-   ],
-   "deezer_id": 13937582,
-   "duree": "64"
-  },
-  {
-   "groupe": "Mare Cognitum",
-   "album": "Luminiferous Aether",
-   "date": "2016-09-16",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/fb5090c7-1759-426c-8c94-b5de43090bc2/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "fb5090c7-1759-426c-8c94-b5de43090bc2",
-   "refs": [
-    "dz:7443772",
-    "mb:ed9bb78c-4ce9-4e53-8dcc-0fef0a6ef668"
-   ],
-   "deezer_id": 42274371,
-   "duree": "50"
   },
   {
    "groupe": "Insomnium",
@@ -1513,6 +1451,20 @@
    ],
    "deezer_id": 89052312,
    "duree": "41"
+  },
+  {
+   "groupe": "Mare Cognitum",
+   "album": "Luminiferous Aether",
+   "date": "2017-05-26",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/31bd1f4984383059009b671165a9dbcf/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 42274371,
+   "refs": [
+    "dz:7443772"
+   ],
+   "duree": "50"
   },
   {
    "groupe": "Rhapsody of Fire",
@@ -19446,6 +19398,20 @@
    ],
    "deezer_id": 1063015051,
    "duree": "19"
+  },
+  {
+   "groupe": "Ultra Vomit",
+   "album": "Hellfest 2026 : La quatrième bataille de clisson (Live)",
+   "date": "2026-10-23",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "",
+   "source": "deezer",
+   "deezer_id": 1070778722,
+   "refs": [
+    "dz:14563"
+   ],
+   "duree": "63"
   },
   {
    "groupe": "TrollfesT",

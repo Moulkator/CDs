@@ -504,5 +504,22 @@
 "changes": [
 "🖼️ Pochette dévoilée"
 ]
+},
+{
+"groupe": "Ultra Vomit",
+"album": "Hellfest 2026 : La quatrième bataille de clisson (Live)",
+"date": "2026-10-23",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "deezer",
+"deezer_id": 1070778722,
+"refs": [
+"dz:14563"
+],
+"duree": "63",
+"kind": "annonce",
+"jour": "2026-09-25",
+"changes": []
 }
 ]
