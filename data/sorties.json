@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T09:50:38Z",
+ "generated": "2026-09-25T20:17:57Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -6533,6 +6533,20 @@
    "duree": "46"
   },
   {
+   "groupe": "Seth",
+   "album": "Les Blessures De L'âme: XX Ans De Blasphème",
+   "date": "2019-11-15",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/958c056793e68284ff019e1c41ee098a/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 117566932,
+   "refs": [
+    "dz:56150"
+   ],
+   "duree": "51"
+  },
+  {
    "groupe": "Dark Fortress",
    "album": "Stab Wounds (remastered Re-issue 2019)",
    "date": "2019-11-22",
@@ -9291,11 +9305,13 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/93f217f9-c299-4b2f-9e79-e3c39c98ac6d/front-500",
-   "source": "musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "93f217f9-c299-4b2f-9e79-e3c39c98ac6d",
    "refs": [
+    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
+   "deezer_id": 202089622,
    "duree": "44"
   },
   {
@@ -15452,11 +15468,13 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/ab8c4017-c47c-4388-b96d-8f817b9f47a7/front-500",
-   "source": "musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "ab8c4017-c47c-4388-b96d-8f817b9f47a7",
    "refs": [
+    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
+   "deezer_id": 568325051,
    "duree": "50"
   },
   {
@@ -19306,7 +19324,7 @@
    "album": "Visions",
    "date": "2026-09-18",
    "precision": "exact",
-   "type": "album",
+   "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/0ea1d65d67a623accc57fb83475a1790/500x500-000000-80-0-0.jpg",
    "source": "deezer",
    "deezer_id": 1081712272,
