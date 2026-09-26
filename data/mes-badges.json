@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-26T21:36:53.489Z",
+ "maj": "2026-09-26T22:01:06.435Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3168,11 +3168,11 @@
    "t": 1790458611985
   },
   "moongates guardian|cold waters of anduin": {
-   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
-   "title": "",
-   "t": 1790458611985,
-   "bad": [],
-   "topic": true
+   "none": 1,
+   "t": 1790460065537,
+   "bad": [
+    "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
+   ]
   }
  },
  "youtube_skip": [
