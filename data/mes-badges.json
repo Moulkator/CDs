@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-26T22:01:06.435Z",
+ "maj": "2026-09-26T22:01:15.376Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3173,6 +3173,148 @@
    "bad": [
     "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
    ]
+  },
+  "@artist|welicoruss": {
+   "channelId": "UCTEjoYf4SY0ruoMYtzhPTlA",
+   "playlists": [
+    {
+     "id": "PLhcnHf9Tc-Lmu9eQTIcmw71F5QMtv1GGP",
+     "title": ""
+    }
+   ],
+   "t": 1790460066809
+  },
+  "welicoruss|kharnha": {
+   "none": 1,
+   "t": 1790460067559,
+   "bad": [
+    "PLhcnHf9Tc-Lmu9eQTIcmw71F5QMtv1GGP"
+   ]
+  },
+  "@artist|parkway drive": {
+   "channelId": "UCpAJllxeRiu18lTgsKiSVmg",
+   "playlists": [
+    {
+     "id": "PLLdfrRYha2sOxLhpg42_YbMQcM3PiC53Z",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sPwHXGuqxlvGsMwfYKZ1zad",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sPVlukMVSQFC7Ov_rhFx8IO",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sNCN9T2SGRFVnA1nMNqbXy6",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sOmq3JXkYUb1C0yAZZezQhJ",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sPQLKN9wjwBTYQhEFoWvSmr",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sM2dWXSv3PJaIUyOQbaOaQ5",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sPmfIS96GygTiTGPemJklR5",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sMP2xRSgUpGeIaelBHcGpKZ",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sNO6UXqnPtx2MNYppSinPUY",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sOFVyNP4DDx5ASPDge1fyeu",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sPfppUnwmi968td-8QYCQA2",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sNIlUkV-WtDYmBGEZvvQkx_",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sMoi4plKypWm4QsZDYuT3ST",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sO54Atuq59KsNrIjkXdZFcO",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sOw5qdndRLVjzSjaDZeHgRt",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sNZjBsIWDQAiOglDlP0nrQx",
+     "title": ""
+    },
+    {
+     "id": "PLLdfrRYha2sNFURRFTn8Ktzp0S0bjfUEi",
+     "title": ""
+    }
+   ],
+   "t": 1790460068113
+  },
+  "parkway drive|darker still": {
+   "id": "PLvSnu5zDHeJalI4k-F2aGleyldfJwiDGv",
+   "title": "Parkway Drive - Darker Still (Full Album Stream)",
+   "t": 1790460073875,
+   "bad": [
+    "PLLdfrRYha2sOxLhpg42_YbMQcM3PiC53Z",
+    "PLLdfrRYha2sPwHXGuqxlvGsMwfYKZ1zad",
+    "PLLdfrRYha2sPVlukMVSQFC7Ov_rhFx8IO",
+    "PLLdfrRYha2sNCN9T2SGRFVnA1nMNqbXy6",
+    "PLLdfrRYha2sOmq3JXkYUb1C0yAZZezQhJ",
+    "PLLdfrRYha2sPQLKN9wjwBTYQhEFoWvSmr",
+    "PLLdfrRYha2sM2dWXSv3PJaIUyOQbaOaQ5",
+    "PLLdfrRYha2sPmfIS96GygTiTGPemJklR5",
+    "PLLdfrRYha2sMP2xRSgUpGeIaelBHcGpKZ",
+    "PLLdfrRYha2sNO6UXqnPtx2MNYppSinPUY",
+    "PLLdfrRYha2sOFVyNP4DDx5ASPDge1fyeu",
+    "PLLdfrRYha2sPfppUnwmi968td-8QYCQA2",
+    "PLLdfrRYha2sNIlUkV-WtDYmBGEZvvQkx_",
+    "PLLdfrRYha2sMoi4plKypWm4QsZDYuT3ST",
+    "PLLdfrRYha2sO54Atuq59KsNrIjkXdZFcO",
+    "PLLdfrRYha2sOw5qdndRLVjzSjaDZeHgRt",
+    "PLLdfrRYha2sNZjBsIWDQAiOglDlP0nrQx",
+    "PLLdfrRYha2sNFURRFTn8Ktzp0S0bjfUEi"
+   ]
+  },
+  "wintersun|time i": {
+   "id": "PLL44kuYYS8ymTtYUJJnAsKPlezUTYgRtV",
+   "title": "♫ ❤️ Wintersun - Time I (2012) 🤘 full album",
+   "t": 1790460070085,
+   "bad": []
+  },
+  "@artist|nordheim": {
+   "channelId": "UC6hxLEQmvus74NiLW0sze2w",
+   "playlists": [
+    {
+     "id": "PLcuEk5XDVmg7nKW89R0HCkSgzoDtXqCnP",
+     "title": ""
+    }
+   ],
+   "t": 1790460071791
+  },
+  "nordheim|refill": {
+   "id": "PLBLrk7yenADcf9WjKvvDrPlHhrmMsOxbq",
+   "title": "Nordheim - Refill (Full Album)",
+   "t": 1790460072012,
+   "bad": []
   }
  },
  "youtube_skip": [
