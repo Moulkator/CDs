@@ -1,7 +1,6 @@
 {
- "maj": "2026-09-23T19:45:38.124Z",
+ "maj": "2026-09-26T21:36:49.984Z",
  "statuts_sorties": {
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -39,6 +38,7 @@
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
   "whispered|honorbound": "Téléchargé",
+  "dimmu borgir|grand serpent rising": "Téléchargé",
   "manegarm|edsvuren  album": "À écouter"
  },
  "statuts_decouvrir": {
@@ -417,11 +417,6 @@
    "t": 1789929389665,
    "bad": []
   },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
-   "bad": []
-  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -464,6 +459,11 @@
    "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
    "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
    "t": 1789970102708,
+   "bad": []
+  },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
    "bad": []
   },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
@@ -3134,6 +3134,28 @@
    "t": 1790192736622,
    "bad": [],
    "topic": true
+  },
+  "@artist|oppression": {
+   "channelId": "UChErjP55VFpUiWi6qdj_gGA",
+   "playlists": [],
+   "t": 1790458606974
+  },
+  "oppression|no safe place pre release": {
+   "none": 1,
+   "t": 1790458607495,
+   "bad": []
+  },
+  "@artist|pure wrath": {
+   "channelId": "UC3LzwMklCAJ3rfAsuxM5NJA",
+   "playlists": [],
+   "t": 1790458607953
+  },
+  "pure wrath|deceiver": {
+   "id": "znRSZ8Ue6zM",
+   "video": true,
+   "title": "PURE WRATH - Deceiver [FULL ALBUM]",
+   "t": 1790458608473,
+   "bad": []
   }
  },
  "youtube_skip": [
