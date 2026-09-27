@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-26T22:01:15.376Z",
+ "maj": "2026-09-27T13:16:27.466Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3315,6 +3315,13 @@
    "title": "Nordheim - Refill (Full Album)",
    "t": 1790460072012,
    "bad": []
+  },
+  "ensiferum|one man army": {
+   "id": "PLFnZHeQllRkVA2aLvS5dZjX1pLIWLqKlo",
+   "title": "",
+   "t": 1790514985966,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
