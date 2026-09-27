@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T13:16:30.487Z",
+ "maj": "2026-09-27T14:30:01.232Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2063,11 +2063,27 @@
    "t": 1790181720417
   },
   "korpiklaani|ukon wacka": {
-   "id": "PLxT2pkn3MLYWyLUBRWOb2R3HV4u17-VM9",
-   "title": "",
-   "t": 1790181720418,
-   "bad": [],
-   "topic": true
+   "id": "PLBbI9gb4w9w39uWqRvmz3zuGDsZ0aiaZD",
+   "title": "Korpiklaani  Ukon wacka | FULL ALBUM",
+   "t": 1790516722600,
+   "bad": [
+    "PLxT2pkn3MLYWyLUBRWOb2R3HV4u17-VM9",
+    "PLxT2pkn3MLYVFWnUXLfMRq0dN1szT6IMD",
+    "PLxT2pkn3MLYXUq7oGgTgSOIHC_JYHNW5m",
+    "PLxT2pkn3MLYW3SArn2FIk1zCsaryNeDJj",
+    "PLxT2pkn3MLYXDx5mTyXAc_Dm7ErnBDMJq",
+    "PLxT2pkn3MLYX200dUShOdir6MQo0NH6QM",
+    "PLxT2pkn3MLYUClCaKXPhKjFtVhbL9DzYd",
+    "PLxT2pkn3MLYWfhnP0fAaOWRY0WDyNWGqv",
+    "PLxT2pkn3MLYXNsJ60eYmGbSUcbad2uiHs",
+    "PLxT2pkn3MLYV2_gOhGH3lHE0DQhRcoev2",
+    "PLxT2pkn3MLYV-QuXkpLYGdWAhdmVR_PP7",
+    "PLxT2pkn3MLYWLGZt-lhemJU49LtEJbM2M",
+    "PLxT2pkn3MLYVmnucaVWZaHCAV6CBfYtNS",
+    "PLxT2pkn3MLYXO8pUPpfzv2WDnbThA0NtP",
+    "PLxT2pkn3MLYUOEO-6KJxkyTXN6nHPNwRy",
+    "PLxT2pkn3MLYX_bwGYf_2jbWuTx_vXXjnq"
+   ]
   },
   "@artist|mare cognitum": {
    "channelId": "UCV_mFGaVTgifOrW9f01VppQ",
@@ -3330,6 +3346,386 @@
    "t": 1790514988975,
    "bad": [],
    "topic": true
+  },
+  "@artist|elffor": {
+   "channelId": "UCMB7_EL4EwV7TMbCIkhQ3Fw",
+   "playlists": [],
+   "t": 1790516721124
+  },
+  "elffor|the black sentinel": {
+   "id": "c9JpqyV7mhI",
+   "video": true,
+   "title": "Elffor - The Black Sentinel (Full Album)",
+   "t": 1790516721737,
+   "bad": []
+  },
+  "@artist|keys of orthanc": {
+   "channelId": "UChWmwkhXI_4XiuC9sEDzn5g",
+   "playlists": [],
+   "t": 1790516729800
+  },
+  "keys of orthanc|dush agh golnauk": {
+   "id": "r5_l2ZYmGtE",
+   "video": true,
+   "title": "Keys of Orthanc - Dush agh Golnauk (Official Full Album | HD)",
+   "t": 1790516730565,
+   "bad": []
+  },
+  "@artist|sum 41": {
+   "channelId": "UCcMcUoDPCQhtONMyuKJs-dg",
+   "playlists": [
+    {
+     "id": "PLjK2W6TkofG_GNch-3gHbFde1FI1SqsvO",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-BGu5xZS1h_JS31CYxSTLi",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-m85SNHDcgZq33evPvzsTp",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-O3fxFQEMq20XbNfuGCQtG",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8D0ASEm0212BuFqHMlmvCx",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-s4fDC-wZyYUxCgaL8-ZQh",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-Q3yjd6neAG_-_vJcyv36G",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8RLjkEEhdEb_WoNBOZWot2",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9nhxYcG8IwfewzBRiaIQud",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_88tWymQlXGpdAYO6_hF8O",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG86KlwMkIxQzcrhIU6WDCAE",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8zlQ9KNurTZqV7vGAn_ayx",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_he16-e5vreUDp7tOwgTfg",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8__wyyUSmJhIlbsq2G55xm",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-gvcvzAbtYVOB3iKzH9P0C",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-VtzB6wzkffypTrOu8p_OU",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9ham2wOZNKcIgjGFeosMiQ",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_xjQcMFuh8yn8GSSPvi5Tg",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8nBSypDX6CpaFMsQyOYvch",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9t5HUjYSjhYUuhKby-X0X6",
+     "title": ""
+    }
+   ],
+   "t": 1790516734087
+  },
+  "sum 41|underclass hero": {
+   "id": "PLk5ZYpBNIX7RR6ZjPwRadQH7x7PHhaf-P",
+   "title": "Sum 41 - Underclass Hero [Full Album]",
+   "t": 1790516789250,
+   "bad": [
+    "PLjK2W6TkofG_GNch-3gHbFde1FI1SqsvO",
+    "PLjK2W6TkofG-BGu5xZS1h_JS31CYxSTLi",
+    "PLjK2W6TkofG-m85SNHDcgZq33evPvzsTp",
+    "PLjK2W6TkofG-O3fxFQEMq20XbNfuGCQtG",
+    "PLjK2W6TkofG8D0ASEm0212BuFqHMlmvCx",
+    "PLjK2W6TkofG-s4fDC-wZyYUxCgaL8-ZQh",
+    "PLjK2W6TkofG-Q3yjd6neAG_-_vJcyv36G",
+    "PLjK2W6TkofG8RLjkEEhdEb_WoNBOZWot2",
+    "PLjK2W6TkofG9nhxYcG8IwfewzBRiaIQud",
+    "PLjK2W6TkofG_88tWymQlXGpdAYO6_hF8O",
+    "PLjK2W6TkofG86KlwMkIxQzcrhIU6WDCAE",
+    "PLjK2W6TkofG8zlQ9KNurTZqV7vGAn_ayx",
+    "PLjK2W6TkofG_he16-e5vreUDp7tOwgTfg",
+    "PLjK2W6TkofG8__wyyUSmJhIlbsq2G55xm",
+    "PLjK2W6TkofG-gvcvzAbtYVOB3iKzH9P0C",
+    "PLjK2W6TkofG-VtzB6wzkffypTrOu8p_OU",
+    "PLjK2W6TkofG9ham2wOZNKcIgjGFeosMiQ",
+    "PLjK2W6TkofG_xjQcMFuh8yn8GSSPvi5Tg",
+    "PLjK2W6TkofG8nBSypDX6CpaFMsQyOYvch",
+    "PLjK2W6TkofG9t5HUjYSjhYUuhKby-X0X6"
+   ]
+  },
+  "@artist|powerglove": {
+   "channelId": "UCbUbaoAJ4RSQ7JR_tibXqFw",
+   "playlists": [
+    {
+     "id": "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zilArnzAwMV_VjPfdQBmep",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0wQt41gQ6kVxZ-RhafLu0N_",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xtz-yUxbj4LvNT1Lovhqf8",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xOTpUiHZa7bGmzyFnBxi6x",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0yI5PlA86IJbQ--yvp_uwY7",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xrj41jGlEHsF9FzN-_GtTZ",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xuxJn4ZEbKK5bTBVjKdD9x",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0wtMjp_GYOAniYMMja6T1m1",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zPHANliV16TNrxoUJfyPfF",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x41uCsoO8qMRMREkUCjuq9",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zHCpqs8szh2s2TMWpbSr2k",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x8urx9kFZyTcBJsM1BPlP8",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zMCTjT9_XkWrmlLAIIwmrV",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x-z2NU0kC87cTRwsrxnZIr",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0y0pM6sLVr1iECBoigdXP1K",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0y2eCLAqPJ85lyOTEmZIm5s",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xlSELxhuWfqiXVveiVhiI9",
+     "title": ""
+    }
+   ],
+   "t": 1790516787146
+  },
+  "powerglove|the super smash bros ep": {
+   "none": 1,
+   "t": 1790519387778,
+   "bad": [
+    "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+    "PLMcxsZ5z9i0zilArnzAwMV_VjPfdQBmep",
+    "PLMcxsZ5z9i0wQt41gQ6kVxZ-RhafLu0N_",
+    "PLMcxsZ5z9i0xtz-yUxbj4LvNT1Lovhqf8",
+    "PLMcxsZ5z9i0xOTpUiHZa7bGmzyFnBxi6x",
+    "PLMcxsZ5z9i0yI5PlA86IJbQ--yvp_uwY7",
+    "PLMcxsZ5z9i0xrj41jGlEHsF9FzN-_GtTZ",
+    "PLMcxsZ5z9i0xuxJn4ZEbKK5bTBVjKdD9x",
+    "PLMcxsZ5z9i0wtMjp_GYOAniYMMja6T1m1",
+    "PLMcxsZ5z9i0zPHANliV16TNrxoUJfyPfF",
+    "PLMcxsZ5z9i0x41uCsoO8qMRMREkUCjuq9",
+    "PLMcxsZ5z9i0zHCpqs8szh2s2TMWpbSr2k",
+    "PLMcxsZ5z9i0x8urx9kFZyTcBJsM1BPlP8",
+    "PLMcxsZ5z9i0zMCTjT9_XkWrmlLAIIwmrV",
+    "PLMcxsZ5z9i0x-z2NU0kC87cTRwsrxnZIr",
+    "PLMcxsZ5z9i0y0pM6sLVr1iECBoigdXP1K",
+    "PLMcxsZ5z9i0y2eCLAqPJ85lyOTEmZIm5s",
+    "PLMcxsZ5z9i0xlSELxhuWfqiXVveiVhiI9"
+   ]
+  },
+  "@artist|kreator": {
+   "channelId": "UCd3NOEbRV6V3RKqUqvlrQ8w",
+   "playlists": [
+    {
+     "id": "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
+     "title": ""
+    },
+    {
+     "id": "PL0-c8kPcqQ1AnIBfeX7H4sV-NRWVqAE14",
+     "title": ""
+    },
+    {
+     "id": "PL0-c8kPcqQ1A_DQXtA9Nc301OE43MCmFW",
+     "title": ""
+    }
+   ],
+   "t": 1790519386118
+  },
+  "kreator|hate uber alles": {
+   "id": "PLsT9douBcx98la_fVPrmNoOwXmWhKeBvl",
+   "title": "Kreator Hate Uber Alles Full Album",
+   "t": 1790519389755,
+   "bad": [
+    "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
+    "PL0-c8kPcqQ1AnIBfeX7H4sV-NRWVqAE14",
+    "PL0-c8kPcqQ1A_DQXtA9Nc301OE43MCmFW"
+   ]
+  },
+  "@artist|rhadamanthys": {
+   "channelId": "UCUelFEA8CNbQeg1xhvIAvcA",
+   "playlists": [
+    {
+     "id": "PLXWJ4WLw5NRpXZwbDZTsS-op2wPDzXGpf",
+     "title": ""
+    }
+   ],
+   "t": 1790519392192
+  },
+  "rhadamanthys|midnight skies": {
+   "id": "PLXWJ4WLw5NRpXZwbDZTsS-op2wPDzXGpf",
+   "title": "",
+   "t": 1790519392193,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|lamb of god": {
+   "channelId": "UCTaA5rGW1qSMnCTTFyFFKoA",
+   "playlists": [
+    {
+     "id": "PLEdYyTRpdEO9YmeCBVYj5En6t5Tzj7V85",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_zioMd6Vr1IEWgRQfJDtAy",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO-fvJ3zU0L77Xd0vCQGDEag",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO91MCyzGQdmigM8OVE-fhSI",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO9tF3Vhn4BjGxhTUoAsZ8ut",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO94ZVAOAqUXOjKERE-O_R4H",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_QnIEqMlHYFPUCqxxny0Tr",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_eybg1G8W-ioEwsGT9Gf0R",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO85-A-JDDTXHjVdPXFWUS8-",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO8Mv7UV3Nz2jmHE4o4L1RuH",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_50TYpLNC5U6A_5ChmFo4f",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO-P_d7dcD3jd2er9F8OyPRA",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO8YT0OQo6s9hI6G1LjKfHye",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO9IZoP3gHttsHyjkqrSrI2x",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_4ICdr3mITP6Z1O-y2I65f",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO-JnDpznVjUGLxY2BOMfgCQ",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO_t6kjfc3aFqXf_ROknPoUM",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO-B-igAC0kypCKHmoWJvaXS",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO9HRzjiB1VHxqXLJa8xuimS",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO9tZWi7QHlWEMYmS_dgFAQl",
+     "title": ""
+    },
+    {
+     "id": "PLEdYyTRpdEO8wBbKus_iPanjNOsn3gSPz",
+     "title": ""
+    }
+   ],
+   "t": 1790519398976
+  },
+  "lamb of god|omens": {
+   "id": "PLBzBwYhHpqLK7rN6CQasQx3LIO1jh6Z8Z",
+   "title": "Lamb of God - Omens (full album)",
+   "t": 1790519399730,
+   "bad": []
   }
  },
  "youtube_skip": [
