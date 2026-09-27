@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T14:30:04.258Z",
+ "maj": "2026-09-27T14:30:37.452Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3728,9 +3728,48 @@
    "bad": []
   },
   "moongates guardian|oath of feanor": {
-   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
+   "none": 1,
+   "t": 1790519430866,
+   "bad": [
+    "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
+   ]
+  },
+  "powerglove|metal kombat for the mortal man": {
+   "id": "PLLR-euG1LRvaPu9KnqncQF_qNJVlVQpQY",
+   "title": "Powerglove - Metal Kombat for the Mortal Man (Full Album)",
+   "t": 1790519435937,
+   "bad": [
+    "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+    "PLMcxsZ5z9i0zilArnzAwMV_VjPfdQBmep",
+    "PLMcxsZ5z9i0wQt41gQ6kVxZ-RhafLu0N_",
+    "PLMcxsZ5z9i0xtz-yUxbj4LvNT1Lovhqf8",
+    "PLMcxsZ5z9i0xOTpUiHZa7bGmzyFnBxi6x",
+    "PLMcxsZ5z9i0yI5PlA86IJbQ--yvp_uwY7",
+    "PLMcxsZ5z9i0xrj41jGlEHsF9FzN-_GtTZ",
+    "PLMcxsZ5z9i0xuxJn4ZEbKK5bTBVjKdD9x",
+    "PLMcxsZ5z9i0wtMjp_GYOAniYMMja6T1m1",
+    "PLMcxsZ5z9i0zPHANliV16TNrxoUJfyPfF",
+    "PLMcxsZ5z9i0x41uCsoO8qMRMREkUCjuq9",
+    "PLMcxsZ5z9i0zHCpqs8szh2s2TMWpbSr2k",
+    "PLMcxsZ5z9i0x8urx9kFZyTcBJsM1BPlP8",
+    "PLMcxsZ5z9i0zMCTjT9_XkWrmlLAIIwmrV",
+    "PLMcxsZ5z9i0x-z2NU0kC87cTRwsrxnZIr",
+    "PLMcxsZ5z9i0y0pM6sLVr1iECBoigdXP1K",
+    "PLMcxsZ5z9i0y2eCLAqPJ85lyOTEmZIm5s",
+    "PLMcxsZ5z9i0xlSELxhuWfqiXVveiVhiI9"
+   ]
+  },
+  "powerglove|flawless victory": {
+   "id": "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
    "title": "",
-   "t": 1790519402751,
+   "t": 1790519433086,
+   "bad": [],
+   "topic": true
+  },
+  "powerglove|saturday morning apocalypse": {
+   "id": "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+   "title": "",
+   "t": 1790519434692,
    "bad": [],
    "topic": true
   }
