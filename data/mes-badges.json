@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T16:28:15.107Z",
+ "maj": "2026-09-27T17:46:55.657Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3787,6 +3787,52 @@
    "id": "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW",
    "title": "",
    "t": 1790526493606,
+   "bad": [],
+   "topic": true
+  },
+  "bullet for my valentine|the poison": {
+   "id": "PLSV4-Fd7HLg46CtClnfIb_L2pUhR6glds",
+   "title": "Bullet for My Valentine The Poison Full Album",
+   "t": 1790531214156,
+   "bad": [
+    "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
+    "PLmmWbcMayTQUna1rkyrqFg3dV-jfL1mJQ",
+    "PLmmWbcMayTQW3yRas_ifNw6ozlDnrjoq4",
+    "PLmmWbcMayTQWbc8vetUxBnzlnjOoV2fDV",
+    "PLmmWbcMayTQVMgRZ2pt8Dl3GFU9IJYELl",
+    "PLmmWbcMayTQUNLpL5wUmvsZj11EhKUp3f",
+    "PLmmWbcMayTQVg1o1WaEMLusq8Dx4tTlud",
+    "PLmmWbcMayTQUMbHr8L_Ci8i6SeM5gMIeE",
+    "PLmmWbcMayTQVgrICawSEIrISBAxrnVpg3",
+    "PLmmWbcMayTQVoJKKkCeVUuEVN9oknHifs",
+    "PLmmWbcMayTQWNNbDsClRjBeZtD6HiawPv",
+    "PLmmWbcMayTQUAU7Krz-7rdXOFLomqBMeC",
+    "PLmmWbcMayTQURaq6mHpLijSDf38qdNKZB",
+    "PLmmWbcMayTQUuO3IAMPn__ryPILrBPpqD",
+    "PLmmWbcMayTQXIoAPZAGhAJicye1FkEKYu",
+    "PLmmWbcMayTQWVMcdtIb6PPtZ52Bwa_LYs",
+    "PLmmWbcMayTQUSRL3J9NH1M8VNnM9Ej6pX",
+    "PLmmWbcMayTQV48Hfqe5RSkkrQkuFtJ5np",
+    "PLmmWbcMayTQV5AFmAmCknEOt-vM-4thX7",
+    "PLmmWbcMayTQWlsYw63IVe7DVPNK6ofgYV",
+    "PLmmWbcMayTQVgm-0PhrZkRTNY15Ewrzah",
+    "PLmmWbcMayTQWqGV5biO3reK8gc1YA-gM1"
+   ]
+  },
+  "@artist|turisas": {
+   "channelId": "UCKtDEzexZu3QJk0IPtR2MLg",
+   "playlists": [
+    {
+     "id": "PLKt5aBY95q9yhqXESkcnzncP2FGGShBo-",
+     "title": ""
+    }
+   ],
+   "t": 1790531211738
+  },
+  "turisas|turisas 2013": {
+   "id": "PLKt5aBY95q9yhqXESkcnzncP2FGGShBo-",
+   "title": "",
+   "t": 1790531211739,
    "bad": [],
    "topic": true
   }
