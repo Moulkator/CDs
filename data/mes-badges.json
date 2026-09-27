@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T14:30:01.232Z",
+ "maj": "2026-09-27T14:30:04.258Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3726,6 +3726,13 @@
    "title": "Lamb of God - Omens (full album)",
    "t": 1790519399730,
    "bad": []
+  },
+  "moongates guardian|oath of feanor": {
+   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
+   "title": "",
+   "t": 1790519402751,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
