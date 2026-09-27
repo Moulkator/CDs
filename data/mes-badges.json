@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T18:30:49.994Z",
+ "maj": "2026-09-27T19:39:13.271Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3364,11 +3364,74 @@
    "t": 1790533847866,
    "bad": [],
    "topic": true
+  },
+  "alestorm|no grave but the sea": {
+   "id": "PLkTZJl607nY8wxlYEMJSnXTe8p8jkXUEo",
+   "title": "Alestorm - No Grave But The Sea (Full Album)",
+   "t": 1790537951770,
+   "bad": [
+    "PLDLuML11GrQAAFYXv3DHkpmhMiiq2xy9Q",
+    "PLDLuML11GrQAoy2Nz_WF3gSO9fcwLjVff",
+    "PLDLuML11GrQD_79cYQEiK0g3UYYYMlTfq",
+    "PLDLuML11GrQCyN0IDERS9rIcrsTI2V-NM",
+    "PLDLuML11GrQDEBKePI9YdIGhPa0PVVTRN",
+    "PLDLuML11GrQBs3AZ332Wf8ZSLQalFEDZt",
+    "PLDLuML11GrQDEyHLtBqsG70Rl0FnkM-jq",
+    "PLDLuML11GrQDMW5PbYys9L4hHAHrGvqR-",
+    "PLDLuML11GrQCRLsZmRNFyoyWILvJnx02v",
+    "PLDLuML11GrQCZuy7tMkjUBogvljOfTiJP",
+    "PLDLuML11GrQArZzMNrXPlhUC1lvRMzeBL",
+    "PLDLuML11GrQCvpejPW0_Tp1k2fUOgkX0s",
+    "PLDLuML11GrQDzAugEw1Vqai0FUIBzmA2s",
+    "PLDLuML11GrQCbxvSefbBrmgETKhNCIypD",
+    "PLDLuML11GrQCp1MdsY1kEW_p9kO6OUGeE",
+    "PLDLuML11GrQDtyLb2uoMXdBW8OAhpzSOQ",
+    "PLDLuML11GrQAWyrzVwOPyvRyOVjmwqRj3",
+    "PLDLuML11GrQBX-QLR49bhTsjQAyMpzHLq",
+    "PLDLuML11GrQCXu-QsH36M2rHwdDgR2FYb",
+    "PLDLuML11GrQCoKkMGuj8W0JpC5aPdfqGm",
+    "PLDLuML11GrQDaFFs2jOBzAnwwER3JKn1c",
+    "PLDLuML11GrQAykSnhW9JFOBw2Uss8HTBx",
+    "PLDLuML11GrQBJts-blwdMw2TOYrhZN1i5",
+    "PLDLuML11GrQCsXG3sJ7pHWk9qaBhlgeVl",
+    "PLDLuML11GrQDVob7aftzt-MX0Req2Wviu",
+    "PLDLuML11GrQCdP6HSkNUff9wdaWr_HoUI"
+   ]
+  },
+  "@artist|moonsorrow": {
+   "channelId": "UCcupRSYMS97dB0hkRxCs79g",
+   "playlists": [
+    {
+     "id": "PLHr6dmnGsGhwSLFwwkJgmlxrbTO012mVH",
+     "title": ""
+    },
+    {
+     "id": "PLHr6dmnGsGhytYVhWDOprG0TL7qOrpJGS",
+     "title": ""
+    },
+    {
+     "id": "PLHr6dmnGsGhzL2LBR8gZD2VrGAosMzIVf",
+     "title": ""
+    },
+    {
+     "id": "PLHr6dmnGsGhzz-DH7uWcI4evmAS1D7INd",
+     "title": ""
+    }
+   ],
+   "t": 1790537947953
+  },
+  "moonsorrow|suden uni": {
+   "id": "PLHr6dmnGsGhwSLFwwkJgmlxrbTO012mVH",
+   "title": "",
+   "t": 1790537947954,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
   "J0vUqvfHQeQ"
  ],
+ "commandes": [],
  "achetes": [
   {
    "groupe": "Aephanemer",
