@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T14:30:37.452Z",
+ "maj": "2026-09-27T16:28:15.107Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3772,11 +3772,29 @@
    "t": 1790519434692,
    "bad": [],
    "topic": true
+  },
+  "@artist|whispered": {
+   "channelId": "UCZybUqXpY2HahZyycj01rlg",
+   "playlists": [
+    {
+     "id": "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW",
+     "title": ""
+    }
+   ],
+   "t": 1790526493605
+  },
+  "whispered|shogunate macabre": {
+   "id": "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW",
+   "title": "",
+   "t": 1790526493606,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
   "J0vUqvfHQeQ"
  ],
+ "commandes": [],
  "achetes": [
   {
    "groupe": "Aephanemer",
