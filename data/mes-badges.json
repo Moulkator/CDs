@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T13:16:27.466Z",
+ "maj": "2026-09-27T13:16:30.487Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3317,9 +3317,17 @@
    "bad": []
   },
   "ensiferum|one man army": {
-   "id": "PLFnZHeQllRkVA2aLvS5dZjX1pLIWLqKlo",
+   "id": "PLxrfHqi4x6JuG9ga8uLT1c3OhtCKTK6gH",
+   "title": "Ensiferum FULL ALBUM - One Man Army",
+   "t": 1790514988080,
+   "bad": [
+    "PLFnZHeQllRkVA2aLvS5dZjX1pLIWLqKlo"
+   ]
+  },
+  "moongates guardian|the dragon is withered": {
+   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
    "title": "",
-   "t": 1790514985966,
+   "t": 1790514988975,
    "bad": [],
    "topic": true
   }
