@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-27T18:30:44.170Z",
+ "maj": "2026-09-27T18:30:49.994Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3330,6 +3330,40 @@
    "bad": [
     "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
    ]
+  },
+  "@artist|raintime": {
+   "channelId": "UC9tnxCFcuNTBA1GWX4oNseg",
+   "playlists": [
+    {
+     "id": "PL1Pv7m6KK32vvi103OzXv-YgXZkD64gaF",
+     "title": ""
+    }
+   ],
+   "t": 1790533845827
+  },
+  "raintime|flies lies": {
+   "id": "PL1Pv7m6KK32vvi103OzXv-YgXZkD64gaF",
+   "title": "",
+   "t": 1790533845828,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|varg": {
+   "channelId": "UCw4KwXNbsa2X49rXlRg8pVQ",
+   "playlists": [
+    {
+     "id": "PLEpm98SqDDMC6K1nu-qIZ3mc24xmWPD-J",
+     "title": ""
+    }
+   ],
+   "t": 1790533847864
+  },
+  "varg|guten tag": {
+   "id": "PLEpm98SqDDMC6K1nu-qIZ3mc24xmWPD-J",
+   "title": "",
+   "t": 1790533847866,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
