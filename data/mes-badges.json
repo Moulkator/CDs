@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:23:49.483Z",
+ "maj": "2026-09-28T21:24:41.930Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3867,6 +3867,23 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Sum 41",
+   "album": "Chuck",
+   "style": "Pop Punk",
+   "pays": "Canada (Ajax)",
+   "langue": "",
+   "annee": "2019",
+   "duree": "42",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/c6a0130589841326372ac87c6924ed65/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Recherche",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
