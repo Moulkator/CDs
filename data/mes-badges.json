@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:23:33.481Z",
+ "maj": "2026-09-28T21:23:47.018Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3736,11 +3736,40 @@
    "t": 1790630611979
   },
   "3 inches of blood|advance and vainquish": {
-   "id": "PLLa9ljfBDlyQ3umxnuIKpGqxjmn1HgMV7",
-   "title": "",
-   "t": 1790630611980,
-   "bad": [],
-   "topic": true
+   "none": 1,
+   "t": 1790630624146,
+   "bad": [
+    "PLLa9ljfBDlyQ3umxnuIKpGqxjmn1HgMV7",
+    "PLLa9ljfBDlySXAa7JOnfYPM69dJe2vgm4",
+    "PLLa9ljfBDlyQR2_2P3N-dgZxuuNVZ6_bb",
+    "PLLa9ljfBDlySK6WtW7RcIGVIHeDnI324Q",
+    "PLLa9ljfBDlySSXOOa7Gq64zYtfy2nJQ1m",
+    "PLLa9ljfBDlyQ_MJqp1YlXcUg0T1qWhvcl",
+    "PLLa9ljfBDlySW9pQolIAybssBeqO5eBNM",
+    "PLLa9ljfBDlyTwgSmtjnKgkcPzeqtIMKuJ",
+    "PLLa9ljfBDlySHy8hAzjHV-4ItkvA2WzOk",
+    "PLLa9ljfBDlyQgUSuW-46NtOA9pIquTYtn",
+    "PLLa9ljfBDlyTuDOKKrE5J3s6VpgCdUeGt",
+    "PLLa9ljfBDlySy1irp9QO2yYEeS87BSvx3"
+   ]
+  },
+  "@artist|aephanemer": {
+   "channelId": "UCoRyDogey5x19jmV6_XA4Jw",
+   "playlists": [
+    {
+     "id": "PLFjAcZ0SCMl2nHakoahB_9s7pCPyUuNuY",
+     "title": ""
+    }
+   ],
+   "t": 1790630624096
+  },
+  "aephanemer|prokopton": {
+   "id": "PLudPvLRjmSc-i6ijBHK0GSjUIZ2idkQ6H",
+   "title": "Aephanemer - Prokopton (Full Album)",
+   "t": 1790630625509,
+   "bad": [
+    "PLFjAcZ0SCMl2nHakoahB_9s7pCPyUuNuY"
+   ]
   }
  },
  "youtube_skip": [
