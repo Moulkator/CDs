@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:24:41.930Z",
+ "maj": "2026-09-28T21:25:22.738Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3968,6 +3968,16 @@
    "annee": "2024",
    "record_type": "album",
    "nb_tracks": 8,
+   "ajoute": "2026-09-28"
+  },
+  {
+   "groupe": "Sum 41",
+   "album": "Order In Decline",
+   "deezer_id": 102842572,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/5f652a9bb973834436f86ff97dbe263f/500x500-000000-80-0-0.jpg",
+   "annee": "2019",
+   "record_type": "album",
+   "nb_tracks": 10,
    "ajoute": "2026-09-28"
   }
  ]
