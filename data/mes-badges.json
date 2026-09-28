@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T16:20:57.593Z",
+ "maj": "2026-09-28T16:21:01.119Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3568,6 +3568,23 @@
    "title": "Unreqvited - Stars Wept to the Sea (Full Album)",
    "t": 1790612456091,
    "bad": []
+  },
+  "@artist|igorrr": {
+   "channelId": "UC7gJRij98IY_nFfFDrld8yQ",
+   "playlists": [
+    {
+     "id": "PL6UGiY8dY-c2QYAHAnbz0kYVhEHjAsg7r",
+     "title": ""
+    }
+   ],
+   "t": 1790612459606
+  },
+  "igorrr|spirituality and distortion": {
+   "id": "PL6UGiY8dY-c2QYAHAnbz0kYVhEHjAsg7r",
+   "title": "",
+   "t": 1790612459607,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
