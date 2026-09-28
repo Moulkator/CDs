@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T16:21:01.119Z",
+ "maj": "2026-09-28T16:21:20.292Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3580,11 +3580,12 @@
    "t": 1790612459606
   },
   "igorrr|spirituality and distortion": {
-   "id": "PL6UGiY8dY-c2QYAHAnbz0kYVhEHjAsg7r",
-   "title": "",
-   "t": 1790612459607,
-   "bad": [],
-   "topic": true
+   "id": "PLHtnZXLCPyRFueHvPY2qFgEEmsK6aHUgw",
+   "title": "Igorrr - Spirituality And Distortion (Full Album) (2020)",
+   "t": 1790612478778,
+   "bad": [
+    "PL6UGiY8dY-c2QYAHAnbz0kYVhEHjAsg7r"
+   ]
   }
  },
  "youtube_skip": [
