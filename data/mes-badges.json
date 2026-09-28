@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T15:06:26.009Z",
+ "maj": "2026-09-28T15:06:28.191Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3477,11 +3477,12 @@
    "t": 1790607983687
   },
   "revocation|empire of the obscene": {
-   "id": "PLNcPcESGzc_xfqgMzr_Wx-O93G1Ldkj3z",
-   "title": "",
-   "t": 1790607983687,
-   "bad": [],
-   "topic": true
+   "id": "PLINgfcojzT9ts6LIkukF25kyiyIegcn4o",
+   "title": "Revocation - Empire of the Obscene (Full Album)",
+   "t": 1790607986690,
+   "bad": [
+    "PLNcPcESGzc_xfqgMzr_Wx-O93G1Ldkj3z"
+   ]
   }
  },
  "youtube_skip": [
