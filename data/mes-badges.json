@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:20:38.637Z",
+ "maj": "2026-09-28T21:20:41.178Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3662,6 +3662,23 @@
    "bad": [
     "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW"
    ]
+  },
+  "@artist|whitechapel": {
+   "channelId": "UC1aJ-GrhC2wz2b_c1XM9KGA",
+   "playlists": [
+    {
+     "id": "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO",
+     "title": ""
+    }
+   ],
+   "t": 1790630439672
+  },
+  "whitechapel|live in the valley": {
+   "id": "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO",
+   "title": "",
+   "t": 1790630439673,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
