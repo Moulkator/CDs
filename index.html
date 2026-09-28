@@ -310,6 +310,7 @@ body.has-mp .wrap{padding-bottom:120px}
       <option value="collection">Collection</option>
       <option value="wishlist">Liste de souhaits</option>
       <option value="sorties">Sorties déjà parues</option>
+      <option value="ecouter">À écouter (Rechercher, Découvertes, Sorties)</option>
     </select>
     <select id="randFamille"><option value="">Tous les styles</option></select>
     <input id="randGroupe" list="dlGroupesRand" placeholder="Un groupe en particulier (optionnel)"><datalist id="dlGroupesRand"></datalist>
@@ -1094,6 +1095,9 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     if(!src||src==='collection') (STATE.coll||[]).forEach(function(r){ add(r,'collection'); });
     if(!src||src==='wishlist') (STATE.wish||[]).forEach(function(r){ add(r,'wishlist'); });
     if(!src||src==='sorties') (STATE.sorties||[]).forEach(function(it){ var k=key(it.groupe,it.album); if(!isPast(it.date,it.precision)) return; if(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]) return; if(it.refs&&it.refs.length&&it.refs.every(function(r){return STATE.refus[r];})) return; add(it,'sorties'); });
+    if(!src||src==='ecouter'){ (STATE.aecouter||[]).forEach(function(a){ if((STATE.dstatuts[key(a.groupe,a.album)]||'À écouter')==='À écouter') add({groupe:a.groupe,album:a.album,annee:a.annee||'',pochette:a.pochette||'',duree:a.duree||''},'ecouter'); });
+      (STATE.dec||[]).forEach(function(c){ if(STATE.hidden[norm(c.name)]) return; if((STATE.dstatuts[key(c.name,c.album||'')]||'')!=='À écouter') return; add({groupe:c.name,album:c.album||'',annee:c.albumYear||'',pochette:c.cover||'',duree:c.duree||''},'ecouter'); });
+      if(src==='ecouter') (STATE.sorties||[]).forEach(function(it){ if((STATE.statuts[key(it.groupe,it.album)]||'')==='À écouter') add(it,'ecouter'); }); }
     if(fam) pool=pool.filter(function(p){ return p.fams.indexOf(fam)>=0; });
     if(grp) pool=pool.filter(function(p){ return norm(p.groupe)===grp; });
     return pool;
@@ -1125,7 +1129,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     $('randD').textContent=[p.annee, p.style, p.pays, p.duree?'⏱ '+fmtDuree(p.duree):''].filter(Boolean).join(' · ');
     var kn=knownOf(p.groupe,p.album);
     var known2 = p.source==='collection' ? 'collection' : p.source==='wishlist' ? 'wishlist' : kn;
-    $('randBadges').innerHTML=(p.source==='sorties'?'<span class="badge">Sortie récente</span>':'')+(known2?'<span class="badge collec">'+(known2==='collection'?'Dans la collection':'Dans la liste de souhaits')+'</span>':'')+(YTA.isVideo(p.groupe,p.album)?'<span class="badge">vidéo album complet</span>':'');
+    $('randBadges').innerHTML=(p.source==='sorties'?'<span class="badge">Sortie récente</span>':'')+(p.source==='ecouter'?'<span class="badge" style="background:var(--blue);color:#0c0e11;border-color:transparent">À écouter</span>':'')+(known2?'<span class="badge collec">'+(known2==='collection'?'Dans la collection':'Dans la liste de souhaits')+'</span>':'')+(YTA.isVideo(p.groupe,p.album)?'<span class="badge">vidéo album complet</span>':'');
     var q2=encodeURIComponent(p.groupe+' '+p.album);
     $('randLinks').innerHTML='<a target="_blank" rel="noopener" href="'+(YTA.watchUrl(p.groupe,p.album)||('https://www.youtube.com/results?search_query='+q2))+'">↗ Ouvrir dans YouTube</a><a target="_blank" rel="noopener" href="https://www.deezer.com/search/'+q2+'">Deezer</a><a target="_blank" rel="noopener" href="https://bandcamp.com/search?q='+q2+'">Bandcamp</a><a target="_blank" rel="noopener" href="https://www.metal-archives.com/search?searchString='+encodeURIComponent(p.groupe)+'&type=band_name">Metallum</a>';
     var item={groupe:p.groupe,album:p.album,annee:p.annee||'',pochette:p.pochette||'',duree:p.duree||'',_from:'Album aléatoire'}, kk=key(p.groupe,p.album);
