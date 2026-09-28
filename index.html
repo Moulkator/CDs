@@ -1197,7 +1197,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     if(RAND.busy) return; RAND.busy=true; $('randNext').disabled=true;
     var tries=0;
     function attempt(){
-      var p=null; if(RAND.prefetched && YTA.known(RAND.prefetched.groupe,RAND.prefetched.album) && RAND.played.indexOf(key(RAND.prefetched.groupe,RAND.prefetched.album))<0){ p=RAND.prefetched; } RAND.prefetched=null;
+      var p=null; if(RAND.prefetched && YTA.known(RAND.prefetched.groupe,RAND.prefetched.album) && RAND.played.indexOf(key(RAND.prefetched.groupe,RAND.prefetched.album))<0){ var pk=key(RAND.prefetched.groupe,RAND.prefetched.album); if(randPool().some(function(x){ return key(x.groupe,x.album)===pk; })) p=RAND.prefetched; } RAND.prefetched=null;
       if(!p) p=randPick(); if(!p){ RAND.busy=false; $('randNext').disabled=false; return; }
       $('randInfo').textContent='Recherche de la lecture YouTube pour '+p.groupe+' — '+p.album+'…';
       YTA.find(p.groupe,p.album,function(id,msg){ if(id){ RAND.busy=false; $('randNext').disabled=false; randShow(p); randPlayId(p); $('randInfo').textContent=''; randMessageActivation(); setTimeout(randPrefetch, 3000); return; }
@@ -1205,9 +1205,9 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     }
     attempt();
   }
-  ['randSource','randFamille','randGroupe'].forEach(function(id){ $(id).addEventListener('change',randRefreshCounts); });
+  ['randSource','randFamille','randGroupe'].forEach(function(id){ $(id).addEventListener('change',function(){ RAND.prefetched=null; randRefreshCounts(); }); });
   $('randGroupe').addEventListener('input',function(){ if(!this.value) randRefreshCounts(); });
-  $('randPlay').addEventListener('click',function(){ RAND.played=[]; randNext(); });
+  $('randPlay').addEventListener('click',function(){ RAND.played=[]; RAND.prefetched=null; randNext(); });
   $('randNext').addEventListener('click',randNext); $('randPrev').addEventListener('click',randPrev);
 
   // ------------------------------------------------------------ MINI-LECTEUR (bas de page)
