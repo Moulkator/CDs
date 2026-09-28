@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T15:06:23.131Z",
+ "maj": "2026-09-28T15:06:26.009Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3458,9 +3458,28 @@
    "t": 1790607979089
   },
   "maximum the hormone|buiiki kaesu": {
-   "id": "PLEEcU32DT70sF6dojkK9IrF2VQ0z5xYbT",
+   "none": 1,
+   "t": 1790607985169,
+   "bad": [
+    "PLEEcU32DT70sF6dojkK9IrF2VQ0z5xYbT",
+    "PLEEcU32DT70uLbsu7mCI0wETFzsrxKRy9",
+    "PLEEcU32DT70t2MatNju6-2_psBNFdOPY-"
+   ]
+  },
+  "@artist|revocation": {
+   "channelId": "UCsclhDvJVIOz7u7YOvUyGuw",
+   "playlists": [
+    {
+     "id": "PLNcPcESGzc_xfqgMzr_Wx-O93G1Ldkj3z",
+     "title": ""
+    }
+   ],
+   "t": 1790607983687
+  },
+  "revocation|empire of the obscene": {
+   "id": "PLNcPcESGzc_xfqgMzr_Wx-O93G1Ldkj3z",
    "title": "",
-   "t": 1790607979090,
+   "t": 1790607983687,
    "bad": [],
    "topic": true
   }
