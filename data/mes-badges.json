@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:25:22.738Z",
+ "maj": "2026-09-28T21:25:24.794Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3978,6 +3978,16 @@
    "annee": "2019",
    "record_type": "album",
    "nb_tracks": 10,
+   "ajoute": "2026-09-28"
+  },
+  {
+   "groupe": "Sum 41",
+   "album": "Heaven :x: Hell",
+   "deezer_id": 892847972,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/25973e09e08663ff651a8f863c646c08/500x500-000000-80-0-0.jpg",
+   "annee": "2024",
+   "record_type": "album",
+   "nb_tracks": 20,
    "ajoute": "2026-09-28"
   }
  ]
