@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:21:04.435Z",
+ "maj": "2026-09-28T21:23:33.481Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3680,6 +3680,67 @@
    "bad": [
     "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO"
    ]
+  },
+  "@artist|3 inches of blood": {
+   "channelId": "UCwa_1qZHqIGupwT1JrdJr7w",
+   "playlists": [
+    {
+     "id": "PLLa9ljfBDlyQ3umxnuIKpGqxjmn1HgMV7",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySXAa7JOnfYPM69dJe2vgm4",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlyQR2_2P3N-dgZxuuNVZ6_bb",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySK6WtW7RcIGVIHeDnI324Q",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySSXOOa7Gq64zYtfy2nJQ1m",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlyQ_MJqp1YlXcUg0T1qWhvcl",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySW9pQolIAybssBeqO5eBNM",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlyTwgSmtjnKgkcPzeqtIMKuJ",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySHy8hAzjHV-4ItkvA2WzOk",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlyQgUSuW-46NtOA9pIquTYtn",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlyTuDOKKrE5J3s6VpgCdUeGt",
+     "title": ""
+    },
+    {
+     "id": "PLLa9ljfBDlySy1irp9QO2yYEeS87BSvx3",
+     "title": ""
+    }
+   ],
+   "t": 1790630611979
+  },
+  "3 inches of blood|advance and vainquish": {
+   "id": "PLLa9ljfBDlyQ3umxnuIKpGqxjmn1HgMV7",
+   "title": "",
+   "t": 1790630611980,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
