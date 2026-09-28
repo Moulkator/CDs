@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:19:12.441Z",
+ "maj": "2026-09-28T21:20:38.637Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3633,6 +3633,34 @@
    "t": 1790630350921,
    "bad": [
     "PLod8lMuKi26wAefSFYlH7PooCaA3rkfFy"
+   ]
+  },
+  "moonsorrow|kivenkantaja": {
+   "bad": [
+    "PLHr6dmnGsGhwSLFwwkJgmlxrbTO012mVH",
+    "PLHr6dmnGsGhytYVhWDOprG0TL7qOrpJGS",
+    "PLHr6dmnGsGhzL2LBR8gZD2VrGAosMzIVf",
+    "PLHr6dmnGsGhzz-DH7uWcI4evmAS1D7INd"
+   ],
+   "t": 1790630434279
+  },
+  "@artist|whispered": {
+   "channelId": "UCZybUqXpY2HahZyycj01rlg",
+   "playlists": [
+    {
+     "id": "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW",
+     "title": ""
+    }
+   ],
+   "t": 1790630436150
+  },
+  "whispered|honorbound": {
+   "id": "uytCpIE-yhY",
+   "video": true,
+   "title": "Honorbound",
+   "t": 1790630437136,
+   "bad": [
+    "PLJD1KyL1FR8Gc7tOnJ9Mq-ssNIILQNhXW"
    ]
   }
  },
