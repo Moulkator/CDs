@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:12:34.131Z",
+ "maj": "2026-09-28T21:18:53.156Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3598,6 +3598,24 @@
    "title": "Almucantarat - Infinity (Full album)",
    "t": 1790616245096,
    "bad": []
+  },
+  "@artist|trelleborg": {
+   "channelId": "UCCanQjv5TBeXAOo7EYjPwGA",
+   "playlists": [
+    {
+     "id": "PLjVPBL2K3_8Haho5T10xCpvVGiOxU8NRC",
+     "title": ""
+    }
+   ],
+   "t": 1790630330904
+  },
+  "trelleborg|lands of njord": {
+   "id": "PLMyUH3ZGK85OLsyrUcqH9yNykuMpsOM6b",
+   "title": "Trelleborg - Lands of Njord (Full Album)",
+   "t": 1790630331655,
+   "bad": [
+    "PLjVPBL2K3_8Haho5T10xCpvVGiOxU8NRC"
+   ]
   }
  },
  "youtube_skip": [
