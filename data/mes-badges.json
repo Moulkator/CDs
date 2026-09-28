@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T16:21:20.292Z",
+ "maj": "2026-09-28T17:24:06.596Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3586,6 +3586,18 @@
    "bad": [
     "PL6UGiY8dY-c2QYAHAnbz0kYVhEHjAsg7r"
    ]
+  },
+  "@artist|almucantarat": {
+   "channelId": "UCgITwFjSSUu0Oy06GyoGsAw",
+   "playlists": [],
+   "t": 1790616244387
+  },
+  "almucantarat|infinity": {
+   "id": "BXs_6likSZA",
+   "video": true,
+   "title": "Almucantarat - Infinity (Full album)",
+   "t": 1790616245096,
+   "bad": []
   }
  },
  "youtube_skip": [
