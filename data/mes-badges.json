@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T17:24:06.596Z",
+ "maj": "2026-09-28T21:12:34.131Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3762,6 +3762,16 @@
    "annee": "2026",
    "record_type": "album",
    "nb_tracks": 7,
+   "ajoute": "2026-09-28"
+  },
+  {
+   "groupe": "Almucantarat",
+   "album": "Weightlessness",
+   "deezer_id": 781198601,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/cf8e09561e1a8f3af84ec778bd62de5f/500x500-000000-80-0-0.jpg",
+   "annee": "2024",
+   "record_type": "album",
+   "nb_tracks": 8,
    "ajoute": "2026-09-28"
   }
  ]
