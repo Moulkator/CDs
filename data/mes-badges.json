@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:18:55.935Z",
+ "maj": "2026-09-28T21:19:12.441Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3628,11 +3628,12 @@
    "t": 1790630334399
   },
   "evertale|the great brotherwar": {
-   "id": "PLod8lMuKi26wAefSFYlH7PooCaA3rkfFy",
-   "title": "",
-   "t": 1790630334400,
-   "bad": [],
-   "topic": true
+   "id": "PLVJ53m4eCMCfYUrz2wdhe61a3oxdcDXxJ",
+   "title": "Evertale - The Great Brotherwar (Full Album)",
+   "t": 1790630350921,
+   "bad": [
+    "PLod8lMuKi26wAefSFYlH7PooCaA3rkfFy"
+   ]
   }
  },
  "youtube_skip": [
