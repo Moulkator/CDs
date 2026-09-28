@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T14:43:46.024Z",
+ "maj": "2026-09-28T14:44:38.725Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -3426,6 +3426,18 @@
    "t": 1790537947954,
    "bad": [],
    "topic": true
+  },
+  "@artist|ammanas": {
+   "channelId": "UC1x1rn9uQ5nNz0URY__K_WA",
+   "playlists": [],
+   "t": 1790606676400
+  },
+  "ammanas|anthems from the ancient tales": {
+   "id": "uWK6R5m1-yw",
+   "video": true,
+   "title": "Ammanas - Anthems from the Ancient Tales (Full Album)",
+   "t": 1790606677206,
+   "bad": []
   }
  },
  "youtube_skip": [
