@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T15:06:28.191Z",
+ "maj": "2026-09-28T15:06:31.009Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3483,6 +3483,85 @@
    "bad": [
     "PLNcPcESGzc_xfqgMzr_Wx-O93G1Ldkj3z"
    ]
+  },
+  "@artist|necrophobic": {
+   "channelId": "UCMLamsE9k9IvJaaH-_7jueg",
+   "playlists": [
+    {
+     "id": "PLkDuJbMHK5q1eEdyQbH_ltSiDW_0YR6-8",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q3_oqkmLJ6Ty_wAW9UK8xLq",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q0sKcyYCZIYzaaVSCe8FHRo",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q2NKXsKNf_5TW7J-LeV9soI",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q2TQLOEVYH0MCz0YwBxQJv4",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q0wXyGzgUD1NkVnSFbUT4p1",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q3yp8Wi3lAEYPedhMrfZkIA",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q1yqy_Ev8jRwmj0Y0QKTo3Y",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q0MyR455yk5_6EDi6yY6LhD",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q1gMRS7NcFYEZMjkSygU6FQ",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q0N1okAHNCsP4quCEfjAsW-",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q2vk07CzZbd353sGEWI6N6U",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q17lUS0FGSETtx4L8ArA3vx",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q1NzWFWBov-UCqNtHpEs3sX",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q2DyMdS4UxrqeEHnpz7fQ2Q",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q3Cfz4kgZWTxZxQNdoD4Prb",
+     "title": ""
+    },
+    {
+     "id": "PLkDuJbMHK5q0831HmYrigQncfYq8cPTJH",
+     "title": ""
+    }
+   ],
+   "t": 1790607989508
+  },
+  "necrophobic|pesta": {
+   "none": 1,
+   "t": 1790607990237,
+   "bad": []
   }
  },
  "youtube_skip": [
