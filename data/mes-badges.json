@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:18:53.156Z",
+ "maj": "2026-09-28T21:18:55.935Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3616,6 +3616,23 @@
    "bad": [
     "PLjVPBL2K3_8Haho5T10xCpvVGiOxU8NRC"
    ]
+  },
+  "@artist|evertale": {
+   "channelId": "UCoGt2Y7SABexGvrizLpIqsQ",
+   "playlists": [
+    {
+     "id": "PLod8lMuKi26wAefSFYlH7PooCaA3rkfFy",
+     "title": ""
+    }
+   ],
+   "t": 1790630334399
+  },
+  "evertale|the great brotherwar": {
+   "id": "PLod8lMuKi26wAefSFYlH7PooCaA3rkfFy",
+   "title": "",
+   "t": 1790630334400,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
