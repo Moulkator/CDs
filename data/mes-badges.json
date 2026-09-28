@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:25:24.794Z",
+ "maj": "2026-09-28T21:25:29.590Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3988,6 +3988,16 @@
    "annee": "2024",
    "record_type": "album",
    "nb_tracks": 20,
+   "ajoute": "2026-09-28"
+  },
+  {
+   "groupe": "Sum 41",
+   "album": "13 Voices",
+   "deezer_id": 13282001,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/91c7ab2caeb92eef4d2eb7b7076a02af/500x500-000000-80-0-0.jpg",
+   "annee": "2016",
+   "record_type": "album",
+   "nb_tracks": 10,
    "ajoute": "2026-09-28"
   }
  ]
