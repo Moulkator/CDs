@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T15:06:31.009Z",
+ "maj": "2026-09-28T16:20:57.593Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3561,6 +3561,12 @@
   "necrophobic|pesta": {
    "none": 1,
    "t": 1790607990237,
+   "bad": []
+  },
+  "unreqvited|stars wept to the sea": {
+   "id": "PLWX0mJtyf2ccX65Fk5w_ZR_uNV2VNXx3K",
+   "title": "Unreqvited - Stars Wept to the Sea (Full Album)",
+   "t": 1790612456091,
    "bad": []
   }
  },
