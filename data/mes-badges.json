@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:20:41.178Z",
+ "maj": "2026-09-28T21:21:04.435Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3674,11 +3674,12 @@
    "t": 1790630439672
   },
   "whitechapel|live in the valley": {
-   "id": "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO",
-   "title": "",
-   "t": 1790630439673,
-   "bad": [],
-   "topic": true
+   "id": "PLULpfb6LMekswpgXeRkGp1-TOgPzUjUW6",
+   "title": "Whitechapel - Live in the Valley (Full Album)",
+   "t": 1790630462934,
+   "bad": [
+    "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO"
+   ]
   }
  },
  "youtube_skip": [
