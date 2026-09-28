@@ -521,5 +521,21 @@
 "kind": "annonce",
 "jour": "2026-09-25",
 "changes": []
+},
+{
+"groupe": "NOFX",
+"album": "4 Years of Fucking Up!",
+"date": "2026",
+"precision": "year",
+"type": "album",
+"pochette": "",
+"source": "musicbrainz",
+"mb_rg": "33c92872-a41c-4e2a-88fd-6796f0c8fff7",
+"refs": [
+"mb:dcaa4f81-bfb7-44eb-8594-4e74f004b6e4"
+],
+"kind": "annonce",
+"jour": "2026-09-28",
+"changes": []
 }
 ]

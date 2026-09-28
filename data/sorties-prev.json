@@ -11581,7 +11581,7 @@
 "date": "2022-05-20",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/21214b19a296d59622e041a205b8f561/500x500-000000-80-0-0.jpg",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/15b4210a934efe9e63ee8f426f24e2aa/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 317618787,
 "refs": [
@@ -17913,6 +17913,19 @@
 "dz:4068479"
 ],
 "duree": "63"
+},
+{
+"groupe": "NOFX",
+"album": "4 Years of Fucking Up!",
+"date": "2026",
+"precision": "year",
+"type": "album",
+"pochette": "",
+"source": "musicbrainz",
+"mb_rg": "33c92872-a41c-4e2a-88fd-6796f0c8fff7",
+"refs": [
+"mb:dcaa4f81-bfb7-44eb-8594-4e74f004b6e4"
+]
 },
 {
 "groupe": "Moongates Guardian",
