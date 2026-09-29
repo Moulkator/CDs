@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:52:04.189Z",
+ "maj": "2026-09-29T15:37:23.677Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4465,6 +4465,23 @@
    "title": "Forest of Frost - Forever Lost (E.P.) | Atmospheric Black Metal",
    "t": 1790689921894,
    "bad": []
+  },
+  "@artist|sylvatica": {
+   "channelId": "UCO_C4gtdTiVBHTDDLe4ljWg",
+   "playlists": [
+    {
+     "id": "PLnOMrKzSOK57XTljE0xel8Pj93aY7RYqL",
+     "title": ""
+    }
+   ],
+   "t": 1790696242176
+  },
+  "sylvatica|cadaver synod": {
+   "id": "PLnOMrKzSOK57XTljE0xel8Pj93aY7RYqL",
+   "title": "",
+   "t": 1790696242177,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
