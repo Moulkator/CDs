@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:35.716Z",
+ "maj": "2026-09-29T13:14:43.985Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4404,11 +4404,37 @@
    "t": 1790687671999
   },
   "rhapsody of fire|the frozen tears of angels": {
-   "id": "PLPAlomUdIZA2zaAV6nRvfa6i66dXZ_kj9",
+   "id": "PLPAlomUdIZA0GyahQFwmIYEDCBF9n7BNa",
    "title": "",
-   "t": 1790687672000,
-   "bad": [],
+   "t": 1790687680716,
+   "bad": [
+    "PLPAlomUdIZA2zaAV6nRvfa6i66dXZ_kj9",
+    "PLPAlomUdIZA1vgrVi2-YykKQ-NBac8SGa",
+    "PLPAlomUdIZA0lDmCR4FFK8St-LyG2Sp_V",
+    "PLPAlomUdIZA2bynHbLrOcqZrWFipQ5piy",
+    "PLPAlomUdIZA32mRlRcj_CbM9mmd1k2Vn7",
+    "PLPAlomUdIZA1ozqN2Q1PySk-lF-9LoSL_"
+   ],
    "topic": true
+  },
+  "woods of desolation|the falling tide": {
+   "id": "PLyhgqIpHBESn9z3kaWtangjc7e1bsBLgB",
+   "title": "Woods of Desolation - The Falling Tide (Full Album)",
+   "t": 1790687681531,
+   "bad": [
+    "PLwqrs0YCcjtdKEpVMFZhz6fK-8X6PeQK_"
+   ]
+  },
+  "@artist|deisidaemonia": {
+   "none": 1,
+   "t": 1790687681917
+  },
+  "deisidaemonia|khthonian hymns": {
+   "id": "aLv2iphxQ6U",
+   "video": true,
+   "title": "DEISIDAEMONIA   Khthonian Hymns (FULL ALBUM)",
+   "t": 1790687682485,
+   "bad": []
   }
  },
  "youtube_skip": [
