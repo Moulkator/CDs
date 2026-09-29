@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T17:20:42.327Z",
+ "maj": "2026-09-29T17:53:22.698Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4524,6 +4524,16 @@
    "title": "Karina Buhr - Selvática (Álbum Completo - 2015)",
    "t": 1790702440815,
    "bad": []
+  },
+  "@artist|beyond creation": {
+   "none": 1,
+   "t": 1790704400823
+  },
+  "beyond creation|earthborn evolution": {
+   "id": "PLArAJlC1y559JVHcgoLl83j8pSz91K9Rq",
+   "title": "Beyond Creation - Earthborn Evolution (2015) - Full Album",
+   "t": 1790704401187,
+   "bad": []
   }
  },
  "youtube_skip": [
@@ -4585,6 +4595,23 @@
  ],
  "souhaits": [
   {
+   "groupe": "Sylvatica",
+   "album": "Cadaver Synod",
+   "style": "Folk Melodic Death Metal",
+   "pays": "Danemark",
+   "langue": "",
+   "annee": "2023",
+   "duree": "40",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/137ea30b9a600df529e13264438b3bb3/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Album aléatoire",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
    "groupe": "Sum 41",
    "album": "Chuck",
    "style": "Pop Punk",
@@ -4631,23 +4658,6 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Sylvatica",
-   "album": "Cadaver Synod",
-   "style": "Folk Melodic Death Metal",
-   "pays": "Danemark",
-   "langue": "",
-   "annee": "2023",
-   "duree": "40",
-   "note": "",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/137ea30b9a600df529e13264438b3bb3/500x500-000000-80-0-0.jpg",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Album aléatoire",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
