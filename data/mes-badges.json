@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-28T21:25:29.590Z",
+ "maj": "2026-09-29T13:14:14.312Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3777,6 +3777,24 @@
    "t": 1790630627971,
    "bad": [],
    "topic": true
+  },
+  "@artist|murderdolls": {
+   "channelId": "UCCdGuo3SxqIeLDmneA205NQ",
+   "playlists": [
+    {
+     "id": "PLnHe4N0IBRzerHKTdgwpsNnskRJFKauM-",
+     "title": ""
+    }
+   ],
+   "t": 1790687651487
+  },
+  "murderdolls|women and children last": {
+   "id": "PLF0yIDuA63HU8ihwL7Hy22q2i7Q4TvSZC",
+   "title": "Murderdolls - Women And Children Last (2010)",
+   "t": 1790687652812,
+   "bad": [
+    "PLnHe4N0IBRzerHKTdgwpsNnskRJFKauM-"
+   ]
   }
  },
  "youtube_skip": [
@@ -3838,6 +3856,23 @@
  ],
  "souhaits": [
   {
+   "groupe": "Sum 41",
+   "album": "Chuck",
+   "style": "Pop Punk",
+   "pays": "Canada (Ajax)",
+   "langue": "",
+   "annee": "2019",
+   "duree": "42",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/c6a0130589841326372ac87c6924ed65/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Recherche",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
    "groupe": "Thyrfing",
    "album": "Urkraft (Extended)",
    "style": "Epic Folk Metal",
@@ -3867,23 +3902,6 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Sum 41",
-   "album": "Chuck",
-   "style": "Pop Punk",
-   "pays": "Canada (Ajax)",
-   "langue": "",
-   "annee": "2019",
-   "duree": "42",
-   "note": "",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/c6a0130589841326372ac87c6924ed65/500x500-000000-80-0-0.jpg",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Recherche",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
