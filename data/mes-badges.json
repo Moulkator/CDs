@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:14.312Z",
+ "maj": "2026-09-29T13:14:19.696Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3794,6 +3794,34 @@
    "t": 1790687652812,
    "bad": [
     "PLnHe4N0IBRzerHKTdgwpsNnskRJFKauM-"
+   ]
+  },
+  "@artist|kreator": {
+   "channelId": "UCd3NOEbRV6V3RKqUqvlrQ8w",
+   "playlists": [
+    {
+     "id": "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
+     "title": ""
+    },
+    {
+     "id": "PL0-c8kPcqQ1AnIBfeX7H4sV-NRWVqAE14",
+     "title": ""
+    },
+    {
+     "id": "PL0-c8kPcqQ1A_DQXtA9Nc301OE43MCmFW",
+     "title": ""
+    }
+   ],
+   "t": 1790687654994
+  },
+  "kreator|live in chile": {
+   "id": "PLJ4H6MGL0drTtwEHdjvnqiOUumUc2W1Nf",
+   "title": "Kreator - Live in Chile (Full Album)",
+   "t": 1790687658196,
+   "bad": [
+    "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
+    "PL0-c8kPcqQ1AnIBfeX7H4sV-NRWVqAE14",
+    "PL0-c8kPcqQ1A_DQXtA9Nc301OE43MCmFW"
    ]
   }
  },
