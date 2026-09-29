@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T15:37:23.677Z",
+ "maj": "2026-09-29T17:17:42.367Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4477,9 +4477,40 @@
    "t": 1790696242176
   },
   "sylvatica|cadaver synod": {
-   "id": "PLnOMrKzSOK57XTljE0xel8Pj93aY7RYqL",
+   "id": "KNtcOXxw_Vw",
+   "video": true,
+   "title": "SYLVATICA - Cadaver Synod (streaming video)",
+   "t": 1790702257485,
+   "bad": [
+    "PLnOMrKzSOK57XTljE0xel8Pj93aY7RYqL"
+   ]
+  },
+  "@artist|immortal": {
+   "channelId": "UCVXwjZsHALJIQrWfDvQW5Gg",
+   "playlists": [
+    {
+     "id": "PL-LVW7TSnbThy_l01yutZoZlJ_h2iogS8",
+     "title": ""
+    },
+    {
+     "id": "PL-LVW7TSnbTjOzGvmjailsYUKkCUapvEn",
+     "title": ""
+    },
+    {
+     "id": "PL-LVW7TSnbTgYmhIrdf9GOy5LlHkTzUKX",
+     "title": ""
+    },
+    {
+     "id": "PL-LVW7TSnbTh4DJpz3sVBe-VctvZPX6na",
+     "title": ""
+    }
+   ],
+   "t": 1790702260352
+  },
+  "immortal|war against all": {
+   "id": "PL-LVW7TSnbThy_l01yutZoZlJ_h2iogS8",
    "title": "",
-   "t": 1790696242177,
+   "t": 1790702260354,
    "bad": [],
    "topic": true
   }
