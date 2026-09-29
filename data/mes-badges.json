@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T17:53:22.698Z",
+ "maj": "2026-09-29T17:53:26.274Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4534,6 +4534,23 @@
    "title": "Beyond Creation - Earthborn Evolution (2015) - Full Album",
    "t": 1790704401187,
    "bad": []
+  },
+  "@artist|brymir": {
+   "channelId": "UCEjEuUWS79QMgsXs20-WxjA",
+   "playlists": [
+    {
+     "id": "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv",
+     "title": ""
+    }
+   ],
+   "t": 1790704404772
+  },
+  "brymir|voices in the sky": {
+   "id": "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv",
+   "title": "",
+   "t": 1790704404772,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
