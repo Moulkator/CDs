@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:43.985Z",
+ "maj": "2026-09-29T13:14:45.912Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4435,6 +4435,23 @@
    "title": "DEISIDAEMONIA   Khthonian Hymns (FULL ALBUM)",
    "t": 1790687682485,
    "bad": []
+  },
+  "@artist|gama bomb": {
+   "channelId": "UCC3bMhuW12bpq7NQO603CTw",
+   "playlists": [
+    {
+     "id": "PLmiSajkg4AUwVhHn5KbTnGSZTVOxDgnx7",
+     "title": ""
+    }
+   ],
+   "t": 1790687684410
+  },
+  "gama bomb|tales from the grave in space": {
+   "id": "PLmiSajkg4AUwVhHn5KbTnGSZTVOxDgnx7",
+   "title": "",
+   "t": 1790687684410,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
