@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:45.912Z",
+ "maj": "2026-09-29T13:52:04.189Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4447,11 +4447,24 @@
    "t": 1790687684410
   },
   "gama bomb|tales from the grave in space": {
-   "id": "PLmiSajkg4AUwVhHn5KbTnGSZTVOxDgnx7",
-   "title": "",
-   "t": 1790687684410,
-   "bad": [],
-   "topic": true
+   "id": "PLZz7MhtgQnHawJC5wsRutqpbCguZ_W2X9",
+   "title": "Gama Bomb - Tales from the Grave in Space (Full Album)",
+   "t": 1790689917888,
+   "bad": [
+    "PLmiSajkg4AUwVhHn5KbTnGSZTVOxDgnx7"
+   ]
+  },
+  "@artist|forest of frost": {
+   "channelId": "UCbzbEX07fVvHAZ9mNJqUJWA",
+   "playlists": [],
+   "t": 1790689921155
+  },
+  "forest of frost|forever lost": {
+   "id": "3d5jwMo4ZFA",
+   "video": true,
+   "title": "Forest of Frost - Forever Lost (E.P.) | Atmospheric Black Metal",
+   "t": 1790689921894,
+   "bad": []
   }
  },
  "youtube_skip": [
