@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:25.752Z",
+ "maj": "2026-09-29T13:14:35.716Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4021,10 +4021,13 @@
    "t": 1790687663839
   },
   "persefone|spiritual migration": {
-   "id": "PLCbJdtnRvyzRQx8IZI89EnxFcsRihTj9z",
+   "id": "PLCbJdtnRvyzSF_BksufW8muWd0mAqv5IB",
    "title": "",
-   "t": 1790687663840,
-   "bad": [],
+   "t": 1790687666138,
+   "bad": [
+    "PLCbJdtnRvyzRQx8IZI89EnxFcsRihTj9z",
+    "PLCbJdtnRvyzS8KDIM32zllJgjZDfB1eIW"
+   ],
    "topic": true
   },
   "@artist|gojira": {
@@ -4043,6 +4046,369 @@
    "bad": [
     "PLtiMAzVCLC1B9Yb1qxz_zJPrA9tBJp_R9"
    ]
+  },
+  "@artist|xanthochroid": {
+   "channelId": "UCqzd0IGbkR6fRyRVwbCzFhA",
+   "playlists": [
+    {
+     "id": "PLAZe1ctcMj3KkiVra3p4IplAcxii6YDvJ",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3I9JWIJAoEbJelPbKVwFZRL",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3JPTjfuOgQpZcJYv2Thi1Uv",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3LWkfuqvyKaPybNWh3BJ_bl",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3IrOreYAe3qPOySTev1ewnG",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3In1vYkePlyqJgQcIWaKClz",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3Jig8CQ0An_Mc6UPgr83JnV",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3IKw1cgzF6IrP6Wc9PZt3qd",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3KUW7QEa9SpSxnzQzGLX7Xe",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3J8XNfasAo456-WfZyJIKyc",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3LMjSaCt5M8VfFhH6xIDz-m",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3J5tkqAW7HBPqGBuXx43eAB",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3K0INlLWmJu3ttr_EeMF-Yp",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3IVYcMnF57nUVgPAbQOU3XJ",
+     "title": ""
+    },
+    {
+     "id": "PLAZe1ctcMj3LgpPlxtbWgJmD4Ta7jl1yG",
+     "title": ""
+    }
+   ],
+   "t": 1790687666199
+  },
+  "xanthochroid|of erthe and axen act ii": {
+   "id": "PLAZe1ctcMj3Jig8CQ0An_Mc6UPgr83JnV",
+   "title": "",
+   "t": 1790687668208,
+   "bad": [
+    "PLAZe1ctcMj3KkiVra3p4IplAcxii6YDvJ",
+    "PLAZe1ctcMj3I9JWIJAoEbJelPbKVwFZRL",
+    "PLAZe1ctcMj3JPTjfuOgQpZcJYv2Thi1Uv",
+    "PLAZe1ctcMj3LWkfuqvyKaPybNWh3BJ_bl",
+    "PLAZe1ctcMj3IrOreYAe3qPOySTev1ewnG",
+    "PLAZe1ctcMj3In1vYkePlyqJgQcIWaKClz"
+   ],
+   "topic": true
+  },
+  "@artist|inquisition": {
+   "channelId": "UCrc7dx3eu7dR9nH3fPQ0gkw",
+   "playlists": [
+    {
+     "id": "PLjlDcUfmxpJGr2Jb_3wtYWHpX9HWc9rJu",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJFXu3XltDy6H71B11u2sPXO",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJHADE-LPn_NqaDMWbfciQnO",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJGt7sEVNgrzghd-htRZ8xC-",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJHHRiL9PD9EnGgcjcSTmhmg",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJG3p8QIc9wQygCghXfJ15Uf",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJGz0FedLxvxDHcnvH4KZndU",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJFLXgFN8c3f2qSUrdYXMSzV",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJG7WLWTojGv7L_YgjIjGG8i",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJFE5e6rpontTrCX-jiHtml1",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJEukiYnb_xoYPYw4CrUeX9I",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJH_FeZCQ6zp-CO3_1tL9Oo3",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJGtRK_K_Im2-2-wYusbZoa4",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJGlvTCS8gQQVxVgUo2twDDg",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJHf-q7e4etESg89xCIujymI",
+     "title": ""
+    },
+    {
+     "id": "PLjlDcUfmxpJGC0d2OtUAe5gm_PKqFCYMK",
+     "title": ""
+    }
+   ],
+   "t": 1790687667399
+  },
+  "inquisition|incense of rest": {
+   "id": "uj3FYM_v_f8",
+   "video": true,
+   "title": "INQUISITION(COL) - Anxious Death/Incense Of Rest/Unholy Inquisition Rites/3 EP&#39;s 90/96/04 full album",
+   "t": 1790687674215,
+   "bad": [
+    "PLjlDcUfmxpJGr2Jb_3wtYWHpX9HWc9rJu",
+    "PLjlDcUfmxpJFXu3XltDy6H71B11u2sPXO",
+    "PLjlDcUfmxpJHADE-LPn_NqaDMWbfciQnO",
+    "PLjlDcUfmxpJGt7sEVNgrzghd-htRZ8xC-",
+    "PLjlDcUfmxpJHHRiL9PD9EnGgcjcSTmhmg",
+    "PLjlDcUfmxpJG3p8QIc9wQygCghXfJ15Uf",
+    "PLjlDcUfmxpJGz0FedLxvxDHcnvH4KZndU",
+    "PLjlDcUfmxpJFLXgFN8c3f2qSUrdYXMSzV",
+    "PLjlDcUfmxpJG7WLWTojGv7L_YgjIjGG8i",
+    "PLjlDcUfmxpJFE5e6rpontTrCX-jiHtml1",
+    "PLjlDcUfmxpJEukiYnb_xoYPYw4CrUeX9I",
+    "PLjlDcUfmxpJH_FeZCQ6zp-CO3_1tL9Oo3",
+    "PLjlDcUfmxpJGtRK_K_Im2-2-wYusbZoa4",
+    "PLjlDcUfmxpJGlvTCS8gQQVxVgUo2twDDg",
+    "PLjlDcUfmxpJHf-q7e4etESg89xCIujymI",
+    "PLjlDcUfmxpJGC0d2OtUAe5gm_PKqFCYMK"
+   ]
+  },
+  "@artist|mechina": {
+   "channelId": "UCv02JZkHXk-u673JlxF48kQ",
+   "playlists": [
+    {
+     "id": "PLm2CC1InYGb-aAy9J6of7nSV9LFB6VSHW",
+     "title": ""
+    }
+   ],
+   "t": 1790687669023
+  },
+  "mechina|telesterion instrumental": {
+   "id": "PLm2CC1InYGb-aAy9J6of7nSV9LFB6VSHW",
+   "title": "",
+   "t": 1790687669024,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|primalfrost": {
+   "channelId": "UCirjCld26GpOtK0QKVZHFwQ",
+   "playlists": [],
+   "t": 1790687669723
+  },
+  "primalfrost|prosperous visions": {
+   "id": "PLhd0IkBHwJcvNQRYjpA1RtdW-7pv4qnrF",
+   "title": "Primalfrost - Prosperous Visions (Full Album)",
+   "t": 1790687669989,
+   "bad": []
+  },
+  "@artist|rhapsody of fire": {
+   "channelId": "UCjjuWbTlk-8b_MaGqTBnlsQ",
+   "playlists": [
+    {
+     "id": "PLPAlomUdIZA2zaAV6nRvfa6i66dXZ_kj9",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1vgrVi2-YykKQ-NBac8SGa",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0lDmCR4FFK8St-LyG2Sp_V",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2bynHbLrOcqZrWFipQ5piy",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA32mRlRcj_CbM9mmd1k2Vn7",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1ozqN2Q1PySk-lF-9LoSL_",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0GyahQFwmIYEDCBF9n7BNa",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2dbLbo51XsPIxPLlsJ18uw",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1Q2h2SOdEZY-AszfqeVKvZ",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2hNtc1lFLtsX4p8l5gO-ra",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1S2ocC73C-c-FBzEgefHLt",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0y_kPOf42gS4olAHub_NFN",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1sRrjkfJ_1OulTF01h43Ns",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2Met1vyqTyDDb_DieLJIx3",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0KyVVCAyTslV781YKC9bc7",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1_jo2w0Md7a6l1n2t44qCv",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1PLXod7UTG3K_SjF3uaEXq",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0jfYkUMVFAnVL4SyNE-eIf",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0QoWNL8Qgk7DrmBwsKL0NT",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA36YIkmC7RjP8eqx3zduZ-1",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3ZMYY3G9tPvfdwanz1yQpc",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3cX0w_u2GwqcY4GXlaDUJu",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3VQfkdPQPT5cWgaFqenmpJ",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2DWgH2UtenuCLgavJQFmwE",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0B0yWs1-lOH0h4iXmdQ52V",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2OXG8cgskzeIdxxoQRI56w",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA20yI_iaelRQ88bJ7cm0glw",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3yJl9NtQN3lSeS92RcDMzs",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA071idLi27ZM1CDvcB3SLZ2",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA2zxXsDNbIghLDxIiuCJ-H0",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3JoY_RABJlv_garj7WOa7l",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA0AtFLDfUpnlyQZRxGU_2Oh",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3MMDp6umbnNS-zt4vJoHZF",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA16t79KrIkKhX7AD78hzR4a",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA1K-MtwJ73-Xlifgmfs3zR6",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA00qABUKS17-6BcQntk3GvO",
+     "title": ""
+    },
+    {
+     "id": "PLPAlomUdIZA3AuTvyynm6wktgVkUFqAu_",
+     "title": ""
+    }
+   ],
+   "t": 1790687671999
+  },
+  "rhapsody of fire|the frozen tears of angels": {
+   "id": "PLPAlomUdIZA2zaAV6nRvfa6i66dXZ_kj9",
+   "title": "",
+   "t": 1790687672000,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
