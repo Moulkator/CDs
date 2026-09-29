@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T17:18:59.087Z",
+ "maj": "2026-09-29T17:20:42.327Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4513,6 +4513,17 @@
    "t": 1790702260354,
    "bad": [],
    "topic": true
+  },
+  "@artist|karina buhr": {
+   "none": 1,
+   "t": 1790702440165
+  },
+  "karina buhr|selvatica": {
+   "id": "Hk2C7Q0rI8I",
+   "video": true,
+   "title": "Karina Buhr - Selvática (Álbum Completo - 2015)",
+   "t": 1790702440815,
+   "bad": []
   }
  },
  "youtube_skip": [
