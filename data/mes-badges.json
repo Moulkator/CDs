@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T13:14:19.696Z",
+ "maj": "2026-09-29T13:14:25.752Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3822,6 +3822,226 @@
     "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
     "PL0-c8kPcqQ1AnIBfeX7H4sV-NRWVqAE14",
     "PL0-c8kPcqQ1A_DQXtA9Nc301OE43MCmFW"
+   ]
+  },
+  "@artist|all shall perish": {
+   "channelId": "UC7XtoFr2T-Y3inB1CpLWOHQ",
+   "playlists": [
+    {
+     "id": "PLkgoOlmqQH3TxgQdjlvtbwsVe1GXcYwAp",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3Tc1XofciZc_Ovbxtn5JSKS",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3SJCTjAt0LDweMGqfEpfYJn",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3R47QNuzc_ZRgSIntuICnxe",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TXauF7_Nc4vdKa62wFsciS",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TF601kmN1TMI8aCxzKDxYn",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QQkRHeNpQaOLCUIH8caorY",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3T0tvWKLGorbqEH5ijkWfCK",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3Rx30aAnp_QZx6BvNy3qOD3",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3Su9GAsTalcFOXmuLUmxdNG",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3SFEIMXA3vFFykcCGBNa5xv",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3SACJG2m7hEb0e3gu6YLZu_",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3RSBdJLQjwUwHfAuZGkt9Fh",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QsDM7aggqFKQsmWoW-1kgi",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QXYpUMMygZN962i17E1RXV",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3T1qGwww3_RFDE0ipzxiNTg",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3RiS4XdSOKBKEY8gSLzp_-L",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3RhmsQZWa4QDOBY18ROtTr3",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QgIYHY_NG1b_eRe4R2XeNQ",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3SF2KlOYPunpjpg9AWsIxFQ",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QbYCEZGxH6Nz7jEj4anRDI",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QRRcAncZPdk8Jm38rRZL1T",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QLogrl7opCfo21twRKNMVP",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3RAD7dmifhjoQ-1Sxtxr6Gc",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3T4bVObv-yTuLPfPMU7pMmC",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TC6rDhTg26R2UcXJMWjpss",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TDFN_f63wl1nFwHcB4Lzw_",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3QumfKfKer0Izl_Z62fj1RW",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TEU7TgFCYAlF08HKGqQnk9",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3SUawKOF5zbg42seb2nMi6U",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3TEC2cNuEnVi6lCivh7sblg",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3T-8lETj35MKnhxkXU9E4Ea",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3RkrWcCEsNrf5SovR8QGTJk",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3R2yxIHjx9nT4PhBIPTdifM",
+     "title": ""
+    },
+    {
+     "id": "PLkgoOlmqQH3Q36pkED6SM2PC1dYsLrgTX",
+     "title": ""
+    }
+   ],
+   "t": 1790687660300
+  },
+  "all shall perish|the price of existence 20th anniversary": {
+   "id": "PLkgoOlmqQH3SFEIMXA3vFFykcCGBNa5xv",
+   "title": "",
+   "t": 1790687663629,
+   "bad": [
+    "PLkgoOlmqQH3TxgQdjlvtbwsVe1GXcYwAp",
+    "PLkgoOlmqQH3Tc1XofciZc_Ovbxtn5JSKS",
+    "PLkgoOlmqQH3SJCTjAt0LDweMGqfEpfYJn",
+    "PLkgoOlmqQH3R47QNuzc_ZRgSIntuICnxe",
+    "PLkgoOlmqQH3TXauF7_Nc4vdKa62wFsciS",
+    "PLkgoOlmqQH3TF601kmN1TMI8aCxzKDxYn",
+    "PLkgoOlmqQH3QQkRHeNpQaOLCUIH8caorY",
+    "PLkgoOlmqQH3T0tvWKLGorbqEH5ijkWfCK",
+    "PLkgoOlmqQH3Rx30aAnp_QZx6BvNy3qOD3",
+    "PLkgoOlmqQH3Su9GAsTalcFOXmuLUmxdNG"
+   ],
+   "topic": true
+  },
+  "@artist|aktarum": {
+   "channelId": "UCJKxFPFfGqJmDZWoAGX6gpg",
+   "playlists": [],
+   "t": 1790687660347
+  },
+  "aktarum|game of trolls": {
+   "none": 1,
+   "t": 1790687661025,
+   "bad": []
+  },
+  "@artist|persefone": {
+   "channelId": "UCNk63qHS2TXf2Y7tG4pytZg",
+   "playlists": [
+    {
+     "id": "PLCbJdtnRvyzRQx8IZI89EnxFcsRihTj9z",
+     "title": ""
+    },
+    {
+     "id": "PLCbJdtnRvyzS8KDIM32zllJgjZDfB1eIW",
+     "title": ""
+    },
+    {
+     "id": "PLCbJdtnRvyzSF_BksufW8muWd0mAqv5IB",
+     "title": ""
+    },
+    {
+     "id": "PLCbJdtnRvyzT_V05elt-tm-wKs3iW0G0y",
+     "title": ""
+    }
+   ],
+   "t": 1790687663839
+  },
+  "persefone|spiritual migration": {
+   "id": "PLCbJdtnRvyzRQx8IZI89EnxFcsRihTj9z",
+   "title": "",
+   "t": 1790687663840,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|gojira": {
+   "channelId": "UCPdbkw3S_0ZSHAqlnxo9E_g",
+   "playlists": [
+    {
+     "id": "PLtiMAzVCLC1B9Yb1qxz_zJPrA9tBJp_R9",
+     "title": ""
+    }
+   ],
+   "t": 1790687663895
+  },
+  "gojira|l enfant sauvage": {
+   "none": 1,
+   "t": 1790687664915,
+   "bad": [
+    "PLtiMAzVCLC1B9Yb1qxz_zJPrA9tBJp_R9"
    ]
   }
  },
