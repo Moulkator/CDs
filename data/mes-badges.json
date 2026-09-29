@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T17:17:42.367Z",
+ "maj": "2026-09-29T17:18:59.087Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4620,6 +4620,23 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Sylvatica",
+   "album": "Cadaver Synod",
+   "style": "Folk Melodic Death Metal",
+   "pays": "Danemark",
+   "langue": "",
+   "annee": "2023",
+   "duree": "40",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/137ea30b9a600df529e13264438b3bb3/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Album aléatoire",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
