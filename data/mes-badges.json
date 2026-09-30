@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-30T17:10:12.978Z",
+ "maj": "2026-09-30T17:10:14.781Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4563,11 +4563,12 @@
    "t": 1790788211465
   },
   "troldhaugen|idio syncrasies": {
-   "id": "PLv-EHnslc2kxRIdkzsWQcUhGlTCM67HpM",
-   "title": "",
-   "t": 1790788211465,
-   "bad": [],
-   "topic": true
+   "id": "PLmTOc0fSC11iwvxNdGxHejgzjIIBw0vJ5",
+   "title": "Troldhaugen - Idio+syncrasies (Full Album)",
+   "t": 1790788213272,
+   "bad": [
+    "PLv-EHnslc2kxRIdkzsWQcUhGlTCM67HpM"
+   ]
   }
  },
  "youtube_skip": [
