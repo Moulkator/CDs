@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-30T17:10:14.781Z",
+ "maj": "2026-09-30T17:10:17.347Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4569,6 +4569,18 @@
    "bad": [
     "PLv-EHnslc2kxRIdkzsWQcUhGlTCM67HpM"
    ]
+  },
+  "@artist|dawn": {
+   "channelId": "UCdhWlMXp2dQBaG5rZS_aSkQ",
+   "playlists": [],
+   "t": 1790788215141
+  },
+  "dawn|slaughtersun crown of the triarchy": {
+   "id": "BJgaMBFMP-4",
+   "video": true,
+   "title": "Dawn - Slaughtersun (Crown of the Triarchy) (Full Album) (HQ)",
+   "t": 1790788215846,
+   "bad": []
   }
  },
  "youtube_skip": [
