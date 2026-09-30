@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-30T17:55:23.497Z",
+ "maj": "2026-09-30T18:54:32.240Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4593,9 +4593,27 @@
    "t": 1790790921318
   },
   "sigh|infidel art 2025": {
-   "id": "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV",
+   "id": "PLjLtkS_TEq2HIj4rxMTeOXPcA1X94jOpd",
+   "title": "SIGH - Infidel Art",
+   "t": 1790794467296,
+   "bad": [
+    "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV"
+   ]
+  },
+  "@artist|decrepit birth": {
+   "channelId": "UC7QwcLZJyEebbRtMCtUbU8Q",
+   "playlists": [
+    {
+     "id": "PLAwkowu3WZR__6u_nYch6UdeO2Xu4LRK_",
+     "title": ""
+    }
+   ],
+   "t": 1790794470218
+  },
+  "decrepit birth|axis mundi": {
+   "id": "PLAwkowu3WZR__6u_nYch6UdeO2Xu4LRK_",
    "title": "",
-   "t": 1790790921319,
+   "t": 1790794470218,
    "bad": [],
    "topic": true
   }
