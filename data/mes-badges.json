@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-29T17:55:00.367Z",
+ "maj": "2026-09-30T17:10:12.978Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4549,6 +4549,23 @@
    "id": "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv",
    "title": "",
    "t": 1790704404772,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|troldhaugen": {
+   "channelId": "UC0tzomM9iFzJ3TykmQtn02w",
+   "playlists": [
+    {
+     "id": "PLv-EHnslc2kxRIdkzsWQcUhGlTCM67HpM",
+     "title": ""
+    }
+   ],
+   "t": 1790788211465
+  },
+  "troldhaugen|idio syncrasies": {
+   "id": "PLv-EHnslc2kxRIdkzsWQcUhGlTCM67HpM",
+   "title": "",
+   "t": 1790788211465,
    "bad": [],
    "topic": true
   }
