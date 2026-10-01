@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-30T18:54:32.240Z",
+ "maj": "2026-10-01T16:50:23.317Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4616,6 +4616,24 @@
    "t": 1790794470218,
    "bad": [],
    "topic": true
+  },
+  "@artist|finntroll": {
+   "channelId": "UChDzAP5SP9DFGSHHZtSyWVA",
+   "playlists": [
+    {
+     "id": "PLVBPIVPWaZrs53OdNXOH1_4TYwd84_GYY",
+     "title": ""
+    }
+   ],
+   "t": 1790873421163
+  },
+  "finntroll|nifelvind": {
+   "id": "PLUu3jyHe5kGdPLEdPP60JBfZ-ImIs747d",
+   "title": "Finntroll - Nifelvind (Full Album)",
+   "t": 1790873421817,
+   "bad": [
+    "PLVBPIVPWaZrs53OdNXOH1_4TYwd84_GYY"
+   ]
   }
  },
  "youtube_skip": [
