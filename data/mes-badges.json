@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-01T16:50:23.317Z",
+ "maj": "2026-10-01T16:50:26.201Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4634,6 +4634,83 @@
    "bad": [
     "PLVBPIVPWaZrs53OdNXOH1_4TYwd84_GYY"
    ]
+  },
+  "@artist|edge of sanity": {
+   "channelId": "UCdakClSRpW3gR8h40jWFqWg",
+   "playlists": [
+    {
+     "id": "PLFbAJbc7h0TqTueehKOBbQDsjcexlV7gu",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0Tqdg5R0o07dOXDbEftOHlXi",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0Tod1CuIBc-SbrkxtShj-7N0",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0Tpr_BxJU7XJO2_DQJKxdAhH",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0To3qPB-X-PPILfBciJR1EzY",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TqM_ZmyxSTR4fu7lKHM4O-2",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0Tr2b83Vngc0ZRdQ8uZ9CDv4",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TqUiar-6YeRoY71fhI4KBVA",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TpLzMsnY1JvQc8t3yUEu-ix",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TpeG-K4qwehRzwjKSp6OlBv",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TppvuqB785wms5fFd4VnfWk",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TqXSSse8gr9yByhGThOpFNN",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0ToOe-Rf6l0SqTWrtS9_XPOI",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0To2HOuhyOf8oxT21hGisFF7",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0Tp2dDgTXDKyDynWBewV2bcC",
+     "title": ""
+    },
+    {
+     "id": "PLFbAJbc7h0TqD5vrt0AMcZ00dq8GUxifT",
+     "title": ""
+    }
+   ],
+   "t": 1790873424696
+  },
+  "edge of sanity|until eternity ends ep  2024": {
+   "id": "PLFbAJbc7h0TqTueehKOBbQDsjcexlV7gu",
+   "title": "",
+   "t": 1790873424697,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
