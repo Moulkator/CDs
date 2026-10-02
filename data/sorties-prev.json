@@ -77,19 +77,6 @@
 },
 {
 "groupe": "Sum 41",
-"album": "13 Voices B‐Sides",
-"date": "2016-10-07",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://coverartarchive.org/release-group/6073f395-cd42-4764-b345-6d634ce930cf/front-500",
-"source": "musicbrainz",
-"mb_rg": "6073f395-cd42-4764-b345-6d634ce930cf",
-"refs": [
-"mb:f2eef649-a6d5-4114-afba-e50ab26254d2"
-]
-},
-{
-"groupe": "Sum 41",
 "album": "13 Voices B-Sides",
 "date": "2016-10-07",
 "precision": "exact",
@@ -7425,6 +7412,19 @@
 "mb_rg": "f8051e97-9305-46cc-bcc2-e194b61174e8",
 "refs": [
 "mb:c0252a1b-0133-46bb-8c4f-cade46349ec3"
+]
+},
+{
+"groupe": "Sum 41",
+"album": "13 Voices B‐Sides",
+"date": "2020-05",
+"precision": "month",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/6073f395-cd42-4764-b345-6d634ce930cf/front-500",
+"source": "musicbrainz",
+"mb_rg": "6073f395-cd42-4764-b345-6d634ce930cf",
+"refs": [
+"mb:f2eef649-a6d5-4114-afba-e50ab26254d2"
 ]
 },
 {
