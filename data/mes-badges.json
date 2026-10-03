@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T17:39:01.889Z",
+ "maj": "2026-10-03T18:25:48.737Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4977,11 +4977,13 @@
    ]
   },
   "moongates guardian|the wind over the green hills": {
-   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
-   "title": "",
-   "t": 1791049139856,
-   "bad": [],
-   "topic": true
+   "id": "t-a-PQzcG2g",
+   "video": true,
+   "title": "Moongates Guardian - The Wind Over The Green Hills (Full Album)",
+   "t": 1791051947237,
+   "bad": [
+    "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
+   ]
   }
  },
  "youtube_skip": [
