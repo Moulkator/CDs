@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:59:17.595Z",
+ "maj": "2026-10-03T17:38:58.357Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1477,11 +1477,11 @@
   },
   "@artist|run run jump punch x marty can fly": {
    "none": 1,
-   "t": 1790167997878
+   "t": 1791049135752
   },
   "run run jump punch x marty can fly|mega fun park": {
    "none": 1,
-   "t": 1790167998508,
+   "t": 1791049136839,
    "bad": []
   },
   "keep of kalessin|anthology armada": {
@@ -4962,6 +4962,13 @@
    "id": "PLpAcHu3MhIrdFIJ6RoNy_dm6E92MeGODa",
    "title": "",
    "t": 1791021556095,
+   "bad": [],
+   "topic": true
+  },
+  "immortal|at the heart of winter": {
+   "id": "PL-LVW7TSnbThy_l01yutZoZlJ_h2iogS8",
+   "title": "",
+   "t": 1791049136847,
    "bad": [],
    "topic": true
   }
