@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:16:27.877Z",
+ "maj": "2026-10-03T09:40:44.751Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4778,6 +4778,13 @@
    "bad": [
     "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr"
    ]
+  },
+  "entombed|dclxvi to ride shoot straight and speak the truth 2022": {
+   "id": "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr",
+   "title": "",
+   "t": 1791020443251,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
