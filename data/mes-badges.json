@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:15:54.493Z",
+ "maj": "2026-10-03T09:16:18.548Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4758,6 +4758,23 @@
    "id": "PL-uQ1e1t_NpLmSncEkTamilbqcMbaU6oe",
    "title": "",
    "t": 1791018952993,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|entombed": {
+   "channelId": "UCNF387_opQWl8FtTE9WB0Lw",
+   "playlists": [
+    {
+     "id": "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr",
+     "title": ""
+    }
+   ],
+   "t": 1791018977043
+  },
+  "entombed|wolverine blues": {
+   "id": "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr",
+   "title": "",
+   "t": 1791018977044,
    "bad": [],
    "topic": true
   }
