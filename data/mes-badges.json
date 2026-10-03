@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T17:38:58.357Z",
+ "maj": "2026-10-03T17:39:01.889Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4966,9 +4966,20 @@
    "topic": true
   },
   "immortal|at the heart of winter": {
-   "id": "PL-LVW7TSnbThy_l01yutZoZlJ_h2iogS8",
+   "id": "PLsT9douBcx9_ffcZ8UiO_bTkinIPS3KI0",
+   "title": "Immortal At The Heart Of Winter Full Album",
+   "t": 1791049140388,
+   "bad": [
+    "PL-LVW7TSnbThy_l01yutZoZlJ_h2iogS8",
+    "PL-LVW7TSnbTjOzGvmjailsYUKkCUapvEn",
+    "PL-LVW7TSnbTgYmhIrdf9GOy5LlHkTzUKX",
+    "PL-LVW7TSnbTh4DJpz3sVBe-VctvZPX6na"
+   ]
+  },
+  "moongates guardian|the wind over the green hills": {
+   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
    "title": "",
-   "t": 1791049136847,
+   "t": 1791049139856,
    "bad": [],
    "topic": true
   }
