@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:40:48.380Z",
+ "maj": "2026-10-03T09:52:00.000Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4755,11 +4755,19 @@
    "t": 1791018952992
   },
   "cradle of filth|white hellebore": {
-   "id": "PL-uQ1e1t_NpLmSncEkTamilbqcMbaU6oe",
-   "title": "",
-   "t": 1791018952993,
-   "bad": [],
-   "topic": true
+   "none": 1,
+   "t": 1791021113488,
+   "bad": [
+    "PL-uQ1e1t_NpLmSncEkTamilbqcMbaU6oe",
+    "PL-uQ1e1t_NpK5Q-Cti9Fy8QkANNHzMGht",
+    "PL-uQ1e1t_NpLfcS2MWxJUaNUo4w7Unddh",
+    "PL-uQ1e1t_NpKf15UyN9okt-nuz8ntcPDB",
+    "PL-uQ1e1t_NpILVxVPnSMS2SeCTMe9IzGu",
+    "PL-uQ1e1t_NpKSAq9227qd4loEO0hvPfv8",
+    "PL-uQ1e1t_NpKxgI9pdNs8RsXBRw34RLYT",
+    "PL-uQ1e1t_NpLeq7GHdooLoVmUE-DbWqSB",
+    "PL-uQ1e1t_NpItqColyBjny9q4MYg5ZGVn"
+   ]
   },
   "@artist|entombed": {
    "channelId": "UCNF387_opQWl8FtTE9WB0Lw",
@@ -4781,10 +4789,108 @@
   },
   "entombed|dclxvi to ride shoot straight and speak the truth 2022": {
    "none": 1,
-   "t": 1791020447353,
+   "t": 1791020459978,
    "bad": [
     "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr"
    ]
+  },
+  "@artist|cruachan": {
+   "channelId": "UCxmOVfZF3u0Ho29pK8yhrkw",
+   "playlists": [
+    {
+     "id": "PLDddCD3sUavgbhemfc-JyUrzfvOAge2F_",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavj3oVirx-1fHRZM1lcC9xDQ",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgeKYqpWxlSHhZCUlysl83x",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUaviAjHKhjKDYanGTtCqmGdsG",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavjA1g_bzE4UDSuRt2twcm-2",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgIsuXR3-EAEbkVz5rw_64D",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavjpKo5OvbTFyqq5GoQvEagS",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgfaamsIXSOh2h4a6zTVGMB",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgJ1KVOeUNfemDYbsQYL-jn",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgffVnFdcgnLCMfJUkRg8y1",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavhCkwlGGClw0avcqewQoNkW",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavjp31BfzVxob6vkbFNmoaeD",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavh8Ic9rXrTmeh-nC-EWOW7b",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavgl6_QlH6zws-wg-hOepdwM",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavisHJPoGrZV_W4k_ZyGlGQG",
+     "title": ""
+    },
+    {
+     "id": "PLDddCD3sUavi-7CeLD37nBpyzRzZnhVZH",
+     "title": ""
+    }
+   ],
+   "t": 1791021113613
+  },
+  "cruachan|folk lore": {
+   "id": "PLeZzWgznj578X-WKFq6lt0Dcso_AguEJL",
+   "title": "Cruachan - Folk-Lore (Full Album)",
+   "t": 1791021118499,
+   "bad": [
+    "PLDddCD3sUavgbhemfc-JyUrzfvOAge2F_",
+    "PLDddCD3sUavj3oVirx-1fHRZM1lcC9xDQ",
+    "PLDddCD3sUavgeKYqpWxlSHhZCUlysl83x",
+    "PLDddCD3sUaviAjHKhjKDYanGTtCqmGdsG",
+    "PLDddCD3sUavjA1g_bzE4UDSuRt2twcm-2",
+    "PLDddCD3sUavgIsuXR3-EAEbkVz5rw_64D",
+    "PLDddCD3sUavjpKo5OvbTFyqq5GoQvEagS",
+    "PLDddCD3sUavgfaamsIXSOh2h4a6zTVGMB",
+    "PLDddCD3sUavgJ1KVOeUNfemDYbsQYL-jn",
+    "PLDddCD3sUavgffVnFdcgnLCMfJUkRg8y1",
+    "PLDddCD3sUavhCkwlGGClw0avcqewQoNkW",
+    "PLDddCD3sUavjp31BfzVxob6vkbFNmoaeD",
+    "PLDddCD3sUavh8Ic9rXrTmeh-nC-EWOW7b",
+    "PLDddCD3sUavgl6_QlH6zws-wg-hOepdwM",
+    "PLDddCD3sUavisHJPoGrZV_W4k_ZyGlGQG",
+    "PLDddCD3sUavi-7CeLD37nBpyzRzZnhVZH"
+   ]
+  },
+  "onirism|nostalgia": {
+   "none": 1,
+   "t": 1791021117739,
+   "bad": []
   }
  },
  "youtube_skip": [
