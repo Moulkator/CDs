@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:52:00.000Z",
+ "maj": "2026-10-03T09:59:17.595Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4891,6 +4891,79 @@
    "none": 1,
    "t": 1791021117739,
    "bad": []
+  },
+  "@artist|melechesh": {
+   "channelId": "UCXnaV6aydmsChYnKNEOXyDg",
+   "playlists": [
+    {
+     "id": "PLpAcHu3MhIrdFIJ6RoNy_dm6E92MeGODa",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfkxmsipgJtP9XUWm2RvLdn",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIreWArxJMIyZMegKleU5Cljx",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfzrNrAlF_494hJVul_jPjZ",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIreiW09EiLG-zRA8akW1-s64",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfnpuhDLhM5bs7u7lfhJU-u",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrdjT-qQCBZYBPZsa8TWrsnc",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfdTstGszjrIR8_3EB4mvG1",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrcm0fXqpeHs_07IZX_mfWHD",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrdXN6VBX_mHIuhVNUARpdqS",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrf_3h_ChiCuuIgYqWTTbeS6",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrcxLsaj8AKx0SH4s4kjSmXU",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfyq8x4j1z3FSh9PRA9C8iT",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrdW-rbAdh2CUqkB2V82q6mq",
+     "title": ""
+    },
+    {
+     "id": "PLpAcHu3MhIrfBiF4fpghPPaTEKHBUXR73",
+     "title": ""
+    }
+   ],
+   "t": 1791021556094
+  },
+  "melechesh|sentinels of shamash": {
+   "id": "PLpAcHu3MhIrdFIJ6RoNy_dm6E92MeGODa",
+   "title": "",
+   "t": 1791021556095,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
