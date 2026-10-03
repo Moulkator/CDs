@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T09:16:18.548Z",
+ "maj": "2026-10-03T09:16:27.877Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4772,11 +4772,12 @@
    "t": 1791018977043
   },
   "entombed|wolverine blues": {
-   "id": "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr",
-   "title": "",
-   "t": 1791018977044,
-   "bad": [],
-   "topic": true
+   "id": "PL6_qhP3eWX5M_eg5_qjqHdoPJZ6-j2zNO",
+   "title": "Entombed - Wolverine Blues (Full Dynamic Range Edition) [Full Album Official Audio]",
+   "t": 1791018986376,
+   "bad": [
+    "PL1nfZq5UGFzt8hgBEkr2bqIgznozn6aPr"
+   ]
   }
  },
  "youtube_skip": [
