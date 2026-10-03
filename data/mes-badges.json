@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-01T16:50:26.201Z",
+ "maj": "2026-10-03T09:15:54.493Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4709,6 +4709,55 @@
    "id": "PLFbAJbc7h0TqTueehKOBbQDsjcexlV7gu",
    "title": "",
    "t": 1790873424697,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|cradle of filth": {
+   "channelId": "UCXn3RjlO3DO_Wv83tWXj1Gg",
+   "playlists": [
+    {
+     "id": "PL-uQ1e1t_NpLmSncEkTamilbqcMbaU6oe",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpK5Q-Cti9Fy8QkANNHzMGht",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpLfcS2MWxJUaNUo4w7Unddh",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpKf15UyN9okt-nuz8ntcPDB",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpILVxVPnSMS2SeCTMe9IzGu",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpKSAq9227qd4loEO0hvPfv8",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpKxgI9pdNs8RsXBRw34RLYT",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpLeq7GHdooLoVmUE-DbWqSB",
+     "title": ""
+    },
+    {
+     "id": "PL-uQ1e1t_NpItqColyBjny9q4MYg5ZGVn",
+     "title": ""
+    }
+   ],
+   "t": 1791018952992
+  },
+  "cradle of filth|white hellebore": {
+   "id": "PL-uQ1e1t_NpLmSncEkTamilbqcMbaU6oe",
+   "title": "",
+   "t": 1791018952993,
    "bad": [],
    "topic": true
   }
