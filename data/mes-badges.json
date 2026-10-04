@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T17:53:27.207Z",
+ "maj": "2026-10-04T17:54:43.088Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5373,6 +5373,16 @@
    "record_type": "album",
    "nb_tracks": 15,
    "ajoute": "2026-09-29"
+  },
+  {
+   "groupe": "Aeternam",
+   "album": "Heir of the Rising Sun",
+   "deezer_id": 347524627,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/5c5ea6ba18f7ed8c7f617ea68f2096c8/500x500-000000-80-0-0.jpg",
+   "annee": "2022",
+   "record_type": "album",
+   "nb_tracks": 9,
+   "ajoute": "2026-10-04"
   }
  ],
  "notifs_vues": [
