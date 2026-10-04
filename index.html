@@ -34,11 +34,29 @@ body.has-mp .wrap{padding-bottom:120px}
 
 #pageLists,#pageSorties{display:none}#pageLists.on,#pageSorties.on{display:block}
 </style>
+<style>
+/* Notifications « album sorti » (bandeau sous la barre de navigation, mode propriétaire) */
+#notifSorties{max-width:1100px;margin:12px auto 0;padding:0 18px}
+#notifSorties .nbox{background:#15181e;border:1px solid #2f5d33;border-left:4px solid #4caf50;border-radius:12px;padding:8px 12px}
+#notifSorties .ntitle{color:#8fd694;font-weight:800;font-size:.78rem;letter-spacing:1px;text-transform:uppercase;margin:2px 0 4px}
+#notifSorties .nrow{display:flex;align-items:center;gap:10px;padding:6px 0;border-top:1px solid #2a2f3a}
+#notifSorties .nrow img{width:44px;height:44px;border-radius:6px;object-fit:cover;flex:0 0 44px;background:#000}
+#notifSorties .ninfo{flex:1 1 auto;min-width:0;background:none;border:0;padding:0;text-align:left;color:#e8e4da;cursor:pointer;font:inherit;font-size:.88rem;line-height:1.25}
+#notifSorties .ninfo b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#notifSorties .ninfo span{display:block;color:#9a93c4;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#notifSorties .ninfo:hover b{color:#79c6ff}
+#notifSorties .nbtn{flex:0 0 auto;cursor:pointer;border:1px solid #2a2f3a;border-radius:8px;padding:6px 10px;background:#1c2028;color:#e8e4da;font:inherit;font-size:.78rem;font-weight:600;white-space:nowrap}
+#notifSorties .nbtn.gold{background:linear-gradient(135deg,#c9a227,#e0b94a);color:#0c0e11;border-color:transparent}
+#notifSorties .nbtn:hover{filter:brightness(1.15)}
+#notifSorties .nmore{display:block;width:100%;background:none;border:0;border-top:1px solid #2a2f3a;color:#79c6ff;cursor:pointer;font:inherit;font-size:.8rem;padding:7px 0 3px;text-align:center}
+@media (max-width:520px){#notifSorties{padding:0 8px}#notifSorties .nrow{flex-wrap:wrap}#notifSorties .ninfo{flex:1 1 calc(100% - 60px)}#notifSorties .nbtn{flex:1 1 0}}
+</style>
 <link rel="stylesheet" href="assets/nav.css">
 <script src="assets/yt.js"></script>
 </head>
 <body>
 <div id="topnav"></div>
+<div id="notifSorties" class="owner-only" style="display:none"></div>
 <div id="pageLists">
 <div class="wrap">
 <header>
@@ -600,10 +618,10 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
 <script>
 (function(){
   var STATUTS=['À écouter','Écouté','Téléchargé','Acheté'];
-  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_YTSKIP='youtube-skip-v1', KEY_CMD='commandes-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1';
+  var KEY_STATUT='sorties-statuts-v1', KEY_ACHETES='sorties-achetes-v1', KEY_SOUHAITS='sorties-souhaits-v1', KEY_AECOUTER='a-ecouter-v1', KEY_REFUS='groupes-refuses-v1', KEY_YT='youtube-key-v1', KEY_YTSKIP='youtube-skip-v1', KEY_CMD='commandes-v1', KEY_HIDDEN='decouvrir-masques-v1', KEY_DCACHE='decouvrir-cache-v3', KEY_DSTATUT='decouvrir-statuts-v1', KEY_VUES='sorties-notifs-vues-v1';
   var PH='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0" stop-color="#2a2233"/><stop offset="1" stop-color="#12141a"/></radialGradient></defs><rect width="200" height="200" fill="url(#g)"/><text x="100" y="118" text-anchor="middle" font-size="56" fill="#4a3f5e">♫</text><text x="100" y="160" text-anchor="middle" font-size="13" fill="#6b6090" font-family="sans-serif">pochette non dévoilée</text></svg>');
   var KEY_TOKEN='gh-token-v1', KEY_REPO='gh-repo-v1', KEY_EXCLUS='sorties-exclues-v1', KEY_IGNORES='groupes-ignores-v1';
-  var STATE={auto:[],generated:'',owner:false,knownLoose:{},skipVideos:{'J0vUqvfHQeQ':1},commandes:[],exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
+  var STATE={auto:[],generated:'',owner:false,knownLoose:{},skipVideos:{'J0vUqvfHQeQ':1},commandes:[],exclus:{},ignores:{},refus:{},souhaits:[],aecouter:[],token:'',repo:null,manual:[],editKey:null,sorties:[],artists:[],known:{},artistStyle:{},statuts:{},vues:{},notifAll:false,achetes:[],hidden:{},dstatuts:{},dec:[],decShown:0,weights:{}};
 
   function $(id){return document.getElementById(id);}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -648,11 +666,11 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   }
   var saveBadgesTimer=null;
   function persistBadges(){
-    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus); saveLS(KEY_YTSKIP,STATE.skipVideos); saveLS(KEY_CMD,STATE.commandes);
+    saveLS(KEY_STATUT,STATE.statuts); saveLS(KEY_DSTATUT,STATE.dstatuts); saveLS(KEY_HIDDEN,STATE.hidden); saveLS(KEY_ACHETES,STATE.achetes); saveLS(KEY_EXCLUS,STATE.exclus); saveLS(KEY_IGNORES,STATE.ignores); saveLS(KEY_SOUHAITS,STATE.souhaits); saveLS(KEY_AECOUTER,STATE.aecouter); saveLS(KEY_REFUS,STATE.refus); saveLS(KEY_YTSKIP,STATE.skipVideos); saveLS(KEY_CMD,STATE.commandes); saveLS(KEY_VUES,STATE.vues); renderNotifs();
     if(!STATE.owner) return;
     clearTimeout(saveBadgesTimer);
     saveBadgesTimer=setTimeout(function(){
-      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:YTA.cache,youtube_skip:Object.keys(STATE.skipVideos),commandes:STATE.commandes,achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
+      ghWrite('data/mes-badges.json',{maj:new Date().toISOString(),statuts_sorties:STATE.statuts,statuts_decouvrir:STATE.dstatuts,masques:Object.keys(STATE.hidden),sorties_exclues:Object.keys(STATE.exclus),groupes_ignores:Object.keys(STATE.ignores),groupes_refuses:Object.keys(STATE.refus),youtube:YTA.cache,youtube_skip:Object.keys(STATE.skipVideos),commandes:STATE.commandes,achetes:STATE.achetes,souhaits:STATE.souhaits,a_ecouter:STATE.aecouter,notifs_vues:Object.keys(STATE.vues)},'Mise à jour des badges',function(){toast('Badges enregistrés dans le site');},ghError);
     },1500);
   }
   function loadBadgesFromSite(cb){
@@ -664,6 +682,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
         (b.groupes_ignores||[]).forEach(function(m){STATE.ignores[m]=1;});
         (b.groupes_refuses||[]).forEach(function(m){STATE.refus[m]=1;});
         (b.youtube_skip||[]).forEach(function(m){STATE.skipVideos[m]=1;});
+        (b.notifs_vues||[]).forEach(function(m){STATE.vues[m]=1;}); saveLS(KEY_VUES,STATE.vues);
         var haveC={}; STATE.commandes.forEach(function(a){haveC[key(a.groupe,a.album)]=1;});
         (b.commandes||[]).forEach(function(a){if(!haveC[key(a.groupe,a.album)]) STATE.commandes.push(a);});
         YTA.merge(b.youtube||{});
@@ -857,6 +876,44 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     $('emptySorties').style.display=n?'none':'';
   }
 
+  // ------------------------------------------------------------ notifications « album sorti »
+  // Un album suivi dont la date (exacte) est atteinte reste affiché dans le bandeau tant qu'il n'a ni badge
+  // (À écouter, Écouté, Téléchargé, Acheté) ni validation « OK ». Les « OK » sont gardés dans notifs_vues.
+  var NOTIF_DEPUIS='2026-10-01'; // les sorties antérieures à la mise en place ne sont pas notifiées
+  function notifsSorties(){
+    return STATE.sorties.filter(function(it){
+      if(it.precision!=='exact' || !it.date || it.date<NOTIF_DEPUIS || !isPast(it.date,it.precision)) return false;
+      var k=key(it.groupe,it.album);
+      if(STATE.vues[k] || STATE.statuts[k]) return false;
+      if(STATE.exclus[k] || STATE.ignores[norm(it.groupe)]) return false;
+      if(it.refs && it.refs.length && it.refs.every(function(r){return STATE.refus[r];})) return false;
+      if(knownOf(it.groupe,it.album)==='collection') return false;
+      return true;
+    }).sort(function(a,b){ return a.date<b.date?1:a.date>b.date?-1:0; });
+  }
+  function renderNotifs(){
+    var box=$('notifSorties'); if(!box) return;
+    var list=notifsSorties();
+    if(!list.length){ box.style.display='none'; box.innerHTML=''; STATE.notifAll=false; return; }
+    var MAX=3, shown=(STATE.notifAll||list.length<=MAX+1)?list:list.slice(0,MAX);
+    box.innerHTML='<div class="nbox"><div class="ntitle">💿 '+(list.length>1?list.length+' albums sortis':'Un album est sorti')+'</div>'+
+      shown.map(function(it,i){
+        return '<div class="nrow" data-i="'+i+'"><img src="'+esc(it.pochette||PH)+'" alt="" loading="lazy" onerror="this.onerror=null;this.src=\''+PH+'\'">'+
+          '<button type="button" class="ninfo" title="Voir dans Sorties à surveiller"><b>'+esc(it.groupe)+' — '+esc(it.album)+'</b><span>Sorti le '+esc(fmtDate(it.date,'exact'))+(it.type==='ep'?' · EP':'')+(it.duree?' · '+esc(fmtDuree(it.duree)):'')+'</span></button>'+
+          '<button type="button" class="nbtn gold" data-n="ecouter" title="Pose le badge « À écouter » sur cet album">À écouter</button>'+
+          '<button type="button" class="nbtn" data-n="ok" title="Valider : ne plus afficher cette notification">OK</button></div>';
+      }).join('')+
+      (shown.length<list.length?'<button type="button" class="nmore">Voir les '+(list.length-shown.length)+' autres</button>':'')+'</div>';
+    box.style.display='';
+    Array.prototype.forEach.call(box.querySelectorAll('.nrow'),function(row){
+      var it=shown[parseInt(row.getAttribute('data-i'),10)], k=key(it.groupe,it.album);
+      row.querySelector('[data-n=ecouter]').addEventListener('click',function(){ STATE.statuts[k]='À écouter'; persistBadges(); if(STATE.sorties.length) renderSorties(); if(location.hash==='#ecouter') renderEcoute(); toast('Badge « À écouter » posé'); });
+      row.querySelector('[data-n=ok]').addEventListener('click',function(){ STATE.vues[k]=1; persistBadges(); });
+      row.querySelector('.ninfo').addEventListener('click',function(){ $('filtreSorties').value='sortis'; $('filtrePeriode').value='m12'; $('filtreStyle').value=''; $('filtreStatut').value=''; $('searchSorties').value=it.groupe+' '+it.album; if(location.hash==='#sorties'){ renderSorties(); window.scrollTo(0,0); } else location.hash='#sorties'; });
+    });
+    var more=box.querySelector('.nmore'); if(more) more.addEventListener('click',function(){ STATE.notifAll=true; renderNotifs(); });
+  }
+
   function rebuildSorties(){
     var items=STATE.auto.map(function(x){return Object.assign({},x);}), idx={};
     items.forEach(function(it){idx[key(it.groupe,it.album)]=it;});
@@ -866,7 +923,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     (function(){ var sel=$('filtreStyle'), cur=sel.value, cnt={}; items.forEach(function(it){ var st=(STATE.artistStyle[norm(it.groupe)]||{}).style; if(st) cnt[st]=(cnt[st]||0)+1; }); var keys=Object.keys(cnt).sort(function(a,b){ return a.localeCompare(b,'fr'); }); sel.innerHTML='<option value="">Tous les styles</option>'+keys.map(function(k){ return '<option value="'+esc(k)+'">'+esc(k)+'</option>'; }).join(''); if(keys.indexOf(cur)>=0) sel.value=cur; })();
     var av=items.filter(function(i){return !isPast(i.date,i.precision);}).length;
     $('subSorties').textContent=items.length+' sorties suivies, dont '+av+' à venir'+(STATE.generated?' — données du '+STATE.generated.slice(0,10):'');
-    renderSorties();
+    renderSorties(); renderNotifs();
   }
   function chargerSorties(){
     getJSON('data/sorties.json',function(js){
@@ -1362,7 +1419,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   $('filtreDec').addEventListener('change',function(){renderDecouvrir(true);});
   $('subDec').addEventListener('click',function(){showSub('dec');}); $('subEcoute').addEventListener('click',function(){showSub('ec');});
 
-  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); STATE.commandes=loadLS(KEY_CMD,[]); (function(){ var sk=loadLS(KEY_YTSKIP,null); if(sk) Object.keys(sk).forEach(function(k){ STATE.skipVideos[k]=1; }); })(); YTA.toast=toast; YTA.persist=function(){ persistBadges(); };
+  STATE.statuts=loadLS(KEY_STATUT,{}); STATE.vues=loadLS(KEY_VUES,{}); STATE.achetes=loadLS(KEY_ACHETES,[]); STATE.hidden=loadLS(KEY_HIDDEN,{}); STATE.dstatuts=loadLS(KEY_DSTATUT,{}); STATE.exclus=loadLS(KEY_EXCLUS,{}); STATE.ignores=loadLS(KEY_IGNORES,{}); STATE.souhaits=loadLS(KEY_SOUHAITS,[]); STATE.aecouter=loadLS(KEY_AECOUTER,[]); STATE.refus=loadLS(KEY_REFUS,{}); STATE.commandes=loadLS(KEY_CMD,[]); (function(){ var sk=loadLS(KEY_YTSKIP,null); if(sk) Object.keys(sk).forEach(function(k){ STATE.skipVideos[k]=1; }); })(); YTA.toast=toast; YTA.persist=function(){ persistBadges(); };
   function buildArtists(coll,wish,over){
     var ov={}; (over||[]).forEach(function(o){ov[norm(o.groupe)]=o;});
     var arts={};
