@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T11:16:41.985Z",
+ "maj": "2026-10-04T12:12:09.834Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5058,6 +5058,13 @@
    "t": 1791112578224,
    "bad": [],
    "topic": true
+  },
+  "brymir|what we leave behind": {
+   "id": "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv",
+   "title": "",
+   "t": 1791115928318,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
@@ -5308,5 +5315,6 @@
    "nb_tracks": 15,
    "ajoute": "2026-09-29"
   }
- ]
+ ],
+ "notifs_vues": []
 }
