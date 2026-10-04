@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T17:53:07.957Z",
+ "maj": "2026-10-04T17:53:23.582Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5102,6 +5102,11 @@
    "title": "Carrion Vael - Cannibals Anonymous (Full Album)",
    "t": 1791136386455,
    "bad": []
+  },
+  "onirism|earthrise on the moon": {
+   "none": 1,
+   "t": 1791136390171,
+   "bad": []
   }
  },
  "youtube_skip": [
@@ -5223,6 +5228,23 @@
    "duree": "63",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/90e1424b-ff17-4298-8987-4ccf3666496f/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Amon Amarth",
+   "album": "The Allfather Awakens",
+   "style": "Melodic Death Metal",
+   "pays": "Suède (Tumba)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "46",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/86da6d7a-725b-48a1-a649-cce3d280832a/front-500",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
