@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T17:53:23.582Z",
+ "maj": "2026-10-04T17:53:27.207Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5375,5 +5375,7 @@
    "ajoute": "2026-09-29"
   }
  ],
- "notifs_vues": []
+ "notifs_vues": [
+  "amon amarth|the allfather awakens"
+ ]
 }
