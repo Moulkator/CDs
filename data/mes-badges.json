@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T17:53:05.275Z",
+ "maj": "2026-10-04T17:53:07.957Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5084,6 +5084,24 @@
    "bad": [
     "PLOg90f-FFnDcTedBs8VMqHU31-z7Hor8N"
    ]
+  },
+  "august burns red|guardians": {
+   "id": "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
+   "title": "",
+   "t": 1791136385562,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|carrion vael": {
+   "channelId": "UCdxg9yuI5_lGWyPGSVFQWpQ",
+   "playlists": [],
+   "t": 1791136386053
+  },
+  "carrion vael|cannibals anonymous": {
+   "id": "PLvbGxnwj3uDPN0ysG7LRqAX6pZeOSB-zB",
+   "title": "Carrion Vael - Cannibals Anonymous (Full Album)",
+   "t": 1791136386455,
+   "bad": []
   }
  },
  "youtube_skip": [
