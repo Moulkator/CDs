@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T11:16:16.111Z",
+ "maj": "2026-10-04T11:16:19.724Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5011,6 +5011,51 @@
    "title": "The Devils Of Loudun - Escaping Eternity (Full Album)",
    "t": 1791112574609,
    "bad": []
+  },
+  "@artist|children of bodom": {
+   "channelId": "UCRiuOu6t_N0OHqpe8xORymQ",
+   "playlists": [
+    {
+     "id": "PLMGKq03wHOJc5e-cAn160lB3JVF7u5o85",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJcxX_Al5J8Fp3GDncX0CgmQ",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJf29sb2R9mahvYJnA9cKNXs",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJdXPyezBJG_KhZkFbPiZHG8",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJfkRCGXfJ5m6Ffhxw5JLMuR",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJdR90Qk3rjDbydgi_5lsoGC",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJc7EOmT2Kt_TUn80I12y3mx",
+     "title": ""
+    },
+    {
+     "id": "PLMGKq03wHOJeB2y1p75EnxYZj3hclE2Ud",
+     "title": ""
+    }
+   ],
+   "t": 1791112578223
+  },
+  "children of bodom|follow the reaper": {
+   "id": "PLMGKq03wHOJc5e-cAn160lB3JVF7u5o85",
+   "title": "",
+   "t": 1791112578224,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
