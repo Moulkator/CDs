@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T12:12:09.834Z",
+ "maj": "2026-10-04T12:12:18.209Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5060,11 +5060,13 @@
    "topic": true
   },
   "brymir|what we leave behind": {
-   "id": "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv",
-   "title": "",
-   "t": 1791115928318,
-   "bad": [],
-   "topic": true
+   "id": "9rzG4f81ksI",
+   "video": true,
+   "title": "Brymir - What We Leave Behind (2026) | Full Album",
+   "t": 1791115936707,
+   "bad": [
+    "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv"
+   ]
   }
  },
  "youtube_skip": [
