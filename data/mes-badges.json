@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T12:12:18.209Z",
+ "maj": "2026-10-04T17:53:05.275Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5066,6 +5066,23 @@
    "t": 1791115936707,
    "bad": [
     "PL5BpfEN07ycDswYfP88qeHkkBncCUOTyv"
+   ]
+  },
+  "@artist|diablo swing orchestra": {
+   "channelId": "UCrOUm08PcV9pVN15xHoJBTg",
+   "playlists": [
+    {
+     "id": "PLOg90f-FFnDcTedBs8VMqHU31-z7Hor8N",
+     "title": ""
+    }
+   ],
+   "t": 1791136382552
+  },
+  "diablo swing orchestra|pandora s pinata": {
+   "none": 1,
+   "t": 1791136384663,
+   "bad": [
+    "PLOg90f-FFnDcTedBs8VMqHU31-z7Hor8N"
    ]
   }
  },
