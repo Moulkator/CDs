@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-03T18:25:48.737Z",
+ "maj": "2026-10-04T11:16:16.111Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -4984,6 +4984,33 @@
    "bad": [
     "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7"
    ]
+  },
+  "@artist|duskmourn": {
+   "channelId": "UC02SbtEnAHAIbBrste86Nyg",
+   "playlists": [
+    {
+     "id": "PLDG1Ke27Y9ocXLLM358eh5Ac8UCFdNKM0",
+     "title": ""
+    }
+   ],
+   "t": 1791051949183
+  },
+  "duskmourn|of shadow and flame": {
+   "id": "PLDG1Ke27Y9ocXLLM358eh5Ac8UCFdNKM0",
+   "title": "",
+   "t": 1791051949183,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|devils of loudun": {
+   "none": 1,
+   "t": 1791112574218
+  },
+  "devils of loudun|escaping eternity": {
+   "id": "PLe3UPCHpSqZkmzkvwe0soeDTi2i3oupZb",
+   "title": "The Devils Of Loudun - Escaping Eternity (Full Album)",
+   "t": 1791112574609,
+   "bad": []
   }
  },
  "youtube_skip": [
