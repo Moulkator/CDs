@@ -97,9 +97,20 @@ def fmt_duree(m):
     return f"{m // 60} h {m % 60:02d}" if m >= 60 else f"{m} min"
 
 
-def is_past(it):
+def is_past(it, ref=None):
+    """Vrai si la date de sortie est atteinte au jour « ref » (aujourd'hui par défaut)."""
     d = parse_date(it.get("date"))
-    return bool(d) and d <= TODAY
+    return bool(d) and d <= (ref or TODAY)
+
+
+def prev_day(prev_data):
+    """Jour du passage précédent (enregistré dans sorties-prev.json).
+    Sert à repérer les albums dont la date a été atteinte ENTRE deux passages.
+    Ancien fichier sans ce champ : on remonte d'une semaine pour rattraper les sorties manquées."""
+    try:
+        return date.fromisoformat(prev_data.get("jour", ""))
+    except (ValueError, TypeError, AttributeError):
+        return TODAY - timedelta(days=7)
 
 
 def artist_info(groupe, rows):
@@ -183,6 +194,7 @@ def main():
         print("Premier passage : photo de départ enregistrée, aucune notification envoyée.")
         return
     prev = {album_key(i["groupe"], i["album"]): i for i in prev_data.get("items", [])}
+    avant = prev_day(prev_data)  # « sorti » = pas encore sorti au passage précédent, sorti aujourd'hui
     known = {}
     coll, wish = load_json(COLL_FILE, []), load_json(WISH_FILE, [])
     for r in coll:
@@ -205,12 +217,12 @@ def main():
             if d and d < TODAY - timedelta(days=45):
                 continue
             events.append(("sorti" if is_past(it) else "annonce", it))
-        elif is_past(it) and not is_past(old) and it.get("precision") == "exact":
+        elif is_past(it) and not is_past(old, avant) and it.get("precision") == "exact":
             events.append(("sorti", it))
         else:
             changes = []
             if (it.get("date") or "") != (old.get("date") or "") or (it.get("precision") or "") != (old.get("precision") or ""):
-                if not is_past(it) or is_past(old):  # pas de doublon avec « sorti »
+                if not is_past(it) or is_past(old, avant):  # pas de doublon avec « sorti »
                     changes.append(f"📅 Date : {fmt_date(old.get('date'), old.get('precision', 'unknown'))} → **{fmt_date(it.get('date'), it.get('precision', 'unknown'))}**")
             if it.get("pochette") and not old.get("pochette"):
                 changes.append("🖼️ Pochette dévoilée")
@@ -240,7 +252,8 @@ def main():
         sent = 0
         for kind, it in events[:MAX_MESSAGES]:
             if kind == "sorti":
-                content = "💿 **Sorti aujourd'hui !**"
+                d = parse_date(it.get("date"))
+                content = "💿 **Sorti aujourd'hui !**" if d == TODAY else f"💿 **Sorti le {fmt_date(it.get('date'), 'exact')} !**"
             elif kind == "annonce":
                 content = "🆕 **Album annoncé**"
             else:
@@ -260,7 +273,7 @@ def main():
         print(f"{sent}/{len(events)} notification(s) envoyée(s)")
 
     with open(PREV_FILE, "w", encoding="utf-8") as f:
-        json.dump({"items": cur}, f, ensure_ascii=False, indent=0)
+        json.dump({"jour": TODAY.isoformat(), "items": cur}, f, ensure_ascii=False, indent=0)
 
 
 if __name__ == "__main__":
