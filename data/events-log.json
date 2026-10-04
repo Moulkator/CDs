@@ -537,5 +537,59 @@
 "kind": "annonce",
 "jour": "2026-09-28",
 "changes": []
+},
+{
+"groupe": "Amon Amarth",
+"album": "The Allfather Awakens",
+"date": "2026-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/86da6d7a-725b-48a1-a649-cce3d280832a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "86da6d7a-725b-48a1-a649-cce3d280832a",
+"refs": [
+"dz:6065",
+"mb:5b687684-ad34-4a9f-b425-0e7aa81fbd38"
+],
+"deezer_id": 1000680901,
+"duree": "46",
+"kind": "sorti",
+"jour": "2026-10-04",
+"changes": []
+},
+{
+"groupe": "Brymir",
+"album": "What We Leave Behind",
+"date": "2026-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://f4.bcbits.com/img/a2827788561_10.jpg",
+"source": "manuel+musicbrainz",
+"mb_rg": "74a8de15-54a8-42cb-a730-dc56cba2d20e",
+"refs": [
+"mb:8b848759-779b-4069-bb5c-b4d2b725b4f8"
+],
+"kind": "sorti",
+"jour": "2026-10-04",
+"changes": []
+},
+{
+"groupe": "Firtan",
+"album": "Helios",
+"date": "2026-10-02",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "d7ca0c4e-9efc-4f4f-a4a5-912b6efe0205",
+"refs": [
+"dz:5477836",
+"mb:29c38f48-0a16-4c76-885a-2668ebd77842"
+],
+"deezer_id": 1018530201,
+"duree": "60",
+"kind": "sorti",
+"jour": "2026-10-04",
+"changes": []
 }
 ]
