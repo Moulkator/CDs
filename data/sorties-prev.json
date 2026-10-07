@@ -1,5 +1,5 @@
 {
-"jour": "2026-10-06",
+"jour": "2026-10-07",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -15,22 +15,6 @@
 ]
 },
 {
-"groupe": "The Agonist",
-"album": "Five",
-"date": "2016-09-28",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/7cc16005-b6a5-4b05-8b39-3f2d953b6128/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "7cc16005-b6a5-4b05-8b39-3f2d953b6128",
-"refs": [
-"dz:168263",
-"mb:d6d9ec73-d0dd-4066-944c-20d4a6d6c7c7"
-],
-"deezer_id": 14775337,
-"duree": "57"
-},
-{
 "groupe": "Alcest",
 "album": "Kodama",
 "date": "2016-09-30",
@@ -43,6 +27,20 @@
 "dz:16329"
 ],
 "duree": "42"
+},
+{
+"groupe": "The Agonist",
+"album": "Five",
+"date": "2016-09-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/e4b8a40dfc209c5b391236d614a0658a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 14775337,
+"refs": [
+"dz:168263"
+],
+"duree": "57"
 },
 {
 "groupe": "NOFX",
@@ -9598,7 +9596,7 @@
 "date": "2021-07-02",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/ebc496103d19cf451dae7b72e7f88fdd/500x500-000000-80-0-0.jpg",
+"pochette": "https://coverartarchive.org/release-group/1151b217-50d0-45fe-b428-8bd54125687e/front-500",
 "source": "deezer+musicbrainz",
 "mb_rg": "1151b217-50d0-45fe-b428-8bd54125687e",
 "refs": [
@@ -19407,6 +19405,20 @@
 "dz:16329"
 ],
 "duree": "64"
+},
+{
+"groupe": "Parkway Drive",
+"album": "HOME (Live at the Sydney Opera House)",
+"date": "2026-12-04",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "deezer",
+"deezer_id": 1070429432,
+"refs": [
+"dz:16410"
+],
+"duree": "104"
 },
 {
 "groupe": "Aether Realm",
