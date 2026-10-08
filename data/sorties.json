@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T21:35:54Z",
+ "generated": "2026-10-08T11:36:11Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -4027,11 +4027,13 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/f06ad222-2f92-4fe5-845c-550169916b4a/front-500",
-   "source": "musicbrainz",
+   "source": "deezer+musicbrainz",
    "mb_rg": "f06ad222-2f92-4fe5-845c-550169916b4a",
    "refs": [
+    "dz:50858242",
     "mb:b1bf6e39-a16d-442b-9ec8-bfc2b00498fa"
    ],
+   "deezer_id": 72108652,
    "duree": "42"
   },
   {
@@ -10315,7 +10317,7 @@
    "album": "Nowhere Sessions",
    "date": "2021-11-12",
    "precision": "exact",
-   "type": "ep",
+   "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/5c40a3d54209ca86b240f21bb6982216/500x500-000000-80-0-0.jpg",
    "source": "deezer",
    "deezer_id": 263614742,
@@ -19292,11 +19294,14 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://f4.bcbits.com/img/a2827788561_10.jpg",
-   "source": "manuel+musicbrainz",
+   "source": "deezer+manuel+musicbrainz",
    "mb_rg": "74a8de15-54a8-42cb-a730-dc56cba2d20e",
    "refs": [
+    "dz:648547",
     "mb:8b848759-779b-4069-bb5c-b4d2b725b4f8"
-   ]
+   ],
+   "deezer_id": 997009021,
+   "duree": "45"
   },
   {
    "groupe": "Firtan",
