@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T11:34:48Z",
+ "generated": "2026-10-09T21:12:02Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -3999,13 +3999,11 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://coverartarchive.org/release-group/f06ad222-2f92-4fe5-845c-550169916b4a/front-500",
-   "source": "deezer+musicbrainz",
+   "source": "musicbrainz",
    "mb_rg": "f06ad222-2f92-4fe5-845c-550169916b4a",
    "refs": [
-    "dz:50858242",
     "mb:b1bf6e39-a16d-442b-9ec8-bfc2b00498fa"
    ],
-   "deezer_id": 72108652,
    "duree": "42"
   },
   {
@@ -10313,6 +10311,20 @@
     "dz:3566"
    ],
    "duree": "19"
+  },
+  {
+   "groupe": "The Offspring",
+   "album": "Gone Away",
+   "date": "2021-11-12",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/a610b71f4bedbafe4830cde550402be1/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 270611592,
+   "refs": [
+    "dz:882"
+   ],
+   "duree": "15"
   },
   {
    "groupe": "Unleashed",
