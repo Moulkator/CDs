@@ -1,5 +1,5 @@
 {
-"jour": "2026-10-08",
+"jour": "2026-10-09",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -13,34 +13,6 @@
 "refs": [
 "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
 ]
-},
-{
-"groupe": "Alcest",
-"album": "Kodama",
-"date": "2016-09-30",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/e7ae442da2ad54106a682cd27f1d6f3c/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 368665517,
-"refs": [
-"dz:16329"
-],
-"duree": "42"
-},
-{
-"groupe": "The Agonist",
-"album": "Five",
-"date": "2016-09-30",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/e4b8a40dfc209c5b391236d614a0658a/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 14775337,
-"refs": [
-"dz:168263"
-],
-"duree": "57"
 },
 {
 "groupe": "NOFX",
@@ -10327,7 +10299,7 @@
 "album": "Nowhere Sessions",
 "date": "2021-11-12",
 "precision": "exact",
-"type": "album",
+"type": "ep",
 "pochette": "https://cdn-images.dzcdn.net/images/cover/5c40a3d54209ca86b240f21bb6982216/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 263614742,
@@ -19418,7 +19390,7 @@
 "date": "2026-11-20",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/b4e62d29338a2020593356b5856fb539/500x500-000000-80-0-0.jpg",
+"pochette": "https://coverartarchive.org/release-group/b1183c53-78c8-44dd-8344-6de01ad473c2/front-500",
 "source": "musicbrainz",
 "mb_rg": "b1183c53-78c8-44dd-8344-6de01ad473c2",
 "refs": [
