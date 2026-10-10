@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04T17:54:43.088Z",
+ "maj": "2026-10-10T09:28:59.085Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5107,6 +5107,38 @@
    "none": 1,
    "t": 1791136390171,
    "bad": []
+  },
+  "@artist|wolfchant": {
+   "channelId": "UCoz7JEwaJ7JxYR7KPQnylMQ",
+   "playlists": [
+    {
+     "id": "PLuNRpNUnKumI8_hIifvCd-etwTSsy-bP2",
+     "title": ""
+    }
+   ],
+   "t": 1791471290198
+  },
+  "wolfchant|bloody tales of disgraced lands re recorded": {
+   "id": "PLNDXDJtQAOakGC1S49o5ixgd0PoGi0qK7",
+   "title": "Wolfchant - Bloody Tales of Disgraced Lands (2005 - Full Album)",
+   "t": 1791471292246,
+   "bad": [
+    "PLuNRpNUnKumI8_hIifvCd-etwTSsy-bP2"
+   ]
+  },
+  "nanowar of steel|sodali do it better live iv adunata trezzo sull adda": {
+   "id": "PLAxqEQmX-PkntPNiXbm8otsEgCsq9Oqhk",
+   "title": "",
+   "t": 1791471293221,
+   "bad": [],
+   "topic": true
+  },
+  "windir|likferd": {
+   "id": "PLVi65bRvqG5-lJg9lViO5VeYf4bRX6xVO",
+   "title": "",
+   "t": 1791624537577,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
