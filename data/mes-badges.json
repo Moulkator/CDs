@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-10T09:39:22.482Z",
+ "maj": "2026-10-10T10:19:18.310Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5205,9 +5205,44 @@
    "t": 1791624541462
   },
   "kivimetsan druidi|shadowheart": {
-   "id": "PL1Jl-MEbjidPF6EIOdvKob16jhxsZTI07",
+   "id": "PL9XLV_AszaKHh7FrlwGgFXc4rQakQxlDi",
+   "title": "Kivimetsän Druidi - Shadowheart (Full Album)",
+   "t": 1791627555990,
+   "bad": [
+    "PL1Jl-MEbjidPF6EIOdvKob16jhxsZTI07",
+    "PL1Jl-MEbjidOlrt7VVqyqDHy34tADF9ee",
+    "PL1Jl-MEbjidMypLEtg3X5gkxzArXZ2FKl",
+    "PL1Jl-MEbjidOousDY1dmfE-lh716RPsEC",
+    "PL1Jl-MEbjidNXFZPYvBjCdvdCz-qRfFrS",
+    "PL1Jl-MEbjidMlvs3vPow0CNkX_kkVf49i",
+    "PL1Jl-MEbjidM2Yi6iuL3XF5fPGNfD0U4v",
+    "PL1Jl-MEbjidN63uL62kg7WTGgczkRAFaT",
+    "PL1Jl-MEbjidO_Gf_GPrLkfxTfPdWFI72r",
+    "PL1Jl-MEbjidPqjy1DiCdqizsF81NpgVFA",
+    "PL1Jl-MEbjidME-4IG4AmW2V7F_oX6X2wi",
+    "PL1Jl-MEbjidMdw_P48Yc1JKuaGz4pKua_",
+    "PL1Jl-MEbjidOlkFIgC73FvoTqyI5KzNM4",
+    "PL1Jl-MEbjidOaBWMjPuOoLv6W1iZS0HsP"
+   ]
+  },
+  "@artist|kalmankantaja": {
+   "channelId": "UCzGaNaGlJTelbRNZiLn6Xbw",
+   "playlists": [
+    {
+     "id": "PLknzWGd2a06GsuhEzq-iWknL07FeI5Sat",
+     "title": ""
+    },
+    {
+     "id": "PLknzWGd2a06HZ13cyDeRXiR49l9UmxG6G",
+     "title": ""
+    }
+   ],
+   "t": 1791627544130
+  },
+  "kalmankantaja|routamaa": {
+   "id": "PLknzWGd2a06GsuhEzq-iWknL07FeI5Sat",
    "title": "",
-   "t": 1791624541463,
+   "t": 1791627544130,
    "bad": [],
    "topic": true
   }
