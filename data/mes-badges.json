@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-10T09:28:59.085Z",
+ "maj": "2026-10-10T09:29:03.018Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5134,9 +5134,80 @@
    "topic": true
   },
   "windir|likferd": {
-   "id": "PLVi65bRvqG5-lJg9lViO5VeYf4bRX6xVO",
+   "id": "PLE01wlOmya8rIvAv6I0THrV-JlCM_bfAy",
+   "title": "Windir - Likferd (Full Album)",
+   "t": 1791624541517,
+   "bad": [
+    "PLVi65bRvqG5-lJg9lViO5VeYf4bRX6xVO",
+    "PLVi65bRvqG5_DseFEABgn-JCusSceYWhQ"
+   ]
+  },
+  "@artist|kivimetsan druidi": {
+   "channelId": "UC2jtOY89K31JkRb7x7O6w_g",
+   "playlists": [
+    {
+     "id": "PL1Jl-MEbjidPF6EIOdvKob16jhxsZTI07",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidOlrt7VVqyqDHy34tADF9ee",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidMypLEtg3X5gkxzArXZ2FKl",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidOousDY1dmfE-lh716RPsEC",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidNXFZPYvBjCdvdCz-qRfFrS",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidMlvs3vPow0CNkX_kkVf49i",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidM2Yi6iuL3XF5fPGNfD0U4v",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidN63uL62kg7WTGgczkRAFaT",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidO_Gf_GPrLkfxTfPdWFI72r",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidPqjy1DiCdqizsF81NpgVFA",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidME-4IG4AmW2V7F_oX6X2wi",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidMdw_P48Yc1JKuaGz4pKua_",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidOlkFIgC73FvoTqyI5KzNM4",
+     "title": ""
+    },
+    {
+     "id": "PL1Jl-MEbjidOaBWMjPuOoLv6W1iZS0HsP",
+     "title": ""
+    }
+   ],
+   "t": 1791624541462
+  },
+  "kivimetsan druidi|shadowheart": {
+   "id": "PL1Jl-MEbjidPF6EIOdvKob16jhxsZTI07",
    "title": "",
-   "t": 1791624537577,
+   "t": 1791624541463,
    "bad": [],
    "topic": true
   }
