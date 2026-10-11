@@ -1,5 +1,5 @@
 {
-"date": "2026-10-04",
+"date": "2026-10-11",
 "collection": [
 {
 "groupe": "3 Fromages",
@@ -14676,6 +14676,26 @@
 "preview": "",
 "historique": "",
 "auto_source": "ajouté depuis Album aléatoire",
+"auto_fields": "",
+"pending_review": "1",
+"review_reason": "ajouté via le bouton Liste de souhaits ; à compléter",
+"duree_verifiee": "",
+"auto_confidence": "",
+"manual_verified": ""
+},
+{
+"groupe": "Amon Amarth",
+"album": "The Allfather Awakens",
+"style": "Melodic Death Metal",
+"pays": "Suède (Tumba)",
+"langue": "",
+"annee": "2026",
+"duree": "46",
+"note": "",
+"pochette": "https://coverartarchive.org/release-group/86da6d7a-725b-48a1-a649-cce3d280832a/front-500",
+"preview": "",
+"historique": "",
+"auto_source": "ajouté depuis Sorties à surveiller",
 "auto_fields": "",
 "pending_review": "1",
 "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter",
