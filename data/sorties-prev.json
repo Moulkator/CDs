@@ -10307,20 +10307,6 @@
 "duree": "19"
 },
 {
-"groupe": "The Offspring",
-"album": "Gone Away",
-"date": "2021-11-12",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/a610b71f4bedbafe4830cde550402be1/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 270611592,
-"refs": [
-"dz:882"
-],
-"duree": "15"
-},
-{
 "groupe": "Unleashed",
 "album": "No Sign of Life",
 "date": "2021-11-12",
