@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T16:40:04.385Z",
+ "maj": "2026-10-13T17:16:26.410Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5336,6 +5336,24 @@
    "t": 1791909602882,
    "bad": [
     "PLcap2Tt6VJzmkbrkib9d758CUH3EGny_4"
+   ]
+  },
+  "@artist|holy blood": {
+   "channelId": "UCg3sB_ere8myR53LO5nEimQ",
+   "playlists": [
+    {
+     "id": "PL0ThiY3QSMJi5ag8bfU-3kJ0T9bMRSMPD",
+     "title": ""
+    }
+   ],
+   "t": 1791909605435
+  },
+  "holy blood|waves are dancing": {
+   "id": "PLrexvKuccKdwe9ioOuNJ-SACtpVz_FNT3",
+   "title": "Holy Blood - Waves Are Dancing (Full Album)",
+   "t": 1791911784899,
+   "bad": [
+    "PL0ThiY3QSMJi5ag8bfU-3kJ0T9bMRSMPD"
    ]
   }
  },
