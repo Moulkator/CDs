@@ -675,5 +675,19 @@
 "kind": "sorti",
 "jour": "2026-10-13",
 "changes": []
+},
+{
+"groupe": "Saor",
+"album": "Caledonia",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://www.metal-archives.com/images/1/4/7/1/1471022.jpg?0410",
+"pochette_page": "",
+"note": "",
+"source": "manuel",
+"kind": "annonce",
+"jour": "2026-10-13",
+"changes": []
 }
 ]
