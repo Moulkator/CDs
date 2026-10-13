@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T12:29:56.949Z",
+ "maj": "2026-10-13T12:30:05.653Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5256,6 +5256,35 @@
    "title": "Galactic Empire🔸2025🔸Cinemetal",
    "t": 1791894595443,
    "bad": []
+  },
+  "@artist|papa roach": {
+   "channelId": "UCRiFekze9Yx5zDDjAVrYvbg",
+   "playlists": [
+    {
+     "id": "PLUntIRA3bYXz3uF2KuC3IYRlnatmeb5g_",
+     "title": ""
+    },
+    {
+     "id": "PLUntIRA3bYXw7nphCxw3myLTLlZUr9v_K",
+     "title": ""
+    },
+    {
+     "id": "PLUntIRA3bYXzEJceR8eAVQNt0GGaDXDiZ",
+     "title": ""
+    },
+    {
+     "id": "PLUntIRA3bYXx440KwHlhKHZL5jW6aNQQJ",
+     "title": ""
+    }
+   ],
+   "t": 1791894604151
+  },
+  "papa roach|crooked teeth": {
+   "id": "PLUntIRA3bYXz3uF2KuC3IYRlnatmeb5g_",
+   "title": "",
+   "t": 1791894604153,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
