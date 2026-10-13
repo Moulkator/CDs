@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T13:27:40.591Z",
+ "maj": "2026-10-13T15:42:25.143Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5313,9 +5313,27 @@
    "t": 1791898058423
   },
   "inferi|the path of apotheosis": {
-   "id": "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5",
+   "id": "PLlSWpwQHJl6Q2UwLTDmoENOP2QnxtijgT",
+   "title": "inferi - The Path of Apotheosis (Full Album)",
+   "t": 1791906140031,
+   "bad": [
+    "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5"
+   ]
+  },
+  "@artist|lorelei": {
+   "channelId": "UCSALjk3Dtr2VhTCiCNa89rA",
+   "playlists": [
+    {
+     "id": "PLcap2Tt6VJzmkbrkib9d758CUH3EGny_4",
+     "title": ""
+    }
+   ],
+   "t": 1791906143124
+  },
+  "lorelei|lore of lies": {
+   "id": "PLcap2Tt6VJzmkbrkib9d758CUH3EGny_4",
    "title": "",
-   "t": 1791898058424,
+   "t": 1791906143124,
    "bad": [],
    "topic": true
   }
