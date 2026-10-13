@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T13:27:20.595Z",
+ "maj": "2026-10-13T13:27:40.591Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5301,6 +5301,23 @@
    "title": "Forlorn Citadel - An Oath Undone (Full Album Premiere)",
    "t": 1791898039089,
    "bad": []
+  },
+  "@artist|inferi": {
+   "channelId": "UCzEWBVA5BRN1w7ftZigyUag",
+   "playlists": [
+    {
+     "id": "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5",
+     "title": ""
+    }
+   ],
+   "t": 1791898058423
+  },
+  "inferi|the path of apotheosis": {
+   "id": "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5",
+   "title": "",
+   "t": 1791898058424,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
