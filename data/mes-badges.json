@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T15:42:25.143Z",
+ "maj": "2026-10-13T16:40:04.385Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5331,11 +5331,12 @@
    "t": 1791906143124
   },
   "lorelei|lore of lies": {
-   "id": "PLcap2Tt6VJzmkbrkib9d758CUH3EGny_4",
-   "title": "",
-   "t": 1791906143124,
-   "bad": [],
-   "topic": true
+   "id": "PLR_mx7KJcLw5VweSr5NVMqmNrv7dhEOzj",
+   "title": "Lorelei &quot;Lore Of Lies&quot; Full Album",
+   "t": 1791909602882,
+   "bad": [
+    "PLcap2Tt6VJzmkbrkib9d758CUH3EGny_4"
+   ]
   }
  },
  "youtube_skip": [
