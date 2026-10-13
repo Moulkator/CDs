@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T12:32:07.903Z",
+ "maj": "2026-10-13T13:27:20.595Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5280,11 +5280,27 @@
    "t": 1791894604151
   },
   "papa roach|crooked teeth": {
-   "id": "PLUntIRA3bYXz3uF2KuC3IYRlnatmeb5g_",
-   "title": "",
-   "t": 1791894604153,
-   "bad": [],
-   "topic": true
+   "id": "PLzrRkSuSpF2MZ6zZoZIekr7OqEJHPijPi",
+   "title": "Papa Roach - Crooked Teeth (Full Album)",
+   "t": 1791898038189,
+   "bad": [
+    "PLUntIRA3bYXz3uF2KuC3IYRlnatmeb5g_",
+    "PLUntIRA3bYXw7nphCxw3myLTLlZUr9v_K",
+    "PLUntIRA3bYXzEJceR8eAVQNt0GGaDXDiZ",
+    "PLUntIRA3bYXx440KwHlhKHZL5jW6aNQQJ"
+   ]
+  },
+  "@artist|forlorn citadel": {
+   "channelId": "UCCIw2H697m7ud_UnBZKF2jw",
+   "playlists": [],
+   "t": 1791898038325
+  },
+  "forlorn citadel|an oath undone": {
+   "id": "ZZhiGhZPGA4",
+   "video": true,
+   "title": "Forlorn Citadel - An Oath Undone (Full Album Premiere)",
+   "t": 1791898039089,
+   "bad": []
   }
  },
  "youtube_skip": [
