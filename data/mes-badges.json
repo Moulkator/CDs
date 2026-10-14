@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-13T17:16:26.410Z",
+ "maj": "2026-10-14T21:39:30.822Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5355,6 +5355,188 @@
    "bad": [
     "PL0ThiY3QSMJi5ag8bfU-3kJ0T9bMRSMPD"
    ]
+  },
+  "@artist|threat signal": {
+   "channelId": "UCPEjKqkWG6g__cQRqwO24-A",
+   "playlists": [
+    {
+     "id": "PLwguhF8aLyhfSHloCTw8opCi0H8MLFjcg",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcrMH7F-9FaBwRty1e22KOd",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcQyfcRu99sGfQvYmwHE1Ci",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhewyrpV8JzMl3r8t8YU5a4z",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhetxTs6VJnMf7lN1-GQeH1F",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhfMyJPFzyffvXpipjjjAyiQ",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhdHqAXrjmhQMAOzOeUTIJe6",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhd7pvzGhKo8I8shdeo2IUfl",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhc29wH6AGGxXKQGC4Xa5xHJ",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhdOyVYubjFyb3HCXivi2YVv",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcZ5_s_B0Y6eTte7orwCEd8",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhe4ixWbdjzmPX8p3Qhz0WnG",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcfUTLZA7zWUQQoaycxnPqu",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcPkzgy7oR4_bpmjhZ4a52x",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhfAqjUR9koIoQkzEpJxdXpQ",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcZxuz27fH7gcPVGdP-9t5a",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyheeAK0Zstmf42Nc9ytEdxRJ",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhcRSqyqhPhzh1KpPVTx87L-",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhed6oRe62LHK5a9kqkl2HnQ",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhfS_tNcbT84H9F0cnvdFRab",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyheMi_2pI7ksLH06uQLt3WpH",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhdEr5pH9fZQNStGBEZjyBYl",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhc52BBkv15QkA4qTJ0-luPA",
+     "title": ""
+    },
+    {
+     "id": "PLwguhF8aLyhe73zVeTrxnWAjhh5Hz23_u",
+     "title": ""
+    }
+   ],
+   "t": 1791911786680
+  },
+  "threat signal|revelations": {
+   "id": "PLwguhF8aLyhfSHloCTw8opCi0H8MLFjcg",
+   "title": "",
+   "t": 1791911786681,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|vektor": {
+   "channelId": "UCNHEpe6BdL0UYjfblZaHjUQ",
+   "playlists": [
+    {
+     "id": "PLmIRmlj4pnNby2qLPAy0Yn7GB_WmhBM4j",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNbQi9vqnEFpXYdDYr1AMdUt",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZgMpeItSQIERDqfJoynYqG",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZ1oqX7-lgv6JL0I5ruxmgo",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZylbnPZpiSgsqOo0UZGx5V",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNYQmLyKChMOtifZWXITr_Sb",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZHVJNkr1912NqEQ8PpR85Y",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNap3JN3gBDF0Chl6WCZPRqQ",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZ4v6D6X3BDz98C-2qdnFsn",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNbwslxLyTVZOO8VmiH9-V0J",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNYobkiUiR_6HSruQmxJ9xW1",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNa_ELm1FomI64SZzNJmyrSQ",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZNC10xYi3KBn_1T2swbp8Y",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZkXMqXjEmI_75jU8FIc8NC",
+     "title": ""
+    },
+    {
+     "id": "PLmIRmlj4pnNZfUnvKCU9cgK9N9M7AUQlm",
+     "title": ""
+    }
+   ],
+   "t": 1792013969320
+  },
+  "vektor|terminal rdeux": {
+   "id": "PLmIRmlj4pnNby2qLPAy0Yn7GB_WmhBM4j",
+   "title": "",
+   "t": 1792013969320,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
