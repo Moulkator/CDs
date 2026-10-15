@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T16:27:26.660Z",
+ "maj": "2026-10-15T17:30:52.077Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5561,11 +5561,12 @@
    "t": 1792081645158
   },
   "as i lay dying|through storms ahead": {
-   "id": "PLRNvcOOREA-6aFTQsNSYu0lBswQUUDcyU",
-   "title": "",
-   "t": 1792081645160,
-   "bad": [],
-   "topic": true
+   "id": "PLZxKy04e5wXoEphh1ZWrrLKaW3s0BMGhU",
+   "title": "As I Lay Dying - Through Storms Ahead (Full Album)/ New Album 2024",
+   "t": 1792085450565,
+   "bad": [
+    "PLRNvcOOREA-6aFTQsNSYu0lBswQUUDcyU"
+   ]
   }
  },
  "youtube_skip": [
