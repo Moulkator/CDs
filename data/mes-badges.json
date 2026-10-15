@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-14T21:39:30.822Z",
+ "maj": "2026-10-15T16:27:26.660Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5532,9 +5532,38 @@
    "t": 1792013969320
   },
   "vektor|terminal rdeux": {
-   "id": "PLmIRmlj4pnNby2qLPAy0Yn7GB_WmhBM4j",
+   "id": "PLmIRmlj4pnNZylbnPZpiSgsqOo0UZGx5V",
    "title": "",
-   "t": 1792013969320,
+   "t": 1792013973236,
+   "bad": [
+    "PLmIRmlj4pnNby2qLPAy0Yn7GB_WmhBM4j",
+    "PLmIRmlj4pnNbQi9vqnEFpXYdDYr1AMdUt",
+    "PLmIRmlj4pnNZgMpeItSQIERDqfJoynYqG",
+    "PLmIRmlj4pnNZ1oqX7-lgv6JL0I5ruxmgo"
+   ],
+   "topic": true
+  },
+  "watain|sathanas luciferi tour ep": {
+   "id": "PLjPf4NfHUSZOBK_Re4d4h4oRqHi1DG3Ig",
+   "title": "",
+   "t": 1792013972340,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|as i lay dying": {
+   "channelId": "UCfFZ2khpBG0BHSTNcftuHew",
+   "playlists": [
+    {
+     "id": "PLRNvcOOREA-6aFTQsNSYu0lBswQUUDcyU",
+     "title": ""
+    }
+   ],
+   "t": 1792081645158
+  },
+  "as i lay dying|through storms ahead": {
+   "id": "PLRNvcOOREA-6aFTQsNSYu0lBswQUUDcyU",
+   "title": "",
+   "t": 1792081645160,
    "bad": [],
    "topic": true
   }
