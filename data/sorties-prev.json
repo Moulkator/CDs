@@ -3995,11 +3995,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/f06ad222-2f92-4fe5-845c-550169916b4a/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "f06ad222-2f92-4fe5-845c-550169916b4a",
 "refs": [
+"dz:50858242",
 "mb:b1bf6e39-a16d-442b-9ec8-bfc2b00498fa"
 ],
+"deezer_id": 328706317,
 "duree": "42"
 },
 {
@@ -19339,7 +19341,7 @@
 "album": "Starfighters of Leuchars",
 "date": "2026-10-13",
 "precision": "exact",
-"type": "album",
+"type": "ep",
 "pochette": "https://cdn-images.dzcdn.net/images/cover/120ce6b11da5cae3c577812de1a444b8/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 1019864311,
