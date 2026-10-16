@@ -689,5 +689,62 @@
 "kind": "annonce",
 "jour": "2026-10-13",
 "changes": []
+},
+{
+"groupe": "Gloryhammer",
+"album": "Space 1993: Wrath of Kor-Virliath",
+"date": "2026-10-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a5900014-6f60-4c2b-8f71-100b96b0fcc9",
+"refs": [
+"dz:4506681",
+"mb:85997032-ff48-4383-b86a-a920d4230a0b"
+],
+"deezer_id": 1009701241,
+"duree": "50",
+"kind": "sorti",
+"jour": "2026-10-16",
+"changes": []
+},
+{
+"groupe": "Insomnium",
+"album": "Netherworlds",
+"date": "2026-10-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "446e691c-d0be-4225-9654-0f24e4e174d9",
+"refs": [
+"dz:3022",
+"mb:c1f8e226-75ea-4fe6-83ce-59c122bcbca4"
+],
+"deezer_id": 1024932351,
+"duree": "54",
+"kind": "sorti",
+"jour": "2026-10-16",
+"changes": []
+},
+{
+"groupe": "Shores of Null",
+"album": "Homesick",
+"date": "2026-10-16",
+"precision": "exact",
+"type": "album",
+"pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
+"source": "deezer+manuel+musicbrainz",
+"mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4",
+"refs": [
+"dz:5498899",
+"mb:a2e60b17-960e-4e9c-8194-681b39d5613e"
+],
+"deezer_id": 998009441,
+"duree": "19",
+"kind": "sorti",
+"jour": "2026-10-16",
+"changes": []
 }
 ]

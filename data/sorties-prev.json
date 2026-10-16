@@ -1,5 +1,5 @@
 {
-"jour": "2026-10-15",
+"jour": "2026-10-16",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -15,65 +15,17 @@
 ]
 },
 {
-"groupe": "NOFX",
-"album": "First Ditch Effort",
-"date": "2016-10-07",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/1855db45-9bf5-47e5-a01d-2ba3a27ef6dc/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "1855db45-9bf5-47e5-a01d-2ba3a27ef6dc",
-"refs": [
-"dz:941",
-"mb:dcaa4f81-bfb7-44eb-8594-4e74f004b6e4"
-],
-"deezer_id": 792027401,
-"duree": "33"
-},
-{
-"groupe": "Sum 41",
-"album": "13 Voices",
-"date": "2016-10-07",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/27de34e7-47e1-4b63-971f-c9f4ac07bd56/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "27de34e7-47e1-4b63-971f-c9f4ac07bd56",
-"refs": [
-"dz:459",
-"mb:f2eef649-a6d5-4114-afba-e50ab26254d2"
-],
-"deezer_id": 13282001,
-"duree": "38"
-},
-{
-"groupe": "Sum 41",
-"album": "13 Voices B-Sides",
-"date": "2016-10-07",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/5079f00e69465299ad81797505f550f7/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 148511502,
-"refs": [
-"dz:459"
-],
-"duree": "16"
-},
-{
 "groupe": "Itzamna",
 "album": "Chascade",
 "date": "2016-10-14",
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/bbc505de-ce5e-42f4-bebd-951cf37e056e/front-500",
-"source": "deezer+musicbrainz",
+"source": "musicbrainz",
 "mb_rg": "bbc505de-ce5e-42f4-bebd-951cf37e056e",
 "refs": [
-"dz:11012746",
 "mb:563a5906-c531-4b93-a1a5-dc3eb0aa0d5e"
 ],
-"deezer_id": 14030254,
 "duree": "62"
 },
 {
@@ -19357,11 +19309,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "a5900014-6f60-4c2b-8f71-100b96b0fcc9",
 "refs": [
+"dz:4506681",
 "mb:85997032-ff48-4383-b86a-a920d4230a0b"
-]
+],
+"deezer_id": 1009701241,
+"duree": "50"
 },
 {
 "groupe": "Insomnium",
@@ -19370,11 +19325,14 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "446e691c-d0be-4225-9654-0f24e4e174d9",
 "refs": [
+"dz:3022",
 "mb:c1f8e226-75ea-4fe6-83ce-59c122bcbca4"
-]
+],
+"deezer_id": 1024932351,
+"duree": "54"
 },
 {
 "groupe": "Shores of Null",
@@ -19383,11 +19341,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://f4.bcbits.com/img/a0428604495_10.jpg",
-"source": "manuel+musicbrainz",
+"source": "deezer+manuel+musicbrainz",
 "mb_rg": "6ad0f9ba-15e5-4423-9ac4-7354310489a4",
 "refs": [
+"dz:5498899",
 "mb:a2e60b17-960e-4e9c-8194-681b39d5613e"
 ],
+"deezer_id": 998009441,
 "duree": "19"
 },
 {
