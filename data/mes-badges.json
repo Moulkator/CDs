@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T13:30:20.405Z",
+ "maj": "2026-10-19T13:30:25.616Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5773,6 +5773,23 @@
    "duree": "54",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Gloryhammer",
+   "album": "Space 1993: Wrath of Kor-Virliath",
+   "style": "Power Metal/Comedy",
+   "pays": "Écosse (Perth)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "50",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
