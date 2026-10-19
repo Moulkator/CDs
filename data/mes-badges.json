@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T13:29:41.221Z",
+ "maj": "2026-10-19T13:30:20.405Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5756,6 +5756,23 @@
    "duree": "46",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/86da6d7a-725b-48a1-a649-cce3d280832a/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Insomnium",
+   "album": "Netherworlds",
+   "style": "Melodic Death Metal",
+   "pays": "Finlande (Joensuu)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "54",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
