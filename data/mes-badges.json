@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T17:30:54.992Z",
+ "maj": "2026-10-19T13:26:31.271Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5576,6 +5576,30 @@
   "fortid|domur um dau an hvern": {
    "none": 1,
    "t": 1792085453918,
+   "bad": []
+  },
+  "@artist|instorm": {
+   "channelId": "UCdQoOk4uktnlS0yGsOmU73w",
+   "playlists": [
+    {
+     "id": "PLJMtS3rt4sFyOh46ncpEehQpjOa9h_2pa",
+     "title": ""
+    }
+   ],
+   "t": 1792416386504
+  },
+  "instorm|madness inside": {
+   "id": "TsjS8NNX9Yo",
+   "video": true,
+   "title": "Instorm - Madness Inside (Full Album) [Melodic Death Metal]",
+   "t": 1792416388794,
+   "bad": [
+    "PLJMtS3rt4sFyOh46ncpEehQpjOa9h_2pa"
+   ]
+  },
+  "onirism|roland": {
+   "none": 1,
+   "t": 1792416390629,
    "bad": []
   }
  },
