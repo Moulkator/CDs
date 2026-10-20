@@ -1,6 +1,7 @@
 {
- "maj": "2026-10-19T13:30:25.616Z",
+ "maj": "2026-10-20T02:02:20.530Z",
  "statuts_sorties": {
+  "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
   "galactic empire|cinemetal": "Téléchargé",
@@ -38,10 +39,9 @@
   "grimner|stormvingar": "À écouter",
   "saor|carved in stone mmxxvi": "À écouter",
   "whispered|honorbound": "Téléchargé",
-  "dimmu borgir|grand serpent rising": "Téléchargé",
   "manegarm|edsvuren  album": "À écouter",
   "gloryhammer|space 1993 wrath of kor virliath": "À écouter",
-  "insomnium|netherworlds": "Téléchargé"
+  "insomnium|netherworlds": "À écouter"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -419,6 +419,11 @@
    "t": 1789929389665,
    "bad": []
   },
+  "firienholt|a forgotten legacy": {
+   "none": 1,
+   "t": 1789929591909,
+   "bad": []
+  },
   "artemis the endless journey|north": {
    "none": 1,
    "t": 1789935727647,
@@ -461,11 +466,6 @@
    "id": "PLHtnZXLCPyREKkOIw3bE8-urn4_ATA8lC",
    "title": "Igorrr - SAVAGE SINUSOID (Full Album) (2017)",
    "t": 1789970102708,
-   "bad": []
-  },
-  "firienholt|a forgotten legacy": {
-   "none": 1,
-   "t": 1789929591909,
    "bad": []
   },
   "panopticon|the scars of man on the once nameless wilderness pt 2": {
@@ -5793,6 +5793,23 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Mesarthim",
+   "album": "The Great Filter / Type III",
+   "style": "",
+   "pays": "",
+   "langue": "",
+   "annee": "2023",
+   "duree": "40",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/c4b5074c0f3651515a104341935c8536/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Recherche",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
