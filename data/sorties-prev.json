@@ -3951,7 +3951,7 @@
 "dz:50858242",
 "mb:b1bf6e39-a16d-442b-9ec8-bfc2b00498fa"
 ],
-"deezer_id": 328706317,
+"deezer_id": 1115045592,
 "duree": "42"
 },
 {
@@ -5746,11 +5746,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/a8674aa0-d9a6-477e-8591-ede21e13b62c/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "a8674aa0-d9a6-477e-8591-ede21e13b62c",
 "refs": [
+"dz:113493",
 "mb:43dc147b-a289-4e64-b115-6b86f9e47de9"
 ],
+"deezer_id": 97597802,
 "duree": "47"
 },
 {
@@ -17589,11 +17591,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/092ba728-fafb-4657-9782-07de12bd490c/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "092ba728-fafb-4657-9782-07de12bd490c",
 "refs": [
+"dz:113493",
 "mb:43dc147b-a289-4e64-b115-6b86f9e47de9"
 ],
+"deezer_id": 819497741,
 "duree": "45"
 },
 {
