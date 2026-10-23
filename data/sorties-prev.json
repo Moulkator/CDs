@@ -11489,11 +11489,14 @@
 "precision": "exact",
 "type": "ep",
 "pochette": "https://coverartarchive.org/release-group/8afd472e-a022-4c75-873f-2efe5a1141ed/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "8afd472e-a022-4c75-873f-2efe5a1141ed",
 "refs": [
+"dz:125436",
 "mb:c0252a1b-0133-46bb-8c4f-cade46349ec3"
-]
+],
+"deezer_id": 314146127,
+"duree": "11"
 },
 {
 "groupe": "Wind Rose",
