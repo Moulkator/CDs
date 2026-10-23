@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T20:27:59Z",
+ "generated": "2026-10-23T09:35:53Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,20 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Itzamna",
-   "album": "Chascade",
-   "date": "2016-10-14",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/bbc505de-ce5e-42f4-bebd-951cf37e056e/front-500",
-   "source": "musicbrainz",
-   "mb_rg": "bbc505de-ce5e-42f4-bebd-951cf37e056e",
-   "refs": [
-    "mb:563a5906-c531-4b93-a1a5-dc3eb0aa0d5e"
-   ],
-   "duree": "62"
   },
   {
    "groupe": "Destrage",
@@ -19358,7 +19344,7 @@
    "date": "2026-10-23",
    "precision": "exact",
    "type": "album",
-   "pochette": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/dd7a74806b1b46e28db4067dbd9cc217/500x500-000000-80-0-0.jpg",
    "source": "deezer",
    "deezer_id": 1070778722,
    "refs": [

@@ -746,5 +746,22 @@
 "kind": "sorti",
 "jour": "2026-10-16",
 "changes": []
+},
+{
+"groupe": "Ultra Vomit",
+"album": "Hellfest 2026 : La quatrième bataille de clisson (Live)",
+"date": "2026-10-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/dd7a74806b1b46e28db4067dbd9cc217/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1070778722,
+"refs": [
+"dz:14563"
+],
+"duree": "63",
+"kind": "sorti",
+"jour": "2026-10-23",
+"changes": []
 }
 ]
