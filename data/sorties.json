@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:11:30Z",
+ "generated": "2026-10-25T09:29:27Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -21,35 +21,6 @@
    ]
   },
   {
-   "groupe": "Destrage",
-   "album": "A Means to No End",
-   "date": "2016-10-16",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/7ceb798a-5af4-4bb7-b362-abbccad9fa69/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "7ceb798a-5af4-4bb7-b362-abbccad9fa69",
-   "refs": [
-    "dz:471453",
-    "mb:02fb23da-6a41-4d98-bae1-ba9721a1fd12"
-   ],
-   "deezer_id": 13861048,
-   "duree": "56"
-  },
-  {
-   "groupe": "Moongates Guardian",
-   "album": "The Dragon Is Withered",
-   "date": "2016-10-16",
-   "precision": "exact",
-   "type": "ep",
-   "pochette": "",
-   "source": "musicbrainz",
-   "mb_rg": "69e033a4-fca7-41c6-b74d-1ecbdf85a2e3",
-   "refs": [
-    "mb:19148ae2-3570-4104-a2ab-5a4765a6d007"
-   ]
-  },
-  {
    "groupe": "Amaranthe",
    "album": "Maximalism",
    "date": "2016-10-19",
@@ -64,6 +35,20 @@
    ],
    "deezer_id": 387791237,
    "duree": "40"
+  },
+  {
+   "groupe": "Destrage",
+   "album": "A Means to No End",
+   "date": "2016-10-21",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/e2497300b2ae67d118e3d38cecffb538/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 13861048,
+   "refs": [
+    "dz:471453"
+   ],
+   "duree": "56"
   },
   {
    "groupe": "Korn",
