@@ -2770,5 +2770,12 @@
   "disambiguation": null,
   "verified": true,
   "checked": "2026-09-20"
+ },
+ "mesarthim": {
+  "mbid": "910506c5-f932-47ce-a617-d9812614be2f",
+  "name": "Mesarthim",
+  "disambiguation": "Australian atmospheric black metal/trance",
+  "verified": true,
+  "checked": "2026-10-27"
  }
 }

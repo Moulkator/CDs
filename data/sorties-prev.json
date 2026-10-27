@@ -379,6 +379,19 @@
 "duree": "80"
 },
 {
+"groupe": "Mesarthim",
+"album": "The Great Filter",
+"date": "2016-12-11",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/ec129863-29a2-4fb6-93e5-9767785b1173/front-500",
+"source": "musicbrainz",
+"mb_rg": "ec129863-29a2-4fb6-93e5-9767785b1173",
+"refs": [
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+]
+},
+{
 "groupe": "Watain",
 "album": "Sathanas / Luciferi Tour EP",
 "date": "2016-12-13",
@@ -389,6 +402,19 @@
 "mb_rg": "a167f816-ab18-4021-a1e0-6cd975646762",
 "refs": [
 "mb:8c51b06d-b678-4bbf-aeac-7295dfb69d13"
+]
+},
+{
+"groupe": "Mesarthim",
+"album": "TYPE III",
+"date": "2016-12-20",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/9a9b0a63-cad6-4b76-b856-42a953e19bbb/front-500",
+"source": "musicbrainz",
+"mb_rg": "9a9b0a63-cad6-4b76-b856-42a953e19bbb",
+"refs": [
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
 ]
 },
 {
@@ -564,6 +590,20 @@
 "dz:116179"
 ],
 "duree": "32"
+},
+{
+"groupe": "Mesarthim",
+"album": "Absence",
+"date": "2017-01-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/d65536c63654db277e7103c1a5980ecc/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 414060657,
+"refs": [
+"dz:10062472"
+],
+"duree": "38"
 },
 {
 "groupe": "Schattenvald",
@@ -1044,6 +1084,19 @@
 ],
 "deezer_id": 92557812,
 "duree": "71"
+},
+{
+"groupe": "Mesarthim",
+"album": "Presence",
+"date": "2017-04-25",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/b36bfdb0-d386-44ad-bf78-07f83380a57e/front-500",
+"source": "musicbrainz",
+"mb_rg": "b36bfdb0-d386-44ad-bf78-07f83380a57e",
+"refs": [
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+]
 },
 {
 "groupe": "Dimmu Borgir",
@@ -3062,6 +3115,22 @@
 "duree": "32"
 },
 {
+"groupe": "Mesarthim",
+"album": "The Density Parameter",
+"date": "2018-04-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b8b30f7a-718f-45ff-9a22-7bcb9d3d11d8/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b8b30f7a-718f-45ff-9a22-7bcb9d3d11d8",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 414065547,
+"duree": "48"
+},
+{
 "groupe": "Kalmah",
 "album": "Palo",
 "date": "2018-04-04",
@@ -3673,6 +3742,22 @@
 "dz:11392658"
 ],
 "duree": "52"
+},
+{
+"groupe": "Mesarthim",
+"album": "Coma Wall",
+"date": "2018-07-12",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/ecb497a6-6f2d-4b86-b3d2-f1d05dfe734a/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "ecb497a6-6f2d-4b86-b3d2-f1d05dfe734a",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 426617057,
+"duree": "17"
 },
 {
 "groupe": "Edguy",
@@ -5204,6 +5289,22 @@
 "duree": "55"
 },
 {
+"groupe": "Mesarthim",
+"album": "Ghost Condensate",
+"date": "2019-04-17",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/5fca18d4-d21e-4756-ac51-e0f5efe539a2/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5fca18d4-d21e-4756-ac51-e0f5efe539a2",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 414060627,
+"duree": "40"
+},
+{
 "groupe": "Allegaeon",
 "album": "Apoptosis",
 "date": "2019-04-19",
@@ -6078,6 +6179,20 @@
 ],
 "deezer_id": 114100862,
 "duree": "22"
+},
+{
+"groupe": "Mesarthim",
+"album": "Pillars",
+"date": "2019-10-22",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/fffaddd622c8a162679dc294aa1c1770/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 414060647,
+"refs": [
+"dz:10062472"
+],
+"duree": "37"
 },
 {
 "groupe": "Airbourne",
@@ -7756,6 +7871,22 @@
 "duree": "81"
 },
 {
+"groupe": "Mesarthim",
+"album": "The Degenerate Era",
+"date": "2020-08-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a56090df-5e82-4da4-8e07-22a8484ffabd/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a56090df-5e82-4da4-8e07-22a8484ffabd",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 179793342,
+"duree": "44"
+},
+{
 "groupe": "Carcass",
 "album": "Tools of the Trade",
 "date": "2020-08-08",
@@ -7782,6 +7913,19 @@
 "dz:4502"
 ],
 "duree": "13"
+},
+{
+"groupe": "Mesarthim",
+"album": "Planet Nine",
+"date": "2020-08-13",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/969f964a-05fb-43ab-9aef-0e817a9981b7/front-500",
+"source": "musicbrainz",
+"mb_rg": "969f964a-05fb-43ab-9aef-0e817a9981b7",
+"refs": [
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+]
 },
 {
 "groupe": "Finntroll",
@@ -8942,6 +9086,22 @@
 "duree": "65"
 },
 {
+"groupe": "Mesarthim",
+"album": "Vacuum Solution",
+"date": "2021-04-11",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/5a3e804d-f8cc-418f-9bb3-2e50eff169d6/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "5a3e804d-f8cc-418f-9bb3-2e50eff169d6",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 414065567,
+"duree": "28"
+},
+{
 "groupe": "August Burns Red",
 "album": "Guardians Sessions",
 "date": "2021-04-16",
@@ -9501,6 +9661,19 @@
 "dz:1151800"
 ],
 "duree": "57"
+},
+{
+"groupe": "Mesarthim",
+"album": "CLG J02182–05102",
+"date": "2021-07-04",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/bfee92e4-6118-4891-9b95-bc93a4bda23f/front-500",
+"source": "musicbrainz",
+"mb_rg": "bfee92e4-6118-4891-9b95-bc93a4bda23f",
+"refs": [
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+]
 },
 {
 "groupe": "Powerwolf",
@@ -12894,6 +13067,20 @@
 "duree": "18"
 },
 {
+"groupe": "Mesarthim",
+"album": "The Great Filter / Type III",
+"date": "2023-03-10",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/c4b5074c0f3651515a104341935c8536/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 414065557,
+"refs": [
+"dz:10062472"
+],
+"duree": "40"
+},
+{
 "groupe": "Nanowar of Steel",
 "album": "Dislike to False Metal",
 "date": "2023-03-10",
@@ -13158,6 +13345,20 @@
 "duree": "49"
 },
 {
+"groupe": "Mesarthim",
+"album": "Clg J02182-05102",
+"date": "2023-04-21",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/cd1f11b2462d9e5bd851ffa70d82dc0c/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 432188687,
+"refs": [
+"dz:10062472"
+],
+"duree": "29"
+},
+{
 "groupe": "Cradle of Filth",
 "album": "Trouble and Their Double Lives",
 "date": "2023-04-28",
@@ -13278,6 +13479,22 @@
 ],
 "deezer_id": 683711631,
 "duree": "44"
+},
+{
+"groupe": "Mesarthim",
+"album": "Arrival",
+"date": "2023-05-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/3f28f6da-2dd2-4527-98e8-6b95bf4ff8f1/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "3f28f6da-2dd2-4527-98e8-6b95bf4ff8f1",
+"refs": [
+"dz:10062472",
+"mb:910506c5-f932-47ce-a617-d9812614be2f"
+],
+"deezer_id": 428390327,
+"duree": "50"
 },
 {
 "groupe": "Trold",
@@ -13675,6 +13892,20 @@
 ],
 "deezer_id": 453859575,
 "duree": "39"
+},
+{
+"groupe": "Mesarthim",
+"album": "Planet 9",
+"date": "2023-09-27",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/63670931304475003dc2fef4e33c8f23/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 493473811,
+"refs": [
+"dz:10062472"
+],
+"duree": "26"
 },
 {
 "groupe": "Moonlight Sorcery",
@@ -16034,6 +16265,20 @@
 "duree": "36"
 },
 {
+"groupe": "Mesarthim",
+"album": "Anthropic Bias / Departure",
+"date": "2024-12-13",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/8833eda21f8cd3e198fdecb61295beea/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 660884171,
+"refs": [
+"dz:10062472"
+],
+"duree": "37"
+},
+{
 "groupe": "Sacramentum",
 "album": "The Coming Of Chaos (Remix 2024)",
 "date": "2024-12-13",
@@ -17089,6 +17334,20 @@
 "duree": "16"
 },
 {
+"groupe": "Mesarthim",
+"album": "Osteopenia",
+"date": "2025-08-26",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/380d5a5c9f3280548d5a9c9013fa330f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 810477661,
+"refs": [
+"dz:10062472"
+],
+"duree": "12"
+},
+{
 "groupe": "Manegarm",
 "album": "Edsvuren",
 "date": "2025-08-28",
@@ -17119,6 +17378,20 @@
 ],
 "deezer_id": 755521001,
 "duree": "39"
+},
+{
+"groupe": "Mesarthim",
+"album": "Interstellar",
+"date": "2025-09-05",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/380d5a5c9f3280548d5a9c9013fa330f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 816007861,
+"refs": [
+"dz:10062472"
+],
+"duree": "11"
 },
 {
 "groupe": "Slipknot",
@@ -17206,6 +17479,20 @@
 ],
 "deezer_id": 732341231,
 "duree": "44"
+},
+{
+"groupe": "Mesarthim",
+"album": "Isolate X",
+"date": "2025-09-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/380d5a5c9f3280548d5a9c9013fa330f/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 792318671,
+"refs": [
+"dz:10062472"
+],
+"duree": "48"
 },
 {
 "groupe": "Panopticon",
