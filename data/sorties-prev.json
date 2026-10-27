@@ -21,11 +21,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/959b6333-3ea4-40ea-9f49-0382fb9126b6/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "959b6333-3ea4-40ea-9f49-0382fb9126b6",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
+"deezer_id": 387791237,
 "duree": "40"
 },
 {
@@ -4230,11 +4232,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/b36854d9-e3eb-4310-8b97-976a6d86db34/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "b36854d9-e3eb-4310-8b97-976a6d86db34",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
+"deezer_id": 387750447,
 "duree": "41"
 },
 {
@@ -6453,6 +6457,20 @@
 "duree": "46"
 },
 {
+"groupe": "Seth",
+"album": "Les Blessures De L'âme: XX Ans De Blasphème",
+"date": "2019-11-15",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/958c056793e68284ff019e1c41ee098a/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 117566932,
+"refs": [
+"dz:56150"
+],
+"duree": "51"
+},
+{
 "groupe": "Dark Fortress",
 "album": "Stab Wounds (remastered Re-issue 2019)",
 "date": "2019-11-22",
@@ -8121,11 +8139,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/fcde98ad-1e60-47c8-a206-00e915658a3c/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "fcde98ad-1e60-47c8-a206-00e915658a3c",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
+"deezer_id": 154304932,
 "duree": "40"
 },
 {
@@ -8814,6 +8834,20 @@
 "duree": "60"
 },
 {
+"groupe": "Amaranthe",
+"album": "HELIX (2021 Version)",
+"date": "2021-02-12",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f0e2253ffe2f1e94ce311c119ef8b913/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 387750467,
+"refs": [
+"dz:807296"
+],
+"duree": "54"
+},
+{
 "groupe": "Holy Blood",
 "album": "Day of Vengeance (Remastered)",
 "date": "2021-02-19",
@@ -9269,11 +9303,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/93f217f9-c299-4b2f-9e79-e3c39c98ac6d/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "93f217f9-c299-4b2f-9e79-e3c39c98ac6d",
 "refs": [
+"dz:56150",
 "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
 ],
+"deezer_id": 202089622,
 "duree": "44"
 },
 {
@@ -14774,11 +14810,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/8193619a-f2d6-4f24-87f8-e8751f2cf484/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "8193619a-f2d6-4f24-87f8-e8751f2cf484",
 "refs": [
+"dz:807296",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
+"deezer_id": 696279011,
 "duree": "50"
 },
 {
@@ -15519,11 +15557,13 @@
 "precision": "exact",
 "type": "album",
 "pochette": "https://coverartarchive.org/release-group/ab8c4017-c47c-4388-b96d-8f817b9f47a7/front-500",
-"source": "musicbrainz",
+"source": "deezer+musicbrainz",
 "mb_rg": "ab8c4017-c47c-4388-b96d-8f817b9f47a7",
 "refs": [
+"dz:56150",
 "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
 ],
+"deezer_id": 568325051,
 "duree": "50"
 },
 {
@@ -15879,20 +15919,6 @@
 ]
 },
 {
-"groupe": "Amaranthe",
-"album": "Les Larmes de Babette",
-"date": "2024-09-27",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/06bdef6a158a95abb2b7a7cb431e51f0/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 643163861,
-"refs": [
-"dz:285257641"
-],
-"duree": "23"
-},
-{
 "groupe": "Ultra Vomit",
 "album": "Ultra Vomit et le pouvoir de la puissance",
 "date": "2024-09-27",
@@ -16153,13 +16179,11 @@
 "precision": "exact",
 "type": "ep",
 "pochette": "https://coverartarchive.org/release-group/0406866c-376b-42bf-bbc3-c339bc28d499/front-500",
-"source": "deezer+musicbrainz",
+"source": "musicbrainz",
 "mb_rg": "0406866c-376b-42bf-bbc3-c339bc28d499",
 "refs": [
-"dz:285257641",
 "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
 ],
-"deezer_id": 674254401,
 "duree": "10"
 },
 {
@@ -16526,20 +16550,6 @@
 "refs": [
 "mb:12f033cd-5e1e-4508-88fb-f89b65872089"
 ]
-},
-{
-"groupe": "Arafel",
-"album": "Selective Amnesia",
-"date": "2025-02-23",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/9d81bfcb26f8cdf85d45636b2e55aa52/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 743019451,
-"refs": [
-"dz:985514"
-],
-"duree": "22"
 },
 {
 "groupe": "Edge of Sanity",
@@ -19607,20 +19617,6 @@
 "dz:14563"
 ],
 "duree": "63"
-},
-{
-"groupe": "Arafel",
-"album": "From the Past to the Future",
-"date": "2026-10-27",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/ab65e56e0007dcd7ba76cbf35a597b4d/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1122394712,
-"refs": [
-"dz:985514"
-],
-"duree": "60"
 },
 {
 "groupe": "Saor",
