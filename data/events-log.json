@@ -763,5 +763,22 @@
 "kind": "sorti",
 "jour": "2026-10-23",
 "changes": []
+},
+{
+"groupe": "Arafel",
+"album": "From the Past to the Future",
+"date": "2026-10-27",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/ab65e56e0007dcd7ba76cbf35a597b4d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1122394712,
+"refs": [
+"dz:985514"
+],
+"duree": "60",
+"kind": "sorti",
+"jour": "2026-10-27",
+"changes": []
 }
 ]
