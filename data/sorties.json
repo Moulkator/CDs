@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T21:01:24Z",
+ "generated": "2026-10-28T10:55:27Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -22,18 +22,16 @@
   },
   {
    "groupe": "Amaranthe",
-   "album": "Maximalism",
-   "date": "2016-10-19",
+   "album": "MAXIMALISM",
+   "date": "2016-10-21",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/959b6333-3ea4-40ea-9f49-0382fb9126b6/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "959b6333-3ea4-40ea-9f49-0382fb9126b6",
-   "refs": [
-    "dz:807296",
-    "mb:eb380962-99bb-46c0-af40-1c7790a7822a"
-   ],
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/2cff55603d626b7c80b29fbb08f93ad9/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
    "deezer_id": 387791237,
+   "refs": [
+    "dz:807296"
+   ],
    "duree": "40"
   },
   {
@@ -15587,6 +15585,20 @@
    ],
    "deezer_id": 582632202,
    "duree": "23"
+  },
+  {
+   "groupe": "Kronos",
+   "album": "The Hellenic Terror",
+   "date": "2024-07-25",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/9ab04aa262ea9e7246bcd083f3526c19/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 614114882,
+   "refs": [
+    "dz:72820272"
+   ],
+   "duree": "39"
   },
   {
    "groupe": "Powerwolf",
