@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T16:48:46.541Z",
+ "maj": "2026-10-28T17:19:09.597Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5662,6 +5662,39 @@
    "t": 1793205612979,
    "bad": [],
    "topic": true
+  },
+  "@artist|suotana": {
+   "channelId": "UCeMeiFPWOtR2WOdR8xPEWVw",
+   "playlists": [
+    {
+     "id": "PLF5AgLyqya-ADsnrp5L743YWA0Cg8w6xY",
+     "title": ""
+    },
+    {
+     "id": "PLF5AgLyqya-BpA3SFJWfc2U-rPD0ckE8D",
+     "title": ""
+    }
+   ],
+   "t": 1793207944642
+  },
+  "suotana|ounas i": {
+   "id": "amwq1o3iRfs",
+   "video": true,
+   "title": "Suotana - Ounas II (FULL ALBUM)",
+   "t": 1793207947136,
+   "bad": [
+    "PLF5AgLyqya-ADsnrp5L743YWA0Cg8w6xY",
+    "PLF5AgLyqya-BpA3SFJWfc2U-rPD0ckE8D",
+    "PLCFwNUQfNZ35n1VpJ-W-f3zM_QiN15iZo",
+    "PLZNIiX5UQ_PHaTpO7gAbUSNKz79QsJpBZ"
+   ]
+  },
+  "finntroll|nattfodd": {
+   "id": "PLVBPIVPWaZrs53OdNXOH1_4TYwd84_GYY",
+   "title": "",
+   "t": 1793207947666,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
@@ -5739,6 +5772,23 @@
   }
  ],
  "souhaits": [
+  {
+   "groupe": "Dimmu Borgir",
+   "album": "Grand Serpent Rising",
+   "style": "Epic Black Metal",
+   "pays": "Norvège (Oslo)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "69",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/6a9fe192-69e4-411d-bf1d-cc933c4f54f1/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
   {
    "groupe": "Mesarthim",
    "album": "Isolate",
@@ -5891,23 +5941,6 @@
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Dimmu Borgir",
-   "album": "Grand Serpent Rising",
-   "style": "Epic Black Metal",
-   "pays": "Norvège (Oslo)",
-   "langue": "",
-   "annee": "2026",
-   "duree": "69",
-   "note": "",
-   "pochette": "https://coverartarchive.org/release-group/6a9fe192-69e4-411d-bf1d-cc933c4f54f1/front-500",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
   }
  ],
  "a_ecouter": [
@@ -6047,6 +6080,7 @@
   "brymir|what we leave behind",
   "firtan|helios",
   "saor|the awakening mmxxvi",
-  "gloryhammer|starfighters of leuchars"
+  "gloryhammer|starfighters of leuchars",
+  "ultra vomit|hellfest 2026 la quatrieme bataille de clisson live"
  ]
 }
