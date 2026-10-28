@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T16:40:09.125Z",
+ "maj": "2026-10-28T16:40:14.479Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5609,6 +5609,59 @@
    "bad": [
     "PL7uUWSi5A0Vwz-h7B5bjCz8vJ7n2DHasL"
    ]
+  },
+  "@artist|turisas": {
+   "channelId": "UCKtDEzexZu3QJk0IPtR2MLg",
+   "playlists": [
+    {
+     "id": "PLKt5aBY95q9yhqXESkcnzncP2FGGShBo-",
+     "title": ""
+    }
+   ],
+   "t": 1793205609544
+  },
+  "turisas|stand up and fight": {
+   "id": "PL03938B6F13DAA25B",
+   "title": "TURISAS-Stand Up And Fight",
+   "t": 1793205610747,
+   "bad": [
+    "PLKt5aBY95q9yhqXESkcnzncP2FGGShBo-",
+    "PLa7etNYVtOSBmgugEV4V1t8RSw8kq5zdA"
+   ]
+  },
+  "@artist|enfold darkness": {
+   "channelId": "UCvDFrmd0esqqpSkuyRzU9SA",
+   "playlists": [
+    {
+     "id": "PLb1NxjXw1ow2xBj6AK5aFg47dh2G_N2T8",
+     "title": ""
+    }
+   ],
+   "t": 1793205610723
+  },
+  "enfold darkness|adversary omnipotent": {
+   "id": "PLb1NxjXw1ow2xBj6AK5aFg47dh2G_N2T8",
+   "title": "",
+   "t": 1793205610723,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|frosttide": {
+   "channelId": "UC6Xl_PXhQELYKhMZOQ7nMZg",
+   "playlists": [
+    {
+     "id": "PLyyf0W5fPTVdeaEDc7Hbcy54ZKF9XsqQf",
+     "title": ""
+    }
+   ],
+   "t": 1793205612978
+  },
+  "frosttide|awakening": {
+   "id": "PLyyf0W5fPTVdeaEDc7Hbcy54ZKF9XsqQf",
+   "title": "",
+   "t": 1793205612979,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
