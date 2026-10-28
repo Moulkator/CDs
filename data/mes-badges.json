@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T16:44:33.185Z",
+ "maj": "2026-10-28T16:44:46.670Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5885,6 +5885,23 @@
    "duree": "50",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Dimmu Borgir",
+   "album": "Grand Serpent Rising",
+   "style": "Epic Black Metal",
+   "pays": "Norvège (Oslo)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "69",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/6a9fe192-69e4-411d-bf1d-cc933c4f54f1/front-500",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
