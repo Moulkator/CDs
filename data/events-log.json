@@ -780,5 +780,56 @@
 "kind": "sorti",
 "jour": "2026-10-27",
 "changes": []
+},
+{
+"groupe": "Ash of Ashes",
+"album": "All Must Wither",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1081520592,
+"refs": [
+"dz:50858242"
+],
+"duree": "43",
+"kind": "sorti",
+"jour": "2026-10-30",
+"changes": []
+},
+{
+"groupe": "Cradle of Filth",
+"album": "Dusk..... and Her Embrace (30th Anniversary Edition)",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bf247bd7c7ec187c3f0a65532eaa1fac/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1123332692,
+"refs": [
+"dz:121"
+],
+"duree": "62",
+"kind": "sorti",
+"jour": "2026-10-30",
+"changes": []
+},
+{
+"groupe": "Valhalore",
+"album": "Beyond The Stars (Instrumental)",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/6c04ac200d7737584a2e732ff2ab65b9/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1028218192,
+"refs": [
+"dz:9021844"
+],
+"duree": "48",
+"kind": "sorti",
+"jour": "2026-10-30",
+"changes": []
 }
 ]

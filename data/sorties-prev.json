@@ -1,5 +1,5 @@
 {
-"jour": "2026-10-29",
+"jour": "2026-10-30",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -12,33 +12,6 @@
 "mb_rg": "e5d8da75-53f9-4d47-bb49-e6da5efb7ae0",
 "refs": [
 "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
-]
-},
-{
-"groupe": "Destrage",
-"album": "A Means to No End",
-"date": "2016-10-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/e2497300b2ae67d118e3d38cecffb538/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 13861048,
-"refs": [
-"dz:471453"
-],
-"duree": "56"
-},
-{
-"groupe": "Korn",
-"album": "The Serenity of Suffering",
-"date": "2016-10-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/06781e27-b69a-4433-ac84-937d66b42e8a/front-500",
-"source": "musicbrainz",
-"mb_rg": "06781e27-b69a-4433-ac84-937d66b42e8a",
-"refs": [
-"mb:ac865b2e-bba8-4f5a-8756-dd40d5e39f46"
 ]
 },
 {
@@ -8355,6 +8328,19 @@
 "dz:1151800"
 ],
 "duree": "49"
+},
+{
+"groupe": "Frosttide",
+"album": "We Will Be Gone - Single",
+"date": "2020-11-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/50/96/68509644-cbc0-623a-854d-bac86951974a/cover.jpg/600x600bb.jpg",
+"source": "musicbrainz",
+"mb_rg": "17e9a95d-3e1e-4650-bf9c-345be4797b2e",
+"refs": [
+"mb:6df9df25-9ee8-40ea-9ff6-bda2f6c7aba1"
+]
 },
 {
 "groupe": "Inquisition",
@@ -19579,6 +19565,48 @@
 "dz:14563"
 ],
 "duree": "63"
+},
+{
+"groupe": "Ash of Ashes",
+"album": "All Must Wither",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1081520592,
+"refs": [
+"dz:50858242"
+],
+"duree": "43"
+},
+{
+"groupe": "Cradle of Filth",
+"album": "Dusk..... and Her Embrace (30th Anniversary Edition)",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bf247bd7c7ec187c3f0a65532eaa1fac/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1123332692,
+"refs": [
+"dz:121"
+],
+"duree": "62"
+},
+{
+"groupe": "Valhalore",
+"album": "Beyond The Stars (Instrumental)",
+"date": "2026-10-30",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/6c04ac200d7737584a2e732ff2ab65b9/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1028218192,
+"refs": [
+"dz:9021844"
+],
+"duree": "48"
 },
 {
 "groupe": "Saor",
