@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T17:19:39.857Z",
+ "maj": "2026-11-01T16:36:05.315Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5695,6 +5695,98 @@
    "t": 1793207947666,
    "bad": [],
    "topic": true
+  },
+  "@artist|sum 41": {
+   "channelId": "UCcMcUoDPCQhtONMyuKJs-dg",
+   "playlists": [
+    {
+     "id": "PLjK2W6TkofG_GNch-3gHbFde1FI1SqsvO",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-BGu5xZS1h_JS31CYxSTLi",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-m85SNHDcgZq33evPvzsTp",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-O3fxFQEMq20XbNfuGCQtG",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8D0ASEm0212BuFqHMlmvCx",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-s4fDC-wZyYUxCgaL8-ZQh",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-Q3yjd6neAG_-_vJcyv36G",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8RLjkEEhdEb_WoNBOZWot2",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9nhxYcG8IwfewzBRiaIQud",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_88tWymQlXGpdAYO6_hF8O",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG86KlwMkIxQzcrhIU6WDCAE",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8zlQ9KNurTZqV7vGAn_ayx",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_he16-e5vreUDp7tOwgTfg",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8__wyyUSmJhIlbsq2G55xm",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-gvcvzAbtYVOB3iKzH9P0C",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG-VtzB6wzkffypTrOu8p_OU",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9ham2wOZNKcIgjGFeosMiQ",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG_xjQcMFuh8yn8GSSPvi5Tg",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG8nBSypDX6CpaFMsQyOYvch",
+     "title": ""
+    },
+    {
+     "id": "PLjK2W6TkofG9t5HUjYSjhYUuhKby-X0X6",
+     "title": ""
+    }
+   ],
+   "t": 1793550963556
+  },
+  "sum 41|chuck": {
+   "id": "PLULsbo4lTILVMNwoYN-3XGx2xMt9WttSU",
+   "title": "Sum 41 - Chuck (Full Album).",
+   "t": 1793550963814,
+   "bad": []
   }
  },
  "youtube_skip": [
