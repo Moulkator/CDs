@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-01T16:36:08.832Z",
+ "maj": "2026-11-01T16:36:29.870Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -41,7 +41,8 @@
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "manegarm|edsvuren  album": "À écouter",
   "gloryhammer|space 1993 wrath of kor virliath": "À écouter",
-  "insomnium|netherworlds": "Téléchargé"
+  "insomnium|netherworlds": "Téléchargé",
+  "ash of ashes|all must wither": "À écouter"
  },
  "statuts_decouvrir": {
   "metalocalypse dethklok": "Téléchargé",
@@ -6038,6 +6039,23 @@
    "duree": "54",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Ash of Ashes",
+   "album": "All Must Wither",
+   "style": "Epic Atmospheric Black Metal",
+   "pays": "Allemagne",
+   "langue": "",
+   "annee": "2026",
+   "duree": "43",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
