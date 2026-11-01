@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-01T16:36:05.315Z",
+ "maj": "2026-11-01T16:36:08.832Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5787,6 +5787,23 @@
    "title": "Sum 41 - Chuck (Full Album).",
    "t": 1793550963814,
    "bad": []
+  },
+  "@artist|falkenbach": {
+   "channelId": "UCBZKTK1nbavD2z5yfKO5QAw",
+   "playlists": [
+    {
+     "id": "PLLkYJWK5UoZGqquAGDI4AxXr9ZtkmwM5u",
+     "title": ""
+    }
+   ],
+   "t": 1793550967235
+  },
+  "falkenbach|tiurida": {
+   "id": "PLLkYJWK5UoZGqquAGDI4AxXr9ZtkmwM5u",
+   "title": "",
+   "t": 1793550967235,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
