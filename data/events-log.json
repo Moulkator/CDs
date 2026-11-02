@@ -848,5 +848,23 @@
 "kind": "sorti",
 "jour": "2026-10-31",
 "changes": []
+},
+{
+"groupe": "Tyr",
+"album": "Týr",
+"date": "2026-11-24",
+"precision": "exact",
+"type": "album",
+"pochette": "data/pochettes/tyr-tyr.jpg",
+"source": "manuel+musicbrainz",
+"mb_rg": "d645c374-7b84-4a56-b0e7-b18b7e92583e",
+"refs": [
+"mb:50fc4742-1389-45a0-8c6f-6a5159ae20c2"
+],
+"kind": "maj",
+"jour": "2026-11-02",
+"changes": [
+"📅 Date : 17 nov. 2026 → **24 nov. 2026**"
+]
 }
 ]
