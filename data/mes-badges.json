@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-01T16:36:36.974Z",
+ "maj": "2026-11-04T13:10:08.623Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1455,7 +1455,7 @@
      "title": ""
     }
    ],
-   "t": 1790167994136
+   "t": 1793797806864
   },
   "windir|arntor": {
    "id": "PLrnPdwigCeBJZifk-tpGGfC2BEIDuTpId",
@@ -5806,6 +5806,12 @@
    "t": 1793550967235,
    "bad": [],
    "topic": true
+  },
+  "windir|1184": {
+   "id": "PLlTSqF66IqjVG0e0No7TFB2LbEvz4h9Ba",
+   "title": "Windir-1184-Full Album-HQ-320k.",
+   "t": 1793797807122,
+   "bad": []
   }
  },
  "youtube_skip": [
@@ -5894,6 +5900,23 @@
   }
  ],
  "souhaits": [
+  {
+   "groupe": "Ash of Ashes",
+   "album": "All Must Wither",
+   "style": "Epic Atmospheric Black Metal",
+   "pays": "Allemagne",
+   "langue": "",
+   "annee": "2026",
+   "duree": "43",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
   {
    "groupe": "Dimmu Borgir",
    "album": "Grand Serpent Rising",
@@ -6040,23 +6063,6 @@
    "duree": "54",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Ash of Ashes",
-   "album": "All Must Wither",
-   "style": "Epic Atmospheric Black Metal",
-   "pays": "Allemagne",
-   "langue": "",
-   "annee": "2026",
-   "duree": "43",
-   "note": "",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
