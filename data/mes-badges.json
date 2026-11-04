@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T13:10:08.623Z",
+ "maj": "2026-11-04T13:10:11.993Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5812,6 +5812,23 @@
    "title": "Windir-1184-Full Album-HQ-320k.",
    "t": 1793797807122,
    "bad": []
+  },
+  "@artist|stortregn": {
+   "channelId": "UC00UIZfcCDVGnB2f5_3izxg",
+   "playlists": [
+    {
+     "id": "PLzecJC9oDrXslICmmlyqRKeerCjNwlIYb",
+     "title": ""
+    }
+   ],
+   "t": 1793797810491
+  },
+  "stortregn|impermanence": {
+   "id": "PLzecJC9oDrXslICmmlyqRKeerCjNwlIYb",
+   "title": "",
+   "t": 1793797810492,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
