@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T17:04:00.754Z",
+ "maj": "2026-11-06T17:04:03.765Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5863,6 +5863,13 @@
    "title": "Aether Realm &quot;Tarot&quot; Full Album",
    "t": 1793984639252,
    "bad": []
+  },
+  "inferi|revenant": {
+   "id": "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5",
+   "title": "",
+   "t": 1793984642264,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
