@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T17:04:13.044Z",
+ "maj": "2026-11-06T17:05:12.931Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5922,11 +5922,10 @@
    "t": 1793984651540
   },
   "waylander|mac tire son of the land": {
-   "id": "PLl96JnbvQYrWIwX6qGMX1FQjcGj6tgChm",
-   "title": "",
-   "t": 1793984651542,
-   "bad": [],
-   "topic": true
+   "id": "OLAK5uy_k-mTNVl4wxYxGsp17G74S9rA8NZw4XoJA",
+   "title": "(lien saisi à la main)",
+   "t": 1793984711429,
+   "bad": []
   }
  },
  "youtube_skip": [
