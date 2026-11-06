@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T13:10:11.993Z",
+ "maj": "2026-11-06T17:04:00.754Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5829,6 +5829,40 @@
    "t": 1793797810492,
    "bad": [],
    "topic": true
+  },
+  "@artist|the walking dead orchestra": {
+   "channelId": "UCEET2VVJKnWVLcc_l6PZMyA",
+   "playlists": [
+    {
+     "id": "PLNIeLTCyGevgebPg8euexMLmxEpz0U5sb",
+     "title": ""
+    }
+   ],
+   "t": 1793867568267
+  },
+  "the walking dead orchestra|architects of destruction": {
+   "id": "PLu_LM8Dypkkgb3JAMgwBakFHV7pPwbrE1",
+   "title": "The Walking Dead Orchestra - Architects of Destruction (Full Album)",
+   "t": 1793867568969,
+   "bad": [
+    "PLNIeLTCyGevgebPg8euexMLmxEpz0U5sb"
+   ]
+  },
+  "@artist|aether realm": {
+   "channelId": "UCpZiAFXaE0d0OM5CKa_388Q",
+   "playlists": [
+    {
+     "id": "PLCSoufpAzQofp3ZZ0TqYYMaD9UzmcXXtN",
+     "title": ""
+    }
+   ],
+   "t": 1793984638969
+  },
+  "aether realm|tarot": {
+   "id": "PL6hUf6zMjqkBpm2ICooF7avKyyKyjbR9h",
+   "title": "Aether Realm &quot;Tarot&quot; Full Album",
+   "t": 1793984639252,
+   "bad": []
   }
  },
  "youtube_skip": [
