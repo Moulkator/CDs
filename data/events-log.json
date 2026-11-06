@@ -866,5 +866,62 @@
 "changes": [
 "📅 Date : 17 nov. 2026 → **24 nov. 2026**"
 ]
+},
+{
+"groupe": "Saor",
+"album": "Caledonia",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://www.metal-archives.com/images/1/4/7/1/1471022.jpg?0410",
+"source": "deezer+manuel+musicbrainz",
+"mb_rg": "fecb83b5-97ee-4181-b015-c827da915eb0",
+"refs": [
+"dz:6768301",
+"mb:cf55e880-3750-4e4f-a772-0482801a7d3a"
+],
+"deezer_id": 1045181282,
+"duree": "51",
+"kind": "sorti",
+"jour": "2026-11-06",
+"changes": []
+},
+{
+"groupe": "TrollfesT",
+"album": "Trollywood",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/b44280cc448e72a4cef6baec2f59e93a/500x500-000000-80-0-0.jpg",
+"source": "deezer+musicbrainz",
+"mb_rg": "462dc737-edf7-4f9b-8b9b-6f858c778baa",
+"refs": [
+"dz:838847",
+"mb:0916ab75-145f-4045-885d-71722075c349"
+],
+"deezer_id": 1024164391,
+"duree": "42",
+"kind": "sorti",
+"jour": "2026-11-06",
+"changes": []
+},
+{
+"groupe": "Waylander",
+"album": "Mac Tíre - Son of the Land",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/f0826f454ac9f5b7b2eedcb18a9dc6e9/500x500-000000-80-0-0.jpg",
+"source": "deezer+musicbrainz",
+"mb_rg": "fd80183c-434d-478c-a605-7fa0e113ce6c",
+"refs": [
+"dz:8560",
+"mb:d78c1b05-70f3-4483-81c6-b8ef78310219"
+],
+"deezer_id": 1100787202,
+"duree": "53",
+"kind": "sorti",
+"jour": "2026-11-06",
+"changes": []
 }
 ]

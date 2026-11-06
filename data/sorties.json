@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:18:46Z",
+ "generated": "2026-11-06T12:24:03Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,36 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Anaal Nathrakh",
-   "album": "The Whole of the Law",
-   "date": "2016-10-28",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/a064521f-0d94-42ff-b13c-3174980ab2f2/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "a064521f-0d94-42ff-b13c-3174980ab2f2",
-   "refs": [
-    "dz:3270",
-    "mb:9bf82496-9d7b-43ac-b3ee-076c90ada9d7"
-   ],
-   "deezer_id": 13820054,
-   "duree": "53"
-  },
-  {
-   "groupe": "NOFX",
-   "album": "First Ditch Effort (Commentary Version)",
-   "date": "2016-10-28",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/f0096b209b63f92b8dba38dd1d88be47/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 796844741,
-   "refs": [
-    "dz:941"
-   ],
-   "duree": "11"
   },
   {
    "groupe": "Unreqvited",
@@ -19637,7 +19607,7 @@
    "album": "Muscle Mummy",
    "date": "2026-10-31",
    "precision": "exact",
-   "type": "album",
+   "type": "ep",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/d7198c64fb986ac7e6613b0f6d86dcf2/500x500-000000-80-0-0.jpg",
    "source": "deezer",
    "deezer_id": 1102181702,
@@ -19653,11 +19623,14 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://www.metal-archives.com/images/1/4/7/1/1471022.jpg?0410",
-   "source": "manuel+musicbrainz",
+   "source": "deezer+manuel+musicbrainz",
    "mb_rg": "fecb83b5-97ee-4181-b015-c827da915eb0",
    "refs": [
+    "dz:6768301",
     "mb:cf55e880-3750-4e4f-a772-0482801a7d3a"
-   ]
+   ],
+   "deezer_id": 1045181282,
+   "duree": "51"
   },
   {
    "groupe": "TrollfesT",
@@ -19665,7 +19638,7 @@
    "date": "2026-11-06",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/cb/6f/f4cb6f8f-06c5-a282-03c6-306ee858c8b3/1200214344399.jpg/600x600bb.jpg",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/b44280cc448e72a4cef6baec2f59e93a/500x500-000000-80-0-0.jpg",
    "source": "deezer+musicbrainz",
    "mb_rg": "462dc737-edf7-4f9b-8b9b-6f858c778baa",
    "refs": [
@@ -19674,6 +19647,22 @@
    ],
    "deezer_id": 1024164391,
    "duree": "42"
+  },
+  {
+   "groupe": "Waylander",
+   "album": "Mac Tíre - Son of the Land",
+   "date": "2026-11-06",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/f0826f454ac9f5b7b2eedcb18a9dc6e9/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
+   "mb_rg": "fd80183c-434d-478c-a605-7fa0e113ce6c",
+   "refs": [
+    "dz:8560",
+    "mb:d78c1b05-70f3-4483-81c6-b8ef78310219"
+   ],
+   "deezer_id": 1100787202,
+   "duree": "53"
   },
   {
    "groupe": "Trivium",
