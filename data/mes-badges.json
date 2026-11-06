@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T17:04:03.765Z",
+ "maj": "2026-11-06T17:04:13.044Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5868,6 +5868,63 @@
    "id": "PLXPihEqYf7h5NPeLmSlPV7Q7l-kxRsBL5",
    "title": "",
    "t": 1793984642264,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|waylander": {
+   "channelId": "UCSv1LHW6feIiDeLZLgbeopQ",
+   "playlists": [
+    {
+     "id": "PLl96JnbvQYrWIwX6qGMX1FQjcGj6tgChm",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrVU_KPILTpSjahHLOYIAOJE",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrWoPKly-08aZRBHkt5Ll6z4",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrU0fhEsbu1b-yyk972Brrjr",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrXwv3pgtxmU271m1QQCmwOe",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrUvfKhNyWu8ZpGUdh1Zpnt1",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrViw8lJ_OfFqs_kYcbDH57e",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrXOJM8EdC5G6QFyhdNOdV7G",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrWUxtZnWG38iUXo8bT5zsCl",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrUCDz8XcsXyVqh34mcFCPA5",
+     "title": ""
+    },
+    {
+     "id": "PLl96JnbvQYrUw0Vv-SUhdDy9DEc9TE63g",
+     "title": ""
+    }
+   ],
+   "t": 1793984651540
+  },
+  "waylander|mac tire son of the land": {
+   "id": "PLl96JnbvQYrWIwX6qGMX1FQjcGj6tgChm",
+   "title": "",
+   "t": 1793984651542,
    "bad": [],
    "topic": true
   }
