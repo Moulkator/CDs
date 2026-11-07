@@ -923,5 +923,22 @@
 "kind": "sorti",
 "jour": "2026-11-06",
 "changes": []
+},
+{
+"groupe": "The Forsaken",
+"album": "Rendezvous with Death",
+"date": "2026-11-06",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/3f140a607d49d6ba1a8340e14b98eba0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1140704281,
+"refs": [
+"dz:161144"
+],
+"duree": "26",
+"kind": "sorti",
+"jour": "2026-11-07",
+"changes": []
 }
 ]

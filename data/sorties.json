@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:49:12Z",
+ "generated": "2026-11-07T11:20:29Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,22 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Unreqvited",
-   "album": "Disquiet",
-   "date": "2016-10-29",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/1f299336-b4a9-44df-83e6-ada36e156af3/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "1f299336-b4a9-44df-83e6-ada36e156af3",
-   "refs": [
-    "dz:12596495",
-    "mb:1efff932-5b23-4c92-9d0b-0105886bb0fb"
-   ],
-   "deezer_id": 368755627,
-   "duree": "42"
   },
   {
    "groupe": "Earth And Pillars",
@@ -19566,12 +19550,14 @@
    "date": "2026-10-30",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/95ac1379d874b2aa0350ff7769000617/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 1081520592,
+   "pochette": "https://coverartarchive.org/release-group/8448d7ae-2980-4563-a688-2da308c8b00b/front-500",
+   "source": "deezer+musicbrainz",
+   "mb_rg": "8448d7ae-2980-4563-a688-2da308c8b00b",
    "refs": [
-    "dz:50858242"
+    "dz:50858242",
+    "mb:b1bf6e39-a16d-442b-9ec8-bfc2b00498fa"
    ],
+   "deezer_id": 1081520592,
    "duree": "43"
   },
   {
@@ -19631,6 +19617,20 @@
    ],
    "deezer_id": 1045181282,
    "duree": "51"
+  },
+  {
+   "groupe": "The Forsaken",
+   "album": "Rendezvous with Death",
+   "date": "2026-11-06",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/3f140a607d49d6ba1a8340e14b98eba0/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 1140704281,
+   "refs": [
+    "dz:161144"
+   ],
+   "duree": "26"
   },
   {
    "groupe": "TrollfesT",
