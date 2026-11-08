@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-08T16:25:14.306Z",
+ "maj": "2026-11-08T16:25:44.552Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5965,18 +5965,7 @@
  "youtube_skip": [
   "J0vUqvfHQeQ"
  ],
- "commandes": [
-  {
-   "groupe": "Gloryhammer",
-   "album": "Space 1993: Wrath of Kor-Virliath",
-   "date": "2026-10-28",
-   "style": "Power Metal/Comedy",
-   "pays": "Écosse (Perth)",
-   "annee": "2026",
-   "duree": "50",
-   "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500"
-  }
- ],
+ "commandes": [],
  "achetes": [
   {
    "groupe": "Aephanemer",
@@ -6041,6 +6030,23 @@
    "pochette": "https://cdn-images.dzcdn.net/images/cover/c4b5074c0f3651515a104341935c8536/500x500-000000-80-0-0.jpg",
    "preview": "",
    "historique": "Commandé le 20 oct. 2026, reçu le 28 oct. 2026",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le badge Acheté ; à compléter"
+  },
+  {
+   "groupe": "Gloryhammer",
+   "album": "Space 1993: Wrath of Kor-Virliath",
+   "style": "Power Metal/Comedy",
+   "pays": "Écosse (Perth)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "50",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
+   "preview": "",
+   "historique": "Commandé le 28 oct. 2026, reçu le 8 nov. 2026",
    "auto_source": "ajouté depuis Sorties à surveiller",
    "auto_fields": "",
    "pending_review": "1",
