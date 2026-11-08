@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T17:05:12.931Z",
+ "maj": "2026-11-08T16:25:14.306Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1590,7 +1590,7 @@
      "title": ""
     }
    ],
-   "t": 1790170811799
+   "t": 1794155106144
   },
   "august burns red|thrill seeker live": {
    "id": "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
@@ -3143,11 +3143,11 @@
   "@artist|oppression": {
    "channelId": "UChErjP55VFpUiWi6qdj_gGA",
    "playlists": [],
-   "t": 1790458606974
+   "t": 1794155105032
   },
   "oppression|no safe place pre release": {
    "none": 1,
-   "t": 1790458607495,
+   "t": 1794155105673,
    "bad": []
   },
   "@artist|pure wrath": {
@@ -4406,7 +4406,7 @@
      "title": ""
     }
    ],
-   "t": 1790687671999
+   "t": 1794155109814
   },
   "rhapsody of fire|the frozen tears of angels": {
    "id": "PLPAlomUdIZA0GyahQFwmIYEDCBF9n7BNa",
@@ -5926,6 +5926,40 @@
    "title": "(lien saisi à la main)",
    "t": 1793984711429,
    "bad": []
+  },
+  "august burns red|winter wilderness ep": {
+   "id": "PLPmOO9NOZU0zRw0UpqWJAZlMuTeAWAk7k",
+   "title": "August Burns Red - Winter Wilderness EP (2018)",
+   "t": 1794155112806,
+   "bad": [
+    "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
+    "PLkwNoYG6IRjtgHKYnsfRPCnXA5jRC-KqI",
+    "PLkwNoYG6IRjseTpPz1bAf30ffMdiRgUBA",
+    "PLkwNoYG6IRjv-aKBxE2y8_0Lxmt55zLKu",
+    "PLkwNoYG6IRjs-wB-IDEqzc8HrLJfmIWZN",
+    "PLkwNoYG6IRjtAbSOfLV-Otbf0MSqOj2lb",
+    "PLkwNoYG6IRjsmQRg3c0gOC2OHlWCq01-1",
+    "PLkwNoYG6IRjuhIIJzhdr9_efd98PUo2jV",
+    "PLkwNoYG6IRjt16cOw0lW8i7zm5RedGu5_",
+    "PLkwNoYG6IRjvA-XonoQCepJsYJQohouFq",
+    "PLkwNoYG6IRjtWgBjILEuNPvi6qmxsqzFW",
+    "PLkwNoYG6IRjvXdRk2hs8xEiMuqsefW0Zg",
+    "PLkwNoYG6IRjsSJNkNBhzuG-2qJxl4-Vdr",
+    "PLkwNoYG6IRjujb2WN1_IK_kas_31fLoOI",
+    "PLkwNoYG6IRjtwtuUl0jJWsDsK9o6E6Sd2",
+    "PLkwNoYG6IRjugTSI8tYaOTawpszg-qsCZ",
+    "PLkwNoYG6IRjsEI3tcmQaAuHlwL369CM6y",
+    "PLkwNoYG6IRjsyMgfsftu_Ps-k3DRa2WMh",
+    "PLkwNoYG6IRjvgOktd21wXx6oP_L9CsU2e",
+    "PLkwNoYG6IRjvkFFqnDJB4zmlly2-mdYdB"
+   ]
+  },
+  "rhapsody of fire|i ll be your hero": {
+   "id": "PLPAlomUdIZA2zaAV6nRvfa6i66dXZ_kj9",
+   "title": "",
+   "t": 1794155109815,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
