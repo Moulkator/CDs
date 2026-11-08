@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T20:32:14Z",
+ "generated": "2026-11-08T11:32:42Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,22 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Earth And Pillars",
-   "album": "Pillars I",
-   "date": "2016-10-30",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/4add1734-b3c9-412a-b144-930495f3b078/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "4add1734-b3c9-412a-b144-930495f3b078",
-   "refs": [
-    "dz:7601212",
-    "mb:5c082867-4721-4a00-8922-621959620a7f"
-   ],
-   "deezer_id": 15096109,
-   "duree": "68"
   },
   {
    "groupe": "Iron Seawolf",
@@ -509,6 +493,20 @@
     "dz:116179"
    ],
    "duree": "32"
+  },
+  {
+   "groupe": "Earth And Pillars",
+   "album": "Pillars I",
+   "date": "2017-01-20",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/68829d812248b52ba7039eaa79e16a9a/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 15096109,
+   "refs": [
+    "dz:7601212"
+   ],
+   "duree": "68"
   },
   {
    "groupe": "Mesarthim",
