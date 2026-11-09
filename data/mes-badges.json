@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T07:09:02.020Z",
+ "maj": "2026-11-09T07:09:46.118Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5981,11 +5981,11 @@
    "t": 1794205150888
   },
   "austrian death machine|judgment day": {
-   "id": "PLIRd2M_HMODhU2lO6AKqPg92uY6GXZaWO",
-   "title": "",
-   "t": 1794205150889,
-   "bad": [],
-   "topic": true
+   "none": 1,
+   "t": 1794208183753,
+   "bad": [
+    "PLIRd2M_HMODhU2lO6AKqPg92uY6GXZaWO"
+   ]
   },
   "necrophobic|darkside": {
    "id": "PLkDuJbMHK5q1eEdyQbH_ltSiDW_0YR6-8",
