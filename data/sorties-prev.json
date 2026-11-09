@@ -8307,6 +8307,20 @@
 ]
 },
 {
+"groupe": "Frosttide",
+"album": "We Will Be Gone",
+"date": "2020-11-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/e2f5fe203e791e656fa048bdcb75a922/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 319307767,
+"refs": [
+"dz:4977392"
+],
+"duree": "5"
+},
+{
 "groupe": "Inquisition",
 "album": "Black Mass for a Mass Grave",
 "date": "2020-11-20",
@@ -19613,7 +19627,7 @@
 "album": "Rendezvous with Death",
 "date": "2026-11-06",
 "precision": "exact",
-"type": "album",
+"type": "ep",
 "pochette": "https://cdn-images.dzcdn.net/images/cover/3f140a607d49d6ba1a8340e14b98eba0/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 1140704281,
