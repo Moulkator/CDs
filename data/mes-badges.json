@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-08T16:25:44.552Z",
+ "maj": "2026-11-09T06:19:10.007Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2082,7 +2082,7 @@
      "title": ""
     }
    ],
-   "t": 1790181722709
+   "t": 1794205147499
   },
   "mare cognitum|the sea which has become known": {
    "id": "PLRzz1kMXfRmrn-vvHy1ZSVECmI4ikOMS0",
@@ -5960,6 +5960,15 @@
    "t": 1794155109815,
    "bad": [],
    "topic": true
+  },
+  "mare cognitum|phobos monolith": {
+   "id": "VDYgoUwgth0",
+   "video": true,
+   "title": "Mare Cognitum - Phobos Monolith (Full Album)",
+   "t": 1794205148506,
+   "bad": [
+    "PLRzz1kMXfRmrn-vvHy1ZSVECmI4ikOMS0"
+   ]
   }
  },
  "youtube_skip": [
@@ -5967,6 +5976,23 @@
  ],
  "commandes": [],
  "achetes": [
+  {
+   "groupe": "Gloryhammer",
+   "album": "Space 1993: Wrath of Kor-Virliath",
+   "style": "Power Metal/Comedy",
+   "pays": "Écosse (Perth)",
+   "langue": "",
+   "annee": "2026",
+   "duree": "50",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
+   "preview": "",
+   "historique": "Commandé le 28 oct. 2026, reçu le 8 nov. 2026",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le badge Acheté ; à compléter"
+  },
   {
    "groupe": "Aephanemer",
    "album": "Utopie",
@@ -6030,23 +6056,6 @@
    "pochette": "https://cdn-images.dzcdn.net/images/cover/c4b5074c0f3651515a104341935c8536/500x500-000000-80-0-0.jpg",
    "preview": "",
    "historique": "Commandé le 20 oct. 2026, reçu le 28 oct. 2026",
-   "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le badge Acheté ; à compléter"
-  },
-  {
-   "groupe": "Gloryhammer",
-   "album": "Space 1993: Wrath of Kor-Virliath",
-   "style": "Power Metal/Comedy",
-   "pays": "Écosse (Perth)",
-   "langue": "",
-   "annee": "2026",
-   "duree": "50",
-   "note": "",
-   "pochette": "https://coverartarchive.org/release-group/a5900014-6f60-4c2b-8f71-100b96b0fcc9/front-500",
-   "preview": "",
-   "historique": "Commandé le 28 oct. 2026, reçu le 8 nov. 2026",
    "auto_source": "ajouté depuis Sorties à surveiller",
    "auto_fields": "",
    "pending_review": "1",
