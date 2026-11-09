@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T06:19:10.007Z",
+ "maj": "2026-11-09T06:19:12.391Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5969,6 +5969,23 @@
    "bad": [
     "PLRzz1kMXfRmrn-vvHy1ZSVECmI4ikOMS0"
    ]
+  },
+  "@artist|austrian death machine": {
+   "channelId": "UCZJ4tCZw8miZwsJ9mWKC0cg",
+   "playlists": [
+    {
+     "id": "PLIRd2M_HMODhU2lO6AKqPg92uY6GXZaWO",
+     "title": ""
+    }
+   ],
+   "t": 1794205150888
+  },
+  "austrian death machine|judgment day": {
+   "id": "PLIRd2M_HMODhU2lO6AKqPg92uY6GXZaWO",
+   "title": "",
+   "t": 1794205150889,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
