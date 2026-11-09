@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T07:09:46.118Z",
+ "maj": "2026-11-09T07:10:08.315Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3817,7 +3817,7 @@
      "title": ""
     }
    ],
-   "t": 1790687654994
+   "t": 1794208188987
   },
   "kreator|live in chile": {
    "id": "PLJ4H6MGL0drTtwEHdjvnqiOUumUc2W1Nf",
@@ -5988,9 +5988,33 @@
    ]
   },
   "necrophobic|darkside": {
-   "id": "PLkDuJbMHK5q1eEdyQbH_ltSiDW_0YR6-8",
+   "id": "PLlTSqF66IqjUQHKwJhSUsUOKCdrIN0pVr",
+   "title": "Necrophobic-Darkside-Full Album-HQ-320K.",
+   "t": 1794208205954,
+   "bad": [
+    "PLkDuJbMHK5q1eEdyQbH_ltSiDW_0YR6-8",
+    "PLkDuJbMHK5q3_oqkmLJ6Ty_wAW9UK8xLq",
+    "PLkDuJbMHK5q0sKcyYCZIYzaaVSCe8FHRo",
+    "PLkDuJbMHK5q2NKXsKNf_5TW7J-LeV9soI",
+    "PLkDuJbMHK5q2TQLOEVYH0MCz0YwBxQJv4",
+    "PLkDuJbMHK5q0wXyGzgUD1NkVnSFbUT4p1",
+    "PLkDuJbMHK5q3yp8Wi3lAEYPedhMrfZkIA",
+    "PLkDuJbMHK5q1yqy_Ev8jRwmj0Y0QKTo3Y",
+    "PLkDuJbMHK5q0MyR455yk5_6EDi6yY6LhD",
+    "PLkDuJbMHK5q1gMRS7NcFYEZMjkSygU6FQ",
+    "PLkDuJbMHK5q0N1okAHNCsP4quCEfjAsW-",
+    "PLkDuJbMHK5q2vk07CzZbd353sGEWI6N6U",
+    "PLkDuJbMHK5q17lUS0FGSETtx4L8ArA3vx",
+    "PLkDuJbMHK5q1NzWFWBov-UCqNtHpEs3sX",
+    "PLkDuJbMHK5q2DyMdS4UxrqeEHnpz7fQ2Q",
+    "PLkDuJbMHK5q3Cfz4kgZWTxZxQNdoD4Prb",
+    "PLkDuJbMHK5q0831HmYrigQncfYq8cPTJH"
+   ]
+  },
+  "kreator|terrible certainty expanded": {
+   "id": "PL0-c8kPcqQ1CSaYCngBTb68GucVqM3034",
    "title": "",
-   "t": 1794208140460,
+   "t": 1794208188988,
    "bad": [],
    "topic": true
   }
