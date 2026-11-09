@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:47:55Z",
+ "generated": "2026-11-09T07:35:33Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19,22 +19,6 @@
    "refs": [
     "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
    ]
-  },
-  {
-   "groupe": "Iron Seawolf",
-   "album": "Hoist the Black Flag",
-   "date": "2016-10-31",
-   "precision": "exact",
-   "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/a57a88af-39d4-40b1-93af-c03a3e0d5721/front-500",
-   "source": "deezer+musicbrainz",
-   "mb_rg": "a57a88af-39d4-40b1-93af-c03a3e0d5721",
-   "refs": [
-    "dz:11404834",
-    "mb:67cfe6ea-b42d-44fa-bad0-02938e4f3146"
-   ],
-   "deezer_id": 150793632,
-   "duree": "64"
   },
   {
    "groupe": "Gojira",
@@ -7508,6 +7492,20 @@
    ],
    "deezer_id": 199490732,
    "duree": "17"
+  },
+  {
+   "groupe": "Iron Seawolf",
+   "album": "Hoist the Black Flag",
+   "date": "2020-05-23",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/f511cbac6907d00cda0c19c268bcb1fa/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 150793632,
+   "refs": [
+    "dz:11404834"
+   ],
+   "duree": "64"
   },
   {
    "groupe": "Boisson Divine",
