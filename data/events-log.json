@@ -957,5 +957,26 @@
 "kind": "annonce",
 "jour": "2026-11-10",
 "changes": []
+},
+{
+"groupe": "Fear Factory",
+"album": "Roboticist",
+"date": "2027-04-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a9ceb713-778c-4f12-986e-a9245e7cf713/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a9ceb713-778c-4f12-986e-a9245e7cf713",
+"refs": [
+"dz:2985",
+"mb:c17f08f4-2542-46fb-97f3-3202d60c225a"
+],
+"deezer_id": 1136705541,
+"duree": "49",
+"kind": "maj",
+"jour": "2026-11-10",
+"changes": [
+"📅 Date : 5 mars 2027 → **9 avr. 2027**"
+]
 }
 ]

@@ -14987,6 +14987,20 @@
 "duree": "38"
 },
 {
+"groupe": "Lorelei",
+"album": "Lore of Lies",
+"date": "2024-04-03",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/bd19327d01220aa9e34580d9d1fa2fcd/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 8855337,
+"refs": [
+"dz:96268462"
+],
+"duree": "41"
+},
+{
 "groupe": "Korpiklaani",
 "album": "Rankarumpu",
 "date": "2024-04-05",
@@ -17941,20 +17955,6 @@
 "duree": "41"
 },
 {
-"groupe": "The Forsaken",
-"album": "At the Edge of the Abyss",
-"date": "2025-12-18",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/7870a76ed0c15a4e166b938f06d5e61c/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 879046712,
-"refs": [
-"dz:161144"
-],
-"duree": "46"
-},
-{
 "groupe": "Trold",
 "album": "Til Gilde Under Ulven (Live At Copenhell '25)",
 "date": "2025-12-19",
@@ -19627,20 +19627,6 @@
 "duree": "51"
 },
 {
-"groupe": "The Forsaken",
-"album": "Rendezvous with Death",
-"date": "2026-11-06",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/3f140a607d49d6ba1a8340e14b98eba0/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1140704281,
-"refs": [
-"dz:161144"
-],
-"duree": "26"
-},
-{
 "groupe": "TrollfesT",
 "album": "Trollywood",
 "date": "2026-11-06",
@@ -19753,20 +19739,6 @@
 ]
 },
 {
-"groupe": "Fear Factory",
-"album": "Roboticist",
-"date": "2027-03-05",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/77c9a16fb22f5f72e0863cb93900750d/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1136705541,
-"refs": [
-"dz:2985"
-],
-"duree": "49"
-},
-{
 "groupe": "Bullet For My Valentine",
 "album": "Social Apocalypse",
 "date": "2027-03-19",
@@ -19781,6 +19753,22 @@
 ],
 "deezer_id": 1074649802,
 "duree": "40"
+},
+{
+"groupe": "Fear Factory",
+"album": "Roboticist",
+"date": "2027-04-09",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/a9ceb713-778c-4f12-986e-a9245e7cf713/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "a9ceb713-778c-4f12-986e-a9245e7cf713",
+"refs": [
+"dz:2985",
+"mb:c17f08f4-2542-46fb-97f3-3202d60c225a"
+],
+"deezer_id": 1136705541,
+"duree": "49"
 }
 ]
 }
