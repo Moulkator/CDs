@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T07:10:08.315Z",
+ "maj": "2026-11-10T16:30:14.552Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6017,6 +6017,20 @@
    "t": 1794208188988,
    "bad": [],
    "topic": true
+  },
+  "@artist|trollfest": {
+   "channelId": "UC3tiA1jdResMTYky4nIptMA",
+   "playlists": [],
+   "t": 1794328211550
+  },
+  "trollfest|brumlebassen": {
+   "id": "qjX4byThwhI",
+   "video": true,
+   "title": "Trollfest-Brumlebassen(full album/полный альбом)",
+   "t": 1794328213050,
+   "bad": [
+    "PLAZMb5QV-5HS3yRsj0zXh1lOLEkbQjNvj"
+   ]
   }
  },
  "youtube_skip": [
