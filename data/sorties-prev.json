@@ -7981,20 +7981,6 @@
 "duree": "64"
 },
 {
-"groupe": "Behemoth",
-"album": "And the Forests Dream Eternally",
-"date": "2020-09-18",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/3b7e61bcdfb5e9d2e7265f1d6dc6e354/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 163957062,
-"refs": [
-"dz:6456"
-],
-"duree": "72"
-},
-{
 "groupe": "Varg",
 "album": "Zeichen",
 "date": "2020-09-18",
@@ -18032,7 +18018,7 @@
 "album": "Waves over Copenhell (Live)",
 "date": "2026-01-09",
 "precision": "exact",
-"type": "ep",
+"type": "album",
 "pochette": "https://cdn-images.dzcdn.net/images/cover/8977d6a3e335b4df3d79415cb00ab991/500x500-000000-80-0-0.jpg",
 "source": "deezer",
 "deezer_id": 830908511,
@@ -18130,6 +18116,20 @@
 "dz:428405"
 ],
 "duree": "22"
+},
+{
+"groupe": "Chimaira",
+"album": "Crown Of Phantoms",
+"date": "2026-01-28",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/94b434fdf2d0443d831dc891929adaef/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 6773275,
+"refs": [
+"dz:2998"
+],
+"duree": "45"
 },
 {
 "groupe": "Kreator",
@@ -19646,7 +19646,7 @@
 "date": "2026-11-06",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/b44280cc448e72a4cef6baec2f59e93a/500x500-000000-80-0-0.jpg",
+"pochette": "https://coverartarchive.org/release-group/462dc737-edf7-4f9b-8b9b-6f858c778baa/front-500",
 "source": "deezer+musicbrainz",
 "mb_rg": "462dc737-edf7-4f9b-8b9b-6f858c778baa",
 "refs": [
@@ -19751,6 +19751,20 @@
 "refs": [
 "mb:ba147ea0-60c4-4a40-9da6-0d5c2b2e7b03"
 ]
+},
+{
+"groupe": "Fear Factory",
+"album": "Roboticist",
+"date": "2027-03-05",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/77c9a16fb22f5f72e0863cb93900750d/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1136705541,
+"refs": [
+"dz:2985"
+],
+"duree": "49"
 },
 {
 "groupe": "Bullet For My Valentine",
