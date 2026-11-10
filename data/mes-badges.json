@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T16:30:14.552Z",
+ "maj": "2026-11-10T16:31:09.975Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -86,7 +86,8 @@
  "groupes_refuses": [
   "dz:5706854",
   "dz:367907",
-  "dz:985514"
+  "dz:985514",
+  "dz:161144"
  ],
  "youtube": {
   "slayer|reign in blood expanded": {
@@ -5240,7 +5241,7 @@
      "title": ""
     }
    ],
-   "t": 1791627544130
+   "t": 1794328215191
   },
   "kalmankantaja|routamaa": {
    "id": "PLknzWGd2a06GsuhEzq-iWknL07FeI5Sat",
@@ -6031,6 +6032,13 @@
    "bad": [
     "PLAZMb5QV-5HS3yRsj0zXh1lOLEkbQjNvj"
    ]
+  },
+  "kalmankantaja|essence of black mysticism": {
+   "id": "PLknzWGd2a06GsuhEzq-iWknL07FeI5Sat",
+   "title": "",
+   "t": 1794328215192,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
