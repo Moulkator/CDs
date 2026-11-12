@@ -38,5 +38,13 @@
   "precision": "exact",
   "note": "",
   "pochette": "data/pochettes/tyr-tyr.jpg"
+ },
+ {
+  "groupe": "Dragonforce",
+  "album": "Dragonforce",
+  "date": "2027-03-19",
+  "precision": "exact",
+  "note": "",
+  "pochette": "https://www.unitedrocknations.com/newsactu/18861-dragonforce-nouvel-album-avec-alissa-white-gluz-au-chant-dispo-le-19-mars-2027-en-concert-a-paris-et-lyon-et-mois-davril-.png"
  }
 ]
