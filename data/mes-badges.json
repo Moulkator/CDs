@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:23:18.819Z",
+ "maj": "2026-11-12T21:28:47.564Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6479,6 +6479,16 @@
    "record_type": "album",
    "nb_tracks": 9,
    "ajoute": "2026-10-04"
+  },
+  {
+   "groupe": "Wilderun",
+   "album": "Epigone (Bonus Tracks Edition)",
+   "deezer_id": 260974482,
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/cdb1a695872bb4064ff6b18743bcee4d/500x500-000000-80-0-0.jpg",
+   "annee": "2022",
+   "record_type": "album",
+   "nb_tracks": 11,
+   "ajoute": "2026-11-12"
   }
  ],
  "notifs_vues": [
