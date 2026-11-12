@@ -978,5 +978,33 @@
 "changes": [
 "📅 Date : 5 mars 2027 → **9 avr. 2027**"
 ]
+},
+{
+"groupe": "Fading Light",
+"album": "The Spell of a New Dawn",
+"date": "2026-11-13",
+"precision": "exact",
+"type": "album",
+"pochette": "https://f4.bcbits.com/img/a0115146291_10.jpg",
+"pochette_page": "",
+"note": "",
+"source": "manuel",
+"kind": "annonce",
+"jour": "2026-11-12",
+"changes": []
+},
+{
+"groupe": "Dragonforce",
+"album": "Dragonforce",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://www.unitedrocknations.com/newsactu/18861-dragonforce-nouvel-album-avec-alissa-white-gluz-au-chant-dispo-le-19-mars-2027-en-concert-a-paris-et-lyon-et-mois-davril-.png",
+"pochette_page": "",
+"note": "",
+"source": "manuel",
+"kind": "annonce",
+"jour": "2026-11-12",
+"changes": []
 }
 ]

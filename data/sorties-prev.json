@@ -17965,19 +17965,6 @@
 "duree": "63"
 },
 {
-"groupe": "NOFX",
-"album": "4 Years of Fucking Up!",
-"date": "2026",
-"precision": "year",
-"type": "album",
-"pochette": "",
-"source": "musicbrainz",
-"mb_rg": "33c92872-a41c-4e2a-88fd-6796f0c8fff7",
-"refs": [
-"mb:dcaa4f81-bfb7-44eb-8594-4e74f004b6e4"
-]
-},
-{
 "groupe": "Moongates Guardian",
 "album": "Come Shadow Of My End",
 "date": "2026-01-01",
@@ -19655,6 +19642,17 @@
 "duree": "53"
 },
 {
+"groupe": "Fading Light",
+"album": "The Spell of a New Dawn",
+"date": "2026-11-13",
+"precision": "exact",
+"type": "album",
+"pochette": "https://f4.bcbits.com/img/a0115146291_10.jpg",
+"pochette_page": "",
+"note": "",
+"source": "manuel"
+},
+{
 "groupe": "Trivium",
 "album": "Crown in the Grave",
 "date": "2026-11-20",
@@ -19679,34 +19677,6 @@
 "refs": [
 "mb:50fc4742-1389-45a0-8c6f-6a5159ae20c2"
 ]
-},
-{
-"groupe": "Alcest",
-"album": "Live at Hellfest 2022",
-"date": "2026-12-04",
-"precision": "exact",
-"type": "album",
-"pochette": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/17/de/3e17de3f-81b0-4eb5-8149-386336d906c4/cover.jpg/600x600bb.jpg",
-"source": "deezer",
-"deezer_id": 1069901891,
-"refs": [
-"dz:16329"
-],
-"duree": "64"
-},
-{
-"groupe": "Parkway Drive",
-"album": "HOME (Live at the Sydney Opera House)",
-"date": "2026-12-04",
-"precision": "exact",
-"type": "album",
-"pochette": "",
-"source": "deezer",
-"deezer_id": 1070429432,
-"refs": [
-"dz:16410"
-],
-"duree": "104"
 },
 {
 "groupe": "Aether Realm",
@@ -19749,6 +19719,17 @@
 ],
 "deezer_id": 1074649802,
 "duree": "40"
+},
+{
+"groupe": "Dragonforce",
+"album": "Dragonforce",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "https://www.unitedrocknations.com/newsactu/18861-dragonforce-nouvel-album-avec-alissa-white-gluz-au-chant-dispo-le-19-mars-2027-en-concert-a-paris-et-lyon-et-mois-davril-.png",
+"pochette_page": "",
+"note": "",
+"source": "manuel"
 },
 {
 "groupe": "Fear Factory",
