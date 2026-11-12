@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:20:59.517Z",
+ "maj": "2026-11-12T21:23:08.635Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -61,7 +61,8 @@
   "varus|wushus",
   "proutator|el maestro prouto",
   "hoth|delete time",
-  "hoth|nonsense"
+  "hoth|nonsense",
+  "parkway drive|home live at the sydney opera house"
  ],
  "groupes_ignores": [
   "volbeat",
@@ -4596,7 +4597,7 @@
      "title": ""
     }
    ],
-   "t": 1790790921318
+   "t": 1794518460022
   },
   "sigh|infidel art 2025": {
    "id": "PLjLtkS_TEq2HIj4rxMTeOXPcA1X94jOpd",
@@ -6057,6 +6058,13 @@
    "bad": [
     "PLUsgmnCEM-DDoOCatCcC4yK858LfvXqWb"
    ]
+  },
+  "sigh|a tribute to venom": {
+   "id": "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV",
+   "title": "",
+   "t": 1794518460023,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
