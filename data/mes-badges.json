@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T16:32:36.227Z",
+ "maj": "2026-11-12T21:20:59.517Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6039,6 +6039,24 @@
    "t": 1794328215192,
    "bad": [],
    "topic": true
+  },
+  "@artist|wilderun": {
+   "channelId": "UCzEDLzlNjGDLa9rDjjmnb9A",
+   "playlists": [
+    {
+     "id": "PLUsgmnCEM-DDoOCatCcC4yK858LfvXqWb",
+     "title": ""
+    }
+   ],
+   "t": 1794518456580
+  },
+  "wilderun|sleep at the edge of the earth": {
+   "id": "PLk03A4uxplWktvBBlnfnKpYcVnJ5nNMvd",
+   "title": "Wilderun - Sleep At The Edge Of The Earth (Full Album)",
+   "t": 1794518457717,
+   "bad": [
+    "PLUsgmnCEM-DDoOCatCcC4yK858LfvXqWb"
+   ]
   }
  },
  "youtube_skip": [
@@ -6133,6 +6151,23 @@
   }
  ],
  "souhaits": [
+  {
+   "groupe": "Noumena",
+   "album": "Maanääri",
+   "style": "Melodic Death Metal",
+   "pays": "Finlande",
+   "langue": "",
+   "annee": "2026",
+   "duree": "49",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
   {
    "groupe": "Ash of Ashes",
    "album": "All Must Wither",
@@ -6296,23 +6331,6 @@
    "duree": "54",
    "note": "",
    "pochette": "https://coverartarchive.org/release-group/446e691c-d0be-4225-9654-0f24e4e174d9/front-500",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Noumena",
-   "album": "Maanääri",
-   "style": "Melodic Death Metal",
-   "pays": "Finlande",
-   "langue": "",
-   "annee": "2026",
-   "duree": "49",
-   "note": "",
-   "pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
