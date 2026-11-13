@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:28:47.564Z",
+ "maj": "2026-11-13T19:27:10.333Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6067,6 +6067,106 @@
    "t": 1794518460023,
    "bad": [],
    "topic": true
+  },
+  "@artist|kvelertak": {
+   "channelId": "UC1Dpe-1cIVjpC7p4rtT-FOA",
+   "playlists": [
+    {
+     "id": "PL1TplN2RbTo1hCKAM1GiA4KVqCrHg20Yy",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1UwhjXZ4PmJwaNP07B9qhY",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1HCcPcEPeqC9rTOvvfskwc",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1w1hwFfjsSNvkozvHeRyJV",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1r69diybXXp--gy63QBNyd",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo3xGoA3tFjwyY7b7grJlLus",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo3J0PUyIaLzgLTR8Pam88dH",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1q3Ml60LdbxKXf1PBoRyye",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo38wAbe-L409MQCk4Cbt2zf",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1nI8H7UsswmpujuzgW_9BH",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo3M2f-NMUag_GKY2rXSc6vy",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1PlniMRGrK8JwVBf1ayzYA",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo1-MI_dN1hKf2iddoSuSFyF",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo0r4SwctZINrENrOtf0hiHP",
+     "title": ""
+    },
+    {
+     "id": "PL1TplN2RbTo2brQTZwumb6QPQDFs65WLO",
+     "title": ""
+    }
+   ],
+   "t": 1794598023519
+  },
+  "kvelertak|nattesferd": {
+   "id": "PLuvGwDLKqsNCmPbK99GRFiLNqDJmrjmKI",
+   "title": "Kvelertak - Nattesferd, Full Album",
+   "t": 1794598028832,
+   "bad": [
+    "PL1TplN2RbTo1hCKAM1GiA4KVqCrHg20Yy",
+    "PL1TplN2RbTo1UwhjXZ4PmJwaNP07B9qhY",
+    "PL1TplN2RbTo1HCcPcEPeqC9rTOvvfskwc",
+    "PL1TplN2RbTo1w1hwFfjsSNvkozvHeRyJV",
+    "PL1TplN2RbTo1r69diybXXp--gy63QBNyd",
+    "PL1TplN2RbTo3xGoA3tFjwyY7b7grJlLus",
+    "PL1TplN2RbTo3J0PUyIaLzgLTR8Pam88dH",
+    "PL1TplN2RbTo1q3Ml60LdbxKXf1PBoRyye",
+    "PL1TplN2RbTo38wAbe-L409MQCk4Cbt2zf",
+    "PL1TplN2RbTo1nI8H7UsswmpujuzgW_9BH",
+    "PL1TplN2RbTo3M2f-NMUag_GKY2rXSc6vy",
+    "PL1TplN2RbTo1PlniMRGrK8JwVBf1ayzYA",
+    "PL1TplN2RbTo1-MI_dN1hKf2iddoSuSFyF",
+    "PL1TplN2RbTo0r4SwctZINrENrOtf0hiHP",
+    "PL1TplN2RbTo2brQTZwumb6QPQDFs65WLO"
+   ]
+  },
+  "@artist|keys of orthanc": {
+   "channelId": "UChWmwkhXI_4XiuC9sEDzn5g",
+   "playlists": [],
+   "t": 1794598026926
+  },
+  "keys of orthanc|a battle in the dark lands of the eye": {
+   "id": "rupHq-iewyc",
+   "video": true,
+   "title": "Keys of Orthanc - A battle in the dark lands of the eye... (Official Full Album | Epic Black Metal)",
+   "t": 1794598027492,
+   "bad": []
   }
  },
  "youtube_skip": [
