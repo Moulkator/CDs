@@ -1006,5 +1006,19 @@
 "kind": "annonce",
 "jour": "2026-11-12",
 "changes": []
+},
+{
+"groupe": "Fading Light",
+"album": "The Spell of a New Dawn",
+"date": "2026-11-13",
+"precision": "exact",
+"type": "album",
+"pochette": "https://f4.bcbits.com/img/a0115146291_10.jpg",
+"pochette_page": "",
+"note": "",
+"source": "manuel",
+"kind": "sorti",
+"jour": "2026-11-13",
+"changes": []
 }
 ]

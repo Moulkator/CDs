@@ -1,5 +1,5 @@
 {
-"jour": "2026-11-12",
+"jour": "2026-11-13",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -13,36 +13,6 @@
 "refs": [
 "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
 ]
-},
-{
-"groupe": "Gojira",
-"album": "Live At Hellfest 2016",
-"date": "2016-11-04",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/3fa2bf2ef2131273e0eafaf74c68a864/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 14458678,
-"refs": [
-"dz:2993"
-],
-"duree": "53"
-},
-{
-"groupe": "Vader",
-"album": "The Empire",
-"date": "2016-11-04",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/19b68081-eaed-4b4c-a587-047d393a6d31/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "19b68081-eaed-4b4c-a587-047d393a6d31",
-"refs": [
-"dz:7708",
-"mb:db859a53-b7ca-4892-bcda-5ef78d2c891f"
-],
-"deezer_id": 92558702,
-"duree": "33"
 },
 {
 "groupe": "Vomitron",
