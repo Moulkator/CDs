@@ -1020,5 +1020,22 @@
 "kind": "sorti",
 "jour": "2026-11-13",
 "changes": []
+},
+{
+"groupe": "Sum 41",
+"album": "Diamonds Of The Night: Vol. 1",
+"date": "2027-03-19",
+"precision": "exact",
+"type": "album",
+"pochette": "",
+"source": "deezer",
+"deezer_id": 1142654801,
+"refs": [
+"dz:459"
+],
+"duree": "47",
+"kind": "annonce",
+"jour": "2026-11-18",
+"changes": []
 }
 ]
