@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T19:27:10.333Z",
+ "maj": "2026-11-18T16:50:53.022Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6167,6 +6167,20 @@
    "title": "Keys of Orthanc - A battle in the dark lands of the eye... (Official Full Album | Epic Black Metal)",
    "t": 1794598027492,
    "bad": []
+  },
+  "@artist|sojourner": {
+   "channelId": "UCJcNjmP3P5SuiSyC3FVDN5A",
+   "playlists": [],
+   "t": 1795020649665
+  },
+  "sojourner|the shadowed road": {
+   "id": "msDxr2qnKKs",
+   "video": true,
+   "title": "SOJOURNER - The Shadowed Road (Full Album) [Official]",
+   "t": 1795020651520,
+   "bad": [
+    "PLsS5eJpYcyHvqzDhbqQXDb3OJqf_Aq4aC"
+   ]
   }
  },
  "youtube_skip": [
