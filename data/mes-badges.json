@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T17:45:43.684Z",
+ "maj": "2026-11-18T17:45:48.693Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6298,6 +6298,16 @@
    "id": "PLS-GuU1JRnGEODM32B5BWMXwYLl1s65EZ",
    "title": "Whitechapel - Kin [Full Album] // Sub Español - Lyrics",
    "t": 1795023933249,
+   "bad": []
+  },
+  "@artist|nokturnal mortum": {
+   "none": 1,
+   "t": 1795023945957
+  },
+  "nokturnal mortum|the voice of steel": {
+   "id": "PLu6LxS3svWosICGCenyPJLpm5TYFSu3rO",
+   "title": "Nokturnal Mortum - The Voice Of Steel - Remastered (2012) Full Album",
+   "t": 1795023946244,
    "bad": []
   }
  },
