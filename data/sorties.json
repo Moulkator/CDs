@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:19:56Z",
+ "generated": "2026-11-18T23:17:32Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19631,6 +19631,20 @@
    "pochette_page": "",
    "note": "",
    "source": "manuel"
+  },
+  {
+   "groupe": "Forlorn Citadel",
+   "album": "Wonder",
+   "date": "2026-11-16",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/24fa9d9df25726443faad71f67eb6da9/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 1150034641,
+   "refs": [
+    "dz:15065381"
+   ],
+   "duree": "16"
   },
   {
    "groupe": "Trivium",
