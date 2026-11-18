@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T17:45:48.693Z",
+ "maj": "2026-11-18T18:32:09.114Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3365,7 +3365,7 @@
      "title": ""
     }
    ],
-   "t": 1790533847864
+   "t": 1795026727031
   },
   "varg|guten tag": {
    "id": "PLEpm98SqDDMC6K1nu-qIZ3mc24xmWPD-J",
@@ -6309,6 +6309,13 @@
    "title": "Nokturnal Mortum - The Voice Of Steel - Remastered (2012) Full Album",
    "t": 1795023946244,
    "bad": []
+  },
+  "varg|wolfskult   si possible": {
+   "id": "PLEpm98SqDDMC6K1nu-qIZ3mc24xmWPD-J",
+   "title": "",
+   "t": 1795026727034,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
