@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T17:42:49.250Z",
+ "maj": "2026-11-18T17:45:43.684Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3680,7 +3680,7 @@
      "title": ""
     }
    ],
-   "t": 1790630439672
+   "t": 1795023932902
   },
   "whitechapel|live in the valley": {
    "id": "PLULpfb6LMekswpgXeRkGp1-TOgPzUjUW6",
@@ -6271,11 +6271,34 @@
    "t": 1795023766818
   },
   "sabaton|the great war the soundtrack to the great war": {
-   "id": "PLlHc5zP6BMBj3v__9IHfkxsdctCRc1777",
-   "title": "",
-   "t": 1795023766821,
-   "bad": [],
-   "topic": true
+   "none": 1,
+   "t": 1795023941313,
+   "bad": [
+    "PLlHc5zP6BMBj3v__9IHfkxsdctCRc1777",
+    "PLlHc5zP6BMBgNiqX3pTcG2N1LRi2310To",
+    "PLlHc5zP6BMBgAM1eB_S7uvaBhmfNvdwRU",
+    "PLlHc5zP6BMBiFvgJK76w0euGTPvuCKfjF",
+    "PLlHc5zP6BMBhFfsnpe7bbic7tXV6HpuSg",
+    "PLlHc5zP6BMBhaUR5Ck5RLkekkMgckz1Ee",
+    "PLlHc5zP6BMBjHiJU1kR_dP9X7mg4X_hMo",
+    "PLlHc5zP6BMBib_x7svpxAfH0XXLFLjjWg",
+    "PLlHc5zP6BMBi0_buetCt1DWiOMS9N-Tvt",
+    "PLlHc5zP6BMBj4Q6HFEHEi7SCFEz2GlNhY",
+    "PLlHc5zP6BMBhl47-20tqObdHG9au8k4cM",
+    "PLlHc5zP6BMBjiQ65fgY9ogHeKJqHM4okE",
+    "PLlHc5zP6BMBjqb7wDTnWRJhu0AJ1sqlGT",
+    "PLlHc5zP6BMBixmFzIpRmG5tG1FzljgXsF",
+    "PLlHc5zP6BMBgBCvU8fUCxe2_kuMLtfTms",
+    "PLlHc5zP6BMBityy8PxdQjVb4WpD0kYyWR",
+    "PLlHc5zP6BMBgA1oMdD2Jw1zr-QtcfTM1o",
+    "PLlHc5zP6BMBhgpDLLWEz0MzD_oVWkAkQP"
+   ]
+  },
+  "whitechapel|kin": {
+   "id": "PLS-GuU1JRnGEODM32B5BWMXwYLl1s65EZ",
+   "title": "Whitechapel - Kin [Full Album] // Sub Español - Lyrics",
+   "t": 1795023933249,
+   "bad": []
   }
  },
  "youtube_skip": [
