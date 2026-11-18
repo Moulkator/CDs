@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T16:50:53.022Z",
+ "maj": "2026-11-18T17:42:49.250Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6181,6 +6181,101 @@
    "bad": [
     "PLsS5eJpYcyHvqzDhbqQXDb3OJqf_Aq4aC"
    ]
+  },
+  "@artist|rodrigo y gabriela and c u b a": {
+   "none": 1,
+   "t": 1795020653209
+  },
+  "rodrigo y gabriela and c u b a|area 52": {
+   "id": "PLfwDgcTF0-rgASu3Fcreh4tvGSlfSGZz8",
+   "title": "Rodrigo y Gabriela - Area 52 (Official Audio)",
+   "t": 1795020653452,
+   "bad": []
+  },
+  "@artist|sabaton": {
+   "channelId": "UCxJrBLPnyUIt6K33m9ZcsqA",
+   "playlists": [
+    {
+     "id": "PLlHc5zP6BMBj3v__9IHfkxsdctCRc1777",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBgNiqX3pTcG2N1LRi2310To",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBgAM1eB_S7uvaBhmfNvdwRU",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBiFvgJK76w0euGTPvuCKfjF",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBhFfsnpe7bbic7tXV6HpuSg",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBhaUR5Ck5RLkekkMgckz1Ee",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBjHiJU1kR_dP9X7mg4X_hMo",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBib_x7svpxAfH0XXLFLjjWg",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBi0_buetCt1DWiOMS9N-Tvt",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBj4Q6HFEHEi7SCFEz2GlNhY",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBhl47-20tqObdHG9au8k4cM",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBjiQ65fgY9ogHeKJqHM4okE",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBjqb7wDTnWRJhu0AJ1sqlGT",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBixmFzIpRmG5tG1FzljgXsF",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBgBCvU8fUCxe2_kuMLtfTms",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBityy8PxdQjVb4WpD0kYyWR",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBgA1oMdD2Jw1zr-QtcfTM1o",
+     "title": ""
+    },
+    {
+     "id": "PLlHc5zP6BMBhgpDLLWEz0MzD_oVWkAkQP",
+     "title": ""
+    }
+   ],
+   "t": 1795023766818
+  },
+  "sabaton|the great war the soundtrack to the great war": {
+   "id": "PLlHc5zP6BMBj3v__9IHfkxsdctCRc1777",
+   "title": "",
+   "t": 1795023766821,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
