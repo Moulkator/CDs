@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:17:32Z",
+ "generated": "2026-11-19T13:20:40Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19645,6 +19645,19 @@
     "dz:15065381"
    ],
    "duree": "16"
+  },
+  {
+   "groupe": "Angelus Apatrida",
+   "album": "The Reckoning",
+   "date": "2026-11-19",
+   "precision": "exact",
+   "type": "ep",
+   "pochette": "https://coverartarchive.org/release-group/30525fe5-d6c0-447f-8c5b-2bbe241fc146/front-500",
+   "source": "musicbrainz",
+   "mb_rg": "30525fe5-d6c0-447f-8c5b-2bbe241fc146",
+   "refs": [
+    "mb:46507379-c53e-4f63-a045-d444c253d547"
+   ]
   },
   {
    "groupe": "Trivium",

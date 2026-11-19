@@ -1,110 +1,5 @@
 [
 {
-"groupe": "Proutator",
-"album": "El Maestro Prouto",
-"date": "2026-09-20",
-"precision": "exact",
-"type": "album",
-"pochette": "data/pochettes/proutator-el-maestro-prouto.jpg",
-"pochette_page": "",
-"note": "Gnuhuhu",
-"source": "manuel",
-"kind": "maj",
-"jour": "2026-09-19",
-"changes": [
-"📅 Date : 19 sept. 2026 → **20 sept. 2026**"
-]
-},
-{
-"groupe": "Noumena",
-"album": "Maanääri",
-"date": "2026-08-21",
-"precision": "exact",
-"type": "album",
-"pochette": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-500",
-"source": "deezer+musicbrainz",
-"mb_rg": "fad175cd-8629-4b89-8dfa-d11486782941",
-"deezer_id": 1045117972,
-"duree": "49",
-"kind": "sorti",
-"jour": "2026-09-19",
-"changes": []
-},
-{
-"groupe": "Black River",
-"album": "Archive Sessions",
-"date": "2026-09-10",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/c18350e0e174a8fb90bc2ff0e43b47db/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1076947842,
-"duree": "13",
-"kind": "sorti",
-"jour": "2026-09-19",
-"changes": []
-},
-{
-"groupe": "Noumena",
-"album": "Memories of the Future",
-"date": "2026-09-17",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/7c0e2287cccc08254d54e0077992fb5d/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1061150492,
-"duree": "28",
-"kind": "sorti",
-"jour": "2026-09-19",
-"changes": []
-},
-{
-"groupe": "Forlorn Citadel",
-"album": "Visions",
-"date": "2026-09-18",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/0ea1d65d67a623accc57fb83475a1790/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1081712272,
-"duree": "23",
-"kind": "sorti",
-"jour": "2026-09-19",
-"changes": []
-},
-{
-"groupe": "Thulcandra",
-"album": "Black Sun Aeon",
-"date": "2026-09-10",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://coverartarchive.org/release-group/faf77842-754d-48a3-a501-fce14cace069/front-500",
-"source": "musicbrainz",
-"mb_rg": "faf77842-754d-48a3-a501-fce14cace069",
-"refs": [
-"mb:0029abc7-163b-4ffb-a25b-0749126c9267"
-],
-"kind": "sorti",
-"jour": "2026-09-19",
-"changes": []
-},
-{
-"groupe": "Týr",
-"album": "Týr",
-"date": "2026-11-17",
-"precision": "exact",
-"type": "album",
-"pochette": "data/pochettes/tyr-tyr.jpg",
-"pochette_page": "",
-"note": "",
-"source": "manuel",
-"kind": "maj",
-"jour": "2026-09-19",
-"changes": [
-"🖼️ Pochette dévoilée"
-]
-},
-{
 "groupe": "All Shall Perish",
 "album": "The Price of Existence (20th Anniversary Remaster)",
 "date": "2026-08-14",
@@ -1053,6 +948,22 @@
 "duree": "16",
 "kind": "sorti",
 "jour": "2026-11-18",
+"changes": []
+},
+{
+"groupe": "Angelus Apatrida",
+"album": "The Reckoning",
+"date": "2026-11-19",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://coverartarchive.org/release-group/30525fe5-d6c0-447f-8c5b-2bbe241fc146/front-500",
+"source": "musicbrainz",
+"mb_rg": "30525fe5-d6c0-447f-8c5b-2bbe241fc146",
+"refs": [
+"mb:46507379-c53e-4f63-a045-d444c253d547"
+],
+"kind": "sorti",
+"jour": "2026-11-19",
 "changes": []
 }
 ]
