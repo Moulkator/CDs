@@ -965,5 +965,24 @@
 "kind": "sorti",
 "jour": "2026-11-19",
 "changes": []
+},
+{
+"groupe": "Trivium",
+"album": "Crown in the Grave",
+"date": "2026-11-20",
+"precision": "exact",
+"type": "album",
+"pochette": "https://coverartarchive.org/release-group/b1183c53-78c8-44dd-8344-6de01ad473c2/front-500",
+"source": "deezer+musicbrainz",
+"mb_rg": "b1183c53-78c8-44dd-8344-6de01ad473c2",
+"refs": [
+"dz:1245",
+"mb:1f5ff245-2837-4d4a-a609-e93e544478c3"
+],
+"deezer_id": 1149268061,
+"duree": "48",
+"kind": "sorti",
+"jour": "2026-11-20",
+"changes": []
 }
 ]
