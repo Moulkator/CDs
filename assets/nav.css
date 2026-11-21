@@ -48,3 +48,27 @@ body:not(.owner) #btnLastfm,
 body:not(.owner) #btnYt{display:none !important}
 .cov-flag{position:absolute;top:6px;right:6px;z-index:3;background:rgba(160,44,44,.92);color:#fff;border:0;border-radius:6px;font:600 .72rem/1.2 inherit;padding:3px 7px;cursor:pointer}
 .cov-flag:hover{background:#c43b3b}
+
+/* ---- Boutons d'action sur la pochette (assets/cartes.js) ---- */
+.coverwrap .ov-box{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:8px;background:rgba(10,12,16,.6);animation:ovin .12s ease-out}
+.ov-b{width:min(88%,220px);border-radius:999px;padding:8px 10px;font:700 .8rem/1.15 inherit;color:#fff;cursor:pointer;border:1px solid rgba(255,255,255,.22);background:rgba(28,32,40,.94);box-shadow:0 4px 14px rgba(0,0,0,.45);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ov-b:hover{filter:brightness(1.2);border-color:rgba(255,255,255,.5)}
+.ov-b.ov-yt{background:#c4302b;border-color:rgba(255,255,255,.7)}
+.ov-b.ov-wish{background:#7a5c12}
+.ov-b.ov-cmd,.ov-b.ov-recu{background:#1f4f7a}
+.ov-b.ov-coll{background:#2f5d33}
+.ov-b.ov-annul{background:#5a2a2a}
+.ov-b.ov-on{outline:2px solid rgba(255,255,255,.55)}
+@keyframes ovin{from{opacity:0}to{opacity:1}}
+#listGrid .cell .coverwrap,#gridSorties .card .coverwrap,#gridDecouvrir .card .coverwrap,#gridEcoute .card .coverwrap,#gridRecherche .card .coverwrap{cursor:pointer}
+/* les boutons sous la pochette passent sur la pochette */
+:is(#gridSorties,#gridDecouvrir,#gridEcoute,#gridRecherche) .card .wish,
+:is(#gridSorties,#gridDecouvrir,#gridEcoute,#gridRecherche) .card .cmd,
+#listGrid .cell .cmdline{display:none !important}
+:is(#gridSorties,#gridDecouvrir,#gridEcoute,#gridRecherche) .card .yt:not(:has(.ytbtn.on)),
+#listGrid .cap .yt:not(:has(.ytbtn.on)){display:none}
+/* options repliées */
+:is(#gridSorties,#gridDecouvrir,#gridEcoute,#gridRecherche) .card:not(.unfold) > :is(.prev,.status,.ecoute,.links,.acts){display:none}
+.fold-btn{align-self:center;margin-top:2px;background:none;border:1px solid var(--line,#2a2f3a);border-radius:999px;color:var(--muted,#9a93c4);font:600 .75rem/1 inherit;padding:5px 14px;cursor:pointer}
+.fold-btn:hover{color:var(--text,#e8e4da);border-color:#4a4f5a}
+#gridSorties.solo .fold-btn{display:none}
