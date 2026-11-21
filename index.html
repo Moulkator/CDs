@@ -948,7 +948,9 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     var o=currentOpts(); updateCounts(o);
     var grid=$('gridSorties'); grid.innerHTML='';
     var n=0;
-    STATE.sorties.forEach(function(it){
+    // « Déjà sortis » : du plus récent au plus ancien ; sinon ordre chronologique
+    var liste=o.f==='sortis' ? STATE.sorties.slice().sort(function(a,b){ var da=a.date||'', db=b.date||''; return da<db?1:da>db?-1:0; }) : STATE.sorties;
+    liste.forEach(function(it){
       if(!passes(it,o)) return;
       var past=isPast(it.date,it.precision), k=key(it.groupe,it.album), st=STATE.statuts[k]||'';
       var masked=!!(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]||(it.refs&&it.refs.length&&it.refs.every(function(r){return STATE.refus[r];})));
@@ -1601,6 +1603,8 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     };
     img.onerror=function(){ toast('Image illisible'); }; img.src=url; }); $('fPrecision').addEventListener('change',updateDatePlaceholder);
   $('btnDecouvrir').addEventListener('click',function(){chercherDecouvertes(true);});
+  // clic sur « Sorties à surveiller » dans la barre du haut alors qu'une sortie est affichée en grand : retour à la liste
+  document.addEventListener('click',function(e){ var a=e.target.closest && e.target.closest('#topnav a[data-page=sorties]'); if(a && location.hash==='#sorties' && STATE.soloQ){ e.preventDefault(); $('soloBackBtn').click(); } });
   $('soloBackBtn').addEventListener('click',function(){ STATE.soloQ=null; $('searchSorties').value=''; renderSorties(); window.scrollTo(0,0); });
   $('btnPlus').addEventListener('click',function(){renderDecouvrir(false);});
   $('btnResetHidden').addEventListener('click',function(){STATE.hidden={};persistBadges();renderDecouvrir(true);toast('Liste réinitialisée');});
