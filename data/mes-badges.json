@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:20:56.930Z",
+ "maj": "2026-11-21T15:27:01.921Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7989,6 +7989,23 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Almucantarat",
+   "album": "Weightlessness",
+   "style": "",
+   "pays": "",
+   "langue": "",
+   "annee": "2024",
+   "duree": "",
+   "note": "",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/cf8e09561e1a8f3af84ec778bd62de5f/500x500-000000-80-0-0.jpg",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Recherche",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
