@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:15:26.495Z",
+ "maj": "2026-11-21T15:15:29.072Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7518,13 +7518,39 @@
    "t": 1795274105737
   },
   "dark tranquillity|endtime signals": {
+   "id": "PLkr_AMnkjPqjwPznDmLjc8OlSM4DUwX0N",
+   "video": false,
+   "title": "Dark Tranquillity - Endtime Signals (Full Album Lyrics / Sub Español)",
+   "t": 1795274127571,
    "bad": [
     "PLENlJlz08dMrdQzJIl6S6qyph7sm0ryis",
     "5o6_oxS0iLM",
-    "BSFUPhq7ziY"
+    "BSFUPhq7ziY",
+    "PLENlJlz08dMqr2-YlZQZ08z9QiANOB0in"
    ],
-   "t": 1795274124994,
-   "cands": []
+   "v": 3,
+   "partout": true,
+   "cands": [
+    {
+     "id": "PLs4qKxGSL_IS2Z9oMXu0EYYc5OSm0AdST",
+     "title": "Dark Tranquillity - Endtime Signals (Full Album)",
+     "sc": 7,
+     "partout": true
+    },
+    {
+     "id": "PLrugn3vXPdCzly6qo7sOfGeVhJj9XXIAs",
+     "title": "Dark Tranquillity - “Endtime Signals” (Full Album)",
+     "sc": 7,
+     "partout": true
+    },
+    {
+     "id": "PLJ9JwQm8HZ_XIIdzkpuBrkKy0-9TE7q-f",
+     "title": "DARK TRANQUILLITY - ENDTIME SIGNALS - FULL ALBUM 2024",
+     "sc": 7,
+     "partout": false
+    }
+   ],
+   "topic": false
   }
  },
  "youtube_skip": [
