@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:10:33.415Z",
+ "maj": "2026-11-21T12:10:37.069Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6509,6 +6509,65 @@
     "PLPQ6QS4QbWdEAGq6o9jCB0DH4-MYQ-uqJ",
     "PLPQ6QS4QbWdGbptuCIWrp4X1CHV0k_-KT",
     "PLM86D3DonJ-qA7FQmvqszG38WPUcGHUCb"
+   ]
+  },
+  "@artist|solventis": {
+   "channelId": "UCcNQ3EwWcC5z61HleGrQIwg",
+   "playlists": [],
+   "t": 1795263033541
+  },
+  "solventis|alcyon": {
+   "none": 1,
+   "t": 1795263033902,
+   "bad": []
+  },
+  "@artist|alpine universe": {
+   "channelId": "UCGDViLkaQvB2CbxSGAlzvfQ",
+   "playlists": [
+    {
+     "id": "PLIihgIzXyDmagtjoG-j9m8jE4hLy1y1Hq",
+     "title": ""
+    }
+   ],
+   "t": 1795263034080
+  },
+  "alpine universe|kordee": {
+   "id": "PL0GqmSbSuo5Rt-gh5UhwGz_plKiFawv45",
+   "title": "KORDÉE (full album)",
+   "t": 1795263034282,
+   "bad": []
+  },
+  "@artist|septicflesh": {
+   "channelId": "UC0mtIvuSgonP18n-0JK92uA",
+   "playlists": [
+    {
+     "id": "PLIemNYWGiaERxSyW_j4yoxgy_ubIDLPMy",
+     "title": ""
+    },
+    {
+     "id": "PLIemNYWGiaET_Q7ledex46gq_OH0aiJCU",
+     "title": ""
+    },
+    {
+     "id": "PLIemNYWGiaES8TsSNHEN-GgZnNwh2tn2u",
+     "title": ""
+    },
+    {
+     "id": "PLIemNYWGiaERf6cACTTj50DEv2hqQrX3n",
+     "title": ""
+    }
+   ],
+   "t": 1795263034330
+  },
+  "septicflesh|the great mass": {
+   "id": "PLArAJlC1y558xAgUjvHSREr_ThN-w-j8j",
+   "title": "Septicflesh - The Great Mass (2012) - Full Album",
+   "t": 1795263035567,
+   "bad": [
+    "PLIemNYWGiaERxSyW_j4yoxgy_ubIDLPMy",
+    "PLIemNYWGiaET_Q7ledex46gq_OH0aiJCU",
+    "PLIemNYWGiaES8TsSNHEN-GgZnNwh2tn2u",
+    "PLIemNYWGiaERf6cACTTj50DEv2hqQrX3n"
    ]
   }
  },
