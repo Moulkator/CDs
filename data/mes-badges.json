@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:26:57.054Z",
+ "maj": "2026-11-21T12:26:59.593Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1793,7 +1793,7 @@
      "title": ""
     }
    ],
-   "t": 1790170826312
+   "t": 1795264017829
   },
   "thorium|empires in the sun": {
    "id": "PLh-6DejadtaBxeNMj12Hhnrqm0OsbPcq2",
@@ -6824,6 +6824,13 @@
    "id": "PLL7gDtm23whj6dxoa3Y3ttQ9aQ7GzL6jT",
    "title": "",
    "t": 1795264015553,
+   "bad": [],
+   "topic": true
+  },
+  "thorium|danmark": {
+   "id": "PLh-6DejadtaBxeNMj12Hhnrqm0OsbPcq2",
+   "title": "",
+   "t": 1795264017830,
    "bad": [],
    "topic": true
   }
