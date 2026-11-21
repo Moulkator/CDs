@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:26:59.593Z",
+ "maj": "2026-11-21T12:27:52.466Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -207,8 +207,10 @@
   },
   "atlantis chronicles|barton s odyssey instrumental": {
    "none": 1,
-   "t": 1789924542861,
-   "bad": []
+   "t": 1795264071549,
+   "bad": [
+    "PL_iA7DQXSWPn-dBnGcedBgaHFdUxJefgQ"
+   ]
   },
   "arch enemy|wages of sin": {
    "id": "PLnHEfA-hPpQfn53AZSSDeajQTBekucjHW",
@@ -6833,6 +6835,16 @@
    "t": 1795264017830,
    "bad": [],
    "topic": true
+  },
+  "@artist|atlantis chronicles": {
+   "channelId": "UCi1DGMFV1GwB9eSyFuv3vXQ",
+   "playlists": [
+    {
+     "id": "PL_iA7DQXSWPn-dBnGcedBgaHFdUxJefgQ",
+     "title": ""
+    }
+   ],
+   "t": 1795264070449
   }
  },
  "youtube_skip": [
