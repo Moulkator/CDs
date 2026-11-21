@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:55:39.011Z",
+ "maj": "2026-11-21T12:06:46.777Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6469,6 +6469,17 @@
    "t": 1795262137510,
    "bad": [],
    "topic": true
+  },
+  "@artist|nahtram": {
+   "channelId": "UCcVVqKM12BU7UVdoezjYlNg",
+   "playlists": [],
+   "t": 1795262805001
+  },
+  "nahtram|forest of eternal dawn": {
+   "id": "PLYb0X7dmpN0SUcIXkWG5e6d-2HIsV7t9_",
+   "title": "Forest of Eternal Dawn (Album, Orchestra only)",
+   "t": 1795262805275,
+   "bad": []
   }
  },
  "youtube_skip": [
