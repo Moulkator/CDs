@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:26:37.200Z",
+ "maj": "2026-11-21T12:26:40.603Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6773,6 +6773,16 @@
    "video": true,
    "title": "Elffor - Arkaik III (Full Album)",
    "t": 1795263995699,
+   "bad": []
+  },
+  "@artist|occultum": {
+   "channelId": "UC0R752LyWAzHK8Rp_sgFCPQ",
+   "playlists": [],
+   "t": 1795263999101
+  },
+  "occultum|towards eternal chaos 0": {
+   "none": 1,
+   "t": 1795264000099,
    "bad": []
   }
  },
