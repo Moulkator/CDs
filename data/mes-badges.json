@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:36:26.180Z",
+ "maj": "2026-11-21T14:48:48.697Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -123,9 +123,13 @@
    "t": 1789893838188
   },
   "august burns red|season of surrender": {
-   "id": "PLZxKy04e5wXpEAq_V0vevm4YiRN1po--a",
-   "title": "August Burns Red ~ Season of Surrender {Full Album}",
-   "t": 1789893844031
+   "id": "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
+   "title": "",
+   "t": 1795272527196,
+   "bad": [
+    "PLZxKy04e5wXpEAq_V0vevm4YiRN1po--a"
+   ],
+   "topic": true
   },
   "nekrogoblikon|the boiling sea": {
    "id": "PLZxKy04e5wXqwGEX93WNpG0wBlyEyA6Jl",
