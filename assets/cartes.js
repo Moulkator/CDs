@@ -12,7 +12,9 @@
   // Liste des actions proposées sur la pochette, selon le type de carte et l'état de l'album
   function actions(card){
     var q=function(s){ return card.querySelector(s); }, L=[];
-    var yt=q('[data-act=yt]'); if(yt && !yt.classList.contains('on')) L.push(['▶ YouTube','yt',yt]);
+    // YouTube : en mode invité, seulement si la playlist de l'album est déjà enregistrée (la recherche demande une clé)
+    var yt=q('[data-act=yt]'), ga=groupeAlbum(card);
+    if(yt && !yt.classList.contains('on') && (owner() || (window.YTA && ga && YTA.known(ga[0],ga[1])))) L.push(['▶ YouTube','yt',yt]);
     if(!owner()) return L;
     if(card.classList.contains('cell')){                       // liste de souhaits / collection (vue complète)
       if(document.body.classList.contains('collection-mode')) return L;
@@ -31,6 +33,8 @@
     return L;
   }
 
+  function groupeAlbum(card){ var img=card.querySelector('.coverwrap img[data-g]'); if(img) return [img.getAttribute('data-g'), img.getAttribute('data-a')||''];
+    var g=card.querySelector('.g, .artistname'), a=card.querySelector('.a, .cap b'); return g&&a ? [g.textContent.trim(), a.textContent.trim()] : null; }
   function cacher(cw){ var b=cw.querySelector('.ov-box'); if(b) b.remove(); cw.classList.remove('ov-on'); }
   function cacherTout(sauf){ Array.prototype.forEach.call(document.querySelectorAll('.coverwrap.ov-on'),function(c){ if(c!==sauf) cacher(c); }); }
   function montrer(cw){

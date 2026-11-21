@@ -39,7 +39,7 @@
     var cur=currentPage(), on=Owner.isOn(); showPage(cur);
     var pg=PAGES.filter(function(p){ return p.id===cur; })[0]; document.title='La Moulkothèque'+(pg?' — '+pg.label:'');
     nav.innerHTML='<a class="brand" href="index.html#wishlist">♫ LA MOULKOTHÈQUE</a><div class="navlinks">'+PAGES.map(function(p){ return '<a href="'+p.href+'" data-page="'+p.id+'" class="'+(p.id===cur?'active':'')+'">'+p.label+'</a>'; }).join('')+'</div>'+
-      '<button type="button" class="owner '+(on?'on':'')+'" title="'+(on?'Mode propriétaire actif sur cet appareil — cliquer pour désactiver':'Activer le mode propriétaire (jeton GitHub)')+'"><span class="ico">'+(on?'🔓':'🔑')+'</span><span class="lbl"> '+(on?'Propriétaire':'Mode propriétaire')+'</span></button>';
+      '<button type="button" class="owner '+(on?'on':'')+'" title="'+(on?'Mode propriétaire actif sur cet appareil — cliquer pour désactiver':'Mode invité — cliquer pour passer en mode propriétaire (jeton GitHub)')+'"><span class="ico">'+(on?'🔓':'🔑')+'</span><span class="lbl"> '+(on?'Propriétaire':'Mode invité')+'</span></button>';
     nav.querySelector('.owner').addEventListener('click',function(){ on?Owner.deactivate():Owner.activate(); });
     document.body.classList.toggle('owner',on);
     setNavHeight();
