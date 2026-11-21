@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:20:48.339Z",
+ "maj": "2026-11-21T15:20:53.558Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7603,6 +7603,41 @@
      "title": "Sum 41 - Order In Decline (FULL ALBUM with music videos)",
      "partout": true,
      "sc": 8
+    }
+   ],
+   "topic": false
+  },
+  "sum 41|heaven x hell": {
+   "id": "COumV9MAz_E",
+   "video": true,
+   "title": "Sum 41 - Heaven :x: Hell (Full Album)",
+   "t": 1795274452057,
+   "bad": [
+    "PLjK2W6TkofG_GNch-3gHbFde1FI1SqsvO"
+   ],
+   "v": 3,
+   "partout": true,
+   "cands": [
+    {
+     "id": "MYvsVpUAsgM",
+     "video": true,
+     "title": "Sum 41 - Heaven x Hell (2024) punk rock | pop punk | rock | alternative rock | Canadian",
+     "partout": true,
+     "sc": 7
+    },
+    {
+     "id": "7J7mYQEdzP8",
+     "video": true,
+     "title": "Sum 41 - Heaven x Hell  2024 - The Hell Side",
+     "partout": true,
+     "sc": 7
+    },
+    {
+     "id": "lEAYgUg01iM",
+     "video": true,
+     "title": "Sum 41 - Heaven X Hell 2024 - The Heaven Side",
+     "partout": true,
+     "sc": 7
     }
    ],
    "topic": false
