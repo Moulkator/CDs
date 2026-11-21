@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:12:23.290Z",
+ "maj": "2026-11-21T12:14:59.480Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2522,7 +2522,7 @@
      "title": ""
     }
    ],
-   "t": 1795263141788
+   "t": 1790181876222
   },
   "bullet for my valentine|live from brixton chapter two night one": {
    "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
@@ -6691,8 +6691,10 @@
    ]
   },
   "arch enemy|paper tiger": {
-   "none": 1,
-   "t": 1795263138227,
+   "id": "rZmUlDrpEJ8",
+   "video": true,
+   "title": "Episode 53: Arch Enemy’s “Paper Tiger” – Unleashing Relentless Aggression",
+   "t": 1795263076639,
    "bad": [
     "PLxXJWa4J5wHpzR8lB9Lr7GLNvvy-CpfnC",
     "PLxXJWa4J5wHosXEKKqTeTzbcgnAJgATtO",
@@ -6735,8 +6737,7 @@
     "PLxXJWa4J5wHrygFvKwHZEN1Ek7X2mPWWY",
     "PLxXJWa4J5wHq3M_977Hjec7CL907BAH1Q",
     "PLxXJWa4J5wHqKCk7maZw1KhPr3Tom_qoB",
-    "PLxXJWa4J5wHroL1uRodUAeJlaOMs0-Ylc",
-    "rZmUlDrpEJ8"
+    "PLxXJWa4J5wHroL1uRodUAeJlaOMs0-Ylc"
    ]
   },
   "moongates guardian|and so the sage lost his light": {
@@ -6747,18 +6748,9 @@
    "topic": true
   },
   "the offspring|supercharged worldwide in 25": {
-   "id": "PL99E7hmNQn650QPV1MRtiRt7ikFjxYK7a",
-   "title": "SUPERCHARGED WORLDWIDE IN ‘25",
-   "t": 1795263138967,
-   "bad": [
-    "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
-    "PL4umc8IE6eUN8shaJipd24q9mUD5tYNvl"
-   ]
-  },
-  "bullet for my valentine|rainbow veins": {
-   "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
+   "id": "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
    "title": "",
-   "t": 1795263141789,
+   "t": 1795263069513,
    "bad": [],
    "topic": true
   }
@@ -7059,6 +7051,23 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
+  {
+   "groupe": "Noumena",
+   "album": "Myrrys",
+   "style": "Melodic Death Metal",
+   "pays": "Finlande",
+   "langue": "",
+   "annee": "2017",
+   "duree": "49",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/0007c546-854a-429a-9690-f5a96b8cce68/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Album aléatoire",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
