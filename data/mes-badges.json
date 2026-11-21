@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:02:02.958Z",
+ "maj": "2026-11-21T15:03:07.405Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -5127,7 +5127,7 @@
   "@artist|carrion vael": {
    "channelId": "UCdxg9yuI5_lGWyPGSVFQWpQ",
    "playlists": [],
-   "t": 1791136386053
+   "t": 1795273384692
   },
   "carrion vael|cannibals anonymous": {
    "id": "PLvbGxnwj3uDPN0ysG7LRqAX6pZeOSB-zB",
@@ -7428,6 +7428,22 @@
    "t": 1795273321457,
    "bad": [],
    "topic": true
+  },
+  "carrion vael|slay utterly": {
+   "id": "PLZNIiX5UQ_PGdJ0f6l07AVqIzXtv__Q6J",
+   "video": false,
+   "title": "Carrion Vael - Slay Utterly (full album 💿 2026)",
+   "t": 1795273385903,
+   "bad": [],
+   "v": 2,
+   "cands": [
+    {
+     "id": "PLXcU5WbWPi0ybzscbZOFc79tdbd7c4m0j",
+     "title": "SLAY UTTERLY",
+     "sc": 6
+    }
+   ],
+   "topic": false
   }
  },
  "youtube_skip": [
