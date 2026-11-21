@@ -71,7 +71,13 @@
     var cur=img.getAttribute('src')||'';
     if(c.orig && cur!==c.orig && cur!==PH && isRemote(cur)){ cache[c.orig]=cur; saveCache(); }
     if(c.orig && devinees[c.orig]===cur) flagDevinee(img, c.orig, cur); else unflag(img);
+    if(c.orig && LOCAL[c.orig]===cur) ameliorer(img, c);
   }
+  // La miniature locale (250 px) s'affiche tout de suite ; sur un écran qui a besoin de plus
+  // (téléphone, écran haute définition), on la remplace par l'originale nette dès qu'elle arrive.
+  function ameliorer(img, c){ if(c.upgrade) return; c.upgrade=true;
+    var besoin=(img.clientWidth||img.width||200)*(window.devicePixelRatio||1); if(besoin<=275) return;
+    var hd=new Image(); hd.onload=function(){ if(hd.naturalWidth>260 && img.isConnected && img.getAttribute('src')===LOCAL[c.orig]){ img.__covOwn=c.orig; img.src=c.orig; } }; hd.src=c.orig; }
   // Mode propriétaire : une pochette devinée porte un bouton ⚠ pour la refuser
   function hostOf(img){ return img.closest('.coverwrap') || (img.id==='cardImg' ? img.parentElement : null); }
   function unflag(img){ var h=hostOf(img), f=h&&h.querySelector('.cov-flag'); if(f) f.remove(); }
