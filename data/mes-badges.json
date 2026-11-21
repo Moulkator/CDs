@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:36:23.442Z",
+ "maj": "2026-11-21T14:36:26.180Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7135,6 +7135,119 @@
    "bad": [
     "PLd7Roxx2n4dFSvVZIr5DyeAZ8AxChbMrO"
    ]
+  },
+  "@artist|fear factory": {
+   "channelId": "UCYLgZ9GVwd4mtrpbVQkq0Rw",
+   "playlists": [
+    {
+     "id": "PLeddmm5SoD80XYIfARGWw6trZXV_bNjXK",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82N9jOrmk8uYQiTM4IGz2ym",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82J_iwqG4akpr53ZejgceAE",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD837Z6SERt5eiF9VvmgeF-4S",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82uzFxXId-SJZn08MT1sLNQ",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD80SLCH1A2c2lG4Nl9AGVJ_Z",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD81skLlpJNO9sE5XrAZDhsiD",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD81mVOI1ZvrO5-O4C2OUUnvH",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD83Vk7WfAlQCAnckP-ku9leJ",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD80DZ1R4ASY8pf-YHAOZCe7y",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD80awKgCjoeS2_akuAegharr",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD80XFIsuxHRfEMolV5XbwN6W",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD81w5kYS6quUGXO647h-mT4a",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD83CX_naR7j12xp1dxbRuV7x",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD80zyH5oFPwLpWR2xXP7O2T5",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD800uuZLBVsPQ3e8r2u6HZWc",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD81B5GNaqIOtFmbHdgtCl43J",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82gt9LIkW8lDIIh2d1_r1bp",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD81PFqNT-362C6S2MByXPpCC",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD83LwXm-iedflzSn9eRsrbPn",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD83Edkh2cm0A8TTBVWOf5Yga",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD823EKsHxOqrTL-UBpCSthpz",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82vu7W-1bTGPujrxg-2iyOL",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD814UinMOKuoqTPv-x4ap28F",
+     "title": ""
+    },
+    {
+     "id": "PLeddmm5SoD82VNdyw3wnrbxDV66-zsmB5",
+     "title": ""
+    }
+   ],
+   "t": 1795271784679
+  },
+  "fear factory|aggression continuum": {
+   "id": "PLeddmm5SoD80XYIfARGWw6trZXV_bNjXK",
+   "title": "",
+   "t": 1795271784680,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
