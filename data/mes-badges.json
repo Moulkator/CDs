@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:11:05.519Z",
+ "maj": "2026-11-21T12:11:18.140Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1047,7 +1047,7 @@
      "title": ""
     }
    ],
-   "t": 1790161046435
+   "t": 1795263069511
   },
   "the offspring|smash": {
    "id": "PLcZMZxR9uxC86NE7jaibvYapgUzSPIv5Z",
@@ -3028,7 +3028,7 @@
      "title": ""
     }
    ],
-   "t": 1790185136119
+   "t": 1795263065900
   },
   "arch enemy|blood dynasty expanded": {
    "id": "PLxXJWa4J5wHpzR8lB9Lr7GLNvvy-CpfnC",
@@ -6689,6 +6689,70 @@
    "bad": [
     "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV"
    ]
+  },
+  "arch enemy|paper tiger": {
+   "id": "rZmUlDrpEJ8",
+   "video": true,
+   "title": "Episode 53: Arch Enemy’s “Paper Tiger” – Unleashing Relentless Aggression",
+   "t": 1795263076639,
+   "bad": [
+    "PLxXJWa4J5wHpzR8lB9Lr7GLNvvy-CpfnC",
+    "PLxXJWa4J5wHosXEKKqTeTzbcgnAJgATtO",
+    "PLxXJWa4J5wHoFxEMJJmoLiNoKjkLXzKL6",
+    "PLxXJWa4J5wHqbuo8e285N8_UcmuWSFxjf",
+    "PLxXJWa4J5wHrV4G-dIDlmL-SF9Qf3REgw",
+    "PLxXJWa4J5wHpjW4gpgYgG3v4K_GTnYra_",
+    "PLxXJWa4J5wHohm8FWHbHiMuOLKWZVYQea",
+    "PLxXJWa4J5wHpZ-bz_6rxWtAJiGICWDdPV",
+    "PLxXJWa4J5wHpa2l_JR1NrTSXXhs-4e0EV",
+    "PLxXJWa4J5wHpzlM6NHJ0np26XTlWaNgfW",
+    "PLxXJWa4J5wHoBRczgdXzQgwfZoXLER1Sh",
+    "PLxXJWa4J5wHrEhe_9N0RHUTTtqn-BQQeJ",
+    "PLxXJWa4J5wHqWNtt5c4pC2bvRwlsizA2n",
+    "PLxXJWa4J5wHrsWN9avAr3EcVlyClQNHtP",
+    "PLxXJWa4J5wHofn5XNQrb3t6zy4Qr_QPPD",
+    "PLxXJWa4J5wHpKgA7PH4jLMv12szh1ZXKv",
+    "PLxXJWa4J5wHrLVrOHwyOqFpzz_PerHXVr",
+    "PLxXJWa4J5wHpNiPodJUIYeaMGTeekRm64",
+    "PLxXJWa4J5wHoF-F8x1jpHnqZz8_BBYOt4",
+    "PLxXJWa4J5wHrq5aNVhHCSAXeSmd27avMu",
+    "PLxXJWa4J5wHqlZCi-feD5Y0J20zUPRjBc",
+    "PLxXJWa4J5wHphEZRIrAinGdscl_zLYwsz",
+    "PLxXJWa4J5wHpIYN1QZ_m8Ie8Pv_BxwerS",
+    "PLxXJWa4J5wHpIGmipUhl3CG77WHmyrkXA",
+    "PLxXJWa4J5wHpyAc4jvjZQq-o1cyMdx6WL",
+    "PLxXJWa4J5wHplhpe3ZOROiiPsMBXASwQK",
+    "PLxXJWa4J5wHrdS1PKnKQkEXpwcWvF3m_b",
+    "PLxXJWa4J5wHqzzvfW2CPEsBXKkoAm-8h7",
+    "PLxXJWa4J5wHpPm1ho5IqATtpkM25qgayy",
+    "PLxXJWa4J5wHppUOzaB0VzX7P7xjY-dEyz",
+    "PLxXJWa4J5wHpLONBJ7PCbidbDDb9PPvHq",
+    "PLxXJWa4J5wHplCFAVgWz4wuABN838hvCW",
+    "PLxXJWa4J5wHq-og7OJavvjtHU_7LR1nxd",
+    "PLxXJWa4J5wHqZ85G-xFYSggmhABmJbBUu",
+    "PLxXJWa4J5wHo_deD_uDNZdPMEApauHju0",
+    "PLxXJWa4J5wHqOrUYelnLSOLqJg5n_yUP0",
+    "PLxXJWa4J5wHpA-G4F-OJ-5vot8j4UABbQ",
+    "PLxXJWa4J5wHoOFvcr6f82F9yOQ5uxBxde",
+    "PLxXJWa4J5wHrygFvKwHZEN1Ek7X2mPWWY",
+    "PLxXJWa4J5wHq3M_977Hjec7CL907BAH1Q",
+    "PLxXJWa4J5wHqKCk7maZw1KhPr3Tom_qoB",
+    "PLxXJWa4J5wHroL1uRodUAeJlaOMs0-Ylc"
+   ]
+  },
+  "moongates guardian|and so the sage lost his light": {
+   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
+   "title": "",
+   "t": 1795263066633,
+   "bad": [],
+   "topic": true
+  },
+  "the offspring|supercharged worldwide in 25": {
+   "id": "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
+   "title": "",
+   "t": 1795263069513,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
