@@ -24,9 +24,10 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scripts/update_sorties.py
-      - name: Concerts (Bandsintown)
+      - name: Concerts (Ticketmaster / Bandsintown)
         env:
           BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         run: python scripts/update_concerts.py
       - name: Setlists (setlist.fm)
         env:

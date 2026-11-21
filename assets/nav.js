@@ -5,9 +5,10 @@
     {id:'wishlist',   label:'Liste de souhaits',   href:'index.html#wishlist'},
     {id:'collection', label:'Collection',          href:'index.html#collection'},
     {id:'sorties',    label:'Sorties à surveiller',href:'index.html#sorties'},
-    {id:'decouvrir',  label:'À découvrir',         href:'index.html#decouvrir'},
-    {id:'concerts',   label:'Concerts',            href:'index.html#concerts'},
+    {id:'ecouter',    label:'À écouter',           href:'index.html#ecouter'},
     {id:'aleatoire',  label:'Album aléatoire',     href:'index.html#aleatoire'},
+    {id:'decouvrir',  label:'Découvertes',         href:'index.html#decouvrir'},
+    {id:'concerts',   label:'Concerts & Festivals',href:'index.html#concerts'},
     {id:'recherche',  label:'Rechercher',          href:'index.html#recherche'}
   ];
   function ls(k,def){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(e){ return def; } }
@@ -31,12 +32,13 @@
     deactivate:function(){ if(!confirm('Désactiver le mode propriétaire sur cet appareil ? (le jeton sera oublié ici)')) return; localStorage.removeItem(KEY_TOKEN); render(); fire(false); }
   };
   function fire(on){ try{ document.dispatchEvent(new CustomEvent('owner-changed',{detail:{owner:on}})); }catch(e){} }
-  function currentPage(){ var hsh=(location.hash||'').replace('#',''); if(hsh==='decouvrir'||hsh==='ecouter') return 'decouvrir'; if(['recherche','aleatoire','concerts','sorties','collection'].indexOf(hsh)>=0) return hsh; return 'wishlist'; }
+  function currentPage(){ var hsh=(location.hash||'').replace('#',''); if(['ecouter','decouvrir','recherche','aleatoire','concerts','sorties','collection'].indexOf(hsh)>=0) return hsh; return 'wishlist'; }
   function showPage(cur){ var lists=document.getElementById('pageLists'), sort=document.getElementById('pageSorties'); if(!lists||!sort) return; var onLists=(cur==='wishlist'||cur==='collection'); lists.classList.toggle('on',onLists); sort.classList.toggle('on',!onLists); }
   function render(){
     var nav=document.getElementById('topnav'); if(!nav) return;
     var cur=currentPage(), on=Owner.isOn(); showPage(cur);
-    nav.innerHTML='<a class="brand" href="index.html#wishlist">♫ MES CD</a><div class="navlinks">'+PAGES.map(function(p){ return '<a href="'+p.href+'" data-page="'+p.id+'" class="'+(p.id===cur?'active':'')+'">'+p.label+'</a>'; }).join('')+'</div>'+
+    var pg=PAGES.filter(function(p){ return p.id===cur; })[0]; document.title='La Moulkothèque'+(pg?' — '+pg.label:'');
+    nav.innerHTML='<a class="brand" href="index.html#wishlist">♫ LA MOULKOTHÈQUE</a><div class="navlinks">'+PAGES.map(function(p){ return '<a href="'+p.href+'" data-page="'+p.id+'" class="'+(p.id===cur?'active':'')+'">'+p.label+'</a>'; }).join('')+'</div>'+
       '<button type="button" class="owner '+(on?'on':'')+'" title="'+(on?'Mode propriétaire actif sur cet appareil — cliquer pour désactiver':'Activer le mode propriétaire (jeton GitHub)')+'"><span class="ico">'+(on?'🔓':'🔑')+'</span><span class="lbl"> '+(on?'Propriétaire':'Mode propriétaire')+'</span></button>';
     nav.querySelector('.owner').addEventListener('click',function(){ on?Owner.deactivate():Owner.activate(); });
     document.body.classList.toggle('owner',on);

@@ -410,7 +410,8 @@ def main():
         rank = {"exact": 3, "month": 2, "year": 1, "unknown": 0}
         if rank[item["precision"]] > rank[cur["precision"]]:
             cur["date"], cur["precision"] = item["date"], item["precision"]
-        if not cur.get("pochette") and item.get("pochette"):
+        # Cover Art Archive (archive.org) est souvent lent : on lui préfère une autre source (Deezer…)
+        if item.get("pochette") and (not cur.get("pochette") or ("coverartarchive.org" in cur["pochette"] and "coverartarchive.org" not in item["pochette"])):
             cur["pochette"] = item["pochette"]
         cur["source"] = "+".join(sorted(set(cur["source"].split("+") + item["source"].split("+"))))
         for f in ("mb_rg", "deezer_id", "duree"):

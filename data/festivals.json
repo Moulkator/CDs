@@ -1,0 +1,615 @@
+{
+ "maj": "2026-11-21",
+ "note": "Liste tenue à la main. statut a_confirmer = dates 2027 pas encore annoncées : dates estimées d'après l'édition 2026.",
+ "items": [
+  {
+   "nom": "Hellfest",
+   "debut": "2027-06-17",
+   "fin": "2027-06-20",
+   "ville": "Clisson",
+   "pays": "France",
+   "lat": 47.0989,
+   "lng": -1.2733,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://hellfest.fr",
+   "affiche": [
+    "20e édition"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Motocultor",
+   "debut": "2027-08-19",
+   "fin": "2027-08-22",
+   "ville": "Carhaix",
+   "pays": "France",
+   "lat": 48.2758,
+   "lng": -3.5733,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.motocultor-festival.com",
+   "affiche": [
+    "The HU",
+    "Equilibrium",
+    "Alestorm",
+    "Dark Funeral",
+    "Igorrr",
+    "Katatonia",
+    "Nile"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Heavy Week-End",
+   "debut": "2027-06-04",
+   "fin": "2027-06-06",
+   "ville": "Nancy",
+   "pays": "France",
+   "lat": 48.6921,
+   "lng": 6.1844,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Xtreme Fest",
+   "debut": "2027-07-29",
+   "fin": "2027-08-01",
+   "ville": "Cap Découverte (Le Garric)",
+   "pays": "France",
+   "lat": 44.04,
+   "lng": 2.18,
+   "genres": [
+    "punk",
+    "metal"
+   ],
+   "url": "https://www.xtremefest.fr",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Sylak Open Air",
+   "debut": "2027-07-30",
+   "fin": "2027-08-01",
+   "ville": "Saint-Maurice-de-Gourdans",
+   "pays": "France",
+   "lat": 45.824,
+   "lng": 5.194,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://www.sylakopenair.com",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Cernunnos Pagan Fest",
+   "debut": "2027-02-20",
+   "fin": "2027-02-21",
+   "ville": "Noisiel",
+   "pays": "France",
+   "lat": 48.85,
+   "lng": 2.62,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Mennecy Metal Fest",
+   "debut": "2027-09-03",
+   "fin": "2027-09-05",
+   "ville": "Mennecy",
+   "pays": "France",
+   "lat": 48.566,
+   "lng": 2.437,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Rock Your Brain Fest",
+   "debut": "2027-09-17",
+   "fin": "2027-09-19",
+   "ville": "Sélestat",
+   "pays": "France",
+   "lat": 48.26,
+   "lng": 7.454,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer"
+  },
+  {
+   "nom": "Graspop Metal Meeting",
+   "debut": "2027-06-17",
+   "fin": "2027-06-20",
+   "ville": "Dessel",
+   "pays": "Belgique",
+   "lat": 51.2394,
+   "lng": 5.1144,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.graspop.be",
+   "affiche": [
+    "blink-182",
+    "Mötley Crüe",
+    "Marilyn Manson",
+    "Evanescence",
+    "Helloween",
+    "Parkway Drive",
+    "Faith No More"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Alcatraz",
+   "debut": "2027-08-05",
+   "fin": "2027-08-08",
+   "ville": "Courtrai",
+   "pays": "Belgique",
+   "lat": 50.828,
+   "lng": 3.265,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.alcatraz.be",
+   "affiche": [
+    "Heaven Shall Burn",
+    "Skillet",
+    "Venom"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Wacken Open Air",
+   "debut": "2027-07-28",
+   "fin": "2027-07-31",
+   "ville": "Wacken",
+   "pays": "Allemagne",
+   "lat": 54.0217,
+   "lng": 9.3778,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.wacken.com",
+   "affiche": [
+    "Five Finger Death Punch",
+    "Helloween",
+    "Electric Callboy",
+    "Dragonforce",
+    "Knocked Loose"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Summer Breeze",
+   "debut": "2027-08-18",
+   "fin": "2027-08-21",
+   "ville": "Dinkelsbühl",
+   "pays": "Allemagne",
+   "lat": 49.07,
+   "lng": 10.32,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.summer-breeze.de",
+   "affiche": [
+    "Electric Callboy",
+    "Edguy",
+    "Saltatio Mortis",
+    "Gloryhammer",
+    "Warkings",
+    "Dark Funeral"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Rock am Ring",
+   "debut": "2027-06-04",
+   "fin": "2027-06-06",
+   "ville": "Nürburgring",
+   "pays": "Allemagne",
+   "lat": 50.334,
+   "lng": 6.943,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://www.rock-am-ring.com",
+   "affiche": [
+    "blink-182",
+    "Turnstile",
+    "Faith No More",
+    "Bring Me The Horizon"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Download Festival",
+   "debut": "2027-06-09",
+   "fin": "2027-06-13",
+   "ville": "Donington Park",
+   "pays": "Royaume-Uni",
+   "lat": 52.83,
+   "lng": -1.38,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://downloadfestival.co.uk",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Bloodstock Open Air",
+   "debut": "2027-08-05",
+   "fin": "2027-08-08",
+   "ville": "Catton Park (Derbyshire)",
+   "pays": "Royaume-Uni",
+   "lat": 52.73,
+   "lng": -1.67,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.bloodstock.uk.com",
+   "affiche": [
+    "Mercyful Fate",
+    "Electric Callboy",
+    "Motionless In White"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Rebellion",
+   "debut": "2027-08-05",
+   "fin": "2027-08-08",
+   "ville": "Blackpool",
+   "pays": "Royaume-Uni",
+   "lat": 53.816,
+   "lng": -3.05,
+   "genres": [
+    "punk"
+   ],
+   "url": "https://rebellionfestivals.com",
+   "affiche": [
+    "Tom Robinson Band",
+    "Citizen Fish",
+    "Save Ferris",
+    "Street Dogs"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Slam Dunk (Leeds / Hatfield)",
+   "debut": "2027-05-29",
+   "fin": "2027-05-30",
+   "ville": "Hatfield",
+   "pays": "Royaume-Uni",
+   "lat": 51.763,
+   "lng": -0.21,
+   "genres": [
+    "punk"
+   ],
+   "url": "https://slamdunk.com",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Resurrection Fest",
+   "debut": "2027-06-30",
+   "fin": "2027-07-03",
+   "ville": "Viveiro",
+   "pays": "Espagne",
+   "lat": 43.66,
+   "lng": -7.59,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://www.resurrectionfest.es",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Rock Imperium",
+   "debut": "2027-07-01",
+   "fin": "2027-07-04",
+   "ville": "Carthagène",
+   "pays": "Espagne",
+   "lat": 37.599,
+   "lng": -0.981,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.rockimperiumfestival.es",
+   "affiche": [
+    "Marilyn Manson",
+    "Helloween",
+    "Venom",
+    "Mayhem",
+    "I Am Morbid"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Leyendas del Rock",
+   "debut": "2027-08-11",
+   "fin": "2027-08-14",
+   "ville": "Villena",
+   "pays": "Espagne",
+   "lat": 38.631,
+   "lng": -0.865,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.leyendasdelrockfestival.com",
+   "affiche": [
+    "Architects",
+    "Saltatio Mortis",
+    "Wind Rose"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Dynamo Metalfest",
+   "debut": "2027-08-13",
+   "fin": "2027-08-15",
+   "ville": "Eindhoven",
+   "pays": "Pays-Bas",
+   "lat": 51.441,
+   "lng": 5.478,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.dynamometalfest.com",
+   "affiche": [
+    "Architects",
+    "Mercyful Fate",
+    "Cavalera"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Into The Grave",
+   "debut": "2027-06-11",
+   "fin": "2027-06-13",
+   "ville": "Leeuwarden",
+   "pays": "Pays-Bas",
+   "lat": 53.201,
+   "lng": 5.799,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.intothegrave.nl",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Roadburn",
+   "debut": "2027-04-15",
+   "fin": "2027-04-18",
+   "ville": "Tilburg",
+   "pays": "Pays-Bas",
+   "lat": 51.56,
+   "lng": 5.091,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://roadburn.com",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Brutal Assault",
+   "debut": "2027-08-04",
+   "fin": "2027-08-07",
+   "ville": "Jaroměř",
+   "pays": "Tchéquie",
+   "lat": 50.356,
+   "lng": 15.921,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://brutalassault.cz",
+   "affiche": [
+    "Mercyful Fate",
+    "Emperor",
+    "Carcass"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Metalfest Open Air",
+   "debut": "2027-06-11",
+   "fin": "2027-06-13",
+   "ville": "Plzeň",
+   "pays": "Tchéquie",
+   "lat": 49.738,
+   "lng": 13.373,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.metalfest.eu",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Rock for People",
+   "debut": "2027-06-02",
+   "fin": "2027-06-05",
+   "ville": "Hradec Králové",
+   "pays": "Tchéquie",
+   "lat": 50.21,
+   "lng": 15.833,
+   "genres": [
+    "punk",
+    "metal"
+   ],
+   "url": "https://rockforpeople.cz",
+   "affiche": [
+    "blink-182",
+    "Faith No More",
+    "Architects",
+    "Billy Talent",
+    "Killswitch Engage"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Nova Rock",
+   "debut": "2027-06-10",
+   "fin": "2027-06-12",
+   "ville": "Nickelsdorf",
+   "pays": "Autriche",
+   "lat": 47.94,
+   "lng": 17.07,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "https://www.novarock.at",
+   "affiche": [
+    "Motionless In White"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Full Metal Mayrhofen",
+   "debut": "2027-03-29",
+   "fin": "2027-04-03",
+   "ville": "Mayrhofen",
+   "pays": "Autriche",
+   "lat": 47.166,
+   "lng": 11.864,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.full-metal-mayrhofen.com",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Punk Rock Holiday",
+   "debut": "2027-08-10",
+   "fin": "2027-08-13",
+   "ville": "Tolmin",
+   "pays": "Slovénie",
+   "lat": 46.183,
+   "lng": 13.733,
+   "genres": [
+    "punk"
+   ],
+   "url": "https://www.punkrockholiday.com",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Mystic Festival",
+   "debut": "2027-06-10",
+   "fin": "2027-06-12",
+   "ville": "Gdańsk",
+   "pays": "Pologne",
+   "lat": 54.4,
+   "lng": 18.66,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://mysticfestival.pl",
+   "affiche": [],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Sweden Rock",
+   "debut": "2027-06-09",
+   "fin": "2027-06-12",
+   "ville": "Sölvesborg",
+   "pays": "Suède",
+   "lat": 56.05,
+   "lng": 14.58,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.swedenrock.com",
+   "affiche": [
+    "Europe"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Copenhell",
+   "debut": "2027-06-23",
+   "fin": "2027-06-26",
+   "ville": "Copenhague",
+   "pays": "Danemark",
+   "lat": 55.693,
+   "lng": 12.61,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.copenhell.dk",
+   "affiche": [
+    "Faith No More",
+    "Judas Priest",
+    "D-A-D"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Tons of Rock",
+   "debut": "2027-06-23",
+   "fin": "2027-06-26",
+   "ville": "Oslo",
+   "pays": "Norvège",
+   "lat": 59.91,
+   "lng": 10.75,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://tonsofrock.no",
+   "affiche": [
+    "Mötley Crüe",
+    "Judas Priest",
+    "Turnstile"
+   ],
+   "statut": "confirme"
+  },
+  {
+   "nom": "Midgardsblot",
+   "debut": "2027-08-18",
+   "fin": "2027-08-21",
+   "ville": "Horten",
+   "pays": "Norvège",
+   "lat": 59.417,
+   "lng": 10.484,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.midgardsblot.no",
+   "affiche": [
+    "Saxon",
+    "Venom",
+    "Wolves In The Throne Room",
+    "Turbonegro",
+    "Einherjer"
+   ],
+   "statut": "confirme"
+  }
+ ]
+}
