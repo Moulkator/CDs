@@ -12,6 +12,10 @@
 /* ===== page Sorties ===== */
 :root{--bg:#0c0e11;--panel:#15181e;--panel2:#1c2028;--text:#e8e4da;--muted:#9a93c4;--gold:#c9a227;--line:#2a2f3a;--red:#a02c2c;--green:#4caf50;--blue:#79c6ff}*{box-sizing:border-box}html,body{margin:0;padding:0}body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;min-height:100vh}button,input,select{font:inherit}#pageSorties a{color:var(--blue);text-decoration:none}#pageSorties .wrap{max-width:1100px;margin:0 auto;padding:18px 18px 70px}body:not(.owner) #ownerPanel,body:not(.owner) .owner-only{display:none !important}#pageSorties nav.top{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px}#pageSorties nav.top a,#pageSorties nav.top button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:.85rem;font-weight:600;cursor:pointer}#pageSorties nav.top .active{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}#pageSorties header{text-align:center;margin-bottom:14px}#pageSorties header h1{font-size:1.7rem;letter-spacing:2px;text-transform:uppercase;margin:0}#pageSorties header h1 span{color:var(--gold)}#pageSorties header p{color:var(--muted);margin:6px 0 0;font-size:.9rem}#pageSorties .controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin-bottom:16px}#pageSorties .controls input,#pageSorties .controls select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 12px}#pageSorties .btn{cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:9px 14px;background:var(--panel2);color:var(--text);font-weight:600;font-size:.85rem}#pageSorties .btn.gold{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}#pageSorties .btn:disabled{opacity:.5;cursor:not-allowed}#pageSorties .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}#pageSorties .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;position:relative}#pageSorties .card.hidden{display:none}
 #soloBack{text-align:center;margin:-4px 0 14px}
+#carte{height:min(68vh,620px);border-radius:14px;border:1px solid var(--line);overflow:hidden;background:#1c2028}
+.mdot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;border:2px solid #0c0e11}
+.leaflet-popup-content{font-size:.85rem;line-height:1.35}
+.leaflet-popup-content b{color:#8a6a00}
 .fest-title{text-align:center;color:var(--gold);text-transform:uppercase;letter-spacing:1px;font-size:1.1rem;margin:34px 0 12px}
 #gridSorties.solo{display:block;max-width:920px;margin:0 auto}
 #gridSorties.solo .card{flex-direction:row;align-items:flex-start;gap:28px;padding:24px}
@@ -391,11 +395,19 @@ body.has-mp .wrap{padding-bottom:120px}
 <section id="secConcerts" class="section">
   <header>
     <h1><span>CONCERTS</span> &amp; <span>FESTIVALS</span></h1>
-    <p>Concerts annoncés des groupes de ta collection, de ta liste de souhaits et de tes découvertes autour de chez toi, puis les festivals metal et punk de l'année.</p>
+    <p>Concerts annoncés des groupes de tes listes et festivals metal et punk, autour de chez toi.</p>
   </header>
   <div class="controls">
     <input id="cLieu" placeholder="Ville ou code postal (ex. Metz, 57000, Bruxelles)" style="min-width:240px">
     <button class="btn gold" id="cLocaliser">📍 Localiser</button>
+  </div>
+  <div class="controls subtabs" id="cTabs">
+    <button class="btn gold" data-ct="conc">🎸 Concerts</button>
+    <button class="btn" data-ct="fest">🎪 Festivals</button>
+    <button class="btn" data-ct="carte">🗺️ Carte</button>
+  </div>
+  <div id="paneConc">
+  <div class="controls">
     <select id="cRayon">
       <option value="50">50 km</option><option value="100">100 km</option><option value="200" selected>200 km</option><option value="300">300 km</option><option value="500">500 km</option><option value="1000">1000 km</option><option value="">Sans limite</option>
     </select>
@@ -407,13 +419,23 @@ body.has-mp .wrap{padding-bottom:120px}
   </div>
   <div class="prog" id="cInfo"></div>
   <div id="cListe"></div>
-  <h2 class="fest-title">Festivals metal &amp; punk</h2>
+  </div>
+  <div id="paneFest" style="display:none">
   <div class="controls">
     <select id="fTri"><option value="date">Tri : date</option><option value="nom">Tri : nom</option><option value="distance">Tri : distance</option><option value="prix">Tri : prix</option></select>
     <select id="fGenre"><option value="">Metal et punk</option><option value="metal">Metal</option><option value="punk">Punk</option></select>
   </div>
   <div class="prog" id="fInfo"></div>
   <div id="fListe"></div>
+  </div>
+  <div id="paneCarte" style="display:none">
+    <div class="controls">
+      <select id="mType"><option value="">Concerts et festivals</option><option value="conc">Concerts seulement</option><option value="fest">Festivals seulement</option></select>
+      <span class="count"><span class="mdot" style="background:var(--blue)"></span> concert &nbsp; <span class="mdot" style="background:var(--gold)"></span> festival &nbsp; <span class="mdot" style="background:#4caf50"></span> chez toi</span>
+    </div>
+    <div class="prog" id="mInfo"></div>
+    <div id="carte" data-cov-off></div>
+  </div>
 </section>
 </div>
 </div>
@@ -469,7 +491,7 @@ body.has-mp .wrap{padding-bottom:120px}
     purgeLocalCopies();
     return defs; }
   function saveData(){ try{ localStorage.setItem(activeStorageKey(), JSON.stringify(STATE.list)); }catch(e){} if(isOwner()){ clearTimeout(STATE.publishTimer); STATE.publishTimer=setTimeout(publishList, 1500); } try{ void 0; }catch(e){} }
-  function syncMainUI(){ var isWish = CFG.mode==='wishlist'; if(exists('btnRandom')) $('btnRandom').style.display = isWish ? 'inline-block' : 'none'; if(exists('styleFilter')) $('styleFilter').style.display = isWish ? 'inline-block' : 'none'; if(exists('countInfo')) $('countInfo').style.display = isWish ? 'inline-block' : 'none'; if(exists('btnList')) $('btnList').style.display = isWish ? 'inline-block' : 'none'; if(exists('statsBtn')) $('statsBtn').style.display = isWish ? 'none' : 'inline-block'; if(exists('mainControls')) $('mainControls').style.display = isWish ? '' : 'none'; if(exists('cardWrap')) $('cardWrap').style.display = isWish ? '' : 'none'; if(exists('vAudio') && !isWish) $('vAudio').innerHTML=''; if(exists('switchModeBtn')) $('switchModeBtn').textContent = isWish ? 'Collection personnelle' : 'Liste de souhaits'; if(exists('mainTitle')) $('mainTitle').innerHTML = isWish ? 'LISTE DE <span>SOUHAITS</span>' : 'COLLECTION <span>PERSONNELLE</span>'; document.title = 'La Moulkothèque — '+(isWish ? 'Liste de souhaits' : 'Collection'); renderRecentWish(); if(document.body){ document.body.classList.toggle('collection-mode', !isWish); document.body.classList.toggle('editing-mode', !!STATE.editMode); } if(exists('listModal')){ if(isWish) $('listModal').classList.remove('show'); else $('listModal').classList.add('show'); } }
+  function syncMainUI(){ var isWish = CFG.mode==='wishlist'; if(exists('btnRandom')) $('btnRandom').style.display = isWish ? 'inline-block' : 'none'; if(exists('styleFilter')) $('styleFilter').style.display = isWish ? 'inline-block' : 'none'; if(exists('countInfo')) $('countInfo').style.display = isWish ? 'inline-block' : 'none'; if(exists('btnList')) $('btnList').style.display = isWish ? 'inline-block' : 'none'; if(exists('statsBtn')) $('statsBtn').style.display = isWish ? 'none' : 'inline-block'; if(exists('mainControls')) $('mainControls').style.display = isWish ? '' : 'none'; if(exists('cardWrap')) $('cardWrap').style.display = isWish ? '' : 'none'; if(exists('vAudio') && !isWish) $('vAudio').innerHTML=''; if(exists('switchModeBtn')) $('switchModeBtn').textContent = isWish ? 'Collection personnelle' : 'Liste de souhaits'; if(exists('headerSubtitle')) $('headerSubtitle').style.display = isWish ? 'none' : ''; if(exists('mainTitle')) $('mainTitle').innerHTML = isWish ? 'LISTE DE <span>SOUHAITS</span>' : 'COLLECTION <span>PERSONNELLE</span>'; document.title = 'La Moulkothèque — '+(isWish ? 'Liste de souhaits' : 'Collection'); renderRecentWish(); if(document.body){ document.body.classList.toggle('collection-mode', !isWish); document.body.classList.toggle('editing-mode', !!STATE.editMode); } if(exists('listModal')){ if(isWish) $('listModal').classList.remove('show'); else $('listModal').classList.add('show'); } }
   function fillHeaderCount(){ syncMainUI(); if (exists('headerCount')) $('headerCount').textContent = String(STATE.list.length); if (exists('headerSubtitle')) $('headerSubtitle').textContent = CFG.mode==='wishlist' ? ('Tirage au sort d\'un album parmi ' + STATE.list.length) : (STATE.list.length + ' albums dans ma collection'); }
   function sortRows(rows, key){ var arr=rows.slice(); arr.sort(function(a,b){ var av='',bv=''; if(key==='annee'){ av=parseInt(a.annee||'99999',10); if(isNaN(av)) av=99999; bv=parseInt(b.annee||'99999',10); if(isNaN(bv)) bv=99999; if(av!==bv) return av-bv; return norm(a.groupe).localeCompare(norm(b.groupe)); } if(key==='duree'){ av=parseInt(a.duree||'',10); if(isNaN(av)) av=99999; bv=parseInt(b.duree||'',10); if(isNaN(bv)) bv=99999; if(av!==bv) return av-bv; return norm(a.groupe).localeCompare(norm(b.groupe)); } av=norm(a[key]||''); bv=norm(b[key]||''); if(av<bv) return -1; if(av>bv) return 1; return norm(a.album).localeCompare(norm(b.album)); }); return arr; }
   function currentRows(){ return STATE.editMode ? STATE.draft : STATE.list; }
@@ -1480,7 +1502,37 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     if(!rows.length) box.innerHTML='<div class="empty">Aucun festival dans ces critères.</div>';
   }
   ['fTri','fGenre'].forEach(function(id){ $(id).addEventListener('change',renderFestivals); });
-  function chargerConcerts(){ getJSON('data/festivals.json',function(js){ FEST.items=(js&&js.items)||[]; FEST.maj=(js&&js.maj)||''; renderFestivals(); },function(){ $('fInfo').textContent='Impossible de lire data/festivals.json.'; }); getJSON('data/setlists.json',function(js){ CONC.setlists={}; ((js&&js.items)||[]).forEach(function(x){ CONC.setlists[norm(x.groupe)]=x; }); if(CONC.items.length) renderConcerts(); },function(){}); getJSON('data/concerts.json',function(js){ CONC.items=(js&&js.items)||[]; CONC.generated=(js&&js.generated)||''; CONC.appRefuse=!!(js&&js.app_id_refuse); CONC.diag=(js&&js.diagnostic)||''; var c=loadLS(KEY_CDEC,null); if(c&&c.t&&Date.now()-c.t<864e5) CONC.dec=c.items||[]; if(CONC.lieu) $('cLieu').value=CONC.lieu.nom; renderConcerts(); },function(){ $('cInfo').textContent='Impossible de lire data/concerts.json.'; }); }
+  // ------------------------------------------------------------ sous-onglets + carte (Leaflet / OpenStreetMap)
+  var MAP={map:null, layer:null, loading:false};
+  function showCTab(t){ ['conc','fest','carte'].forEach(function(x){ $({conc:'paneConc',fest:'paneFest',carte:'paneCarte'}[x]).style.display=x===t?'':'none'; });
+    Array.prototype.forEach.call(document.querySelectorAll('#cTabs [data-ct]'),function(b){ b.classList.toggle('gold',b.getAttribute('data-ct')===t); });
+    saveLS('concerts-onglet-v1',t); if(t==='carte') renderCarte(); }
+  Array.prototype.forEach.call(document.querySelectorAll('#cTabs [data-ct]'),function(b){ b.addEventListener('click',function(){ showCTab(b.getAttribute('data-ct')); }); });
+  $('mType').addEventListener('change',renderCarte);
+  function chargerLeaflet(cb){ if(window.L){ cb(); return; } if(MAP.loading){ setTimeout(function(){ chargerLeaflet(cb); },200); return; } MAP.loading=true;
+    var css=document.createElement('link'); css.rel='stylesheet'; css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(css);
+    var sc=document.createElement('script'); sc.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; sc.onload=function(){ MAP.loading=false; cb(); }; sc.onerror=function(){ MAP.loading=false; $('mInfo').textContent='Impossible de charger la carte (connexion ?).'; }; document.head.appendChild(sc); }
+  function renderCarte(){ if($('paneCarte').style.display==='none') return; chargerLeaflet(function(){
+    var lieu=CONC.lieu||{lat:46.6,lng:2.4,nom:'France'};
+    if(!MAP.map){ MAP.map=L.map('carte',{scrollWheelZoom:true}).setView([lieu.lat,lieu.lng],6);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; contributeurs OpenStreetMap'}).addTo(MAP.map); MAP.layer=L.layerGroup().addTo(MAP.map); MAP.centre=lieu.nom; }
+    setTimeout(function(){ MAP.map.invalidateSize(); },50);
+    if(MAP.centre!==lieu.nom){ MAP.map.setView([lieu.lat,lieu.lng],6); MAP.centre=lieu.nom; }
+    MAP.layer.clearLayers();
+    var type=$('mType').value, today=new Date(); today.setHours(0,0,0,0), nc=0, nf=0, iso=today.toISOString().slice(0,10);
+    L.circleMarker([lieu.lat,lieu.lng],{radius:8,color:'#0c0e11',weight:2,fillColor:'#4caf50',fillOpacity:1}).bindPopup('<b>'+esc(lieu.nom)+'</b><br>Ton point de départ').addTo(MAP.layer);
+    var rayon=parseFloat($('cRayon').value||'0'); if(rayon) L.circle([lieu.lat,lieu.lng],{radius:rayon*1000,color:'#4caf50',weight:1,fill:false,dashArray:'4 6'}).addTo(MAP.layer);
+    if(type!=='fest'){ var parLieu={}; CONC.items.concat(CONC.dec).forEach(function(ev){ var d=cDate(ev.date); if(d.t && d.t<today) return; if(ev.lat==null||ev.lng==null||isNaN(ev.lat)) return; var k=ev.lat.toFixed(3)+','+ev.lng.toFixed(3); (parLieu[k]=parLieu[k]||[]).push(ev); });
+      Object.keys(parLieu).forEach(function(k){ var evs=parLieu[k].sort(function(a,b){ return (a.date||'')<(b.date||'')?-1:1; }); nc+=evs.length;
+        var html='<b>'+esc(evs[0].salle||'')+'</b> — '+esc([evs[0].ville,paysFr(evs[0].pays)].filter(Boolean).join(', '))+'<br>'+evs.slice(0,8).map(function(ev){ var d=cDate(ev.date); return esc(d.d)+' : '+(ev.url?'<a target="_blank" rel="noopener" href="'+esc(ev.url)+'">'+esc(ev.groupe)+'</a>':esc(ev.groupe)); }).join('<br>')+(evs.length>8?'<br>… et '+(evs.length-8)+' autre(s)':'');
+        L.circleMarker([evs[0].lat,evs[0].lng],{radius:Math.min(6+evs.length,14),color:'#0c0e11',weight:2,fillColor:'#79c6ff',fillOpacity:.95}).bindPopup(html).addTo(MAP.layer); }); }
+    if(type!=='conc'){ var g=$('fGenre').value; FEST.items.forEach(function(f){ if((f.fin||f.debut)<iso || f.lat==null) return; if(g && (f.genres||[]).indexOf(g)<0) return; nf++; var d=fDates(f);
+      var html='<b>'+esc(f.nom)+'</b><br>'+esc(d.big)+' '+esc(d.small)+'<br>'+esc([f.ville,f.pays].filter(Boolean).join(', '))+'<br>💶 '+fPrixTxt(f)+((f.affiche||[]).length?'<br>Avec : '+esc(f.affiche.slice(0,5).join(', ')):'')+'<br><a target="_blank" rel="noopener" href="'+esc(f.url||('https://www.google.com/search?q='+encodeURIComponent(f.nom+' '+f.debut.slice(0,4))))+'">'+(f.url?'Site officiel ↗':'Rechercher ↗')+'</a>';
+      L.circleMarker([f.lat,f.lng],{radius:9,color:'#0c0e11',weight:2,fillColor:'#c9a227',fillOpacity:.95}).bindPopup(html).addTo(MAP.layer); }); }
+    $('mInfo').textContent=(type!=='fest'?nc+' concert(s)':'')+(type===''?' · ':'')+(type!=='conc'?nf+' festival(s)':'')+' — clique sur un point pour le détail'+(type!=='fest'&&!nc?' (aucun concert pour l\'instant : voir l\'onglet Concerts)':'');
+  }); }
+  function chargerConcerts(){ if(!CONC.tabInit){ CONC.tabInit=true; showCTab(loadLS('concerts-onglet-v1','conc')); }
+    getJSON('data/festivals.json',function(js){ FEST.items=(js&&js.items)||[]; FEST.maj=(js&&js.maj)||''; renderFestivals(); renderCarte(); },function(){ $('fInfo').textContent='Impossible de lire data/festivals.json.'; }); getJSON('data/setlists.json',function(js){ CONC.setlists={}; ((js&&js.items)||[]).forEach(function(x){ CONC.setlists[norm(x.groupe)]=x; }); if(CONC.items.length) renderConcerts(); },function(){}); getJSON('data/concerts.json',function(js){ CONC.items=(js&&js.items)||[]; CONC.generated=(js&&js.generated)||''; CONC.appRefuse=!!(js&&js.app_id_refuse); CONC.diag=(js&&js.diagnostic)||''; var c=loadLS(KEY_CDEC,null); if(c&&c.t&&Date.now()-c.t<864e5) CONC.dec=c.items||[]; if(CONC.lieu) $('cLieu').value=CONC.lieu.nom; renderConcerts(); },function(){ $('cInfo').textContent='Impossible de lire data/concerts.json.'; }); }
   function concertsDecouvertes(){
     var names={}; STATE.dec.forEach(function(c){ if(!STATE.hidden[norm(c.name)]) names[norm(c.name)]=c.name; }); STATE.aecouter.forEach(function(a){ names[norm(a.groupe)]=a.groupe; });
     var list=Object.keys(names).map(function(k){ return names[k]; }).filter(function(n){ return !STATE.artistStyle[norm(n)]; });
@@ -1493,7 +1545,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
       x.onerror=function(){ setTimeout(next,250); }; x.send(); }
     next();
   }
-  $('cLocaliser').addEventListener('click',function(){ var q=$('cLieu').value.trim(); if(!q) return; $('cInfo').textContent='Localisation…'; geocode(q,function(pos,msg){ if(!pos){ $('cInfo').textContent=msg; return; } CONC.lieu=pos; saveLS(KEY_LIEU,pos); $('cLieu').value=pos.nom; renderConcerts(); renderFestivals(); }); });
+  $('cLocaliser').addEventListener('click',function(){ var q=$('cLieu').value.trim(); if(!q) return; $('cInfo').textContent='Localisation…'; geocode(q,function(pos,msg){ if(!pos){ $('cInfo').textContent=msg; return; } CONC.lieu=pos; saveLS(KEY_LIEU,pos); $('cLieu').value=pos.nom; renderConcerts(); renderFestivals(); renderCarte(); }); });
   $('cLieu').addEventListener('keydown',function(e){ if(e.key==='Enter') $('cLocaliser').click(); });
   ['cRayon','cSource','cTri','cStyle'].forEach(function(id){ $(id).addEventListener('change',renderConcerts); }); $('cSearch').addEventListener('input',renderConcerts);
   $('cDecouvertes').addEventListener('click',concertsDecouvertes);
