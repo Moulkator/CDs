@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:15:29.072Z",
+ "maj": "2026-11-21T15:19:50.272Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -107,8 +107,14 @@
   },
   "omnium gatherum|may the bridges we burn light the way": {
    "id": "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
+   "video": false,
    "title": "Omnium Gatherum - May the Bridges We Burn Light the Way (ALBUM 2025)",
-   "t": 1789893708674
+   "t": 1795274388770,
+   "bad": [],
+   "v": 3,
+   "partout": false,
+   "cands": [],
+   "topic": false
   },
   "vomitron|3": {
    "id": "PLc7S9rhOEzDnRvHKXghaKrYeQ4btOnTzm",
