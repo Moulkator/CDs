@@ -8,6 +8,8 @@
   function norm(s){ return String(s==null?'':s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
   function key(g,a){ return norm(g)+'|'+norm(a).replace(/\b(deluxe|edition|bonus|remastered|remaster|digipak|version)\b/g,'').trim(); }
   function cleanTitle(a){ return String(a||'').replace(/\((?:[^)]*(?:si possible|deluxe|digipak|reissue|re-recorded|remaster|normal|edition|version|bonus)[^)]*)\)/ig,'').replace(/\s+/g,' ').trim(); }
+  var PAYS='FR', MIN_ALBUM=12*60;   // pays d'écoute ; durée minimale d'une vidéo « album complet »
+  function dureeSec(iso){ var m=/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/.exec(iso||''); return m?((+m[1]||0)*3600+(+m[2]||0)*60+(+m[3]||0)):0; }
   function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
   var YTA={
@@ -39,47 +41,77 @@
         page(null);
       });
     },
+    /* ---- Vérification : public, intégrable, pas bloqué en France, assez long (vidéo) / assez de morceaux lisibles (playlist) ---- */
+    _jouable: function(v){ var st=v.status||{}, rr=(v.contentDetails||{}).regionRestriction||{};
+      if(st.privacyStatus && st.privacyStatus!=='public' && st.privacyStatus!=='unlisted') return false;
+      if(st.embeddable===false) return false; if(st.uploadStatus && st.uploadStatus!=='processed') return false;
+      if(rr.blocked && rr.blocked.indexOf(PAYS)>=0) return false; if(rr.allowed && rr.allowed.indexOf(PAYS)<0) return false; return true; },
+    _videos: function(ids, cb){ if(!ids.length){ cb({}); return; } YTA.api('videos?part=status,contentDetails,snippet&maxResults=50&id='+ids.slice(0,50).join(','), function(js){ var m={}; ((js&&js.items)||[]).forEach(function(v){ m[v.id]=v; }); cb(m, !js); }); },
+    _validerPlaylist: function(id, cb){ YTA.api('playlistItems?part=contentDetails&maxResults=50&playlistId='+encodeURIComponent(id), function(js){
+        if(!js){ cb(false); return; } var ids=(js.items||[]).map(function(it){ return it.contentDetails&&it.contentDetails.videoId; }).filter(Boolean);
+        if(ids.length<2){ cb(false); return; }
+        YTA._videos(ids, function(m, err){ if(err){ cb(true); return; } var ok=ids.filter(function(x){ return m[x] && YTA._jouable(m[x]); }).length; cb(ok>=2 && ok/ids.length>=0.6); }); }); },
+    _valider: function(c, cb){ if(!c||!c.id){ cb(false); return; }
+      if(c.video){ YTA._videos([c.id], function(m, err){ if(err){ cb(true); return; } var v=m[c.id]; cb(!!v && YTA._jouable(v) && dureeSec(v.contentDetails&&v.contentDetails.duration)>=MIN_ALBUM); }); }
+      else YTA._validerPlaylist(c.id, cb); },
+    _accepter: function(k, cand, bad, rest, cb){ YTA.cache[k]={id:cand.id, video:!!cand.video, title:cand.title||'', t:Date.now(), bad:bad, v:2, cands:(rest||[]).filter(function(x){ return x.id!==cand.id && bad.indexOf(x.id)<0; }).slice(0,6), topic:!!cand.topic};
+      save(); try{ YTA.persist&&YTA.persist(); }catch(e){} cb(cand.id); },
     find: function(groupe, album, cb, force){
-      var k=key(groupe,album), c=YTA.cache[k]||{}, bad=c.bad||[];
-      if(!force && c.id){ cb(c.id); return; }
-      if(!force && c.none && Date.now()-c.t<7*864e5){ cb(null,'Aucune playlist trouvée pour cet album (revérifié dans quelques jours).'); return; }
-      if(!YTA.getKey()){ cb(null,'Ajoute une clé YouTube (bouton « Clé YouTube » dans Rechercher) pour chercher la playlist.'); return; }
+      var k=key(groupe,album), c=YTA.cache[k]||{}, bad=(c.bad||[]).slice();
+      if(!force && c.id){
+        if(c.v===2 || !YTA.getKey() || YTA.quotaOut()){ cb(c.id); return; }
+        // trouvaille d'avant la vérification : on la contrôle (2-3 unités de quota) avant de la lire
+        YTA._valider(c, function(ok){ if(ok){ var cc=YTA.cache[k]; if(cc&&cc.id===c.id){ cc.v=2; save(); try{ YTA.persist&&YTA.persist(); }catch(e){} } cb(c.id); return; }
+          if(bad.indexOf(c.id)<0) bad.push(c.id); YTA.cache[k]={bad:bad,t:Date.now(),cands:c.cands||[]}; save(); YTA.find(groupe, album, cb, true); });
+        return; }
+      if(!force && c.none && Date.now()-c.t<7*864e5){ cb(null,'Ni vidéo ni playlist lisible trouvée pour cet album (revérifié dans quelques jours).'); return; }
+      // candidats déjà vérifiés lors de la dernière recherche : on passe au suivant sans nouvelle recherche
+      var cands=(c.cands||[]).filter(function(x){ return bad.indexOf(x.id)<0; });
+      if(force && cands.length){ YTA._accepter(k, cands[0], bad, cands.slice(1), cb); return; }
+      if(!YTA.getKey()){ cb(null,'Ajoute une clé YouTube (bouton « Clé YouTube » dans Rechercher) pour chercher l\'album.'); return; }
       if(YTA.quotaOut()){ cb(null,'YouTube : quota du jour épuisé (retour à 9h).'); return; }
       var albumQ=cleanTitle(album)||album, na0=norm(albumQ);
-      // 1. playlists de la chaîne Topic du groupe (économe)
+      // 1. playlist officielle de la chaîne « Groupe – Topic » (économe), vérifiée
       YTA.artistPlaylists(groupe, function(a){
-        if(a && a.playlists){ var m=null; a.playlists.forEach(function(pl){ if(m||bad.indexOf(pl.id)>=0) return; var t=norm(cleanTitle(pl.title)); if(t===na0) m=pl; }); if(!m) a.playlists.forEach(function(pl){ if(m||bad.indexOf(pl.id)>=0) return; var t=norm(cleanTitle(pl.title)); if(na0.length>6 && (t.indexOf(na0)===0 || na0.indexOf(t)===0)) m=pl; });
-          if(m){ YTA.cache[k]={id:m.id,title:m.title,t:Date.now(),bad:bad,topic:true}; save(); YTA.persist&&YTA.persist(); cb(m.id); return; } }
-        if(YTA.quotaOut()){ cb(null,'YouTube : quota du jour épuisé (retour à 9h).'); return; }
-        YTA._findSearch(groupe, album, albumQ, k, bad, cb);
+        var m=null;
+        if(a && a.playlists){ a.playlists.forEach(function(pl){ if(m||bad.indexOf(pl.id)>=0) return; if(norm(cleanTitle(pl.title))===na0) m=pl; });
+          if(!m) a.playlists.forEach(function(pl){ if(m||bad.indexOf(pl.id)>=0) return; var t=norm(cleanTitle(pl.title)); if(na0.length>6 && (t.indexOf(na0)===0 || na0.indexOf(t)===0)) m=pl; }); }
+        if(!m){ YTA._findSearch(groupe, album, albumQ, k, bad, cb); return; }
+        YTA._validerPlaylist(m.id, function(ok){ if(ok){ YTA._accepter(k, {id:m.id,title:m.title,topic:true}, bad, [], cb); return; }
+          bad.push(m.id); YTA._findSearch(groupe, album, albumQ, k, bad, cb); });
       });
     },
     _findSearch: function(groupe, album, albumQ, k, bad, cb){
-      var x=new XMLHttpRequest(); x.open('GET','https://www.googleapis.com/youtube/v3/search?part=snippet&type=playlist&maxResults=10&q='+encodeURIComponent(groupe+' '+albumQ+' full album')+'&key='+encodeURIComponent(YTA.getKey()));
-      x.onload=function(){ var js; try{ js=JSON.parse(x.responseText); }catch(e){ cb(null,'Réponse YouTube illisible ('+x.status+').'); return; }
-        if(js.error){ var reason=js.error.errors&&js.error.errors[0]&&js.error.errors[0].reason; if(reason==='quotaExceeded') YTA._quotaHit(); cb(null,'YouTube : '+(reason==='quotaExceeded'?'quota du jour épuisé (retour à 9h)':js.error.message)); return; }
-        try{
-        var items=(js.items||[]).filter(function(it){ return bad.indexOf(it.id.playlistId)<0; }), ng=norm(groupe), na=norm(albumQ);
-        function scoreOf(it){ var t=norm(it.snippet.title), ch=norm(it.snippet.channelTitle||''); var sc=0; if(t.indexOf(na)>=0) sc+=4; if(t.indexOf(ng)>=0||ch.indexOf(ng)>=0) sc+=2; if(/topic$/.test(ch)) sc+=2; if(/full album|album complet/.test(t)) sc+=1; if(/live|cover|reaction|karaoke|instrumental|tribute|mix|best of|playthrough/.test(t)&&!/live|instrumental/.test(na)) sc-=3; return sc; }
-        var ranked=items.map(function(it){ return {it:it, sc:scoreOf(it)}; }).sort(function(a,b){ return b.sc-a.sc; });
-        var best=ranked[0];
-        }catch(e){ cb(null,'Résultat YouTube inattendu : '+e.message); return; }
-        if(best && best.sc>=4){ YTA.cache[k]={id:best.it.id.playlistId,title:best.it.snippet.title,t:Date.now(),bad:bad}; save(); try{ YTA.persist&&YTA.persist(); }catch(e){} cb(best.it.id.playlistId); return; }
-        // pas de playlist : une vidéo « album complet » ?
-        var y=new XMLHttpRequest(); y.open('GET','https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&videoDuration=long&maxResults=10&q='+encodeURIComponent(groupe+' '+albumQ+' full album')+'&key='+encodeURIComponent(YTA.getKey()));
-        y.onload=function(){ var j2, r2; try{ j2=JSON.parse(y.responseText); if(j2.error){ var rs=j2.error.errors&&j2.error.errors[0]&&j2.error.errors[0].reason; if(rs==='quotaExceeded') YTA._quotaHit(); cb(null,'YouTube : '+(rs==='quotaExceeded'?'quota du jour épuisé (retour à 9h)':j2.error.message)); return; } var vids=(j2.items||[]).filter(function(it){ return it.id&&it.id.videoId&&bad.indexOf(it.id.videoId)<0; });
-          r2=vids.map(function(it){ return {it:it, sc:scoreOf(it)}; }).sort(function(a,b){ return b.sc-a.sc; })[0]; }catch(e){ cb(null,'Réponse YouTube illisible ('+y.status+').'); return; }
-          if(r2 && r2.sc>=4){ YTA.cache[k]={id:r2.it.id.videoId,video:true,title:r2.it.snippet.title,t:Date.now(),bad:bad}; save(); try{ YTA.persist&&YTA.persist(); }catch(e){} cb(r2.it.id.videoId); }
-          else { YTA.cache[k]={none:1,t:Date.now(),bad:bad}; save(); cb(null,'Ni playlist ni vidéo « album complet » trouvée pour cet album.'); }
-        };
-        y.onerror=function(){ cb(null,'YouTube injoignable.'); }; y.send();
-      };
-      x.onerror=function(){ cb(null,'YouTube injoignable.'); }; x.send();
+      if(YTA.quotaOut()){ cb(null,'YouTube : quota du jour épuisé (retour à 9h).'); return; }
+      var ng=norm(groupe), na=norm(albumQ);
+      function scoreOf(title, chan){ var t=norm(title), ch=norm(chan||''); var sc=0; if(t.indexOf(na)>=0) sc+=4; if(t.indexOf(ng)>=0||ch.indexOf(ng)>=0) sc+=2; if(/topic$/.test(ch)) sc+=2; if(/full album|album complet|full ep/.test(t)) sc+=1; if(/live|cover|reaction|karaoke|instrumental|tribute|mix|best of|playthrough|lesson|tutorial|review|8 ?bit|lyrics? video/.test(t)&&!/live|instrumental/.test(na)) sc-=3; return sc; }
+      // 2. une vidéo « album complet » (souvent la plus fiable), vérifiée
+      YTA.api('search?part=snippet&type=video&maxResults=15&q='+encodeURIComponent(groupe+' '+albumQ+' full album'), function(js,msg){
+        if(!js){ cb(null,msg); return; }
+        var ids=(js.items||[]).map(function(it){ return it.id&&it.id.videoId; }).filter(function(x){ return x && bad.indexOf(x)<0; });
+        YTA._videos(ids, function(mv){
+          var vids=ids.map(function(id){ var v=mv[id]; if(!v || !YTA._jouable(v)) return null; var d=dureeSec(v.contentDetails&&v.contentDetails.duration); if(d<MIN_ALBUM) return null;
+              return {id:id, video:true, title:v.snippet.title, sc:scoreOf(v.snippet.title, v.snippet.channelTitle)+(d>=25*60?1:0)}; })
+            .filter(function(x){ return x && x.sc>=4; }).sort(function(a,b){ return b.sc-a.sc; });
+          if(vids.length && vids[0].sc>=6){ YTA._accepter(k, vids[0], bad, vids.slice(1), cb); return; }   // groupe + album dans le titre : suffisant
+          // 3. sinon des playlists, vérifiées une par une (les 4 meilleures)
+          YTA.api('search?part=snippet&type=playlist&maxResults=10&q='+encodeURIComponent(groupe+' '+albumQ+' full album'), function(j2){
+            var pls=((j2&&j2.items)||[]).map(function(it){ return {id:it.id.playlistId, title:it.snippet.title, sc:scoreOf(it.snippet.title, it.snippet.channelTitle)}; })
+              .filter(function(x){ return x.id && x.sc>=4 && bad.indexOf(x.id)<0; }).sort(function(a,b){ return b.sc-a.sc; }).slice(0,4);
+            var bons=[], i=0;
+            (function suivant(){ if(i>=pls.length){ fin(); return; } var pl=pls[i++]; YTA._validerPlaylist(pl.id, function(ok){ if(ok) bons.push(pl); else bad.push(pl.id); suivant(); }); })();
+            function fin(){ var tous=bons.concat(vids).sort(function(a,b){ return b.sc-a.sc; });
+              if(tous.length){ YTA._accepter(k, tous[0], bad, tous.slice(1), cb); return; }
+              YTA.cache[k]={none:1,t:Date.now(),bad:bad}; save(); cb(null,'Ni vidéo « album complet » ni playlist lisible trouvée pour cet album.'); }
+          });
+        });
+      });
     },
     isVideo: function(g,a){ var c=YTA.cache[key(g,a)]; return !!(c&&c.id&&c.video); },
     embedUrl: function(g,a){ var c=YTA.cache[key(g,a)]||{}; if(!c.id) return ''; return c.video ? 'https://www.youtube-nocookie.com/embed/'+encodeURIComponent(c.id)+'?autoplay=1&rel=0' : 'https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(c.id)+'&autoplay=1&rel=0'; },
     watchUrl: function(g,a){ var c=YTA.cache[key(g,a)]||{}; if(!c.id) return ''; return c.video ? 'https://www.youtube.com/watch?v='+encodeURIComponent(c.id) : 'https://www.youtube.com/playlist?list='+encodeURIComponent(c.id); },
-    reject: function(groupe, album, cb){ var k=key(groupe,album), c=YTA.cache[k]||{}; var bad=(c.bad||[]).slice(); if(c.id && bad.indexOf(c.id)<0) bad.push(c.id); YTA.cache[k]={bad:bad,t:Date.now()}; save(); YTA.persist&&YTA.persist(); YTA.find(groupe, album, cb, true); },
+    // « Mauvaise playlist » : l'actuelle est écartée ; on passe au candidat vérifié suivant, sinon nouvelle recherche
+    reject: function(groupe, album, cb){ var k=key(groupe,album), c=YTA.cache[k]||{}; var bad=(c.bad||[]).slice(); if(c.id && bad.indexOf(c.id)<0) bad.push(c.id); YTA.cache[k]={bad:bad,t:Date.now(),cands:c.cands||[]}; save(); YTA.persist&&YTA.persist(); YTA.find(groupe, album, cb, true); },
     setManual: function(groupe, album, url){ var u=String(url||''); var k=key(groupe,album), bad=(YTA.cache[k]||{}).bad||[]; var m=u.match(/[?&]list=([A-Za-z0-9_-]+)/); if(m){ YTA.cache[k]={id:m[1],title:'(lien saisi à la main)',t:Date.now(),bad:bad}; save(); YTA.persist&&YTA.persist(); return m[1]; } var v=u.match(/[?&]v=([A-Za-z0-9_-]{6,})/)||u.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/)||u.match(/\/embed\/([A-Za-z0-9_-]{6,})/); if(v){ YTA.cache[k]={id:v[1],video:true,title:'(vidéo saisie à la main)',t:Date.now(),bad:bad}; save(); YTA.persist&&YTA.persist(); return v[1]; } return null; },
     markup: function(groupe, album){ return '<div class="yt"><button type="button" class="pbtn ytbtn" data-act="yt">▶ YouTube'+(YTA.known(groupe,album)?(YTA.isVideo(groupe,album)?' (vidéo trouvée)':' (playlist trouvée)'):'')+'</button></div>'; },
     bind: function(el, groupe, album){
@@ -91,9 +123,9 @@
         wrap.innerHTML='<iframe src="'+YTA.embedUrl(groupe,album)+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="YouTube"></iframe>';
         b.classList.add('on'); b.textContent='⏹ Fermer YouTube';
         var old=el.querySelector('.ytextra'); if(old) old.remove();
-        var ex=document.createElement('div'); ex.className='ytextra'; ex.innerHTML='<a class="ytmini ytopen" href="'+YTA.watchUrl(groupe,album)+'" target="_blank" rel="noopener" title="Ouvrir dans l\'application YouTube (lecture en arrière-plan avec Premium)">↗ Ouvrir dans YouTube</a><button type="button" class="ytmini" data-act="ytbad" title="Ce n\'est pas cet album : en chercher une autre">✗ Mauvaise playlist</button><button type="button" class="ytmini" data-act="ytlink" title="Coller le lien d\'une playlist YouTube">🔗 Autre lien</button>';
+        var ex=document.createElement('div'); ex.className='ytextra'; ex.innerHTML='<a class="ytmini ytopen" href="'+YTA.watchUrl(groupe,album)+'" target="_blank" rel="noopener" title="Ouvrir dans l\'application YouTube (lecture en arrière-plan avec Premium)">↗ Ouvrir dans YouTube</a><button type="button" class="ytmini" data-act="ytbad" title="Ce n\'est pas cet album : en chercher une autre">✗ Mauvaise version</button><button type="button" class="ytmini" data-act="ytlink" title="Coller le lien d\'une playlist YouTube">🔗 Autre lien</button>';
         b.parentNode.appendChild(ex);
-        ex.querySelector('[data-act=ytbad]').addEventListener('click',function(e){ e.stopPropagation(); b.textContent='Recherche d\'une autre playlist…'; YTA.reject(groupe, album, function(id2,msg){ if(id2){ open(id2); YTA.toast('Autre playlist chargée'); } else { close(); YTA.toast(msg||'Aucune autre playlist trouvée'); } }); });
+        ex.querySelector('[data-act=ytbad]').addEventListener('click',function(e){ e.stopPropagation(); b.textContent='Recherche d\'une autre version…'; YTA.reject(groupe, album, function(id2,msg){ if(id2){ open(id2); YTA.toast('Autre playlist chargée'); } else { close(); YTA.toast(msg||'Aucune autre playlist trouvée'); } }); });
         ex.querySelector('[data-act=ytlink]').addEventListener('click',function(e){ e.stopPropagation(); askLink(); });
       }
       function askLink(){ var u=prompt('Colle le lien YouTube de cet album : une playlist (adresse avec list=…) ou une vidéo « album complet » (watch?v=…) :',''); if(!u) return; var id3=YTA.setManual(groupe, album, u); if(id3){ open(id3); YTA.toast('Lien enregistré'); } else YTA.toast('Lien non reconnu (il faut list=… ou v=…)'); }
