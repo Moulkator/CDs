@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:20:09.621Z",
+ "maj": "2026-11-21T15:20:48.339Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7585,6 +7585,27 @@
     }
    ],
    "t": 1795274407410
+  },
+  "sum 41|order in decline": {
+   "id": "DUKxiRidXTE",
+   "video": true,
+   "title": "Full Album Sum 41 - Order In Decline",
+   "t": 1795274446836,
+   "bad": [
+    "PLjK2W6TkofG_GNch-3gHbFde1FI1SqsvO"
+   ],
+   "v": 3,
+   "partout": true,
+   "cands": [
+    {
+     "id": "Wm14fKosCIc",
+     "video": true,
+     "title": "Sum 41 - Order In Decline (FULL ALBUM with music videos)",
+     "partout": true,
+     "sc": 8
+    }
+   ],
+   "topic": false
   }
  },
  "youtube_skip": [
