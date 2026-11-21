@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T13:42:04.629Z",
+ "maj": "2026-11-21T13:50:44.725Z",
  "statuts_sorties": {
   "dimmu borgir|grand serpent rising": "Téléchargé",
   "black messiah|walls of vanaheim": "À écouter",
@@ -7071,6 +7071,18 @@
    "t": 1795264848327,
    "bad": [],
    "topic": true
+  },
+  "@artist|firienholt": {
+   "channelId": "UCaCjRgLqHowLslMIGafer4Q",
+   "playlists": [],
+   "t": 1795269042538
+  },
+  "firienholt|by the waters of awakening": {
+   "id": "Xy3G0TBSJSs",
+   "video": true,
+   "title": "Firienholt - By the Waters of Awakening (Full Album)",
+   "t": 1795269043205,
+   "bad": []
   }
  },
  "youtube_skip": [
