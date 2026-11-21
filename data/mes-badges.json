@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:52:32.673Z",
+ "maj": "2026-11-21T15:02:02.958Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2432,7 +2432,7 @@
      "title": ""
     }
    ],
-   "t": 1790181874041
+   "t": 1795273321455
   },
   "aeternam|ruins of empires": {
    "id": "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb",
@@ -7419,6 +7419,13 @@
    "id": "PLiS4dVIPcof_8p8mAH0hBXWZN-eU5X01o",
    "title": "",
    "t": 1795272614658,
+   "bad": [],
+   "topic": true
+  },
+  "aeternam|heir of the rising sun": {
+   "id": "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb",
+   "title": "",
+   "t": 1795273321457,
    "bad": [],
    "topic": true
   }
