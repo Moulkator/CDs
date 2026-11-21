@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:26:40.603Z",
+ "maj": "2026-11-21T12:26:57.054Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6784,6 +6784,48 @@
    "none": 1,
    "t": 1795264000099,
    "bad": []
+  },
+  "@artist|in flames": {
+   "channelId": "UCcX2ZgyB4ImYO3uP_ul2MNA",
+   "playlists": [
+    {
+     "id": "PLpqgxl3FT2_flxgaZJE2VW6FXoNZ6AydZ",
+     "title": ""
+    }
+   ],
+   "t": 1795264012041
+  },
+  "in flames|hell is overcrowded and heaven s full of sinners": {
+   "none": 1,
+   "t": 1795264013514,
+   "bad": [
+    "PLpqgxl3FT2_flxgaZJE2VW6FXoNZ6AydZ"
+   ]
+  },
+  "in flames|reroute to remain": {
+   "id": "PLQI-hzhPyKW8WY-TWX_7Ryc9dPmyksdLM",
+   "title": "In Flames - Reroute To Remain (Full Album)",
+   "t": 1795264014785,
+   "bad": [
+    "PLpqgxl3FT2_flxgaZJE2VW6FXoNZ6AydZ"
+   ]
+  },
+  "@artist|raxa": {
+   "channelId": "UCnSRhLJpKm4okxviIEMPVng",
+   "playlists": [
+    {
+     "id": "PLL7gDtm23whj6dxoa3Y3ttQ9aQ7GzL6jT",
+     "title": ""
+    }
+   ],
+   "t": 1795264015551
+  },
+  "raxa|mezovedic": {
+   "id": "PLL7gDtm23whj6dxoa3Y3ttQ9aQ7GzL6jT",
+   "title": "",
+   "t": 1795264015553,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
