@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:06:46.777Z",
+ "maj": "2026-11-21T12:06:50.146Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3194,7 +3194,7 @@
      "title": ""
     }
    ],
-   "t": 1790458611985
+   "t": 1795262808643
   },
   "moongates guardian|cold waters of anduin": {
    "none": 1,
@@ -6480,6 +6480,13 @@
    "title": "Forest of Eternal Dawn (Album, Orchestra only)",
    "t": 1795262805275,
    "bad": []
+  },
+  "moongates guardian|let horse be bridled horn be sounded": {
+   "id": "PLRmhLdKL-_KxDz__ThAHaK_oDBEBwvAd7",
+   "title": "",
+   "t": 1795262808644,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
