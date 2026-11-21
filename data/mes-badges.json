@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:48:55.879Z",
+ "maj": "2026-11-21T14:48:58.728Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -123,15 +123,17 @@
    "t": 1789893838188
   },
   "august burns red|season of surrender": {
-   "id": "PLkwNoYG6IRjs-wB-IDEqzc8HrLJfmIWZN",
+   "id": "PLkwNoYG6IRjsmQRg3c0gOC2OHlWCq01-1",
    "title": "",
-   "t": 1795272534379,
+   "t": 1795272537227,
    "bad": [
     "PLZxKy04e5wXpEAq_V0vevm4YiRN1po--a",
     "PLkwNoYG6IRjuB0aIDnx2LDvu1hDuY49cD",
     "PLkwNoYG6IRjtgHKYnsfRPCnXA5jRC-KqI",
     "PLkwNoYG6IRjseTpPz1bAf30ffMdiRgUBA",
-    "PLkwNoYG6IRjv-aKBxE2y8_0Lxmt55zLKu"
+    "PLkwNoYG6IRjv-aKBxE2y8_0Lxmt55zLKu",
+    "PLkwNoYG6IRjs-wB-IDEqzc8HrLJfmIWZN",
+    "PLkwNoYG6IRjtAbSOfLV-Otbf0MSqOj2lb"
    ],
    "topic": true
   },
