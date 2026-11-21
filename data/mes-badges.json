@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:19:50.272Z",
+ "maj": "2026-11-21T15:20:09.621Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -106,14 +106,32 @@
    ]
   },
   "omnium gatherum|may the bridges we burn light the way": {
-   "id": "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
-   "video": false,
-   "title": "Omnium Gatherum - May the Bridges We Burn Light the Way (ALBUM 2025)",
-   "t": 1795274388770,
-   "bad": [],
+   "id": "vmS17D2B4rM",
+   "video": true,
+   "title": "Omnium Gatherum full interview for new album May The Bridges We Burn Light The Way",
+   "t": 1795274408119,
+   "bad": [
+    "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
+    "PLIQz3uhZpgYkt8MRAOjBysAENeFZaGaBL"
+   ],
    "v": 3,
-   "partout": false,
-   "cands": [],
+   "partout": true,
+   "cands": [
+    {
+     "id": "eeR5Cy9wvBM",
+     "video": true,
+     "title": "OMNIUM GATHERUM - May The Bridges We Burn Light The Way [INSTRUMENTAL FULL ALBUM] (2025)",
+     "partout": true,
+     "sc": 5
+    },
+    {
+     "id": "h7E2QKdTfX0",
+     "video": true,
+     "title": "Omnium Gatherum: Live at Lido Berlin 14.02.2026 May The Bridges We Burn Light The Way Tour",
+     "partout": true,
+     "sc": 4
+    }
+   ],
    "topic": false
   },
   "vomitron|3": {
@@ -7557,6 +7575,16 @@
     }
    ],
    "topic": false
+  },
+  "@artist|omnium gatherum": {
+   "channelId": "UCLzWGNTzQ_RBuwg8f0pJqPQ",
+   "playlists": [
+    {
+     "id": "PLIQz3uhZpgYkt8MRAOjBysAENeFZaGaBL",
+     "title": ""
+    }
+   ],
+   "t": 1795274407410
   }
  },
  "youtube_skip": [
