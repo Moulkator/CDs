@@ -62,6 +62,31 @@
     }, true);
   }
 
+  // Pendant qu'une vidéo joue dans la pochette : barre d'actions juste dessous (Fermer + les boutons de la pochette)
+  var LISTES = '#listGrid, #gridSorties, #gridDecouvrir, #gridEcoute, #gridRecherche';
+  function barre(card){
+    var cw=card.querySelector('.coverwrap'), joue=cw && cw.querySelector('iframe'), old=card.querySelector('.ov-bar');
+    if(!joue){ if(old) old.remove(); return; }
+    var bar=document.createElement('div'); bar.className='ov-bar';
+    var stop=card.querySelector('.ytbtn.on');
+    var L=(stop?[['⏹ Fermer YouTube','stop',stop]]:[]).concat(actions(card));
+    var ex=card.querySelector('.ytextra'), ouv=ex&&ex.querySelector('a.ytopen'), mv=ex&&ex.querySelector('[data-act=ytbad]'), li=ex&&ex.querySelector('[data-act=ytlink]');
+    if(ouv) L.push(['↗ Ouvrir dans YouTube','ext',function(){ window.open(ouv.href,'_blank','noopener'); }]);
+    if(owner()){ if(mv) L.push(['✗ Mauvaise version','ext',mv]); if(li) L.push(['🔗 Autre lien','ext',li]); }
+    L.forEach(function(a){ var b=document.createElement('button'); b.type='button'; b.className='ov-b ov-mini '+a[1].split(' ').map(function(x){ return 'ov-'+x; }).join(' '); b.textContent=a[0];
+      b.addEventListener('click',function(e){ e.preventDefault(); e.stopPropagation(); if(typeof a[2]==='function') a[2](); else a[2].click(); setTimeout(function(){ if(card.isConnected) barre(card); },60); });
+      bar.appendChild(b); });
+    if(old) old.replaceWith(bar); else cw.insertAdjacentElement('afterend', bar);
+  }
+  function suivreLectures(){
+    Array.prototype.forEach.call(document.querySelectorAll(LISTES),function(g){
+      new MutationObserver(function(muts){ var vues=[];
+        muts.forEach(function(m){ var cw=m.target.closest && m.target.closest('.coverwrap'); if(!cw) return; var card=cw.closest('.card, .cell'); if(card && vues.indexOf(card)<0) vues.push(card); });
+        vues.forEach(barre);
+      }).observe(g,{childList:true,subtree:true});
+    });
+  }
+
   // Options repliées : bouton « ⋯ Plus » sous chaque carte
   function ajouterPli(card){
     if(card.querySelector(':scope > .fold-btn')) return;
@@ -71,7 +96,7 @@
     card.appendChild(b);
   }
   function scanGrille(g){ Array.prototype.forEach.call(g.querySelectorAll(':scope > .card'), ajouterPli); }
-  function demarrer(){
+  function demarrer(){ suivreLectures();
     GRIDS.forEach(function(id){ var g=document.getElementById(id); if(!g) return; scanGrille(g);
       new MutationObserver(function(){ scanGrille(g); }).observe(g,{childList:true}); });
   }

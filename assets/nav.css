@@ -72,3 +72,11 @@ body:not(.owner) #btnYt{display:none !important}
 .fold-btn{align-self:center;margin-top:2px;background:none;border:1px solid var(--line,#2a2f3a);border-radius:999px;color:var(--muted,#9a93c4);font:600 .75rem/1 inherit;padding:5px 14px;cursor:pointer}
 .fold-btn:hover{color:var(--text,#e8e4da);border-color:#4a4f5a}
 #gridSorties.solo .fold-btn{display:none}
+/* barre d'actions sous une vidéo en cours */
+.ov-bar{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:8px 0 4px}
+.ov-b.ov-mini{width:auto;max-width:100%;padding:6px 11px;font-size:.74rem;box-shadow:none}
+.ov-b.ov-stop{background:#3a3f4a}
+.card:has(.ov-bar) .ytbtn.on,.cell:has(.ov-bar) .ytbtn.on{display:none}
+.card:has(.ov-bar) .ytextra,.cell:has(.ov-bar) .ytextra{display:none}
+.ov-b.ov-ext{background:#262b35}
+body:not(.owner) [data-act=ytbad],body:not(.owner) [data-act=ytlink]{display:none !important}
