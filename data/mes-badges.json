@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T16:59:48.780Z",
+ "maj": "2026-11-21T16:59:52.187Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7683,6 +7683,25 @@
      "id": "PIV8ikquzEc",
      "video": true,
      "title": "Almucantarat - Weightlessness  (2024) (Full Album Stream)",
+     "partout": true,
+     "sc": 8
+    }
+   ],
+   "topic": false
+  },
+  "mechina|telesterion": {
+   "id": "zzKuq-nLW6g",
+   "video": true,
+   "title": "Mechina - Telesterion (FULL ALBUM/2019)",
+   "t": 1795280390685,
+   "bad": [],
+   "v": 4,
+   "partout": true,
+   "cands": [
+    {
+     "id": "Zv3lV8Ryki0",
+     "video": true,
+     "title": "Mechina - Telesterion (2019) FULL ALBUM",
      "partout": true,
      "sc": 8
     }
