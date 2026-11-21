@@ -1045,7 +1045,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     items.forEach(function(it){idx[key(it.groupe,it.album)]=it;});
     STATE.manual.forEach(function(m){var k=key(m.groupe,m.album);if(idx[k]){if(m.date){idx[k].date=m.date;idx[k].precision=m.precision||'exact';}else if(m.precision==='unknown'){idx[k].date='';idx[k].precision='unknown';}if(m.pochette)idx[k].pochette=m.pochette;if(m.pochette_page)idx[k].pochette_page=m.pochette_page;idx[k].source=idx[k].source.indexOf('manuel')<0?idx[k].source+'+manuel':idx[k].source;idx[k].note=m.note||'';}else{var it={groupe:m.groupe,album:m.album,date:m.date||'',precision:m.precision||(m.date?'exact':'unknown'),type:'album',pochette:m.pochette||'',pochette_page:m.pochette_page||'',duree:m.duree||'',source:'manuel',note:m.note||''};items.push(it);idx[k]=it;}});
     items.sort(function(a,b){return (a.date||'9999')<(b.date||'9999')?-1:1;});
-    STATE.sorties=items;
+    STATE.sorties=items; if(location.hash==='#ecouter') setTimeout(renderEcoute,0);
     (function(){ var sel=$('filtreStyle'), cur=sel.value, cnt={}; items.forEach(function(it){ var st=(STATE.artistStyle[norm(it.groupe)]||{}).style; if(st) cnt[st]=(cnt[st]||0)+1; }); var keys=Object.keys(cnt).sort(function(a,b){ return a.localeCompare(b,'fr'); }); sel.innerHTML='<option value="">Tous les styles</option>'+keys.map(function(k){ return '<option value="'+esc(k)+'">'+esc(k)+'</option>'; }).join(''); if(keys.indexOf(cur)>=0) sel.value=cur; })();
     var av=items.filter(function(i){return !isPast(i.date,i.precision);}).length;
     $('subSorties').textContent=items.length+' sorties suivies, dont '+av+' à venir'+(STATE.generated?' — données du '+STATE.generated.slice(0,10):'');
@@ -1078,7 +1078,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   function decouvertesNoms(){ var seen={}, out=[]; (STATE.dec||[]).forEach(function(c){ var k=norm(c.name); if(!c.name||seen[k]||STATE.hidden[k]) return; seen[k]=1; out.push(c.name); }); return out.slice(0,80); }
   function chercherDecouvertes(force){
     var cache=loadLS(KEY_DCACHE,null);
-    if(!force&&cache&&cache.t&&Date.now()-cache.t<7*864e5&&cache.list&&cache.list.length){STATE.dec=cache.list;STATE.decShown=0;renderDecouvrir(true);return;}
+    if(!force&&cache&&cache.t&&Date.now()-cache.t<7*864e5&&cache.list&&cache.list.length){STATE.dec=cache.list;STATE.decShown=0;renderDecouvrir(true);if(location.hash==='#ecouter') renderEcoute();return;}
     if(STATE.decBusy) return; STATE.decBusy=true;
     var seeds=STATE.artists.filter(function(a){return a.suivi!==false;}).sort(function(a,b){return b._score-a._score;}).slice(0,60);
     var cand={}, i=0, btn=$('btnDecouvrir'); btn.disabled=true;
@@ -1104,7 +1104,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
       var arts=Object.keys(cand).map(function(k){return cand[k];}).sort(function(a,b){return b.score-a.score;}).slice(0,50);
       var albums=[], j=0;
       function nextArtist(){
-        if(j>=arts.length){ prog(''); btn.disabled=false; STATE.decBusy=false; albums.sort(function(a,b){return b.score-a.score;}); STATE.dec=albums; STATE.decShown=0; saveLS(KEY_DCACHE,{t:Date.now(),list:albums}); renderDecouvrir(true); if(STATE.owner) persistBadges(); return; }
+        if(j>=arts.length){ prog(''); btn.disabled=false; STATE.decBusy=false; albums.sort(function(a,b){return b.score-a.score;}); STATE.dec=albums; STATE.decShown=0; saveLS(KEY_DCACHE,{t:Date.now(),list:albums}); renderDecouvrir(true); if(location.hash==='#ecouter') renderEcoute(); if(STATE.owner) persistBadges(); return; }
         var c=arts[j++]; prog('Récupération des albums… '+j+'/'+arts.length+' ('+c.name+')');
         jsonp('https://api.deezer.com/artist/'+c.id+'/top?limit=10',function(res){
           var ts=((res&&res.data)||[]).filter(function(t){return t&&t.preview&&t.album&&t.album.id;});
@@ -1172,7 +1172,11 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     var u=el.querySelector('[data-act=unlisten]'); if(u) u.addEventListener('click',function(){ var k=key(g,a); STATE.aecouter=STATE.aecouter.filter(function(x){return ecouteKey(x)!==k;}); delete STATE.dstatuts[k]; persistBadges(); toast('Retiré de « À écouter »'); if(el.closest('#gridEcoute')) el.remove(); else { el.querySelector('.ecoute').innerHTML=ecouteMarkup(item); bindEcoute(el,al,artistName); } }); }
   function renderEcoute(){
     var grid=$('gridEcoute'); grid.innerHTML=''; var n=0;
-    STATE.dec.forEach(function(c){ var nk=norm(c.name), st=STATE.dstatuts[decKey(c)]||''; if(STATE.hidden[nk]) return; if(st!=='À écouter') return; n++; grid.appendChild(decCard(c)); });
+    // une découverte marquée « À écouter » est copiée dans la liste À écouter (sinon elle disparaît quand les suggestions changent)
+    var dejaEc={}, ajout=false; STATE.aecouter.forEach(function(a){ dejaEc[ecouteKey(a)]=1; });
+    STATE.dec.forEach(function(c){ var dk=decKey(c); if((STATE.dstatuts[dk]||'')!=='À écouter' || dejaEc[dk] || STATE.hidden[norm(c.name)] || !c.album) return; dejaEc[dk]=1; ajout=true;
+      STATE.aecouter.push({groupe:c.name,album:c.album,deezer_id:c.albumId||0,pochette:c.cover||c.picture||'',annee:c.albumYear||'',record_type:'album',nb_tracks:c.nbTracks||0,duree:c.duree||'',ajoute:new Date().toISOString().slice(0,10)}); });
+    if(ajout) persistBadges();
     STATE.sorties.forEach(function(it){ var k=key(it.groupe,it.album); if((STATE.statuts[k]||'')!=='À écouter') return; if(STATE.exclus[k]||STATE.ignores[norm(it.groupe)]) return; n++;
       var al={id:it.deezer_id||0,title:it.album,artist:{name:it.groupe},cover_big:it.pochette,release_date:it.date||'',record_type:it.type||'album',nb_tracks:0};
       var el=albumCard(al,it.groupe); var ec=el.querySelector('.ecoute'); if(ec) ec.remove();
