@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:55:34.561Z",
+ "maj": "2026-11-21T11:55:39.011Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6456,10 +6456,19 @@
    "t": 1795262130800
   },
   "cor scorpii|ruin": {
-   "id": "PLFbk0BSEqRLdN8Lr728fCy3CEKkj2OWWU",
-   "title": "Cor Scorpii - Ruin (Full Album)",
-   "t": 1795262131092,
-   "bad": []
+   "id": "PLHn0CadZo2GvF7slpeg8M0Lwi6Q4N7Sz8",
+   "title": "Cor Scorpii - Ruin",
+   "t": 1795262135080,
+   "bad": [
+    "PLFbk0BSEqRLdN8Lr728fCy3CEKkj2OWWU"
+   ]
+  },
+  "stortregn|one eternal": {
+   "id": "PLzecJC9oDrXslICmmlyqRKeerCjNwlIYb",
+   "title": "",
+   "t": 1795262137510,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
