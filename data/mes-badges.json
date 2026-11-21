@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:12:20.468Z",
+ "maj": "2026-11-21T12:12:23.290Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2522,7 +2522,7 @@
      "title": ""
     }
    ],
-   "t": 1790181876222
+   "t": 1795263141788
   },
   "bullet for my valentine|live from brixton chapter two night one": {
    "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
@@ -6754,6 +6754,13 @@
     "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
     "PL4umc8IE6eUN8shaJipd24q9mUD5tYNvl"
    ]
+  },
+  "bullet for my valentine|rainbow veins": {
+   "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
+   "title": "",
+   "t": 1795263141789,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
