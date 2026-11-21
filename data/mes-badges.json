@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:39:49.307Z",
+ "maj": "2026-11-21T11:39:52.757Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6331,6 +6331,16 @@
    "id": "PLIpRKkOHlLBrYnc2dKrlYELfXvlt9mLPh",
    "title": "Noumena - Myrrys (Full Album)",
    "t": 1795261187805,
+   "bad": []
+  },
+  "@artist|moonlight sorcery": {
+   "channelId": "UCRnkZYoKlsbn0y2q_c8YM7w",
+   "playlists": [],
+   "t": 1795261191254
+  },
+  "moonlight sorcery|nightwind the conqueror from the stars": {
+   "none": 1,
+   "t": 1795261191780,
    "bad": []
   }
  },
