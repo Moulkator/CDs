@@ -11,7 +11,10 @@
 
 /* ===== page Sorties ===== */
 :root{--bg:#0c0e11;--panel:#15181e;--panel2:#1c2028;--text:#e8e4da;--muted:#9a93c4;--gold:#c9a227;--line:#2a2f3a;--red:#a02c2c;--green:#4caf50;--blue:#79c6ff}*{box-sizing:border-box}html,body{margin:0;padding:0}body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;min-height:100vh}button,input,select{font:inherit}#pageSorties a{color:var(--blue);text-decoration:none}#pageSorties .wrap{max-width:1100px;margin:0 auto;padding:18px 18px 70px}body:not(.owner) #ownerPanel,body:not(.owner) .owner-only{display:none !important}#pageSorties nav.top{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px}#pageSorties nav.top a,#pageSorties nav.top button{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:.85rem;font-weight:600;cursor:pointer}#pageSorties nav.top .active{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}#pageSorties header{text-align:center;margin-bottom:14px}#pageSorties header h1{font-size:1.7rem;letter-spacing:2px;text-transform:uppercase;margin:0}#pageSorties header h1 span{color:var(--gold)}#pageSorties header p{color:var(--muted);margin:6px 0 0;font-size:.9rem}#pageSorties .controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin-bottom:16px}#pageSorties .controls input,#pageSorties .controls select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 12px}#pageSorties .btn{cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:9px 14px;background:var(--panel2);color:var(--text);font-weight:600;font-size:.85rem}#pageSorties .btn.gold{background:linear-gradient(135deg,var(--gold),#e0b94a);color:#0c0e11;border-color:transparent}#pageSorties .btn:disabled{opacity:.5;cursor:not-allowed}#pageSorties .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}#pageSorties .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;position:relative}#pageSorties .card.hidden{display:none}
-#soloBack{text-align:center;margin:-4px 0 14px}
+#pageSorties .searchRow{margin-top:-6px}
+#pageSorties .searchRow label{color:var(--muted);font-weight:600;font-size:.9rem}
+#searchSorties{width:min(460px,70vw)}
+#carte{position:relative;z-index:0}
 #carte{height:min(68vh,620px);border-radius:14px;border:1px solid var(--line);overflow:hidden;background:#1c2028}
 .mdot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;border:2px solid #0c0e11}
 .leaflet-popup-content{font-size:.85rem;line-height:1.35}
@@ -293,9 +296,12 @@ body.has-mp .wrap{padding-bottom:120px}
       <option value="_collec">Dans la collection</option>
       <option value="_wish">Dans la wishlist</option>
     </select>
-    <input type="search" id="searchSorties" placeholder="Rechercher groupe / album">
   </div>
-  <div id="soloBack" style="display:none"><button type="button" class="btn" id="soloBackBtn">← Toutes les sorties</button></div>
+  <div class="controls searchRow">
+    <label for="searchSorties">Rechercher</label>
+    <input type="search" id="searchSorties" placeholder="Groupe ou album">
+    <span id="soloBack" style="display:none"><button type="button" class="btn" id="soloBackBtn">← Toutes les sorties</button></span>
+  </div>
   <div class="grid" id="gridSorties"></div>
   <div class="empty" id="emptySorties" style="display:none">Rien à afficher avec ces filtres.</div>
 </section>
