@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:35:03.839Z",
+ "maj": "2026-11-21T14:35:59.391Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7104,6 +7104,18 @@
    "t": 1795269046728,
    "bad": [],
    "topic": true
+  },
+  "@artist|zornheym": {
+   "channelId": "UC-cwaAgu3ELKSCE5A37lFjg",
+   "playlists": [],
+   "t": 1795271757409
+  },
+  "zornheym|the forgotten inmates": {
+   "id": "uxXYaxRiVk4",
+   "video": true,
+   "title": "Zorn from Zornheym on The Forgotten Inmates EP, New Graphic Novel, Album 3",
+   "t": 1795271757889,
+   "bad": []
   }
  },
  "youtube_skip": [
