@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:03:07.405Z",
+ "maj": "2026-11-21T15:03:13.098Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -99,8 +99,14 @@
    "t": 1789893659720
   },
   "zmey gorynich|i": {
-   "none": 1,
-   "t": 1789893702209
+   "id": "zH9tpKA53U4",
+   "video": true,
+   "title": "Russian Music 2025, Week 43: LESNIK, Wildweed, Zmey Gorynich, Заточка, Dubree, Malyshki_1822, kizaru",
+   "t": 1795273391596,
+   "bad": [],
+   "v": 2,
+   "cands": [],
+   "topic": false
   },
   "omnium gatherum|may the bridges we burn light the way": {
    "id": "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
@@ -7444,6 +7450,11 @@
     }
    ],
    "topic": false
+  },
+  "@artist|zmey gorynich": {
+   "channelId": "UCPVsKaEkx9fgM01P4TvqQGg",
+   "playlists": [],
+   "t": 1795273391264
   }
  },
  "youtube_skip": [
