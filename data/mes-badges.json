@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:49:31.405Z",
+ "maj": "2026-11-21T14:49:43.456Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7255,6 +7255,83 @@
    "id": "PLeddmm5SoD80XYIfARGWw6trZXV_bNjXK",
    "title": "",
    "t": 1795271784680,
+   "bad": [],
+   "topic": true
+  },
+  "@artist|devildriver": {
+   "channelId": "UCvulh-fuk-0bv-_jAFPyFBQ",
+   "playlists": [
+    {
+     "id": "PLiVfBf0imazBMTawnIAPbmTwzZ5GnWq5t",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazB7aZOP92FkEUxongbFd1ET",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazBwB1rzc6VyPRULPOR-Jn6R",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazCxkTDsCR1RSw4DlwhLizj4",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazC1irrNWAKZqyb5HkqIbyX0",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazCc5jHpCi9GJUQrzPEZf5xs",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazDF9EE_NFdnUMknqMqMZ_cD",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazB7crq_5IXgGxIyBUqDeljl",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazBdydrzYtq-7t1e0XTf-zC2",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazDmiiGvPnFHIICWtj4sqzSW",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazDU2vhKJ-figNuIpHzSoTd1",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazCqukuZGJfGcpAn36269EnL",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazBqlcDo4Xi2fZKZmr4d8Um4",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazDtGuLxE_pqcfio9B1q8EH6",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazDEe1GU1TtscifUlbjzCJYg",
+     "title": ""
+    },
+    {
+     "id": "PLiVfBf0imazC7wYFj7flE7d-iM1FxoWwe",
+     "title": ""
+    }
+   ],
+   "t": 1795272581954
+  },
+  "devildriver|strike and kill": {
+   "id": "PLiVfBf0imazBMTawnIAPbmTwzZ5GnWq5t",
+   "title": "",
+   "t": 1795272581956,
    "bad": [],
    "topic": true
   }
