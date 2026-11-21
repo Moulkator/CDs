@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:15:07.884Z",
+ "maj": "2026-11-21T15:15:22.444Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7518,24 +7518,17 @@
    "t": 1795274105737
   },
   "dark tranquillity|endtime signals": {
-   "id": "5o6_oxS0iLM",
+   "id": "BSFUPhq7ziY",
    "video": true,
-   "title": "[Videorecensione] DARK TRANQUILLITY - Endtime Signals (2024)",
-   "t": 1795274106383,
+   "title": "DARK TRANQUILITY Interview: Unveiling the Secrets Behind Endtime Signals!",
+   "t": 1795274120943,
    "bad": [
-    "PLENlJlz08dMrdQzJIl6S6qyph7sm0ryis"
+    "PLENlJlz08dMrdQzJIl6S6qyph7sm0ryis",
+    "5o6_oxS0iLM"
    ],
    "v": 3,
    "partout": true,
-   "cands": [
-    {
-     "id": "BSFUPhq7ziY",
-     "video": true,
-     "title": "DARK TRANQUILITY Interview: Unveiling the Secrets Behind Endtime Signals!",
-     "partout": true,
-     "sc": 4
-    }
-   ],
+   "cands": [],
    "topic": false
   }
  },
