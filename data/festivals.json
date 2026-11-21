@@ -1,6 +1,6 @@
 {
  "maj": "2026-11-21",
- "note": "Liste tenue à la main. statut a_confirmer = dates 2027 pas encore annoncées : dates estimées d'après l'édition 2026.",
+ "note": "Liste tenue à la main. statut a_confirmer = dates 2027 pas encore annoncées : dates estimées d'après l'édition précédente. Prix en euros, indicatifs (année du tarif dans prix_ref), hors frais.",
  "items": [
   {
    "nom": "Hellfest",
@@ -18,7 +18,10 @@
    "affiche": [
     "20e édition"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 389,
+   "prix_jour": 130,
+   "prix_ref": "2027 (jour estimé)"
   },
   {
    "nom": "Motocultor",
@@ -41,7 +44,10 @@
     "Katatonia",
     "Nile"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 217,
+   "prix_jour": 77.5,
+   "prix_ref": "2026"
   },
   {
    "nom": "Heavy Week-End",
@@ -56,7 +62,10 @@
    ],
    "url": "",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Xtreme Fest",
@@ -72,7 +81,10 @@
    ],
    "url": "https://www.xtremefest.fr",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": 150,
+   "prix_jour": 63,
+   "prix_ref": "2026"
   },
   {
    "nom": "Sylak Open Air",
@@ -88,7 +100,10 @@
    ],
    "url": "https://www.sylakopenair.com",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": 110,
+   "prix_jour": null,
+   "prix_ref": "2026"
   },
   {
    "nom": "Cernunnos Pagan Fest",
@@ -103,7 +118,10 @@
    ],
    "url": "",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Mennecy Metal Fest",
@@ -118,7 +136,10 @@
    ],
    "url": "",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": 110,
+   "prix_jour": 44,
+   "prix_ref": "2026"
   },
   {
    "nom": "Rock Your Brain Fest",
@@ -133,7 +154,10 @@
    ],
    "url": "",
    "affiche": [],
-   "statut": "a_confirmer"
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Graspop Metal Meeting",
@@ -156,7 +180,10 @@
     "Parkway Drive",
     "Faith No More"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 319,
+   "prix_jour": 135,
+   "prix_ref": "2026"
   },
   {
    "nom": "Alcatraz",
@@ -175,7 +202,10 @@
     "Skillet",
     "Venom"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 249,
+   "prix_jour": 99,
+   "prix_ref": "2026"
   },
   {
    "nom": "Wacken Open Air",
@@ -196,7 +226,10 @@
     "Dragonforce",
     "Knocked Loose"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 349,
+   "prix_jour": null,
+   "prix_ref": "2027"
   },
   {
    "nom": "Summer Breeze",
@@ -218,7 +251,10 @@
     "Warkings",
     "Dark Funeral"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 250,
+   "prix_jour": null,
+   "prix_ref": "2026"
   },
   {
    "nom": "Rock am Ring",
@@ -239,7 +275,10 @@
     "Faith No More",
     "Bring Me The Horizon"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Download Festival",
@@ -255,7 +294,10 @@
    ],
    "url": "https://downloadfestival.co.uk",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 365,
+   "prix_jour": null,
+   "prix_ref": "2027 (315 £)"
   },
   {
    "nom": "Bloodstock Open Air",
@@ -274,7 +316,10 @@
     "Electric Callboy",
     "Motionless In White"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 270,
+   "prix_jour": null,
+   "prix_ref": "2027 (235 £, camping compris)"
   },
   {
    "nom": "Rebellion",
@@ -294,7 +339,10 @@
     "Save Ferris",
     "Street Dogs"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 315,
+   "prix_jour": 125,
+   "prix_ref": "2026 (272 £ / 108 £)"
   },
   {
    "nom": "Slam Dunk (Leeds / Hatfield)",
@@ -309,7 +357,10 @@
    ],
    "url": "https://slamdunk.com",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Resurrection Fest",
@@ -325,7 +376,10 @@
    ],
    "url": "https://www.resurrectionfest.es",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Rock Imperium",
@@ -346,7 +400,10 @@
     "Mayhem",
     "I Am Morbid"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Leyendas del Rock",
@@ -365,7 +422,10 @@
     "Saltatio Mortis",
     "Wind Rose"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 180,
+   "prix_jour": null,
+   "prix_ref": "2027"
   },
   {
    "nom": "Dynamo Metalfest",
@@ -384,7 +444,10 @@
     "Mercyful Fate",
     "Cavalera"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Into The Grave",
@@ -399,7 +462,10 @@
    ],
    "url": "https://www.intothegrave.nl",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Roadburn",
@@ -414,7 +480,10 @@
    ],
    "url": "https://roadburn.com",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Brutal Assault",
@@ -433,7 +502,10 @@
     "Emperor",
     "Carcass"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": 219,
+   "prix_jour": null,
+   "prix_ref": "2027"
   },
   {
    "nom": "Metalfest Open Air",
@@ -448,7 +520,10 @@
    ],
    "url": "https://www.metalfest.eu",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Rock for People",
@@ -470,7 +545,10 @@
     "Billy Talent",
     "Killswitch Engage"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Nova Rock",
@@ -488,7 +566,10 @@
    "affiche": [
     "Motionless In White"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Full Metal Mayrhofen",
@@ -503,7 +584,10 @@
    ],
    "url": "https://www.full-metal-mayrhofen.com",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Punk Rock Holiday",
@@ -518,7 +602,10 @@
    ],
    "url": "https://www.punkrockholiday.com",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Mystic Festival",
@@ -533,7 +620,10 @@
    ],
    "url": "https://mysticfestival.pl",
    "affiche": [],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Sweden Rock",
@@ -550,7 +640,10 @@
    "affiche": [
     "Europe"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Copenhell",
@@ -569,7 +662,10 @@
     "Judas Priest",
     "D-A-D"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Tons of Rock",
@@ -588,7 +684,10 @@
     "Judas Priest",
     "Turnstile"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
   },
   {
    "nom": "Midgardsblot",
@@ -609,7 +708,213 @@
     "Turbonegro",
     "Einherjer"
    ],
-   "statut": "confirme"
+   "statut": "confirme",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Festival 666",
+   "debut": "2027-08-06",
+   "fin": "2027-08-08",
+   "ville": "Cercoux (Charente-Maritime)",
+   "pays": "France",
+   "lat": 45.133,
+   "lng": -0.215,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://www.festival666.com",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": 99.9,
+   "prix_jour": null,
+   "prix_ref": "2024"
+  },
+  {
+   "nom": "Re-Animator Festival",
+   "debut": "2027-05-06",
+   "fin": "2027-05-08",
+   "ville": "Saint-Nolff",
+   "pays": "France",
+   "lat": 47.704,
+   "lng": -2.652,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "confirme",
+   "prix_pass": 92,
+   "prix_jour": 37,
+   "prix_ref": "2027"
+  },
+  {
+   "nom": "Baillarock",
+   "debut": "2027-05-21",
+   "fin": "2027-05-22",
+   "ville": "Saint-Georges-lès-Baillargeaux",
+   "pays": "France",
+   "lat": 46.664,
+   "lng": 0.4,
+   "genres": [
+    "punk",
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Metal Culture(s)",
+   "debut": "2027-05-05",
+   "fin": "2027-05-08",
+   "ville": "Guéret",
+   "pays": "France",
+   "lat": 46.171,
+   "lng": 1.871,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Rock Métal Camp Fest",
+   "debut": "2027-05-28",
+   "fin": "2027-05-29",
+   "ville": "Saint-Hilaire-les-Places",
+   "pays": "France",
+   "lat": 45.638,
+   "lng": 1.148,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": 0,
+   "prix_jour": 0,
+   "prix_ref": "gratuit (2026)"
+  },
+  {
+   "nom": "Festiv'Asques",
+   "debut": "2027-06-05",
+   "fin": "2027-06-05",
+   "ville": "Asques",
+   "pays": "France",
+   "lat": 44.953,
+   "lng": -0.421,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Plane'R Fest",
+   "debut": "2027-07-02",
+   "fin": "2027-07-03",
+   "ville": "Colombier-Saugnieu",
+   "pays": "France",
+   "lat": 45.718,
+   "lng": 5.103,
+   "genres": [
+    "metal"
+   ],
+   "url": "https://planerfest.com",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Ragnard Rock",
+   "debut": "2027-07-15",
+   "fin": "2027-07-18",
+   "ville": "Simandre-sur-Suran",
+   "pays": "France",
+   "lat": 46.233,
+   "lng": 5.417,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Muscadeath",
+   "debut": "2027-09-17",
+   "fin": "2027-09-18",
+   "ville": "Vallet",
+   "pays": "France",
+   "lat": 47.162,
+   "lng": -1.266,
+   "genres": [
+    "metal"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Rock'n Poche",
+   "debut": "2027-07-30",
+   "fin": "2027-07-31",
+   "ville": "Habère-Poche",
+   "pays": "France",
+   "lat": 46.254,
+   "lng": 6.471,
+   "genres": [
+    "metal",
+    "punk"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": null,
+   "prix_jour": null,
+   "prix_ref": ""
+  },
+  {
+   "nom": "Ardenn'Rock",
+   "debut": "2027-07-02",
+   "fin": "2027-07-04",
+   "ville": "Signy-l'Abbaye",
+   "pays": "France",
+   "lat": 49.7,
+   "lng": 4.42,
+   "genres": [
+    "punk"
+   ],
+   "url": "",
+   "affiche": [],
+   "statut": "a_confirmer",
+   "prix_pass": 44,
+   "prix_jour": null,
+   "prix_ref": "2026"
   }
  ]
 }
