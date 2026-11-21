@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:50:02.804Z",
+ "maj": "2026-11-21T14:50:16.159Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7337,6 +7337,87 @@
     "PLiVfBf0imazB7aZOP92FkEUxongbFd1ET",
     "PLiVfBf0imazBwB1rzc6VyPRULPOR-Jn6R"
    ],
+   "topic": true
+  },
+  "@artist|dark fortress": {
+   "channelId": "UCqtwSYQAPyXI7x_uGS8-QVw",
+   "playlists": [
+    {
+     "id": "PLiS4dVIPcof_8p8mAH0hBXWZN-eU5X01o",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof_GFre8GzBbFEUfzJEarJkv",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof-Y-jpYLc0ImoecgysI2jmL",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof-oFYpwAHucxzfrvtrd7ndH",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof8l4Zucz85TQPN2OYN91mkY",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof--SemHLt3f3ki4ij2ISQLx",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof97d6omzDGpyFt08NUAsuNB",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof_iUYEYf0-XsDjamDIVB_ah",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof9FKmV9pgly9AM5uNGd0x_K",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof-zehKCrVgvmyREi8GJYlyE",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof_ux_CLPY-4447Qi73b8DLu",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof-fRwcikoCO81yYRMzWAVw3",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof-pJW-yvAbEUX02yYcsHewe",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof9R_DIVuMCViimjRlQl6hZ8",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof_2Urz_ElqG98xtlTEVkz-U",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof9vt42cc98CVgJAi2BNYBc4",
+     "title": ""
+    },
+    {
+     "id": "PLiS4dVIPcof9YY6Bwg8lfLSdvpAljJoik",
+     "title": ""
+    }
+   ],
+   "t": 1795272614656
+  },
+  "dark fortress|spectres from the old world": {
+   "id": "PLiS4dVIPcof_8p8mAH0hBXWZN-eU5X01o",
+   "title": "",
+   "t": 1795272614658,
+   "bad": [],
    "topic": true
   }
  },
