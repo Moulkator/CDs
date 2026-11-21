@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T13:29:23Z",
+ "generated": "2026-11-21T15:55:00Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -14224,6 +14224,22 @@
    "duree": "51"
   },
   {
+   "groupe": "Almucantarat",
+   "album": "Weightlessness",
+   "date": "2024-01-05",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/cf8e09561e1a8f3af84ec778bd62de5f/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
+   "mb_rg": "c7689cee-4e85-42d0-b05b-b660d360e856",
+   "refs": [
+    "dz:216138875",
+    "mb:d9cf59ad-a2c6-4e8b-8b56-81ddfc42c84c"
+   ],
+   "deezer_id": 781198601,
+   "duree": "43"
+  },
+  {
    "groupe": "Dragonforce",
    "album": "Astro Warrior Anthem",
    "date": "2024-01-18",
@@ -15121,6 +15137,19 @@
     "dz:108315"
    ],
    "duree": "70"
+  },
+  {
+   "groupe": "Almucantarat",
+   "album": "Constellations",
+   "date": "2024-06-10",
+   "precision": "exact",
+   "type": "ep",
+   "pochette": "",
+   "source": "musicbrainz",
+   "mb_rg": "cca7ffb9-16b7-4a47-bd88-90c8f21aa00f",
+   "refs": [
+    "mb:d9cf59ad-a2c6-4e8b-8b56-81ddfc42c84c"
+   ]
   },
   {
    "groupe": "Dagoba",
@@ -16233,6 +16262,22 @@
    ],
    "deezer_id": 690679891,
    "duree": "134"
+  },
+  {
+   "groupe": "Almucantarat",
+   "album": "Infinity",
+   "date": "2025-02-05",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/066d415f0f30690a07d7f9c5c77912c4/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
+   "mb_rg": "b21018dd-fca0-4cbf-ac55-ff83881aac92",
+   "refs": [
+    "dz:216138875",
+    "mb:d9cf59ad-a2c6-4e8b-8b56-81ddfc42c84c"
+   ],
+   "deezer_id": 781198751,
+   "duree": "43"
   },
   {
    "groupe": "Arch Enemy",
