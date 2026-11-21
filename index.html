@@ -467,6 +467,7 @@ body.has-mp .wrap{padding-bottom:calc(var(--mp-h,90px) + 24px)}
     <button id="mpLyrics" class="mpx" title="Paroles du morceau">📝</button>
     <span class="mpvol"><button id="mpMute" title="Couper le son">🔊</button><input type="range" id="mpVol" min="0" max="100" value="100"></span>
     <a id="mpGoto" href="#aleatoire" title="Aller à l'onglet Album aléatoire">🎲</a>
+    <button id="mpYt" class="mpx" title="Continuer dans YouTube (avec Premium : lecture écran verrouillé)">↗</button>
     <button id="mpClose" class="mpx" title="Arrêter la lecture et fermer le lecteur">✕</button>
   </div>
 </div>
@@ -1398,6 +1399,14 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     clearInterval(RAND.mpTimer); RAND.mpTimer=null; $('miniplayer').style.display='none'; document.body.classList.remove('has-mp');
     try{ if($('lyrics').style.display!=='none') lyToggle(false); }catch(e){} }
   if($('mpClose')) $('mpClose').addEventListener('click',mpFermer);
+  // ↗ : ouvre l'album en cours dans YouTube (application sur téléphone), au bon morceau et au bon moment
+  function mpVersYoutube(){ var p=RAND.current; if(!p) return; var c=(window.YTA&&YTA.cache[key(p.groupe,p.album)])||{}; if(!c.id){ toast('Pas de lien YouTube pour cet album'); return; }
+    var pl=RAND.player, idx=0, t=0, vid=''; try{ idx=pl.getPlaylistIndex?Math.max(0,pl.getPlaylistIndex()):0; t=Math.floor(pl.getCurrentTime?pl.getCurrentTime():0); var vd=pl.getVideoData&&pl.getVideoData(); vid=(vd&&vd.video_id)||''; }catch(e){}
+    var url=c.video ? 'https://www.youtube.com/watch?v='+encodeURIComponent(c.id)+(t?'&t='+t+'s':'')
+                    : 'https://www.youtube.com/watch?'+(vid?'v='+encodeURIComponent(vid)+'&':'')+'list='+encodeURIComponent(c.id)+'&index='+(idx+1)+(t?'&t='+t+'s':'');
+    try{ pl&&pl.pauseVideo&&pl.pauseVideo(); }catch(e){} clearTimeout(RAND.autoTimer);
+    window.open(url,'_blank','noopener'); }
+  if($('mpYt')) $('mpYt').addEventListener('click',mpVersYoutube);
   function mpMesure(){ var mp=$('miniplayer'); if(mp && mp.offsetHeight) document.documentElement.style.setProperty('--mp-h', mp.offsetHeight+'px'); }
   if(window.ResizeObserver && $('miniplayer')) new ResizeObserver(mpMesure).observe($('miniplayer')); window.addEventListener('resize', mpMesure);
   function mpShow(p){ var mp=$('miniplayer'); mp.style.display=''; document.body.classList.add('has-mp'); setTimeout(mpMesure,0); var cv=p.pochette||''; if(cv && !/^https?:|^data:/.test(cv)) cv=cv.replace(/^\/+/,''); $('mpCover').style.backgroundImage=cv?'url("'+cv.replace(/"/g,'')+'")':''; $('mpAlbum').textContent=p.groupe+' — '+p.album; $('mpTrack').textContent='Chargement…'; $('mpSeek').value=0; $('mpCur').textContent='0:00'; $('mpDur').textContent='0:00'; if(!RAND.mpTimer) RAND.mpTimer=setInterval(mpTick,500); }
