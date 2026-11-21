@@ -23,3 +23,26 @@
 .ytmini:hover{color:#e8e4da;border-color:#5a4a1a}
 .ytopen{text-decoration:none;text-align:center;color:#ff8a8a;border-color:#6b2a2a}
 @media (max-width:520px){.ytextra{flex-wrap:wrap}.ytopen{flex:1 1 100%}}
+
+/* Visiteur (pas en mode propriétaire) : on ne montre que ce qui sert à voir et écouter.
+   Tout bouton qui modifie quelque chose (badges, listes, commandes, masquage, liens YouTube, clés) est caché. */
+body:not(.owner) .status,
+body:not(.owner) .wish,
+body:not(.owner) .ecoute,
+body:not(.owner) .cmdbtn,
+body:not(.owner) .cmd-add,
+body:not(.owner) .cmd-recu,
+body:not(.owner) .cmd-recu-p,
+body:not(.owner) .cmd-annul-p,
+body:not(.owner) [data-act=cmdannul],
+body:not(.owner) #gridSorties .acts,
+body:not(.owner) #gridDecouvrir .acts,
+body:not(.owner) [data-act=hide],
+body:not(.owner) [data-act=unhide],
+body:not(.owner) [data-act=rbad],
+body:not(.owner) [data-act=rban],
+body:not(.owner) [data-act=rlink],
+body:not(.owner) #mpBan,
+body:not(.owner) #btnResetHidden,
+body:not(.owner) #btnLastfm,
+body:not(.owner) #btnYt{display:none !important}
