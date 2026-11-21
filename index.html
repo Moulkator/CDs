@@ -467,6 +467,7 @@ body.has-mp .wrap{padding-bottom:calc(var(--mp-h,90px) + 24px)}
     <button id="mpLyrics" class="mpx" title="Paroles du morceau">📝</button>
     <span class="mpvol"><button id="mpMute" title="Couper le son">🔊</button><input type="range" id="mpVol" min="0" max="100" value="100"></span>
     <a id="mpGoto" href="#aleatoire" title="Aller à l'onglet Album aléatoire">🎲</a>
+    <button id="mpClose" class="mpx" title="Arrêter la lecture et fermer le lecteur">✕</button>
   </div>
 </div>
 <div id="toastS"></div>
@@ -1350,7 +1351,7 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
     var active=randUserActive();
     var vars={autoplay:active?1:0, rel:0, playsinline:1}; var opts={playerVars:vars, events:{
       onReady:function(e){ if(gen!==RAND.gen) return; if(randUserActive()){ try{ e.target.playVideo(); }catch(x){} } else { randOverlay(true); } },
-      onStateChange:function(e){ if(gen!==RAND.gen) return; if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); randReconcile(); if(!RAND.reconciled) RAND.playing=true; if(randSkipIfBanned(e.target)) return; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
+      onStateChange:function(e){ if(gen!==RAND.gen) return; if(e.data===YT.PlayerState.PLAYING){ randOverlay(false); if($('miniplayer').style.display==='none' && RAND.current) mpShow(RAND.current); randReconcile(); if(!RAND.reconciled) RAND.playing=true; if(randSkipIfBanned(e.target)) return; } if(e.data===YT.PlayerState.ENDED && $('randAuto').checked && RAND.playing && randAtPlaylistEnd(e.target)){ clearTimeout(RAND.autoTimer); RAND.autoTimer=setTimeout(randNext, 800); } },
       onError:function(e){ if(gen!==RAND.gen) return; var code=e&&e.data, pl=e.target; RAND.errCount=(RAND.errCount||0)+1;
         var list=null, idx=-1; try{ list=pl.getPlaylist&&pl.getPlaylist(); idx=pl.getPlaylistIndex?pl.getPlaylistIndex():-1; }catch(x){}
         var why={2:'lien invalide',5:'erreur du lecteur',100:'vidéo supprimée ou privée',101:'intégration interdite par l\'ayant droit',150:'intégration interdite par l\'ayant droit'}[code]||('code '+code);
@@ -1389,6 +1390,12 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   // marge du bas = hauteur réelle du lecteur (elle change selon la largeur de l'écran)
   // clic sur la pochette / le titre du lecteur → page Album aléatoire
   ['mpCover','mpAlbum','mpTrack'].forEach(function(id){ var e=$(id); if(!e) return; e.style.cursor='pointer'; e.title='Aller à l\'album aléatoire'; e.addEventListener('click',function(){ if(location.hash!=='#aleatoire') location.hash='#aleatoire'; else window.scrollTo({top:0,behavior:'smooth'}); }); });
+  // ✕ : met en pause la vidéo de l'Album aléatoire et ferme le lecteur (il revient au prochain lancement)
+  function mpFermer(){ clearTimeout(RAND.autoTimer); clearTimeout(RAND.wdTimer); RAND.playing=false;
+    try{ RAND.player&&RAND.player.pauseVideo&&RAND.player.pauseVideo(); }catch(e){}
+    clearInterval(RAND.mpTimer); RAND.mpTimer=null; $('miniplayer').style.display='none'; document.body.classList.remove('has-mp');
+    try{ if($('lyrics').style.display!=='none') lyToggle(false); }catch(e){} }
+  if($('mpClose')) $('mpClose').addEventListener('click',mpFermer);
   function mpMesure(){ var mp=$('miniplayer'); if(mp && mp.offsetHeight) document.documentElement.style.setProperty('--mp-h', mp.offsetHeight+'px'); }
   if(window.ResizeObserver && $('miniplayer')) new ResizeObserver(mpMesure).observe($('miniplayer')); window.addEventListener('resize', mpMesure);
   function mpShow(p){ var mp=$('miniplayer'); mp.style.display=''; document.body.classList.add('has-mp'); setTimeout(mpMesure,0); var cv=p.pochette||''; if(cv && !/^https?:|^data:/.test(cv)) cv=cv.replace(/^\/+/,''); $('mpCover').style.backgroundImage=cv?'url("'+cv.replace(/"/g,'')+'")':''; $('mpAlbum').textContent=p.groupe+' — '+p.album; $('mpTrack').textContent='Chargement…'; $('mpSeek').value=0; $('mpCur').textContent='0:00'; $('mpDur').textContent='0:00'; if(!RAND.mpTimer) RAND.mpTimer=setInterval(mpTick,500); }
