@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T18:32:09.114Z",
+ "maj": "2026-11-21T10:10:01.207Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6321,7 +6321,18 @@
  "youtube_skip": [
   "J0vUqvfHQeQ"
  ],
- "commandes": [],
+ "commandes": [
+  {
+   "groupe": "Valhalore",
+   "album": "Beyond The Stars",
+   "date": "2026-11-21",
+   "style": "Epic Folk Metal",
+   "pays": "Australie",
+   "annee": "2025",
+   "duree": "48",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/217e4bdd7489955eb066a6d4181343bf/500x500-000000-80-0-0.jpg"
+  }
+ ],
  "achetes": [
   {
    "groupe": "Gloryhammer",
