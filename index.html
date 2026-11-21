@@ -1387,6 +1387,8 @@ function isFreshPreview(url){ if(!url) return false; var m=String(url).match(/[?
   // ------------------------------------------------------------ MINI-LECTEUR (bas de page)
   function mpFmt(t){ t=Math.max(0,Math.floor(t||0)); var h=Math.floor(t/3600), m=Math.floor((t%3600)/60), sec=t%60; return (h?h+':'+String(m).padStart(2,'0'):m)+':'+String(sec).padStart(2,'0'); }
   // marge du bas = hauteur réelle du lecteur (elle change selon la largeur de l'écran)
+  // clic sur la pochette / le titre du lecteur → page Album aléatoire
+  ['mpCover','mpAlbum','mpTrack'].forEach(function(id){ var e=$(id); if(!e) return; e.style.cursor='pointer'; e.title='Aller à l\'album aléatoire'; e.addEventListener('click',function(){ if(location.hash!=='#aleatoire') location.hash='#aleatoire'; else window.scrollTo({top:0,behavior:'smooth'}); }); });
   function mpMesure(){ var mp=$('miniplayer'); if(mp && mp.offsetHeight) document.documentElement.style.setProperty('--mp-h', mp.offsetHeight+'px'); }
   if(window.ResizeObserver && $('miniplayer')) new ResizeObserver(mpMesure).observe($('miniplayer')); window.addEventListener('resize', mpMesure);
   function mpShow(p){ var mp=$('miniplayer'); mp.style.display=''; document.body.classList.add('has-mp'); setTimeout(mpMesure,0); var cv=p.pochette||''; if(cv && !/^https?:|^data:/.test(cv)) cv=cv.replace(/^\/+/,''); $('mpCover').style.backgroundImage=cv?'url("'+cv.replace(/"/g,'')+'")':''; $('mpAlbum').textContent=p.groupe+' — '+p.album; $('mpTrack').textContent='Chargement…'; $('mpSeek').value=0; $('mpCur').textContent='0:00'; $('mpDur').textContent='0:00'; if(!RAND.mpTimer) RAND.mpTimer=setInterval(mpTick,500); }
