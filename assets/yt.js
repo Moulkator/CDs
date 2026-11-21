@@ -65,7 +65,10 @@
       if(!force && c.id){
         if(c.v===3 || !YTA.getKey() || YTA.quotaOut()){ cb(c.id); return; }
         // trouvaille d'avant la vérification : on la contrôle (2-3 unités de quota) avant de la lire
-        YTA._valider(c, function(ok, partout){ if(ok){ var cc=YTA.cache[k]; if(cc&&cc.id===c.id){ cc.v=3; cc.partout=!!partout; save(); try{ YTA.persist&&YTA.persist(); }catch(e){} } cb(c.id); return; }
+        YTA._valider(c, function(ok, partout){
+          if(ok && !partout){ // lisible en France seulement : une recherche (une seule fois) d'une version lisible aussi à Jersey, l'actuelle en réserve
+            YTA._findSearch(groupe, album, cleanTitle(album)||album, k, bad, cb, {id:c.id, video:!!c.video, title:c.title, topic:!!c.topic, partout:false, sc:9}); return; }
+          if(ok){ var cc=YTA.cache[k]; if(cc&&cc.id===c.id){ cc.v=3; cc.partout=true; save(); try{ YTA.persist&&YTA.persist(); }catch(e){} } cb(c.id); return; }
           if(bad.indexOf(c.id)<0) bad.push(c.id); YTA.cache[k]={bad:bad,t:Date.now(),cands:c.cands||[]}; save(); YTA.find(groupe, album, cb, true); });
         return; }
       if(!force && c.none && Date.now()-c.t<7*864e5){ cb(null,'Ni vidéo ni playlist lisible trouvée pour cet album (revérifié dans quelques jours).'); return; }
