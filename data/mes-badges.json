@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:10:39.300Z",
+ "maj": "2026-11-21T12:11:05.519Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6682,6 +6682,13 @@
    "t": 1795263037799,
    "bad": [],
    "topic": true
+  },
+  "sigh|i saw the world s end hangman s hymn mmxxv rerecorded": {
+   "none": 1,
+   "t": 1795263064552,
+   "bad": [
+    "PLCmS-PYflZ_qvKf-OTmOSyBwA9QCW34hV"
+   ]
   }
  },
  "youtube_skip": [
