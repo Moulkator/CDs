@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:27:01.921Z",
+ "maj": "2026-11-21T15:34:10.873Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7699,6 +7699,16 @@
    "annee": "2017",
    "duree": "50",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/792bc1065226f0f9c39a40e30f3dff85/500x500-000000-80-0-0.jpg"
+  },
+  {
+   "groupe": "Saor",
+   "album": "Caledonia",
+   "date": "2026-11-21",
+   "style": "Folk Black Metal",
+   "pays": "Écosse (Glasgow)",
+   "annee": "2026",
+   "duree": "51",
+   "pochette": "https://www.metal-archives.com/images/1/4/7/1/1471022.jpg?0410"
   }
  ],
  "achetes": [
@@ -7989,23 +7999,6 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Almucantarat",
-   "album": "Weightlessness",
-   "style": "",
-   "pays": "",
-   "langue": "",
-   "annee": "2024",
-   "duree": "",
-   "note": "",
-   "pochette": "https://cdn-images.dzcdn.net/images/cover/cf8e09561e1a8f3af84ec778bd62de5f/500x500-000000-80-0-0.jpg",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Recherche",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
