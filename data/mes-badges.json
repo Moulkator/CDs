@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:14:59.480Z",
+ "maj": "2026-11-21T12:26:37.200Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -2522,7 +2522,7 @@
      "title": ""
     }
    ],
-   "t": 1790181876222
+   "t": 1795263141788
   },
   "bullet for my valentine|live from brixton chapter two night one": {
    "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
@@ -6748,11 +6748,32 @@
    "topic": true
   },
   "the offspring|supercharged worldwide in 25": {
-   "id": "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
+   "id": "PL99E7hmNQn650QPV1MRtiRt7ikFjxYK7a",
+   "title": "SUPERCHARGED WORLDWIDE IN ‘25",
+   "t": 1795263138967,
+   "bad": [
+    "PL4umc8IE6eUPNioCILZ0FbAr2jAXFSkjr",
+    "PL4umc8IE6eUN8shaJipd24q9mUD5tYNvl"
+   ]
+  },
+  "bullet for my valentine|rainbow veins": {
+   "id": "PLmmWbcMayTQX0ps2o94PBZIlKaVc6WMS5",
    "title": "",
-   "t": 1795263069513,
+   "t": 1795263141789,
    "bad": [],
    "topic": true
+  },
+  "@artist|elffor": {
+   "channelId": "UCMB7_EL4EwV7TMbCIkhQ3Fw",
+   "playlists": [],
+   "t": 1795263995102
+  },
+  "elffor|arkaik ii": {
+   "id": "wFn5fjywGG0",
+   "video": true,
+   "title": "Elffor - Arkaik III (Full Album)",
+   "t": 1795263995699,
+   "bad": []
   }
  },
  "youtube_skip": [
@@ -6868,6 +6889,23 @@
   }
  ],
  "souhaits": [
+  {
+   "groupe": "Noumena",
+   "album": "Myrrys",
+   "style": "Melodic Death Metal",
+   "pays": "Finlande",
+   "langue": "",
+   "annee": "2017",
+   "duree": "49",
+   "note": "",
+   "pochette": "https://coverartarchive.org/release-group/0007c546-854a-429a-9690-f5a96b8cce68/front-500",
+   "preview": "",
+   "historique": "",
+   "auto_source": "ajouté depuis Album aléatoire",
+   "auto_fields": "",
+   "pending_review": "1",
+   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
+  },
   {
    "groupe": "Noumena",
    "album": "Maanääri",
@@ -7051,23 +7089,6 @@
    "preview": "",
    "historique": "",
    "auto_source": "ajouté depuis Sorties à surveiller",
-   "auto_fields": "",
-   "pending_review": "1",
-   "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
-  },
-  {
-   "groupe": "Noumena",
-   "album": "Myrrys",
-   "style": "Melodic Death Metal",
-   "pays": "Finlande",
-   "langue": "",
-   "annee": "2017",
-   "duree": "49",
-   "note": "",
-   "pochette": "https://coverartarchive.org/release-group/0007c546-854a-429a-9690-f5a96b8cce68/front-500",
-   "preview": "",
-   "historique": "",
-   "auto_source": "ajouté depuis Album aléatoire",
    "auto_fields": "",
    "pending_review": "1",
    "review_reason": "ajouté via le bouton Liste de souhaits ; à compléter"
