@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:03:45.479Z",
+ "maj": "2026-11-21T15:14:26.696Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -108,8 +108,7 @@
   "omnium gatherum|may the bridges we burn light the way": {
    "id": "PLDhajrZgo0TJpO3UdP2skjze9449IwAuf",
    "title": "Omnium Gatherum - May the Bridges We Burn Light the Way (ALBUM 2025)",
-   "t": 1789893708674,
-   "v": 2
+   "t": 1789893708674
   },
   "vomitron|3": {
    "id": "PLc7S9rhOEzDnRvHKXghaKrYeQ4btOnTzm",
@@ -7256,10 +7255,33 @@
    "t": 1795271784679
   },
   "fear factory|aggression continuum": {
-   "id": "PLeddmm5SoD80XYIfARGWw6trZXV_bNjXK",
+   "id": "PLeddmm5SoD82vu7W-1bTGPujrxg-2iyOL",
    "title": "",
-   "t": 1795271784680,
-   "bad": [],
+   "t": 1795274049787,
+   "bad": [
+    "PLeddmm5SoD80XYIfARGWw6trZXV_bNjXK",
+    "PLeddmm5SoD82N9jOrmk8uYQiTM4IGz2ym",
+    "PLeddmm5SoD82J_iwqG4akpr53ZejgceAE",
+    "PLeddmm5SoD837Z6SERt5eiF9VvmgeF-4S",
+    "PLeddmm5SoD82uzFxXId-SJZn08MT1sLNQ",
+    "PLeddmm5SoD80SLCH1A2c2lG4Nl9AGVJ_Z",
+    "PLeddmm5SoD81skLlpJNO9sE5XrAZDhsiD",
+    "PLeddmm5SoD81mVOI1ZvrO5-O4C2OUUnvH",
+    "PLeddmm5SoD83Vk7WfAlQCAnckP-ku9leJ",
+    "PLeddmm5SoD80DZ1R4ASY8pf-YHAOZCe7y",
+    "PLeddmm5SoD80awKgCjoeS2_akuAegharr",
+    "PLeddmm5SoD80XFIsuxHRfEMolV5XbwN6W",
+    "PLeddmm5SoD81w5kYS6quUGXO647h-mT4a",
+    "PLeddmm5SoD83CX_naR7j12xp1dxbRuV7x",
+    "PLeddmm5SoD80zyH5oFPwLpWR2xXP7O2T5",
+    "PLeddmm5SoD800uuZLBVsPQ3e8r2u6HZWc",
+    "PLeddmm5SoD81B5GNaqIOtFmbHdgtCl43J",
+    "PLeddmm5SoD82gt9LIkW8lDIIh2d1_r1bp",
+    "PLeddmm5SoD81PFqNT-362C6S2MByXPpCC",
+    "PLeddmm5SoD83LwXm-iedflzSn9eRsrbPn",
+    "PLeddmm5SoD83Edkh2cm0A8TTBVWOf5Yga",
+    "PLeddmm5SoD823EKsHxOqrTL-UBpCSthpz"
+   ],
    "topic": true
   },
   "@artist|devildriver": {
@@ -7426,12 +7448,35 @@
    "bad": [],
    "topic": true
   },
-  "aeternam|heir of the rising sun": {
-   "id": "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb",
+  "@artist|panopticon": {
+   "channelId": "UCYfj0lcb6u2CMOV8TT9kn2A",
+   "playlists": [
+    {
+     "id": "PLWZpjRqGiakRxjCFIkwTKIkYFEkaapSgY",
+     "title": ""
+    }
+   ],
+   "t": 1795274034199
+  },
+  "panopticon|nechochwen panopticon": {
+   "id": "PLWZpjRqGiakRxjCFIkwTKIkYFEkaapSgY",
    "title": "",
-   "t": 1795273321457,
+   "t": 1795274034214,
    "bad": [],
    "topic": true
+  },
+  "aeternam|heir of the rising sun": {
+   "id": "geLHUxtV5UI",
+   "video": true,
+   "title": "AETERNAM - Heir of the Rising Sun - FULL ALBUM (2022)",
+   "t": 1795274065193,
+   "bad": [
+    "PLhjSLNwjfpGjknxqvSpSt1auRovutXMfb"
+   ],
+   "v": 3,
+   "partout": true,
+   "cands": [],
+   "topic": false
   },
   "carrion vael|slay utterly": {
    "id": "PLZNIiX5UQ_PGdJ0f6l07AVqIzXtv__Q6J",
