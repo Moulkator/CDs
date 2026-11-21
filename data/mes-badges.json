@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:35:17.852Z",
+ "maj": "2026-11-21T16:59:48.780Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3741,12 +3741,26 @@
    "t": 1795023932902
   },
   "whitechapel|live in the valley": {
-   "id": "PLULpfb6LMekswpgXeRkGp1-TOgPzUjUW6",
-   "title": "Whitechapel - Live in the Valley (Full Album)",
-   "t": 1790630462934,
+   "id": "oCJFoqZx3T8",
+   "video": true,
+   "title": "Whitechapel - Live in the Valley (FULL ALBUM)",
+   "t": 1795280387277,
    "bad": [
     "PL32RbIoWqvZQ6iOQTyTQeWi94JLQY4AxO"
-   ]
+   ],
+   "v": 4,
+   "partout": true,
+   "cands": [
+    {
+     "id": "PLULpfb6LMekswpgXeRkGp1-TOgPzUjUW6",
+     "video": false,
+     "title": "Whitechapel - Live in the Valley (Full Album)",
+     "topic": false,
+     "partout": false,
+     "sc": 9
+    }
+   ],
+   "topic": false
   },
   "@artist|3 inches of blood": {
    "channelId": "UCwa_1qZHqIGupwT1JrdJr7w",
