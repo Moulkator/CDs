@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:10:37.069Z",
+ "maj": "2026-11-21T12:10:39.300Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6569,6 +6569,119 @@
     "PLIemNYWGiaES8TsSNHEN-GgZnNwh2tn2u",
     "PLIemNYWGiaERf6cACTTj50DEv2hqQrX3n"
    ]
+  },
+  "@artist|behemoth": {
+   "channelId": "UCkXmQ7w1rr63TL2So6Q2qLQ",
+   "playlists": [
+    {
+     "id": "PLQPI6NnfEIKP1EdpAyi_wisXHOFFFT5zn",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKOr_rgy3TymOKjMXgdqDvNd",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKMV6m_60B81-OnYivyAdWqE",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKN8oZutchKfNwMmCVYnNSz8",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKNggPbbJc0wjRPP0VuGA_LQ",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKOApuLQQjpeel90lrzeQwAE",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKODaymoLtImcgdz2KZ6EQ7Y",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKO8EAuYUb_6ZlLXKBN3H3oV",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKO2nsSNEck8xxPbxCPsaRbh",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKOyHhtGLN4H7QhTAQiJ9Mdg",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKMMUUp02h7DrNIh-2l--hPh",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKN0k0COJf1AhaPNrRCQCPKI",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKN4dm2YucBWbF8KFCJaRL6a",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKOf0MVH6uXpFZaq3DIXMGJd",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKN_apMyfGnNXjjRzJu9VCc1",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKOJy2HiaRiA27PU4NkMvQOK",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKPueYaizlOilRXI6bwL3ZhA",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKNCFPFqZgFuPoWXrlab2K7C",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKPJ1t3cE4lLQSNNX2fD2bJj",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKMBMs-jfII-VLbBjZkNxjTV",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKNsuOZN4onryS5-TROQrqIw",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKPLLMDEG7W903hi4vZGdVlU",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKPbtVvUJ5Jkk190T0ertKwi",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKMSFj0x1XEHtCq5BPNRSe4L",
+     "title": ""
+    },
+    {
+     "id": "PLQPI6NnfEIKMzbkfhhle6l_Cu5dn1aS7x",
+     "title": ""
+    }
+   ],
+   "t": 1795263037797
+  },
+  "behemoth|satanica": {
+   "id": "PLQPI6NnfEIKP1EdpAyi_wisXHOFFFT5zn",
+   "title": "",
+   "t": 1795263037799,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
