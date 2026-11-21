@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T12:27:52.466Z",
+ "maj": "2026-11-21T12:40:49.827Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -1658,7 +1658,7 @@
      "title": ""
     }
    ],
-   "t": 1790170815712
+   "t": 1795264848324
   },
   "manegarm|edsvuren": {
    "id": "PLnwUx43NhUZEkMMzjzxZIGTT9CuBAcMh8",
@@ -4253,14 +4253,8 @@
    ]
   },
   "@artist|mechina": {
-   "channelId": "UCv02JZkHXk-u673JlxF48kQ",
-   "playlists": [
-    {
-     "id": "PLm2CC1InYGb-aAy9J6of7nSV9LFB6VSHW",
-     "title": ""
-    }
-   ],
-   "t": 1790687669023
+   "none": 1,
+   "t": 1795264073883
   },
   "mechina|telesterion instrumental": {
    "id": "PLm2CC1InYGb-aAy9J6of7nSV9LFB6VSHW",
@@ -5278,7 +5272,7 @@
   "@artist|galactic empire": {
    "channelId": "UC1aswjmEvsprbBTtMdFGQTQ",
    "playlists": [],
-   "t": 1791894595056
+   "t": 1795264072810
   },
   "galactic empire|cinemetal": {
    "id": "PL44gxJwuwoaZ94Ep3tNQl2zpDnZ6v1Jno",
@@ -6845,6 +6839,238 @@
     }
    ],
    "t": 1795264070449
+  },
+  "galactic empire|special": {
+   "id": "PLYQhPJrQIlgO4HZztEHm8f1_I8jCaSY4g",
+   "title": "Galactic Empire - Special Edition (New Record)",
+   "t": 1795264073872,
+   "bad": [
+    "PLqFggYvIv7WruUPo-NRrzUzaJIeDmcDiR"
+   ]
+  },
+  "mechina|as embers turn to dust instrumentals": {
+   "none": 1,
+   "t": 1795264074435,
+   "bad": []
+  },
+  "@artist|sinergy": {
+   "channelId": "UCi9SUkQk770sTvAhdqYplPw",
+   "playlists": [
+    {
+     "id": "PLb0GuUcc8JnQsMh8Yo_5ofkQ_KC8L_qee",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnQGim8hnG9jtYyXhJ3BFje6",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnRBtnsDNMjtk1xincGf6g5A",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnTUPIh_DUGsZzOmJ-X1T01Q",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnQNYT3xNVbEUO0DEcTkZCl6",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnQDC142RdO0T6m3Sq66lKj4",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnQV0H0JL2j_yZbFcfKtUPCd",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnSRS2fTzcp_9bb4gTqHSfFI",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnR2-a4WC9Tp7SNuca54ob0z",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnTPQEuOVu2En9FjP5Z9RRNR",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnSzqeixjgEqH55RgnSEl_Pg",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnSYfnZPxBQOitUHQFxYQDXQ",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnRJilxIluhAQnkIByzipH6D",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnQy7_L7SnYH1WSy7SkI-dl3",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnTwXjHer65rLy7MQnmPJOHR",
+     "title": ""
+    },
+    {
+     "id": "PLb0GuUcc8JnSFyBXT09-MkA0BwCF4zPwW",
+     "title": ""
+    }
+   ],
+   "t": 1795264833179
+  },
+  "sinergy|suicide by my side": {
+   "id": "PLb0GuUcc8JnRJilxIluhAQnkIByzipH6D",
+   "title": "",
+   "t": 1795264836430,
+   "bad": [
+    "PLb0GuUcc8JnQsMh8Yo_5ofkQ_KC8L_qee",
+    "PLb0GuUcc8JnQGim8hnG9jtYyXhJ3BFje6",
+    "PLb0GuUcc8JnRBtnsDNMjtk1xincGf6g5A",
+    "PLb0GuUcc8JnTUPIh_DUGsZzOmJ-X1T01Q",
+    "PLb0GuUcc8JnQNYT3xNVbEUO0DEcTkZCl6",
+    "PLb0GuUcc8JnQDC142RdO0T6m3Sq66lKj4",
+    "PLb0GuUcc8JnQV0H0JL2j_yZbFcfKtUPCd",
+    "PLb0GuUcc8JnSRS2fTzcp_9bb4gTqHSfFI",
+    "PLb0GuUcc8JnR2-a4WC9Tp7SNuca54ob0z",
+    "PLb0GuUcc8JnTPQEuOVu2En9FjP5Z9RRNR",
+    "PLb0GuUcc8JnSzqeixjgEqH55RgnSEl_Pg",
+    "PLb0GuUcc8JnSYfnZPxBQOitUHQFxYQDXQ"
+   ],
+   "topic": true
+  },
+  "@artist|powerglove": {
+   "channelId": "UCbUbaoAJ4RSQ7JR_tibXqFw",
+   "playlists": [
+    {
+     "id": "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zilArnzAwMV_VjPfdQBmep",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0wQt41gQ6kVxZ-RhafLu0N_",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xtz-yUxbj4LvNT1Lovhqf8",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xOTpUiHZa7bGmzyFnBxi6x",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0yI5PlA86IJbQ--yvp_uwY7",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xrj41jGlEHsF9FzN-_GtTZ",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xuxJn4ZEbKK5bTBVjKdD9x",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0wtMjp_GYOAniYMMja6T1m1",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zPHANliV16TNrxoUJfyPfF",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x41uCsoO8qMRMREkUCjuq9",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zHCpqs8szh2s2TMWpbSr2k",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x8urx9kFZyTcBJsM1BPlP8",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0zMCTjT9_XkWrmlLAIIwmrV",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0x-z2NU0kC87cTRwsrxnZIr",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0y0pM6sLVr1iECBoigdXP1K",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0y2eCLAqPJ85lyOTEmZIm5s",
+     "title": ""
+    },
+    {
+     "id": "PLMcxsZ5z9i0xlSELxhuWfqiXVveiVhiI9",
+     "title": ""
+    }
+   ],
+   "t": 1795264837937
+  },
+  "powerglove|flawless victory": {
+   "none": 1,
+   "t": 1795264844092,
+   "bad": [
+    "PLMcxsZ5z9i0wevpe_woaDeDyyOW7bfdku",
+    "PLMcxsZ5z9i0zilArnzAwMV_VjPfdQBmep",
+    "PLMcxsZ5z9i0wQt41gQ6kVxZ-RhafLu0N_",
+    "PLMcxsZ5z9i0xtz-yUxbj4LvNT1Lovhqf8",
+    "PLMcxsZ5z9i0xOTpUiHZa7bGmzyFnBxi6x",
+    "PLMcxsZ5z9i0yI5PlA86IJbQ--yvp_uwY7",
+    "PLMcxsZ5z9i0xrj41jGlEHsF9FzN-_GtTZ",
+    "PLMcxsZ5z9i0xuxJn4ZEbKK5bTBVjKdD9x",
+    "PLMcxsZ5z9i0wtMjp_GYOAniYMMja6T1m1",
+    "PLMcxsZ5z9i0zPHANliV16TNrxoUJfyPfF",
+    "PLMcxsZ5z9i0x41uCsoO8qMRMREkUCjuq9",
+    "PLMcxsZ5z9i0zHCpqs8szh2s2TMWpbSr2k",
+    "PLMcxsZ5z9i0x8urx9kFZyTcBJsM1BPlP8",
+    "PLMcxsZ5z9i0zMCTjT9_XkWrmlLAIIwmrV",
+    "PLMcxsZ5z9i0x-z2NU0kC87cTRwsrxnZIr",
+    "PLMcxsZ5z9i0y0pM6sLVr1iECBoigdXP1K",
+    "PLMcxsZ5z9i0y2eCLAqPJ85lyOTEmZIm5s",
+    "PLMcxsZ5z9i0xlSELxhuWfqiXVveiVhiI9",
+    "PLVktj6G3JjJ4msTv4_WD34CVhgLM2IgKo"
+   ]
+  },
+  "waylander|eriu s wheel": {
+   "id": "jGppLm-IpU8",
+   "video": true,
+   "title": "Waylander - Ériú’s Wheel (Full Album) 2019 Folk Metal",
+   "t": 1795264848048,
+   "bad": [
+    "PLl96JnbvQYrWIwX6qGMX1FQjcGj6tgChm",
+    "PLl96JnbvQYrVU_KPILTpSjahHLOYIAOJE",
+    "PLl96JnbvQYrWoPKly-08aZRBHkt5Ll6z4",
+    "PLl96JnbvQYrU0fhEsbu1b-yyk972Brrjr",
+    "PLl96JnbvQYrXwv3pgtxmU271m1QQCmwOe",
+    "PLl96JnbvQYrUvfKhNyWu8ZpGUdh1Zpnt1",
+    "PLl96JnbvQYrViw8lJ_OfFqs_kYcbDH57e",
+    "PLl96JnbvQYrXOJM8EdC5G6QFyhdNOdV7G",
+    "PLl96JnbvQYrWUxtZnWG38iUXo8bT5zsCl",
+    "PLl96JnbvQYrUCDz8XcsXyVqh34mcFCPA5",
+    "PLl96JnbvQYrUw0Vv-SUhdDy9DEc9TE63g"
+   ]
+  },
+  "manegarm|fornaldarsagor": {
+   "id": "PLnwUx43NhUZEkMMzjzxZIGTT9CuBAcMh8",
+   "title": "",
+   "t": 1795264848327,
+   "bad": [],
+   "topic": true
   }
  },
  "youtube_skip": [
