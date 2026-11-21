@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:51:45.089Z",
+ "maj": "2026-11-21T14:52:32.673Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7329,17 +7329,17 @@
    "t": 1795272581954
   },
   "devildriver|strike and kill": {
-   "id": "PLiVfBf0imazCc5jHpCi9GJUQrzPEZf5xs",
-   "title": "",
-   "t": 1795272703588,
+   "id": "zznpE7rGPAM",
+   "video": true,
+   "title": "(vidéo saisie à la main)",
+   "t": 1795272751171,
    "bad": [
     "PLiVfBf0imazBMTawnIAPbmTwzZ5GnWq5t",
     "PLiVfBf0imazB7aZOP92FkEUxongbFd1ET",
     "PLiVfBf0imazBwB1rzc6VyPRULPOR-Jn6R",
     "PLiVfBf0imazCxkTDsCR1RSw4DlwhLizj4",
     "PLiVfBf0imazC1irrNWAKZqyb5HkqIbyX0"
-   ],
-   "topic": true
+   ]
   },
   "@artist|dark fortress": {
    "channelId": "UCqtwSYQAPyXI7x_uGS8-QVw",
