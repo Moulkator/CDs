@@ -46,3 +46,5 @@ body:not(.owner) #mpBan,
 body:not(.owner) #btnResetHidden,
 body:not(.owner) #btnLastfm,
 body:not(.owner) #btnYt{display:none !important}
+.cov-flag{position:absolute;top:6px;right:6px;z-index:3;background:rgba(160,44,44,.92);color:#fff;border:0;border-radius:6px;font:600 .72rem/1.2 inherit;padding:3px 7px;cursor:pointer}
+.cov-flag:hover{background:#c43b3b}
