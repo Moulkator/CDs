@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T15:20:53.558Z",
+ "maj": "2026-11-21T15:20:56.930Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -3657,7 +3657,7 @@
   "@artist|almucantarat": {
    "channelId": "UCgITwFjSSUu0Oy06GyoGsAw",
    "playlists": [],
-   "t": 1790616244387
+   "t": 1795274455119
   },
   "almucantarat|infinity": {
    "id": "BXs_6likSZA",
@@ -7638,6 +7638,39 @@
      "title": "Sum 41 - Heaven X Hell 2024 - The Heaven Side",
      "partout": true,
      "sc": 7
+    }
+   ],
+   "topic": false
+  },
+  "almucantarat|weightlessness": {
+   "id": "kSOTSDIoLLk",
+   "video": true,
+   "title": "Almucantarat - Weightlessness (Full Album)",
+   "t": 1795274455427,
+   "bad": [],
+   "v": 3,
+   "partout": true,
+   "cands": [
+    {
+     "id": "aymCMaLx__E",
+     "video": true,
+     "title": "Almucantarat - Weightlessness (Full Album)",
+     "partout": true,
+     "sc": 8
+    },
+    {
+     "id": "pasj7UT8AZw",
+     "video": true,
+     "title": "Almucantarat - Weightlessness (Full Album 2024)",
+     "partout": true,
+     "sc": 8
+    },
+    {
+     "id": "PIV8ikquzEc",
+     "video": true,
+     "title": "Almucantarat - Weightlessness  (2024) (Full Album Stream)",
+     "partout": true,
+     "sc": 8
     }
    ],
    "topic": false
