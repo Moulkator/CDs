@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:39:52.757Z",
+ "maj": "2026-11-21T11:55:34.561Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -925,8 +925,28 @@
   },
   "vomitron|nessessary evil": {
    "none": 1,
-   "t": 1790108343462,
-   "bad": []
+   "t": 1795262133686,
+   "bad": [
+    "PLxhPd8i5dLHK1emAsej4GQs0ZjhAh9TpR",
+    "PLxhPd8i5dLHLQQjVokzxlLXruvkqil1Ae",
+    "PLxhPd8i5dLHKCIVVT5oJzNLAkqzk3_ie8",
+    "PLxhPd8i5dLHKDd9-pJqr2I8xM5eByXnnS",
+    "PLxhPd8i5dLHLTpoBUfUxkxvyyMh7RC7e4",
+    "PLxhPd8i5dLHK2cbxej5cyeXqfmPmcaCrR",
+    "PLxhPd8i5dLHISP9TloTd6ndt4VXhVQu2r",
+    "PLxhPd8i5dLHLHFzSAGTbgKCcvOFl09Xjs",
+    "PLxhPd8i5dLHI1Pay1sSIiQaOvAS4ShG6g",
+    "PLxhPd8i5dLHK60AvfeU2ISPBOcmnmIGij",
+    "PLxhPd8i5dLHKCD9NlkXksLhnLVrKNwy4Z",
+    "PLxhPd8i5dLHKspaV5v76xIyGqowPMQRKk",
+    "PLxhPd8i5dLHK5vgl9_S5AnNzN9oNPUHCL",
+    "PLxhPd8i5dLHKzgccJlazA5FcrQR2hLOn2",
+    "PLxhPd8i5dLHJzxwTpd6bXwWG7n4Y_Ru5k",
+    "PLxhPd8i5dLHLrZkOVJY2OaZrOLAKlcl7C",
+    "PLxhPd8i5dLHKP6QkVy1k19hsSCYF1N7o8",
+    "PLxhPd8i5dLHKltOzHaUmP8h9aDN0Mh7KS",
+    "PLxhPd8i5dLHLND4fiF6VOUbXQ7cb0yK1i"
+   ]
   },
   "stormtide|a throne of hollow fire": {
    "none": 1,
@@ -6341,6 +6361,104 @@
   "moonlight sorcery|nightwind the conqueror from the stars": {
    "none": 1,
    "t": 1795261191780,
+   "bad": []
+  },
+  "@artist|vomitron": {
+   "channelId": "UCoP4Lp2oRkmjGIKhjzZXW4Q",
+   "playlists": [
+    {
+     "id": "PLxhPd8i5dLHK1emAsej4GQs0ZjhAh9TpR",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHLQQjVokzxlLXruvkqil1Ae",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKCIVVT5oJzNLAkqzk3_ie8",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKDd9-pJqr2I8xM5eByXnnS",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHLTpoBUfUxkxvyyMh7RC7e4",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHK2cbxej5cyeXqfmPmcaCrR",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHISP9TloTd6ndt4VXhVQu2r",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHLHFzSAGTbgKCcvOFl09Xjs",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHI1Pay1sSIiQaOvAS4ShG6g",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHK60AvfeU2ISPBOcmnmIGij",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKCD9NlkXksLhnLVrKNwy4Z",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKspaV5v76xIyGqowPMQRKk",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHK5vgl9_S5AnNzN9oNPUHCL",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKzgccJlazA5FcrQR2hLOn2",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHJzxwTpd6bXwWG7n4Y_Ru5k",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHLrZkOVJY2OaZrOLAKlcl7C",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKP6QkVy1k19hsSCYF1N7o8",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHKltOzHaUmP8h9aDN0Mh7KS",
+     "title": ""
+    },
+    {
+     "id": "PLxhPd8i5dLHLND4fiF6VOUbXQ7cb0yK1i",
+     "title": ""
+    }
+   ],
+   "t": 1795262127371
+  },
+  "@artist|cor scorpii": {
+   "channelId": "UCk6Yfmt5GkWgkoj511hYIWg",
+   "playlists": [
+    {
+     "id": "PLpfcHJXLcSi-eoC5fIZNuCGQTM9EEerJ2",
+     "title": ""
+    }
+   ],
+   "t": 1795262130800
+  },
+  "cor scorpii|ruin": {
+   "id": "PLFbk0BSEqRLdN8Lr728fCy3CEKkj2OWWU",
+   "title": "Cor Scorpii - Ruin (Full Album)",
+   "t": 1795262131092,
    "bad": []
   }
  },
