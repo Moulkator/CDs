@@ -682,22 +682,6 @@
 "duree": "35"
 },
 {
-"groupe": "Valhalore",
-"album": "Voyage into Eternity",
-"date": "2017-03-14",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/792bc1065226f0f9c39a40e30f3dff85/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "4d5f9a30-68ce-4305-b0ed-94cd013ce21b",
-"refs": [
-"dz:9021844",
-"mb:9c1551d0-527e-409e-8056-fe8b9e91c9d8"
-],
-"deezer_id": 701637501,
-"duree": "50"
-},
-{
 "groupe": "Kalmankantaja",
 "album": "Musta Lampi",
 "date": "2017-03-23",
@@ -4317,22 +4301,6 @@
 "duree": "53"
 },
 {
-"groupe": "Valhalore",
-"album": "Solace & Solitude",
-"date": "2018-11-30",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/95bb78583de4aa128d3bba249b95fd5e/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "c2399a9b-9d1a-4739-b416-0888f925dd06",
-"refs": [
-"dz:9021844",
-"mb:9c1551d0-527e-409e-8056-fe8b9e91c9d8"
-],
-"deezer_id": 71107642,
-"duree": "21"
-},
-{
 "groupe": "Lunae Ortus",
 "album": "White-Night-Wropt",
 "date": "2018-12-01",
@@ -6258,20 +6226,6 @@
 ],
 "deezer_id": 126745782,
 "duree": "46"
-},
-{
-"groupe": "Seth",
-"album": "Les Blessures De L'âme: XX Ans De Blasphème",
-"date": "2019-11-15",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/958c056793e68284ff019e1c41ee098a/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 117566932,
-"refs": [
-"dz:56150"
-],
-"duree": "51"
 },
 {
 "groupe": "Dark Fortress",
@@ -9132,14 +9086,12 @@
 "date": "2021-05-07",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/09e75f0ccb087b57f37f4b9453b83763/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
+"pochette": "https://coverartarchive.org/release-group/93f217f9-c299-4b2f-9e79-e3c39c98ac6d/front-500",
+"source": "musicbrainz",
 "mb_rg": "93f217f9-c299-4b2f-9e79-e3c39c98ac6d",
 "refs": [
-"dz:56150",
 "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
 ],
-"deezer_id": 202089622,
 "duree": "44"
 },
 {
@@ -15414,14 +15366,12 @@
 "date": "2024-07-14",
 "precision": "exact",
 "type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/7640911db120f5f3a9df64a9f669375d/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
+"pochette": "https://coverartarchive.org/release-group/ab8c4017-c47c-4388-b96d-8f817b9f47a7/front-500",
+"source": "musicbrainz",
 "mb_rg": "ab8c4017-c47c-4388-b96d-8f817b9f47a7",
 "refs": [
-"dz:56150",
 "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
 ],
-"deezer_id": 568325051,
 "duree": "50"
 },
 {
@@ -16661,22 +16611,6 @@
 "refs": [
 "mb:69632f9c-31eb-43d5-a864-e73ac72efc66"
 ]
-},
-{
-"groupe": "Valhalore",
-"album": "Beyond the Stars",
-"date": "2025-04-11",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/217e4bdd7489955eb066a6d4181343bf/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "0431b665-b96c-4543-8693-d8562a8a2850",
-"refs": [
-"dz:9021844",
-"mb:9c1551d0-527e-409e-8056-fe8b9e91c9d8"
-],
-"deezer_id": 696875421,
-"duree": "48"
 },
 {
 "groupe": "Gama Bomb",
@@ -19492,20 +19426,6 @@
 "dz:121"
 ],
 "duree": "62"
-},
-{
-"groupe": "Valhalore",
-"album": "Beyond The Stars (Instrumental)",
-"date": "2026-10-30",
-"precision": "exact",
-"type": "album",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/6c04ac200d7737584a2e732ff2ab65b9/500x500-000000-80-0-0.jpg",
-"source": "deezer",
-"deezer_id": 1028218192,
-"refs": [
-"dz:9021844"
-],
-"duree": "48"
 },
 {
 "groupe": "Nordheim",

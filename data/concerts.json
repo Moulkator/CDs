@@ -1,5 +1,5 @@
 {
-"generated": "2026-11-21T12:00:03Z",
+"generated": "2026-11-21T12:50:15Z",
 "sources": [
 "bandsintown"
 ],
@@ -7,7 +7,7 @@
 "stats": {
 "bandsintown": {
 "ok": 0,
-"vide": 397,
+"vide": 446,
 "refus": 0,
 "erreur": 0
 },
@@ -19,6 +19,6 @@
 }
 },
 "app_id_refuse": false,
-"artistes": 397,
+"artistes": 446,
 "items": []
 }
