@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T14:36:02.822Z",
+ "maj": "2026-11-21T14:36:23.442Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -7111,11 +7111,11 @@
    "t": 1795271757409
   },
   "zornheym|the forgotten inmates": {
-   "id": "uxXYaxRiVk4",
-   "video": true,
-   "title": "Zorn from Zornheym on The Forgotten Inmates EP, New Graphic Novel, Album 3",
-   "t": 1795271757889,
-   "bad": []
+   "none": 1,
+   "t": 1795271781158,
+   "bad": [
+    "uxXYaxRiVk4"
+   ]
   },
   "@artist|mesarthim": {
    "channelId": "UCPZAUowTIXpEtc6O2Q0INEA",
@@ -7128,11 +7128,13 @@
    "t": 1795271761320
   },
   "mesarthim|pillars": {
-   "id": "PLd7Roxx2n4dFSvVZIr5DyeAZ8AxChbMrO",
-   "title": "",
-   "t": 1795271761321,
-   "bad": [],
-   "topic": true
+   "id": "AR29uSJ2kM0",
+   "video": true,
+   "title": "Mesarthim - Pillars (Full EP)",
+   "t": 1795271781941,
+   "bad": [
+    "PLd7Roxx2n4dFSvVZIr5DyeAZ8AxChbMrO"
+   ]
   }
  },
  "youtube_skip": [
