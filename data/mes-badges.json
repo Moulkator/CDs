@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T10:11:56.411Z",
+ "maj": "2026-11-21T11:39:49.307Z",
  "statuts_sorties": {
   "black messiah|walls of vanaheim": "À écouter",
   "zmey gorynich|i": "À écouter",
@@ -6316,6 +6316,22 @@
    "t": 1795026727034,
    "bad": [],
    "topic": true
+  },
+  "@artist|noumena": {
+   "channelId": "UCYIKNz5K62LdVsHUgzC0TZQ",
+   "playlists": [
+    {
+     "id": "PL3XCC1eCrK6OHn95WXS1_t22P-Xx2uoKn",
+     "title": ""
+    }
+   ],
+   "t": 1795261187597
+  },
+  "noumena|myrrys": {
+   "id": "PLIpRKkOHlLBrYnc2dKrlYELfXvlt9mLPh",
+   "title": "Noumena - Myrrys (Full Album)",
+   "t": 1795261187805,
+   "bad": []
   }
  },
  "youtube_skip": [
@@ -6771,5 +6787,57 @@
   "shores of null|homesick",
   "saor|caledonia",
   "cradle of filth|dusk and her embrace 30th anniversary"
+ ],
+ "decouvertes": [
+  "Dark Tranquillity",
+  "Suidakra",
+  "Norther",
+  "Heidevolk",
+  "Before the Dawn",
+  "Wolfheart",
+  "Satyricon",
+  "Primordial",
+  "Mors Principium Est",
+  "Rotting Christ",
+  "Old Man's Child",
+  "Northland",
+  "Bloodred Hourglass",
+  "Enslaved",
+  "Dark Oath",
+  "Be'lakor",
+  "Parasite Inc.",
+  "Elvenking",
+  "Brothers of Metal",
+  "In Mourning",
+  "Kataklysm",
+  "Graveworm",
+  "Soilwork",
+  "Scar Symmetry",
+  "Dark Funeral",
+  "WarKings",
+  "Vanir",
+  "Samael",
+  "Eternal Tears of Sorrow",
+  "Vreid",
+  "Arcturus",
+  "Battlelore",
+  "Moonspell",
+  "Hulkoff",
+  "Grailknights",
+  "Sentenced",
+  "Obscurity",
+  "Words Of Farewell",
+  "Agathodaimon",
+  "...and Oceans",
+  "PAIN",
+  "Elderwind",
+  "Shining",
+  "Orden Ogan",
+  "Tengger Cavalry",
+  "Ereb Altor",
+  "Einherjer",
+  "Bloodbound",
+  "Nevermore",
+  "Paradise Lost"
  ]
 }
