@@ -3397,6 +3397,20 @@
 "duree": "40"
 },
 {
+"groupe": "Vanaheim",
+"album": "Zlatí rytíři",
+"date": "2018-06-01",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/cfc55007461acfa5d665fa7c87afed66/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1153033201,
+"refs": [
+"dz:1488870"
+],
+"duree": "46"
+},
+{
 "groupe": "Tsjuder",
 "album": "Throne of the Goat",
 "date": "2018-06-08",
@@ -8485,6 +8499,20 @@
 "duree": "18"
 },
 {
+"groupe": "Vanaheim",
+"album": "Křízem proti měči",
+"date": "2021-01-13",
+"precision": "exact",
+"type": "ep",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/1341f4ac369fff21f34bc75e6f64a4d0/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1148709601,
+"refs": [
+"dz:1488870"
+],
+"duree": "13"
+},
+{
 "groupe": "Saor",
 "album": "Guardians (Remixed & Remastered)",
 "date": "2021-01-15",
@@ -9385,6 +9413,20 @@
 "dz:7659"
 ],
 "duree": "65"
+},
+{
+"groupe": "Vanaheim",
+"album": "Amulet",
+"date": "2021-06-23",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/a3414852a7f5f00c31e587bfcd1aedf4/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1153033191,
+"refs": [
+"dz:1488870"
+],
+"duree": "45"
 },
 {
 "groupe": "The Absence",
