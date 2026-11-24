@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T14:58:57Z",
+ "generated": "2026-11-24T03:17:50Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -17382,11 +17382,13 @@
    "precision": "exact",
    "type": "album",
    "pochette": "https://cdn-images.dzcdn.net/images/cover/380d5a5c9f3280548d5a9c9013fa330f/500x500-000000-80-0-0.jpg",
-   "source": "deezer",
-   "deezer_id": 792318671,
+   "source": "deezer+musicbrainz",
+   "mb_rg": "6d6c527e-18dc-4c85-8ba1-ac3b559be659",
    "refs": [
-    "dz:10062472"
+    "dz:10062472",
+    "mb:910506c5-f932-47ce-a617-d9812614be2f"
    ],
+   "deezer_id": 792318671,
    "duree": "48"
   },
   {
