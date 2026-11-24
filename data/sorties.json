@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T03:17:50Z",
+ "generated": "2026-11-24T15:13:34Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -6248,6 +6248,20 @@
    "duree": "46"
   },
   {
+   "groupe": "Seth",
+   "album": "Les Blessures De L'âme: XX Ans De Blasphème",
+   "date": "2019-11-15",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/958c056793e68284ff019e1c41ee098a/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 117566932,
+   "refs": [
+    "dz:56150"
+   ],
+   "duree": "51"
+  },
+  {
    "groupe": "Dark Fortress",
    "album": "Stab Wounds (remastered Re-issue 2019)",
    "date": "2019-11-22",
@@ -9120,12 +9134,14 @@
    "date": "2021-05-07",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/93f217f9-c299-4b2f-9e79-e3c39c98ac6d/front-500",
-   "source": "musicbrainz",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/09e75f0ccb087b57f37f4b9453b83763/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
    "mb_rg": "93f217f9-c299-4b2f-9e79-e3c39c98ac6d",
    "refs": [
+    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
+   "deezer_id": 202089622,
    "duree": "44"
   },
   {
@@ -15443,12 +15459,14 @@
    "date": "2024-07-14",
    "precision": "exact",
    "type": "album",
-   "pochette": "https://coverartarchive.org/release-group/ab8c4017-c47c-4388-b96d-8f817b9f47a7/front-500",
-   "source": "musicbrainz",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/7640911db120f5f3a9df64a9f669375d/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
    "mb_rg": "ab8c4017-c47c-4388-b96d-8f817b9f47a7",
    "refs": [
+    "dz:56150",
     "mb:58a0859f-fddd-47f7-93f0-3a941a33d3a8"
    ],
+   "deezer_id": 568325051,
    "duree": "50"
   },
   {
@@ -15466,6 +15484,20 @@
    ],
    "deezer_id": 582632202,
    "duree": "23"
+  },
+  {
+   "groupe": "Kronos",
+   "album": "The Hellenic Terror",
+   "date": "2024-07-25",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/9ab04aa262ea9e7246bcd083f3526c19/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 614114882,
+   "refs": [
+    "dz:72820272"
+   ],
+   "duree": "39"
   },
   {
    "groupe": "Powerwolf",
@@ -19658,11 +19690,14 @@
    "precision": "exact",
    "type": "album",
    "pochette": "data/pochettes/tyr-tyr.jpg",
-   "source": "manuel+musicbrainz",
+   "source": "deezer+manuel+musicbrainz",
    "mb_rg": "d645c374-7b84-4a56-b0e7-b18b7e92583e",
    "refs": [
+    "dz:108315",
     "mb:50fc4742-1389-45a0-8c6f-6a5159ae20c2"
-   ]
+   ],
+   "deezer_id": 1127111801,
+   "duree": "55"
   },
   {
    "groupe": "Aether Realm",
