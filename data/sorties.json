@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T15:13:34Z",
+ "generated": "2026-11-25T01:09:31Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -17169,6 +17169,20 @@
     "dz:2759"
    ],
    "duree": "20"
+  },
+  {
+   "groupe": "Dissection",
+   "album": "Reinkaos (2026 Remastered)",
+   "date": "2025-08-13",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/95de046c48a73f25372c903e05a45e6f/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 1154652661,
+   "refs": [
+    "dz:7372"
+   ],
+   "duree": "43"
   },
   {
    "groupe": "Panopticon",
