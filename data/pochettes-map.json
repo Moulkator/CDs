@@ -1,5 +1,5 @@
 {
-"maj": "2026-11-26T00:44:40Z",
+"maj": "2026-11-26T14:21:11Z",
 "ok": {
 "https://cdn-images.dzcdn.net/images/cover/00089ece00a7edbf419ffc0c2dc1fe24/500x500-000000-80-0-0.jpg": "data/pochettes/mini/389d30cdf4f4c6c3.jpg",
 "https://cdn-images.dzcdn.net/images/cover/0016c164ef0515fe3aac8337996e1b95/500x500-000000-80-0-0.jpg": "data/pochettes/mini/3cc326744815c775.jpg",
@@ -273,6 +273,7 @@
 "https://cdn-images.dzcdn.net/images/cover/2bcf8d8394ec18809ea19a4e3b1529f1/500x500-000000-80-0-0.jpg": "data/pochettes/mini/3d8e7a0eaa4a2b94.jpg",
 "https://cdn-images.dzcdn.net/images/cover/2c3fc8ef5629ea3a0b5a56db863cde1f/500x500-000000-80-0-0.jpg": "data/pochettes/mini/cf80eb73aa3505fe.jpg",
 "https://cdn-images.dzcdn.net/images/cover/2c6a2cd6624cd2d21445b9330a193243/500x500-000000-80-0-0.jpg": "data/pochettes/mini/19de1b28c18a3e7a.jpg",
+"https://cdn-images.dzcdn.net/images/cover/2d31cd9998695f19231e4626f038c400/500x500-000000-80-0-0.jpg": "data/pochettes/mini/5f28f92ba73a591d.jpg",
 "https://cdn-images.dzcdn.net/images/cover/2d6082790e758f019ae5fb0d5d0855ab/500x500-000000-80-0-0.jpg": "data/pochettes/mini/6b5e7aa2cbcccee1.jpg",
 "https://cdn-images.dzcdn.net/images/cover/2d65cd02914871590a71b65610f25507/500x500-000000-80-0-0.jpg": "data/pochettes/mini/b13f31d0bb65ae7d.jpg",
 "https://cdn-images.dzcdn.net/images/cover/2d8ea47996f9bd3cb34354d4f13b65c5/500x500-000000-80-0-0.jpg": "data/pochettes/mini/cd0c9a955650003c.jpg",
@@ -1253,6 +1254,7 @@
 "https://cdn-images.dzcdn.net/images/cover/dbe68bcbfbbdac9a835d75c4c47e1c6e/500x500-000000-80-0-0.jpg": "data/pochettes/mini/1288a1c8f213194d.jpg",
 "https://cdn-images.dzcdn.net/images/cover/dc41255e397d3dfe870e016edf011d60/500x500-000000-80-0-0.jpg": "data/pochettes/mini/51d5ef63631ce625.jpg",
 "https://cdn-images.dzcdn.net/images/cover/dcc0947a6f015b8615602a7a63568d84/500x500-000000-80-0-0.jpg": "data/pochettes/mini/56e9aadfd46a3ca0.jpg",
+"https://cdn-images.dzcdn.net/images/cover/dd36bea1ea025fb6b77ff3928e07bd92/500x500-000000-80-0-0.jpg": "data/pochettes/mini/c4d10c2d637780b1.jpg",
 "https://cdn-images.dzcdn.net/images/cover/dd3c70b20e119ed9ccd73a52b35f78fe/500x500-000000-80-0-0.jpg": "data/pochettes/mini/9bf321f79c97d866.jpg",
 "https://cdn-images.dzcdn.net/images/cover/dd4cfe7a0de0ae23e47376d83aa29d31/500x500-000000-80-0-0.jpg": "data/pochettes/mini/523fc7c9ac6f6ce7.jpg",
 "https://cdn-images.dzcdn.net/images/cover/dd64277dc9b87493e127c580168cf1e8/500x500-000000-80-0-0.jpg": "data/pochettes/mini/d81d89a67219ee62.jpg",
@@ -1828,10 +1830,6 @@
 "https://cdn-images.dzcdn.net/images/cover/8d0f1c66fa8e8a7485268b3c5485a4a8/500x500-000000-80-0-0.jpg": {
 "raison": "image unie (pas de vraie pochette)",
 "t": 1795276500
-},
-"https://coverartarchive.org/release-group/30525fe5-d6c0-447f-8c5b-2bbe241fc146/front-500": {
-"raison": "HTTP 404",
-"t": 1795352178
 },
 "https://coverartarchive.org/release-group/a9ceb713-778c-4f12-986e-a9245e7cf713/front-500": {
 "raison": "HTTP 404",

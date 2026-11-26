@@ -1,22 +1,5 @@
 [
 {
-"groupe": "Ultra Vomit",
-"album": "Hellfest 2026 : La quatrième bataille de clisson (Live)",
-"date": "2026-10-23",
-"precision": "exact",
-"type": "album",
-"pochette": "",
-"source": "deezer",
-"deezer_id": 1070778722,
-"refs": [
-"dz:14563"
-],
-"duree": "63",
-"kind": "annonce",
-"jour": "2026-09-25",
-"changes": []
-},
-{
 "groupe": "NOFX",
 "album": "4 Years of Fucking Up!",
 "date": "2026",
@@ -614,6 +597,23 @@
 ],
 "kind": "sorti",
 "jour": "2026-11-24",
+"changes": []
+},
+{
+"groupe": "Sinergy",
+"album": "Heaven & Hell",
+"date": "2026-11-26",
+"precision": "exact",
+"type": "album",
+"pochette": "https://cdn-images.dzcdn.net/images/cover/dd36bea1ea025fb6b77ff3928e07bd92/500x500-000000-80-0-0.jpg",
+"source": "deezer",
+"deezer_id": 1154632571,
+"refs": [
+"dz:2759"
+],
+"duree": "33",
+"kind": "sorti",
+"jour": "2026-11-26",
 "changes": []
 }
 ]

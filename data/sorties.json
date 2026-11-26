@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T00:44:40Z",
+ "generated": "2026-11-26T14:21:11Z",
  "sources": [
   "manuel",
   "musicbrainz",
@@ -19661,12 +19661,15 @@
    "date": "2026-11-19",
    "precision": "exact",
    "type": "ep",
-   "pochette": "https://coverartarchive.org/release-group/30525fe5-d6c0-447f-8c5b-2bbe241fc146/front-500",
-   "source": "musicbrainz",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/2d31cd9998695f19231e4626f038c400/500x500-000000-80-0-0.jpg",
+   "source": "deezer+musicbrainz",
    "mb_rg": "30525fe5-d6c0-447f-8c5b-2bbe241fc146",
    "refs": [
+    "dz:321475",
     "mb:46507379-c53e-4f63-a045-d444c253d547"
-   ]
+   ],
+   "deezer_id": 1037150302,
+   "duree": "11"
   },
   {
    "groupe": "Trivium",
@@ -19712,6 +19715,20 @@
    ],
    "deezer_id": 1127111801,
    "duree": "55"
+  },
+  {
+   "groupe": "Sinergy",
+   "album": "Heaven & Hell",
+   "date": "2026-11-26",
+   "precision": "exact",
+   "type": "album",
+   "pochette": "https://cdn-images.dzcdn.net/images/cover/dd36bea1ea025fb6b77ff3928e07bd92/500x500-000000-80-0-0.jpg",
+   "source": "deezer",
+   "deezer_id": 1154632571,
+   "refs": [
+    "dz:2759"
+   ],
+   "duree": "33"
   },
   {
    "groupe": "Aether Realm",
