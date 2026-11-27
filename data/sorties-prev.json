@@ -1,5 +1,5 @@
 {
-"jour": "2026-11-26",
+"jour": "2026-11-27",
 "items": [
 {
 "groupe": "Wolfchant",
@@ -13,22 +13,6 @@
 "refs": [
 "mb:e4c8b5a5-514d-4f5d-bf3f-7b20bdf6821b"
 ]
-},
-{
-"groupe": "Lamb Of God",
-"album": "The Duke",
-"date": "2016-11-18",
-"precision": "exact",
-"type": "ep",
-"pochette": "https://cdn-images.dzcdn.net/images/cover/363251e8f4df3b36066365b3972bed66/500x500-000000-80-0-0.jpg",
-"source": "deezer+musicbrainz",
-"mb_rg": "d5aac929-a0ca-4b89-995f-d392435d761d",
-"refs": [
-"dz:2216",
-"mb:298909e4-ebcb-47b8-95e9-cc53b087fc65"
-],
-"deezer_id": 14590354,
-"duree": "22"
 },
 {
 "groupe": "Carcass",
